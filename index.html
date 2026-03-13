@@ -605,6 +605,99 @@ transition:all .2s;font-family:'Orbitron',sans-serif;font-weight:700;
 overflow:visible;
 flex:1;
 }
+.sec-next-btn-wrap{padding:60px 80px 80px;display:flex;justify-content:flex-end;}
+/* ── NEXT BUTTON — aloita-style ── */
+.sec-next-btn{
+  position:relative;
+  display:inline-flex;align-items:center;gap:28px;
+  padding:28px 40px;
+  cursor:pointer;
+  overflow:visible;
+  background:linear-gradient(160deg,#030d16,#010a10);
+  border:1px solid var(--cy);
+  box-shadow:0 0 0 1px rgba(0,229,255,.4),0 0 30px rgba(0,229,255,.2),0 0 80px rgba(0,229,255,.08);
+  animation:next-pulse 2s ease-in-out infinite;
+  transition:transform .25s ease,box-shadow .25s ease;
+  min-width:380px;
+}
+/* spinning conic border */
+.sec-next-btn::before{
+  content:'';
+  position:absolute;
+  inset:-3px;
+  background:conic-gradient(
+    from var(--a,0deg),
+    transparent 0deg,var(--cy) 60deg,transparent 120deg,
+    transparent 180deg,rgba(0,229,255,.5) 240deg,transparent 300deg,transparent 360deg
+  );
+  animation:spin-border 3s linear infinite;
+  z-index:-1;pointer-events:none;
+}
+/* scan line */
+.sec-next-btn::after{
+  content:'';
+  position:absolute;left:0;right:0;height:2px;top:0;
+  background:linear-gradient(90deg,transparent,rgba(0,229,255,.9),transparent);
+  animation:next-scan 2.5s linear infinite;
+  pointer-events:none;z-index:10;
+  box-shadow:0 0 10px var(--cy);
+}
+@keyframes next-scan{0%{top:0;opacity:0;}5%{opacity:1;}95%{opacity:.6;}100%{top:100%;opacity:0;}}
+@keyframes next-pulse{
+  0%,100%{box-shadow:0 0 0 1px rgba(0,229,255,.4),0 0 30px rgba(0,229,255,.2),0 0 80px rgba(0,229,255,.06);}
+  50%{box-shadow:0 0 0 2px rgba(0,229,255,.8),0 0 60px rgba(0,229,255,.35),0 0 120px rgba(0,229,255,.12);}
+}
+.sec-next-btn:hover{
+  transform:translateY(-4px) scale(1.02);
+  box-shadow:0 0 0 2px var(--cy),0 0 100px rgba(0,229,255,.55),0 20px 60px rgba(0,0,0,.5)!important;
+  animation:none;
+}
+/* floating particles */
+.sec-next-particles{position:absolute;inset:-20px;pointer-events:none;z-index:1;overflow:visible;}
+.sec-next-btn .ap{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--cy);box-shadow:0 0 6px var(--cy);animation:float-particle var(--d,3s) ease-in-out infinite var(--delay,0s);opacity:0;}
+/* label */
+.sec-next-label{
+  font-family:'Orbitron',sans-serif;font-weight:900;font-size:9px;
+  letter-spacing:4px;color:#fff;
+  text-shadow:0 0 4px #fff,0 0 10px var(--cy),0 0 22px var(--cy),0 0 50px rgba(0,229,255,.8);
+  text-transform:uppercase;white-space:nowrap;
+  writing-mode:vertical-rl;transform:rotate(180deg);
+  flex-shrink:0;
+}
+/* title */
+.sec-next-title{
+  font-family:'Orbitron',sans-serif;font-weight:900;font-size:15px;
+  color:var(--tb);letter-spacing:1px;line-height:1.3;flex:1;
+  text-shadow:0 0 20px rgba(0,229,255,.3);
+}
+/* animated arrow */
+.sec-next-arrow-wrap{
+  display:flex;flex-direction:column;align-items:center;gap:2px;
+  animation:arrow-bounce .65s ease-in-out infinite;
+  flex-shrink:0;
+}
+.sec-next-arrow-lbl{
+  font-family:'Orbitron',sans-serif;font-weight:900;font-size:8px;
+  letter-spacing:3px;color:#fff;white-space:nowrap;
+  text-shadow:0 0 4px #fff,0 0 10px var(--cy),0 0 22px var(--cy);
+}
+.sec-next-arrow-ico{
+  font-size:28px;line-height:1;color:#fff;
+  text-shadow:0 0 6px #fff,0 0 14px var(--cy),0 0 30px var(--cy),0 0 60px rgba(0,229,255,.8);
+}
+/* bg glow */
+.sec-next-bg{
+  position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(ellipse at 80% 50%,rgba(0,229,255,.18) 0%,transparent 55%),
+             radial-gradient(ellipse at 20% 50%,rgba(0,100,200,.12) 0%,transparent 50%);
+}
+.sec-next-btn > *:not(.sec-next-bg):not(.sec-next-particles):not(::before):not(::after){position:relative;z-index:2;}
+@media(max-width:768px){
+  .sec-next-btn-wrap{padding:40px 18px 50px;justify-content:stretch;}
+  .sec-next-btn{min-width:0;width:100%;gap:16px;padding:20px 24px;}
+  .sec-next-label{writing-mode:horizontal-tb;transform:none;}
+  .sec-next-title{font-size:13px;}
+}
 .esite-overlay{position:fixed;inset:0;background:rgba(2,5,10,.85);backdrop-filter:blur(6px);z-index:9000;display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;pointer-events:none;transition:opacity .3s;}
 .esite-overlay.open{opacity:1;pointer-events:all;}
 .esite-modal{background:var(--s1);border:1px solid rgba(0,229,255,.25);border-top:3px solid var(--cy);max-width:780px;width:100%;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 0 80px rgba(0,229,255,.12),0 40px 120px rgba(0,0,0,.8);transform:translateY(24px);transition:transform .3s;}
@@ -646,10 +739,10 @@ flex:1;
 .civic-box-ico{font-size:18px;}
 .civic-box-body{font-size:16px;line-height:1.8;color:var(--t);margin-bottom:24px;}
 .civic-box-verdict{font-family:'Orbitron',sans-serif;font-weight:700;font-size:13px;letter-spacing:2px;color:var(--go);border-top:1px solid rgba(255,214,0,.2);padding-top:16px;line-height:1.7;}
-.acc-sec{padding:80px 80px;background:var(--s2);position:relative;overflow:hidden;border-top:1px solid var(--bb);border-bottom:1px solid var(--bb);}
+.acc-sec{padding:80px 0;background:var(--s2);position:relative;overflow:hidden;border-top:1px solid var(--bb);border-bottom:1px solid var(--bb);}
 .acc-sec::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 100% 40%,rgba(255,214,0,.05),transparent 60%);}
-.acc-in{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;position:relative;z-index:1;}
-.pfield{position:relative;height:480px;}
+.acc-in{display:grid;grid-template-columns:1.1fr 0.9fr;gap:60px;align-items:center;position:relative;z-index:1;max-width:1600px;margin:0 auto;padding:0 80px;}
+.pfield{position:relative;height:520px;}
 .pcvs{position:absolute;inset:0;background:var(--s1);border:1px solid var(--bb);overflow:hidden;}
 .pcvs::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(0,229,255,.3) 1px,transparent 1px);background-size:28px 28px;opacity:.2;}
 .pcvs::after{content:'';position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--cy),transparent);animation:scan 6s linear infinite;opacity:.3;}
@@ -979,12 +1072,13 @@ nav{padding:0 16px;}
 .logo{font-size:15px;}
 .nav-links li:not(:last-child){display:none;}
 .lang-sw{margin-left:auto;}
-.hero,.gal,.m1,.acc-sec,.cmp-sec,.feat-sec,.scr-sec,.part-sec,.qt-sec,.cta-sec,footer{
+.hero,.gal,.m1,.cmp-sec,.feat-sec,.scr-sec,.part-sec,.qt-sec,.cta-sec,footer{
 padding-left:18px!important;padding-right:18px!important;
 }
-.gal,.m1,.acc-sec,.cmp-sec,.feat-sec,.scr-sec,.part-sec,.qt-sec{
+.gal,.m1,.cmp-sec,.feat-sec,.scr-sec,.part-sec,.qt-sec{
 padding-top:60px!important;padding-bottom:60px!important;
 }
+.acc-sec{padding-top:60px!important;padding-bottom:60px!important;}
 .cta-sec{padding-top:70px!important;padding-bottom:70px!important;}
 .hero{min-height:auto;padding-top:calc(var(--th) + var(--nh) + 20px)!important;}
 .hero-in{grid-template-columns:1fr;padding:30px 18px 20px;}
@@ -1015,7 +1109,7 @@ padding-top:60px!important;padding-bottom:60px!important;
 .duel-ico{font-size:72px!important;}
 .civic-sec{padding:40px 18px!important;}
 .civic-in{grid-template-columns:1fr!important;gap:32px!important;}
-.acc-in{grid-template-columns:1fr;}
+.acc-in{grid-template-columns:1fr;padding:0 18px;}
 .pfield{height:300px;}
 .cmp-grid{grid-template-columns:1fr;gap:0;}
 .cdiv{display:none;}
@@ -1405,7 +1499,59 @@ window.toggleSecPanel = function(key, cardEl) {
     if ((key === 'ranking' || key === 'julkinen') && window.initScoreboard) window.initScoreboard();
     if (key === 'ai' && window.initXray) window.initXray();
     if (key === 'syote' && window.istInit) window.istInit();
+    injectNextBtn(key);
   }, 300);
+};
+
+/* ── NEXT PANEL NAVIGATION ── */
+const PANEL_ORDER = ['aloita','duel','julkinen','syote','ai','ranking','chat'];
+const PANEL_NAMES = {
+  aloita:  'Katso kortit',
+  duel:    'VS Vertailu — Jääkiekko vs Politiikka',
+  julkinen:'Kaikki julkinen tieto',
+  syote:   'Poliittinen Tapahtumasyöte',
+  ai:      'AI skannaa poliitikot',
+  ranking: 'Kansalaisen pelipaneeli',
+  chat:    'Kansalaischat',
+};
+
+function injectNextBtn(key) {
+  const content = document.getElementById('secPanelContent');
+  if (!content) return;
+  const old = content.querySelector('.sec-next-btn-wrap');
+  if (old) old.remove();
+
+  const idx = PANEL_ORDER.indexOf(key);
+  if (idx === -1 || idx === PANEL_ORDER.length - 1) return;
+
+  const nextKey = PANEL_ORDER[idx + 1];
+  const nextName = PANEL_NAMES[nextKey];
+
+  const wrap = document.createElement('div');
+  wrap.className = 'sec-next-btn-wrap';
+  wrap.innerHTML = `
+    <div class="sec-next-btn" onclick="goNextPanel('${nextKey}')">
+      <div class="sec-next-bg"></div>
+      <div class="sec-next-particles">
+        <div class="ap" style="left:10%;bottom:0;--d:2.8s;--delay:0s;--tx:-8px;--ty:-50px;"></div>
+        <div class="ap" style="left:28%;bottom:0;--d:3.2s;--delay:.4s;--tx:5px;--ty:-60px;"></div>
+        <div class="ap" style="left:50%;bottom:0;--d:2.5s;--delay:.8s;--tx:-12px;--ty:-55px;"></div>
+        <div class="ap" style="left:72%;bottom:0;--d:3.5s;--delay:.2s;--tx:10px;--ty:-48px;"></div>
+        <div class="ap" style="left:88%;bottom:0;--d:2.9s;--delay:1s;--tx:-6px;--ty:-52px;"></div>
+      </div>
+      <div class="sec-next-label">JATKA TÄNNE</div>
+      <div class="sec-next-title">${nextName}</div>
+      <div class="sec-next-arrow-wrap">
+        <div class="sec-next-arrow-lbl">SEURAAVA</div>
+        <div class="sec-next-arrow-ico">▶</div>
+      </div>
+    </div>`;
+  content.appendChild(wrap);
+}
+
+window.goNextPanel = function(key) {
+  const card = document.querySelector('.sec-card[data-panel="'+key+'"]');
+  if (card) toggleSecPanel(key, card);
 };
 
 window.closeSecPanel = function() {
@@ -1489,7 +1635,7 @@ const LANG = { fi: {
     code: 'fi',
     secNavStartLabel: 'ALOITA TÄSTÄ',
     secNavStartTitle: 'Katso kortit',
-    secNavStartSub: 'TAP TO EXPLORE',
+    secNavStartSub: '',
     secNavDuelBadge: 'VS VERTAILU',
     secNavDuelTitle: 'Jääkiekko vs Politiikka',
     secNavDuelSub: 'Avoimuuden kuilu',
@@ -1863,12 +2009,7 @@ function page(t){
             color:#fff;font-weight:900;font-size:15px;letter-spacing:2px;
             text-shadow:0 0 12px rgba(0,229,255,.6);
           ">Katso kortit</div>
-          <div style="
-            font-family:'Share Tech Mono',monospace;
-            font-size:8px;letter-spacing:2px;
-            color:rgba(0,229,255,.7);
-            margin-top:5px;
-          ">TAP TO EXPLORE</div>
+
         </div>
       </div>
     </div>
