@@ -947,6 +947,14 @@ const SIVULLA = 50;
 let nykyinenSivu = 1;
 let suodatettuLista = [];
 
+function kaannaNimi(nimi) {
+  const osat = nimi.trim().split(" ");
+  if (osat.length < 2) return nimi;
+  const suku = osat[osat.length - 1];
+  const etu  = osat.slice(0, -1).join(" ");
+  return `${suku} ${etu}`;
+}
+
 function luoKortti(m) {
   const vari = puolueVari(m.puolue);
   const card = document.createElement("div");
