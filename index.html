@@ -1322,8 +1322,10 @@ async function naytaLobbausTiedot(m, vari) {
     </div>`;
   }).join("");
 
+  // Hae myös toimintailmoitusdata indeksistä
+  const tiData = idx.toimintailmoitukset ? idx.toimintailmoitukset[m.nimi] : null;
+
   el.style.setProperty("--party-c", vari);
-  // Päivitä accordion-korkeus ensin pelkällä yhteenvedolla
   setTimeout(() => paivitaAccordionKorkeus(el), 50);
   el.innerHTML = `
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.85rem">
