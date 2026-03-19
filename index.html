@@ -462,6 +462,7 @@
     /* ── HEADER SEARCH ── */
     .header-search {
       position: relative;
+      overflow: visible;
     }
     .header-search input {
       width: 100%;
@@ -472,7 +473,7 @@
       font-family: 'Rajdhani', sans-serif;
       font-size: 1.1rem;
       letter-spacing: .06em;
-      padding: .75rem 3rem .75rem 1.25rem;
+      padding: .75rem 1.25rem;
       outline: none;
       transition: border-color .2s, box-shadow .2s;
     }
@@ -481,14 +482,14 @@
       box-shadow: 0 0 20px rgba(0,212,255,.2);
     }
     .header-search input::placeholder { color: #2a4a66; }
-    .search-icon {
+    .search-icon-left {
       position: absolute;
-      right: 1rem;
+      right: .85rem;
       top: 50%;
       transform: translateY(-50%);
-      color: #2a4a66;
-      font-size: 1.3rem;
       pointer-events: none;
+      opacity: .35;
+      color: #5a7a99;
     }
 
     /* ── HEADER SEARCH ROW ── */
@@ -532,6 +533,23 @@
     .hdr-nykyiset:hover, .hdr-nykyiset.active { background: rgba(62,198,62,.1) !important; border-color: #3ec63e !important; }
     .hdr-historialliset { border-color: #4d3a1a !important; color: #f5a623 !important; }
     .hdr-historialliset:hover, .hdr-historialliset.active { background: rgba(245,166,35,.1) !important; border-color: #f5a623 !important; }
+
+    /* ── HAKUKENTTÄ NUOLI ── */
+    .search-arrow {
+      position: fixed;
+      font-size: 1.4rem;
+      color: #00f5ff;
+      text-shadow: 0 0 10px #00f5ff, 0 0 22px #00f5ff;
+      animation: bounce-arrow .65s ease-in-out infinite alternate;
+      pointer-events: none;
+      z-index: 99999;
+      line-height: 1;
+      transition: opacity .3s;
+    }
+    @keyframes bounce-arrow {
+      from { transform: translate(0, 0);     opacity: 1; }
+      to   { transform: translate(4px, 5px); opacity: .5; }
+    }
 
     /* ── SPLASH ── */
     #splash {
@@ -581,21 +599,17 @@
       position: relative;
     }
     .puolue-dropdown {
-      z-index: 9999;
       display: none;
-      position: absolute;
-      top: calc(100% + 6px);
-      left: 0;
+      position: fixed;
       background: #080d1f;
       border: 1px solid #1a2a55;
       border-radius: 6px;
       padding: .5rem;
-      z-index: 200;
-      min-width: 280px;
-      display: none;
+      z-index: 99999;
+      min-width: 320px;
       flex-wrap: wrap;
       gap: .35rem;
-      box-shadow: 0 8px 32px rgba(0,0,0,.6), 0 0 16px rgba(0,212,255,.08);
+      box-shadow: 0 8px 32px rgba(0,0,0,.8), 0 0 16px rgba(0,212,255,.1);
     }
     .puolue-dropdown.open {
       display: flex;
@@ -676,9 +690,8 @@
   <div class="header-sub">KANSANEDUSTAJIEN TIETOKANTA // BETA v0.1</div>
   <span class="scanline"></span>
   <div class="header-search-row">
-    <div class="header-search">
+    <div class="header-search" style="position:relative">
       <input id="searchInput" type="text" placeholder="Hae kansanedustajaa…" autocomplete="off" spellcheck="false"/>
-      <span class="search-icon">⌕</span>
     </div>
     <div class="header-filters">
       <div class="puolue-dropdown-wrap">
@@ -756,6 +769,23 @@ let aktiivisuusPuolue = "";
 let aikasuodatin = "";
 
 /* ── Lataa index.json ── */
+// Luo nuoli ja aseta se hakulaatikon yläpuolelle
+function luoNuoli() {
+  let arrow = document.getElementById("searchArrow");
+  if (!arrow) {
+    arrow = document.createElement("div");
+    arrow.id = "searchArrow";
+    arrow.className = "search-arrow";
+    arrow.textContent = "↘";
+    document.body.appendChild(arrow);
+  }
+  const input = document.getElementById("searchInput");
+  const rect  = input.getBoundingClientRect();
+  arrow.style.left = (rect.left + 4) + "px";
+  arrow.style.top  = (rect.top - 24) + "px";
+  arrow.style.display = "block";
+}
+
 async function lataaHakemisto() {
   const grid = document.getElementById("grid");
   grid.innerHTML = `<div class="empty-state">
@@ -807,10 +837,15 @@ function rakennaPuoluePainikkeet() {
   });
 }
 
-// Dropdown toggle
+// Dropdown toggle — position:fixed napin alle
 document.getElementById("btnPuolue").addEventListener("click", (e) => {
   e.stopPropagation();
-  document.getElementById("puolueDropdown").classList.toggle("open");
+  const dd  = document.getElementById("puolueDropdown");
+  const btn = document.getElementById("btnPuolue");
+  const rect = btn.getBoundingClientRect();
+  dd.style.top  = (rect.bottom + 6) + "px";
+  dd.style.left = rect.left + "px";
+  dd.classList.toggle("open");
 });
 
 // Sulje dropdown kun klikataan muualle
@@ -840,10 +875,14 @@ function suodataJaRenderöi() {
 
 document.getElementById("searchInput").addEventListener("input", function() {
   const q = this.value.trim();
+  const arrow = document.getElementById("searchArrow");
   if (q.length > 0 || aktiivisuusPuolue || aikasuodatin) {
+    const arrow = document.getElementById("searchArrow");
+  if (arrow) arrow.style.display = "none";
     naytaTulokset();
     suodataJaRenderöi();
   } else {
+    luoNuoli();
     naytaSplash();
   }
 });
@@ -1055,6 +1094,8 @@ document.getElementById("modalOverlay").addEventListener("click", e => {
 });
 
 lataaHakemisto();
+window.addEventListener('load', luoNuoli);
+window.addEventListener('resize', luoNuoli);
 </script>
 </body>
 </html>
