@@ -57,12 +57,13 @@ def parsii_tiedosto(f):
         ]:
             current_aihe = c2[:120] if c2 else ""
             continue
-        if state == "kohteet" and c5 == "Kansanedustaja" and c6 and c6 != "Nimi":
+        if state == "kohteet" and c5 and c5 not in ["Nimike","-","","Organisaatio"] and c6 and c6 not in ["Nimi","-",""]:
             results.append({
                 "org":    current_org.get("nimi","?"),
                 "ytunnus":current_org.get("ytunnus",""),
                 "aihe":   current_aihe,
                 "ke":     c6,
+                "nimike": c5,
                 "tapa":   c7
             })
     return results
@@ -85,7 +86,8 @@ def main():
         "kaudet": {},       # kausi_id → maara
         "lobbarit": Counter(),
         "aiheet": Counter(),
-        "tavat": Counter()
+        "tavat": Counter(),
+        "nimikkeet": Counter()
     })
 
     for f in tiedostot:
@@ -98,18 +100,20 @@ def main():
         print(f"    → {len(results)} yhteyttä")
 
         # Per-KE tilastot tässä kaudessa
-        ke_kausi = defaultdict(lambda: {"maara":0,"lobbarit":Counter(),"aiheet":Counter(),"tavat":Counter()})
+        ke_kausi = defaultdict(lambda: {"maara":0,"lobbarit":Counter(),"aiheet":Counter(),"tavat":Counter(),"nimikkeet":Counter()})
         for r in results:
             ke = r["ke"]
             ke_kausi[ke]["maara"] += 1
             ke_kausi[ke]["lobbarit"][r["org"]] += 1
             if r["aihe"]: ke_kausi[ke]["aiheet"][r["aihe"]] += 1
             if r["tapa"]:  ke_kausi[ke]["tavat"][r["tapa"]] += 1
+            if r.get("nimike"): ke_kausi[ke]["nimikkeet"][r["nimike"]] += 1
             # Kertymä
             ke_kaikki[ke]["kaudet"][kausi["id"]] = ke_kaikki[ke]["kaudet"].get(kausi["id"],0)+1
             ke_kaikki[ke]["lobbarit"][r["org"]] += 1
             if r["aihe"]: ke_kaikki[ke]["aiheet"][r["aihe"]] += 1
             if r["tapa"]:  ke_kaikki[ke]["tavat"][r["tapa"]] += 1
+            if r.get("nimike"): ke_kaikki[ke]["nimikkeet"][r["nimike"]] += 1
 
         # Organisaatiotilastot
         org_stats = Counter(r["org"] for r in results)
@@ -123,7 +127,8 @@ def main():
                     "maara": d["maara"],
                     "top_lobbarit": d["lobbarit"].most_common(5),
                     "top_aiheet":   d["aiheet"].most_common(3),
-                    "tavat":        dict(d["tavat"])
+                    "tavat":        dict(d["tavat"]),
+                    "nimikkeet":    dict(d["nimikkeet"])
                 }
                 for ke, d in ke_kausi.items()
             },
@@ -150,7 +155,8 @@ def main():
             "kaudet":        d["kaudet"],
             "top_lobbarit":  d["lobbarit"].most_common(10),
             "top_aiheet":    d["aiheet"].most_common(5),
-            "tavat":         dict(d["tavat"].most_common())
+            "tavat":         dict(d["tavat"].most_common()),
+            "nimikkeet":     dict(d["nimikkeet"].most_common())
         }
         for ke, d in ke_kaikki.items()
     }
