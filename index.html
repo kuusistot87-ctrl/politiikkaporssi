@@ -1344,7 +1344,30 @@ async function naytaLobbausTiedot(m, vari) {
     <div id="lobbaus-org-${containerId}" style="margin-top:1rem">
       <div class="d-label" style="margin-bottom:.4rem">Lobbaukset organisaatioittain</div>
       <div class="spinner" style="margin:.4rem auto;width:20px;height:20px;border-width:2px"></div>
-    </div>`;
+    </div>
+    ${tiData ? `<div style="margin-top:1.25rem;border-top:1px solid #1a2a55;padding-top:1rem">
+      <div class="d-label" style="margin-bottom:.5rem">TOP LOBBARIT — TOIMINTAILMOITUKSET</div>
+      ${tiData.top_lobbarit.slice(0,5).map(x => {
+        const org = x[0]; const n = x[1];
+        const maxN = tiData.top_lobbarit[0][1];
+        const pct = Math.round(n/maxN*100);
+        const lyhyt = org.length > 38 ? org.slice(0,36)+"…" : org;
+        return '<div class="lobbaus-bar-wrap"><div class="lobbaus-bar-label"><span>'+lyhyt+'</span><span style="color:'+vari+'">'+n+'</span></div><div class="lobbaus-bar-track"><div class="lobbaus-bar-fill" style="width:'+pct+'%;background:'+vari+'"></div></div></div>';
+      }).join("")}
+      <div class="d-label" style="margin-top:.85rem;margin-bottom:.4rem">YHTEYDENPIDON TAVAT</div>
+      <div style="display:flex;flex-wrap:wrap;gap:.3rem">
+        ${Object.entries(tiData.tavat).sort((a,b)=>b[1]-a[1]).map(([tapa,n]) => {
+          const lyhyt = tapa.replace("Sähköposti tai muu kirjeenvaihto","Sähköposti").replace("Muu yhteydenotto","Muu");
+          return '<span style="background:rgba(255,255,255,.05);border:1px solid '+vari+'55;border-radius:3px;padding:.18rem .45rem;font-size:.68rem;color:'+vari+'">'+lyhyt+' <strong style="color:#fff">'+n+'</strong></span>';
+        }).join("")}
+      </div>
+      <div class="d-label" style="margin-top:.85rem;margin-bottom:.4rem">LOBBAUSAIHEET</div>
+      ${tiData.top_aiheet.slice(0,4).map(x => {
+        const aihe = x[0]; const n = x[1];
+        const lyhyt = aihe.length > 85 ? aihe.slice(0,83)+"…" : aihe;
+        return '<div style="font-size:.73rem;color:#8899aa;padding:.25rem 0;border-bottom:1px solid #1a2a5588;line-height:1.45">'+lyhyt+'<span style="color:'+vari+';margin-left:.4rem;font-size:.68rem">'+n+'x</span></div>';
+      }).join("")}
+    </div>` : ""}`;
 
   // Lataa organisaatiodata
   lataaOrgData(m, keData, vari, "lobbaus-org-" + containerId);
