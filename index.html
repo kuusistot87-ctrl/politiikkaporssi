@@ -1551,7 +1551,7 @@ async function naytaLobbausNakyma() {
   }
 
   // Rakenna kausisuodattimet
-  const kaudet = Object.entries(yht.kausi_data || {});
+  const kaudet = Object.entries(yht.kausi_data || {}).sort((a,b) => a[0].localeCompare(b[0]));
   const tabEl  = document.getElementById("lobbausKausiTabit");
   tabEl.innerHTML = "";
   [["kaikki","Kaikki kaudet"], ...kaudet.map(([id,d]) => [id, d.label])].forEach(([id, label]) => {
@@ -1609,7 +1609,7 @@ function renderKausiChart(yht) {
               onclick="AKTIIVINEN_KAUSI='${id}';document.querySelectorAll('.lb-kausi-btn').forEach((b,j)=>b.classList.toggle('active',j===${i+1}));paivitaLobbausData(LOBBAUS_YHT)">
       <div style="font-size:.58rem;color:#ff9500;margin-bottom:3px;font-family:'Orbitron',monospace">${tot}</div>
       <div style="width:100%;height:${px}px;background:#ff9500;opacity:.75;border-radius:3px 3px 0 0;${aktv}"></div>
-      <div style="font-size:.58rem;color:#5a7a99;text-align:center;margin-top:4px">${d.label.replace(/^\d+\.\d+–/,"")}</div>
+      <div style="font-size:.58rem;color:#5a7a99;text-align:center;margin-top:4px">${d.label}</div>
     </div>`;
   }).join("");
 }
