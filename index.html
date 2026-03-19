@@ -723,7 +723,8 @@
     }
     .lb-bar-row { margin-bottom: .4rem; cursor: pointer; }
     .lb-bar-row:hover .lb-bar-fill { opacity: 1; }
-    .lb-bar-label { display:flex; justify-content:space-between; font-size:.72rem; color:#8899aa; margin-bottom:.15rem; }
+    .lb-bar-label { display:flex; justify-content:space-between; align-items:flex-start; gap:.5rem; font-size:.72rem; color:#8899aa; margin-bottom:.15rem; line-height:1.4; }
+    .lb-bar-label span:first-child { flex:1; word-break:break-word; }
     .lb-bar-label span:last-child { color: #00d4ff; font-family:'Orbitron',monospace; font-size:.65rem; }
     .lb-bar-track { background:rgba(255,255,255,.04); border-radius:3px; height:7px; overflow:hidden; }
     .lb-bar-fill  { height:100%; border-radius:3px; background:#00d4ff; opacity:.7; transition:width .5s ease,opacity .2s; }
@@ -893,10 +894,7 @@
 </div>
 
 <!-- FOOTER -->
-<footer>
-  <strong>POLITIIKKAPÖRSSI</strong> &mdash; Testidata. Ei virallinen lähde.
-  Tiedot haetaan <code>data/poliitikot/[etunimi-sukunimi].json</code>
-</footer>
+
 
 <script>
 const PUOLUEVARIT = {
@@ -1638,7 +1636,7 @@ function renderPalkit(elId, lista, vari, onClick) {
   const maxN = lista[0][1];
   el.innerHTML = lista.map(([label, n]) => {
     const pct   = Math.round(n/maxN*100);
-    const lyhyt = label.length > 40 ? label.slice(0,38)+"…" : label;
+    const lyhyt = label;
     const klik  = onClick ? `style="cursor:pointer" onclick="(${onClick.toString()})('${label.replace(/'/g,"\'")}')"`  : "";
     return `<div class="lb-bar-row" ${klik}>
       <div class="lb-bar-label"><span>${lyhyt}</span><span>${n}</span></div>
@@ -1657,7 +1655,7 @@ function renderTavat(tavat) {
     return `<div class="lb-donut-row">
       <div class="lb-donut-dot" style="background:${LOBBAUS_VARIT[i%LOBBAUS_VARIT.length]}"></div>
       <div style="flex:1;font-size:.75rem;color:#8899aa">${tapa}</div>
-      <div style="font-size:.72rem;color:#fff;font-family:'Orbitron',monospace;min-width:40px;text-align:right">${pct}%</div>
+      <div style="font-size:.72rem;color:#fff;font-family:'Orbitron',monospace;min-width:80px;text-align:right">${n.toLocaleString()} <span style="color:#5a7a99">(${pct}%)</span></div>
       <div style="width:60px;background:rgba(255,255,255,.05);border-radius:3px;height:6px;margin-left:.5rem">
         <div style="width:${pct}%;height:100%;background:${LOBBAUS_VARIT[i%LOBBAUS_VARIT.length]};border-radius:3px"></div>
       </div>
