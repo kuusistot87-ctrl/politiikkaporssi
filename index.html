@@ -689,7 +689,8 @@
     }
     .lobbaus-aikasarja {
       display: flex; align-items: flex-end;
-      gap: 6px; height: 60px; margin-top: .5rem;
+      gap: 8px; height: 90px; margin-top: .5rem;
+      padding: 0 .25rem;
     }
     .lobbaus-aikasarja-bar {
       flex: 1; border-radius: 3px 3px 0 0;
@@ -1308,13 +1309,16 @@ async function naytaLobbausTiedot(m, vari) {
   }
 
   // Aikasarjapalkit
+  const BAR_MAX_PX = 56;
   const aikaHtml = keData.kaudet.map(k => {
-    const pct = maxMaara > 0 ? Math.round(k.maara / maxMaara * 100) : 0;
-    const lyhyt = k.kausi_label.replace(/^(\d+\.\d+)–\d+\.\d+\./, "$1/");
-    return `<div style="flex:1;display:flex;flex-direction:column;align-items:center">
-      <div class="lobbaus-aikasarja-bar" style="height:${pct}%;background:${vari}"
+    const px = maxMaara > 0 ? Math.max(4, Math.round(k.maara / maxMaara * BAR_MAX_PX)) : 4;
+    const lyhyt = k.kausi_label.replace(/^\d+\.\d+–(\d+\.\d+\.\d+)$/, "$1")
+                               .replace(/^(\d+)\.(\d+)–.*\.(\d+)$/, "$1.$2/$3");
+    return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end">
+      <div style="font-size:.58rem;color:${vari};margin-bottom:2px;font-family:'Orbitron',monospace">${k.maara}</div>
+      <div style="width:100%;height:${px}px;background:${vari};border-radius:3px 3px 0 0;opacity:.8"
            title="${k.kausi_label}: ${k.maara} mainintaa"></div>
-      <div class="lobbaus-aikasarja-label">${lyhyt}</div>
+      <div style="font-size:.58rem;color:#5a7a99;text-align:center;margin-top:3px;letter-spacing:.03em;white-space:nowrap">${k.kausi_label.replace(/^\d+\.\d+–/,"").replace(/\.(\d{4})$/,"/$1")}</div>
     </div>`;
   }).join("");
 
