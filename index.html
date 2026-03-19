@@ -459,11 +459,89 @@
       opacity: .3;
     }
 
+    /* ── HEADER SEARCH ── */
+    .header-search {
+      position: relative;
+      margin: 1.5rem auto 0;
+      width: min(520px, 88%);
+    }
+    .header-search input {
+      width: 100%;
+      background: rgba(11,17,40,.9);
+      border: 1px solid #1a2a55;
+      border-radius: 6px;
+      color: #e8f4ff;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.1rem;
+      letter-spacing: .06em;
+      padding: .75rem 3rem .75rem 1.25rem;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .header-search input:focus {
+      border-color: #00d4ff;
+      box-shadow: 0 0 20px rgba(0,212,255,.2);
+    }
+    .header-search input::placeholder { color: #2a4a66; }
+    .search-icon {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #2a4a66;
+      font-size: 1.3rem;
+      pointer-events: none;
+    }
+
+    /* ── SPLASH ── */
+    #splash {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1rem 4rem;
+      animation: fadeIn .5s ease;
+    }
+    .splash-inner {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.25rem;
+    }
+    #reticle {
+      width: 160px;
+      height: 160px;
+      opacity: .7;
+    }
+    .reticle-rotate {
+      transform-origin: 100px 100px;
+      animation: rot 8s linear infinite;
+    }
+    .reticle-rotate-slow {
+      transform-origin: 100px 100px;
+      animation: rot 20s linear infinite reverse;
+    }
+    @keyframes rot { to { transform: rotate(360deg); } }
+    .splash-hint {
+      font-family: 'Orbitron', monospace;
+      font-size: .7rem;
+      letter-spacing: .3em;
+      color: #00d4ff;
+      opacity: .7;
+      animation: pulse-line 2s ease-in-out infinite;
+    }
+    .splash-sub {
+      font-size: .85rem;
+      letter-spacing: .1em;
+      color: #2a4a66;
+    }
+
     /* ── PUOLUE DROPDOWN ── */
     .puolue-dropdown-wrap {
       position: relative;
     }
     .puolue-dropdown {
+      z-index: 9999;
       display: none;
       position: absolute;
       top: calc(100% + 6px);
@@ -557,14 +635,42 @@
   <h1>Politiikkapörssi</h1>
   <div class="header-sub">KANSANEDUSTAJIEN TIETOKANTA // BETA v0.1</div>
   <span class="scanline"></span>
+  <div class="header-search">
+    <input id="searchInput" type="text" placeholder="Hae kansanedustajaa…" autocomplete="off" spellcheck="false"/>
+    <span class="search-icon">⌕</span>
+  </div>
 </header>
 
-<!-- TOOLBAR -->
-<div class="toolbar">
-  <label for="searchInput">Haku:</label>
-  <input id="searchInput" type="text" placeholder="Nimi tai puolue…" autocomplete="off"/>
+<!-- SPLASH (näkyy ennen hakua) -->
+<div id="splash">
+  <div class="splash-inner">
+    <svg id="reticle" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="60" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.4"/>
+      <circle cx="100" cy="100" r="40" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="100" cy="100" r="4" fill="#00d4ff" opacity="0.8"/>
+      <line x1="100" y1="20" x2="100" y2="70" stroke="#00d4ff" stroke-width="0.5" opacity="0.5"/>
+      <line x1="100" y1="130" x2="100" y2="180" stroke="#00d4ff" stroke-width="0.5" opacity="0.5"/>
+      <line x1="20" y1="100" x2="70" y2="100" stroke="#00d4ff" stroke-width="0.5" opacity="0.5"/>
+      <line x1="130" y1="100" x2="180" y2="100" stroke="#00d4ff" stroke-width="0.5" opacity="0.5"/>
+      <circle cx="100" cy="100" r="75" fill="none" stroke="#ff007a" stroke-width="0.3" opacity="0.2" stroke-dasharray="4 8"/>
+      <g class="reticle-rotate">
+        <circle cx="100" cy="25" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+        <circle cx="175" cy="100" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+        <circle cx="100" cy="175" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+        <circle cx="25" cy="100" r="3" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.6"/>
+      </g>
+      <g class="reticle-rotate-slow">
+        <line x1="100" y1="100" x2="140" y2="60" stroke="#ff007a" stroke-width="0.4" opacity="0.3"/>
+      </g>
+    </svg>
+    <div class="splash-hint">SYÖTÄ HAKUTERMI ALOITTAAKSESI</div>
+    <div class="splash-sub">Hae nimellä, puolueella tai kotikunnalla</div>
+  </div>
+</div>
 
-  <button class="filter-btn active" data-puolue="" id="btnKaikki">Kaikki</button>
+<!-- TOOLBAR (piilotettu, ilmestyy haun jälkeen) -->
+<div class="toolbar" id="toolbar" style="display:none">
+  <button class="filter-btn active" id="btnKaikki">Kaikki</button>
 
   <div class="puolue-dropdown-wrap">
     <button class="filter-btn" id="btnPuolue">Puolue ▾</button>
@@ -578,7 +684,7 @@
 </div>
 
 <!-- KORTTINÄKYMÄ -->
-<main id="grid"></main>
+<main id="grid" style="display:none"></main>
 
 <!-- MODAL -->
 <div id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalName">
@@ -691,7 +797,27 @@ function suodataJaRenderöi() {
   renderEdustajat(lista);
 }
 
-document.getElementById("searchInput").addEventListener("input", suodataJaRenderöi);
+document.getElementById("searchInput").addEventListener("input", function() {
+  const q = this.value.trim();
+  const splash   = document.getElementById("splash");
+  const toolbar  = document.getElementById("toolbar");
+  const grid     = document.getElementById("grid");
+
+  if (q.length > 0) {
+    // Piilota splash, näytä toolbar + grid
+    if (splash)  splash.style.display = "none";
+    if (toolbar) toolbar.style.display = "flex";
+    if (grid)    grid.style.display = "grid";
+  } else if (!aktiivisuusPuolue && !aikasuodatin) {
+    // Tyhjä haku ja ei suodattimia — näytä splash
+    if (splash)  splash.style.display = "flex";
+    if (toolbar) toolbar.style.display = "none";
+    if (grid)    grid.style.display = "none";
+    document.getElementById("countBadge").textContent = "";
+    return;
+  }
+  suodataJaRenderöi();
+});
 
 function setPuolue(p, btn) {
   aktiivisuusPuolue = p;
@@ -704,6 +830,18 @@ function setAika(tila) {
   aikasuodatin = (aikasuodatin === tila) ? "" : tila;
   document.getElementById("btnNykyiset").classList.toggle("active", aikasuodatin === "nykyiset");
   document.getElementById("btnHistorialliset").classList.toggle("active", aikasuodatin === "hist");
+  // Näytä grid ja toolbar kun suodatin aktivoitu
+  if (aikasuodatin) {
+    document.getElementById("splash").style.display  = "none";
+    document.getElementById("toolbar").style.display = "flex";
+    document.getElementById("grid").style.display    = "grid";
+  } else if (!aktiivisuusPuolue && !document.getElementById("searchInput").value.trim()) {
+    document.getElementById("splash").style.display  = "flex";
+    document.getElementById("toolbar").style.display = "none";
+    document.getElementById("grid").style.display    = "none";
+    document.getElementById("countBadge").textContent = "";
+    return;
+  }
   suodataJaRenderöi();
 }
 
