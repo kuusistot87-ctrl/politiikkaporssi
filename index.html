@@ -650,6 +650,60 @@
       padding: 0 .5rem;
     }
 
+    /* ── LOBBAUS ── */
+    .lobbaus-container { min-height: 60px; }
+    .lobbaus-bar-wrap { margin-bottom: .35rem; }
+    .lobbaus-bar-label {
+      display: flex; justify-content: space-between;
+      font-size: .72rem; letter-spacing: .06em;
+      color: var(--text-muted); margin-bottom: .18rem;
+    }
+    .lobbaus-bar-track {
+      background: rgba(255,255,255,.05);
+      border-radius: 3px; height: 8px; overflow: hidden;
+    }
+    .lobbaus-bar-fill {
+      height: 100%; border-radius: 3px;
+      background: linear-gradient(90deg, var(--party-c, #00d4ff), #00f5ff);
+      transition: width .6s cubic-bezier(.4,0,.2,1);
+    }
+    .lobbaus-kausi-tabs {
+      display: flex; gap: .35rem; flex-wrap: wrap;
+      margin-bottom: .85rem;
+    }
+    .lobbaus-kausi-btn {
+      background: transparent;
+      border: 1px solid #1a2a55;
+      border-radius: 3px; color: #5a7a99;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: .7rem; letter-spacing: .1em;
+      padding: .2rem .55rem; cursor: pointer;
+      transition: all .15s;
+    }
+    .lobbaus-kausi-btn:hover  { border-color: #00d4ff; color: #00d4ff; }
+    .lobbaus-kausi-btn.active { border-color: #00d4ff; color: #00d4ff; background: rgba(0,212,255,.08); }
+    .lobbaus-rank {
+      font-family: 'Orbitron', monospace;
+      font-size: .65rem; color: var(--text-muted);
+      margin-bottom: .5rem; letter-spacing: .1em;
+    }
+    .lobbaus-aikasarja {
+      display: flex; align-items: flex-end;
+      gap: 6px; height: 60px; margin-top: .5rem;
+    }
+    .lobbaus-aikasarja-bar {
+      flex: 1; border-radius: 3px 3px 0 0;
+      background: var(--party-c, #00d4ff);
+      opacity: .7; transition: height .5s ease;
+      position: relative; min-width: 20px;
+    }
+    .lobbaus-aikasarja-bar:hover { opacity: 1; }
+    .lobbaus-aikasarja-label {
+      font-size: .6rem; color: #5a7a99;
+      text-align: center; margin-top: .25rem;
+      letter-spacing: .05em;
+    }
+
     /* ── ACCORDION ── */
     .accordion-item {
       border: 1px solid var(--border);
@@ -1149,15 +1203,21 @@ function renderModalSkeleton(m, vari) {
         <div style="display:flex;flex-direction:column;gap:.6rem">
           ${m.eduskunta ? lnk(m.eduskunta,"SIDONNAISUUDET EDUSKUNTA.FI ↗",vari) : '<span style="color:#5a7a99;font-size:.82rem">Ei saatavilla</span>'}
         </div>`)}
+      ${accordionItem("lobbaus","LOBBAUSMERKINNÄT",`
+        <div id="lobbaus-${m.nimi.replace(/\s+/g,'-')}" class="lobbaus-container">
+          <div class="spinner" style="margin:.5rem auto"></div>
+        </div>`)}
     </div>`;
 
   // Accordion-logiikka
-  content.querySelectorAll(".accordion-header").forEach(h => {
+  content.querySelectorAll(".accordion-header").forEach((h, idx) => {
+    const ids = ["perustiedot","linkit","toiminta","sidonnaisuudet","lobbaus"];
     h.addEventListener("click", () => {
       const body = h.nextElementSibling;
       const isOpen = body.style.maxHeight && body.style.maxHeight !== "0px";
       body.style.maxHeight = isOpen ? "0px" : body.scrollHeight + "px";
       h.querySelector(".accordion-arrow").style.transform = isOpen ? "rotate(0deg)" : "rotate(90deg)";
+      if (!isOpen && ids[idx]) onAccordionOpen(ids[idx], m, vari);
     });
   });
 }
@@ -1180,6 +1240,145 @@ function lnk(url, teksti, vari) {
     style="color:${vari};font-size:.75rem;letter-spacing:.1em;text-decoration:none;
            border:1px solid ${vari}55;padding:.25rem .6rem;border-radius:3px;
            display:inline-block">${teksti}</a>`;
+}
+
+/* ================================================================
+   LOBBAUS
+   ================================================================ */
+let LOBBAUS_INDEX = null;
+
+async function lataaLobbausIndex() {
+  if (LOBBAUS_INDEX) return LOBBAUS_INDEX;
+  try {
+    const res = await fetch("lobbaus_json/index.json");
+    if (res.ok) LOBBAUS_INDEX = await res.json();
+  } catch(_) {}
+  return LOBBAUS_INDEX;
+}
+
+async function naytaLobbausTiedot(m, vari) {
+  const containerId = "lobbaus-" + m.nimi.replace(/\s+/g,"-");
+  const el = document.getElementById(containerId);
+  if (!el) return;
+
+  const idx = await lataaLobbausIndex();
+  if (!idx) {
+    el.innerHTML = '<span style="color:#5a7a99;font-size:.82rem">Lobbausdata ei saatavilla</span>';
+    return;
+  }
+
+  const keData = idx.kansanedustajat[m.nimi];
+  if (!keData) {
+    el.innerHTML = '<span style="color:#5a7a99;font-size:.82rem">Ei merkintöjä avoimuusrekisterissä</span>';
+    return;
+  }
+
+  const kaudet    = idx.kaudet;
+  const maxMaara  = Math.max(...keData.kaudet.map(k => k.maara));
+  const yhteensa  = keData.yhteensa;
+
+  // Laske sijoitus viimeisimmässä kaudessa
+  let sijoitus = "–";
+  let sijoitusKausi = "";
+  if (keData.kaudet.length > 0) {
+    const viimKausi = keData.kaudet[keData.kaudet.length - 1];
+    try {
+      const kRes = await fetch("lobbaus_json/" + viimKausi.kausi_id + ".json");
+      if (kRes.ok) {
+        const kData = await kRes.json();
+        const lista = kData.kansanedustajat;
+        const idx2  = lista.findIndex(x => x.nimi === m.nimi);
+        if (idx2 >= 0) {
+          sijoitus     = idx2 + 1;
+          sijoitusKausi = viimKausi.kausi_label;
+        }
+      }
+    } catch(_) {}
+  }
+
+  // Aikasarjapalkit
+  const aikaHtml = keData.kaudet.map(k => {
+    const pct = maxMaara > 0 ? Math.round(k.maara / maxMaara * 100) : 0;
+    const lyhyt = k.kausi_label.replace(/^(\d+\.\d+)–\d+\.\d+\./, "$1/");
+    return `<div style="flex:1;display:flex;flex-direction:column;align-items:center">
+      <div class="lobbaus-aikasarja-bar" style="height:${pct}%;background:${vari}"
+           title="${k.kausi_label}: ${k.maara} mainintaa"></div>
+      <div class="lobbaus-aikasarja-label">${lyhyt}</div>
+    </div>`;
+  }).join("");
+
+  el.style.setProperty("--party-c", vari);
+  el.innerHTML = `
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.85rem">
+      <div>
+        <div class="d-label">Maininnat yhteensä</div>
+        <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${yhteensa}</div>
+      </div>
+      <div>
+        <div class="d-label">Sijoitus ${sijoitusKausi}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${sijoitus !== "–" ? "#" + sijoitus : "–"}</div>
+      </div>
+    </div>
+    <div class="d-label" style="margin-bottom:.4rem">Maininnat kausittain</div>
+    <div class="lobbaus-aikasarja">${aikaHtml}</div>
+    <div id="lobbaus-org-${containerId}" style="margin-top:1rem">
+      <div class="d-label" style="margin-bottom:.4rem">Lobbaukset organisaatioittain</div>
+      <div class="spinner" style="margin:.4rem auto;width:20px;height:20px;border-width:2px"></div>
+    </div>`;
+
+  // Lataa organisaatiodata
+  lataaOrgData(m, keData, vari, "lobbaus-org-" + containerId);
+}
+
+async function lataaOrgData(m, keData, vari, orgElId) {
+  const orgEl = document.getElementById(orgElId);
+  if (!orgEl) return;
+
+  // Kerää org-data kaikista kausista
+  const orgYhteensa = {};
+  for (const k of keData.kaudet) {
+    try {
+      const res = await fetch("lobbaus_json/" + k.kausi_id + ".json");
+      if (!res.ok) continue;
+      const data = await res.json();
+      const ke_org = data.ke_org || {};
+      const orgs = ke_org[m.nimi] || [];
+      for (const o of orgs) {
+        orgYhteensa[o.org] = (orgYhteensa[o.org] || 0) + o.maara;
+      }
+    } catch(_) {}
+  }
+
+  const orgLista = Object.entries(orgYhteensa)
+    .sort((a,b) => b[1]-a[1]).slice(0,8);
+
+  if (!orgLista.length) {
+    orgEl.innerHTML = '<div class="d-label">Organisaatiodata ei saatavilla</div>';
+    return;
+  }
+
+  const maxOrg = orgLista[0][1];
+  const barsHtml = orgLista.map(([org, maara]) => {
+    const pct = Math.round(maara / maxOrg * 100);
+    const lyhyt = org.length > 35 ? org.slice(0,33) + "…" : org;
+    return `<div class="lobbaus-bar-wrap">
+      <div class="lobbaus-bar-label">
+        <span>${lyhyt}</span><span style="color:${vari}">${maara}</span>
+      </div>
+      <div class="lobbaus-bar-track">
+        <div class="lobbaus-bar-fill" style="width:${pct}%;--party-c:${vari}"></div>
+      </div>
+    </div>`;
+  }).join("");
+
+  orgEl.innerHTML = `
+    <div class="d-label" style="margin-bottom:.5rem">Organisaatiot (kaikki kaudet)</div>
+    ${barsHtml}`;
+}
+
+/* ── Kutsutaan kun accordionin lobbaus-osio avataan ── */
+function onAccordionOpen(id, m, vari) {
+  if (id === "lobbaus") naytaLobbausTiedot(m, vari);
 }
 
 /* ── Modal sulje ── */
