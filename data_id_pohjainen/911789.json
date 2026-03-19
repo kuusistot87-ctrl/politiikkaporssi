@@ -1,0 +1,236 @@
+{
+    "@id": "people:p911789",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p3049137450670108176"
+    },
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b2767710260357583128"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Yrjö-Koskinen, Iida Maria Fredrika"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911789.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1909-10-19_1909-10-19_1919-03-31_1919-03-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "opettaja, vapaaherratar"
+    },
+    "semparl:end_of_representative_period_text": "31.03.1919",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1919-03-31_1919-03-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1319"
+        },
+        {
+            "@id": "occupations:o82"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2347867527238754731"
+        },
+        {
+            "@id": "event:p1724924439344294330"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911789"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3130398525983132499"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2098324453931110555"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911789"
+    },
+    "semparl:sortingLabel": "yrjö-koskinen iida",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911789"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Iida%20Yrj%C3%B6-Koskinen%2C%20kansanedustaja%2C%20kotitalouskasvatuksen%20ja%20naisasialiikkeen%20edist%C3%A4j%C3%A4%20%28musketti.M012-HK19681123-18%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911789.aspx"
+        },
+        {
+            "@id": "natbib:4713"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Iida_Yrj%C3%B6-Koskinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Iida_Yrj%C3%B6-Koskinen"
+        },
+        {
+            "@id": "wd:Q11864378"
+        },
+        {
+            "@id": "finaf:000086247"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1201"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2570758801210289496"
+        },
+        {
+            "@id": "event:e6400313507524194911"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7073487800626072667"
+        },
+        {
+            "@id": "event:e2973743636288659892"
+        },
+        {
+            "@id": "event:e1848248717827112741"
+        },
+        {
+            "@id": "event:e1376777955319101453"
+        },
+        {
+            "@id": "event:e2884596228671611018"
+        },
+        {
+            "@id": "event:e1351021086645150580"
+        },
+        {
+            "@id": "event:e3355089772357324793"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2657373127821245465"
+        },
+        {
+            "@id": "event:e5601953776713112813"
+        },
+        {
+            "@id": "event:e1836958747345842057"
+        },
+        {
+            "@id": "event:e2182201763047192555"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Yrjö-Koskinen, Iida (1857-1937)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Yrjö-Koskinen, Iida Maria Fredrika"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q304191"
+        }
+    ],
+    "semparl:id": "911789",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

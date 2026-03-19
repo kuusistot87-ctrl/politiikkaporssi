@@ -1,0 +1,286 @@
+{
+    "@id": "people:p911029",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p3288654693271147974"
+        },
+        {
+            "@id": "ns1:p3209458114877483075"
+        }
+    ],
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b2360753689526573192"
+        },
+        {
+            "@id": "publications:b1279154885465076113"
+        }
+    ],
+    "semparl:extra_info": "Saanut vapautuksen edustajantoimesta 11.03.1920 (1919 vp) sairauden takia.",
+    "semparl:authored": {
+        "@id": "publications:b2625150444837551723"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Malmivaara(v:een 1906 Malmberg), Wilhelm (Wilhelmi)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911029.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1920-03-11_1920-03-11"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirkkoherra, rovasti"
+    },
+    "semparl:end_of_representative_period_text": "11.03.1920",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1920-03-11_1920-03-11"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o593"
+        },
+        {
+            "@id": "occupations:o29"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2627996090095467242"
+        },
+        {
+            "@id": "event:p1094261109417306100"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911029"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l7483323584276459394"
+        },
+        {
+            "@id": "label:l2182047528535063883"
+        },
+        {
+            "@id": "label:l1532645672745736929"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l5815352225861281429"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911029"
+    },
+    "semparl:sortingLabel": "malmivaara wilhelmi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911029"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilhelmi%20Malmivaara.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911029.aspx"
+        },
+        {
+            "@id": "viaf:2237149544577100490003"
+        },
+        {
+            "@id": "natbib:6242"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Wilhelmi_Malmivaara"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Wilhelmi_Malmivaara"
+        },
+        {
+            "@id": "wd:Q3364215"
+        },
+        {
+            "@id": "finaf:000069536"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1442"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1869200869393844183"
+        },
+        {
+            "@id": "event:e1761994094390017851"
+        },
+        {
+            "@id": "event:e1974447428082040608"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3398015319710178087"
+        },
+        {
+            "@id": "event:e3168165720425612042"
+        },
+        {
+            "@id": "event:e3267378392177348601"
+        },
+        {
+            "@id": "event:e2483401748979450780"
+        },
+        {
+            "@id": "event:e3133627483932473094"
+        },
+        {
+            "@id": "event:e2888421270605386424"
+        },
+        {
+            "@id": "event:e5159761382627977789"
+        },
+        {
+            "@id": "event:e6039962583282170301"
+        },
+        {
+            "@id": "event:e2815394526844033781"
+        },
+        {
+            "@id": "event:e8003286941051142883"
+        },
+        {
+            "@id": "event:e2955203638050743725"
+        },
+        {
+            "@id": "event:e1421173621373305493"
+        },
+        {
+            "@id": "event:e2101519020024975811"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e4802900424072039146"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Malmivaara, Wilhelmi (1854-1922)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Malmberg, Wilhelmi"
+        },
+        {
+            "@language": "fi",
+            "@value": "Malmberg, Wilhelm"
+        },
+        {
+            "@language": "fi",
+            "@value": "Malmivaara, Wilhelm"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q304191"
+        }
+    ],
+    "semparl:id": "911029",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

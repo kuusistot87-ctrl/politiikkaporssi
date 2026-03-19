@@ -1,0 +1,250 @@
+{
+    "@id": "people:p1455",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Tornio"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8918032705878633131"
+        },
+        {
+            "@id": "affiliations:a3488207174724065017"
+        },
+        {
+            "@id": "affiliations:a3068065440656453087"
+        },
+        {
+            "@id": "affiliations:a2224677223937722407"
+        },
+        {
+            "@id": "affiliations:a1379504085618975637"
+        },
+        {
+            "@id": "affiliations:a1066115265861294609"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1455.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "FK, kansainvälisen sairaanhoidon erityisasiantuntija"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o993"
+        },
+        {
+            "@id": "occupations:o50"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2145963735220400278"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l4297439547503350362"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1455"
+    },
+    "semparl:sortingLabel": "juuso kaisa helena",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1455"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/634093/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kaisa-Juuso-01%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1455.aspx"
+        },
+        {
+            "@id": "yle:18-295613"
+        },
+        {
+            "@id": "twitter:KaisaJuuso"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kaisa_Juuso"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kaisa_Juuso"
+        },
+        {
+            "@id": "wd:Q28789847"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1563937983330085667"
+        },
+        {
+            "@id": "event:e2786644649980826709"
+        },
+        {
+            "@id": "event:e2686720250127368214"
+        },
+        {
+            "@id": "event:e2274241839581864010"
+        },
+        {
+            "@id": "event:e9887698092566438529"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1976549709902022161"
+        },
+        {
+            "@id": "event:e1873927048763811116"
+        },
+        {
+            "@id": "event:e1548968860665744132"
+        },
+        {
+            "@id": "event:e1742938159918882767"
+        },
+        {
+            "@id": "event:e3783552318574962376"
+        },
+        {
+            "@id": "event:e1591311776046029617"
+        },
+        {
+            "@id": "event:e2197205985419126365"
+        },
+        {
+            "@id": "event:e3243999722783688197"
+        },
+        {
+            "@id": "event:e3277511653116811357"
+        },
+        {
+            "@id": "event:e2963269561707195725"
+        },
+        {
+            "@id": "event:e1763073284738716788"
+        },
+        {
+            "@id": "event:e2617742970561912822"
+        },
+        {
+            "@id": "event:e1058120833799368171"
+        },
+        {
+            "@id": "event:e3162469157216622823"
+        },
+        {
+            "@id": "event:e3758514557100567637"
+        },
+        {
+            "@id": "event:e4658095788245499875"
+        },
+        {
+            "@id": "event:e5870877218765957653"
+        },
+        {
+            "@id": "event:e1960559743166058758"
+        },
+        {
+            "@id": "event:e6787442387756250091"
+        },
+        {
+            "@id": "event:e2127032617976043762"
+        },
+        {
+            "@id": "event:e1047388117080531580"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Juuso, Kaisa (1960-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q634277"
+    },
+    "semparl:id": "1455",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

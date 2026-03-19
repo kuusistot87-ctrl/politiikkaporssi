@@ -1,0 +1,264 @@
+{
+    "@id": "people:p911148",
+    "semparl:extra_info": "Saanut vapautuksen edustajantoimesta sairauden takia.",
+    "semparl:authored": {
+        "@id": "publications:b2377371927787733860"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Nordling(kirjailijana Nortamo), Frans Hjalmar (Hj.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911148.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1910-04-01_1910-04-01_1910-04-01_1910-04-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "piirilääkäri, professori, kirjailija"
+    },
+    "semparl:end_of_representative_period_text": "01.04.1910",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1910-04-01_1910-04-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1358"
+        },
+        {
+            "@id": "occupations:o34"
+        },
+        {
+            "@id": "occupations:o33"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2374945193483480697"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911148"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l4347671130274913179"
+        },
+        {
+            "@id": "label:l3438265526820789715"
+        },
+        {
+            "@id": "label:l2372623532017418184"
+        },
+        {
+            "@id": "label:l2133736126277541373"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l6165971596180571795"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911148"
+    },
+    "semparl:sortingLabel": "nordling hjalmar",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911148"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hjalmar-Nortamo.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911148.aspx"
+        },
+        {
+            "@id": "viaf:70353391"
+        },
+        {
+            "@id": "natbib:4976"
+        },
+        {
+            "@id": "https://fi.wikisource.org/wiki/Hj._Nortamo"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hj._Nortamo"
+        },
+        {
+            "@id": "wd:Q4118893"
+        },
+        {
+            "@id": "finaf:000072602"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2177"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8147071508957790769"
+        },
+        {
+            "@id": "event:e2411356290001532935"
+        },
+        {
+            "@id": "event:e2124701100016094085"
+        },
+        {
+            "@id": "event:e3151015079908037926"
+        },
+        {
+            "@id": "event:e2687387542283481415"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6835250469358934067"
+        },
+        {
+            "@id": "event:e2852103038178604994"
+        },
+        {
+            "@id": "event:e2014629004243008868"
+        },
+        {
+            "@id": "event:e2314936360234419333"
+        },
+        {
+            "@id": "event:e1422295942655167481"
+        },
+        {
+            "@id": "event:e2883083838383173022"
+        },
+        {
+            "@id": "event:e2242184643919258098"
+        },
+        {
+            "@id": "event:e9269767841360708025"
+        },
+        {
+            "@id": "event:e2739385088408060446"
+        },
+        {
+            "@id": "event:e1351721444002291201"
+        },
+        {
+            "@id": "event:e6426646998110993065"
+        },
+        {
+            "@id": "event:e3305088902726576782"
+        },
+        {
+            "@id": "event:e2986260733122463932"
+        },
+        {
+            "@id": "event:e2596785744937830737"
+        },
+        {
+            "@id": "event:e4879790696220750502"
+        },
+        {
+            "@id": "event:e2317116266649478354"
+        },
+        {
+            "@id": "event:e3046656785330949169"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Nordling, Hjalmar (1860-1931)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "kirjailijana Nortamo, Hj."
+        },
+        {
+            "@language": "fi",
+            "@value": "kirjailijana Nortamo, Frans Hjalmar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Nordling, Frans Hjalmar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Nordling, Hj."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1378704"
+    },
+    "semparl:id": "911148",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "@id": "people:Q1335237",
+    "semparl:has_party_membership": {
+        "@id": "event:p2163021921547421359"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d1335237"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2794373727843399073"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l8295746451363207339"
+    },
+    "dct:source": [
+        {
+            "@id": "wd:Q1335237"
+        },
+        {
+            "@id": "http://valtioneuvosto.fi/tietoa/historiaa/hallitukset-ja-ministerit/raportti/-/r/m2/148"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Korhonen, Keijo (1934-2022)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Korhonen, Keijo Tero"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "bioc:bearer_of": {
+        "@id": "event:e1169240370658862692"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "wd:Q1335237"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4274"
+        },
+        {
+            "@id": "finaf:000048269"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Keijo_Korhonen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Keijo_Korhonen"
+        },
+        {
+            "@id": "natbib:4024"
+        },
+        {
+            "@id": "viaf:28193267"
+        }
+    ],
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Keijo%20Korhonen%201993%20%28cropped%29.jpg"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1335237"
+    },
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "semparl:sortingLabel": "korhonen keijo",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "@id": "people:p911528",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p3263539031227827362"
+    },
+    "semparl:authored": {
+        "@id": "publications:b2333906153638088633"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Somersalo(v:een 1906 Sommer), Aarne (Arne) Sakari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911528.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1933-09-01_1933-09-01_1936-08-31_1936-08-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "everstiluutnantti, päätoimittaja"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1936",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1936-08-31_1936-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o409"
+        },
+        {
+            "@id": "occupations:o1744"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2961827148432407727"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911528"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2567983865983922307"
+        },
+        {
+            "@id": "label:l1317820971528175785"
+        },
+        {
+            "@id": "label:l1029487285359054099"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3295670065181062819"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911528"
+    },
+    "semparl:sortingLabel": "somersalo arne",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911528"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Somersalo.png"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911528.aspx"
+        },
+        {
+            "@id": "natbib:7711"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Arne_Somersalo"
+        },
+        {
+            "@id": "wd:Q4794672"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2353"
+        },
+        {
+            "@id": "finaf:000086326"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5491"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2180822113943034432"
+        },
+        {
+            "@id": "event:e1581768283304113351"
+        },
+        {
+            "@id": "event:e2208509619389458255"
+        },
+        {
+            "@id": "event:e2976925466906100713"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1530449984274526784"
+        },
+        {
+            "@id": "event:e2460225443432723362"
+        },
+        {
+            "@id": "event:e2631163187630093895"
+        },
+        {
+            "@id": "event:e1310625539829313298"
+        },
+        {
+            "@id": "event:e1244604568999045804"
+        },
+        {
+            "@id": "event:e2527639011932090640"
+        },
+        {
+            "@id": "event:e2713710055565351433"
+        },
+        {
+            "@id": "event:e5035699484577479235"
+        },
+        {
+            "@id": "event:e7369817652040774380"
+        },
+        {
+            "@id": "event:e2965394741990695137"
+        },
+        {
+            "@id": "event:e3019310409329742687"
+        },
+        {
+            "@id": "event:e2174575941287644523"
+        },
+        {
+            "@id": "event:e1971924044611266745"
+        },
+        {
+            "@id": "event:e1820842216372790378"
+        },
+        {
+            "@id": "event:e3022455832257109131"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2647473906082522960"
+        },
+        {
+            "@id": "event:e2102687477498225086"
+        },
+        {
+            "@id": "event:e3339111594711551698"
+        },
+        {
+            "@id": "event:e2419887330347974482"
+        },
+        {
+            "@id": "event:e1001757780218582679"
+        },
+        {
+            "@id": "event:e2676757350600820473"
+        },
+        {
+            "@id": "event:e1876183508092325342"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Somersalo, Arne (1891-1941)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Sommer, Arne"
+        },
+        {
+            "@language": "fi",
+            "@value": "Somersalo, Aarne Sakari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Sommer, Aarne Sakari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1442516"
+    },
+    "semparl:id": "911528",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

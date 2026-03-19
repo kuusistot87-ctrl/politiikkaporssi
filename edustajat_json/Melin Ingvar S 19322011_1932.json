@@ -1,0 +1,359 @@
+{
+    "@id": "people:p193",
+    "semparl:authored": [
+        {
+            "@id": "publications:b3709778209237858309"
+        },
+        {
+            "@id": "publications:b1814734189102784799"
+        },
+        {
+            "@id": "publications:b1197277047277446394"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Melin, Ingvar Selimson (Ingvar S.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:193.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1966-04-05_1966-04-05_1972-01-21_1972-01-21"
+        },
+        {
+            "@id": "times:t_1975-09-27_1975-09-27_1983-03-25_1983-03-25"
+        },
+        {
+            "@id": "times:t_1987-03-21_1987-03-21_1991-03-21_1991-03-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kauppatieteiden lisensiaatti, filosofian maisteri, johtaja"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o228"
+        },
+        {
+            "@id": "occupations:o169"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2721675904882502363"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d193"
+    },
+    "xl:altLabel": {
+        "@id": "label:l7192938730509524898"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l7987058407292873460"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=193"
+    },
+    "semparl:sortingLabel": "melin ingvar s.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b193"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Airisto-Melin-1961.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:193.aspx"
+        },
+        {
+            "@id": "viaf:215160483748504991715"
+        },
+        {
+            "@id": "natbib:4015"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ingvar_S._Melin"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Ingvar_S._Melin"
+        },
+        {
+            "@id": "wd:Q5983808"
+        },
+        {
+            "@id": "finaf:000075549"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4553"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1469681966301529347"
+        },
+        {
+            "@id": "event:e3343942830996893339"
+        },
+        {
+            "@id": "event:e1045061932323770985"
+        },
+        {
+            "@id": "event:e1534429407122646721"
+        },
+        {
+            "@id": "event:e1840455090780714252"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8530783113406434346"
+        },
+        {
+            "@id": "event:e4192384307039298992"
+        },
+        {
+            "@id": "event:e2863234161553527331"
+        },
+        {
+            "@id": "event:e1966226351530510812"
+        },
+        {
+            "@id": "event:e1684096963678832451"
+        },
+        {
+            "@id": "event:e1485119198282722828"
+        },
+        {
+            "@id": "event:e1793986512190855391"
+        },
+        {
+            "@id": "event:e4452441568940709240"
+        },
+        {
+            "@id": "event:e1276861093597309049"
+        },
+        {
+            "@id": "event:e3212506551879204101"
+        },
+        {
+            "@id": "event:e3039056118441588840"
+        },
+        {
+            "@id": "event:e2970668862501375512"
+        },
+        {
+            "@id": "event:e1751203379997876259"
+        },
+        {
+            "@id": "event:e2761247899294968718"
+        },
+        {
+            "@id": "event:e2679192204850756914"
+        },
+        {
+            "@id": "event:e2594105835297490472"
+        },
+        {
+            "@id": "event:e3193888586966088723"
+        },
+        {
+            "@id": "event:e1891935496343611266"
+        },
+        {
+            "@id": "event:e1752638039764085921"
+        },
+        {
+            "@id": "event:e1599562825121330732"
+        },
+        {
+            "@id": "event:e1609482204959664473"
+        },
+        {
+            "@id": "event:e2650827304041169641"
+        },
+        {
+            "@id": "event:e2285274962690599036"
+        },
+        {
+            "@id": "event:e2907817526339326498"
+        },
+        {
+            "@id": "event:e8946515054520109754"
+        },
+        {
+            "@id": "event:e3333501766665099550"
+        },
+        {
+            "@id": "event:e3284021420657014401"
+        },
+        {
+            "@id": "event:e1541567586076223933"
+        },
+        {
+            "@id": "event:e2298748333487311686"
+        },
+        {
+            "@id": "event:e1452646805988609182"
+        },
+        {
+            "@id": "event:e2803827412307374206"
+        },
+        {
+            "@id": "event:e4203496095948447506"
+        },
+        {
+            "@id": "event:e9761270015516459239"
+        },
+        {
+            "@id": "event:e3169699008373059815"
+        },
+        {
+            "@id": "event:e3178866867294393799"
+        },
+        {
+            "@id": "event:e4601223502678583332"
+        },
+        {
+            "@id": "event:e1574124706689510851"
+        },
+        {
+            "@id": "event:e2330072427597580888"
+        },
+        {
+            "@id": "event:e6108229603584466705"
+        },
+        {
+            "@id": "event:e2703139014170111418"
+        },
+        {
+            "@id": "event:e1443572332189336015"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2571436925265066893"
+        },
+        {
+            "@id": "event:e1470292580665900143"
+        },
+        {
+            "@id": "event:e5843828209917611738"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Melin, Ingvar S. (1932-2011)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Melin, Ingvar Selimson"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "193",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

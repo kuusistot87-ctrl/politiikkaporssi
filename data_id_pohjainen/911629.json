@@ -1,0 +1,292 @@
+{
+    "@id": "people:p911629",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Torppa, Juho"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911629.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1914-02-01_1914-02-01"
+        },
+        {
+            "@id": "times:t_1927-09-02_1927-09-02_1929-07-31_1929-07-31"
+        },
+        {
+            "@id": "times:t_1919-04-01_1919-04-01_1922-09-04_1922-09-04"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1929",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1929-07-31_1929-07-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p3036811748324460328"
+        },
+        {
+            "@id": "event:p2548579268826005170"
+        },
+        {
+            "@id": "event:p1130460911741443846"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911629"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2072240062220694188"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911629"
+    },
+    "semparl:sortingLabel": "torppa juho",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911629"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Juho%20Torppa.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911629.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Juho_Torppa"
+        },
+        {
+            "@id": "wd:Q17384313"
+        },
+        {
+            "@id": "finaf:000143439"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3025385859940881003"
+        },
+        {
+            "@id": "event:e1471477353954425252"
+        },
+        {
+            "@id": "event:e1030697060581413487"
+        },
+        {
+            "@id": "event:e1619630468891800640"
+        },
+        {
+            "@id": "event:e3308285676178414581"
+        },
+        {
+            "@id": "event:e1228730564868683324"
+        },
+        {
+            "@id": "event:e1422463481079127423"
+        },
+        {
+            "@id": "event:e1532970311816439933"
+        },
+        {
+            "@id": "event:e6360026728253519763"
+        },
+        {
+            "@id": "event:e1768617755632266924"
+        },
+        {
+            "@id": "event:e3395285073877407348"
+        },
+        {
+            "@id": "event:e2546867090326453486"
+        },
+        {
+            "@id": "event:e6987108346765544523"
+        },
+        {
+            "@id": "event:e1878379944665840300"
+        },
+        {
+            "@id": "event:e2176450470243484259"
+        },
+        {
+            "@id": "event:e1648866830295889763"
+        },
+        {
+            "@id": "event:e2408520786504333893"
+        },
+        {
+            "@id": "event:e2973445376120197082"
+        },
+        {
+            "@id": "event:e3221076932780083768"
+        },
+        {
+            "@id": "event:e6778442084055763517"
+        },
+        {
+            "@id": "event:e1754764724915299732"
+        },
+        {
+            "@id": "event:e2538897586978466507"
+        },
+        {
+            "@id": "event:e2875139710710049100"
+        },
+        {
+            "@id": "event:e1551062269716161726"
+        },
+        {
+            "@id": "event:e2935859908095702011"
+        },
+        {
+            "@id": "event:e6080379281583574580"
+        },
+        {
+            "@id": "event:e3177926394283654756"
+        },
+        {
+            "@id": "event:e2378675802550925731"
+        },
+        {
+            "@id": "event:e8890918331440237485"
+        },
+        {
+            "@id": "event:e1425895767676698518"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2745068222830670972"
+        },
+        {
+            "@id": "event:e4802900424072039146"
+        },
+        {
+            "@id": "event:e2292596090734877325"
+        },
+        {
+            "@id": "event:e1563381951957093266"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Torppa, Juho (1859-1941)"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q506591"
+        },
+        {
+            "@id": "groups:Q1191102"
+        }
+    ],
+    "semparl:id": "911629",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

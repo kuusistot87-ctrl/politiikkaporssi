@@ -1,0 +1,232 @@
+{
+    "@id": "people:p911551",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b1805566918715385801"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Sundblom, August Julius"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911551.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1919-01-17_1919-01-17"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, päätoimittaja"
+    },
+    "semparl:end_of_representative_period_text": "17.01.1919",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1919-01-17_1919-01-17"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o409"
+        },
+        {
+            "@id": "occupations:o83"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2986152909367056431"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911551"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2182827304060226327"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3545328638651827535"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911551"
+    },
+    "semparl:sortingLabel": "sundblom julius",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911551"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911551.aspx"
+        },
+        {
+            "@id": "viaf:67755865"
+        },
+        {
+            "@id": "natbib:7423"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Julius_Sundblom"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Julius_Sundblom"
+        },
+        {
+            "@id": "wd:Q3781648"
+        },
+        {
+            "@id": "finaf:000082682"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5404"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2754618685612737318"
+        },
+        {
+            "@id": "event:e2756994842464600218"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3730736140280701519"
+        },
+        {
+            "@id": "event:e2453947326328693391"
+        },
+        {
+            "@id": "event:e1573258268847892236"
+        },
+        {
+            "@id": "event:e2795287899494886625"
+        },
+        {
+            "@id": "event:e1577861723541768959"
+        },
+        {
+            "@id": "event:e1669810413737055891"
+        },
+        {
+            "@id": "event:e1716168794309782991"
+        },
+        {
+            "@id": "event:e2290745922794088546"
+        },
+        {
+            "@id": "event:e2034162258123098006"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e3075282709711821714"
+        },
+        {
+            "@id": "event:e3100692289623496880"
+        },
+        {
+            "@id": "event:e6610391025648850134"
+        },
+        {
+            "@id": "event:e2392427662454894564"
+        },
+        {
+            "@id": "event:e1878119110824265196"
+        },
+        {
+            "@id": "event:e2617130543232052124"
+        },
+        {
+            "@id": "event:e2436354492604082303"
+        },
+        {
+            "@id": "event:e1603263293172482964"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Sundblom, Julius (1865-1945)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Sundblom, August Julius"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "911551",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

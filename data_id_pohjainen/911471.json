@@ -1,0 +1,363 @@
+{
+    "@id": "people:p911471",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": {
+        "@id": "publications:b7098794109746501377"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Saukkonen, Jussi Jaakko (Johan Jaakoppi)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911471.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1949-09-01_1949-09-01_1951-07-20_1951-07-20"
+        },
+        {
+            "@id": "times:t_1958-07-22_1958-07-22_1966-04-04_1966-04-04"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, rehtori, kouluneuvos"
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1074"
+        },
+        {
+            "@id": "occupations:o63"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2795723023434259306"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911471"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2951096108443712049"
+        },
+        {
+            "@id": "label:l1430462494448114685"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1613910800915703335"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911471"
+    },
+    "semparl:sortingLabel": "saukkonen jussi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911471"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jussi%20Saukkonen%20%281951%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911471.aspx"
+        },
+        {
+            "@id": "natbib:696"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jussi_Saukkonen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jussi_Saukkonen"
+        },
+        {
+            "@id": "wd:Q6095100"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2344"
+        },
+        {
+            "@id": "finaf:000058486"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5304"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2701004174031252522"
+        },
+        {
+            "@id": "event:e2052160216558533102"
+        },
+        {
+            "@id": "event:e6895927199160091711"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2974492139072677541"
+        },
+        {
+            "@id": "event:e2779175818471732163"
+        },
+        {
+            "@id": "event:e2442106076674068401"
+        },
+        {
+            "@id": "event:e2422404211956690285"
+        },
+        {
+            "@id": "event:e2647611607353396709"
+        },
+        {
+            "@id": "event:e3015235332180883024"
+        },
+        {
+            "@id": "event:e2704532019035890088"
+        },
+        {
+            "@id": "event:e6517662048997423236"
+        },
+        {
+            "@id": "event:e3034433268537349024"
+        },
+        {
+            "@id": "event:e2047297847752537463"
+        },
+        {
+            "@id": "event:e1917051325381569181"
+        },
+        {
+            "@id": "event:e2769456215094247437"
+        },
+        {
+            "@id": "event:e1605865679207602005"
+        },
+        {
+            "@id": "event:e2510515002147904767"
+        },
+        {
+            "@id": "event:e2615708184840110580"
+        },
+        {
+            "@id": "event:e1312096054404545679"
+        },
+        {
+            "@id": "event:e2456830143981954144"
+        },
+        {
+            "@id": "event:e1796840741897339742"
+        },
+        {
+            "@id": "event:e2869356973030315986"
+        },
+        {
+            "@id": "event:e3355454561476173238"
+        },
+        {
+            "@id": "event:e2859492305871901179"
+        },
+        {
+            "@id": "event:e5981287653006494321"
+        },
+        {
+            "@id": "event:e2962662414154880783"
+        },
+        {
+            "@id": "event:e1407796289675382800"
+        },
+        {
+            "@id": "event:e1443467316844500701"
+        },
+        {
+            "@id": "event:e3090777990082108073"
+        },
+        {
+            "@id": "event:e3137901211960890161"
+        },
+        {
+            "@id": "event:e8375366886442438532"
+        },
+        {
+            "@id": "event:e2021467458764715617"
+        },
+        {
+            "@id": "event:e1916521988496757458"
+        },
+        {
+            "@id": "event:e1276395501850205085"
+        },
+        {
+            "@id": "event:e1198030926951804670"
+        },
+        {
+            "@id": "event:e3241264240019444674"
+        },
+        {
+            "@id": "event:e9826194350265161318"
+        },
+        {
+            "@id": "event:e1400181160385828377"
+        },
+        {
+            "@id": "event:e5429801658098909115"
+        },
+        {
+            "@id": "event:e2653786931164881885"
+        },
+        {
+            "@id": "event:e2565033516047053118"
+        },
+        {
+            "@id": "event:e3020839510884256441"
+        },
+        {
+            "@id": "event:e3163325391460115138"
+        },
+        {
+            "@id": "event:e2969620671428711492"
+        },
+        {
+            "@id": "event:e8503593658267528795"
+        },
+        {
+            "@id": "event:e2078167102922537345"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1930343814505416513"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2834534744528877307"
+        },
+        {
+            "@id": "event:e1170977143541541169"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e1727897614134596116"
+        },
+        {
+            "@id": "event:e3376912922781604917"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Saukkonen, Jussi (1905-1986)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Saukkonen, Jussi Jaakko"
+        },
+        {
+            "@language": "fi",
+            "@value": "Saukkonen, Johan Jaakoppi"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911471",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

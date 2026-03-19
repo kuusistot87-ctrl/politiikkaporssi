@@ -1,0 +1,473 @@
+{
+    "@id": "people:p300",
+    "semparl:extra_info": "Presidenttiehdokas 1988, 1994, 2012 ja 2018",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b9851537287298220676"
+        },
+        {
+            "@id": "publications:b8237923429104964911"
+        },
+        {
+            "@id": "publications:b6922306936573693509"
+        },
+        {
+            "@id": "publications:b6170042296980582282"
+        },
+        {
+            "@id": "publications:b4753885675367559137"
+        },
+        {
+            "@id": "publications:b2728349544847184904"
+        },
+        {
+            "@id": "publications:b2687938661351325842"
+        },
+        {
+            "@id": "publications:b2649879356671745287"
+        },
+        {
+            "@id": "publications:b2338450423973797407"
+        },
+        {
+            "@id": "publications:b2293616855537491937"
+        },
+        {
+            "@id": "publications:b2065802270245796469"
+        },
+        {
+            "@id": "publications:b2009163264999467692"
+        },
+        {
+            "@id": "publications:b1831553784568267488"
+        },
+        {
+            "@id": "publications:b1674473439221969100"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Väyrynen, Paavo Matti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:300.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1970-03-23_1970-03-23_2003-03-18_2003-03-18"
+        },
+        {
+            "@id": "times:t_2007-03-21_2007-03-21_2011-04-19_2011-04-19"
+        },
+        {
+            "@id": "times:t_2015-04-22_2015-04-22_2019-04-16_2019-04-16"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteiden tohtori, yrittäjä"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o47"
+        },
+        {
+            "@id": "occupations:o355"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2303395974823960376"
+        },
+        {
+            "@id": "event:p1809914490647278614"
+        }
+    ],
+    "xl:altLabel": {
+        "@id": "label:l2462654267950067600"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1112897431296335000"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=300"
+    },
+    "semparl:sortingLabel": "väyrynen paavo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b300"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Paavo%20V%C3%A4yrynen%202009.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:300.aspx"
+        },
+        {
+            "@id": "yle:18-179086"
+        },
+        {
+            "@id": "viaf:276546665"
+        },
+        {
+            "@id": "twitter:kokokansanpaavo"
+        },
+        {
+            "@id": "natbib:3957"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Paavo_V%C3%A4yrynen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Paavo_V%C3%A4yrynen"
+        },
+        {
+            "@id": "wd:Q560930"
+        },
+        {
+            "@id": "finaf:000063156"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p6116"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1269547469938413442"
+        },
+        {
+            "@id": "event:e2649570714053954709"
+        },
+        {
+            "@id": "event:e7647000349541291822"
+        },
+        {
+            "@id": "event:e2183876886956480384"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9271376754857387629"
+        },
+        {
+            "@id": "event:e8004834330439028842"
+        },
+        {
+            "@id": "event:e7006769209743280157"
+        },
+        {
+            "@id": "event:e5743460455168470310"
+        },
+        {
+            "@id": "event:e4621692161896242670"
+        },
+        {
+            "@id": "event:e3282904961112678077"
+        },
+        {
+            "@id": "event:e3174174520422322141"
+        },
+        {
+            "@id": "event:e3055233633258415255"
+        },
+        {
+            "@id": "event:e2885977129539038448"
+        },
+        {
+            "@id": "event:e2882471944873589100"
+        },
+        {
+            "@id": "event:e2495883120367182165"
+        },
+        {
+            "@id": "event:e2427481046418335254"
+        },
+        {
+            "@id": "event:e2018613088902698976"
+        },
+        {
+            "@id": "event:e1696075701694810017"
+        },
+        {
+            "@id": "event:e1505748140930104548"
+        },
+        {
+            "@id": "event:e1390372727763818480"
+        },
+        {
+            "@id": "event:e1252012849475416533"
+        },
+        {
+            "@id": "event:e1159363854429627723"
+        },
+        {
+            "@id": "event:e1011236430400843135"
+        },
+        {
+            "@id": "event:e3061424489953555190"
+        },
+        {
+            "@id": "event:e7593388187166326514"
+        },
+        {
+            "@id": "event:e4517427342434744763"
+        },
+        {
+            "@id": "event:e2487930426604417010"
+        },
+        {
+            "@id": "event:e8885442588885914009"
+        },
+        {
+            "@id": "event:e3259760457968093685"
+        },
+        {
+            "@id": "event:e2907188026687089204"
+        },
+        {
+            "@id": "event:e2647032816779733348"
+        },
+        {
+            "@id": "event:e1589619121218332839"
+        },
+        {
+            "@id": "event:e4594479210784234348"
+        },
+        {
+            "@id": "event:e2321996465589995116"
+        },
+        {
+            "@id": "event:e1139009307939803119"
+        },
+        {
+            "@id": "event:e1005203515186663177"
+        },
+        {
+            "@id": "event:e2705714072796985034"
+        },
+        {
+            "@id": "event:e3208468792303046044"
+        },
+        {
+            "@id": "event:e2227051974463301013"
+        },
+        {
+            "@id": "event:e2765699535904491805"
+        },
+        {
+            "@id": "event:e4421134238739043919"
+        },
+        {
+            "@id": "event:e1890179884456394434"
+        },
+        {
+            "@id": "event:e6561071386257329078"
+        },
+        {
+            "@id": "event:e2293716654980558478"
+        },
+        {
+            "@id": "event:e2744288363049702542"
+        },
+        {
+            "@id": "event:e1594618918920781396"
+        },
+        {
+            "@id": "event:e1638998568338445188"
+        },
+        {
+            "@id": "event:e2850638165004105455"
+        },
+        {
+            "@id": "event:e2903370831410140289"
+        },
+        {
+            "@id": "event:e1212768627258063466"
+        },
+        {
+            "@id": "event:e2988049263510657526"
+        },
+        {
+            "@id": "event:e3007903889901551801"
+        },
+        {
+            "@id": "event:e8564885711820813590"
+        },
+        {
+            "@id": "event:e7785928523764009951"
+        },
+        {
+            "@id": "event:e3203113303294434558"
+        },
+        {
+            "@id": "event:e1968360612239890800"
+        },
+        {
+            "@id": "event:e7430115751670766689"
+        },
+        {
+            "@id": "event:e9875459118564362252"
+        },
+        {
+            "@id": "event:e8610486021517800822"
+        },
+        {
+            "@id": "event:e1254655222363128750"
+        },
+        {
+            "@id": "event:e1834718970568025391"
+        },
+        {
+            "@id": "event:e1876129013260231424"
+        },
+        {
+            "@id": "event:e2014624156693747965"
+        },
+        {
+            "@id": "event:e1226543749638130991"
+        },
+        {
+            "@id": "event:e1229512430092071826"
+        },
+        {
+            "@id": "event:e1357464868700819266"
+        },
+        {
+            "@id": "event:e2140714626091658767"
+        },
+        {
+            "@id": "event:e1579394972705198852"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e9484035004013130769"
+        },
+        {
+            "@id": "event:e1997669549117405247"
+        },
+        {
+            "@id": "event:e2101263940584996003"
+        },
+        {
+            "@id": "event:e9896463101893337478"
+        },
+        {
+            "@id": "event:e1368016871748658149"
+        },
+        {
+            "@id": "event:e3069042939241159394"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Väyrynen, Paavo (1946-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Väyrynen, Paavo Matti"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q506591"
+        },
+        {
+            "@id": "groups:Q327591"
+        },
+        {
+            "@id": "groups:Q58868602"
+        },
+        {
+            "@id": "groups:Q22582658"
+        }
+    ],
+    "semparl:id": "300",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

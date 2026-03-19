@@ -1,0 +1,228 @@
+{
+    "@id": "people:p773",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "vääpeli"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1410343662086009188"
+    },
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Espoo"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Särkiniemi, Seppo Antero"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:773.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2010-09-20_2010-09-20_2011-04-19_2011-04-19"
+        },
+        {
+            "@id": "times:t_2003-03-19_2003-03-19_2007-03-20_2007-03-20"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "pastori"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o26"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1050473331375152659"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2634024518696437177"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1966555847430516462"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=773"
+    },
+    "semparl:sortingLabel": "särkiniemi seppo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b773"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/660129/"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:773.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Seppo_S%C3%A4rkiniemi"
+        },
+        {
+            "@id": "wd:Q11893035"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1090125159771543804"
+        },
+        {
+            "@id": "event:e2373125177203319827"
+        },
+        {
+            "@id": "event:e2980786421432411025"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1520076280447462717"
+        },
+        {
+            "@id": "event:e1516944991295029154"
+        },
+        {
+            "@id": "event:e1511061431013747496"
+        },
+        {
+            "@id": "event:e1687816205201123353"
+        },
+        {
+            "@id": "event:e1193283208174326816"
+        },
+        {
+            "@id": "event:e1121269775469295889"
+        },
+        {
+            "@id": "event:e2524378198416849617"
+        },
+        {
+            "@id": "event:e1123662097653296479"
+        },
+        {
+            "@id": "event:e1376732963065544038"
+        },
+        {
+            "@id": "event:e1249100053607421387"
+        },
+        {
+            "@id": "event:e1000108558895434010"
+        },
+        {
+            "@id": "event:e1713255789833825050"
+        },
+        {
+            "@id": "event:e2264261909833031306"
+        },
+        {
+            "@id": "event:e2134938928992635018"
+        },
+        {
+            "@id": "event:e2478820230611631809"
+        },
+        {
+            "@id": "event:e4284157767129079983"
+        },
+        {
+            "@id": "event:e3388906612009489691"
+        },
+        {
+            "@id": "event:e7196388010865450612"
+        },
+        {
+            "@id": "event:e1628742705728319058"
+        },
+        {
+            "@id": "event:e8046487049570410180"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Särkiniemi, Seppo (1957-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Särkiniemi, Seppo Antero"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "773",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

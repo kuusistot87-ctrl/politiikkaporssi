@@ -1,0 +1,299 @@
+{
+    "@id": "people:p910240",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b9266421953776195856"
+        },
+        {
+            "@id": "publications:b2937247354804024621"
+        },
+        {
+            "@id": "publications:b2368992271801176799"
+        },
+        {
+            "@id": "publications:b1559367010262014822"
+        },
+        {
+            "@id": "publications:b1524379250947252619"
+        }
+    ],
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kenraaliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e9734422508597302347"
+    },
+    "semparl:authored": {
+        "@id": "publications:b7806185813463144661"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Airo(v:een 1906 Johansson), Aksel Fredrik (A.F.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910240.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1966-04-04_1966-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kenraaliluutnantti evp., maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1220"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3160650093799166934"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910240"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8517025334943438064"
+        },
+        {
+            "@id": "label:l2530625842887068035"
+        },
+        {
+            "@id": "label:l2113370345042016873"
+        },
+        {
+            "@id": "label:l1423832930798215351"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l8532267081139935549"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910240"
+    },
+    "semparl:sortingLabel": "airo aksel",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910240"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Airo%20A%20F-2.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910240.aspx"
+        },
+        {
+            "@id": "viaf:52967191"
+        },
+        {
+            "@id": "natbib:748"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/A._F._Airo"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:A._F._Airo"
+        },
+        {
+            "@id": "wd:Q2448446"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_51"
+        },
+        {
+            "@id": "finaf:000078609"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p370"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2259953289152131150"
+        },
+        {
+            "@id": "event:e2830657023096685697"
+        },
+        {
+            "@id": "event:e6166110392070612689"
+        },
+        {
+            "@id": "event:e1777954130248416075"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2695855319150482677"
+        },
+        {
+            "@id": "event:e2647611607353396709"
+        },
+        {
+            "@id": "event:e3211773494002611395"
+        },
+        {
+            "@id": "event:e7960209927041891658"
+        },
+        {
+            "@id": "event:e1083324001103486232"
+        },
+        {
+            "@id": "event:e5447943092819764020"
+        },
+        {
+            "@id": "event:e3388154867612121687"
+        },
+        {
+            "@id": "event:e8690972280463308124"
+        },
+        {
+            "@id": "event:e2017690833349409378"
+        },
+        {
+            "@id": "event:e1444039370450509953"
+        },
+        {
+            "@id": "event:e3369197028867136216"
+        },
+        {
+            "@id": "event:e7151143098778410328"
+        },
+        {
+            "@id": "event:e2631932269078565261"
+        },
+        {
+            "@id": "event:e3078700733341657108"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e7536207242748273533"
+        },
+        {
+            "@id": "event:e1338065816756519987"
+        },
+        {
+            "@id": "event:e9819805155632978916"
+        },
+        {
+            "@id": "event:e1019066185130099435"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Airo, Aksel (1898-1985)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Johansson, Aksel Fredrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Airo, A.F."
+        },
+        {
+            "@language": "fi",
+            "@value": "Airo, Aksel Fredrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Johansson, A.F."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910240",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

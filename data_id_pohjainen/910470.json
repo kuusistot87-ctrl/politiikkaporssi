@@ -1,0 +1,262 @@
+{
+    "@id": "people:p910470",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hiekkala(v:een 1907 Hoffrén), Lauri (Lassi)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910470.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1945-04-06_1945-04-06_1951-10-05_1951-10-05"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sanomalehdentoimittaja (\"Eero\")"
+    },
+    "semparl:end_of_representative_period_text": "05.10.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-10-05_1951-10-05"
+    },
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2520174215809341102"
+        },
+        {
+            "@id": "event:p1206167367117216043"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910470"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l7431761030284428582"
+        },
+        {
+            "@id": "label:l5830191243769817757"
+        },
+        {
+            "@id": "label:l1780725599508885759"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1035904574688823374"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910470"
+    },
+    "semparl:sortingLabel": "hiekkala lassi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910470"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lassi-Hiekkala.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910470.aspx"
+        },
+        {
+            "@id": "natbib:1607"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lassi_Hiekkala"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Lassi_Hiekkala"
+        },
+        {
+            "@id": "wd:Q11874832"
+        },
+        {
+            "@id": "finaf:000104910"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2803"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2789311792633282368"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8807120001626930406"
+        },
+        {
+            "@id": "event:e8077062445759665750"
+        },
+        {
+            "@id": "event:e1315529347629570450"
+        },
+        {
+            "@id": "event:e1947731430867116307"
+        },
+        {
+            "@id": "event:e3128890945409774722"
+        },
+        {
+            "@id": "event:e2031582055111686097"
+        },
+        {
+            "@id": "event:e2513982032635558565"
+        },
+        {
+            "@id": "event:e1728667394837145884"
+        },
+        {
+            "@id": "event:e1871100353087398922"
+        },
+        {
+            "@id": "event:e2679930377685739793"
+        },
+        {
+            "@id": "event:e3175163551845813762"
+        },
+        {
+            "@id": "event:e2272043626027435776"
+        },
+        {
+            "@id": "event:e1180079751398592705"
+        },
+        {
+            "@id": "event:e1605196850669564899"
+        },
+        {
+            "@id": "event:e2336565717277375526"
+        },
+        {
+            "@id": "event:e3355762769790468755"
+        },
+        {
+            "@id": "event:e1736474963459003008"
+        },
+        {
+            "@id": "event:e1727897614134596116"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e1632286271256429422"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2261477823764171588"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hiekkala, Lassi (1888-1951)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Hoffrén, Lauri"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hiekkala, Lauri"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hoffrén, Lassi"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q506591"
+        },
+        {
+            "@id": "groups:Q1191102"
+        },
+        {
+            "@id": "groups:Q1628434"
+        }
+    ],
+    "semparl:id": "910470",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "@id": "people:p1299",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Vantaa"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a7915627690406986613"
+        },
+        {
+            "@id": "affiliations:a3182002832979752827"
+        },
+        {
+            "@id": "affiliations:a1838785733324067021"
+        },
+        {
+            "@id": "affiliations:a1777143737833990815"
+        },
+        {
+            "@id": "affiliations:a1459313737696484676"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1299.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kauppatieteiden maisteri"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o139"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1700372442014087551"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2987072977186938362"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1299"
+    },
+    "semparl:sortingLabel": "multala sari susanna",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1299"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Sari-Multala-02%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1299.aspx"
+        },
+        {
+            "@id": "yle:18-290678"
+        },
+        {
+            "@id": "twitter:SariMultala"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Sari_Multala"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Sari_Multala"
+        },
+        {
+            "@id": "wd:Q7424043"
+        },
+        {
+            "@id": "finaf:000116940"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1988468451500417563"
+        },
+        {
+            "@id": "event:e3232391596373621436"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3044418728111549367"
+        },
+        {
+            "@id": "event:e2545631899659330656"
+        },
+        {
+            "@id": "event:e1172084973375584899"
+        },
+        {
+            "@id": "event:e1838518973436644982"
+        },
+        {
+            "@id": "event:e2352892823978593557"
+        },
+        {
+            "@id": "event:e2867197995084667289"
+        },
+        {
+            "@id": "event:e1256332393188469117"
+        },
+        {
+            "@id": "event:e1815834000905063545"
+        },
+        {
+            "@id": "event:e2889158383378745745"
+        },
+        {
+            "@id": "event:e1178174016230081191"
+        },
+        {
+            "@id": "event:e2808332388798006486"
+        },
+        {
+            "@id": "event:e2165923675888178049"
+        },
+        {
+            "@id": "event:e1683181222353022020"
+        },
+        {
+            "@id": "event:e3240503050485477940"
+        },
+        {
+            "@id": "event:e2327949075029477910"
+        },
+        {
+            "@id": "event:e4144823721578768172"
+        },
+        {
+            "@id": "event:e3108731020465712296"
+        },
+        {
+            "@id": "event:e2361861644482677866"
+        },
+        {
+            "@id": "event:e2798311053745436458"
+        },
+        {
+            "@id": "event:e6228283658770824213"
+        },
+        {
+            "@id": "event:e2595682461411753701"
+        },
+        {
+            "@id": "event:e1565900535460580842"
+        },
+        {
+            "@id": "event:e2094253319521230128"
+        },
+        {
+            "@id": "event:e3025455695108445355"
+        },
+        {
+            "@id": "event:e2210971063145656034"
+        },
+        {
+            "@id": "event:e2163024188964574543"
+        },
+        {
+            "@id": "event:e2654291896909958896"
+        },
+        {
+            "@id": "event:e1582319842343479521"
+        },
+        {
+            "@id": "event:e3251984769678474113"
+        },
+        {
+            "@id": "event:e1238610816815111218"
+        },
+        {
+            "@id": "event:e2681894045728726776"
+        },
+        {
+            "@id": "event:e1816359147095355155"
+        },
+        {
+            "@id": "event:e2649622351324548629"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Multala, Sari (1978-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1299",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

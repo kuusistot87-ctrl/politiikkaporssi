@@ -1,0 +1,229 @@
+{
+    "@id": "people:p399",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Seivästö, Ismo Eero"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:399.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1991-03-22_1991-03-22_1995-03-23_1995-03-23"
+        },
+        {
+            "@id": "times:t_1999-03-24_1999-03-24_2003-03-18_2003-03-18"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "humanististen tieteiden kandidaatti, pastori"
+    },
+    "semparl:end_of_representative_period_text": "18.03.2003",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2003-03-18_2003-03-18"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o49"
+        },
+        {
+            "@id": "occupations:o26"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1784269688765096933"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1826590628678650496"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1275598412489855480"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=399"
+    },
+    "semparl:sortingLabel": "seivästö ismo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b399"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:399.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ismo_Seiv%C3%A4st%C3%B6"
+        },
+        {
+            "@id": "wd:Q11865157"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1002789910296872495"
+        },
+        {
+            "@id": "event:e1275740113338724909"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9598051377124660517"
+        },
+        {
+            "@id": "event:e3291437090411407636"
+        },
+        {
+            "@id": "event:e1911844638725675451"
+        },
+        {
+            "@id": "event:e1824908792177115296"
+        },
+        {
+            "@id": "event:e1511482972820044358"
+        },
+        {
+            "@id": "event:e1093235430988939217"
+        },
+        {
+            "@id": "event:e3118520402164809361"
+        },
+        {
+            "@id": "event:e1064177017795882759"
+        },
+        {
+            "@id": "event:e4164606866013050236"
+        },
+        {
+            "@id": "event:e2394767511271550333"
+        },
+        {
+            "@id": "event:e2077659198346953007"
+        },
+        {
+            "@id": "event:e2768459645083282977"
+        },
+        {
+            "@id": "event:e2162548645061613989"
+        },
+        {
+            "@id": "event:e1691742835526520941"
+        },
+        {
+            "@id": "event:e2562610477302665617"
+        },
+        {
+            "@id": "event:e2306237857378635197"
+        },
+        {
+            "@id": "event:e2975657493618157462"
+        },
+        {
+            "@id": "event:e2023003623862607874"
+        },
+        {
+            "@id": "event:e1148881141634384180"
+        },
+        {
+            "@id": "event:e3517923067222753765"
+        },
+        {
+            "@id": "event:e2325381781923342852"
+        },
+        {
+            "@id": "event:e1439879475148110151"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Seivästö, Ismo (1954-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Seivästö, Ismo Eero"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1138982"
+    },
+    "semparl:id": "399",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

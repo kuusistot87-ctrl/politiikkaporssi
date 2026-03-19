@@ -1,0 +1,245 @@
+{
+    "@id": "people:p910451",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Heiniö(v:een 1905 Heldan), Sulo Aukusti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910451.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1939-09-01_1939-09-01_1948-07-21_1948-07-21"
+        },
+        {
+            "@id": "times:t_1933-09-01_1933-09-01_1936-08-31_1936-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri, yli-insinööri"
+    },
+    "semparl:end_of_representative_period_text": "21.07.1948",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1948-07-21_1948-07-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1079"
+        },
+        {
+            "@id": "occupations:o206"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1532164812235247998"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910451"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2599023553084477169"
+        },
+        {
+            "@id": "label:l1955996182179908112"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1769698790836153288"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910451"
+    },
+    "semparl:sortingLabel": "heiniö sulo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910451"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Sulo-Heinio-1913.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910451.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Sulo_Heini%C3%B6"
+        },
+        {
+            "@id": "wd:Q20251604"
+        },
+        {
+            "@id": "finaf:000081097"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1892104785852766817"
+        },
+        {
+            "@id": "event:e1713505270667212554"
+        },
+        {
+            "@id": "event:e1138320869295205171"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4466772820475907967"
+        },
+        {
+            "@id": "event:e3212088874970698099"
+        },
+        {
+            "@id": "event:e1798856448137354846"
+        },
+        {
+            "@id": "event:e1566243422834340890"
+        },
+        {
+            "@id": "event:e2982939850068314459"
+        },
+        {
+            "@id": "event:e6131486362454159042"
+        },
+        {
+            "@id": "event:e7349762956721198680"
+        },
+        {
+            "@id": "event:e1876531057811962087"
+        },
+        {
+            "@id": "event:e1329828552858235795"
+        },
+        {
+            "@id": "event:e8991274737371252303"
+        },
+        {
+            "@id": "event:e4506993758255801594"
+        },
+        {
+            "@id": "event:e3926462212671540566"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2017511576182202534"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2836974718002401546"
+        },
+        {
+            "@id": "event:e1670271903848294895"
+        },
+        {
+            "@id": "event:e1296856477845606955"
+        },
+        {
+            "@id": "event:e2776895474963696174"
+        },
+        {
+            "@id": "event:e3100107256323959943"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Heiniö, Sulo (1888-1956)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Heiniö, Sulo Aukusti"
+        },
+        {
+            "@language": "fi",
+            "@value": "Heldan, Sulo Aukusti"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "910451",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

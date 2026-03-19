@@ -1,0 +1,290 @@
+{
+    "@id": "people:p472",
+    "semparl:authored": [
+        {
+            "@id": "publications:b9884900416410281061"
+        },
+        {
+            "@id": "publications:b3675033089185053385"
+        },
+        {
+            "@id": "publications:b3317270646579800051"
+        },
+        {
+            "@id": "publications:b1588297944803132270"
+        }
+    ],
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Helsinki"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Krohn, Irina Kaarina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:472.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24_2006-07-31_2006-07-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "teatteritaiteen maisteri"
+    },
+    "semparl:end_of_representative_period_text": "31.07.2006",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2006-07-31_2006-07-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o484"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p3306873937584031180"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2820285653862272419"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3355927016295267795"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=472"
+    },
+    "semparl:sortingLabel": "krohn irina",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b472"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/658225/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Irina%20Kaarina%20Krohn%20-%20Finnish%20Heritage%20Agency%20%281147740%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:472.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Irina_Krohn"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Irina_Krohn"
+        },
+        {
+            "@id": "wd:Q6069855"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1405925053314563191"
+        },
+        {
+            "@id": "event:e9304631795099945659"
+        },
+        {
+            "@id": "event:e8151906441780500247"
+        },
+        {
+            "@id": "event:e6628229414238882903"
+        },
+        {
+            "@id": "event:e2107297684936029764"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9233679173148396140"
+        },
+        {
+            "@id": "event:e3266124854155568255"
+        },
+        {
+            "@id": "event:e1833496308813409177"
+        },
+        {
+            "@id": "event:e1231884702095583866"
+        },
+        {
+            "@id": "event:e3223436137971777535"
+        },
+        {
+            "@id": "event:e4526614643994551860"
+        },
+        {
+            "@id": "event:e2850873070076901147"
+        },
+        {
+            "@id": "event:e1657624241327675234"
+        },
+        {
+            "@id": "event:e3261798954816903576"
+        },
+        {
+            "@id": "event:e2568145316553191951"
+        },
+        {
+            "@id": "event:e1280319368236493270"
+        },
+        {
+            "@id": "event:e1919630782813503116"
+        },
+        {
+            "@id": "event:e3018040445552544295"
+        },
+        {
+            "@id": "event:e1484459355384124899"
+        },
+        {
+            "@id": "event:e2459641950772024710"
+        },
+        {
+            "@id": "event:e2870900154075930513"
+        },
+        {
+            "@id": "event:e2472631867726556947"
+        },
+        {
+            "@id": "event:e7791833296341288434"
+        },
+        {
+            "@id": "event:e2661836259996288120"
+        },
+        {
+            "@id": "event:e3025359076665085856"
+        },
+        {
+            "@id": "event:e2863937282314491255"
+        },
+        {
+            "@id": "event:e1082666115563007928"
+        },
+        {
+            "@id": "event:e2179969179065500701"
+        },
+        {
+            "@id": "event:e9655513123057525193"
+        },
+        {
+            "@id": "event:e3243157759671547084"
+        },
+        {
+            "@id": "event:e1679524932149625411"
+        },
+        {
+            "@id": "event:e1415811600853661630"
+        },
+        {
+            "@id": "event:e6770365036145211647"
+        },
+        {
+            "@id": "event:e1469408113783729639"
+        },
+        {
+            "@id": "event:e2486731426688906041"
+        },
+        {
+            "@id": "event:e1940525929393362373"
+        },
+        {
+            "@id": "event:e3132711091884135082"
+        },
+        {
+            "@id": "event:e2571118936564394778"
+        },
+        {
+            "@id": "event:e2692517237179643825"
+        },
+        {
+            "@id": "event:e1426061891958284501"
+        },
+        {
+            "@id": "event:e2306925857987165414"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Krohn, Irina (1962-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Krohn, Irina Kaarina"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "472",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

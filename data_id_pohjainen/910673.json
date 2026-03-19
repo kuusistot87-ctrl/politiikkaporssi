@@ -1,0 +1,194 @@
+{
+    "@id": "people:p910673",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kankari, Kaarle (Kalle) August"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910673.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1922-09-05_1922-09-05_1923-10-17_1923-10-17"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "puuseppä, toimitsija"
+    },
+    "semparl:end_of_representative_period_text": "17.10.1923",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1923-10-17_1923-10-17"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o380"
+        },
+        {
+            "@id": "occupations:o1333"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2049745440189879222"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910673"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1406470305686619591"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l9877844942987291599"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910673"
+    },
+    "semparl:sortingLabel": "kankari kalle",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910673"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910673.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kalle_Kankari"
+        },
+        {
+            "@id": "wd:Q11869395"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1329337522611681816"
+        },
+        {
+            "@id": "event:e8450293405086045474"
+        },
+        {
+            "@id": "event:e1654716495315744195"
+        },
+        {
+            "@id": "event:e2029333540756864606"
+        },
+        {
+            "@id": "event:e3116906801403343279"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2454233110079203128"
+        },
+        {
+            "@id": "event:e2647860935944407581"
+        },
+        {
+            "@id": "event:e2231515938965205501"
+        },
+        {
+            "@id": "event:e1329017738159703874"
+        },
+        {
+            "@id": "event:e1996883019934746165"
+        },
+        {
+            "@id": "event:e2277683995478602105"
+        },
+        {
+            "@id": "event:e3000313123520481582"
+        },
+        {
+            "@id": "event:e2156983797465488589"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kankari, Kalle (1889-1948)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kankari, Kaarle August"
+    },
+    "semparl:party": {
+        "@id": "groups:Q220217"
+    },
+    "semparl:id": "910673",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

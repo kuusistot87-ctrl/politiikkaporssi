@@ -1,0 +1,245 @@
+{
+    "@id": "people:p910479",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hildén, Uno Alarik (Uno A.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910479.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1936-09-01_1936-09-01_1945-04-05_1945-04-05"
+        },
+        {
+            "@id": "times:t_1930-10-21_1930-10-21_1933-08-31_1933-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "05.04.1945",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1945-04-05_1945-04-05"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o152"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1252900457859815541"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910479"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3010966150777728469"
+        },
+        {
+            "@id": "label:l2517308820103041079"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1792935287750022829"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910479"
+    },
+    "semparl:sortingLabel": "hildén uno",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910479"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910479.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Uno_Hild%C3%A9n"
+        },
+        {
+            "@id": "wd:Q17380801"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1983700923235906669"
+        },
+        {
+            "@id": "event:e2049918285267451224"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2175043264747512621"
+        },
+        {
+            "@id": "event:e1108163705214672774"
+        },
+        {
+            "@id": "event:e1867935403183575546"
+        },
+        {
+            "@id": "event:e1049074033990414181"
+        },
+        {
+            "@id": "event:e2917049797469663872"
+        },
+        {
+            "@id": "event:e1016037248915793691"
+        },
+        {
+            "@id": "event:e2622388769367159116"
+        },
+        {
+            "@id": "event:e1023603283660774660"
+        },
+        {
+            "@id": "event:e2424542965506409831"
+        },
+        {
+            "@id": "event:e9914885994331628768"
+        },
+        {
+            "@id": "event:e1607368944518961604"
+        },
+        {
+            "@id": "event:e3179480056290853997"
+        },
+        {
+            "@id": "event:e1840638247649398401"
+        },
+        {
+            "@id": "event:e1543823322207357622"
+        },
+        {
+            "@id": "event:e1994055768134116729"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e3156832398232169655"
+        },
+        {
+            "@id": "event:e1085348987712228056"
+        },
+        {
+            "@id": "event:e5024681088427283215"
+        },
+        {
+            "@id": "event:e7612723348970747254"
+        },
+        {
+            "@id": "event:e9150620245092451094"
+        },
+        {
+            "@id": "event:e3197750180962087172"
+        },
+        {
+            "@id": "event:e3367501448380140784"
+        },
+        {
+            "@id": "event:e6187134378110962316"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hildén, Uno (1890-1951)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Hildén, Uno Alarik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hildén, Uno A."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910479",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

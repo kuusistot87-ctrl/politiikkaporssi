@@ -1,0 +1,220 @@
+{
+    "@id": "people:p966",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Autio, Risto Juhani"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:966.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21_2011-04-19_2011-04-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "teatteritaiteen maisteri, näyttelijä"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o484"
+        },
+        {
+            "@id": "occupations:o392"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3018294997757127049"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2106907957159533934"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1402849787654219702"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=966"
+    },
+    "semparl:sortingLabel": "autio risto",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b966"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Risto%20Autio.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:966.aspx"
+        },
+        {
+            "@id": "yle:18-171357"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Risto_Autio"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Risto_Autio"
+        },
+        {
+            "@id": "wd:Q16297948"
+        },
+        {
+            "@id": "finaf:000040881"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2162581230580750608"
+        },
+        {
+            "@id": "event:e5120057693852780677"
+        },
+        {
+            "@id": "event:e3162124804587580673"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3125517040400084910"
+        },
+        {
+            "@id": "event:e7593388187166326514"
+        },
+        {
+            "@id": "event:e7462670333552667949"
+        },
+        {
+            "@id": "event:e1711196304801741327"
+        },
+        {
+            "@id": "event:e1984154062910229721"
+        },
+        {
+            "@id": "event:e2047521041039502356"
+        },
+        {
+            "@id": "event:e8749183902162738187"
+        },
+        {
+            "@id": "event:e1097082664304793495"
+        },
+        {
+            "@id": "event:e1748176797446747890"
+        },
+        {
+            "@id": "event:e2997597184542987923"
+        },
+        {
+            "@id": "event:e2072612354253481893"
+        },
+        {
+            "@id": "event:e1979900853531822945"
+        },
+        {
+            "@id": "event:e3330280044157980676"
+        },
+        {
+            "@id": "event:e2079794212681417635"
+        },
+        {
+            "@id": "event:e1848497539024357794"
+        },
+        {
+            "@id": "event:e3970261329622012515"
+        },
+        {
+            "@id": "event:e2755519347756155671"
+        },
+        {
+            "@id": "event:e1283389562432903533"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Autio, Risto (1954-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Autio, Risto Juhani"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "966",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,239 @@
+{
+    "@id": "people:p1417",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Hämeenlinna"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a2738000173386647058"
+        },
+        {
+            "@id": "affiliations:a2502632896303825081"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1417.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o206"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2079717394784817349"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1187914860863346395"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1417"
+    },
+    "semparl:sortingLabel": "ranne lulu sirkku susanna",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1417"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/659180/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lulu-Ranne-01%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1417.aspx"
+        },
+        {
+            "@id": "yle:18-295659"
+        },
+        {
+            "@id": "twitter:LuluRanne"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lulu_Ranne"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Lulu_Ranne"
+        },
+        {
+            "@id": "wd:Q63164219"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2512002291853259134"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3213288405051987563"
+        },
+        {
+            "@id": "event:e2300113874577201130"
+        },
+        {
+            "@id": "event:e2236647772381185880"
+        },
+        {
+            "@id": "event:e2053092475706465930"
+        },
+        {
+            "@id": "event:e1933615610945298659"
+        },
+        {
+            "@id": "event:e1883867309675246238"
+        },
+        {
+            "@id": "event:e1788487213187373272"
+        },
+        {
+            "@id": "event:e1034195423125394572"
+        },
+        {
+            "@id": "event:e1742938159918882767"
+        },
+        {
+            "@id": "event:e2803666702896393419"
+        },
+        {
+            "@id": "event:e7575807614572801982"
+        },
+        {
+            "@id": "event:e2584052194487833647"
+        },
+        {
+            "@id": "event:e1760865000447423927"
+        },
+        {
+            "@id": "event:e1050346102817021831"
+        },
+        {
+            "@id": "event:e3169984190137660441"
+        },
+        {
+            "@id": "event:e5263123106166006085"
+        },
+        {
+            "@id": "event:e2167938758535420223"
+        },
+        {
+            "@id": "event:e4129309063181848146"
+        },
+        {
+            "@id": "event:e1945940079318467501"
+        },
+        {
+            "@id": "event:e1194410845516572231"
+        },
+        {
+            "@id": "event:e8054906853995601639"
+        },
+        {
+            "@id": "event:e1011720205696412493"
+        },
+        {
+            "@id": "event:e7742211959075401604"
+        },
+        {
+            "@id": "event:e2702332866971179973"
+        },
+        {
+            "@id": "event:e1560426800460650632"
+        },
+        {
+            "@id": "event:e3240570828868175906"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ranne, Lulu (1971-)"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q304191"
+        },
+        {
+            "@id": "groups:Q634277"
+        }
+    ],
+    "semparl:id": "1417",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

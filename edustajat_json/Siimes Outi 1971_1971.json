@@ -1,0 +1,210 @@
+{
+    "@id": "people:p533",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "vänrikki"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1459192304759606373"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Siimes, Outi Inkeri"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:533.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1996-05-31_1996-05-31_1999-03-23_1999-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lakimies"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o549"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2866014660650835423"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2165368299809072498"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1199185706233506890"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=533"
+    },
+    "semparl:sortingLabel": "siimes outi",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b533"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:533.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Outi_Siimes"
+        },
+        {
+            "@id": "wd:Q16990487"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2241842461657891856"
+        },
+        {
+            "@id": "event:e1246826067986282927"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2354693339263050087"
+        },
+        {
+            "@id": "event:e1383287373742771496"
+        },
+        {
+            "@id": "event:e2196567280736250738"
+        },
+        {
+            "@id": "event:e1304875189038455390"
+        },
+        {
+            "@id": "event:e3300182587153382661"
+        },
+        {
+            "@id": "event:e1256740526284625495"
+        },
+        {
+            "@id": "event:e1792840138985955309"
+        },
+        {
+            "@id": "event:e8871942350221409329"
+        },
+        {
+            "@id": "event:e1593489317142676307"
+        },
+        {
+            "@id": "event:e3400502818969424503"
+        },
+        {
+            "@id": "event:e1198105397420075197"
+        },
+        {
+            "@id": "event:e6254126596579095231"
+        },
+        {
+            "@id": "event:e5874359223718876885"
+        },
+        {
+            "@id": "event:e1158832280199122044"
+        },
+        {
+            "@id": "event:e3501576667579597893"
+        },
+        {
+            "@id": "event:e2617689061870196214"
+        },
+        {
+            "@id": "event:e1666898474206028019"
+        },
+        {
+            "@id": "event:e3274286678102733126"
+        },
+        {
+            "@id": "event:e2751414682115472952"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Siimes, Outi (1971-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Siimes, Outi Inkeri"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "533",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

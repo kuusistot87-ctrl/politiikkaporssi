@@ -1,0 +1,307 @@
+{
+    "@id": "people:p910122",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b2193414659636055911"
+        },
+        {
+            "@id": "publications:b1137692031373070153"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pitsinki, Kaarlo Vilhelmi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910122.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1966-09-30_1966-09-30"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen kandidaatti, puoluesihteeri, maaherra"
+    },
+    "semparl:end_of_representative_period_text": "30.09.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-09-30_1966-09-30"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o453"
+        },
+        {
+            "@id": "occupations:o57"
+        },
+        {
+            "@id": "occupations:o15"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2026802776146761511"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910122"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3013510071013858391"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1191644700861253882"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910122"
+    },
+    "semparl:sortingLabel": "pitsinki kaarlo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910122"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910122.aspx"
+        },
+        {
+            "@id": "viaf:275144647695626210117"
+        },
+        {
+            "@id": "natbib:8857"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kaarlo_Pitsinki"
+        },
+        {
+            "@id": "wd:Q16989862"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5023"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3335349957966126931"
+        },
+        {
+            "@id": "event:e2870455009123970487"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6595583047179459098"
+        },
+        {
+            "@id": "event:e2397484178984701492"
+        },
+        {
+            "@id": "event:e2429269764949515048"
+        },
+        {
+            "@id": "event:e9207598186155548784"
+        },
+        {
+            "@id": "event:e2050636787596200974"
+        },
+        {
+            "@id": "event:e1311622494781891501"
+        },
+        {
+            "@id": "event:e1530871695987750844"
+        },
+        {
+            "@id": "event:e1060597379132739633"
+        },
+        {
+            "@id": "event:e3216042687700665038"
+        },
+        {
+            "@id": "event:e2945631180511009356"
+        },
+        {
+            "@id": "event:e2816641077534480547"
+        },
+        {
+            "@id": "event:e8510647077710905986"
+        },
+        {
+            "@id": "event:e1605399277810517730"
+        },
+        {
+            "@id": "event:e1302573762145947722"
+        },
+        {
+            "@id": "event:e1765770839496619675"
+        },
+        {
+            "@id": "event:e1989400118494845184"
+        },
+        {
+            "@id": "event:e3276006618231616397"
+        },
+        {
+            "@id": "event:e1181980168328188328"
+        },
+        {
+            "@id": "event:e1592011137718735672"
+        },
+        {
+            "@id": "event:e2842883290368334896"
+        },
+        {
+            "@id": "event:e3245165259647152294"
+        },
+        {
+            "@id": "event:e3284118800241671673"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e2153472447535078353"
+        },
+        {
+            "@id": "event:e1265240205908877966"
+        },
+        {
+            "@id": "event:e1088438800140077651"
+        },
+        {
+            "@id": "event:e6380006027382380844"
+        },
+        {
+            "@id": "event:e2263422898116414132"
+        },
+        {
+            "@id": "event:e1582104632252958294"
+        },
+        {
+            "@id": "event:e7424460464913913561"
+        },
+        {
+            "@id": "event:e1643994025591381661"
+        },
+        {
+            "@id": "event:e3017419933394271018"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e2092587372193886156"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1225228280549752363"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e3082788784533034412"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pitsinki, Kaarlo (1923-2015)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pitsinki, Kaarlo Vilhelmi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910122",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

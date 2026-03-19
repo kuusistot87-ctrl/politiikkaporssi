@@ -1,0 +1,310 @@
+{
+    "@id": "people:p911033",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Manner, Alpinus Wilhelm (Albin Vilho)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911033.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1927-09-01_1927-09-01"
+        },
+        {
+            "@id": "times:t_1929-08-01_1929-08-01_1933-08-31_1933-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimitusjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1933",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1933-08-31_1933-08-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o111"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2995374601471450535"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911033"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l4216270880717154637"
+        },
+        {
+            "@id": "label:l2881378092147157035"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l6097353415553940361"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911033"
+    },
+    "semparl:sortingLabel": "manner albin",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911033"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Albin%20Manner.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911033.aspx"
+        },
+        {
+            "@id": "natbib:916"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Albin_Manner"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Albin_Manner"
+        },
+        {
+            "@id": "wd:Q11850627"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2231"
+        },
+        {
+            "@id": "finaf:000083347"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2815"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7895434611690189683"
+        },
+        {
+            "@id": "event:e6058199796218099462"
+        },
+        {
+            "@id": "event:e1873195539164593433"
+        },
+        {
+            "@id": "event:e1769285787620569914"
+        },
+        {
+            "@id": "event:e1370104592079110926"
+        },
+        {
+            "@id": "event:e3186767979555365891"
+        },
+        {
+            "@id": "event:e3278081955702905517"
+        },
+        {
+            "@id": "event:e2237594250633765057"
+        },
+        {
+            "@id": "event:e2633321271597570258"
+        },
+        {
+            "@id": "event:e3322029621651214537"
+        },
+        {
+            "@id": "event:e3285348794115234478"
+        },
+        {
+            "@id": "event:e3218719852304865688"
+        },
+        {
+            "@id": "event:e2553707457628012526"
+        },
+        {
+            "@id": "event:e6067354049228148153"
+        },
+        {
+            "@id": "event:e1330166706463452476"
+        },
+        {
+            "@id": "event:e6561374766166962382"
+        },
+        {
+            "@id": "event:e1014909045997643045"
+        },
+        {
+            "@id": "event:e1879636373355211165"
+        },
+        {
+            "@id": "event:e1706616930344663976"
+        },
+        {
+            "@id": "event:e1763082309758968342"
+        },
+        {
+            "@id": "event:e2737312031502395327"
+        },
+        {
+            "@id": "event:e8286505468473778139"
+        },
+        {
+            "@id": "event:e2971407891072981929"
+        },
+        {
+            "@id": "event:e1345122006745593622"
+        },
+        {
+            "@id": "event:e4573820737070098152"
+        },
+        {
+            "@id": "event:e3867374862258446025"
+        },
+        {
+            "@id": "event:e2824779430971109994"
+        },
+        {
+            "@id": "event:e1335128997720257532"
+        },
+        {
+            "@id": "event:e1719684494000081412"
+        },
+        {
+            "@id": "event:e7933186074153806246"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e3203005308366684600"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1293718632791298531"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Manner, Albin (1888-1954)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Manner, Albin Vilho"
+        },
+        {
+            "@language": "fi",
+            "@value": "Manner, Alpinus Wilhelm"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911033",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

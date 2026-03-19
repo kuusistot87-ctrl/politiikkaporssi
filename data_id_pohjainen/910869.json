@@ -1,0 +1,307 @@
+{
+    "@id": "people:p910869",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p3052901860992944166"
+        },
+        {
+            "@id": "ns1:p2800753599733256881"
+        }
+    ],
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lahtela, Olavi Aleksanter"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910869.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1968-12-29_1968-12-29"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "majuri evp., yliasiamies"
+    },
+    "semparl:end_of_representative_period_text": "29.12.1968",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1968-12-29_1968-12-29"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1500"
+        },
+        {
+            "@id": "occupations:o1160"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3253189605837891971"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910869"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1180635943355810310"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3331096664185076263"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910869"
+    },
+    "semparl:sortingLabel": "lahtela olavi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910869"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Olavi-Lahtela.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910869.aspx"
+        },
+        {
+            "@id": "natbib:890"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Olavi_Lahtela"
+        },
+        {
+            "@id": "wd:Q11885284"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2644"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4315"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2185065011749049423"
+        },
+        {
+            "@id": "event:e1403907691434078040"
+        },
+        {
+            "@id": "event:e1039365044596522359"
+        },
+        {
+            "@id": "event:e3155901273840674133"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6845949872553031263"
+        },
+        {
+            "@id": "event:e2367193745987523488"
+        },
+        {
+            "@id": "event:e1151596525847715150"
+        },
+        {
+            "@id": "event:e1067061088552296236"
+        },
+        {
+            "@id": "event:e2411900187537990375"
+        },
+        {
+            "@id": "event:e1218298015807502432"
+        },
+        {
+            "@id": "event:e2137736114185847540"
+        },
+        {
+            "@id": "event:e1672241211452829124"
+        },
+        {
+            "@id": "event:e3024040674234374963"
+        },
+        {
+            "@id": "event:e1827728065232972302"
+        },
+        {
+            "@id": "event:e7497828461842593654"
+        },
+        {
+            "@id": "event:e1704568597679023855"
+        },
+        {
+            "@id": "event:e2745931129212161065"
+        },
+        {
+            "@id": "event:e1952318132855253753"
+        },
+        {
+            "@id": "event:e1080649105739872182"
+        },
+        {
+            "@id": "event:e8129562807364262666"
+        },
+        {
+            "@id": "event:e1727545780394326450"
+        },
+        {
+            "@id": "event:e2136994501674839135"
+        },
+        {
+            "@id": "event:e1832838138086576761"
+        },
+        {
+            "@id": "event:e3090588455564944850"
+        },
+        {
+            "@id": "event:e2365623325652219840"
+        },
+        {
+            "@id": "event:e2143295746137816192"
+        },
+        {
+            "@id": "event:e1923583766079661208"
+        },
+        {
+            "@id": "event:e1076005005478960722"
+        },
+        {
+            "@id": "event:e3102095049987529190"
+        },
+        {
+            "@id": "event:e2363086531514447539"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e3034333671505060352"
+        },
+        {
+            "@id": "event:e1448521121488057565"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e3393873457900056509"
+        },
+        {
+            "@id": "event:e2730239145023538297"
+        },
+        {
+            "@id": "event:e2869424401532173317"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lahtela, Olavi (1915-1968)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Lahtela, Olavi Aleksanter"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910869",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

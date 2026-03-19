@@ -1,0 +1,234 @@
+{
+    "@id": "people:p911678",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vahe(e. Vähävahe, e. Eskola), Isak (Iisakki)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911678.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1909-05-31_1909-05-31"
+        },
+        {
+            "@id": "times:t_1910-03-01_1910-03-01_1917-04-03_1917-04-03"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "03.04.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-04-03_1917-04-03"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2989475891936503231"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911678"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5885751055569274389"
+        },
+        {
+            "@id": "label:l2989213841045239716"
+        },
+        {
+            "@id": "label:l2687098451545247625"
+        },
+        {
+            "@id": "label:l1470478154436228746"
+        },
+        {
+            "@id": "label:l1331004582000615245"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3156965508297032860"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911678"
+    },
+    "semparl:sortingLabel": "vahe iisakki",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911678"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911678.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Iisakki_Vahe"
+        },
+        {
+            "@id": "wd:Q5482759"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2207783480091037461"
+        },
+        {
+            "@id": "event:e1423736870587941671"
+        },
+        {
+            "@id": "event:e1150574779299394193"
+        },
+        {
+            "@id": "event:e1428490913371684361"
+        },
+        {
+            "@id": "event:e3593354623775527337"
+        },
+        {
+            "@id": "event:e5750445642943549268"
+        },
+        {
+            "@id": "event:e7617271904926752201"
+        },
+        {
+            "@id": "event:e1156456655446282254"
+        },
+        {
+            "@id": "event:e3082338947302215690"
+        },
+        {
+            "@id": "event:e1687877102467358467"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2363331272135787139"
+        },
+        {
+            "@id": "event:e3468421705642953525"
+        },
+        {
+            "@id": "event:e1215177360344953404"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vahe, Iisakki (1860-1929)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Vahe, Isak"
+        },
+        {
+            "@language": "fi",
+            "@value": "Vähävahe, Isak"
+        },
+        {
+            "@language": "fi",
+            "@value": "Eskola, Iisakki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Eskola, Isak"
+        },
+        {
+            "@language": "fi",
+            "@value": "Vähävahe, Iisakki"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1378704"
+    },
+    "semparl:id": "911678",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

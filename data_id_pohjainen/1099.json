@@ -1,0 +1,304 @@
+{
+    "@id": "people:p1099",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Turku"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8466483756473407791"
+        },
+        {
+            "@id": "affiliations:a8266110579127231018"
+        },
+        {
+            "@id": "affiliations:a7190192058459689152"
+        },
+        {
+            "@id": "affiliations:a7146626821152067009"
+        },
+        {
+            "@id": "affiliations:a2996614767953526513"
+        },
+        {
+            "@id": "affiliations:a2637110570969235824"
+        },
+        {
+            "@id": "affiliations:a2132878420527271676"
+        },
+        {
+            "@id": "affiliations:a1924987447693957819"
+        },
+        {
+            "@id": "affiliations:a3382547017410891778"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1099.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, valtiotieteiden maisteri"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o44"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3394718403179997079"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1241181438671648119"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1099"
+    },
+    "semparl:sortingLabel": "eloranta eeva-johanna",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1099"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/633679/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eeva-Johanna%20Eloranta.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1099.aspx"
+        },
+        {
+            "@id": "yle:18-153648"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eeva-Johanna_Eloranta"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Eeva-Johanna_Eloranta"
+        },
+        {
+            "@id": "wd:Q11856861"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1477567239065090942"
+        },
+        {
+            "@id": "event:e3047771768565574028"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3035313106708502521"
+        },
+        {
+            "@id": "event:e2420390577368058827"
+        },
+        {
+            "@id": "event:e9489476848255573073"
+        },
+        {
+            "@id": "event:e9543928604285646532"
+        },
+        {
+            "@id": "event:e1994337994434929436"
+        },
+        {
+            "@id": "event:e8595437917981166389"
+        },
+        {
+            "@id": "event:e1187322232393125944"
+        },
+        {
+            "@id": "event:e5773301165620868075"
+        },
+        {
+            "@id": "event:e3394468743864580775"
+        },
+        {
+            "@id": "event:e2528095864991819273"
+        },
+        {
+            "@id": "event:e1951623814299795892"
+        },
+        {
+            "@id": "event:e2140194989773253827"
+        },
+        {
+            "@id": "event:e2065573746544843343"
+        },
+        {
+            "@id": "event:e3844043772633014591"
+        },
+        {
+            "@id": "event:e1737203206402028900"
+        },
+        {
+            "@id": "event:e1232990840193873762"
+        },
+        {
+            "@id": "event:e5748006123597510711"
+        },
+        {
+            "@id": "event:e4968375126110877643"
+        },
+        {
+            "@id": "event:e2335275818776472487"
+        },
+        {
+            "@id": "event:e6038295297143536046"
+        },
+        {
+            "@id": "event:e3650238343849928528"
+        },
+        {
+            "@id": "event:e2885897233080253316"
+        },
+        {
+            "@id": "event:e2656148922784770803"
+        },
+        {
+            "@id": "event:e2787753587698333437"
+        },
+        {
+            "@id": "event:e1886440250300774106"
+        },
+        {
+            "@id": "event:e3255259232335675146"
+        },
+        {
+            "@id": "event:e3034976098998531569"
+        },
+        {
+            "@id": "event:e2728082267056168012"
+        },
+        {
+            "@id": "event:e1585514955835634955"
+        },
+        {
+            "@id": "event:e2617742970561912822"
+        },
+        {
+            "@id": "event:e2730069149676366867"
+        },
+        {
+            "@id": "event:e4129309063181848146"
+        },
+        {
+            "@id": "event:e1960465550210568844"
+        },
+        {
+            "@id": "event:e3377705962122515123"
+        },
+        {
+            "@id": "event:e1936107677105310391"
+        },
+        {
+            "@id": "event:e2629884095119241902"
+        },
+        {
+            "@id": "event:e1251804980537514004"
+        },
+        {
+            "@id": "event:e7474579070732639589"
+        },
+        {
+            "@id": "event:e1499228177536080414"
+        },
+        {
+            "@id": "event:e8054906853995601639"
+        },
+        {
+            "@id": "event:e2743456654929417819"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Eloranta, Eeva-Johanna (1966-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "1099",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

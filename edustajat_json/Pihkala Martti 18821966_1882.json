@@ -1,0 +1,246 @@
+{
+    "@id": "people:p911252",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pihkala(v:een 1906 Gummerus), Martti Aleksander"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911252.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1930-10-21_1930-10-21_1933-08-31_1933-08-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, toimitusjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1933",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1933-08-31_1933-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o111"
+        },
+        {
+            "@id": "occupations:o83"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2869714897610666303"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911252"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l1674580725051088400"
+        },
+        {
+            "@id": "label:l1250260687118261097"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2379859538193564946"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911252"
+    },
+    "semparl:sortingLabel": "pihkala martti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911252"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Martti%20Pihkala%201918.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911252.aspx"
+        },
+        {
+            "@id": "natbib:7724"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Martti_Pihkala"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Martti_Pihkala"
+        },
+        {
+            "@id": "wd:Q11881337"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2288"
+        },
+        {
+            "@id": "finaf:000106483"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2826"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3240795229101885181"
+        },
+        {
+            "@id": "event:e8145180360730075718"
+        },
+        {
+            "@id": "event:e8070474731982898205"
+        },
+        {
+            "@id": "event:e1659997819855800336"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9550645825702651337"
+        },
+        {
+            "@id": "event:e1535069238384442188"
+        },
+        {
+            "@id": "event:e3138921019125144886"
+        },
+        {
+            "@id": "event:e1403038409739541333"
+        },
+        {
+            "@id": "event:e3983219835245728890"
+        },
+        {
+            "@id": "event:e2802635157259760342"
+        },
+        {
+            "@id": "event:e1366945583512575442"
+        },
+        {
+            "@id": "event:e3351779766193417446"
+        },
+        {
+            "@id": "event:e3089211601107567727"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e1649467479212328664"
+        },
+        {
+            "@id": "event:e1876319078818370202"
+        },
+        {
+            "@id": "event:e2847897751873767560"
+        },
+        {
+            "@id": "event:e2772793382082904563"
+        },
+        {
+            "@id": "event:e2908237453686033378"
+        },
+        {
+            "@id": "event:e5043257559309886287"
+        },
+        {
+            "@id": "event:e3072886983415087380"
+        },
+        {
+            "@id": "event:e2994448078798785228"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pihkala, Martti (1882-1966)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Gummerus, Martti Aleksander"
+        },
+        {
+            "@language": "fi",
+            "@value": "Pihkala, Martti Aleksander"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911252",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

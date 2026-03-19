@@ -1,0 +1,286 @@
+{
+    "@id": "people:p910091",
+    "semparl:authored": {
+        "@id": "publications:b1338580065138539265"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Luja-Penttilä(e. Luja, e. Luja-Vepsä), Sinikka Marjatta"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910091.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1966-04-05_1966-04-05_1983-03-25_1983-03-25"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kustannustoimittaja, sosiaalineuvos"
+    },
+    "semparl:end_of_representative_period_text": "25.03.1983",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1983-03-25_1983-03-25"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1096"
+        },
+        {
+            "@id": "occupations:o907"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p7609021186217618322"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2006062747881715021"
+        },
+        {
+            "@id": "label:l1865446809694525336"
+        },
+        {
+            "@id": "label:l1349875726198192340"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3192319481631122140"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910091"
+    },
+    "semparl:sortingLabel": "luja-penttilä sinikka",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910091"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Sinikka-Luja-Penttila-1970.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910091.aspx"
+        },
+        {
+            "@id": "natbib:4040"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Sinikka_Luja-Penttil%C3%A4"
+        },
+        {
+            "@id": "wd:Q16985266"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4537"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e9859940435179910137"
+        },
+        {
+            "@id": "event:e2737834139324823750"
+        },
+        {
+            "@id": "event:e3335349957966126931"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6902594569583717198"
+        },
+        {
+            "@id": "event:e3170373728658170834"
+        },
+        {
+            "@id": "event:e2487738734624002268"
+        },
+        {
+            "@id": "event:e2254523261160827973"
+        },
+        {
+            "@id": "event:e1653390053776125131"
+        },
+        {
+            "@id": "event:e1839610076194019634"
+        },
+        {
+            "@id": "event:e4568697784234931045"
+        },
+        {
+            "@id": "event:e3266608785095703835"
+        },
+        {
+            "@id": "event:e7597384120876096235"
+        },
+        {
+            "@id": "event:e7279787667561476805"
+        },
+        {
+            "@id": "event:e8045485104419327027"
+        },
+        {
+            "@id": "event:e1665413526798996971"
+        },
+        {
+            "@id": "event:e2907593440170756832"
+        },
+        {
+            "@id": "event:e3109681380122781978"
+        },
+        {
+            "@id": "event:e1518205146985837162"
+        },
+        {
+            "@id": "event:e1257035630260290305"
+        },
+        {
+            "@id": "event:e2625611950507243328"
+        },
+        {
+            "@id": "event:e4393857686613533373"
+        },
+        {
+            "@id": "event:e1063609031807402428"
+        },
+        {
+            "@id": "event:e2168325060181250625"
+        },
+        {
+            "@id": "event:e7723494426312325899"
+        },
+        {
+            "@id": "event:e3399229580234190842"
+        },
+        {
+            "@id": "event:e1713925384158747875"
+        },
+        {
+            "@id": "event:e3241949396016256260"
+        },
+        {
+            "@id": "event:e1589234674144052840"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e1604063138215028343"
+        },
+        {
+            "@id": "event:e2743368093015744020"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Luja-Penttilä, Sinikka (1924-)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Luja, Sinikka Marjatta"
+        },
+        {
+            "@language": "fi",
+            "@value": "Luja-Penttilä, Sinikka Marjatta"
+        },
+        {
+            "@language": "fi",
+            "@value": "Luja-Vepsä, Sinikka Marjatta"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910091",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

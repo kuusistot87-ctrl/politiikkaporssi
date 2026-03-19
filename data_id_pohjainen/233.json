@@ -1,0 +1,363 @@
+{
+    "@id": "people:p233",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p1064943757144202481"
+    },
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b4793557190517874995"
+        },
+        {
+            "@id": "publications:b2948919073605833071"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Rehn, Märta Elisabeth"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:233.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1979-03-24_1979-03-24_1995-03-23_1995-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "alipääsihteeri, diplomiekonomi"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1995",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1995-03-23_1995-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o293"
+        },
+        {
+            "@id": "occupations:o141"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1720633994972130266"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1326765886133779954"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l8538714573157626447"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=233"
+    },
+    "semparl:sortingLabel": "rehn elisabeth",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b233"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Elisabeth%20Rehn%20in%202015.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:233.aspx"
+        },
+        {
+            "@id": "yle:18-195150"
+        },
+        {
+            "@id": "viaf:203972420"
+        },
+        {
+            "@id": "natbib:4067"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Elisabeth_Rehn"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Elisabeth_Rehn"
+        },
+        {
+            "@id": "wd:Q297856"
+        },
+        {
+            "@id": "finaf:000095762"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5116"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2512214945786046943"
+        },
+        {
+            "@id": "event:e2018061471281474712"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3272940519302559827"
+        },
+        {
+            "@id": "event:e3046580740701502130"
+        },
+        {
+            "@id": "event:e2509861656921425569"
+        },
+        {
+            "@id": "event:e2259780496845106026"
+        },
+        {
+            "@id": "event:e2034174772529811399"
+        },
+        {
+            "@id": "event:e1180169141216228736"
+        },
+        {
+            "@id": "event:e1552754485223932281"
+        },
+        {
+            "@id": "event:e6962627011953153397"
+        },
+        {
+            "@id": "event:e2983144231068757024"
+        },
+        {
+            "@id": "event:e4311185457335581600"
+        },
+        {
+            "@id": "event:e5821132673607332799"
+        },
+        {
+            "@id": "event:e1672952922963845649"
+        },
+        {
+            "@id": "event:e2756548009623008262"
+        },
+        {
+            "@id": "event:e2063532701746961239"
+        },
+        {
+            "@id": "event:e2405990907078233916"
+        },
+        {
+            "@id": "event:e3393129745748056157"
+        },
+        {
+            "@id": "event:e3288089038019829397"
+        },
+        {
+            "@id": "event:e5501838478984809589"
+        },
+        {
+            "@id": "event:e2169472884138034862"
+        },
+        {
+            "@id": "event:e3131280791468793930"
+        },
+        {
+            "@id": "event:e6750745390955593539"
+        },
+        {
+            "@id": "event:e4585092822899466368"
+        },
+        {
+            "@id": "event:e6803257379984993863"
+        },
+        {
+            "@id": "event:e1309199955642920512"
+        },
+        {
+            "@id": "event:e4093042700933573696"
+        },
+        {
+            "@id": "event:e2360475744858379186"
+        },
+        {
+            "@id": "event:e2231200540360763754"
+        },
+        {
+            "@id": "event:e1931968428411970729"
+        },
+        {
+            "@id": "event:e2463930563260993046"
+        },
+        {
+            "@id": "event:e1056858923841214891"
+        },
+        {
+            "@id": "event:e2759574804649176766"
+        },
+        {
+            "@id": "event:e2090529543945364636"
+        },
+        {
+            "@id": "event:e3386581541824648346"
+        },
+        {
+            "@id": "event:e1690213802214550260"
+        },
+        {
+            "@id": "event:e1495537007477927129"
+        },
+        {
+            "@id": "event:e2775722323346259970"
+        },
+        {
+            "@id": "event:e9423462544844745812"
+        },
+        {
+            "@id": "event:e6417369918248884498"
+        },
+        {
+            "@id": "event:e5758608452124271633"
+        },
+        {
+            "@id": "event:e7191345610660940901"
+        },
+        {
+            "@id": "event:e3103947530913294256"
+        },
+        {
+            "@id": "event:e3351386209526668176"
+        },
+        {
+            "@id": "event:e1471575263114395860"
+        },
+        {
+            "@id": "event:e7066935053634332433"
+        },
+        {
+            "@id": "event:e3235902132004454776"
+        },
+        {
+            "@id": "event:e3901587807961657435"
+        },
+        {
+            "@id": "event:e2256044514525845557"
+        },
+        {
+            "@id": "event:e2459258104416959502"
+        },
+        {
+            "@id": "event:e1847230538123949343"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e9484035004013130769"
+        },
+        {
+            "@id": "event:e1791637697854257615"
+        },
+        {
+            "@id": "event:e1919420831460314587"
+        },
+        {
+            "@id": "event:e4322498478323703535"
+        },
+        {
+            "@id": "event:e1207375667888736169"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e6550734823094622237"
+        },
+        {
+            "@id": "event:e2449105882980807355"
+        },
+        {
+            "@id": "event:e3364790642863920148"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Rehn, Elisabeth (1935-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Rehn, Märta Elisabeth"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "233",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

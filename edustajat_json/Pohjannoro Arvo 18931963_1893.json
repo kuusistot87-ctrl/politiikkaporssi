@@ -1,0 +1,243 @@
+{
+    "@id": "people:p911269",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pohjannoro(v:een 1906 Floor), Frans Arvo Ilmari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911269.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1936-09-01_1936-09-01_1948-07-21_1948-07-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirkkoherra, rovasti"
+    },
+    "semparl:end_of_representative_period_text": "21.07.1948",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1948-07-21_1948-07-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o593"
+        },
+        {
+            "@id": "occupations:o29"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3889489874854156025"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911269"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l1987683417808976194"
+        },
+        {
+            "@id": "label:l1378979613636242916"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2115681142270159452"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911269"
+    },
+    "semparl:sortingLabel": "pohjannoro arvo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911269"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911269.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Arvo_Pohjannoro"
+        },
+        {
+            "@id": "wd:Q18354506"
+        },
+        {
+            "@id": "finaf:000070186"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2870152843440939443"
+        },
+        {
+            "@id": "event:e2307873703892205119"
+        },
+        {
+            "@id": "event:e1520205619413761124"
+        },
+        {
+            "@id": "event:e8251876609623381629"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4824045180464315890"
+        },
+        {
+            "@id": "event:e3385992025884282685"
+        },
+        {
+            "@id": "event:e9649070786351047034"
+        },
+        {
+            "@id": "event:e1515608959166965291"
+        },
+        {
+            "@id": "event:e7543942467080168790"
+        },
+        {
+            "@id": "event:e9422063725720287961"
+        },
+        {
+            "@id": "event:e1426617706841383317"
+        },
+        {
+            "@id": "event:e3987988214106935805"
+        },
+        {
+            "@id": "event:e1077424752375375984"
+        },
+        {
+            "@id": "event:e1028567789358003015"
+        },
+        {
+            "@id": "event:e2592350354274353566"
+        },
+        {
+            "@id": "event:e3178644142930204000"
+        },
+        {
+            "@id": "event:e5768468966300830660"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e1350279541937484573"
+        },
+        {
+            "@id": "event:e3243979703643277717"
+        },
+        {
+            "@id": "event:e3805029313417579056"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pohjannoro, Arvo (1893-1963)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Pohjannoro, Frans Arvo Ilmari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Floor, Frans Arvo Ilmari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911269",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

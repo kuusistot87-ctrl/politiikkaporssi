@@ -1,0 +1,224 @@
+{
+    "@id": "people:p910440",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Heikkilä(e. Artig), Bernhard"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910440.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1924-05-01_1924-05-01_1930-10-20_1930-10-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, herastuomari, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.10.1930",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1930-10-20_1930-10-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o423"
+        },
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p4752374412623282524"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910440"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1984426705156488614"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2158652501851164405"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910440"
+    },
+    "semparl:sortingLabel": "heikkilä bernhard",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910440"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910440.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Bernhard_Heikkil%C3%A4"
+        },
+        {
+            "@id": "wd:Q11854145"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2497001590598610684"
+        },
+        {
+            "@id": "event:e2352009199890034778"
+        },
+        {
+            "@id": "event:e1354740965975097471"
+        },
+        {
+            "@id": "event:e2071638740219922954"
+        },
+        {
+            "@id": "event:e2660813977728526789"
+        },
+        {
+            "@id": "event:e2015831953063692712"
+        },
+        {
+            "@id": "event:e2417464463243638948"
+        },
+        {
+            "@id": "event:e7065271642572643864"
+        },
+        {
+            "@id": "event:e2237391632053542142"
+        },
+        {
+            "@id": "event:e1985173205768401677"
+        },
+        {
+            "@id": "event:e1133797901163945497"
+        },
+        {
+            "@id": "event:e2900865587465488596"
+        },
+        {
+            "@id": "event:e8692820149766542442"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2380509176474237319"
+        },
+        {
+            "@id": "event:e2143599635608553826"
+        },
+        {
+            "@id": "event:e9774407996468321101"
+        },
+        {
+            "@id": "event:e1954964855427201686"
+        },
+        {
+            "@id": "event:e2626905291166861343"
+        },
+        {
+            "@id": "event:e8695749949718355226"
+        },
+        {
+            "@id": "event:e2311377670927930952"
+        },
+        {
+            "@id": "event:e7543627410217923713"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Heikkilä, Bernhard (1882-1931)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Artig, Bernhard"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910440",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "@id": "people:p956",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p3359418200377698890"
+    },
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Niinistö, Ville Matti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:956.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen maisteri, tutkija"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o642"
+        },
+        {
+            "@id": "occupations:o44"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2201828767624661808"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2164044025782392437"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1115440690589833148"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=956"
+    },
+    "semparl:sortingLabel": "niinistö ville",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b956"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:956.aspx"
+        },
+        {
+            "@id": "viaf:2357156919250354970007"
+        },
+        {
+            "@id": "twitter:VilleNiinisto"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ville_Niinist%C3%B6"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Ville_Niinist%C3%B6"
+        },
+        {
+            "@id": "wd:Q2366466"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2930781799878332310"
+        },
+        {
+            "@id": "event:e6306931721947041209"
+        },
+        {
+            "@id": "event:e3306791846864099815"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3679777046805231872"
+        },
+        {
+            "@id": "event:e2801809820576291956"
+        },
+        {
+            "@id": "event:e2649219308069318505"
+        },
+        {
+            "@id": "event:e2441214268301690151"
+        },
+        {
+            "@id": "event:e1453014039327826262"
+        },
+        {
+            "@id": "event:e1225139435836035257"
+        },
+        {
+            "@id": "event:e3224714495414555593"
+        },
+        {
+            "@id": "event:e3363631707343384879"
+        },
+        {
+            "@id": "event:e2506230059117996807"
+        },
+        {
+            "@id": "event:e2047803399478999922"
+        },
+        {
+            "@id": "event:e2823746416311132109"
+        },
+        {
+            "@id": "event:e2053579763439231892"
+        },
+        {
+            "@id": "event:e3229391067812339556"
+        },
+        {
+            "@id": "event:e2837833861767765663"
+        },
+        {
+            "@id": "event:e1182128815570016415"
+        },
+        {
+            "@id": "event:e2086288220767356604"
+        },
+        {
+            "@id": "event:e2215470684805863014"
+        },
+        {
+            "@id": "event:e2374836476131260896"
+        },
+        {
+            "@id": "event:e3140092147462706585"
+        },
+        {
+            "@id": "event:e4761171411256097570"
+        },
+        {
+            "@id": "event:e2757000375297021914"
+        },
+        {
+            "@id": "event:e2441937024267259142"
+        },
+        {
+            "@id": "event:e2517555061204669165"
+        },
+        {
+            "@id": "event:e2269521018095327725"
+        },
+        {
+            "@id": "event:e5784010357572356983"
+        },
+        {
+            "@id": "event:e1656979178807282205"
+        },
+        {
+            "@id": "event:e1637748184360206763"
+        },
+        {
+            "@id": "event:e2112543241812437407"
+        },
+        {
+            "@id": "event:e2446874435445722427"
+        },
+        {
+            "@id": "event:e2600221316461807351"
+        },
+        {
+            "@id": "event:e3345987975076565477"
+        },
+        {
+            "@id": "event:e4907003921764678602"
+        },
+        {
+            "@id": "event:e1269888848225097030"
+        },
+        {
+            "@id": "event:e2899736847040549098"
+        },
+        {
+            "@id": "event:e2017841965067507597"
+        },
+        {
+            "@id": "event:e2413118903460661792"
+        },
+        {
+            "@id": "event:e4401772747011570453"
+        },
+        {
+            "@id": "event:e6697146585212292702"
+        },
+        {
+            "@id": "event:e1188189086279822131"
+        },
+        {
+            "@id": "event:e3690100835655931781"
+        },
+        {
+            "@id": "event:e1748176797446747890"
+        },
+        {
+            "@id": "event:e2860326406031906017"
+        },
+        {
+            "@id": "event:e1815638184149053168"
+        },
+        {
+            "@id": "event:e1037342542391742799"
+        },
+        {
+            "@id": "event:e1030235202310731770"
+        },
+        {
+            "@id": "event:e7748923021730162166"
+        },
+        {
+            "@id": "event:e2731581593732541466"
+        },
+        {
+            "@id": "event:e3295174679864596597"
+        },
+        {
+            "@id": "event:e3145992873245315340"
+        },
+        {
+            "@id": "event:e6984210730887130199"
+        },
+        {
+            "@id": "event:e2332301667498277137"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Niinistö, Ville (1976-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Niinistö, Ville Matti"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "956",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

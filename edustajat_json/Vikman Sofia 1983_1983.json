@@ -1,0 +1,329 @@
+{
+    "@id": "people:p1134",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Tampere"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8440312532759106542"
+        },
+        {
+            "@id": "affiliations:a3149262598334204347"
+        },
+        {
+            "@id": "affiliations:a3034016620606624808"
+        },
+        {
+            "@id": "affiliations:a2914706237365718341"
+        },
+        {
+            "@id": "affiliations:a2889229357920446510"
+        },
+        {
+            "@id": "affiliations:a2804605868647921948"
+        },
+        {
+            "@id": "affiliations:a2721514619533977360"
+        },
+        {
+            "@id": "affiliations:a2640180120544289373"
+        },
+        {
+            "@id": "affiliations:a2453961529774387273"
+        },
+        {
+            "@id": "affiliations:a2274947736089300462"
+        },
+        {
+            "@id": "affiliations:a2244688237712520080"
+        },
+        {
+            "@id": "affiliations:a2205895547944325999"
+        },
+        {
+            "@id": "affiliations:a1980826012775208967"
+        },
+        {
+            "@id": "affiliations:a1967657480488217353"
+        },
+        {
+            "@id": "affiliations:a1858680934199603215"
+        },
+        {
+            "@id": "affiliations:a1606469037287419138"
+        },
+        {
+            "@id": "affiliations:a1270803487471356049"
+        },
+        {
+            "@id": "affiliations:a1020557400391744240"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1134.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yhteiskuntatieteiden maisteri"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o62"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1378791519141356921"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2025305087003231903"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1134"
+    },
+    "semparl:sortingLabel": "vikman maria sofia charlotta",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1134"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/634963/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Sofia%20vikman.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1134.aspx"
+        },
+        {
+            "@id": "yle:18-290369"
+        },
+        {
+            "@id": "twitter:SofiaVikman"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Sofia_Vikman"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Sofia_Vikman"
+        },
+        {
+            "@id": "wd:Q4357930"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4172388443403897718"
+        },
+        {
+            "@id": "event:e2080375493336562020"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2868037238006398009"
+        },
+        {
+            "@id": "event:e1417526653328607958"
+        },
+        {
+            "@id": "event:e1000591155991182571"
+        },
+        {
+            "@id": "event:e1365063698694750138"
+        },
+        {
+            "@id": "event:e6730816212442713564"
+        },
+        {
+            "@id": "event:e3101430157079234148"
+        },
+        {
+            "@id": "event:e2859205912297734472"
+        },
+        {
+            "@id": "event:e7814640579167636556"
+        },
+        {
+            "@id": "event:e2564589655678708690"
+        },
+        {
+            "@id": "event:e6404485371797238972"
+        },
+        {
+            "@id": "event:e2942341103965147225"
+        },
+        {
+            "@id": "event:e5061332510811173681"
+        },
+        {
+            "@id": "event:e9912316399269766944"
+        },
+        {
+            "@id": "event:e2528593350079264949"
+        },
+        {
+            "@id": "event:e7625168777652843302"
+        },
+        {
+            "@id": "event:e1413780691433504171"
+        },
+        {
+            "@id": "event:e1901245802353771054"
+        },
+        {
+            "@id": "event:e6930834127979261320"
+        },
+        {
+            "@id": "event:e1083769381185066320"
+        },
+        {
+            "@id": "event:e1060706131588301711"
+        },
+        {
+            "@id": "event:e3297590749681075057"
+        },
+        {
+            "@id": "event:e1620415241463182593"
+        },
+        {
+            "@id": "event:e5253049100400118123"
+        },
+        {
+            "@id": "event:e1139553436232478240"
+        },
+        {
+            "@id": "event:e2866126604262505340"
+        },
+        {
+            "@id": "event:e2799772602418249861"
+        },
+        {
+            "@id": "event:e1745368633056159582"
+        },
+        {
+            "@id": "event:e2427504708264944651"
+        },
+        {
+            "@id": "event:e5291706468186171081"
+        },
+        {
+            "@id": "event:e2518639851011286920"
+        },
+        {
+            "@id": "event:e2519356990439547001"
+        },
+        {
+            "@id": "event:e1613774182206638759"
+        },
+        {
+            "@id": "event:e3197163792122224869"
+        },
+        {
+            "@id": "event:e3196792873839282212"
+        },
+        {
+            "@id": "event:e1260634773430868435"
+        },
+        {
+            "@id": "event:e2789234354401289066"
+        },
+        {
+            "@id": "event:e2313789727045476441"
+        },
+        {
+            "@id": "event:e5636439905676823865"
+        },
+        {
+            "@id": "event:e3435035277078696323"
+        },
+        {
+            "@id": "event:e7112376134956277877"
+        },
+        {
+            "@id": "event:e6894856817276645259"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vikman, Sofia (1983-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1134",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

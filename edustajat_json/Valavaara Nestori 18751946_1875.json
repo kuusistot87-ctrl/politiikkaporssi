@@ -1,0 +1,201 @@
+{
+    "@id": "people:p911688",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p3435540106137225417"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Valavaara(e. Wallenius), Johan Nestor (Nestori)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911688.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1917-04-03_1917-04-03"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "liikkeenomistaja"
+    },
+    "semparl:end_of_representative_period_text": "03.04.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-04-03_1917-04-03"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1609"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p4932472767393728701"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911688"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3876193914477084049"
+        },
+        {
+            "@id": "label:l3189088701714148239"
+        },
+        {
+            "@id": "label:l2404323119919362867"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1250828416218537666"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911688"
+    },
+    "semparl:sortingLabel": "valavaara nestori",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911688"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Nestori%20Valavaara.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911688.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Nestori_Valavaara"
+        },
+        {
+            "@id": "wd:Q11884217"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3190992707121963792"
+        },
+        {
+            "@id": "event:e2725395745864850068"
+        },
+        {
+            "@id": "event:e2335957411882020405"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1863258391498243490"
+        },
+        {
+            "@id": "event:e1425895767676698518"
+        },
+        {
+            "@id": "event:e1674168833067939485"
+        },
+        {
+            "@id": "event:e9774647190133572816"
+        },
+        {
+            "@id": "event:e1092362717075574564"
+        },
+        {
+            "@id": "event:e1441963298132322813"
+        },
+        {
+            "@id": "event:e8064034854278654723"
+        },
+        {
+            "@id": "event:e1108610030236049806"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Valavaara, Nestori (1875-1946)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Wallenius, Nestori"
+        },
+        {
+            "@language": "fi",
+            "@value": "Wallenius, Johan Nestor"
+        },
+        {
+            "@language": "fi",
+            "@value": "Valavaara, Johan Nestor"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911688",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

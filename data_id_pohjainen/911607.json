@@ -1,0 +1,251 @@
+{
+    "@id": "people:p911607",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tervo, Penna"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911607.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1945-04-06_1945-04-06_1956-02-26_1956-02-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "pankinjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "26.02.1956",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1956-02-26_1956-02-26"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o214"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1771672208695148000"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911607"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1989470673561601373"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911607"
+    },
+    "semparl:sortingLabel": "tervo penna",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911607"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Penna-Tervo.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911607.aspx"
+        },
+        {
+            "@id": "natbib:677"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Penna_Tervo"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Penna_Tervo"
+        },
+        {
+            "@id": "wd:Q11887308"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2372"
+        },
+        {
+            "@id": "finaf:000107399"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5389"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1515323452640491287"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9772987621568367054"
+        },
+        {
+            "@id": "event:e9230944442165912888"
+        },
+        {
+            "@id": "event:e6654943193065745885"
+        },
+        {
+            "@id": "event:e3115387800086697618"
+        },
+        {
+            "@id": "event:e2163382588593836945"
+        },
+        {
+            "@id": "event:e1506566013395047476"
+        },
+        {
+            "@id": "event:e7932563745399683470"
+        },
+        {
+            "@id": "event:e2128422593363184287"
+        },
+        {
+            "@id": "event:e3311796173938719053"
+        },
+        {
+            "@id": "event:e1346165600165375757"
+        },
+        {
+            "@id": "event:e3113672804363079347"
+        },
+        {
+            "@id": "event:e1591135345225074332"
+        },
+        {
+            "@id": "event:e9254364433556438423"
+        },
+        {
+            "@id": "event:e2431630658839747262"
+        },
+        {
+            "@id": "event:e2446459337104658596"
+        },
+        {
+            "@id": "event:e9539004495771703784"
+        },
+        {
+            "@id": "event:e1841065602267441239"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e1864990628191662620"
+        },
+        {
+            "@id": "event:e9261070303255019413"
+        },
+        {
+            "@id": "event:e3270442482455306844"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e6259272761966056568"
+        },
+        {
+            "@id": "event:e2030764516669239209"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tervo, Penna (1901-1956)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911607",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

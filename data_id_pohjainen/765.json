@@ -1,0 +1,533 @@
+{
+    "@id": "people:p765",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b8702863540153728831"
+        },
+        {
+            "@id": "publications:b2718343045948269311"
+        },
+        {
+            "@id": "publications:b2372367715147179573"
+        },
+        {
+            "@id": "publications:b2328572258606626883"
+        },
+        {
+            "@id": "publications:b1246319843873220378"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lahti, Jere Kaleva"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:765.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "vuorineuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o620"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1147658680788179270"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d765"
+    },
+    "xl:altLabel": {
+        "@id": "label:l9730439138543805214"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1921778234625884318"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=765"
+    },
+    "semparl:sortingLabel": "lahti jere",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b765"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:765.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jere_Lahti"
+        },
+        {
+            "@id": "wd:Q11866372"
+        },
+        {
+            "@id": "finaf:000069562"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p11955"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2927148281532365713"
+        },
+        {
+            "@id": "event:e5122937350896214464"
+        },
+        {
+            "@id": "event:e9750835011666574382"
+        },
+        {
+            "@id": "event:e1820975731596760708"
+        },
+        {
+            "@id": "event:e7317622820358652582"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2253309688630886007"
+        },
+        {
+            "@id": "event:e2379587255321672937"
+        },
+        {
+            "@id": "event:e1594990187968303864"
+        },
+        {
+            "@id": "event:e3152732398853552824"
+        },
+        {
+            "@id": "event:e3034692448874680861"
+        },
+        {
+            "@id": "event:e1600750446737785774"
+        },
+        {
+            "@id": "event:e7330344178683938088"
+        },
+        {
+            "@id": "event:e3910393360174242956"
+        },
+        {
+            "@id": "event:e2293916197953669310"
+        },
+        {
+            "@id": "event:e1926364593119484201"
+        },
+        {
+            "@id": "event:e2982477558366448263"
+        },
+        {
+            "@id": "event:e1208711552001501717"
+        },
+        {
+            "@id": "event:e2798737223758349303"
+        },
+        {
+            "@id": "event:e2515444995717788969"
+        },
+        {
+            "@id": "event:e4664077853441096227"
+        },
+        {
+            "@id": "event:e2495821090804934834"
+        },
+        {
+            "@id": "event:e1352202349977968964"
+        },
+        {
+            "@id": "event:e1888496330404769657"
+        },
+        {
+            "@id": "event:e3300237434474333340"
+        },
+        {
+            "@id": "event:e2314426432077024542"
+        },
+        {
+            "@id": "event:e4117386045029725330"
+        },
+        {
+            "@id": "event:e1939127878883735391"
+        },
+        {
+            "@id": "event:e1841907919223925852"
+        },
+        {
+            "@id": "event:e4465527860254543870"
+        },
+        {
+            "@id": "event:e1810400841757510300"
+        },
+        {
+            "@id": "event:e2465900905669227203"
+        },
+        {
+            "@id": "event:e3293942510121494647"
+        },
+        {
+            "@id": "event:e1270499491509492679"
+        },
+        {
+            "@id": "event:e2813366874490928733"
+        },
+        {
+            "@id": "event:e6054609595339984948"
+        },
+        {
+            "@id": "event:e4237763827235830300"
+        },
+        {
+            "@id": "event:e3098536628648028735"
+        },
+        {
+            "@id": "event:e2958045476612519315"
+        },
+        {
+            "@id": "event:e1521996247627008371"
+        },
+        {
+            "@id": "event:e1564535551792345838"
+        },
+        {
+            "@id": "event:e1561547809019816700"
+        },
+        {
+            "@id": "event:e2488775760308628724"
+        },
+        {
+            "@id": "event:e2870433784557263811"
+        },
+        {
+            "@id": "event:e4798204070558063312"
+        },
+        {
+            "@id": "event:e2158876088342065929"
+        },
+        {
+            "@id": "event:e2152932890912640836"
+        },
+        {
+            "@id": "event:e3029659778959667074"
+        },
+        {
+            "@id": "event:e2978915197605706413"
+        },
+        {
+            "@id": "event:e2609587956178431291"
+        },
+        {
+            "@id": "event:e9559686442725598888"
+        },
+        {
+            "@id": "event:e2205322803334779203"
+        },
+        {
+            "@id": "event:e1678041095848275907"
+        },
+        {
+            "@id": "event:e8580474396289401092"
+        },
+        {
+            "@id": "event:e1899262382272045011"
+        },
+        {
+            "@id": "event:e2808592563361203783"
+        },
+        {
+            "@id": "event:e1606060388646468256"
+        },
+        {
+            "@id": "event:e2900621956996165298"
+        },
+        {
+            "@id": "event:e2436859999644172465"
+        },
+        {
+            "@id": "event:e1982122575779991497"
+        },
+        {
+            "@id": "event:e3169742550735299049"
+        },
+        {
+            "@id": "event:e1626464004748160419"
+        },
+        {
+            "@id": "event:e1288444888903978225"
+        },
+        {
+            "@id": "event:e1645538712812310938"
+        },
+        {
+            "@id": "event:e2888753562027460508"
+        },
+        {
+            "@id": "event:e1446042715713814629"
+        },
+        {
+            "@id": "event:e2282704945935272612"
+        },
+        {
+            "@id": "event:e1482776085923413960"
+        },
+        {
+            "@id": "event:e3018285469527420074"
+        },
+        {
+            "@id": "event:e8658368078205227033"
+        },
+        {
+            "@id": "event:e3372529900741087738"
+        },
+        {
+            "@id": "event:e3063842963736666703"
+        },
+        {
+            "@id": "event:e2313144838127440392"
+        },
+        {
+            "@id": "event:e1377256970723852886"
+        },
+        {
+            "@id": "event:e1036156982329161617"
+        },
+        {
+            "@id": "event:e1063597258919121489"
+        },
+        {
+            "@id": "event:e1321027480496345320"
+        },
+        {
+            "@id": "event:e1386156879709077019"
+        },
+        {
+            "@id": "event:e3268654705464158854"
+        },
+        {
+            "@id": "event:e2333504752764504576"
+        },
+        {
+            "@id": "event:e3122495977610124571"
+        },
+        {
+            "@id": "event:e1701802988096807391"
+        },
+        {
+            "@id": "event:e1712974444506714232"
+        },
+        {
+            "@id": "event:e1144587351656567601"
+        },
+        {
+            "@id": "event:e4091840809007697824"
+        },
+        {
+            "@id": "event:e2280569347943996682"
+        },
+        {
+            "@id": "event:e1178291130162367391"
+        },
+        {
+            "@id": "event:e2430754824017634502"
+        },
+        {
+            "@id": "event:e2567054993394263520"
+        },
+        {
+            "@id": "event:e1482654385287947933"
+        },
+        {
+            "@id": "event:e1913491734707673848"
+        },
+        {
+            "@id": "event:e2819045504146579097"
+        },
+        {
+            "@id": "event:e1306871259571987066"
+        },
+        {
+            "@id": "event:e2510950614286860791"
+        },
+        {
+            "@id": "event:e3780569306452596997"
+        },
+        {
+            "@id": "event:e2726861596785448348"
+        },
+        {
+            "@id": "event:e8404555748325184328"
+        },
+        {
+            "@id": "event:e1689171831441755664"
+        },
+        {
+            "@id": "event:e4872654597638940850"
+        },
+        {
+            "@id": "event:e3018872622585577347"
+        },
+        {
+            "@id": "event:e4810475542943294893"
+        },
+        {
+            "@id": "event:e1695919229543692822"
+        },
+        {
+            "@id": "event:e4907976362933591055"
+        },
+        {
+            "@id": "event:e3149829195870631154"
+        },
+        {
+            "@id": "event:e2367866195066599460"
+        },
+        {
+            "@id": "event:e3399403690900982692"
+        },
+        {
+            "@id": "event:e3318310601527064357"
+        },
+        {
+            "@id": "event:e1692941713243293939"
+        },
+        {
+            "@id": "event:e3329049884606521079"
+        },
+        {
+            "@id": "event:e1109746950503210249"
+        },
+        {
+            "@id": "event:e5563878850873055554"
+        },
+        {
+            "@id": "event:e1025694065232667641"
+        },
+        {
+            "@id": "event:e2569229857927460677"
+        },
+        {
+            "@id": "event:e1241873522962455342"
+        },
+        {
+            "@id": "event:e3011005724115045141"
+        },
+        {
+            "@id": "event:e6882852882363347662"
+        },
+        {
+            "@id": "event:e5678181536695803446"
+        },
+        {
+            "@id": "event:e1167848845490155878"
+        },
+        {
+            "@id": "event:e1383857182883008911"
+        },
+        {
+            "@id": "event:e3238450348390687760"
+        },
+        {
+            "@id": "event:e2162302965750430143"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lahti, Jere (1943-2020)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Lahti, Jere Kaleva"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "765",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

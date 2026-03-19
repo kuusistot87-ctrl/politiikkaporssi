@@ -1,0 +1,319 @@
+{
+    "@id": "people:p911297",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pusa, Enok (Eeno)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911297.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1961-10-20_1961-10-20_1962-02-19_1962-02-19"
+        },
+        {
+            "@id": "times:t_1955-02-11_1955-02-11_1958-07-21_1958-07-21"
+        },
+        {
+            "@id": "times:t_1945-04-06_1945-04-06_1951-07-20_1951-07-20"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "19.02.1962",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1962-02-19_1962-02-19"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p4000221027882242405"
+        },
+        {
+            "@id": "event:p3517578815959635769"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911297"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1544134122509212711"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1124679637134988310"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911297"
+    },
+    "semparl:sortingLabel": "pusa eeno",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911297"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911297.aspx"
+        },
+        {
+            "@id": "natbib:4763"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eeno_Pusa"
+        },
+        {
+            "@id": "wd:Q11856681"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5005"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2836623826885250741"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8162666687395503108"
+        },
+        {
+            "@id": "event:e7058100134532098747"
+        },
+        {
+            "@id": "event:e3341553461137301518"
+        },
+        {
+            "@id": "event:e3046608247162205349"
+        },
+        {
+            "@id": "event:e1829704774911302816"
+        },
+        {
+            "@id": "event:e3319074274242484378"
+        },
+        {
+            "@id": "event:e8592123538867750573"
+        },
+        {
+            "@id": "event:e2017945340655426838"
+        },
+        {
+            "@id": "event:e1273844941234501020"
+        },
+        {
+            "@id": "event:e9280704208478562659"
+        },
+        {
+            "@id": "event:e2441307633528719002"
+        },
+        {
+            "@id": "event:e2625818983227609955"
+        },
+        {
+            "@id": "event:e1352977115115425641"
+        },
+        {
+            "@id": "event:e3292433395060973527"
+        },
+        {
+            "@id": "event:e3771943926579825796"
+        },
+        {
+            "@id": "event:e2042505814839998269"
+        },
+        {
+            "@id": "event:e8004776348968474708"
+        },
+        {
+            "@id": "event:e2186561023386129223"
+        },
+        {
+            "@id": "event:e2863515679241773804"
+        },
+        {
+            "@id": "event:e2405679497760667374"
+        },
+        {
+            "@id": "event:e1378353160064397083"
+        },
+        {
+            "@id": "event:e2959403304141626974"
+        },
+        {
+            "@id": "event:e2861782181214456289"
+        },
+        {
+            "@id": "event:e7687760933264001769"
+        },
+        {
+            "@id": "event:e1279427203082562872"
+        },
+        {
+            "@id": "event:e1670074464979431288"
+        },
+        {
+            "@id": "event:e3287568473250638868"
+        },
+        {
+            "@id": "event:e8639557058227046497"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e1537996572334120863"
+        },
+        {
+            "@id": "event:e3321727552281988544"
+        },
+        {
+            "@id": "event:e2271953985800985218"
+        },
+        {
+            "@id": "event:e4655817447156711626"
+        },
+        {
+            "@id": "event:e2249735191335610016"
+        },
+        {
+            "@id": "event:e2391217836011175558"
+        },
+        {
+            "@id": "event:e8474632871748651560"
+        },
+        {
+            "@id": "event:e2023157409800272468"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2677953996912173496"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e1893086213496117268"
+        },
+        {
+            "@id": "event:e2221834017099615715"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e3476166643015121954"
+        },
+        {
+            "@id": "event:e1062259191725379293"
+        },
+        {
+            "@id": "event:e1696161858892372017"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pusa, Eeno (1888-1975)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pusa, Enok"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q1813319"
+        }
+    ],
+    "semparl:id": "911297",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

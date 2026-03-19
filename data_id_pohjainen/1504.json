@@ -1,0 +1,233 @@
+{
+    "@id": "people:p1504",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Naantali"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9744775881065933453"
+        },
+        {
+            "@id": "affiliations:a4368097183768784335"
+        },
+        {
+            "@id": "affiliations:a3903553111430726516"
+        },
+        {
+            "@id": "affiliations:a3352560113617782036"
+        },
+        {
+            "@id": "affiliations:a3325111462575899821"
+        },
+        {
+            "@id": "affiliations:a2919369769262776731"
+        },
+        {
+            "@id": "affiliations:a2638543046205471409"
+        },
+        {
+            "@id": "affiliations:a2486985105944749126"
+        },
+        {
+            "@id": "affiliations:a2451969187059713481"
+        },
+        {
+            "@id": "affiliations:a2303152299052027219"
+        },
+        {
+            "@id": "affiliations:a1907571399259856402"
+        },
+        {
+            "@id": "affiliations:a1769646674831094489"
+        },
+        {
+            "@id": "affiliations:a1709034691261110336"
+        },
+        {
+            "@id": "affiliations:a1502571254634474816"
+        },
+        {
+            "@id": "affiliations:a1179447963495206444"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1504.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2023-04-05_2023-04-05__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yrittäjä, työelämäprofessori"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o967"
+        },
+        {
+            "@id": "occupations:o355"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2561019469474218509"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l4573035142046153077"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1504"
+    },
+    "semparl:sortingLabel": "aalto-setälä pauli juhani",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1504"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/645212/"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1504.aspx"
+        },
+        {
+            "@id": "viaf:8913160668248103560006"
+        },
+        {
+            "@id": "twitter:PauliAS"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pauli_Aalto-Set%C3%A4l%C3%A4"
+        },
+        {
+            "@id": "wd:Q11886975"
+        },
+        {
+            "@id": "finaf:000122945"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3318282700269314075"
+        },
+        {
+            "@id": "event:e1439450725872352790"
+        },
+        {
+            "@id": "event:e2514609768418329616"
+        },
+        {
+            "@id": "event:e2629884095119241902"
+        },
+        {
+            "@id": "event:e2486657490125835330"
+        },
+        {
+            "@id": "event:e1249171064519142823"
+        },
+        {
+            "@id": "event:e1797100079809299044"
+        },
+        {
+            "@id": "event:e3578222079709577210"
+        },
+        {
+            "@id": "event:e1496038905876838787"
+        },
+        {
+            "@id": "event:e1002332755015191087"
+        },
+        {
+            "@id": "event:e1148262178618500883"
+        },
+        {
+            "@id": "event:e2619996025278544601"
+        },
+        {
+            "@id": "event:e3019543268085657797"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Aalto-Setälä, Pauli (1966-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1504",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

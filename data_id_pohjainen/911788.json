@@ -1,0 +1,251 @@
+{
+    "@id": "people:p911788",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p3235367291623268876"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Yrjö-Koskinen(v:een 1882 Forsman), Eino Sakari (E.S.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911788.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1917-04-03_1917-04-03"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rehtori, vapaaherra"
+    },
+    "semparl:end_of_representative_period_text": "03.04.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-04-03_1917-04-03"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1230"
+        },
+        {
+            "@id": "occupations:o63"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p6557218209764657650"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911788"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3172156811788434945"
+        },
+        {
+            "@id": "label:l2714780469095216751"
+        },
+        {
+            "@id": "label:l2592033308400927447"
+        },
+        {
+            "@id": "label:l2190459497178094181"
+        },
+        {
+            "@id": "label:l1885573712233359938"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3325023958704890097"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911788"
+    },
+    "semparl:sortingLabel": "yrjö-koskinen sakari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911788"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eino-Sakari-Yrjo-Koskinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911788.aspx"
+        },
+        {
+            "@id": "viaf:59422724"
+        },
+        {
+            "@id": "natbib:6544"
+        },
+        {
+            "@id": "https://fi.wikisource.org/wiki/Eino_Sakari_Yrj%C3%B6-Koskinen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eino_Sakari_Yrj%C3%B6-Koskinen"
+        },
+        {
+            "@id": "wd:Q5482600"
+        },
+        {
+            "@id": "finaf:000090104"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1481"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1858866737394468286"
+        },
+        {
+            "@id": "event:e1565659682256104101"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3547950254373308235"
+        },
+        {
+            "@id": "event:e2522783972271720865"
+        },
+        {
+            "@id": "event:e3763347275417581776"
+        },
+        {
+            "@id": "event:e2366032408312582522"
+        },
+        {
+            "@id": "event:e1624596019980132882"
+        },
+        {
+            "@id": "event:e2935492474375778850"
+        },
+        {
+            "@id": "event:e1674168833067939485"
+        },
+        {
+            "@id": "event:e4802900424072039146"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2017511576182202534"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e1729383159852344027"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Yrjö-Koskinen, Sakari (1858-1916)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Yrjö-Koskinen, E.S."
+        },
+        {
+            "@language": "fi",
+            "@value": "Forsman, E.S."
+        },
+        {
+            "@language": "fi",
+            "@value": "Forsman, Eino Sakari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Yrjö-Koskinen, Eino Sakari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1378704"
+    },
+    "semparl:id": "911788",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

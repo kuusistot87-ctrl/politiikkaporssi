@@ -1,0 +1,320 @@
+{
+    "@id": "people:p165",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lax, Rolf Henrik Richard"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:165.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1987-03-21_1987-03-21_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, diplomiekonomi"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o141"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p4301660572062812516"
+    },
+    "xl:altLabel": {
+        "@id": "label:l8830617408429108149"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1843118982607950373"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=165"
+    },
+    "semparl:sortingLabel": "lax henrik",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b165"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Henrik-och-Anna-Kristina-Lax.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:165.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Henrik_Lax"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Henrik_Lax"
+        },
+        {
+            "@id": "wd:Q1606293"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1884945823075634062"
+        },
+        {
+            "@id": "event:e1647420712708438554"
+        },
+        {
+            "@id": "event:e1610129322800545636"
+        },
+        {
+            "@id": "event:e7028483840474106984"
+        },
+        {
+            "@id": "event:e1903456434179294736"
+        },
+        {
+            "@id": "event:e6101889182990373346"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8784164419716506608"
+        },
+        {
+            "@id": "event:e8783502166997510861"
+        },
+        {
+            "@id": "event:e1995996191421627528"
+        },
+        {
+            "@id": "event:e1858809696089484588"
+        },
+        {
+            "@id": "event:e1167669882258301501"
+        },
+        {
+            "@id": "event:e2100477110195807498"
+        },
+        {
+            "@id": "event:e3070669119383408131"
+        },
+        {
+            "@id": "event:e1043758697964711935"
+        },
+        {
+            "@id": "event:e2112659063314393245"
+        },
+        {
+            "@id": "event:e1987645142485038864"
+        },
+        {
+            "@id": "event:e1866419348401546370"
+        },
+        {
+            "@id": "event:e7424131358612402738"
+        },
+        {
+            "@id": "event:e3367741750408567542"
+        },
+        {
+            "@id": "event:e2007880954961382968"
+        },
+        {
+            "@id": "event:e2570095979196499390"
+        },
+        {
+            "@id": "event:e3399345527891212296"
+        },
+        {
+            "@id": "event:e1894617466278104886"
+        },
+        {
+            "@id": "event:e6219948694683095693"
+        },
+        {
+            "@id": "event:e1021893565126138753"
+        },
+        {
+            "@id": "event:e8276090512624533302"
+        },
+        {
+            "@id": "event:e1800575277044886859"
+        },
+        {
+            "@id": "event:e2835192499946140254"
+        },
+        {
+            "@id": "event:e1724901259145979672"
+        },
+        {
+            "@id": "event:e8834911247918749139"
+        },
+        {
+            "@id": "event:e7385004470448628391"
+        },
+        {
+            "@id": "event:e2840636639212687773"
+        },
+        {
+            "@id": "event:e7718464695320039343"
+        },
+        {
+            "@id": "event:e2367024857266967739"
+        },
+        {
+            "@id": "event:e1895876947863682259"
+        },
+        {
+            "@id": "event:e3227397412077989431"
+        },
+        {
+            "@id": "event:e1334464908979605180"
+        },
+        {
+            "@id": "event:e1648676752812858663"
+        },
+        {
+            "@id": "event:e3020350637593662740"
+        },
+        {
+            "@id": "event:e7126392664503069089"
+        },
+        {
+            "@id": "event:e2919126447595855195"
+        },
+        {
+            "@id": "event:e1582535543816525809"
+        },
+        {
+            "@id": "event:e2632694149567593446"
+        },
+        {
+            "@id": "event:e2256340920625887031"
+        },
+        {
+            "@id": "event:e2341252079786100503"
+        },
+        {
+            "@id": "event:e2431498707435278855"
+        },
+        {
+            "@id": "event:e2630912772334917556"
+        },
+        {
+            "@id": "event:e2196024550970974190"
+        },
+        {
+            "@id": "event:e3575577302412565030"
+        },
+        {
+            "@id": "event:e2192974390945972495"
+        },
+        {
+            "@id": "event:e1268150265779894931"
+        },
+        {
+            "@id": "event:e8485119935373394489"
+        },
+        {
+            "@id": "event:e4642168978021639470"
+        },
+        {
+            "@id": "event:e6597910339558305154"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lax, Henrik (1946-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Lax, Rolf Henrik Richard"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "165",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

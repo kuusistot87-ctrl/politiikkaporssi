@@ -1,0 +1,275 @@
+{
+    "@id": "people:p911780",
+    "semparl:authored": [
+        {
+            "@id": "publications:b3494097176445214294"
+        },
+        {
+            "@id": "publications:b3101472617207176346"
+        },
+        {
+            "@id": "publications:b2450622868377257357"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Välisalmi(e. Karttunen), Johan Henrik (Juho Heikki)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911780.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1917-11-01_1917-11-01_1918-09-25_1918-09-25"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sanomalehdentoimittaja, kirjailija"
+    },
+    "semparl:end_of_representative_period_text": "25.09.1918",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1918-09-25_1918-09-25"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o33"
+        },
+        {
+            "@id": "occupations:o1098"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3212710201565906926"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911780"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3335579235144462026"
+        },
+        {
+            "@id": "label:l3094188949234778144"
+        },
+        {
+            "@id": "label:l2499944814895233838"
+        },
+        {
+            "@id": "label:l1388952297837312244"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2985304929520327417"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911780"
+    },
+    "semparl:sortingLabel": "välisalmi heikki",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911780"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911780.aspx"
+        },
+        {
+            "@id": "https://fi.wikisource.org/wiki/Heikki_V%C3%A4lisalmi"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Heikki_V%C3%A4lisalmi"
+        },
+        {
+            "@id": "wd:Q11861927"
+        },
+        {
+            "@id": "finaf:000082590"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e5863093162389301891"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2243583238127056332"
+        },
+        {
+            "@id": "event:e3004237950540471656"
+        },
+        {
+            "@id": "event:e9406724359710622906"
+        },
+        {
+            "@id": "event:e1497041165121541246"
+        },
+        {
+            "@id": "event:e1426242990939957079"
+        },
+        {
+            "@id": "event:e9373754846447273036"
+        },
+        {
+            "@id": "event:e3180305802895698963"
+        },
+        {
+            "@id": "event:e4947824575892365868"
+        },
+        {
+            "@id": "event:e1494076450850230601"
+        },
+        {
+            "@id": "event:e1179463289213119664"
+        },
+        {
+            "@id": "event:e2844520450995593198"
+        },
+        {
+            "@id": "event:e7390519970280579646"
+        },
+        {
+            "@id": "event:e7262476966043259637"
+        },
+        {
+            "@id": "event:e8503966038400992768"
+        },
+        {
+            "@id": "event:e1300946831091871456"
+        },
+        {
+            "@id": "event:e3376222784959305846"
+        },
+        {
+            "@id": "event:e2814262551764685941"
+        },
+        {
+            "@id": "event:e3362624152707904829"
+        },
+        {
+            "@id": "event:e1183982320905597211"
+        },
+        {
+            "@id": "event:e2848873360945708301"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e3007495200280318362"
+        },
+        {
+            "@id": "event:e2738932336671153873"
+        },
+        {
+            "@id": "event:e2078329276498815959"
+        },
+        {
+            "@id": "event:e2581001331301447432"
+        },
+        {
+            "@id": "event:e3002756394877091712"
+        },
+        {
+            "@id": "event:e1176549536487572855"
+        },
+        {
+            "@id": "event:e3241372160867028473"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Välisalmi, Heikki (1886-1947)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Karttunen, Juho Heikki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Välisalmi, Juho Heikki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Välisalmi, Johan Henrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Karttunen, Johan Henrik"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911780",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

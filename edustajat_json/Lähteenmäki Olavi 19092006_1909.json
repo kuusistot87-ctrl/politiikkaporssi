@@ -1,0 +1,367 @@
+{
+    "@id": "people:p910093",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b5889078492058600800"
+        },
+        {
+            "@id": "publications:b5230264432103750660"
+        },
+        {
+            "@id": "publications:b3299998575589749971"
+        },
+        {
+            "@id": "publications:b2824962303317299164"
+        },
+        {
+            "@id": "publications:b2807406779927275469"
+        },
+        {
+            "@id": "publications:b2800665743246731388"
+        },
+        {
+            "@id": "publications:b2735077468520972284"
+        },
+        {
+            "@id": "publications:b2583756360961291491"
+        },
+        {
+            "@id": "publications:b2243694591551370245"
+        },
+        {
+            "@id": "publications:b1817219821396385006"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lähteenmäki, Frans Olavi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910093.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rehtori, professori"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o34"
+        },
+        {
+            "@id": "occupations:o63"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2424153259244812094"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910093"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2849912172350224733"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5099518168533707350"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910093"
+    },
+    "semparl:sortingLabel": "lähteenmäki olavi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910093"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Olavi%20L%C3%A4hteenm%C3%A4ki.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910093.aspx"
+        },
+        {
+            "@id": "viaf:17276916"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Olavi_L%C3%A4hteenm%C3%A4ki"
+        },
+        {
+            "@id": "wd:Q11885290"
+        },
+        {
+            "@id": "finaf:000070563"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1023565754412086296"
+        },
+        {
+            "@id": "event:e1310922947993575278"
+        },
+        {
+            "@id": "event:e1914544796123222869"
+        },
+        {
+            "@id": "event:e2864252194041840496"
+        },
+        {
+            "@id": "event:e3352207483798343606"
+        },
+        {
+            "@id": "event:e2135827689046216526"
+        },
+        {
+            "@id": "event:e6038582652084895964"
+        },
+        {
+            "@id": "event:e1595643164037112896"
+        },
+        {
+            "@id": "event:e1085746595404363606"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4156194659456130552"
+        },
+        {
+            "@id": "event:e1937954153019680623"
+        },
+        {
+            "@id": "event:e1668581851076999741"
+        },
+        {
+            "@id": "event:e3419192258575855710"
+        },
+        {
+            "@id": "event:e1658761262512587723"
+        },
+        {
+            "@id": "event:e3138119427253548922"
+        },
+        {
+            "@id": "event:e1671709914103476985"
+        },
+        {
+            "@id": "event:e2369402377145514479"
+        },
+        {
+            "@id": "event:e4742210270046205966"
+        },
+        {
+            "@id": "event:e1913190165766949524"
+        },
+        {
+            "@id": "event:e9768943342566881301"
+        },
+        {
+            "@id": "event:e2824575147150567898"
+        },
+        {
+            "@id": "event:e9472996440784330718"
+        },
+        {
+            "@id": "event:e2431555482693702449"
+        },
+        {
+            "@id": "event:e1899323385024226621"
+        },
+        {
+            "@id": "event:e6158263905110098148"
+        },
+        {
+            "@id": "event:e1378268220573518676"
+        },
+        {
+            "@id": "event:e1918460165795189847"
+        },
+        {
+            "@id": "event:e5612512767429852809"
+        },
+        {
+            "@id": "event:e3345879498021573645"
+        },
+        {
+            "@id": "event:e4371024927321976962"
+        },
+        {
+            "@id": "event:e1939601514875061328"
+        },
+        {
+            "@id": "event:e5399951182802019088"
+        },
+        {
+            "@id": "event:e3223787678346390770"
+        },
+        {
+            "@id": "event:e1347347116380757763"
+        },
+        {
+            "@id": "event:e1309482731949614545"
+        },
+        {
+            "@id": "event:e9480831258322272303"
+        },
+        {
+            "@id": "event:e1002401403428177574"
+        },
+        {
+            "@id": "event:e2516180003387173886"
+        },
+        {
+            "@id": "event:e2245500939017882527"
+        },
+        {
+            "@id": "event:e2275989574165954716"
+        },
+        {
+            "@id": "event:e6372312687169789264"
+        },
+        {
+            "@id": "event:e1996072971439876898"
+        },
+        {
+            "@id": "event:e2436587462970656650"
+        },
+        {
+            "@id": "event:e1759997038727200743"
+        },
+        {
+            "@id": "event:e1250624809924993321"
+        },
+        {
+            "@id": "event:e1592597033535414329"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e3112495899384666748"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1579153060799349891"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e5620016084467382962"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e3399487737280026679"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lähteenmäki, Olavi (1909-2006)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Lähteenmäki, Frans Olavi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910093",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

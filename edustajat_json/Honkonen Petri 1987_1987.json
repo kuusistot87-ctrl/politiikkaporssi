@@ -1,0 +1,301 @@
+{
+    "@id": "people:p1331",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Saarijärvi"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8887361144783776610"
+        },
+        {
+            "@id": "affiliations:a5438022687680568822"
+        },
+        {
+            "@id": "affiliations:a5131528239819313850"
+        },
+        {
+            "@id": "affiliations:a4509947693145297599"
+        },
+        {
+            "@id": "affiliations:a3180398228585017032"
+        },
+        {
+            "@id": "affiliations:a2259892597503866146"
+        },
+        {
+            "@id": "affiliations:a2180965925673819909"
+        },
+        {
+            "@id": "affiliations:a2169092144224977445"
+        },
+        {
+            "@id": "affiliations:a1242152902934840482"
+        },
+        {
+            "@id": "affiliations:a1092472751683463714"
+        },
+        {
+            "@id": "affiliations:a1025360240895103892"
+        },
+        {
+            "@id": "affiliations:a2842746089894350154"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1331.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, aineenopettaja"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o326"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2402580006104700412"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2744015538688247224"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1331"
+    },
+    "semparl:sortingLabel": "honkonen petri erkki olavi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1331"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/638321/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Petri%20Honkonen%20%2852036481427%29%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1331.aspx"
+        },
+        {
+            "@id": "yle:18-292873"
+        },
+        {
+            "@id": "twitter:HonkonenPetri"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Petri_Honkonen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Petri_Honkonen"
+        },
+        {
+            "@id": "wd:Q20257511"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1044922314848700225"
+        },
+        {
+            "@id": "event:e2721333632379446283"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3116149387348368459"
+        },
+        {
+            "@id": "event:e2791080331420515116"
+        },
+        {
+            "@id": "event:e1493600379863338999"
+        },
+        {
+            "@id": "event:e3131394832864304918"
+        },
+        {
+            "@id": "event:e9730307615987080598"
+        },
+        {
+            "@id": "event:e2144831934263696753"
+        },
+        {
+            "@id": "event:e2133265760016784654"
+        },
+        {
+            "@id": "event:e9910461985853702291"
+        },
+        {
+            "@id": "event:e2186325747014985913"
+        },
+        {
+            "@id": "event:e3304415217702394916"
+        },
+        {
+            "@id": "event:e3010872455796439069"
+        },
+        {
+            "@id": "event:e3341512477675182925"
+        },
+        {
+            "@id": "event:e2358643124851594989"
+        },
+        {
+            "@id": "event:e1971878368770434620"
+        },
+        {
+            "@id": "event:e4460221274106120719"
+        },
+        {
+            "@id": "event:e3132072718996873421"
+        },
+        {
+            "@id": "event:e3034922861947089528"
+        },
+        {
+            "@id": "event:e1621627375419033465"
+        },
+        {
+            "@id": "event:e3383117067578230992"
+        },
+        {
+            "@id": "event:e2091566689029502782"
+        },
+        {
+            "@id": "event:e3103297855859636681"
+        },
+        {
+            "@id": "event:e6035606719465869140"
+        },
+        {
+            "@id": "event:e2111617543359271415"
+        },
+        {
+            "@id": "event:e2015751064211127378"
+        },
+        {
+            "@id": "event:e2326469249793444784"
+        },
+        {
+            "@id": "event:e1385558630917722025"
+        },
+        {
+            "@id": "event:e2523813674810979437"
+        },
+        {
+            "@id": "event:e1678222783758026715"
+        },
+        {
+            "@id": "event:e2199834935424792823"
+        },
+        {
+            "@id": "event:e1015405914498527324"
+        },
+        {
+            "@id": "event:e8876401755409941418"
+        },
+        {
+            "@id": "event:e7293146991617113838"
+        },
+        {
+            "@id": "event:e1249171064519142823"
+        },
+        {
+            "@id": "event:e2794127692389656845"
+        },
+        {
+            "@id": "event:e1797100079809299044"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Honkonen, Petri (1987-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "1331",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

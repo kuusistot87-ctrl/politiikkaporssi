@@ -1,0 +1,286 @@
+{
+    "@id": "people:p911623",
+    "semparl:extra_info": "Asetettu syytteeseen valtiopetoksesta, edustajantoimi katsottu lakanneeksi 16.5.1918 (1917 II vp). Maaliskuussa 1944 vapautettu mahdollisista vuoden 1918 tapahtumien johdosta nostettavista syytteistä Lex Tokoina tunnetun lain perusteella.",
+    "semparl:authored": [
+        {
+            "@id": "publications:b3146212530761864366"
+        },
+        {
+            "@id": "publications:b2497332694117850430"
+        },
+        {
+            "@id": "publications:b2418765252278173214"
+        },
+        {
+            "@id": "publications:b1365329605750663825"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tokoi(e. Hirvi), Antti Oskari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911623.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1918-05-16_1918-05-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "senaattori, toimittaja"
+    },
+    "semparl:end_of_representative_period_text": "16.05.1918",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1918-05-16_1918-05-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1215"
+        },
+        {
+            "@id": "occupations:o145"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1833719452983143339"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911623"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5656250190711308914"
+        },
+        {
+            "@id": "label:l2595475101066320271"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1059113733375248724"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911623"
+    },
+    "semparl:sortingLabel": "tokoi oskari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911623"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokoi%20Albert%20Gebhard%201915.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911623.aspx"
+        },
+        {
+            "@id": "viaf:528147907522079210003"
+        },
+        {
+            "@id": "natbib:241"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Oskari_Tokoi"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Oskari_Tokoi"
+        },
+        {
+            "@id": "wd:Q204852"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2565"
+        },
+        {
+            "@id": "finaf:000073088"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p155"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1919541332567024190"
+        },
+        {
+            "@id": "event:e1131894486107198376"
+        },
+        {
+            "@id": "event:e1433448677676124835"
+        },
+        {
+            "@id": "event:e1305159039639042288"
+        },
+        {
+            "@id": "event:e1827218235018800266"
+        },
+        {
+            "@id": "event:e2594237583482669561"
+        },
+        {
+            "@id": "event:e2350101799977057370"
+        },
+        {
+            "@id": "event:e1292116061218303369"
+        },
+        {
+            "@id": "event:e3184164816345412167"
+        },
+        {
+            "@id": "event:e2382457368427789049"
+        },
+        {
+            "@id": "event:e2173182070883763870"
+        },
+        {
+            "@id": "event:e2083357085444207002"
+        },
+        {
+            "@id": "event:e4099718436474500301"
+        },
+        {
+            "@id": "event:e2225782803284296805"
+        },
+        {
+            "@id": "event:e7490341421334177846"
+        },
+        {
+            "@id": "event:e9770141626696820317"
+        },
+        {
+            "@id": "event:e1797805501737717328"
+        },
+        {
+            "@id": "event:e1848690589153594309"
+        },
+        {
+            "@id": "event:e1253935209971289153"
+        },
+        {
+            "@id": "event:e2856370765823957473"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2831638401875865864"
+        },
+        {
+            "@id": "event:e6237627956406298581"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tokoi, Oskari (1873-1963)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Tokoi, Antti Oskari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hirvi, Antti Oskari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911623",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

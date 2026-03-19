@@ -1,0 +1,370 @@
+{
+    "@id": "people:p910893",
+    "semparl:authored": {
+        "@id": "publications:b7838494733452750614"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lappi-Seppälä(v:een 1915 Seppälä), Johannes (Jussi)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910893.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1945-04-06_1945-04-06_1954-03-28_1954-03-28"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomiarkkitehti, pääjohtaja, professori"
+    },
+    "semparl:end_of_representative_period_text": "28.03.1954",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1954-03-28_1954-03-28"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o325"
+        },
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1781315950054040231"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910893"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l9401598305592559402"
+        },
+        {
+            "@id": "label:l5641801989873846784"
+        },
+        {
+            "@id": "label:l2069189347847332898"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1006293138968333678"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910893"
+    },
+    "semparl:sortingLabel": "lappi-seppälä jussi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910893"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jussi%20Lappi-Sepp%C3%A4l%C3%A4%201950s%20M012%20KK5596%203%20HK%20321%202.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910893.aspx"
+        },
+        {
+            "@id": "viaf:712152636078720051689"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jussi_Lappi-Sepp%C3%A4l%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jussi_Lappi-Sepp%C3%A4l%C3%A4"
+        },
+        {
+            "@id": "wd:Q17128185"
+        },
+        {
+            "@id": "http://www.norssit.fi/semweb/#!/tiedot/http:~2F~2Fldf.fi~2Fnorssit~2Fnorssi_2603"
+        },
+        {
+            "@id": "finaf:000073384"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e7740371786292680913"
+        },
+        {
+            "@id": "event:e1429795571186815527"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2080794505756066366"
+        },
+        {
+            "@id": "event:e3008589492991200130"
+        },
+        {
+            "@id": "event:e1097691781168743392"
+        },
+        {
+            "@id": "event:e1478820457924003755"
+        },
+        {
+            "@id": "event:e2299308106680339264"
+        },
+        {
+            "@id": "event:e8653136125853463420"
+        },
+        {
+            "@id": "event:e1980114342055475930"
+        },
+        {
+            "@id": "event:e2951305870255444593"
+        },
+        {
+            "@id": "event:e2175999489514510420"
+        },
+        {
+            "@id": "event:e2544707887789517063"
+        },
+        {
+            "@id": "event:e2015917632886954786"
+        },
+        {
+            "@id": "event:e1349837983990014007"
+        },
+        {
+            "@id": "event:e2442988955428650026"
+        },
+        {
+            "@id": "event:e2074852139258210194"
+        },
+        {
+            "@id": "event:e2808137804052127229"
+        },
+        {
+            "@id": "event:e1928758243534092833"
+        },
+        {
+            "@id": "event:e9561702645014160779"
+        },
+        {
+            "@id": "event:e6883579367541085221"
+        },
+        {
+            "@id": "event:e3273466068740724404"
+        },
+        {
+            "@id": "event:e2054124605746322792"
+        },
+        {
+            "@id": "event:e5451525377121653341"
+        },
+        {
+            "@id": "event:e8172969895501607609"
+        },
+        {
+            "@id": "event:e2257671455858042104"
+        },
+        {
+            "@id": "event:e3131600074932751849"
+        },
+        {
+            "@id": "event:e1912469561638538929"
+        },
+        {
+            "@id": "event:e4776682522588495365"
+        },
+        {
+            "@id": "event:e3299586951009425855"
+        },
+        {
+            "@id": "event:e2224106914097177916"
+        },
+        {
+            "@id": "event:e1515296149569899562"
+        },
+        {
+            "@id": "event:e2075728981868071426"
+        },
+        {
+            "@id": "event:e1194895139114637475"
+        },
+        {
+            "@id": "event:e1313416607989781613"
+        },
+        {
+            "@id": "event:e1326306918942936927"
+        },
+        {
+            "@id": "event:e9289113060529171150"
+        },
+        {
+            "@id": "event:e3339956955799674036"
+        },
+        {
+            "@id": "event:e1390328360823893580"
+        },
+        {
+            "@id": "event:e2438255715301858202"
+        },
+        {
+            "@id": "event:e1252588604200713275"
+        },
+        {
+            "@id": "event:e2992787646960137562"
+        },
+        {
+            "@id": "event:e1934169667199585687"
+        },
+        {
+            "@id": "event:e2906918740840943031"
+        },
+        {
+            "@id": "event:e2264032926377847899"
+        },
+        {
+            "@id": "event:e2269628619416746121"
+        },
+        {
+            "@id": "event:e1018984732265939714"
+        },
+        {
+            "@id": "event:e1105875157117369929"
+        },
+        {
+            "@id": "event:e3602546152038027662"
+        },
+        {
+            "@id": "event:e2883603255721435822"
+        },
+        {
+            "@id": "event:e3260316167053393576"
+        },
+        {
+            "@id": "event:e2551821149287191840"
+        },
+        {
+            "@id": "event:e8080396650245295491"
+        },
+        {
+            "@id": "event:e2521471116261306217"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e1438985591966074361"
+        },
+        {
+            "@id": "event:e1329155577337917207"
+        },
+        {
+            "@id": "event:e3139690770898934614"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lappi-Seppälä, Jussi (1911-1977)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Seppälä, Jussi"
+        },
+        {
+            "@language": "fi",
+            "@value": "Seppälä, Johannes"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lappi-Seppälä, Johannes"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910893",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

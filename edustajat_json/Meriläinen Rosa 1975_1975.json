@@ -1,0 +1,283 @@
+{
+    "@id": "people:p787",
+    "semparl:authored": [
+        {
+            "@id": "publications:b3519876895141424947"
+        },
+        {
+            "@id": "publications:b3374837409727649841"
+        },
+        {
+            "@id": "publications:b2761852772887415326"
+        },
+        {
+            "@id": "publications:b2725737861820484184"
+        },
+        {
+            "@id": "publications:b2552499121135600543"
+        },
+        {
+            "@id": "publications:b2065157813461621145"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Meriläinen, Rosa Anneli"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:787.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yhteiskuntatieteiden maisteri, tutkija"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o642"
+        },
+        {
+            "@id": "occupations:o62"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2779113045265349098"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2499189637134395499"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6960456732078973903"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=787"
+    },
+    "semparl:sortingLabel": "meriläinen rosa",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b787"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rosamerilainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:787.aspx"
+        },
+        {
+            "@id": "yle:18-178645"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Rosa_Meril%C3%A4inen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Rosa_Meril%C3%A4inen"
+        },
+        {
+            "@id": "wd:Q7367093"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e6090143239694769629"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9183953368656386373"
+        },
+        {
+            "@id": "event:e2649103897201761035"
+        },
+        {
+            "@id": "event:e2084396882300776557"
+        },
+        {
+            "@id": "event:e9893516035902981182"
+        },
+        {
+            "@id": "event:e2431529832624403880"
+        },
+        {
+            "@id": "event:e1912831780441660395"
+        },
+        {
+            "@id": "event:e3253227841476392197"
+        },
+        {
+            "@id": "event:e1892896635334173367"
+        },
+        {
+            "@id": "event:e2886473888370215631"
+        },
+        {
+            "@id": "event:e2285294092289001762"
+        },
+        {
+            "@id": "event:e2435185599505244965"
+        },
+        {
+            "@id": "event:e4647867339948910332"
+        },
+        {
+            "@id": "event:e9397565275480126016"
+        },
+        {
+            "@id": "event:e1424039556659728097"
+        },
+        {
+            "@id": "event:e2577987489213225556"
+        },
+        {
+            "@id": "event:e2302835020580285851"
+        },
+        {
+            "@id": "event:e3067919857541755459"
+        },
+        {
+            "@id": "event:e2433712613310350860"
+        },
+        {
+            "@id": "event:e2527338112082688746"
+        },
+        {
+            "@id": "event:e1246909850754107241"
+        },
+        {
+            "@id": "event:e2125453523690940197"
+        },
+        {
+            "@id": "event:e1186727353292723648"
+        },
+        {
+            "@id": "event:e1494374372138970892"
+        },
+        {
+            "@id": "event:e1450928820391219503"
+        },
+        {
+            "@id": "event:e1462892611750733463"
+        },
+        {
+            "@id": "event:e1336271952024188345"
+        },
+        {
+            "@id": "event:e1604063138215028343"
+        },
+        {
+            "@id": "event:e1589450369796758932"
+        },
+        {
+            "@id": "event:e1818235058230611343"
+        },
+        {
+            "@id": "event:e2485208496399738445"
+        },
+        {
+            "@id": "event:e2015398932404473298"
+        },
+        {
+            "@id": "event:e1907252135759227143"
+        },
+        {
+            "@id": "event:e6182460075576732905"
+        },
+        {
+            "@id": "event:e4183547051164118572"
+        },
+        {
+            "@id": "event:e1123664465504013602"
+        },
+        {
+            "@id": "event:e1098777174197651506"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Meriläinen, Rosa (1975-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Meriläinen, Rosa Anneli"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "787",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

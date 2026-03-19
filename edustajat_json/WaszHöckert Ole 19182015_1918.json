@@ -1,0 +1,340 @@
+{
+    "@id": "people:p287",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "lääkintäyliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2415044273865819494"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b2338316351017782180"
+        },
+        {
+            "@id": "publications:b1293784518553010904"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Wasz-Höckert, Bror Ole"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:287.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_1991-03-21_1991-03-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, ylilääkäri"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o51"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1610079062747347959"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d287"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3319756916242835332"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2982081670338680399"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=287"
+    },
+    "semparl:sortingLabel": "wasz-höckert ole",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b287"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:287.aspx"
+        },
+        {
+            "@id": "viaf:92841502"
+        },
+        {
+            "@id": "natbib:6975"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ole_Wasz-H%C3%B6ckert"
+        },
+        {
+            "@id": "wd:Q11885340"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2738"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5972"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8994851667897380075"
+        },
+        {
+            "@id": "event:e1889837659179913327"
+        },
+        {
+            "@id": "event:e1027097945723942933"
+        },
+        {
+            "@id": "event:e1775394876465426109"
+        },
+        {
+            "@id": "event:e1716210057915102548"
+        },
+        {
+            "@id": "event:e1412702069060183299"
+        },
+        {
+            "@id": "event:e2580009578983292884"
+        },
+        {
+            "@id": "event:e4085716097572375253"
+        },
+        {
+            "@id": "event:e1643962662813760426"
+        },
+        {
+            "@id": "event:e2151718468952643770"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3308417252760019740"
+        },
+        {
+            "@id": "event:e3260433749431309067"
+        },
+        {
+            "@id": "event:e3090443955404699447"
+        },
+        {
+            "@id": "event:e9084136379350318456"
+        },
+        {
+            "@id": "event:e3243348534749078885"
+        },
+        {
+            "@id": "event:e1842018722167417612"
+        },
+        {
+            "@id": "event:e9357578498098836096"
+        },
+        {
+            "@id": "event:e3062543247798994157"
+        },
+        {
+            "@id": "event:e1350230567659859774"
+        },
+        {
+            "@id": "event:e3231101501862101478"
+        },
+        {
+            "@id": "event:e2168366153156860391"
+        },
+        {
+            "@id": "event:e5367223603850115299"
+        },
+        {
+            "@id": "event:e7107162904025617694"
+        },
+        {
+            "@id": "event:e2915415875507157880"
+        },
+        {
+            "@id": "event:e1370504162210218406"
+        },
+        {
+            "@id": "event:e8914876771670720412"
+        },
+        {
+            "@id": "event:e9615453683088991507"
+        },
+        {
+            "@id": "event:e1694054910133665770"
+        },
+        {
+            "@id": "event:e2627353855254603602"
+        },
+        {
+            "@id": "event:e3360139933761709300"
+        },
+        {
+            "@id": "event:e2131989693018291487"
+        },
+        {
+            "@id": "event:e2563764676122008121"
+        },
+        {
+            "@id": "event:e4608469045184601922"
+        },
+        {
+            "@id": "event:e3324574937886305504"
+        },
+        {
+            "@id": "event:e1863923260271100165"
+        },
+        {
+            "@id": "event:e9860036615827568876"
+        },
+        {
+            "@id": "event:e2244570198473662138"
+        },
+        {
+            "@id": "event:e3054755825860859911"
+        },
+        {
+            "@id": "event:e1411205113965076437"
+        },
+        {
+            "@id": "event:e1074889461699501777"
+        },
+        {
+            "@id": "event:e1306228198726249296"
+        },
+        {
+            "@id": "event:e1204284728363580277"
+        },
+        {
+            "@id": "event:e5210318760872795189"
+        },
+        {
+            "@id": "event:e1040325904797868968"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e3054970672535759484"
+        },
+        {
+            "@id": "event:e1413972273912989365"
+        },
+        {
+            "@id": "event:e9156511156749107042"
+        },
+        {
+            "@id": "event:e1246263821783843350"
+        },
+        {
+            "@id": "event:e1818612758224265999"
+        },
+        {
+            "@id": "event:e2574861980299663694"
+        },
+        {
+            "@id": "event:e2785798926949098508"
+        },
+        {
+            "@id": "event:e2540496663939918038"
+        },
+        {
+            "@id": "event:e7706900518899312413"
+        },
+        {
+            "@id": "event:e3293448318812659735"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Wasz-Höckert, Ole (1918-2015)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Wasz-Höckert, Bror Ole"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "287",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

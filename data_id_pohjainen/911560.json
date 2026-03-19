@@ -1,0 +1,259 @@
+{
+    "@id": "people:p911560",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Suominen, Unto Ilmari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911560.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1951-07-21_1951-07-21_1958-07-21_1958-07-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sosionomi, kauppalanjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "21.07.1958",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1958-07-21_1958-07-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1203"
+        },
+        {
+            "@id": "occupations:o102"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2723273610112532596"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911560"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1306037687817303326"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2388032450505697378"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911560"
+    },
+    "semparl:sortingLabel": "suominen unto",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911560"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Unto-Suominen-1961.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911560.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Unto_Suominen"
+        },
+        {
+            "@id": "wd:Q55393773"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2164832647867620234"
+        },
+        {
+            "@id": "event:e3177652412000969569"
+        },
+        {
+            "@id": "event:e6203496650705508150"
+        },
+        {
+            "@id": "event:e7675723908070323921"
+        },
+        {
+            "@id": "event:e2811678019233919183"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1910494675371869045"
+        },
+        {
+            "@id": "event:e3200763072124309295"
+        },
+        {
+            "@id": "event:e2799183090818549731"
+        },
+        {
+            "@id": "event:e2296198144801156559"
+        },
+        {
+            "@id": "event:e2802618121795549001"
+        },
+        {
+            "@id": "event:e7068680265974114209"
+        },
+        {
+            "@id": "event:e9686148577282157024"
+        },
+        {
+            "@id": "event:e1653188693593497190"
+        },
+        {
+            "@id": "event:e5005744123690400827"
+        },
+        {
+            "@id": "event:e1845672008882898362"
+        },
+        {
+            "@id": "event:e5628196871626745801"
+        },
+        {
+            "@id": "event:e1574646030060549223"
+        },
+        {
+            "@id": "event:e3114249830132623014"
+        },
+        {
+            "@id": "event:e9287785710003463410"
+        },
+        {
+            "@id": "event:e7661455221604831115"
+        },
+        {
+            "@id": "event:e9283345748242199191"
+        },
+        {
+            "@id": "event:e2247148679559123617"
+        },
+        {
+            "@id": "event:e1160626177891371425"
+        },
+        {
+            "@id": "event:e3812589422910569493"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e3293305281536012189"
+        },
+        {
+            "@id": "event:e3357455969707244586"
+        },
+        {
+            "@id": "event:e1523601989497849860"
+        },
+        {
+            "@id": "event:e1009615180337923794"
+        },
+        {
+            "@id": "event:e2731725643930174639"
+        },
+        {
+            "@id": "event:e2812504107712531381"
+        },
+        {
+            "@id": "event:e8837278751314649522"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Suominen, Unto (1911-1968)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Suominen, Unto Ilmari"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911560",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

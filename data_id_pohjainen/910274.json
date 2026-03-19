@@ -1,0 +1,278 @@
+{
+    "@id": "people:p910274",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Antila, Toivo Mikael"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910274.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1951-07-21_1951-07-21_1970-01-21_1970-01-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "21.01.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-01-21_1970-01-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3378073911009184146"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910274"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1991239752530171039"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1389578533493831071"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910274"
+    },
+    "semparl:sortingLabel": "antila toivo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910274"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910274.aspx"
+        },
+        {
+            "@id": "natbib:821"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Toivo_Antila"
+        },
+        {
+            "@id": "wd:Q16161853"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p381"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2276241331613582214"
+        },
+        {
+            "@id": "event:e3099718081108727676"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3319193905820087306"
+        },
+        {
+            "@id": "event:e3113126682118207764"
+        },
+        {
+            "@id": "event:e3029467355575358910"
+        },
+        {
+            "@id": "event:e1424838918566555464"
+        },
+        {
+            "@id": "event:e3111277037322482218"
+        },
+        {
+            "@id": "event:e2031345867040821540"
+        },
+        {
+            "@id": "event:e1250370468955288446"
+        },
+        {
+            "@id": "event:e1460461850322755747"
+        },
+        {
+            "@id": "event:e2700805624980756087"
+        },
+        {
+            "@id": "event:e9219858272680961695"
+        },
+        {
+            "@id": "event:e2473008369613622793"
+        },
+        {
+            "@id": "event:e2268057653978687078"
+        },
+        {
+            "@id": "event:e3126412546722772318"
+        },
+        {
+            "@id": "event:e4767694751103968712"
+        },
+        {
+            "@id": "event:e1416556175037697501"
+        },
+        {
+            "@id": "event:e2265642436801983999"
+        },
+        {
+            "@id": "event:e3158226964475231786"
+        },
+        {
+            "@id": "event:e6831191620683102711"
+        },
+        {
+            "@id": "event:e2171275729218742936"
+        },
+        {
+            "@id": "event:e8230479986220404425"
+        },
+        {
+            "@id": "event:e3097580160862119667"
+        },
+        {
+            "@id": "event:e1159467658874886465"
+        },
+        {
+            "@id": "event:e3181323775132732824"
+        },
+        {
+            "@id": "event:e3208661995913232035"
+        },
+        {
+            "@id": "event:e2968468711828228575"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1421864847765794173"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e3273458832031803794"
+        },
+        {
+            "@id": "event:e3399229580234190842"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Antila, Toivo (1910-1970)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Antila, Toivo Mikael"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910274",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,348 @@
+{
+    "@id": "people:p512",
+    "semparl:extra_info": "Vuoden Shamaani 1995, Väittelyn SM 1997, Vuoden Psykologi 2001.",
+    "semparl:authored": [
+        {
+            "@id": "publications:b9038142848465367230"
+        },
+        {
+            "@id": "publications:b6684547888644848916"
+        },
+        {
+            "@id": "publications:b3365675528838577604"
+        },
+        {
+            "@id": "publications:b2361304249986327017"
+        },
+        {
+            "@id": "publications:b2300817607893116968"
+        },
+        {
+            "@id": "publications:b1543730608816791675"
+        },
+        {
+            "@id": "publications:b1475754931032000623"
+        },
+        {
+            "@id": "publications:b1340980953019832535"
+        },
+        {
+            "@id": "publications:b1228098643852187061"
+        },
+        {
+            "@id": "publications:b1221203446332162727"
+        },
+        {
+            "@id": "publications:b1199498530249509454"
+        },
+        {
+            "@id": "publications:b1102280637001501720"
+        },
+        {
+            "@id": "publications:b1048438781610124296"
+        },
+        {
+            "@id": "publications:b1039535234075765710"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Virtanen, Pertti Olavi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:512.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2007-03-21_2007-03-21_2015-04-21_2015-04-21"
+        },
+        {
+            "@id": "times:t_1995-03-24_1995-03-24_1999-03-23_1999-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "psykologi, yhteiskuntatieteiden maisteri"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o401"
+        },
+        {
+            "@id": "occupations:o62"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2975805608401272842"
+    },
+    "xl:altLabel": {
+        "@id": "label:l5013367802138123023"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1608744090652291789"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=512"
+    },
+    "semparl:sortingLabel": "virtanen pertti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b512"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Veltto%20Virtanen%202010.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:512.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Veltto_Virtanen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Veltto_Virtanen"
+        },
+        {
+            "@id": "wd:Q3736022"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2923639751123113064"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9018237825043985220"
+        },
+        {
+            "@id": "event:e3330772799649467098"
+        },
+        {
+            "@id": "event:e3118108968712244435"
+        },
+        {
+            "@id": "event:e2994231432178698539"
+        },
+        {
+            "@id": "event:e6109971888275985433"
+        },
+        {
+            "@id": "event:e4426399591220589278"
+        },
+        {
+            "@id": "event:e2621594499443133493"
+        },
+        {
+            "@id": "event:e1265862777830646896"
+        },
+        {
+            "@id": "event:e1558385185754669111"
+        },
+        {
+            "@id": "event:e1687374618377149355"
+        },
+        {
+            "@id": "event:e3015921238971771589"
+        },
+        {
+            "@id": "event:e1236979475999621556"
+        },
+        {
+            "@id": "event:e2556550677573934549"
+        },
+        {
+            "@id": "event:e6756334874639296426"
+        },
+        {
+            "@id": "event:e2674188438154217142"
+        },
+        {
+            "@id": "event:e3276984321692720758"
+        },
+        {
+            "@id": "event:e3360308753521168976"
+        },
+        {
+            "@id": "event:e2322699330932493792"
+        },
+        {
+            "@id": "event:e1409397513632751490"
+        },
+        {
+            "@id": "event:e1182103369567481079"
+        },
+        {
+            "@id": "event:e9857870548833157885"
+        },
+        {
+            "@id": "event:e2113418326928706503"
+        },
+        {
+            "@id": "event:e4866698655111184118"
+        },
+        {
+            "@id": "event:e3168858186680632708"
+        },
+        {
+            "@id": "event:e3198138933134303334"
+        },
+        {
+            "@id": "event:e2648528504127152122"
+        },
+        {
+            "@id": "event:e4321861962734231678"
+        },
+        {
+            "@id": "event:e1280348100977213173"
+        },
+        {
+            "@id": "event:e4410676828551512832"
+        },
+        {
+            "@id": "event:e2176691904938618644"
+        },
+        {
+            "@id": "event:e3162437621075882149"
+        },
+        {
+            "@id": "event:e1448518030248342271"
+        },
+        {
+            "@id": "event:e3233539892668911176"
+        },
+        {
+            "@id": "event:e1646684661004952296"
+        },
+        {
+            "@id": "event:e7470922218771317581"
+        },
+        {
+            "@id": "event:e1744130070831200448"
+        },
+        {
+            "@id": "event:e1523747783451816356"
+        },
+        {
+            "@id": "event:e5940799331310434971"
+        },
+        {
+            "@id": "event:e3326524708994696726"
+        },
+        {
+            "@id": "event:e1410812783275847323"
+        },
+        {
+            "@id": "event:e1662343604093976251"
+        },
+        {
+            "@id": "event:e2325036380859429734"
+        },
+        {
+            "@id": "event:e8398844446325503059"
+        },
+        {
+            "@id": "event:e1212802181511422069"
+        },
+        {
+            "@id": "event:e3156238567443956321"
+        },
+        {
+            "@id": "event:e2720948150486561316"
+        },
+        {
+            "@id": "event:e1711021855822300272"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Virtanen, Pertti (1951-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Virtanen, Pertti Olavi"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q634277"
+        },
+        {
+            "@id": "groups:Q10480674"
+        }
+    ],
+    "semparl:id": "512",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,213 @@
+{
+    "@id": "people:p1525",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Kokkola"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9881026960707999762"
+        },
+        {
+            "@id": "affiliations:a9682992858613048296"
+        },
+        {
+            "@id": "affiliations:a7559313403690063048"
+        },
+        {
+            "@id": "affiliations:a7219961617682028581"
+        },
+        {
+            "@id": "affiliations:a4998022846315336148"
+        },
+        {
+            "@id": "affiliations:a3359524189020726519"
+        },
+        {
+            "@id": "affiliations:a2704125359333814488"
+        },
+        {
+            "@id": "affiliations:a2297247960032496122"
+        },
+        {
+            "@id": "affiliations:a2234302713486819904"
+        },
+        {
+            "@id": "affiliations:a2108915841243212409"
+        },
+        {
+            "@id": "affiliations:a1955491238567597215"
+        },
+        {
+            "@id": "affiliations:a1570710626147526391"
+        },
+        {
+            "@id": "affiliations:a1187305112117339634"
+        },
+        {
+            "@id": "affiliations:a1031363460790680473"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1525.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2023-04-05_2023-04-05__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yrittäjä"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o355"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p3367882169703946522"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1500162220835081119"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1525"
+    },
+    "semparl:sortingLabel": "jukkola janne",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1525"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/651951/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Janne%20Jukkola%202023%20%28Cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1525.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Janne_Jukkola"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Janne_Jukkola"
+        },
+        {
+            "@id": "wd:Q28783051"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Jukkola, Janne (1977-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1525",
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1439450725872352790"
+        },
+        {
+            "@id": "event:e7736801886906508839"
+        },
+        {
+            "@id": "event:e4879810188086202860"
+        },
+        {
+            "@id": "event:e1585720076526566815"
+        },
+        {
+            "@id": "event:e3287724533368371209"
+        },
+        {
+            "@id": "event:e1830197923606476462"
+        },
+        {
+            "@id": "event:e2192599820529190504"
+        },
+        {
+            "@id": "event:e1003018047447289491"
+        },
+        {
+            "@id": "event:e3020793493997602867"
+        },
+        {
+            "@id": "event:e3019543268085657797"
+        },
+        {
+            "@id": "event:e8599972445814730284"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

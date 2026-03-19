@@ -1,0 +1,238 @@
+{
+    "@id": "people:p1507",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Pori"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a3070884287124672912"
+        },
+        {
+            "@id": "affiliations:a3044108766950423630"
+        },
+        {
+            "@id": "affiliations:a2785697494163288408"
+        },
+        {
+            "@id": "affiliations:a2592702667029343674"
+        },
+        {
+            "@id": "affiliations:a2541661466401796474"
+        },
+        {
+            "@id": "affiliations:a2500200817881606625"
+        },
+        {
+            "@id": "affiliations:a2225304766723977617"
+        },
+        {
+            "@id": "affiliations:a2096145900805460529"
+        },
+        {
+            "@id": "affiliations:a1973718351560683410"
+        },
+        {
+            "@id": "affiliations:a1747590817651034275"
+        },
+        {
+            "@id": "affiliations:a1583206230425413908"
+        },
+        {
+            "@id": "affiliations:a1244578779285782250"
+        },
+        {
+            "@id": "affiliations:a1166065291125695690"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1507.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2023-04-05_2023-04-05__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kauppatieteiden maisteri, ekonomi"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o110"
+        },
+        {
+            "@id": "occupations:o139"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2988006315217842423"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2708052165671846887"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1507"
+    },
+    "semparl:sortingLabel": "kaunistola mari",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1507"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/640999/"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1507.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mari_Kaunistola"
+        },
+        {
+            "@id": "wd:Q28785831"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2622532096850073451"
+        },
+        {
+            "@id": "event:e1741902944741041077"
+        },
+        {
+            "@id": "event:e3079684789161927984"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4595963009024020253"
+        },
+        {
+            "@id": "event:e3019543268085657797"
+        },
+        {
+            "@id": "event:e2002689396252457728"
+        },
+        {
+            "@id": "event:e7625186879885937036"
+        },
+        {
+            "@id": "event:e2734275774830961826"
+        },
+        {
+            "@id": "event:e2657611982491052329"
+        },
+        {
+            "@id": "event:e2171395949909194572"
+        },
+        {
+            "@id": "event:e2165158635922476829"
+        },
+        {
+            "@id": "event:e2257702631807975718"
+        },
+        {
+            "@id": "event:e2799168677600085395"
+        },
+        {
+            "@id": "event:e1826604825065531174"
+        },
+        {
+            "@id": "event:e1621627375419033465"
+        },
+        {
+            "@id": "event:e1721359004993677795"
+        },
+        {
+            "@id": "event:e2676074443617502362"
+        },
+        {
+            "@id": "event:e2390966485819196240"
+        },
+        {
+            "@id": "event:e1635147649504396057"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kaunistola, Mari (1979-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1507",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

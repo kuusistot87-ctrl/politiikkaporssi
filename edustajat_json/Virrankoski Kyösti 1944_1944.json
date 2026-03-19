@@ -1,0 +1,287 @@
+{
+    "@id": "people:p419",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Virrankoski, Kyösti Tapio"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:419.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1991-03-22_1991-03-22_1995-03-23_1995-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lehtori, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1995",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1995-03-23_1995-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o107"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1380853054678850350"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2250579465994222957"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2333065857149213987"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=419"
+    },
+    "semparl:sortingLabel": "virrankoski kyösti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b419"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:419.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ky%C3%B6sti_Virrankoski"
+        },
+        {
+            "@id": "wd:Q714090"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3280625115627430580"
+        },
+        {
+            "@id": "event:e3226043158854175404"
+        },
+        {
+            "@id": "event:e1880158517012049258"
+        },
+        {
+            "@id": "event:e8444908425105242944"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1404365305723613992"
+        },
+        {
+            "@id": "event:e6169727484533921923"
+        },
+        {
+            "@id": "event:e5729113629721322108"
+        },
+        {
+            "@id": "event:e1754229972371043881"
+        },
+        {
+            "@id": "event:e3194186727071015459"
+        },
+        {
+            "@id": "event:e3058735582877074718"
+        },
+        {
+            "@id": "event:e1028217162675698246"
+        },
+        {
+            "@id": "event:e1321183640216688446"
+        },
+        {
+            "@id": "event:e2440317720574962484"
+        },
+        {
+            "@id": "event:e6039167847570196498"
+        },
+        {
+            "@id": "event:e3260093815741635248"
+        },
+        {
+            "@id": "event:e2859961396806865156"
+        },
+        {
+            "@id": "event:e2890052082237765028"
+        },
+        {
+            "@id": "event:e2083609998383195585"
+        },
+        {
+            "@id": "event:e2228965484707422195"
+        },
+        {
+            "@id": "event:e2817630841773827972"
+        },
+        {
+            "@id": "event:e1835720181118061775"
+        },
+        {
+            "@id": "event:e3278158136676954293"
+        },
+        {
+            "@id": "event:e6892605545921718718"
+        },
+        {
+            "@id": "event:e7984627568811183841"
+        },
+        {
+            "@id": "event:e1230529715759671565"
+        },
+        {
+            "@id": "event:e2525253436518133075"
+        },
+        {
+            "@id": "event:e6393665291767533220"
+        },
+        {
+            "@id": "event:e2744469590130461109"
+        },
+        {
+            "@id": "event:e3273659271741349699"
+        },
+        {
+            "@id": "event:e2191838094277710910"
+        },
+        {
+            "@id": "event:e3380552248482108851"
+        },
+        {
+            "@id": "event:e2639988667682527696"
+        },
+        {
+            "@id": "event:e1053731581702867224"
+        },
+        {
+            "@id": "event:e2267553809687004890"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e5779150153549483381"
+        },
+        {
+            "@id": "event:e3315411876264333659"
+        },
+        {
+            "@id": "event:e1552235492298805074"
+        },
+        {
+            "@id": "event:e2160041336236578237"
+        },
+        {
+            "@id": "event:e9188669615898915677"
+        },
+        {
+            "@id": "event:e3081646102032137415"
+        },
+        {
+            "@id": "event:e1895863619738866528"
+        },
+        {
+            "@id": "event:e5344316322313503444"
+        },
+        {
+            "@id": "event:e9692924368901077529"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Virrankoski, Kyösti (1944-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Virrankoski, Kyösti Tapio"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "419",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

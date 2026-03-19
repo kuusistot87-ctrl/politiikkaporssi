@@ -1,0 +1,279 @@
+{
+    "@id": "people:p911764",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Volotinen, Johannes (Hannes)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911764.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1970-03-23_1970-03-23_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agrologi, maatalousaineiden opettaja"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1814"
+        },
+        {
+            "@id": "occupations:o217"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2983378548891629718"
+        },
+        {
+            "@id": "event:p2708915207633482686"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911764"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1567287011086518836"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2760742029355999614"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911764"
+    },
+    "semparl:sortingLabel": "volotinen hannes",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911764"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911764.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hannes_Volotinen"
+        },
+        {
+            "@id": "wd:Q17384707"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2985913079498914657"
+        },
+        {
+            "@id": "event:e1708248675840791096"
+        },
+        {
+            "@id": "event:e1313396779964921870"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3300803207009456064"
+        },
+        {
+            "@id": "event:e1451171796873255750"
+        },
+        {
+            "@id": "event:e1537289366267362574"
+        },
+        {
+            "@id": "event:e1362389479884905067"
+        },
+        {
+            "@id": "event:e2375576683197985979"
+        },
+        {
+            "@id": "event:e2485697211014650277"
+        },
+        {
+            "@id": "event:e1064664382567898924"
+        },
+        {
+            "@id": "event:e2509453368346444565"
+        },
+        {
+            "@id": "event:e9018673120700678775"
+        },
+        {
+            "@id": "event:e3070904603407218802"
+        },
+        {
+            "@id": "event:e2067493092216384727"
+        },
+        {
+            "@id": "event:e1687116503654349202"
+        },
+        {
+            "@id": "event:e1656258820991041107"
+        },
+        {
+            "@id": "event:e6030888010659042023"
+        },
+        {
+            "@id": "event:e6979380624149559880"
+        },
+        {
+            "@id": "event:e2282532408599508788"
+        },
+        {
+            "@id": "event:e1843677935828393781"
+        },
+        {
+            "@id": "event:e1386421429932621442"
+        },
+        {
+            "@id": "event:e1252495810932280016"
+        },
+        {
+            "@id": "event:e1519373650172978782"
+        },
+        {
+            "@id": "event:e4257208258816683055"
+        },
+        {
+            "@id": "event:e2076030161878531315"
+        },
+        {
+            "@id": "event:e1844618859544541018"
+        },
+        {
+            "@id": "event:e2765828403694880285"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e4625676106890106564"
+        },
+        {
+            "@id": "event:e1550027486355887127"
+        },
+        {
+            "@id": "event:e1174308567375663522"
+        },
+        {
+            "@id": "event:e9668271444311352966"
+        },
+        {
+            "@id": "event:e1171095490147464134"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Volotinen, Hannes (1911-1980)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Volotinen, Johannes"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1854411"
+        },
+        {
+            "@id": "groups:Q5450807"
+        }
+    ],
+    "semparl:id": "911764",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

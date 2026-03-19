@@ -1,0 +1,232 @@
+{
+    "@id": "people:p910888",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lampinen, Kaarle Oskar (Kalle Oskari)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910888.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1922-09-05_1922-09-05_1923-10-17_1923-10-17"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimitussihteeri"
+    },
+    "semparl:end_of_representative_period_text": "17.10.1923",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1923-10-17_1923-10-17"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1513"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1800990796748112859"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910888"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5270810873781601791"
+        },
+        {
+            "@id": "label:l2236276366710132187"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2209342325094125666"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910888"
+    },
+    "semparl:sortingLabel": "lampinen kalle",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910888"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910888.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kalle_Lampinen"
+        },
+        {
+            "@id": "wd:Q11869415"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2308955451639360524"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1580181261949751761"
+        },
+        {
+            "@id": "event:e8450293405086045474"
+        },
+        {
+            "@id": "event:e5094573787137169402"
+        },
+        {
+            "@id": "event:e2359407682382381143"
+        },
+        {
+            "@id": "event:e2343120387655292733"
+        },
+        {
+            "@id": "event:e8348060991363626392"
+        },
+        {
+            "@id": "event:e7183817629119909584"
+        },
+        {
+            "@id": "event:e5136326292356452633"
+        },
+        {
+            "@id": "event:e2917164509367910848"
+        },
+        {
+            "@id": "event:e2741327137951796802"
+        },
+        {
+            "@id": "event:e3154277520350517669"
+        },
+        {
+            "@id": "event:e6725399558045626929"
+        },
+        {
+            "@id": "event:e2112784086096028486"
+        },
+        {
+            "@id": "event:e1419912171297893780"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e3211302858766291027"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e2076169094273316242"
+        },
+        {
+            "@id": "event:e2542637096149598761"
+        },
+        {
+            "@id": "event:e1406759832552820167"
+        },
+        {
+            "@id": "event:e3312120897393726747"
+        },
+        {
+            "@id": "event:e2017299209534351398"
+        },
+        {
+            "@id": "event:e2455481683483938240"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lampinen, Kalle (1894-1950)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Lampinen, Kaarle Oskar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lampinen, Kalle Oskari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q220217"
+    },
+    "semparl:id": "910888",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

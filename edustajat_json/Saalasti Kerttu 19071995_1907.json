@@ -1,0 +1,343 @@
+{
+    "@id": "people:p911412",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p2124231609476492912"
+        },
+        {
+            "@id": "ns1:p3215251163368008758"
+        },
+        {
+            "@id": "ns1:p1381872997753149203"
+        }
+    ],
+    "semparl:authored": {
+        "@id": "publications:b2389195609454251277"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Saalasti, Kerttu"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911412.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1948-07-22_1948-07-22_1962-02-19_1962-02-19"
+        },
+        {
+            "@id": "times:t_1966-04-05_1966-04-05_1970-03-22_1970-03-22"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, maanviljelijä, opetusneuvos, lääketieteenja kirurgian tohtori h.c."
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1412"
+        },
+        {
+            "@id": "occupations:o72"
+        },
+        {
+            "@id": "occupations:o152"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p7583774405325130607"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911412"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1340997874277555536"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911412"
+    },
+    "semparl:sortingLabel": "saalasti kerttu",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911412"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kerttu%20Saalasti.jpeg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911412.aspx"
+        },
+        {
+            "@id": "natbib:969"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kerttu_Saalasti"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kerttu_Saalasti"
+        },
+        {
+            "@id": "wd:Q11871031"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2327"
+        },
+        {
+            "@id": "finaf:000057614"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5072"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2897791902054910696"
+        },
+        {
+            "@id": "event:e1886658999580778094"
+        },
+        {
+            "@id": "event:e2635166766854856005"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5332960256615376784"
+        },
+        {
+            "@id": "event:e3192842988267368602"
+        },
+        {
+            "@id": "event:e2606729889001107463"
+        },
+        {
+            "@id": "event:e2121517362445308390"
+        },
+        {
+            "@id": "event:e1874486891777038198"
+        },
+        {
+            "@id": "event:e1057906568656600248"
+        },
+        {
+            "@id": "event:e1183124286867207757"
+        },
+        {
+            "@id": "event:e7364070713937771637"
+        },
+        {
+            "@id": "event:e1586908613559334247"
+        },
+        {
+            "@id": "event:e2020688788846917789"
+        },
+        {
+            "@id": "event:e1137330854074194914"
+        },
+        {
+            "@id": "event:e1808211750957170638"
+        },
+        {
+            "@id": "event:e3228009740642044782"
+        },
+        {
+            "@id": "event:e7866678975472262909"
+        },
+        {
+            "@id": "event:e1366702598840253688"
+        },
+        {
+            "@id": "event:e4882238088104679207"
+        },
+        {
+            "@id": "event:e3310422289585773049"
+        },
+        {
+            "@id": "event:e2778553334312915799"
+        },
+        {
+            "@id": "event:e2302606914122928288"
+        },
+        {
+            "@id": "event:e2295610824889969044"
+        },
+        {
+            "@id": "event:e3223213763666467418"
+        },
+        {
+            "@id": "event:e1072144525519342423"
+        },
+        {
+            "@id": "event:e1407353644959364284"
+        },
+        {
+            "@id": "event:e1350489881843997756"
+        },
+        {
+            "@id": "event:e3599057696195419069"
+        },
+        {
+            "@id": "event:e1090155837562346507"
+        },
+        {
+            "@id": "event:e2392671212041332593"
+        },
+        {
+            "@id": "event:e3033986133839220661"
+        },
+        {
+            "@id": "event:e2845906718381834118"
+        },
+        {
+            "@id": "event:e3068901829828400200"
+        },
+        {
+            "@id": "event:e3235220145690436443"
+        },
+        {
+            "@id": "event:e2391103069183982724"
+        },
+        {
+            "@id": "event:e3434680712561688773"
+        },
+        {
+            "@id": "event:e2569723927725771542"
+        },
+        {
+            "@id": "event:e6433147739944680589"
+        },
+        {
+            "@id": "event:e2418817553562174639"
+        },
+        {
+            "@id": "event:e2552172841612641309"
+        },
+        {
+            "@id": "event:e1153736019940311412"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e6315529493592326787"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e3475636242902404358"
+        },
+        {
+            "@id": "event:e2869424401532173317"
+        },
+        {
+            "@id": "event:e1544930131154918511"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e8596745127690482134"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Saalasti, Kerttu (1907-1995)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911412",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

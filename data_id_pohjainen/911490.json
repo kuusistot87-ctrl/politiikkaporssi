@@ -1,0 +1,422 @@
+{
+    "@id": "people:p911490",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b8023758042900353489"
+        },
+        {
+            "@id": "publications:b1908102973644614181"
+        },
+        {
+            "@id": "publications:b1333989335079282238"
+        },
+        {
+            "@id": "publications:b1322393145899792350"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Setälä, Nestor Emil (Emil Nestor, E.N.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911490.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1927-09-01_1927-09-01"
+        },
+        {
+            "@id": "times:t_1910-03-01_1910-03-01_1911-01-31_1911-01-31"
+        },
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1909-05-31_1909-05-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, senaattori, valtioneuvos"
+    },
+    "semparl:end_of_representative_period_text": "01.09.1927",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1927-09-01_1927-09-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o289"
+        },
+        {
+            "@id": "occupations:o1215"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2963327930874592950"
+        },
+        {
+            "@id": "event:p1499191125446683457"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911490"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2276390481831352707"
+        },
+        {
+            "@id": "label:l1919936384357064400"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1943738770924517708"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911490"
+    },
+    "semparl:sortingLabel": "setälä e.n.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911490"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eemil%20Set%C3%A4l%C3%A4.JPG"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911490.aspx"
+        },
+        {
+            "@id": "viaf:27231858"
+        },
+        {
+            "@id": "natbib:500"
+        },
+        {
+            "@id": "https://fi.wikisource.org/wiki/E._N._Set%C3%A4l%C3%A4"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/E._N._Set%C3%A4l%C3%A4"
+        },
+        {
+            "@id": "wd:Q2386409"
+        },
+        {
+            "@id": "finaf:000072372"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p270"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1394757930553067522"
+        },
+        {
+            "@id": "event:e2874426600215973603"
+        },
+        {
+            "@id": "event:e3237241247488514742"
+        },
+        {
+            "@id": "event:e2817560083118920612"
+        },
+        {
+            "@id": "event:e1182631363932201958"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3266362197601537112"
+        },
+        {
+            "@id": "event:e2638784177217969374"
+        },
+        {
+            "@id": "event:e2067295320692171369"
+        },
+        {
+            "@id": "event:e1746998521924377147"
+        },
+        {
+            "@id": "event:e1671377700319600456"
+        },
+        {
+            "@id": "event:e1536717783250925574"
+        },
+        {
+            "@id": "event:e1225958963803418010"
+        },
+        {
+            "@id": "event:e1051743544032080099"
+        },
+        {
+            "@id": "event:e1623619117836045589"
+        },
+        {
+            "@id": "event:e2276679356852412752"
+        },
+        {
+            "@id": "event:e3216625288457205812"
+        },
+        {
+            "@id": "event:e5547653579028763006"
+        },
+        {
+            "@id": "event:e5973862446280862294"
+        },
+        {
+            "@id": "event:e1290701049472871799"
+        },
+        {
+            "@id": "event:e1056009596961120118"
+        },
+        {
+            "@id": "event:e2705130776222664465"
+        },
+        {
+            "@id": "event:e2757564832675332249"
+        },
+        {
+            "@id": "event:e5517154173824344871"
+        },
+        {
+            "@id": "event:e2479538888448392657"
+        },
+        {
+            "@id": "event:e2640917273822047186"
+        },
+        {
+            "@id": "event:e2585292330745374918"
+        },
+        {
+            "@id": "event:e1158040234875696185"
+        },
+        {
+            "@id": "event:e3797771270211746798"
+        },
+        {
+            "@id": "event:e2275828509467633373"
+        },
+        {
+            "@id": "event:e1471688462418050137"
+        },
+        {
+            "@id": "event:e1178885271088662494"
+        },
+        {
+            "@id": "event:e4754387886697537860"
+        },
+        {
+            "@id": "event:e1576445830750945447"
+        },
+        {
+            "@id": "event:e1455854720702138443"
+        },
+        {
+            "@id": "event:e6215662062676018050"
+        },
+        {
+            "@id": "event:e2604633348343393608"
+        },
+        {
+            "@id": "event:e4471028915061249377"
+        },
+        {
+            "@id": "event:e3236100198074585509"
+        },
+        {
+            "@id": "event:e1249728648777153020"
+        },
+        {
+            "@id": "event:e3309331749784659962"
+        },
+        {
+            "@id": "event:e1856617466452426761"
+        },
+        {
+            "@id": "event:e2136446370881575103"
+        },
+        {
+            "@id": "event:e2260810037290312776"
+        },
+        {
+            "@id": "event:e2816511884179480306"
+        },
+        {
+            "@id": "event:e1557928288866156884"
+        },
+        {
+            "@id": "event:e3153507669132039321"
+        },
+        {
+            "@id": "event:e1052543732351277270"
+        },
+        {
+            "@id": "event:e2911327758085863885"
+        },
+        {
+            "@id": "event:e2880177326867241908"
+        },
+        {
+            "@id": "event:e3004122425735982048"
+        },
+        {
+            "@id": "event:e1038383346662561156"
+        },
+        {
+            "@id": "event:e3332515975419700064"
+        },
+        {
+            "@id": "event:e2139119779347831338"
+        },
+        {
+            "@id": "event:e3113907995919005488"
+        },
+        {
+            "@id": "event:e2162239738061117104"
+        },
+        {
+            "@id": "event:e9003132330575694022"
+        },
+        {
+            "@id": "event:e3373985211776336916"
+        },
+        {
+            "@id": "event:e1863088891465405229"
+        },
+        {
+            "@id": "event:e2912164356060376986"
+        },
+        {
+            "@id": "event:e7153458311860258177"
+        },
+        {
+            "@id": "event:e2001599171605029180"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1864667187225580490"
+        },
+        {
+            "@id": "event:e9924068009198094759"
+        },
+        {
+            "@id": "event:e1575543740984252011"
+        },
+        {
+            "@id": "event:e3241764227032702725"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Setälä, E.N. (1864-1935)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Setälä, Emil Nestor"
+        },
+        {
+            "@language": "fi",
+            "@value": "Setälä, Nestor Emil"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1713433"
+        },
+        {
+            "@id": "groups:Q304191"
+        }
+    ],
+    "semparl:id": "911490",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

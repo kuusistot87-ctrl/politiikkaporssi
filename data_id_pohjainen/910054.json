@@ -1,0 +1,365 @@
+{
+    "@id": "people:p910054",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2449662012034277448"
+    },
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kaasalainen, Nestor (Nestori) Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910054.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1951-07-21_1951-07-21_1972-01-21_1972-01-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, hallinnollinen johtaja"
+    },
+    "semparl:end_of_representative_period_text": "21.01.1972",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1972-01-21_1972-01-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1056"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3155918042759300434"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910054"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2962938811227601799"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3157851633019450899"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910054"
+    },
+    "semparl:sortingLabel": "kaasalainen nestori",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910054"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Nestori-Kaasalainen-1967%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910054.aspx"
+        },
+        {
+            "@id": "natbib:867"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Nestori_Kaasalainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Nestori_Kaasalainen"
+        },
+        {
+            "@id": "wd:Q5492673"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4011"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2050654705335633674"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9272648338031811240"
+        },
+        {
+            "@id": "event:e5026455936933252134"
+        },
+        {
+            "@id": "event:e2950997506697049729"
+        },
+        {
+            "@id": "event:e2376005605578401360"
+        },
+        {
+            "@id": "event:e2348428615544662952"
+        },
+        {
+            "@id": "event:e1328383488989629353"
+        },
+        {
+            "@id": "event:e1424838918566555464"
+        },
+        {
+            "@id": "event:e3173097412705517040"
+        },
+        {
+            "@id": "event:e2786279988241681307"
+        },
+        {
+            "@id": "event:e1086669905455800361"
+        },
+        {
+            "@id": "event:e3119512043957102507"
+        },
+        {
+            "@id": "event:e2644200154329755100"
+        },
+        {
+            "@id": "event:e1317017006882743579"
+        },
+        {
+            "@id": "event:e2778261107279037635"
+        },
+        {
+            "@id": "event:e2233682978708854500"
+        },
+        {
+            "@id": "event:e3080909061119750794"
+        },
+        {
+            "@id": "event:e3255540307028581004"
+        },
+        {
+            "@id": "event:e9783724314932840194"
+        },
+        {
+            "@id": "event:e7410655306367167500"
+        },
+        {
+            "@id": "event:e1759738769227259675"
+        },
+        {
+            "@id": "event:e3395396586566913831"
+        },
+        {
+            "@id": "event:e1734411145424510450"
+        },
+        {
+            "@id": "event:e4218000450516363424"
+        },
+        {
+            "@id": "event:e1543493623042284864"
+        },
+        {
+            "@id": "event:e3049458729086161256"
+        },
+        {
+            "@id": "event:e2767742306125136747"
+        },
+        {
+            "@id": "event:e3276168467168040406"
+        },
+        {
+            "@id": "event:e8693250409102363895"
+        },
+        {
+            "@id": "event:e1080364997035950546"
+        },
+        {
+            "@id": "event:e7511968072258739796"
+        },
+        {
+            "@id": "event:e2661778836104088210"
+        },
+        {
+            "@id": "event:e1955090900294949079"
+        },
+        {
+            "@id": "event:e1047637397701466573"
+        },
+        {
+            "@id": "event:e1610933277641423926"
+        },
+        {
+            "@id": "event:e2356136580327755684"
+        },
+        {
+            "@id": "event:e7441266440224903440"
+        },
+        {
+            "@id": "event:e1080420927998683735"
+        },
+        {
+            "@id": "event:e1523896031834421792"
+        },
+        {
+            "@id": "event:e3245165259647152294"
+        },
+        {
+            "@id": "event:e4176989928774985459"
+        },
+        {
+            "@id": "event:e1850602448681913851"
+        },
+        {
+            "@id": "event:e1512659421087226953"
+        },
+        {
+            "@id": "event:e6965649244687466992"
+        },
+        {
+            "@id": "event:e1373428185589071918"
+        },
+        {
+            "@id": "event:e2098391198293185930"
+        },
+        {
+            "@id": "event:e2404463991478479977"
+        },
+        {
+            "@id": "event:e3001076108530492638"
+        },
+        {
+            "@id": "event:e4249153399709519934"
+        },
+        {
+            "@id": "event:e1844229975662481890"
+        },
+        {
+            "@id": "event:e1834914210709899472"
+        },
+        {
+            "@id": "event:e1628289608599132243"
+        },
+        {
+            "@id": "event:e1153964938269575860"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e1222598522800424332"
+        },
+        {
+            "@id": "event:e1233580667868506519"
+        },
+        {
+            "@id": "event:e2614762992196917603"
+        },
+        {
+            "@id": "event:e2087293781181849083"
+        },
+        {
+            "@id": "event:e3102095049987529190"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kaasalainen, Nestori (1915-2016)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kaasalainen, Nestor Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910054",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

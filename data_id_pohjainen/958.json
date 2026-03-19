@@ -1,0 +1,289 @@
+{
+    "@id": "people:p958",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kataja, Sampsa Kalle Henrikki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:958.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "asianajaja, varatuomari"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o455"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2701867494684506691"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2097948882813981354"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2777740367004710864"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=958"
+    },
+    "semparl:sortingLabel": "kataja sampsa",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b958"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Sampsa%20Kataja.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:958.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Sampsa_Kataja"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Sampsa_Kataja"
+        },
+        {
+            "@id": "wd:Q11892271"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1335158154921750684"
+        },
+        {
+            "@id": "event:e2941267794792321397"
+        },
+        {
+            "@id": "event:e2896109724188280483"
+        },
+        {
+            "@id": "event:e3031368100876674626"
+        },
+        {
+            "@id": "event:e3375208700770404016"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1903350494657827472"
+        },
+        {
+            "@id": "event:e1100913214611810985"
+        },
+        {
+            "@id": "event:e3248873063475384771"
+        },
+        {
+            "@id": "event:e1378698256361208301"
+        },
+        {
+            "@id": "event:e2150058611323418859"
+        },
+        {
+            "@id": "event:e3373148739785390263"
+        },
+        {
+            "@id": "event:e1066936591997832859"
+        },
+        {
+            "@id": "event:e1474812518542127676"
+        },
+        {
+            "@id": "event:e1781509772196963841"
+        },
+        {
+            "@id": "event:e3191870027288835799"
+        },
+        {
+            "@id": "event:e1296043340133276437"
+        },
+        {
+            "@id": "event:e1635876327148480674"
+        },
+        {
+            "@id": "event:e8776627107950145744"
+        },
+        {
+            "@id": "event:e3218757211697520926"
+        },
+        {
+            "@id": "event:e2365710720880970196"
+        },
+        {
+            "@id": "event:e5504223568106771950"
+        },
+        {
+            "@id": "event:e1416356766854564464"
+        },
+        {
+            "@id": "event:e2968624161077276368"
+        },
+        {
+            "@id": "event:e8725948461260030569"
+        },
+        {
+            "@id": "event:e1120175493045318345"
+        },
+        {
+            "@id": "event:e1458629290860297679"
+        },
+        {
+            "@id": "event:e1649534787265677805"
+        },
+        {
+            "@id": "event:e2129445314289714238"
+        },
+        {
+            "@id": "event:e3175541902426579506"
+        },
+        {
+            "@id": "event:e8475676638231620627"
+        },
+        {
+            "@id": "event:e2543834698822739210"
+        },
+        {
+            "@id": "event:e2048734543229018601"
+        },
+        {
+            "@id": "event:e9289184853634234843"
+        },
+        {
+            "@id": "event:e7830236897615289335"
+        },
+        {
+            "@id": "event:e3358798283185543080"
+        },
+        {
+            "@id": "event:e2273676111576110291"
+        },
+        {
+            "@id": "event:e3161635551136256033"
+        },
+        {
+            "@id": "event:e2206032695813813602"
+        },
+        {
+            "@id": "event:e3087286237054740521"
+        },
+        {
+            "@id": "event:e1304471311684703441"
+        },
+        {
+            "@id": "event:e9563935715265796639"
+        },
+        {
+            "@id": "event:e1281237230270753095"
+        },
+        {
+            "@id": "event:e2832532853778311772"
+        },
+        {
+            "@id": "event:e1918856074117494212"
+        },
+        {
+            "@id": "event:e2678402246667544681"
+        },
+        {
+            "@id": "event:e2414098713236097592"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kataja, Sampsa (1972-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kataja, Sampsa Kalle Henrikki"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "958",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

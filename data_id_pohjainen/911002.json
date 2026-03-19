@@ -1,0 +1,257 @@
+{
+    "@id": "people:p911002",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lumio(e. Ylén), Karl Ivar (Kalle Iivari, K.I.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911002.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1919-10-17_1919-10-17_1922-09-04_1922-09-04"
+        },
+        {
+            "@id": "times:t_1909-06-01_1909-06-01_1911-01-31_1911-01-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimitusjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "04.09.1922",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1922-09-04_1922-09-04"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o111"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2769128632229523465"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911002"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3077668898567948882"
+        },
+        {
+            "@id": "label:l2400097668103267558"
+        },
+        {
+            "@id": "label:l2252717740145320909"
+        },
+        {
+            "@id": "label:l1882473554982128069"
+        },
+        {
+            "@id": "label:l1565387049146925105"
+        },
+        {
+            "@id": "label:l1151522424965207774"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2721601771345726260"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911002"
+    },
+    "semparl:sortingLabel": "lumio kalle",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911002"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/K.%20I.%20Lumio.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911002.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/K._I._Lumio"
+        },
+        {
+            "@id": "wd:Q11869419"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6333527659949387888"
+        },
+        {
+            "@id": "event:e3021509793293420012"
+        },
+        {
+            "@id": "event:e2984026725567813675"
+        },
+        {
+            "@id": "event:e1974574317695877938"
+        },
+        {
+            "@id": "event:e6258573596788168337"
+        },
+        {
+            "@id": "event:e6110508041993828287"
+        },
+        {
+            "@id": "event:e2402102207905073226"
+        },
+        {
+            "@id": "event:e2161024940032492154"
+        },
+        {
+            "@id": "event:e3185244493689445416"
+        },
+        {
+            "@id": "event:e1829940595291866515"
+        },
+        {
+            "@id": "event:e2721956726018315916"
+        },
+        {
+            "@id": "event:e1294525856921331699"
+        },
+        {
+            "@id": "event:e2195251027198219172"
+        },
+        {
+            "@id": "event:e2663903323865419745"
+        },
+        {
+            "@id": "event:e1473396445961716667"
+        },
+        {
+            "@id": "event:e2659497332979016749"
+        },
+        {
+            "@id": "event:e1536681268504128945"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e9532308540911923326"
+        },
+        {
+            "@id": "event:e3174001942262514802"
+        },
+        {
+            "@id": "event:e2760526506224800285"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lumio, Kalle (1872-1946)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Lumio, Karl Ivar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Ylén, K.I."
+        },
+        {
+            "@language": "fi",
+            "@value": "Lumio, Kalle Iivari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lumio, K.I."
+        },
+        {
+            "@language": "fi",
+            "@value": "Ylén, Karl Ivar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Ylén, Kalle Iivari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911002",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "@id": "people:p911703",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vartia, Tauno Ilmari (Tauno I.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911703.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1966-04-05_1966-04-05_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o152"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p9070417046872718829"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911703"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2878496903041875387"
+        },
+        {
+            "@id": "label:l1382326436191207116"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1994336344878615199"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911703"
+    },
+    "semparl:sortingLabel": "vartia tauno",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911703"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911703.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tauno_Vartia"
+        },
+        {
+            "@id": "wd:Q17384526"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1775195640341312355"
+        },
+        {
+            "@id": "event:e1765547327352054443"
+        },
+        {
+            "@id": "event:e2556924016300573385"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3309268320186816027"
+        },
+        {
+            "@id": "event:e1970414924583879770"
+        },
+        {
+            "@id": "event:e1635957687029149622"
+        },
+        {
+            "@id": "event:e1001730518187316180"
+        },
+        {
+            "@id": "event:e2288847417990953065"
+        },
+        {
+            "@id": "event:e3147418994500953430"
+        },
+        {
+            "@id": "event:e3110821930638524657"
+        },
+        {
+            "@id": "event:e1827725583377100297"
+        },
+        {
+            "@id": "event:e3067374416128425746"
+        },
+        {
+            "@id": "event:e1328262345452057774"
+        },
+        {
+            "@id": "event:e1062508097218746701"
+        },
+        {
+            "@id": "event:e3048218253988435209"
+        },
+        {
+            "@id": "event:e9659089500184027992"
+        },
+        {
+            "@id": "event:e4819010415617532492"
+        },
+        {
+            "@id": "event:e2432022459328547183"
+        },
+        {
+            "@id": "event:e2691797849847969633"
+        },
+        {
+            "@id": "event:e7008353865839423901"
+        },
+        {
+            "@id": "event:e2900865587465488596"
+        },
+        {
+            "@id": "event:e1301706587666315570"
+        },
+        {
+            "@id": "event:e1449209850274240172"
+        },
+        {
+            "@id": "event:e2645859925217983128"
+        },
+        {
+            "@id": "event:e1305515977324844871"
+        },
+        {
+            "@id": "event:e1565649615493557654"
+        },
+        {
+            "@id": "event:e1884962794642384804"
+        },
+        {
+            "@id": "event:e3399487737280026679"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        },
+        {
+            "@id": "event:e2235205583707004924"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1436413233434103150"
+        },
+        {
+            "@id": "event:e2762951265617556441"
+        },
+        {
+            "@id": "event:e1701160081270017334"
+        },
+        {
+            "@id": "event:e1667044086152201552"
+        },
+        {
+            "@id": "event:e2694194870449423642"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vartia, Tauno (1907-1977)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Vartia, Tauno Ilmari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Vartia, Tauno I."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911703",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

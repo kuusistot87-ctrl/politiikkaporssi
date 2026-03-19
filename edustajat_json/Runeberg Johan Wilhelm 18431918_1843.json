@@ -1,0 +1,246 @@
+{
+    "@id": "people:p911384",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b2009068108013567887"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Runeberg, Johan Wilhelm (J.W.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911384.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1908-07-31_1908-07-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, valtioneuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1908",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1908-07-31_1908-07-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o289"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2198151650802234533"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911384"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2278414303803961691"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2202361040434878059"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911384"
+    },
+    "semparl:sortingLabel": "runeberg johan wilhelm",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911384"
+    },
+    "sch:image": [
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Professor%20Runeberg.jpg"
+        },
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%BE%D0%B3%D0%B0%D0%BD%D0%BD%20%D0%92%D0%B8%D0%BB%D1%8C%D0%B3%D0%B5%D0%BB%D1%8C%D0%BC%20%D0%A0%D1%83%D0%BD%D0%B5%D0%B1%D0%B5%D1%80%D0%B3.jpg"
+        }
+    ],
+    "sch:sameAs": [
+        {
+            "@id": "mps:911384.aspx"
+        },
+        {
+            "@id": "viaf:30294695"
+        },
+        {
+            "@id": "natbib:3610"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Johan_Wilhelm_Runeberg"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Johan_Wilhelm_Runeberg"
+        },
+        {
+            "@id": "wd:Q704066"
+        },
+        {
+            "@id": "finaf:000086231"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1906"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2233859624751788276"
+        },
+        {
+            "@id": "event:e1095926648567651694"
+        },
+        {
+            "@id": "event:e2032942743796634440"
+        },
+        {
+            "@id": "event:e2420344237656408249"
+        },
+        {
+            "@id": "event:e7649116062049452190"
+        },
+        {
+            "@id": "event:e2802846210735956813"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3276423365836996833"
+        },
+        {
+            "@id": "event:e3587885333098975277"
+        },
+        {
+            "@id": "event:e2234394198390046786"
+        },
+        {
+            "@id": "event:e2229993508971228012"
+        },
+        {
+            "@id": "event:e2810127012842331578"
+        },
+        {
+            "@id": "event:e7919762899456761902"
+        },
+        {
+            "@id": "event:e4699643298924649561"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e8503593658267528795"
+        },
+        {
+            "@id": "event:e5268010510722526601"
+        },
+        {
+            "@id": "event:e2869086407696366442"
+        },
+        {
+            "@id": "event:e6969564497670661990"
+        },
+        {
+            "@id": "event:e2153182667039142328"
+        },
+        {
+            "@id": "event:e2230214437881174100"
+        },
+        {
+            "@id": "event:e1240441579095138038"
+        },
+        {
+            "@id": "event:e1446575502474367979"
+        },
+        {
+            "@id": "event:e8843682079307451243"
+        },
+        {
+            "@id": "event:e2285650889736366088"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Runeberg, Johan Wilhelm (1843-1918)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Runeberg, J.W."
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "911384",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

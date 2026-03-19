@@ -1,0 +1,331 @@
+{
+    "@id": "people:p266",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b4555704350751132539"
+        },
+        {
+            "@id": "publications:b4542523617420722324"
+        },
+        {
+            "@id": "publications:b3765106807731467173"
+        },
+        {
+            "@id": "publications:b2684863493635357761"
+        },
+        {
+            "@id": "publications:b2460570409569279531"
+        },
+        {
+            "@id": "publications:b2059377557093114175"
+        },
+        {
+            "@id": "publications:b1863403102490463313"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Siuruainen, Eino Olavi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:266.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1987-03-21_1987-03-21_1991-10-31_1991-10-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian tohtori, maaherra"
+    },
+    "semparl:end_of_representative_period_text": "31.10.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-10-31_1991-10-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o57"
+        },
+        {
+            "@id": "occupations:o233"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1729823083330189871"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2526491743290059969"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1850180263501912023"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=266"
+    },
+    "semparl:sortingLabel": "siuruainen eino",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b266"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:266.aspx"
+        },
+        {
+            "@id": "viaf:25862104"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eino_Siuruainen"
+        },
+        {
+            "@id": "wd:Q5411782"
+        },
+        {
+            "@id": "finaf:000059281"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2892849681855575464"
+        },
+        {
+            "@id": "event:e1498727276715826149"
+        },
+        {
+            "@id": "event:e3245607587005216402"
+        },
+        {
+            "@id": "event:e9224493256995150581"
+        },
+        {
+            "@id": "event:e1832842343363801201"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1922693421494056631"
+        },
+        {
+            "@id": "event:e1847331959574781019"
+        },
+        {
+            "@id": "event:e2731456166932624391"
+        },
+        {
+            "@id": "event:e1518661513985131166"
+        },
+        {
+            "@id": "event:e1721827132565145158"
+        },
+        {
+            "@id": "event:e1998350212404329434"
+        },
+        {
+            "@id": "event:e2120988225998973289"
+        },
+        {
+            "@id": "event:e3378255970959581272"
+        },
+        {
+            "@id": "event:e2924902771497238623"
+        },
+        {
+            "@id": "event:e2338104116072969142"
+        },
+        {
+            "@id": "event:e2109701238514561555"
+        },
+        {
+            "@id": "event:e2778114872560400509"
+        },
+        {
+            "@id": "event:e1500602037696358715"
+        },
+        {
+            "@id": "event:e2107553673303267730"
+        },
+        {
+            "@id": "event:e1887550193122605570"
+        },
+        {
+            "@id": "event:e3378672117266233393"
+        },
+        {
+            "@id": "event:e1654265685834693696"
+        },
+        {
+            "@id": "event:e2909033383153238454"
+        },
+        {
+            "@id": "event:e1412624953476444893"
+        },
+        {
+            "@id": "event:e2531233866857694531"
+        },
+        {
+            "@id": "event:e7879609164521105531"
+        },
+        {
+            "@id": "event:e9689272209867481129"
+        },
+        {
+            "@id": "event:e2306731297790845984"
+        },
+        {
+            "@id": "event:e1355788955171663360"
+        },
+        {
+            "@id": "event:e4256871847363746708"
+        },
+        {
+            "@id": "event:e1167134225897011373"
+        },
+        {
+            "@id": "event:e2249568191508656875"
+        },
+        {
+            "@id": "event:e5718066075024679940"
+        },
+        {
+            "@id": "event:e3354123134888624274"
+        },
+        {
+            "@id": "event:e1977300702960704412"
+        },
+        {
+            "@id": "event:e4913029748774183239"
+        },
+        {
+            "@id": "event:e1844043212059207459"
+        },
+        {
+            "@id": "event:e2331869094008169978"
+        },
+        {
+            "@id": "event:e6113030775383000505"
+        },
+        {
+            "@id": "event:e4383414838843544644"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1652243427840165669"
+        },
+        {
+            "@id": "event:e1470292580665900143"
+        },
+        {
+            "@id": "event:e1290826813308684104"
+        },
+        {
+            "@id": "event:e9780544182555227064"
+        },
+        {
+            "@id": "event:e2106101377863308588"
+        },
+        {
+            "@id": "event:e1510164409665445025"
+        },
+        {
+            "@id": "event:e1149100660701428371"
+        },
+        {
+            "@id": "event:e2735378333303227487"
+        },
+        {
+            "@id": "event:e1377063235763546812"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Siuruainen, Eino (1943-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Siuruainen, Eino Olavi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "266",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

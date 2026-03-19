@@ -1,0 +1,244 @@
+{
+    "@id": "people:p910443",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b3273022619175283974"
+    },
+    "semparl:extra_info": "\"Hallan Ukko\", itsenäisyysmies, tunnettu jääkäreiden ja saksalaisten sotavankien majoittajana I maailmansodan aikana",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Heikkinen, Johan (Juho) Alfred (J.A.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910443.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1911-01-31_1911-01-31"
+        },
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1922-09-04_1922-09-04"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "04.09.1922",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1922-09-04_1922-09-04"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o216"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1694295872919276853"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910443"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3135633572176592673"
+        },
+        {
+            "@id": "label:l1243685213162877275"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2954752600054722117"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910443"
+    },
+    "semparl:sortingLabel": "heikkinen juho",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910443"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Juho%20Heikkinen%20eli%20Hallan%20Ukko%201920-luvulla.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910443.aspx"
+        },
+        {
+            "@id": "natbib:6047"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Juho_Heikkinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Juho_Heikkinen"
+        },
+        {
+            "@id": "wd:Q5797646"
+        },
+        {
+            "@id": "finaf:000115556"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p6147"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2645703989322517903"
+        },
+        {
+            "@id": "event:e1699530160172978333"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5654269867739825747"
+        },
+        {
+            "@id": "event:e2012798006162734086"
+        },
+        {
+            "@id": "event:e1417392334387328288"
+        },
+        {
+            "@id": "event:e2449542951917122551"
+        },
+        {
+            "@id": "event:e1859816488919041103"
+        },
+        {
+            "@id": "event:e1798004020937833811"
+        },
+        {
+            "@id": "event:e1713468624841694644"
+        },
+        {
+            "@id": "event:e2497096120541315602"
+        },
+        {
+            "@id": "event:e3388919729739921560"
+        },
+        {
+            "@id": "event:e2485956956663431601"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1653710081551637219"
+        },
+        {
+            "@id": "event:e4179110704013067470"
+        },
+        {
+            "@id": "event:e2061799362793326664"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Heikkinen, Juho (1863-1938)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Heikkinen, Johan Alfred"
+        },
+        {
+            "@language": "fi",
+            "@value": "Heikkinen, J.A."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910443",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

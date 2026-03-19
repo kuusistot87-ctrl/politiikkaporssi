@@ -1,0 +1,374 @@
+{
+    "@id": "people:p910793",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Korsbäck(v:een 1921 Henriksson), Verner Valentin (Verner V.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910793.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1948-07-22_1948-07-22_1972-01-21_1972-01-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maatalous-ja metsätieteiden maisteri, piiripäällikkö"
+    },
+    "semparl:end_of_representative_period_text": "21.01.1972",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1972-01-21_1972-01-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1478"
+        },
+        {
+            "@id": "occupations:o304"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3027592911425007183"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910793"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8831959523756133658"
+        },
+        {
+            "@id": "label:l5723309696074233013"
+        },
+        {
+            "@id": "label:l3160965270506265940"
+        },
+        {
+            "@id": "label:l2692762437542489357"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1924925054930635090"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910793"
+    },
+    "semparl:sortingLabel": "korsbäck verner",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910793"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Verner%20Korsb%C3%A4ck%201971%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910793.aspx"
+        },
+        {
+            "@id": "natbib:881"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Verner_Korsb%C3%A4ck"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Verner_Korsb%C3%A4ck"
+        },
+        {
+            "@id": "wd:Q17381805"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2174"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4210"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2244249457572326575"
+        },
+        {
+            "@id": "event:e2418077766685011089"
+        },
+        {
+            "@id": "event:e1543565808843432930"
+        },
+        {
+            "@id": "event:e1390364623470352998"
+        },
+        {
+            "@id": "event:e2477873254104256388"
+        },
+        {
+            "@id": "event:e2050654705335633674"
+        },
+        {
+            "@id": "event:e2151718468952643770"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9461095295572142092"
+        },
+        {
+            "@id": "event:e5096110753176991267"
+        },
+        {
+            "@id": "event:e2152908123086451865"
+        },
+        {
+            "@id": "event:e2342890717958551089"
+        },
+        {
+            "@id": "event:e1298220033815970395"
+        },
+        {
+            "@id": "event:e2240719537936495023"
+        },
+        {
+            "@id": "event:e2289766531955382686"
+        },
+        {
+            "@id": "event:e1866350395507933811"
+        },
+        {
+            "@id": "event:e3349946634235350707"
+        },
+        {
+            "@id": "event:e3214252353665399427"
+        },
+        {
+            "@id": "event:e1157060660641356097"
+        },
+        {
+            "@id": "event:e1954151424375464310"
+        },
+        {
+            "@id": "event:e2561591698040695814"
+        },
+        {
+            "@id": "event:e8854140697787197411"
+        },
+        {
+            "@id": "event:e2586991880738627088"
+        },
+        {
+            "@id": "event:e2629428984534243003"
+        },
+        {
+            "@id": "event:e3180639717262813136"
+        },
+        {
+            "@id": "event:e3115366453233498969"
+        },
+        {
+            "@id": "event:e2000056484031935269"
+        },
+        {
+            "@id": "event:e2702445603786456566"
+        },
+        {
+            "@id": "event:e5059880339411654482"
+        },
+        {
+            "@id": "event:e2218337469486192583"
+        },
+        {
+            "@id": "event:e1420884180051251613"
+        },
+        {
+            "@id": "event:e1861915161078091655"
+        },
+        {
+            "@id": "event:e1417538936842407411"
+        },
+        {
+            "@id": "event:e3100652354324437401"
+        },
+        {
+            "@id": "event:e4484461785382864326"
+        },
+        {
+            "@id": "event:e2380385824252722562"
+        },
+        {
+            "@id": "event:e1781128086940303784"
+        },
+        {
+            "@id": "event:e2845044333752652214"
+        },
+        {
+            "@id": "event:e1916552642122327693"
+        },
+        {
+            "@id": "event:e2584176313516771269"
+        },
+        {
+            "@id": "event:e3696225448105863871"
+        },
+        {
+            "@id": "event:e1012998826145990967"
+        },
+        {
+            "@id": "event:e1792270676696688520"
+        },
+        {
+            "@id": "event:e1825963871566084864"
+        },
+        {
+            "@id": "event:e2330072427597580888"
+        },
+        {
+            "@id": "event:e6636601824509036660"
+        },
+        {
+            "@id": "event:e1385494887276330625"
+        },
+        {
+            "@id": "event:e2703139014170111418"
+        },
+        {
+            "@id": "event:e2770143039156695714"
+        },
+        {
+            "@id": "event:e3249869969661878957"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2270014656062742190"
+        },
+        {
+            "@id": "event:e1139628643803939673"
+        },
+        {
+            "@id": "event:e1455597163229634737"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e2612196272115474362"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Korsbäck, Verner (1910-1981)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Henriksson, Verner V."
+        },
+        {
+            "@language": "fi",
+            "@value": "Korsbäck, Verner Valentin"
+        },
+        {
+            "@language": "fi",
+            "@value": "Korsbäck, Verner V."
+        },
+        {
+            "@language": "fi",
+            "@value": "Henriksson, Verner Valentin"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910793",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

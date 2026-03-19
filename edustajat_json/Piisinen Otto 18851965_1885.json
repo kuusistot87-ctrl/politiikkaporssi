@@ -1,0 +1,237 @@
+{
+    "@id": "people:p911257",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Piisinen, Otto"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911257.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1917-06-22_1917-06-22"
+        },
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1917-04-03_1917-04-03"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimittaja, liikemies, talousneuvos"
+    },
+    "semparl:end_of_representative_period_text": "22.06.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-06-22_1917-06-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1086"
+        },
+        {
+            "@id": "occupations:o145"
+        },
+        {
+            "@id": "occupations:o1217"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1059080029387582301"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911257"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1232768065480260938"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911257"
+    },
+    "semparl:sortingLabel": "piisinen otto",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911257"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Otto%20Piisinen%201935.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911257.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Otto_Piisinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Otto_Piisinen"
+        },
+        {
+            "@id": "wd:Q11886029"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2046295412422916975"
+        },
+        {
+            "@id": "event:e1681131625470557163"
+        },
+        {
+            "@id": "event:e1241016499710745229"
+        },
+        {
+            "@id": "event:e2328563660441303134"
+        },
+        {
+            "@id": "event:e1418575451360450175"
+        },
+        {
+            "@id": "event:e9678393108634495689"
+        },
+        {
+            "@id": "event:e8464911796717343153"
+        },
+        {
+            "@id": "event:e2383635389753448435"
+        },
+        {
+            "@id": "event:e2230641335816006797"
+        },
+        {
+            "@id": "event:e3060232985717213319"
+        },
+        {
+            "@id": "event:e2657306794293908069"
+        },
+        {
+            "@id": "event:e3194054736859677088"
+        },
+        {
+            "@id": "event:e1662237723684298349"
+        },
+        {
+            "@id": "event:e2697555350012155371"
+        },
+        {
+            "@id": "event:e4733148809124953701"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1702302100462261701"
+        },
+        {
+            "@id": "event:e4466057449203264164"
+        },
+        {
+            "@id": "event:e9354462579834465755"
+        },
+        {
+            "@id": "event:e1520048442124171444"
+        },
+        {
+            "@id": "event:e2999002251326164955"
+        },
+        {
+            "@id": "event:e1485721748936964528"
+        },
+        {
+            "@id": "event:e2825175769643092133"
+        },
+        {
+            "@id": "event:e5736792160850327265"
+        },
+        {
+            "@id": "event:e5106502256832229743"
+        },
+        {
+            "@id": "event:e6047137751935504848"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Piisinen, Otto (1885-1965)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911257",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

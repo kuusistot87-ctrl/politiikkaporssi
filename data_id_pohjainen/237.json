@@ -1,0 +1,286 @@
+{
+    "@id": "people:p237",
+    "semparl:extra_info": "SVR K 1992, SL R, Sot.am",
+    "semparl:authored": [
+        {
+            "@id": "publications:b7292521386552617274"
+        },
+        {
+            "@id": "publications:b6087330652842724842"
+        },
+        {
+            "@id": "publications:b3098895220323166040"
+        },
+        {
+            "@id": "publications:b3082730681240225914"
+        },
+        {
+            "@id": "publications:b2415320608680068335"
+        },
+        {
+            "@id": "publications:b2115524323225418002"
+        },
+        {
+            "@id": "publications:b1943653267011804325"
+        },
+        {
+            "@id": "publications:b1216656850733421642"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pokka, Pirkko Hannele"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:237.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1979-03-24_1979-03-24_1994-04-30_1994-04-30"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "oikeustieteen tohtori, maaherra"
+    },
+    "semparl:end_of_representative_period_text": "30.04.1994",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1994-04-30_1994-04-30"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o299"
+        },
+        {
+            "@id": "occupations:o57"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2432276556950293772"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1447227980777953188"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3340163131754392119"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=237"
+    },
+    "semparl:sortingLabel": "pokka hannele",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b237"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hannele%20Pokka.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:237.aspx"
+        },
+        {
+            "@id": "yle:18-177386"
+        },
+        {
+            "@id": "viaf:205890201"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hannele_Pokka"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Hannele_Pokka"
+        },
+        {
+            "@id": "wd:Q1780859"
+        },
+        {
+            "@id": "finaf:000055722"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1627491115224165185"
+        },
+        {
+            "@id": "event:e2014798270187799751"
+        },
+        {
+            "@id": "event:e3163270745231340929"
+        },
+        {
+            "@id": "event:e1926864482122725978"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8843077422572097776"
+        },
+        {
+            "@id": "event:e3061680013921299223"
+        },
+        {
+            "@id": "event:e2486328073387188446"
+        },
+        {
+            "@id": "event:e2109625822048581131"
+        },
+        {
+            "@id": "event:e1020850281714516272"
+        },
+        {
+            "@id": "event:e3194861297166322146"
+        },
+        {
+            "@id": "event:e8247820638420649852"
+        },
+        {
+            "@id": "event:e5056570387662802135"
+        },
+        {
+            "@id": "event:e8525547826421067267"
+        },
+        {
+            "@id": "event:e9703052586513471038"
+        },
+        {
+            "@id": "event:e1564518061119996347"
+        },
+        {
+            "@id": "event:e2137759584384023867"
+        },
+        {
+            "@id": "event:e1482437571826395287"
+        },
+        {
+            "@id": "event:e1260686756887324533"
+        },
+        {
+            "@id": "event:e2434093216668102112"
+        },
+        {
+            "@id": "event:e1961858480040779028"
+        },
+        {
+            "@id": "event:e2181743346400933168"
+        },
+        {
+            "@id": "event:e3655941453213613440"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e4802630410537313688"
+        },
+        {
+            "@id": "event:e8833717116728049199"
+        },
+        {
+            "@id": "event:e3196888867599369233"
+        },
+        {
+            "@id": "event:e2336587611668975730"
+        },
+        {
+            "@id": "event:e2592712804763102930"
+        },
+        {
+            "@id": "event:e2823086460565874890"
+        },
+        {
+            "@id": "event:e3043532166333915964"
+        },
+        {
+            "@id": "event:e1544839276608368011"
+        },
+        {
+            "@id": "event:e2422458082421967429"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pokka, Hannele (1952-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pokka, Pirkko Hannele"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "237",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

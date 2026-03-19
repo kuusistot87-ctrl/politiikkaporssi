@@ -1,0 +1,256 @@
+{
+    "@id": "people:p911305",
+    "semparl:extra_info": "Asetettu syytteeseen valtiopetoksesta, edustajantoimi katsottu lakanneeksi 16.5.1918 (1917 II vp).",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pärssinen, Hilja Amanda"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911305.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1929-08-01_1929-08-01_1935-09-23_1935-09-23"
+        },
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1918-09-25_1918-09-25"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, kirjailija"
+    },
+    "semparl:end_of_representative_period_text": "23.09.1935",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1935-09-23_1935-09-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o33"
+        },
+        {
+            "@id": "occupations:o83"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p9789777592923194425"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911305"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2383321719493242658"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3878774821264802630"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911305"
+    },
+    "semparl:sortingLabel": "pärssinen hilja",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911305"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hilja-Parssinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911305.aspx"
+        },
+        {
+            "@id": "viaf:6705537"
+        },
+        {
+            "@id": "natbib:3946"
+        },
+        {
+            "@id": "https://fi.wikisource.org/wiki/Hilja_P%C3%A4rssinen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hilja_P%C3%A4rssinen"
+        },
+        {
+            "@id": "wd:Q11862607"
+        },
+        {
+            "@id": "finaf:000084063"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1081"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4326126554147769374"
+        },
+        {
+            "@id": "event:e2811373397426732160"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1758383226503915001"
+        },
+        {
+            "@id": "event:e1688085560841388376"
+        },
+        {
+            "@id": "event:e1428092605633503744"
+        },
+        {
+            "@id": "event:e2908946097501728896"
+        },
+        {
+            "@id": "event:e3431901963565985393"
+        },
+        {
+            "@id": "event:e2951319260164819527"
+        },
+        {
+            "@id": "event:e1235997818616785594"
+        },
+        {
+            "@id": "event:e3233688887957457486"
+        },
+        {
+            "@id": "event:e1068221102147223625"
+        },
+        {
+            "@id": "event:e3784931745346205621"
+        },
+        {
+            "@id": "event:e2445794498805928206"
+        },
+        {
+            "@id": "event:e3951572377088194639"
+        },
+        {
+            "@id": "event:e2645743458937322737"
+        },
+        {
+            "@id": "event:e8037795158007702692"
+        },
+        {
+            "@id": "event:e5405868125182594042"
+        },
+        {
+            "@id": "event:e3237213886328657774"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2831638401875865864"
+        },
+        {
+            "@id": "event:e7065483874756119838"
+        },
+        {
+            "@id": "event:e4093700606306175647"
+        },
+        {
+            "@id": "event:e8590223174812307957"
+        },
+        {
+            "@id": "event:e2484527568418879077"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pärssinen, Hilja (1876-1935)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pärssinen, Hilja Amanda"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911305",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

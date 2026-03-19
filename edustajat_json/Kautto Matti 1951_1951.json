@@ -1,0 +1,228 @@
+{
+    "@id": "people:p911254",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "ratsumies"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2853109065301403686"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kautto, Kari Matti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911254.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_1987-03-20_1987-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rakennusarkkitehti, osastopäällikkö"
+    },
+    "semparl:end_of_representative_period_text": "20.03.1987",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1987-03-20_1987-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1645"
+        },
+        {
+            "@id": "occupations:o153"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p5575340392096660200"
+        },
+        {
+            "@id": "event:p1726907943910253773"
+        }
+    ],
+    "xl:altLabel": {
+        "@id": "label:l2291026230378535801"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2312770621633795288"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911254"
+    },
+    "semparl:sortingLabel": "kautto matti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911254"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911254.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Matti_Kautto"
+        },
+        {
+            "@id": "wd:Q16299751"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3265528431853349105"
+        },
+        {
+            "@id": "event:e7117241463932427025"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3216414457019328821"
+        },
+        {
+            "@id": "event:e3091902192101652209"
+        },
+        {
+            "@id": "event:e2872199583038236207"
+        },
+        {
+            "@id": "event:e2456166806242091411"
+        },
+        {
+            "@id": "event:e3156948882171567454"
+        },
+        {
+            "@id": "event:e1428360873433851411"
+        },
+        {
+            "@id": "event:e4157154185883929083"
+        },
+        {
+            "@id": "event:e9066456835379227500"
+        },
+        {
+            "@id": "event:e1790899754809110702"
+        },
+        {
+            "@id": "event:e2093518758996646658"
+        },
+        {
+            "@id": "event:e1791637697854257615"
+        },
+        {
+            "@id": "event:e3282131211820178999"
+        },
+        {
+            "@id": "event:e2735496611125092335"
+        },
+        {
+            "@id": "event:e2630416679322057412"
+        },
+        {
+            "@id": "event:e1922731226847289627"
+        },
+        {
+            "@id": "event:e1371991285584317784"
+        },
+        {
+            "@id": "event:e2422058805464467227"
+        },
+        {
+            "@id": "event:e2876689777672042974"
+        },
+        {
+            "@id": "event:e2524264832835997662"
+        },
+        {
+            "@id": "event:e1306838274863501599"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kautto, Matti (1951-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kautto, Kari Matti"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q585735"
+        },
+        {
+            "@id": "groups:Q540982"
+        }
+    ],
+    "semparl:id": "911254",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

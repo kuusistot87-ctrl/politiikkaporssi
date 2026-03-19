@@ -1,0 +1,199 @@
+{
+    "@id": "people:p929",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b3283015129792323146"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tabermann, Tommy"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:929.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21_2010-07-01_2010-07-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "runoilija"
+    },
+    "semparl:end_of_representative_period_text": "01.07.2010",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2010-07-01_2010-07-01"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o709"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2933183568021252448"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d929"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3310517072132728642"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3223377410425867637"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=929"
+    },
+    "semparl:sortingLabel": "tabermann tommy",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b929"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tommy%20Tabermann%20%28sd%29%20Finland.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:929.aspx"
+        },
+        {
+            "@id": "viaf:66504350"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tommy_Tabermann"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Tommy_Tabermann"
+        },
+        {
+            "@id": "wd:Q536371"
+        },
+        {
+            "@id": "finaf:000060276"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1061233078773877447"
+        },
+        {
+            "@id": "event:e8704798129189648221"
+        },
+        {
+            "@id": "event:e1888652230379074677"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tabermann, Tommy (1947-2010)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "929",
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1228880253314437950"
+        },
+        {
+            "@id": "event:e2077547709838677564"
+        },
+        {
+            "@id": "event:e1787481207893751720"
+        },
+        {
+            "@id": "event:e2003057549051494142"
+        },
+        {
+            "@id": "event:e1365746312796240409"
+        },
+        {
+            "@id": "event:e2629245546376336929"
+        },
+        {
+            "@id": "event:e9947589453035484917"
+        },
+        {
+            "@id": "event:e3041996746952871997"
+        },
+        {
+            "@id": "event:e3278519849677961595"
+        },
+        {
+            "@id": "event:e2137770059765986638"
+        },
+        {
+            "@id": "event:e2349640555723251737"
+        },
+        {
+            "@id": "event:e3260820930125124222"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

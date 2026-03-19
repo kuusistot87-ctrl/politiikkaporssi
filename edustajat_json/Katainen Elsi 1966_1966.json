@@ -1,0 +1,322 @@
+{
+    "@id": "people:p939",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Katainen, Elsi Kaarina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:939.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agrologi AMK, ammatillisten aineiden opettaja"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o725"
+        },
+        {
+            "@id": "occupations:o217"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8747609266691030744"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2333980017535838546"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3196597804738535346"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=939"
+    },
+    "semparl:sortingLabel": "katainen elsi",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b939"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Elsi%20Katainen%20in%202022.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:939.aspx"
+        },
+        {
+            "@id": "twitter:elsikatainen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Elsi_Katainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Elsi_Katainen"
+        },
+        {
+            "@id": "wd:Q11857612"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4991523561003206190"
+        },
+        {
+            "@id": "event:e2892498578138723883"
+        },
+        {
+            "@id": "event:e1637484031380110312"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7929959369056193117"
+        },
+        {
+            "@id": "event:e3286751394920168800"
+        },
+        {
+            "@id": "event:e2760799810542228784"
+        },
+        {
+            "@id": "event:e1607463160444051450"
+        },
+        {
+            "@id": "event:e7579328006932693923"
+        },
+        {
+            "@id": "event:e1074698361254577586"
+        },
+        {
+            "@id": "event:e2445065281257884560"
+        },
+        {
+            "@id": "event:e4049203298993503843"
+        },
+        {
+            "@id": "event:e9373011142738641916"
+        },
+        {
+            "@id": "event:e3399497849474649647"
+        },
+        {
+            "@id": "event:e1028937615940340899"
+        },
+        {
+            "@id": "event:e1230295158691874053"
+        },
+        {
+            "@id": "event:e4343486982977877424"
+        },
+        {
+            "@id": "event:e2053274453697798159"
+        },
+        {
+            "@id": "event:e2078894148597598199"
+        },
+        {
+            "@id": "event:e3148463388160761195"
+        },
+        {
+            "@id": "event:e1027355716212052985"
+        },
+        {
+            "@id": "event:e2672029559808796036"
+        },
+        {
+            "@id": "event:e3157544842704975876"
+        },
+        {
+            "@id": "event:e6114847567534428908"
+        },
+        {
+            "@id": "event:e4218166410839874956"
+        },
+        {
+            "@id": "event:e1964068756048087341"
+        },
+        {
+            "@id": "event:e2439566903969177334"
+        },
+        {
+            "@id": "event:e1182470791799781172"
+        },
+        {
+            "@id": "event:e3395746026788194822"
+        },
+        {
+            "@id": "event:e3360498027792683637"
+        },
+        {
+            "@id": "event:e1279883565065144426"
+        },
+        {
+            "@id": "event:e1798252238360758164"
+        },
+        {
+            "@id": "event:e1942216402073165649"
+        },
+        {
+            "@id": "event:e1533290792930879301"
+        },
+        {
+            "@id": "event:e3171422152240394609"
+        },
+        {
+            "@id": "event:e1882387539116718713"
+        },
+        {
+            "@id": "event:e2014983203399479505"
+        },
+        {
+            "@id": "event:e8168628249750606273"
+        },
+        {
+            "@id": "event:e2500739202481352640"
+        },
+        {
+            "@id": "event:e3101941625594176806"
+        },
+        {
+            "@id": "event:e5486977058462624017"
+        },
+        {
+            "@id": "event:e1270760418743465817"
+        },
+        {
+            "@id": "event:e2596194896762469642"
+        },
+        {
+            "@id": "event:e2032609686315527148"
+        },
+        {
+            "@id": "event:e1476946750379875038"
+        },
+        {
+            "@id": "event:e2712008803162518658"
+        },
+        {
+            "@id": "event:e1067392909439918955"
+        },
+        {
+            "@id": "event:e2416982721841422174"
+        },
+        {
+            "@id": "event:e3026998364038546535"
+        },
+        {
+            "@id": "event:e2519356990439547001"
+        },
+        {
+            "@id": "event:e2997597184542987923"
+        },
+        {
+            "@id": "event:e9585440773115482130"
+        },
+        {
+            "@id": "event:e2312647165055594763"
+        },
+        {
+            "@id": "event:e9691126013118213263"
+        },
+        {
+            "@id": "event:e2119823631855742984"
+        },
+        {
+            "@id": "event:e3088581556191067818"
+        },
+        {
+            "@id": "event:e2116345938537497923"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Katainen, Elsi (1966-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Katainen, Elsi Kaarina"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "939",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

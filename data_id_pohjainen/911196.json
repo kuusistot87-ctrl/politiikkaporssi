@@ -1,0 +1,374 @@
+{
+    "@id": "people:p911196",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Paavolainen, Erkki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911196.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1936-09-01_1936-09-01_1951-07-20_1951-07-20"
+        },
+        {
+            "@id": "times:t_1929-08-01_1929-08-01_1933-08-31_1933-08-31"
+        },
+        {
+            "@id": "times:t_1924-05-01_1924-05-01_1927-09-01_1927-09-01"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, kansanopiston johtaja, kouluneuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1074"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3357236644777023980"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911196"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1422713825655024536"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911196"
+    },
+    "semparl:sortingLabel": "paavolainen erkki",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911196"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Erkki-Paavolainen-1943.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911196.aspx"
+        },
+        {
+            "@id": "natbib:784"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Erkki_Paavolainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Erkki_Paavolainen"
+        },
+        {
+            "@id": "wd:Q16897765"
+        },
+        {
+            "@id": "http://www.norssit.fi/semweb/#!/tiedot/http:~2F~2Fldf.fi~2Fnorssit~2Fnorssi_958"
+        },
+        {
+            "@id": "finaf:000078031"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2424"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2284055742538927092"
+        },
+        {
+            "@id": "event:e1562429998078002750"
+        },
+        {
+            "@id": "event:e1818298593329800626"
+        },
+        {
+            "@id": "event:e1138320869295205171"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8547915722660472937"
+        },
+        {
+            "@id": "event:e3673389570295333690"
+        },
+        {
+            "@id": "event:e3330857163419602855"
+        },
+        {
+            "@id": "event:e2565565936898148079"
+        },
+        {
+            "@id": "event:e1719113058042123140"
+        },
+        {
+            "@id": "event:e5872187529225322034"
+        },
+        {
+            "@id": "event:e2675554145549285545"
+        },
+        {
+            "@id": "event:e2316739669485678726"
+        },
+        {
+            "@id": "event:e3485924216742311878"
+        },
+        {
+            "@id": "event:e2064784187936693698"
+        },
+        {
+            "@id": "event:e1423383601179827647"
+        },
+        {
+            "@id": "event:e1636860206733325461"
+        },
+        {
+            "@id": "event:e2433071118787083523"
+        },
+        {
+            "@id": "event:e1128833662246440674"
+        },
+        {
+            "@id": "event:e1402522028097493903"
+        },
+        {
+            "@id": "event:e2701596434753735502"
+        },
+        {
+            "@id": "event:e1611551524311739437"
+        },
+        {
+            "@id": "event:e2364044715609397412"
+        },
+        {
+            "@id": "event:e9722369959922167155"
+        },
+        {
+            "@id": "event:e1281209814496548859"
+        },
+        {
+            "@id": "event:e2463769636974219687"
+        },
+        {
+            "@id": "event:e2478930240692180181"
+        },
+        {
+            "@id": "event:e2022251026261295855"
+        },
+        {
+            "@id": "event:e5025089393649660111"
+        },
+        {
+            "@id": "event:e2009886507893028936"
+        },
+        {
+            "@id": "event:e2305865138604110597"
+        },
+        {
+            "@id": "event:e1546177024522583409"
+        },
+        {
+            "@id": "event:e2827705538507116826"
+        },
+        {
+            "@id": "event:e3003873026164184262"
+        },
+        {
+            "@id": "event:e4418570985721414950"
+        },
+        {
+            "@id": "event:e2292577617822121942"
+        },
+        {
+            "@id": "event:e2664934633498093955"
+        },
+        {
+            "@id": "event:e1394704077979910375"
+        },
+        {
+            "@id": "event:e1034992011594312465"
+        },
+        {
+            "@id": "event:e2066760815243711995"
+        },
+        {
+            "@id": "event:e1640160867219495930"
+        },
+        {
+            "@id": "event:e1213510243632010410"
+        },
+        {
+            "@id": "event:e1468510251832581901"
+        },
+        {
+            "@id": "event:e4176989928774985459"
+        },
+        {
+            "@id": "event:e1346578851066719508"
+        },
+        {
+            "@id": "event:e9889839412227820487"
+        },
+        {
+            "@id": "event:e7813602460902008310"
+        },
+        {
+            "@id": "event:e4078471129754217624"
+        },
+        {
+            "@id": "event:e2249735191335610016"
+        },
+        {
+            "@id": "event:e1045666400383234618"
+        },
+        {
+            "@id": "event:e3399487737280026679"
+        },
+        {
+            "@id": "event:e7933186074153806246"
+        },
+        {
+            "@id": "event:e1936071577586430644"
+        },
+        {
+            "@id": "event:e1532967017797863306"
+        },
+        {
+            "@id": "event:e1696161858892372017"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e3273458832031803794"
+        },
+        {
+            "@id": "event:e1089190497764556084"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2488722643283282055"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e1893086213496117268"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Paavolainen, Erkki (1890-1960)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911196",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,343 @@
+{
+    "@id": "people:p121",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "lääkintäkapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1269516163319738335"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b2624022173726577714"
+        },
+        {
+            "@id": "publications:b2041991612864932273"
+        },
+        {
+            "@id": "publications:b1486116653900517274"
+        },
+        {
+            "@id": "publications:b2852472691304220313"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Andersson, Claes-Johan Rudolf (Claes)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:121.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2007-03-21_2007-03-21_2008-09-09_2008-09-09"
+        },
+        {
+            "@id": "times:t_1987-03-21_1987-03-21_1999-03-23_1999-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "psykiatri, kirjailija"
+    },
+    "semparl:end_of_representative_period_text": "09.09.2008",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2008-09-09_2008-09-09"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o73"
+        },
+        {
+            "@id": "occupations:o33"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2896377722321126282"
+        },
+        {
+            "@id": "event:p2683771786984908311"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d121"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2676903495737595292"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3354773620516137793"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=121"
+    },
+    "semparl:sortingLabel": "andersson claes",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b121"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Claes%20Andersson%20%28vanst%29%20Finland.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:121.aspx"
+        },
+        {
+            "@id": "yle:18-185297"
+        },
+        {
+            "@id": "viaf:24616562"
+        },
+        {
+            "@id": "natbib:4938"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Claes_Andersson"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Claes_Andersson"
+        },
+        {
+            "@id": "wd:Q983641"
+        },
+        {
+            "@id": "finaf:000040457"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3313"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3329683514422573413"
+        },
+        {
+            "@id": "event:e2519236781956395530"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4785516163662087027"
+        },
+        {
+            "@id": "event:e3262317466414312452"
+        },
+        {
+            "@id": "event:e2861284810976964811"
+        },
+        {
+            "@id": "event:e2776156251912850060"
+        },
+        {
+            "@id": "event:e6626705363994957896"
+        },
+        {
+            "@id": "event:e1065054822913625585"
+        },
+        {
+            "@id": "event:e3386613541526750248"
+        },
+        {
+            "@id": "event:e1545347319076123516"
+        },
+        {
+            "@id": "event:e2156397906071406002"
+        },
+        {
+            "@id": "event:e1183053286373165795"
+        },
+        {
+            "@id": "event:e2001934655434684640"
+        },
+        {
+            "@id": "event:e1271512470569952028"
+        },
+        {
+            "@id": "event:e1519838456241752464"
+        },
+        {
+            "@id": "event:e1760289419692828937"
+        },
+        {
+            "@id": "event:e1621876854155299962"
+        },
+        {
+            "@id": "event:e1631543914520399651"
+        },
+        {
+            "@id": "event:e1503398318629954203"
+        },
+        {
+            "@id": "event:e1523483495399866781"
+        },
+        {
+            "@id": "event:e1800575277044886859"
+        },
+        {
+            "@id": "event:e4121946122437871633"
+        },
+        {
+            "@id": "event:e3372060601751613648"
+        },
+        {
+            "@id": "event:e5102283650739321716"
+        },
+        {
+            "@id": "event:e2505896012381396507"
+        },
+        {
+            "@id": "event:e2969198212169156785"
+        },
+        {
+            "@id": "event:e3270178107138013503"
+        },
+        {
+            "@id": "event:e1598261580048927812"
+        },
+        {
+            "@id": "event:e3213535333454101005"
+        },
+        {
+            "@id": "event:e3188890545413053502"
+        },
+        {
+            "@id": "event:e1879625440145887311"
+        },
+        {
+            "@id": "event:e2622954318834807288"
+        },
+        {
+            "@id": "event:e1021043571143933368"
+        },
+        {
+            "@id": "event:e5843995531123556563"
+        },
+        {
+            "@id": "event:e3359721472282665220"
+        },
+        {
+            "@id": "event:e1102255513684892246"
+        },
+        {
+            "@id": "event:e1351953899355331019"
+        },
+        {
+            "@id": "event:e2711104904550935809"
+        },
+        {
+            "@id": "event:e6864413500373643903"
+        },
+        {
+            "@id": "event:e1346881742110707621"
+        },
+        {
+            "@id": "event:e1286351548308718267"
+        },
+        {
+            "@id": "event:e1690969228192135597"
+        },
+        {
+            "@id": "event:e7871419069649022494"
+        },
+        {
+            "@id": "event:e2793728193664366736"
+        },
+        {
+            "@id": "event:e1423792724941738400"
+        },
+        {
+            "@id": "event:e1099833061012935990"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Andersson, Claes (1937-2019)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Andersson, Claes-Johan Rudolf"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q585735"
+        },
+        {
+            "@id": "groups:Q385927"
+        }
+    ],
+    "semparl:id": "121",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

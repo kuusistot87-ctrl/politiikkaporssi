@@ -1,0 +1,472 @@
+{
+    "@id": "people:p259",
+    "semparl:extra_info": "SL SR 1994, Saksan, Itävallan, Unkarin ja Viron suurristit, Ruotsin Pohjantähden ritarikunnan suurristi, Jaakko Honko -mitali, WWF Suomen rahaston kunniaperustaja ja kunniapuheenjohtaja, Suomen luonnonsuojeluliiton kultainen ansiomerkki, Kokoomus-mitali",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b1481568793999837282"
+        },
+        {
+            "@id": "publications:b1271181873281712563"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Salolainen, Pertti Edvard"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:259.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1970-03-23_1970-03-23_1996-10-01_1996-10-01"
+        },
+        {
+            "@id": "times:t_2007-03-21_2007-03-21_2019-04-16_2019-04-16"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "ministeri, kauppatieteiden maisteri, suurlähettiläs"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o316"
+        },
+        {
+            "@id": "occupations:o1"
+        },
+        {
+            "@id": "occupations:o139"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3112438379231826058"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2054313811734342354"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3630784943912109988"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=259"
+    },
+    "semparl:sortingLabel": "salolainen pertti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b259"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Pertti%20Salolainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:259.aspx"
+        },
+        {
+            "@id": "viaf:511155042711372401320"
+        },
+        {
+            "@id": "natbib:4089"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pertti_Salolainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Pertti_Salolainen"
+        },
+        {
+            "@id": "wd:Q326512"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5128"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1976097305278138884"
+        },
+        {
+            "@id": "event:e2357222747931815330"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9567738084168209365"
+        },
+        {
+            "@id": "event:e9227222589515189098"
+        },
+        {
+            "@id": "event:e6639240308168963204"
+        },
+        {
+            "@id": "event:e5717431844163319905"
+        },
+        {
+            "@id": "event:e2478906029325761794"
+        },
+        {
+            "@id": "event:e1846879950654363970"
+        },
+        {
+            "@id": "event:e1796041290333067848"
+        },
+        {
+            "@id": "event:e2355718896400495033"
+        },
+        {
+            "@id": "event:e3171802109403827145"
+        },
+        {
+            "@id": "event:e3051844407373783198"
+        },
+        {
+            "@id": "event:e1227745889688608841"
+        },
+        {
+            "@id": "event:e6338509479552683249"
+        },
+        {
+            "@id": "event:e1415975556330042122"
+        },
+        {
+            "@id": "event:e1050815354216867074"
+        },
+        {
+            "@id": "event:e1790153695753964143"
+        },
+        {
+            "@id": "event:e1050882704657902674"
+        },
+        {
+            "@id": "event:e2236219060101260233"
+        },
+        {
+            "@id": "event:e1284041962473176652"
+        },
+        {
+            "@id": "event:e6127437014860373264"
+        },
+        {
+            "@id": "event:e5603757987576587468"
+        },
+        {
+            "@id": "event:e2345901432678747865"
+        },
+        {
+            "@id": "event:e8044732481360038554"
+        },
+        {
+            "@id": "event:e3978788007282429675"
+        },
+        {
+            "@id": "event:e7917754403314884960"
+        },
+        {
+            "@id": "event:e1883415019730056430"
+        },
+        {
+            "@id": "event:e1725134729160203398"
+        },
+        {
+            "@id": "event:e1495629050524326952"
+        },
+        {
+            "@id": "event:e2053062821728789565"
+        },
+        {
+            "@id": "event:e4663518742861281009"
+        },
+        {
+            "@id": "event:e5197708879439113916"
+        },
+        {
+            "@id": "event:e7336377038265021284"
+        },
+        {
+            "@id": "event:e3316052134403924561"
+        },
+        {
+            "@id": "event:e2956417077764760262"
+        },
+        {
+            "@id": "event:e3344611410651090224"
+        },
+        {
+            "@id": "event:e1969520200581937209"
+        },
+        {
+            "@id": "event:e1226308320200359257"
+        },
+        {
+            "@id": "event:e6641097784386407478"
+        },
+        {
+            "@id": "event:e1991264842816146429"
+        },
+        {
+            "@id": "event:e8489003149162078763"
+        },
+        {
+            "@id": "event:e1427197764983636140"
+        },
+        {
+            "@id": "event:e2365582930700233834"
+        },
+        {
+            "@id": "event:e1027081773163160466"
+        },
+        {
+            "@id": "event:e2132736275097471004"
+        },
+        {
+            "@id": "event:e1768142938509590983"
+        },
+        {
+            "@id": "event:e8194781478184233559"
+        },
+        {
+            "@id": "event:e1247886070298214946"
+        },
+        {
+            "@id": "event:e2887462310291635018"
+        },
+        {
+            "@id": "event:e3164548417361924462"
+        },
+        {
+            "@id": "event:e4489925215323558446"
+        },
+        {
+            "@id": "event:e1418057241062013120"
+        },
+        {
+            "@id": "event:e2117997010484393131"
+        },
+        {
+            "@id": "event:e3044150566651355121"
+        },
+        {
+            "@id": "event:e3685816466281805345"
+        },
+        {
+            "@id": "event:e2436124579832783500"
+        },
+        {
+            "@id": "event:e2902894108013311111"
+        },
+        {
+            "@id": "event:e2149457734497009133"
+        },
+        {
+            "@id": "event:e2725538904466881107"
+        },
+        {
+            "@id": "event:e3331388082540637086"
+        },
+        {
+            "@id": "event:e2025143952573301405"
+        },
+        {
+            "@id": "event:e1538390850180332007"
+        },
+        {
+            "@id": "event:e1391359840189869474"
+        },
+        {
+            "@id": "event:e1255717579866272986"
+        },
+        {
+            "@id": "event:e2643807449066800232"
+        },
+        {
+            "@id": "event:e2566944136638070663"
+        },
+        {
+            "@id": "event:e2846518250394272689"
+        },
+        {
+            "@id": "event:e1953324197067137136"
+        },
+        {
+            "@id": "event:e2593850528278631819"
+        },
+        {
+            "@id": "event:e1395249064347721105"
+        },
+        {
+            "@id": "event:e2192469693511810501"
+        },
+        {
+            "@id": "event:e5630583584004628631"
+        },
+        {
+            "@id": "event:e2012406817577894447"
+        },
+        {
+            "@id": "event:e2362484657239937641"
+        },
+        {
+            "@id": "event:e1287700397277793003"
+        },
+        {
+            "@id": "event:e1941015360439068412"
+        },
+        {
+            "@id": "event:e1137201114460449335"
+        },
+        {
+            "@id": "event:e1951149498005486052"
+        },
+        {
+            "@id": "event:e2202255035895452675"
+        },
+        {
+            "@id": "event:e2042019353268688972"
+        },
+        {
+            "@id": "event:e2995277386775839290"
+        },
+        {
+            "@id": "event:e1085765630171451857"
+        },
+        {
+            "@id": "event:e1846102807840111942"
+        },
+        {
+            "@id": "event:e3040118880604656128"
+        },
+        {
+            "@id": "event:e2072872231952412956"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1542357139724830125"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e2146221125591073692"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1327930438713433306"
+        },
+        {
+            "@id": "event:e9794650429604537202"
+        },
+        {
+            "@id": "event:e2694194870449423642"
+        },
+        {
+            "@id": "event:e1208706745542726969"
+        },
+        {
+            "@id": "event:e1406622473435074999"
+        },
+        {
+            "@id": "event:e1465251180281325628"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Salolainen, Pertti (1940-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Salolainen, Pertti Edvard"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "259",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

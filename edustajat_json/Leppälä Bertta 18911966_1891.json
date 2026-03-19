@@ -1,0 +1,234 @@
+{
+    "@id": "people:p910951",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p8955124616561312743"
+        },
+        {
+            "@id": "ns1:p1412610079768727854"
+        }
+    ],
+    "semparl:authored": {
+        "@id": "publications:b1249970832464809406"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Leppälä(e. Pykälä), Bertta"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910951.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1917-11-01_1917-11-01_1922-09-04_1922-09-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "emäntä, kunnallisneuvoksetar"
+    },
+    "semparl:end_of_representative_period_text": "04.09.1922",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1922-09-04_1922-09-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1373"
+        },
+        {
+            "@id": "occupations:o135"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1907850997344836255"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910951"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1133892999927384205"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3117621563124076107"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910951"
+    },
+    "semparl:sortingLabel": "leppälä bertta",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910951"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910951.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Bertta_Lepp%C3%A4l%C3%A4"
+        },
+        {
+            "@id": "wd:Q11854176"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2050654705335633674"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1454551191510386416"
+        },
+        {
+            "@id": "event:e2449542951917122551"
+        },
+        {
+            "@id": "event:e2348516101618005858"
+        },
+        {
+            "@id": "event:e1910971797652378087"
+        },
+        {
+            "@id": "event:e1557100788031314676"
+        },
+        {
+            "@id": "event:e3030309372296301996"
+        },
+        {
+            "@id": "event:e3843572157493331417"
+        },
+        {
+            "@id": "event:e7317344950542919159"
+        },
+        {
+            "@id": "event:e1268856694551916420"
+        },
+        {
+            "@id": "event:e1395683858069122174"
+        },
+        {
+            "@id": "event:e1982347408763079815"
+        },
+        {
+            "@id": "event:e1218101121199961117"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2307850889122105555"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e1935641343133436104"
+        },
+        {
+            "@id": "event:e2579201023941586295"
+        },
+        {
+            "@id": "event:e1352113811097866658"
+        },
+        {
+            "@id": "event:e2096515445839151357"
+        },
+        {
+            "@id": "event:e4217402401721764027"
+        },
+        {
+            "@id": "event:e3345581269297463582"
+        },
+        {
+            "@id": "event:e3221778544174389893"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Leppälä, Bertta (1891-1966)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pykälä, Bertta"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910951",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,248 @@
+{
+    "@id": "people:p911663",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tyrni, Toivo"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911663.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1947-12-09_1947-12-09_1948-07-21_1948-07-21"
+        },
+        {
+            "@id": "times:t_1933-09-01_1933-09-01_1935-11-15_1935-11-15"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lääketieteen ja kirurgian tohtori, kunnanlääkäri"
+    },
+    "semparl:end_of_representative_period_text": "21.07.1948",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1948-07-21_1948-07-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1781"
+        },
+        {
+            "@id": "occupations:o160"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2474791772284387950"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911663"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6702981177304682032"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911663"
+    },
+    "semparl:sortingLabel": "tyrni toivo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911663"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911663.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Toivo_Tyrni"
+        },
+        {
+            "@id": "wd:Q21087860"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2437495260218912159"
+        },
+        {
+            "@id": "event:e2934582164165091842"
+        },
+        {
+            "@id": "event:e5059376846327362283"
+        },
+        {
+            "@id": "event:e1983700923235906669"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9940782781984505129"
+        },
+        {
+            "@id": "event:e7670432555623518106"
+        },
+        {
+            "@id": "event:e1721338603482872338"
+        },
+        {
+            "@id": "event:e1538351606777813209"
+        },
+        {
+            "@id": "event:e1843075799393927052"
+        },
+        {
+            "@id": "event:e2182005339415159695"
+        },
+        {
+            "@id": "event:e1496934137645463575"
+        },
+        {
+            "@id": "event:e1083179070543356275"
+        },
+        {
+            "@id": "event:e9191612132124795478"
+        },
+        {
+            "@id": "event:e1635273678211180753"
+        },
+        {
+            "@id": "event:e1888144167739311362"
+        },
+        {
+            "@id": "event:e3755909994361174481"
+        },
+        {
+            "@id": "event:e5102333720109760607"
+        },
+        {
+            "@id": "event:e1444996603213822355"
+        },
+        {
+            "@id": "event:e2373490607959993347"
+        },
+        {
+            "@id": "event:e2641019569845973899"
+        },
+        {
+            "@id": "event:e2231231462791962050"
+        },
+        {
+            "@id": "event:e6383511912343924141"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e1928343637446587472"
+        },
+        {
+            "@id": "event:e3221020567200364172"
+        },
+        {
+            "@id": "event:e1184564058875270363"
+        },
+        {
+            "@id": "event:e2769321863553500045"
+        },
+        {
+            "@id": "event:e2385996022178614084"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tyrni, Toivo (1890-1966)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "911663",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

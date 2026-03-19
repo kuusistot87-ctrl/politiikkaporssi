@@ -1,0 +1,203 @@
+{
+    "@id": "people:p911657",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Turunen, Vilho"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911657.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1962-02-19_1962-02-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "tarkastaja"
+    },
+    "semparl:end_of_representative_period_text": "19.02.1962",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1962-02-19_1962-02-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o599"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2462891344845332213"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911657"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3684665233091245340"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911657"
+    },
+    "semparl:sortingLabel": "turunen vilho",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911657"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911657.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Vilho_Turunen"
+        },
+        {
+            "@id": "wd:Q11901458"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1100808129713220435"
+        },
+        {
+            "@id": "event:e2527834137006794443"
+        },
+        {
+            "@id": "event:e2067314440917996430"
+        },
+        {
+            "@id": "event:e1733859954701599716"
+        },
+        {
+            "@id": "event:e2899929717089652094"
+        },
+        {
+            "@id": "event:e2236441186883975543"
+        },
+        {
+            "@id": "event:e1320605776661380762"
+        },
+        {
+            "@id": "event:e2026663033903625865"
+        },
+        {
+            "@id": "event:e2612346103666414834"
+        },
+        {
+            "@id": "event:e5551458847428084383"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e1792336914242650609"
+        },
+        {
+            "@id": "event:e1129447682583826935"
+        },
+        {
+            "@id": "event:e8360242114076440993"
+        },
+        {
+            "@id": "event:e7939846473694902091"
+        },
+        {
+            "@id": "event:e2268356309046170477"
+        },
+        {
+            "@id": "event:e5037824269449564667"
+        },
+        {
+            "@id": "event:e7861074441824690689"
+        },
+        {
+            "@id": "event:e2500351916223179746"
+        },
+        {
+            "@id": "event:e1660604581925374672"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Turunen, Vilho (1923-1973)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1813319"
+    },
+    "semparl:id": "911657",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

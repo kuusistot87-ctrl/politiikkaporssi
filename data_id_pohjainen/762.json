@@ -1,0 +1,210 @@
+{
+    "@id": "people:p762",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Salovaara, Pertti Eero Olavi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:762.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2011-04-19_2011-04-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimittaja"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o145"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1425775883353658296"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2907775848163710161"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1453256370848063035"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=762"
+    },
+    "semparl:sortingLabel": "salovaara pertti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b762"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Pertti%20Salovaara.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:762.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pertti_Salovaara"
+        },
+        {
+            "@id": "wd:Q11887549"
+        },
+        {
+            "@id": "finaf:000157202"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3177387612463613599"
+        },
+        {
+            "@id": "event:e3138785882136197968"
+        },
+        {
+            "@id": "event:e2513622615808246778"
+        },
+        {
+            "@id": "event:e4084757465058759150"
+        },
+        {
+            "@id": "event:e3114087014358408095"
+        },
+        {
+            "@id": "event:e2263898978357967059"
+        },
+        {
+            "@id": "event:e1297283659333107318"
+        },
+        {
+            "@id": "event:e3174338581549124281"
+        },
+        {
+            "@id": "event:e2915907035819077904"
+        },
+        {
+            "@id": "event:e3016697488826875098"
+        },
+        {
+            "@id": "event:e1273461579439363579"
+        },
+        {
+            "@id": "event:e2331478116988145908"
+        },
+        {
+            "@id": "event:e3142691815424444350"
+        },
+        {
+            "@id": "event:e2757893622183553161"
+        },
+        {
+            "@id": "event:e2367866195066599460"
+        },
+        {
+            "@id": "event:e1768379310415278371"
+        },
+        {
+            "@id": "event:e2572631338682923775"
+        },
+        {
+            "@id": "event:e6324778335695139182"
+        },
+        {
+            "@id": "event:e5865740418625676385"
+        },
+        {
+            "@id": "event:e1402670512264563656"
+        },
+        {
+            "@id": "event:e8952335824364371021"
+        },
+        {
+            "@id": "event:e1464448662945676699"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Salovaara, Pertti (1970-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Salovaara, Pertti Eero Olavi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "762",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

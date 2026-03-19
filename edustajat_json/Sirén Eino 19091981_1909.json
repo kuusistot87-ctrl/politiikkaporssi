@@ -1,0 +1,283 @@
+{
+    "@id": "people:p911511",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Sirén, Eino Armas"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911511.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1962-02-20_1962-02-20_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, osastopäällikkö, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o153"
+        },
+        {
+            "@id": "occupations:o120"
+        },
+        {
+            "@id": "occupations:o137"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8071808906225921834"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911511"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1999266591421039254"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1487101459519430807"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911511"
+    },
+    "semparl:sortingLabel": "sirén eino",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911511"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911511.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eino_Sir%C3%A9n"
+        },
+        {
+            "@id": "wd:Q11130181"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1485658267180657671"
+        },
+        {
+            "@id": "event:e5691703525562424518"
+        },
+        {
+            "@id": "event:e1429795571186815527"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3086787245934810533"
+        },
+        {
+            "@id": "event:e2875975520062525233"
+        },
+        {
+            "@id": "event:e1985902816443018443"
+        },
+        {
+            "@id": "event:e2994721948699339301"
+        },
+        {
+            "@id": "event:e2218409991888087144"
+        },
+        {
+            "@id": "event:e5869570246441930644"
+        },
+        {
+            "@id": "event:e1455195184593280019"
+        },
+        {
+            "@id": "event:e1643428244777399944"
+        },
+        {
+            "@id": "event:e1126442545556722827"
+        },
+        {
+            "@id": "event:e1145565809422967507"
+        },
+        {
+            "@id": "event:e2524350974462931353"
+        },
+        {
+            "@id": "event:e2839682465877513603"
+        },
+        {
+            "@id": "event:e5927378073592691581"
+        },
+        {
+            "@id": "event:e1833741601763362236"
+        },
+        {
+            "@id": "event:e3172719097780595534"
+        },
+        {
+            "@id": "event:e1190392658748571490"
+        },
+        {
+            "@id": "event:e1077426765054542475"
+        },
+        {
+            "@id": "event:e1280201386945533519"
+        },
+        {
+            "@id": "event:e3338303589709305318"
+        },
+        {
+            "@id": "event:e7157576027806658839"
+        },
+        {
+            "@id": "event:e2421020081991915836"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e3514574227306608746"
+        },
+        {
+            "@id": "event:e2461884556143631278"
+        },
+        {
+            "@id": "event:e1642722877846735153"
+        },
+        {
+            "@id": "event:e9375697370679808224"
+        },
+        {
+            "@id": "event:e1153068595608852406"
+        },
+        {
+            "@id": "event:e1822719873430284094"
+        },
+        {
+            "@id": "event:e1422887243572312013"
+        },
+        {
+            "@id": "event:e1664481113923510346"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e3330801747323345267"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1455597163229634737"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e1925567333661263633"
+        },
+        {
+            "@id": "event:e1345935171427550565"
+        },
+        {
+            "@id": "event:e2762951265617556441"
+        },
+        {
+            "@id": "event:e1701160081270017334"
+        },
+        {
+            "@id": "event:e1589234674144052840"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Sirén, Eino (1909-1981)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Sirén, Eino Armas"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911511",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

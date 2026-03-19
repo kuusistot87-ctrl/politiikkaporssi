@@ -1,0 +1,286 @@
+{
+    "@id": "people:p1102",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Salonen, Kristiina Johanna"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1102.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2023-04-04_2023-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sosiaaliohjauksen ja etuuskäsittelyn esimies, hallintotieteiden maisteri"
+    },
+    "semparl:end_of_representative_period_text": "04.04.2023",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2023-04-04_2023-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o776"
+        },
+        {
+            "@id": "occupations:o285"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2921978301834783424"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2985571700026057296"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1830889785393390974"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1102"
+    },
+    "semparl:sortingLabel": "salonen kristiina",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1102"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristiina%20Salonen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1102.aspx"
+        },
+        {
+            "@id": "yle:18-293119"
+        },
+        {
+            "@id": "twitter:KrisseSalonen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kristiina_Salonen"
+        },
+        {
+            "@id": "wd:Q11873046"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3329210213178609876"
+        },
+        {
+            "@id": "event:e1675904163370105994"
+        },
+        {
+            "@id": "event:e1286623514934610107"
+        },
+        {
+            "@id": "event:e3362080157353396102"
+        },
+        {
+            "@id": "event:e2019036259080578496"
+        },
+        {
+            "@id": "event:e5097515514370675199"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9508305953046803973"
+        },
+        {
+            "@id": "event:e7184046173757758707"
+        },
+        {
+            "@id": "event:e2264634629378279253"
+        },
+        {
+            "@id": "event:e1300552520806016939"
+        },
+        {
+            "@id": "event:e2977001472509062140"
+        },
+        {
+            "@id": "event:e3204147842885990079"
+        },
+        {
+            "@id": "event:e5647540483544015529"
+        },
+        {
+            "@id": "event:e5631729678145235746"
+        },
+        {
+            "@id": "event:e2179171084394971375"
+        },
+        {
+            "@id": "event:e1108243280249135165"
+        },
+        {
+            "@id": "event:e1399424115405876771"
+        },
+        {
+            "@id": "event:e8838516832847684784"
+        },
+        {
+            "@id": "event:e2755895193765343364"
+        },
+        {
+            "@id": "event:e2784622676433239089"
+        },
+        {
+            "@id": "event:e2502641982668853014"
+        },
+        {
+            "@id": "event:e1596698979161564498"
+        },
+        {
+            "@id": "event:e1179351946134715359"
+        },
+        {
+            "@id": "event:e9637356587344312989"
+        },
+        {
+            "@id": "event:e1080332719828484933"
+        },
+        {
+            "@id": "event:e3151208688474722529"
+        },
+        {
+            "@id": "event:e7683221121780063294"
+        },
+        {
+            "@id": "event:e7625168777652843302"
+        },
+        {
+            "@id": "event:e2088658347900362558"
+        },
+        {
+            "@id": "event:e1449940896450751762"
+        },
+        {
+            "@id": "event:e2108631781933915695"
+        },
+        {
+            "@id": "event:e1396794127576842283"
+        },
+        {
+            "@id": "event:e3235764719706215939"
+        },
+        {
+            "@id": "event:e5772818752026954525"
+        },
+        {
+            "@id": "event:e2947712389390052206"
+        },
+        {
+            "@id": "event:e2785872842537516386"
+        },
+        {
+            "@id": "event:e1845111997618132662"
+        },
+        {
+            "@id": "event:e1450270082354877782"
+        },
+        {
+            "@id": "event:e3383297550685082507"
+        },
+        {
+            "@id": "event:e1392952968463831789"
+        },
+        {
+            "@id": "event:e3697311515768882656"
+        },
+        {
+            "@id": "event:e2399259804914791838"
+        },
+        {
+            "@id": "event:e2063973511479157720"
+        },
+        {
+            "@id": "event:e5213882922597322315"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Salonen, Kristiina (1977-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Salonen, Kristiina Johanna"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "1102",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

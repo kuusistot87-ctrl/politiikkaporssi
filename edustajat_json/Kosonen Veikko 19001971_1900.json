@@ -1,0 +1,188 @@
+{
+    "@id": "people:p910808",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kosonen, Veikko Johannes (Veikko J.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910808.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1948-05-11_1948-05-11_1948-07-21_1948-07-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "myymälänhoitaja"
+    },
+    "semparl:end_of_representative_period_text": "21.07.1948",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1948-07-21_1948-07-21"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1258"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p9700373776061074311"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910808"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8615080275395835113"
+        },
+        {
+            "@id": "label:l1209513854636368972"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3414430509247217308"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910808"
+    },
+    "semparl:sortingLabel": "kosonen veikko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910808"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910808.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Veikko_Kosonen"
+        },
+        {
+            "@id": "wd:Q5397212"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2063902739536728920"
+        },
+        {
+            "@id": "event:e1845498762611631234"
+        },
+        {
+            "@id": "event:e1525984287998578309"
+        },
+        {
+            "@id": "event:e1611127421662326980"
+        },
+        {
+            "@id": "event:e3839726703883462685"
+        },
+        {
+            "@id": "event:e1761260473045990667"
+        },
+        {
+            "@id": "event:e1582492536897183342"
+        },
+        {
+            "@id": "event:e3206645346282199855"
+        },
+        {
+            "@id": "event:e1149017038476238437"
+        },
+        {
+            "@id": "event:e2104356092974418528"
+        },
+        {
+            "@id": "event:e1903073524190662427"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kosonen, Veikko (1900-1971)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Kosonen, Veikko J."
+        },
+        {
+            "@language": "fi",
+            "@value": "Kosonen, Veikko Johannes"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q585735"
+    },
+    "semparl:id": "910808",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

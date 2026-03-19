@@ -1,0 +1,273 @@
+{
+    "@id": "people:p197",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "korpraali"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2765523183330582251"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Metsämäki, Lauri Juhani"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:197.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1996-05-02_1996-05-02_1999-03-23_1999-03-23"
+        },
+        {
+            "@id": "times:t_1987-03-21_1987-03-21_1995-03-23_1995-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "työeläketarkastaja"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o236"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2125312843876803013"
+    },
+    "xl:altLabel": {
+        "@id": "label:l9589494505048758291"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l4714185961002376930"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=197"
+    },
+    "semparl:sortingLabel": "metsämäki lauri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b197"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:197.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lauri_Mets%C3%A4m%C3%A4ki"
+        },
+        {
+            "@id": "wd:Q5985414"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1825907193849547305"
+        },
+        {
+            "@id": "event:e1365421445257727886"
+        },
+        {
+            "@id": "event:e1141464641132535808"
+        },
+        {
+            "@id": "event:e2282307996777712442"
+        },
+        {
+            "@id": "event:e3573263470334746353"
+        },
+        {
+            "@id": "event:e1710219233013625817"
+        },
+        {
+            "@id": "event:e1982785928573226866"
+        },
+        {
+            "@id": "event:e1972875631514788738"
+        },
+        {
+            "@id": "event:e3104692990126764491"
+        },
+        {
+            "@id": "event:e1771686087600201335"
+        },
+        {
+            "@id": "event:e1962315922711342474"
+        },
+        {
+            "@id": "event:e8882410608472482513"
+        },
+        {
+            "@id": "event:e7220565124512853356"
+        },
+        {
+            "@id": "event:e3174411955769417836"
+        },
+        {
+            "@id": "event:e3041110358062930233"
+        },
+        {
+            "@id": "event:e2784572659658860742"
+        },
+        {
+            "@id": "event:e1262491992893069262"
+        },
+        {
+            "@id": "event:e2620194638969820819"
+        },
+        {
+            "@id": "event:e1706549007468070314"
+        },
+        {
+            "@id": "event:e1214036506837803515"
+        },
+        {
+            "@id": "event:e2608307113632443434"
+        },
+        {
+            "@id": "event:e1250842386902963430"
+        },
+        {
+            "@id": "event:e6204771555010482128"
+        },
+        {
+            "@id": "event:e1869746357791143469"
+        },
+        {
+            "@id": "event:e1678753798961439081"
+        },
+        {
+            "@id": "event:e2184849468038696489"
+        },
+        {
+            "@id": "event:e2230687002098878968"
+        },
+        {
+            "@id": "event:e1371143064065719646"
+        },
+        {
+            "@id": "event:e2852577602787731270"
+        },
+        {
+            "@id": "event:e3362576273071596526"
+        },
+        {
+            "@id": "event:e9846837591742992224"
+        },
+        {
+            "@id": "event:e3069581596239434530"
+        },
+        {
+            "@id": "event:e6476760135428388847"
+        },
+        {
+            "@id": "event:e3074415646662364446"
+        },
+        {
+            "@id": "event:e1710970785575138542"
+        },
+        {
+            "@id": "event:e7403990667820378919"
+        },
+        {
+            "@id": "event:e2060416874930909237"
+        },
+        {
+            "@id": "event:e1074455850656025386"
+        },
+        {
+            "@id": "event:e2476813263904351418"
+        },
+        {
+            "@id": "event:e1782446036132103191"
+        },
+        {
+            "@id": "event:e6425259745087208392"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Metsämäki, Lauri (1939-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Metsämäki, Lauri Juhani"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "197",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,378 @@
+{
+    "@id": "people:p346",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b9317101144025340820"
+        },
+        {
+            "@id": "publications:b7177469038177911532"
+        },
+        {
+            "@id": "publications:b7013670329471803109"
+        },
+        {
+            "@id": "publications:b5437335109416492701"
+        },
+        {
+            "@id": "publications:b5072846378055358466"
+        },
+        {
+            "@id": "publications:b4976390166145581201"
+        },
+        {
+            "@id": "publications:b3396140862489595178"
+        },
+        {
+            "@id": "publications:b3117796320299906718"
+        },
+        {
+            "@id": "publications:b2714128913457096869"
+        },
+        {
+            "@id": "publications:b2524166600234794840"
+        },
+        {
+            "@id": "publications:b2515011292736320166"
+        },
+        {
+            "@id": "publications:b2180296183269868303"
+        },
+        {
+            "@id": "publications:b2142246920708414167"
+        },
+        {
+            "@id": "publications:b2076254719182210601"
+        },
+        {
+            "@id": "publications:b1938269441230116887"
+        },
+        {
+            "@id": "publications:b1783701343440444039"
+        },
+        {
+            "@id": "publications:b1605341226627023637"
+        },
+        {
+            "@id": "publications:b1317461407540043758"
+        },
+        {
+            "@id": "publications:b1192900236994502013"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Junnila, Tuure Jaakko Kalervo"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:346.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1990-02-05_1990-02-05_1991-03-21_1991-03-21"
+        },
+        {
+            "@id": "times:t_1966-04-05_1966-04-05_1979-03-23_1979-03-23"
+        },
+        {
+            "@id": "times:t_1951-07-21_1951-07-21_1962-02-19_1962-02-19"
+        },
+        {
+            "@id": "times:t_1983-03-26_1983-03-26_1987-03-20_1987-03-20"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian tohtori"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o233"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p3189107294175366919"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d346"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2267553398832504513"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1654727731158453821"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=346"
+    },
+    "semparl:sortingLabel": "junnila tuure",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b346"
+    },
+    "sch:image": [
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tuure%20junnila.jpg"
+        },
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tuure%20Junnila.jpg"
+        }
+    ],
+    "sch:sameAs": [
+        {
+            "@id": "mps:346.aspx"
+        },
+        {
+            "@id": "yle:18-195189"
+        },
+        {
+            "@id": "viaf:27542346"
+        },
+        {
+            "@id": "natbib:669"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tuure_Junnila"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Tuure_Junnila"
+        },
+        {
+            "@id": "wd:Q11898918"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2113"
+        },
+        {
+            "@id": "finaf:000045897"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2348"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8469160571547027726"
+        },
+        {
+            "@id": "event:e1953261307528628259"
+        },
+        {
+            "@id": "event:e3947855271339417613"
+        },
+        {
+            "@id": "event:e2098734845334734091"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3066005059688070965"
+        },
+        {
+            "@id": "event:e2866511458399170017"
+        },
+        {
+            "@id": "event:e2855936154104209645"
+        },
+        {
+            "@id": "event:e2822561192856284366"
+        },
+        {
+            "@id": "event:e2784533185751238453"
+        },
+        {
+            "@id": "event:e1706064731853477174"
+        },
+        {
+            "@id": "event:e1289379757405276816"
+        },
+        {
+            "@id": "event:e3330907802421074204"
+        },
+        {
+            "@id": "event:e1472129680015635350"
+        },
+        {
+            "@id": "event:e4574571914198536162"
+        },
+        {
+            "@id": "event:e8041621099030538556"
+        },
+        {
+            "@id": "event:e1148055808962444938"
+        },
+        {
+            "@id": "event:e1608408984323193043"
+        },
+        {
+            "@id": "event:e1544262510684069772"
+        },
+        {
+            "@id": "event:e2866500034555302302"
+        },
+        {
+            "@id": "event:e1600812555084748367"
+        },
+        {
+            "@id": "event:e2859716411799985070"
+        },
+        {
+            "@id": "event:e1255483143935175655"
+        },
+        {
+            "@id": "event:e1399183686924019785"
+        },
+        {
+            "@id": "event:e2834190676845044904"
+        },
+        {
+            "@id": "event:e2082270520226197493"
+        },
+        {
+            "@id": "event:e1612906214776945188"
+        },
+        {
+            "@id": "event:e1046453273750932954"
+        },
+        {
+            "@id": "event:e1401200741684292948"
+        },
+        {
+            "@id": "event:e2020465600344629042"
+        },
+        {
+            "@id": "event:e2336217948904457677"
+        },
+        {
+            "@id": "event:e2318923061136151933"
+        },
+        {
+            "@id": "event:e2297517148037441115"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1170977143541541169"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2872728831660847743"
+        },
+        {
+            "@id": "event:e1649010421058933160"
+        },
+        {
+            "@id": "event:e2694194870449423642"
+        },
+        {
+            "@id": "event:e5046148806850569222"
+        },
+        {
+            "@id": "event:e3399487737280026679"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Junnila, Tuure (1910-1999)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Junnila, Tuure Jaakko Kalervo"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "346",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,394 @@
+{
+    "@id": "people:p174",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b2870753494132610911"
+        },
+        {
+            "@id": "publications:b2829576396532886153"
+        },
+        {
+            "@id": "publications:b1703788970855691251"
+        },
+        {
+            "@id": "publications:b1688065613809995590"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Louekoski, Matti Kalevi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:174.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1983-03-26_1983-03-26_1996-04-30_1996-04-30"
+        },
+        {
+            "@id": "times:t_1976-09-21_1976-09-21_1979-03-23_1979-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari"
+    },
+    "semparl:end_of_representative_period_text": "30.04.1996",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1996-04-30_1996-04-30"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o120"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p6807982899585614500"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2431545923945468490"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2782999421533590436"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=174"
+    },
+    "semparl:sortingLabel": "louekoski matti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b174"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/MattiLouekoskiPaasitorniPoliittisenHistorianKlubi2015%2002.JPG"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:174.aspx"
+        },
+        {
+            "@id": "natbib:3986"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Matti_Louekoski"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Matti_Louekoski"
+        },
+        {
+            "@id": "wd:Q6791705"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p6450"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2591895895523239407"
+        },
+        {
+            "@id": "event:e1385758464224300980"
+        },
+        {
+            "@id": "event:e2413156897826302760"
+        },
+        {
+            "@id": "event:e1716633907007604258"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3742248878425112118"
+        },
+        {
+            "@id": "event:e3322199162680488291"
+        },
+        {
+            "@id": "event:e2979514528419084600"
+        },
+        {
+            "@id": "event:e2238105081953154786"
+        },
+        {
+            "@id": "event:e2172027220121046321"
+        },
+        {
+            "@id": "event:e2008273776456189559"
+        },
+        {
+            "@id": "event:e1940940100014861294"
+        },
+        {
+            "@id": "event:e1723142414647667888"
+        },
+        {
+            "@id": "event:e1543666675380775433"
+        },
+        {
+            "@id": "event:e1256634749282007903"
+        },
+        {
+            "@id": "event:e1066647367026360941"
+        },
+        {
+            "@id": "event:e9047485473218823203"
+        },
+        {
+            "@id": "event:e9289766489078602503"
+        },
+        {
+            "@id": "event:e1453536328995666476"
+        },
+        {
+            "@id": "event:e2621199487222516143"
+        },
+        {
+            "@id": "event:e1667194018180889203"
+        },
+        {
+            "@id": "event:e6216215097504844879"
+        },
+        {
+            "@id": "event:e3399363847668330851"
+        },
+        {
+            "@id": "event:e3334874983368644266"
+        },
+        {
+            "@id": "event:e3161796542906497297"
+        },
+        {
+            "@id": "event:e2889158807576698018"
+        },
+        {
+            "@id": "event:e3327633178938721998"
+        },
+        {
+            "@id": "event:e3268280936215405585"
+        },
+        {
+            "@id": "event:e8342523481922599629"
+        },
+        {
+            "@id": "event:e2926626337154325337"
+        },
+        {
+            "@id": "event:e2664548869511352589"
+        },
+        {
+            "@id": "event:e5392481682272045948"
+        },
+        {
+            "@id": "event:e2248173008923404684"
+        },
+        {
+            "@id": "event:e2222394537754556943"
+        },
+        {
+            "@id": "event:e2620535276941834381"
+        },
+        {
+            "@id": "event:e2348907991388703486"
+        },
+        {
+            "@id": "event:e2560089046091598536"
+        },
+        {
+            "@id": "event:e1288919538778094437"
+        },
+        {
+            "@id": "event:e5496839272092670786"
+        },
+        {
+            "@id": "event:e3078960860568694884"
+        },
+        {
+            "@id": "event:e2180812578906376203"
+        },
+        {
+            "@id": "event:e6921657319331259390"
+        },
+        {
+            "@id": "event:e1242455342862976620"
+        },
+        {
+            "@id": "event:e2634132414515864071"
+        },
+        {
+            "@id": "event:e2672002998692502572"
+        },
+        {
+            "@id": "event:e2073630484395477435"
+        },
+        {
+            "@id": "event:e7420122112618903883"
+        },
+        {
+            "@id": "event:e3375685550263210563"
+        },
+        {
+            "@id": "event:e7664652984288244436"
+        },
+        {
+            "@id": "event:e1642203750364509327"
+        },
+        {
+            "@id": "event:e2881575745476471456"
+        },
+        {
+            "@id": "event:e1438285712651115695"
+        },
+        {
+            "@id": "event:e1476592420485009369"
+        },
+        {
+            "@id": "event:e5107577371279335636"
+        },
+        {
+            "@id": "event:e2428214247455147227"
+        },
+        {
+            "@id": "event:e1455054258565305234"
+        },
+        {
+            "@id": "event:e2600391758439097684"
+        },
+        {
+            "@id": "event:e2932132307571747472"
+        },
+        {
+            "@id": "event:e2588880013130323466"
+        },
+        {
+            "@id": "event:e2767005588552668097"
+        },
+        {
+            "@id": "event:e9352325514958201907"
+        },
+        {
+            "@id": "event:e3242226269746082018"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1745403000221297591"
+        },
+        {
+            "@id": "event:e6149376755248700624"
+        },
+        {
+            "@id": "event:e1793109254878680785"
+        },
+        {
+            "@id": "event:e1844750619422464036"
+        },
+        {
+            "@id": "event:e6489595286872583038"
+        },
+        {
+            "@id": "event:e2897455499343681528"
+        },
+        {
+            "@id": "event:e4804675517972225847"
+        },
+        {
+            "@id": "event:e3395897676170862798"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Louekoski, Matti (1941-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Louekoski, Matti Kalevi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "174",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "@id": "people:p206",
+    "sch:relatedLink": {
+        "@id": "mps:206.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1983-03-26_1983-03-26_1989-12-14_1989-12-14"
+        },
+        {
+            "@id": "times:t_1995-03-24_1995-03-24_1999-03-23_1999-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yhteiskuntatieteiden tohtori, Euroopan parlamentin jäsen"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o251"
+        },
+        {
+            "@id": "occupations:o250"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2505131860893668132"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d206"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3255773853408561885"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=206"
+    },
+    "semparl:sortingLabel": "paasilinna reino kalervo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b206"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Reino%20Paasilinna.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:206.aspx"
+        },
+        {
+            "@id": "yle:18-203113"
+        },
+        {
+            "@id": "viaf:32133444"
+        },
+        {
+            "@id": "natbib:7540"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Reino_Paasilinna"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Reino_Paasilinna"
+        },
+        {
+            "@id": "wd:Q1642620"
+        },
+        {
+            "@id": "finaf:000054449"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4747"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2198658530477409677"
+        },
+        {
+            "@id": "event:e1340859321241874862"
+        },
+        {
+            "@id": "event:e2290914099543482044"
+        },
+        {
+            "@id": "event:e1675180347213362186"
+        },
+        {
+            "@id": "event:e1359345252964869704"
+        },
+        {
+            "@id": "event:e1162261950925091601"
+        },
+        {
+            "@id": "event:e2373452022333677578"
+        },
+        {
+            "@id": "event:e6361910431269739780"
+        },
+        {
+            "@id": "event:e8711993486486675434"
+        },
+        {
+            "@id": "event:e1444903171338961112"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9362170770565908865"
+        },
+        {
+            "@id": "event:e6020219422155742507"
+        },
+        {
+            "@id": "event:e3044628930971261469"
+        },
+        {
+            "@id": "event:e2164687864615954350"
+        },
+        {
+            "@id": "event:e1992948484677436009"
+        },
+        {
+            "@id": "event:e1137536834784522271"
+        },
+        {
+            "@id": "event:e2980920387846236744"
+        },
+        {
+            "@id": "event:e1199446432386744605"
+        },
+        {
+            "@id": "event:e3606858918577957839"
+        },
+        {
+            "@id": "event:e2701864137316392222"
+        },
+        {
+            "@id": "event:e2666516426582545757"
+        },
+        {
+            "@id": "event:e2903543249853882542"
+        },
+        {
+            "@id": "event:e7678559523603506571"
+        },
+        {
+            "@id": "event:e2590712752183593753"
+        },
+        {
+            "@id": "event:e2814677228292320764"
+        },
+        {
+            "@id": "event:e2223341809283627042"
+        },
+        {
+            "@id": "event:e1118460619003372456"
+        },
+        {
+            "@id": "event:e1469408113783729639"
+        },
+        {
+            "@id": "event:e4819342025973879499"
+        },
+        {
+            "@id": "event:e1240262591758320319"
+        },
+        {
+            "@id": "event:e1045298384030919780"
+        },
+        {
+            "@id": "event:e1623254358584377013"
+        },
+        {
+            "@id": "event:e2965723888437134000"
+        },
+        {
+            "@id": "event:e2126737234740757273"
+        },
+        {
+            "@id": "event:e4106153677971970366"
+        },
+        {
+            "@id": "event:e2246845773386397826"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Paasilinna, Reino (1939-2022)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "206",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

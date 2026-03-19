@@ -1,0 +1,247 @@
+{
+    "@id": "people:p801",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Rajala, Lyly Paavo Juhani"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:801.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2011-04-19_2011-04-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimittaja"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o145"
+    },
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p6306077912710296548"
+        },
+        {
+            "@id": "event:p1902654285335805189"
+        }
+    ],
+    "xl:altLabel": {
+        "@id": "label:l1714401194484837459"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3250521860794562175"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=801"
+    },
+    "semparl:sortingLabel": "rajala lyly",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b801"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lyly%20Rajala.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:801.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lyly_Rajala"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Lyly_Rajala"
+        },
+        {
+            "@id": "wd:Q11879931"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e4534580453642595391"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3072284147518415667"
+        },
+        {
+            "@id": "event:e2014233479490537021"
+        },
+        {
+            "@id": "event:e1379375519101813621"
+        },
+        {
+            "@id": "event:e7266225359289634384"
+        },
+        {
+            "@id": "event:e7888982922488805981"
+        },
+        {
+            "@id": "event:e3365479442768235181"
+        },
+        {
+            "@id": "event:e8094448748315043464"
+        },
+        {
+            "@id": "event:e2765696249173670719"
+        },
+        {
+            "@id": "event:e3044958463110613284"
+        },
+        {
+            "@id": "event:e2110122904899113892"
+        },
+        {
+            "@id": "event:e8235613388939822866"
+        },
+        {
+            "@id": "event:e8417351813687619969"
+        },
+        {
+            "@id": "event:e2046708122537490431"
+        },
+        {
+            "@id": "event:e3218162890670684785"
+        },
+        {
+            "@id": "event:e2716464042886115830"
+        },
+        {
+            "@id": "event:e6839556230540653843"
+        },
+        {
+            "@id": "event:e2773997111091261276"
+        },
+        {
+            "@id": "event:e3174339999245538450"
+        },
+        {
+            "@id": "event:e3370614743118209339"
+        },
+        {
+            "@id": "event:e5364523459632218464"
+        },
+        {
+            "@id": "event:e1743281081803502675"
+        },
+        {
+            "@id": "event:e2997597184542987923"
+        },
+        {
+            "@id": "event:e2876975231850448397"
+        },
+        {
+            "@id": "event:e2553435408378722373"
+        },
+        {
+            "@id": "event:e3924544894192599045"
+        },
+        {
+            "@id": "event:e1524089921099082348"
+        },
+        {
+            "@id": "event:e3161538620221399092"
+        },
+        {
+            "@id": "event:e1219334486373990152"
+        },
+        {
+            "@id": "event:e1009972841913416713"
+        },
+        {
+            "@id": "event:e4511688936893537063"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Rajala, Lyly (1951-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Rajala, Lyly Paavo Juhani"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q304191"
+        },
+        {
+            "@id": "groups:Q1138982"
+        }
+    ],
+    "semparl:id": "801",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

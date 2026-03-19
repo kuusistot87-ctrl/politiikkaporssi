@@ -1,0 +1,330 @@
+{
+    "@id": "people:p1318",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Vaasa"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9866821389700097501"
+        },
+        {
+            "@id": "affiliations:a6963573010060451034"
+        },
+        {
+            "@id": "affiliations:a3240771236902638009"
+        },
+        {
+            "@id": "affiliations:a3145023327190772214"
+        },
+        {
+            "@id": "affiliations:a3144058463811645948"
+        },
+        {
+            "@id": "affiliations:a3016577684916869580"
+        },
+        {
+            "@id": "affiliations:a2982375611648717776"
+        },
+        {
+            "@id": "affiliations:a2899590373999768549"
+        },
+        {
+            "@id": "affiliations:a2888178814209266180"
+        },
+        {
+            "@id": "affiliations:a2797129803620442479"
+        },
+        {
+            "@id": "affiliations:a2785761612912208526"
+        },
+        {
+            "@id": "affiliations:a2770806682089265207"
+        },
+        {
+            "@id": "affiliations:a2693604488251835267"
+        },
+        {
+            "@id": "affiliations:a2381049314525957107"
+        },
+        {
+            "@id": "affiliations:a2260171158047667358"
+        },
+        {
+            "@id": "affiliations:a2136208222691710464"
+        },
+        {
+            "@id": "affiliations:a1791102783401409792"
+        },
+        {
+            "@id": "affiliations:a1317149050900583078"
+        },
+        {
+            "@id": "affiliations:a1939302671467841225"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1318.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "oikeustieteen maisteri, kauppatieteiden maisteri"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o850"
+        },
+        {
+            "@id": "occupations:o139"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1660154779149718839"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3246911766693639035"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1318"
+    },
+    "semparl:sortingLabel": "strand jan joakim",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1318"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/632978/"
+    },
+    "sch:image": [
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Minister%20for%20European%20Affairs%20Joakim%20Strand%20in%20Helsinki%20on%204%20October%202024%20%28cropped%29.jpg"
+        },
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Joakim-Strand-O45A2678%20%28cropped%29.jpg"
+        }
+    ],
+    "sch:sameAs": [
+        {
+            "@id": "mps:1318.aspx"
+        },
+        {
+            "@id": "yle:18-161793"
+        },
+        {
+            "@id": "twitter:Jocke_Strand"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Joakim_Strand"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Joakim_Strand"
+        },
+        {
+            "@id": "wd:Q20253029"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2454113829319146166"
+        },
+        {
+            "@id": "event:e1295224947673881058"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3049300302874883607"
+        },
+        {
+            "@id": "event:e1285691108064502006"
+        },
+        {
+            "@id": "event:e2700580804089805220"
+        },
+        {
+            "@id": "event:e1467584789166121941"
+        },
+        {
+            "@id": "event:e1207427731773462372"
+        },
+        {
+            "@id": "event:e1137743585845764898"
+        },
+        {
+            "@id": "event:e3268347244583502624"
+        },
+        {
+            "@id": "event:e3382548036374350603"
+        },
+        {
+            "@id": "event:e5851974816441931268"
+        },
+        {
+            "@id": "event:e4945245487654319229"
+        },
+        {
+            "@id": "event:e1298796179019296103"
+        },
+        {
+            "@id": "event:e1584167114522604270"
+        },
+        {
+            "@id": "event:e1087603824547329081"
+        },
+        {
+            "@id": "event:e2141121750309659877"
+        },
+        {
+            "@id": "event:e1719921602680085997"
+        },
+        {
+            "@id": "event:e2127032617976043762"
+        },
+        {
+            "@id": "event:e3330147310904570275"
+        },
+        {
+            "@id": "event:e1851236122715899828"
+        },
+        {
+            "@id": "event:e1709703591598579375"
+        },
+        {
+            "@id": "event:e1848475574905005496"
+        },
+        {
+            "@id": "event:e7748923021730162166"
+        },
+        {
+            "@id": "event:e2473041759145997798"
+        },
+        {
+            "@id": "event:e3072967182149588873"
+        },
+        {
+            "@id": "event:e1697745429535540496"
+        },
+        {
+            "@id": "event:e1763073284738716788"
+        },
+        {
+            "@id": "event:e1249471705939605658"
+        },
+        {
+            "@id": "event:e3357429868155164747"
+        },
+        {
+            "@id": "event:e8103652813470251925"
+        },
+        {
+            "@id": "event:e3206370673543344306"
+        },
+        {
+            "@id": "event:e1910681593602450415"
+        },
+        {
+            "@id": "event:e1775587444018522784"
+        },
+        {
+            "@id": "event:e2839339001927776232"
+        },
+        {
+            "@id": "event:e2526972284209373834"
+        },
+        {
+            "@id": "event:e1376827546856322808"
+        },
+        {
+            "@id": "event:e2115311041634406319"
+        },
+        {
+            "@id": "event:e2399259804914791838"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Strand, Joakim (1982-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "1318",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "@id": "people:p372",
+    "semparl:authored": [
+        {
+            "@id": "publications:b4970733858569208235"
+        },
+        {
+            "@id": "publications:b2951339799393794698"
+        },
+        {
+            "@id": "publications:b2831915543942433320"
+        },
+        {
+            "@id": "publications:b2097344744188928883"
+        },
+        {
+            "@id": "publications:b2095612229775839129"
+        },
+        {
+            "@id": "publications:b1560878856853997197"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Suhola, Aino Kyllikki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:372.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1991-03-22_1991-03-22_1999-03-23_1999-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, toimittaja"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o145"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3222373495357453493"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1722180101984439369"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1439813644278158046"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=372"
+    },
+    "semparl:sortingLabel": "suhola aino",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b372"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Aino%20Suhola.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:372.aspx"
+        },
+        {
+            "@id": "viaf:56121913"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Aino_Suhola"
+        },
+        {
+            "@id": "wd:Q11850180"
+        },
+        {
+            "@id": "finaf:000059806"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e6050387312194108661"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2584889515271904991"
+        },
+        {
+            "@id": "event:e2568775938954838236"
+        },
+        {
+            "@id": "event:e2298858652616337470"
+        },
+        {
+            "@id": "event:e2477525288783411218"
+        },
+        {
+            "@id": "event:e5129683579247359375"
+        },
+        {
+            "@id": "event:e5891967503051759295"
+        },
+        {
+            "@id": "event:e2843097240745769513"
+        },
+        {
+            "@id": "event:e3219848805777232571"
+        },
+        {
+            "@id": "event:e1229509356263266699"
+        },
+        {
+            "@id": "event:e2424769315077050658"
+        },
+        {
+            "@id": "event:e8569658035189286622"
+        },
+        {
+            "@id": "event:e1661535700695750105"
+        },
+        {
+            "@id": "event:e2913769630600997219"
+        },
+        {
+            "@id": "event:e1084585550221737165"
+        },
+        {
+            "@id": "event:e4474652287976149399"
+        },
+        {
+            "@id": "event:e2374901972573908350"
+        },
+        {
+            "@id": "event:e4334203206479911587"
+        },
+        {
+            "@id": "event:e1058303591734855306"
+        },
+        {
+            "@id": "event:e1807654107978392971"
+        },
+        {
+            "@id": "event:e1270359783488373669"
+        },
+        {
+            "@id": "event:e1877486103115595825"
+        },
+        {
+            "@id": "event:e6398235708150981000"
+        },
+        {
+            "@id": "event:e2669645693572596802"
+        },
+        {
+            "@id": "event:e1969012594891672404"
+        },
+        {
+            "@id": "event:e2639988667682527696"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Suhola, Aino (1950-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Suhola, Aino Kyllikki"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "372",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

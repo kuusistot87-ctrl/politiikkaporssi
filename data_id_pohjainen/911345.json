@@ -1,0 +1,246 @@
+{
+    "@id": "people:p911345",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Rautapää(v:een 1906 Gröndahl), Hugo Valentin"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911345.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1910-03-01_1910-03-01_1914-02-01_1914-02-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lakitieteen tohtori, senaattori, korkeimman hallinto-oikeuden presidentti"
+    },
+    "semparl:end_of_representative_period_text": "01.02.1914",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1914-02-01_1914-02-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1681"
+        },
+        {
+            "@id": "occupations:o128"
+        },
+        {
+            "@id": "occupations:o1215"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1263868639165062138"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911345"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2420892288884865807"
+        },
+        {
+            "@id": "label:l1975179921512876857"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3283090028355841181"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911345"
+    },
+    "semparl:sortingLabel": "rautapää hugo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911345"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911345.aspx"
+        },
+        {
+            "@id": "natbib:2067"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hugo_Rautap%C3%A4%C3%A4"
+        },
+        {
+            "@id": "wd:Q5408720"
+        },
+        {
+            "@id": "finaf:000087869"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5078"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1357764765704895523"
+        },
+        {
+            "@id": "event:e1731637202482194465"
+        },
+        {
+            "@id": "event:e3136212629029626602"
+        },
+        {
+            "@id": "event:e2829001019580676876"
+        },
+        {
+            "@id": "event:e8961127843419355297"
+        },
+        {
+            "@id": "event:e1942874394914137426"
+        },
+        {
+            "@id": "event:e1236213391845923703"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9326328348520739242"
+        },
+        {
+            "@id": "event:e1533245457426711084"
+        },
+        {
+            "@id": "event:e1709886708010683495"
+        },
+        {
+            "@id": "event:e2640163663212165483"
+        },
+        {
+            "@id": "event:e3296162675892386282"
+        },
+        {
+            "@id": "event:e2046822925223768579"
+        },
+        {
+            "@id": "event:e3109826682960366815"
+        },
+        {
+            "@id": "event:e1911140269780502149"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1514895668855213796"
+        },
+        {
+            "@id": "event:e2867442033983388121"
+        },
+        {
+            "@id": "event:e3215715310713300839"
+        },
+        {
+            "@id": "event:e2724547922090194529"
+        },
+        {
+            "@id": "event:e1169806450595139626"
+        },
+        {
+            "@id": "event:e3400277743968880235"
+        },
+        {
+            "@id": "event:e2429596914983374642"
+        },
+        {
+            "@id": "event:e1859804495875851633"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Rautapää, Hugo (1874-1922)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Gröndahl, Hugo Valentin"
+        },
+        {
+            "@language": "fi",
+            "@value": "Rautapää, Hugo Valentin"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1378704"
+    },
+    "semparl:id": "911345",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

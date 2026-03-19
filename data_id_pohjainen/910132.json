@@ -1,0 +1,289 @@
+{
+    "@id": "people:p910132",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Rautkallio(v:een 1948 Kallio), Paavo Eelis"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910132.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1962-02-20_1962-02-20_1966-04-04_1966-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, kihlakunnanneuvos, poliisineuvos"
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1139"
+        },
+        {
+            "@id": "occupations:o1138"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1097750989334303405"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910132"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2556174998981209492"
+        },
+        {
+            "@id": "label:l1109851287322447485"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2637856495422391623"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910132"
+    },
+    "semparl:sortingLabel": "rautkallio paavo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910132"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910132.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Paavo_Rautkallio"
+        },
+        {
+            "@id": "wd:Q11886311"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_4546"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e7817434037046437474"
+        },
+        {
+            "@id": "event:e1748934022506432691"
+        },
+        {
+            "@id": "event:e2468676542718086642"
+        },
+        {
+            "@id": "event:e2151718468952643770"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1272450756285488724"
+        },
+        {
+            "@id": "event:e1050276938972503787"
+        },
+        {
+            "@id": "event:e3182536615908632655"
+        },
+        {
+            "@id": "event:e6283001275074168101"
+        },
+        {
+            "@id": "event:e1957344996007321506"
+        },
+        {
+            "@id": "event:e1611834766239114374"
+        },
+        {
+            "@id": "event:e2379606745687141170"
+        },
+        {
+            "@id": "event:e1747673305075974741"
+        },
+        {
+            "@id": "event:e4409988044659250862"
+        },
+        {
+            "@id": "event:e2164376131335056664"
+        },
+        {
+            "@id": "event:e1785464120352543427"
+        },
+        {
+            "@id": "event:e2278618541531130620"
+        },
+        {
+            "@id": "event:e3052874421749993917"
+        },
+        {
+            "@id": "event:e7452268499632349540"
+        },
+        {
+            "@id": "event:e1828047625444907005"
+        },
+        {
+            "@id": "event:e1758005745372008938"
+        },
+        {
+            "@id": "event:e3897060349310815750"
+        },
+        {
+            "@id": "event:e9724499506922536680"
+        },
+        {
+            "@id": "event:e3151193693441423644"
+        },
+        {
+            "@id": "event:e1327483088011958442"
+        },
+        {
+            "@id": "event:e2830399835396198090"
+        },
+        {
+            "@id": "event:e2239674561505497957"
+        },
+        {
+            "@id": "event:e1475802793576362372"
+        },
+        {
+            "@id": "event:e1874857350468231366"
+        },
+        {
+            "@id": "event:e2988040609823073886"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e2876659612570965208"
+        },
+        {
+            "@id": "event:e1422887243572312013"
+        },
+        {
+            "@id": "event:e2650355515099721396"
+        },
+        {
+            "@id": "event:e1220120247156045572"
+        },
+        {
+            "@id": "event:e3055742568994200111"
+        },
+        {
+            "@id": "event:e2631678757504071155"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Rautkallio, Paavo (1918-2001)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Rautkallio, Paavo Eelis"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kallio, Paavo Eelis"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910132",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "@id": "people:p911195",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "vääpeli"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1410343662086009188"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b2555157710547135697"
+        },
+        {
+            "@id": "publications:b2403075918741039672"
+        },
+        {
+            "@id": "publications:b1050631912796490049"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Paavola, Erkki Johannes (E.J.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911195.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1962-02-20_1962-02-20_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimittaja"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o145"
+    },
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2493917793369620287"
+        },
+        {
+            "@id": "event:p1962821152635046820"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911195"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l6450276890418519944"
+        },
+        {
+            "@id": "label:l1433751711414097203"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2363062244487767699"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911195"
+    },
+    "semparl:sortingLabel": "paavola erkki",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911195"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/E-J-Paavola-1962.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911195.aspx"
+        },
+        {
+            "@id": "viaf:12199476"
+        },
+        {
+            "@id": "natbib:1646"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/E._J._Paavola"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:E._J._Paavola"
+        },
+        {
+            "@id": "wd:Q11856437"
+        },
+        {
+            "@id": "finaf:000078030"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p488"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e8962692982706146002"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2132402432193777649"
+        },
+        {
+            "@id": "event:e1918488289397525945"
+        },
+        {
+            "@id": "event:e1525279997182105404"
+        },
+        {
+            "@id": "event:e2967378065181500329"
+        },
+        {
+            "@id": "event:e2087944745865643846"
+        },
+        {
+            "@id": "event:e1559064178959486773"
+        },
+        {
+            "@id": "event:e2662601233438745555"
+        },
+        {
+            "@id": "event:e2519806817196605552"
+        },
+        {
+            "@id": "event:e2735642330312749753"
+        },
+        {
+            "@id": "event:e1586256107716947150"
+        },
+        {
+            "@id": "event:e2288814766496931925"
+        },
+        {
+            "@id": "event:e1732621939573878480"
+        },
+        {
+            "@id": "event:e3081614658603603384"
+        },
+        {
+            "@id": "event:e2227013869980951862"
+        },
+        {
+            "@id": "event:e2876280350010747236"
+        },
+        {
+            "@id": "event:e3049045112787244875"
+        },
+        {
+            "@id": "event:e2130506145870820798"
+        },
+        {
+            "@id": "event:e1094563036985528899"
+        },
+        {
+            "@id": "event:e6397113072136257756"
+        },
+        {
+            "@id": "event:e3028805843779761905"
+        },
+        {
+            "@id": "event:e2647383426611757116"
+        },
+        {
+            "@id": "event:e3336326483888988450"
+        },
+        {
+            "@id": "event:e3177947036747436501"
+        },
+        {
+            "@id": "event:e6814720100933201206"
+        },
+        {
+            "@id": "event:e3209167316419038319"
+        },
+        {
+            "@id": "event:e2962103745555529208"
+        },
+        {
+            "@id": "event:e2412089050195457612"
+        },
+        {
+            "@id": "event:e2830051353749090574"
+        },
+        {
+            "@id": "event:e6772887095452758595"
+        },
+        {
+            "@id": "event:e2737419496917649732"
+        },
+        {
+            "@id": "event:e1599838849237431333"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e6034042759660029529"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e1407336884346832151"
+        },
+        {
+            "@id": "event:e1589234674144052840"
+        },
+        {
+            "@id": "event:e2040179511742292342"
+        },
+        {
+            "@id": "event:e7921017751104561837"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Paavola, Erkki (1903-1983)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Paavola, E.J."
+        },
+        {
+            "@language": "fi",
+            "@value": "Paavola, Erkki Johannes"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q613849"
+        },
+        {
+            "@id": "groups:Q914375"
+        }
+    ],
+    "semparl:id": "911195",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

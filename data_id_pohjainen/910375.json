@@ -1,0 +1,290 @@
+{
+    "@id": "people:p910375",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2699094197341410490"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Gebhard, Hedvig Maria"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910375.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1924-05-01_1924-05-01_1929-07-31_1929-07-31"
+        },
+        {
+            "@id": "times:t_1919-04-01_1919-04-01_1922-09-04_1922-09-04"
+        },
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1909-05-31_1909-05-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "talousneuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1929",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1929-07-31_1929-07-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1086"
+    },
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p3056134281848427180"
+        },
+        {
+            "@id": "event:p2932672857534528443"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910375"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3276052843259759354"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2778690041409925455"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910375"
+    },
+    "semparl:sortingLabel": "gebhard hedvig",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910375"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hedvig%20Gebhard-1910%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910375.aspx"
+        },
+        {
+            "@id": "viaf:1140154260418824480001"
+        },
+        {
+            "@id": "natbib:4644"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hedvig_Gebhard"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Hedvig_Gebhard"
+        },
+        {
+            "@id": "wd:Q17380323"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2600"
+        },
+        {
+            "@id": "finaf:000085127"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1193"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e9647609406296742031"
+        },
+        {
+            "@id": "event:e7141016748460567957"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3701347792391323224"
+        },
+        {
+            "@id": "event:e2797594728760111344"
+        },
+        {
+            "@id": "event:e2545292644377105891"
+        },
+        {
+            "@id": "event:e1935586457040108666"
+        },
+        {
+            "@id": "event:e1784050114928080107"
+        },
+        {
+            "@id": "event:e3008323762563318025"
+        },
+        {
+            "@id": "event:e9316651498176833836"
+        },
+        {
+            "@id": "event:e2382923801393428573"
+        },
+        {
+            "@id": "event:e1513561162105316960"
+        },
+        {
+            "@id": "event:e1100569544078006956"
+        },
+        {
+            "@id": "event:e8664159736604706541"
+        },
+        {
+            "@id": "event:e2327889430155011295"
+        },
+        {
+            "@id": "event:e2486442475701909548"
+        },
+        {
+            "@id": "event:e2600780867061759366"
+        },
+        {
+            "@id": "event:e3101284331433200559"
+        },
+        {
+            "@id": "event:e7285947206944965538"
+        },
+        {
+            "@id": "event:e3377896109461576246"
+        },
+        {
+            "@id": "event:e6610799749535396255"
+        },
+        {
+            "@id": "event:e1104523230378129854"
+        },
+        {
+            "@id": "event:e2485041702743453858"
+        },
+        {
+            "@id": "event:e1325672981699625620"
+        },
+        {
+            "@id": "event:e2402903863832335365"
+        },
+        {
+            "@id": "event:e1499634792903386870"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e1034083410826758573"
+        },
+        {
+            "@id": "event:e4714110058116964974"
+        },
+        {
+            "@id": "event:e1509846299535544675"
+        },
+        {
+            "@id": "event:e3008757702240363606"
+        },
+        {
+            "@id": "event:e5218071259361878323"
+        },
+        {
+            "@id": "event:e2297517148037441115"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Gebhard, Hedvig (1867-1961)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Gebhard, Hedvig Maria"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q304191"
+        }
+    ],
+    "semparl:id": "910375",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

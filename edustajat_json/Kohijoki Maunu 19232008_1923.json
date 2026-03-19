@@ -1,0 +1,298 @@
+{
+    "@id": "people:p191",
+    "semparl:extra_info": "Osallistunut jatkosotaan rintamajoukoissa 1941-1945 ja haavoittunut Tolvajärvellä 2.9.1944. Sotainvalidi",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2440855203929118390"
+    },
+    "semparl:authored": {
+        "@id": "publications:b1965280006103947471"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kohijoki, Maunu Mikael"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:191.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1987-03-21_1987-03-21_1995-03-23_1995-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "komisario"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1995",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1995-03-23_1995-03-23"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o221"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1942906131635953229"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d191"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1112687163730758972"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1211053569519765871"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=191"
+    },
+    "semparl:sortingLabel": "kohijoki maunu",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b191"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:191.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Maunu_Kohijoki"
+        },
+        {
+            "@id": "wd:Q11881792"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2226335947339848672"
+        },
+        {
+            "@id": "event:e1084723548389747029"
+        },
+        {
+            "@id": "event:e2833128427774097124"
+        },
+        {
+            "@id": "event:e3179974646171665121"
+        },
+        {
+            "@id": "event:e2864217007088358269"
+        },
+        {
+            "@id": "event:e3085789817501759956"
+        },
+        {
+            "@id": "event:e1659109144123757097"
+        },
+        {
+            "@id": "event:e2076288813835175570"
+        },
+        {
+            "@id": "event:e3237200865289425886"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2811000606451562211"
+        },
+        {
+            "@id": "event:e7763719451359657200"
+        },
+        {
+            "@id": "event:e1303721185477347224"
+        },
+        {
+            "@id": "event:e5481683720247437649"
+        },
+        {
+            "@id": "event:e1289804102821138516"
+        },
+        {
+            "@id": "event:e2982509036260297226"
+        },
+        {
+            "@id": "event:e3973229198455509233"
+        },
+        {
+            "@id": "event:e8862426810183753466"
+        },
+        {
+            "@id": "event:e2860351483080345922"
+        },
+        {
+            "@id": "event:e7748419438588541952"
+        },
+        {
+            "@id": "event:e4024618439750471175"
+        },
+        {
+            "@id": "event:e2471848458675777715"
+        },
+        {
+            "@id": "event:e2692043815138734337"
+        },
+        {
+            "@id": "event:e5024988767610011532"
+        },
+        {
+            "@id": "event:e2474171717525234170"
+        },
+        {
+            "@id": "event:e1167283989544742833"
+        },
+        {
+            "@id": "event:e2957477939065032697"
+        },
+        {
+            "@id": "event:e3379035759863300841"
+        },
+        {
+            "@id": "event:e6250933342396047753"
+        },
+        {
+            "@id": "event:e6794001087172206863"
+        },
+        {
+            "@id": "event:e2681802672335950341"
+        },
+        {
+            "@id": "event:e1065313001855164206"
+        },
+        {
+            "@id": "event:e1805283239726481669"
+        },
+        {
+            "@id": "event:e2144317339143899706"
+        },
+        {
+            "@id": "event:e7917638497374481044"
+        },
+        {
+            "@id": "event:e1850227790472419362"
+        },
+        {
+            "@id": "event:e8767282199297156219"
+        },
+        {
+            "@id": "event:e3010357751842201265"
+        },
+        {
+            "@id": "event:e3209039903830631473"
+        },
+        {
+            "@id": "event:e7740688975901103767"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1470292580665900143"
+        },
+        {
+            "@id": "event:e3530656039744666957"
+        },
+        {
+            "@id": "event:e1501692900536473210"
+        },
+        {
+            "@id": "event:e7581680624205332545"
+        },
+        {
+            "@id": "event:e2356652235485114999"
+        },
+        {
+            "@id": "event:e1237263855526504532"
+        },
+        {
+            "@id": "event:e1731023205433240722"
+        },
+        {
+            "@id": "event:e2061224701636585307"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kohijoki, Maunu (1923-2008)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kohijoki, Maunu Mikael"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "191",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

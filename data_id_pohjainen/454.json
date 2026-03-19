@@ -1,0 +1,224 @@
+{
+    "@id": "people:p454",
+    "semparl:extra_info": "SVR K 1997, Sotainv. ar 1997",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Huttu-Juntunen(Huttu), Terttu Aulikki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:454.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24_1999-03-23_1999-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sosiaalijohtaja"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o463"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p7690834372163017115"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2392772599690018888"
+        },
+        {
+            "@id": "label:l1597521300053957336"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2883867363786481912"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=454"
+    },
+    "semparl:sortingLabel": "huttu-juntunen terttu",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b454"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:454.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Terttu_Huttu-Juntunen"
+        },
+        {
+            "@id": "wd:Q16299169"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8906806757989178029"
+        },
+        {
+            "@id": "event:e9786064653597512294"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2843276532745256389"
+        },
+        {
+            "@id": "event:e2697862370466629068"
+        },
+        {
+            "@id": "event:e1843522333709329232"
+        },
+        {
+            "@id": "event:e1273305301652963946"
+        },
+        {
+            "@id": "event:e7080429516812290751"
+        },
+        {
+            "@id": "event:e2121370531321048992"
+        },
+        {
+            "@id": "event:e2022082133826490189"
+        },
+        {
+            "@id": "event:e1318890404982101061"
+        },
+        {
+            "@id": "event:e3387364578506562772"
+        },
+        {
+            "@id": "event:e9191947650686746145"
+        },
+        {
+            "@id": "event:e2359542755742716561"
+        },
+        {
+            "@id": "event:e4422858665988327431"
+        },
+        {
+            "@id": "event:e2958154606584627404"
+        },
+        {
+            "@id": "event:e3230697713453467001"
+        },
+        {
+            "@id": "event:e7673645011453053904"
+        },
+        {
+            "@id": "event:e7501546165537300926"
+        },
+        {
+            "@id": "event:e1416598504328089531"
+        },
+        {
+            "@id": "event:e3927541808996303357"
+        },
+        {
+            "@id": "event:e2079149441321647513"
+        },
+        {
+            "@id": "event:e6987321331202538109"
+        },
+        {
+            "@id": "event:e2855016470941312882"
+        },
+        {
+            "@id": "event:e1362219090914683114"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Huttu-Juntunen, Terttu (1951-)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Huttu-Juntunen, Terttu Aulikki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Huttu, Terttu Aulikki"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q385927"
+    },
+    "semparl:id": "454",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

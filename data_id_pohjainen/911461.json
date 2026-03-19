@@ -1,0 +1,347 @@
+{
+    "@id": "people:p911461",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Salovaara(v:een 1906 Sillfors), Väinö Veikko (Väinö V.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911461.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1939-09-01_1939-09-01_1945-04-05_1945-04-05"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "ylikonemestari, apulaiskaupunginjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "05.04.1945",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1945-04-05_1945-04-05"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1717"
+        },
+        {
+            "@id": "occupations:o123"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1455940706451749997"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911461"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2984635865746588439"
+        },
+        {
+            "@id": "label:l2713904344627565424"
+        },
+        {
+            "@id": "label:l1612644663451965256"
+        },
+        {
+            "@id": "label:l1596620742079229613"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l7443636731420831194"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911461"
+    },
+    "semparl:sortingLabel": "salovaara väinö",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911461"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ministeri%20V%C3%A4in%C3%B6%20Salovaara.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911461.aspx"
+        },
+        {
+            "@id": "natbib:695"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/V%C3%A4in%C3%B6_Salovaara"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:V%C3%A4in%C3%B6_Salovaara"
+        },
+        {
+            "@id": "wd:Q11902104"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2339"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2855"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1420136562845036815"
+        },
+        {
+            "@id": "event:e1097265373651625294"
+        },
+        {
+            "@id": "event:e4347219981044322436"
+        },
+        {
+            "@id": "event:e1185904500812843420"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8385972285918687062"
+        },
+        {
+            "@id": "event:e3511231234289548791"
+        },
+        {
+            "@id": "event:e3344079023932317528"
+        },
+        {
+            "@id": "event:e2709191353170153191"
+        },
+        {
+            "@id": "event:e2592774206595341238"
+        },
+        {
+            "@id": "event:e1885446971133237088"
+        },
+        {
+            "@id": "event:e1293950321995893388"
+        },
+        {
+            "@id": "event:e1222195206876667287"
+        },
+        {
+            "@id": "event:e1098200210895482718"
+        },
+        {
+            "@id": "event:e2219068562919971666"
+        },
+        {
+            "@id": "event:e1611884817709542319"
+        },
+        {
+            "@id": "event:e2806380521647048960"
+        },
+        {
+            "@id": "event:e1603653133435158457"
+        },
+        {
+            "@id": "event:e1395413355648443302"
+        },
+        {
+            "@id": "event:e1433058086473444522"
+        },
+        {
+            "@id": "event:e1384723533729014860"
+        },
+        {
+            "@id": "event:e3395863266160102173"
+        },
+        {
+            "@id": "event:e2013842179780639512"
+        },
+        {
+            "@id": "event:e1092186860359519894"
+        },
+        {
+            "@id": "event:e2679139187888261346"
+        },
+        {
+            "@id": "event:e2661019542998606708"
+        },
+        {
+            "@id": "event:e3351837499220237969"
+        },
+        {
+            "@id": "event:e1559246678280989658"
+        },
+        {
+            "@id": "event:e3178469212351476486"
+        },
+        {
+            "@id": "event:e2155802807957546180"
+        },
+        {
+            "@id": "event:e3487847988136904652"
+        },
+        {
+            "@id": "event:e1459524578883838639"
+        },
+        {
+            "@id": "event:e3378101658135805059"
+        },
+        {
+            "@id": "event:e2925797967729400615"
+        },
+        {
+            "@id": "event:e1930058515572367683"
+        },
+        {
+            "@id": "event:e1674407988008390795"
+        },
+        {
+            "@id": "event:e2650550642476867105"
+        },
+        {
+            "@id": "event:e1599701790220634341"
+        },
+        {
+            "@id": "event:e1530231573436892677"
+        },
+        {
+            "@id": "event:e5425734852078486134"
+        },
+        {
+            "@id": "event:e3478096971914679839"
+        },
+        {
+            "@id": "event:e2276618781371893101"
+        },
+        {
+            "@id": "event:e3335020794879659884"
+        },
+        {
+            "@id": "event:e1019622529517222715"
+        },
+        {
+            "@id": "event:e2763813316764981703"
+        },
+        {
+            "@id": "event:e2521471116261306217"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e2671609730270329191"
+        },
+        {
+            "@id": "event:e1727897614134596116"
+        },
+        {
+            "@id": "event:e2272369890173247668"
+        },
+        {
+            "@id": "event:e1417309508446306556"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Salovaara, Väinö (1888-1964)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Salovaara, Väinö V."
+        },
+        {
+            "@language": "fi",
+            "@value": "Salovaara, Väinö Veikko"
+        },
+        {
+            "@language": "fi",
+            "@value": "Sillfors, Väinö V."
+        },
+        {
+            "@language": "fi",
+            "@value": "Sillfors, Väinö Veikko"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911461",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

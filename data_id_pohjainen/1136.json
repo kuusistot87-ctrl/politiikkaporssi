@@ -1,0 +1,297 @@
+{
+    "@id": "people:p1136",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Oulu"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8973332513341910602"
+        },
+        {
+            "@id": "affiliations:a5612583431523168260"
+        },
+        {
+            "@id": "affiliations:a3221859737239073963"
+        },
+        {
+            "@id": "affiliations:a2946095213631484974"
+        },
+        {
+            "@id": "affiliations:a2621668877814918036"
+        },
+        {
+            "@id": "affiliations:a2611085028432003390"
+        },
+        {
+            "@id": "affiliations:a2560998755908805866"
+        },
+        {
+            "@id": "affiliations:a2050246275149367368"
+        },
+        {
+            "@id": "affiliations:a1963176652943643518"
+        },
+        {
+            "@id": "affiliations:a1874846489916836998"
+        },
+        {
+            "@id": "affiliations:a1768272382484883055"
+        },
+        {
+            "@id": "affiliations:a1404842808496498788"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1136.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o206"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p4388293245106978572"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5667088087014487935"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1136"
+    },
+    "semparl:sortingLabel": "vähämäki ville petteri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1136"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/643492/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ville%20V%C3%A4h%C3%A4m%C3%A4ki.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1136.aspx"
+        },
+        {
+            "@id": "yle:18-275318"
+        },
+        {
+            "@id": "twitter:vahamaki"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ville_V%C3%A4h%C3%A4m%C3%A4ki"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Ville_V%C3%A4h%C3%A4m%C3%A4ki"
+        },
+        {
+            "@id": "wd:Q11901588"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2237738806731153726"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6306946641608123101"
+        },
+        {
+            "@id": "event:e1647543428731279848"
+        },
+        {
+            "@id": "event:e8612691539905980849"
+        },
+        {
+            "@id": "event:e3372238195235863408"
+        },
+        {
+            "@id": "event:e1872969916316797610"
+        },
+        {
+            "@id": "event:e2723098927235377251"
+        },
+        {
+            "@id": "event:e9375180089544463036"
+        },
+        {
+            "@id": "event:e3319947413389802149"
+        },
+        {
+            "@id": "event:e1082391844103184442"
+        },
+        {
+            "@id": "event:e1413780691433504171"
+        },
+        {
+            "@id": "event:e1563454194855530253"
+        },
+        {
+            "@id": "event:e3398141553678859431"
+        },
+        {
+            "@id": "event:e1818938309153903920"
+        },
+        {
+            "@id": "event:e2105618722152440598"
+        },
+        {
+            "@id": "event:e2804477327924732319"
+        },
+        {
+            "@id": "event:e4434859940715444846"
+        },
+        {
+            "@id": "event:e1766696543572130985"
+        },
+        {
+            "@id": "event:e1714237263559497032"
+        },
+        {
+            "@id": "event:e2080895552024248125"
+        },
+        {
+            "@id": "event:e2240955515570607199"
+        },
+        {
+            "@id": "event:e7688766359495173270"
+        },
+        {
+            "@id": "event:e3320406634689127581"
+        },
+        {
+            "@id": "event:e2325036380859429734"
+        },
+        {
+            "@id": "event:e8903554057294122593"
+        },
+        {
+            "@id": "event:e5291706468186171081"
+        },
+        {
+            "@id": "event:e2373504210706824602"
+        },
+        {
+            "@id": "event:e2302269449108148795"
+        },
+        {
+            "@id": "event:e3377705962122515123"
+        },
+        {
+            "@id": "event:e2582218786830451300"
+        },
+        {
+            "@id": "event:e1102389825158192997"
+        },
+        {
+            "@id": "event:e1920633138699100613"
+        },
+        {
+            "@id": "event:e8634763231371492968"
+        },
+        {
+            "@id": "event:e2206032695813813602"
+        },
+        {
+            "@id": "event:e1088383171663400449"
+        },
+        {
+            "@id": "event:e1831786969908323580"
+        },
+        {
+            "@id": "event:e1137201114460449335"
+        },
+        {
+            "@id": "event:e1486991538580699013"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vähämäki, Ville (1979-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q634277"
+    },
+    "semparl:id": "1136",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

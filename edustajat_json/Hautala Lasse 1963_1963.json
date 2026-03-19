@@ -1,0 +1,300 @@
+{
+    "@id": "people:p805",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hautala, Lasse Tapani"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:805.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2009-06-09_2009-06-09_2019-04-16_2019-04-16"
+        },
+        {
+            "@id": "times:t_2003-03-19_2003-03-19_2007-03-20_2007-03-20"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agrologi"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o217"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p5596943411941153999"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3030574494913770709"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3327747239627619898"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=805"
+    },
+    "semparl:sortingLabel": "hautala lasse",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b805"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lasse%20Hautala%20Sein%C3%A4joki%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:805.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lasse_Hautala"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Lasse_Hautala"
+        },
+        {
+            "@id": "wd:Q9023263"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1041121247665911533"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9533943297231244622"
+        },
+        {
+            "@id": "event:e8283878995498376546"
+        },
+        {
+            "@id": "event:e1679673328246728393"
+        },
+        {
+            "@id": "event:e1687816205201123353"
+        },
+        {
+            "@id": "event:e2422490224638772958"
+        },
+        {
+            "@id": "event:e2335839457897534482"
+        },
+        {
+            "@id": "event:e1046344569779782628"
+        },
+        {
+            "@id": "event:e2657080965925319847"
+        },
+        {
+            "@id": "event:e2990011577206905953"
+        },
+        {
+            "@id": "event:e2056979945431217236"
+        },
+        {
+            "@id": "event:e5168234087610773637"
+        },
+        {
+            "@id": "event:e5669878493808029632"
+        },
+        {
+            "@id": "event:e2161308443647035315"
+        },
+        {
+            "@id": "event:e2582062790736107261"
+        },
+        {
+            "@id": "event:e2798112116781952422"
+        },
+        {
+            "@id": "event:e9219775333544887054"
+        },
+        {
+            "@id": "event:e5064993065573752402"
+        },
+        {
+            "@id": "event:e1189284626999883097"
+        },
+        {
+            "@id": "event:e2755892464899346044"
+        },
+        {
+            "@id": "event:e2764518067557261213"
+        },
+        {
+            "@id": "event:e4295430168274280870"
+        },
+        {
+            "@id": "event:e3343735344375238962"
+        },
+        {
+            "@id": "event:e3046131532126488400"
+        },
+        {
+            "@id": "event:e1688880744583702826"
+        },
+        {
+            "@id": "event:e2529873709372663792"
+        },
+        {
+            "@id": "event:e9510218919857446361"
+        },
+        {
+            "@id": "event:e2773444537342827489"
+        },
+        {
+            "@id": "event:e1072771808065530002"
+        },
+        {
+            "@id": "event:e1685973839103871682"
+        },
+        {
+            "@id": "event:e8765424190185320641"
+        },
+        {
+            "@id": "event:e2377385665637379344"
+        },
+        {
+            "@id": "event:e3339627564081150966"
+        },
+        {
+            "@id": "event:e1449526733832080805"
+        },
+        {
+            "@id": "event:e1949234136061704646"
+        },
+        {
+            "@id": "event:e1577095567819583600"
+        },
+        {
+            "@id": "event:e8876401755409941418"
+        },
+        {
+            "@id": "event:e2015751064211127378"
+        },
+        {
+            "@id": "event:e1949565428078416649"
+        },
+        {
+            "@id": "event:e2978510653269330458"
+        },
+        {
+            "@id": "event:e2511226883888098083"
+        },
+        {
+            "@id": "event:e3027702019269930585"
+        },
+        {
+            "@id": "event:e2022190400810025608"
+        },
+        {
+            "@id": "event:e1658205430217777291"
+        },
+        {
+            "@id": "event:e9748734530741200209"
+        },
+        {
+            "@id": "event:e2344041022912685191"
+        },
+        {
+            "@id": "event:e3142691815424444350"
+        },
+        {
+            "@id": "event:e5814894101799403225"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hautala, Lasse (1963-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Hautala, Lasse Tapani"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "805",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

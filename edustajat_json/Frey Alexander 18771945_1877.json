@@ -1,0 +1,285 @@
+{
+    "@id": "people:p910367",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Frey, Alexander"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910367.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1917-04-11_1917-04-11_1917-10-31_1917-10-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lakitieteen tohtori, senaattori, pääjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "31.10.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-10-31_1917-10-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o128"
+        },
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o1215"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2640332817122777598"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910367"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2620500980962872801"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910367"
+    },
+    "semparl:sortingLabel": "frey alexander",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910367"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910367.aspx"
+        },
+        {
+            "@id": "natbib:2166"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Alexander_Frey"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Alexander_Frey"
+        },
+        {
+            "@id": "wd:Q4348899"
+        },
+        {
+            "@id": "finaf:000086308"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3631"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2007426553362050300"
+        },
+        {
+            "@id": "event:e1244367100329778482"
+        },
+        {
+            "@id": "event:e1958422027180443767"
+        },
+        {
+            "@id": "event:e6291968249640976216"
+        },
+        {
+            "@id": "event:e6490629510172118400"
+        },
+        {
+            "@id": "event:e2658849959444066624"
+        },
+        {
+            "@id": "event:e1943128232098753049"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9008538802049215802"
+        },
+        {
+            "@id": "event:e8378959223964149679"
+        },
+        {
+            "@id": "event:e2037008536076504928"
+        },
+        {
+            "@id": "event:e1691039029340964814"
+        },
+        {
+            "@id": "event:e1173850634203506307"
+        },
+        {
+            "@id": "event:e2799328138735530345"
+        },
+        {
+            "@id": "event:e1881893421758548627"
+        },
+        {
+            "@id": "event:e2127134603277973426"
+        },
+        {
+            "@id": "event:e5973098022426794108"
+        },
+        {
+            "@id": "event:e2509165057838597754"
+        },
+        {
+            "@id": "event:e2076793861897266781"
+        },
+        {
+            "@id": "event:e1025348382628344473"
+        },
+        {
+            "@id": "event:e1613321460334156744"
+        },
+        {
+            "@id": "event:e2438250567719473989"
+        },
+        {
+            "@id": "event:e2211938367316787686"
+        },
+        {
+            "@id": "event:e1253858844180559422"
+        },
+        {
+            "@id": "event:e1739109157748648712"
+        },
+        {
+            "@id": "event:e1354905314494561169"
+        },
+        {
+            "@id": "event:e2800008128533071137"
+        },
+        {
+            "@id": "event:e8469154592945886397"
+        },
+        {
+            "@id": "event:e3225419265068896001"
+        },
+        {
+            "@id": "event:e1658720357613963807"
+        },
+        {
+            "@id": "event:e2352106856229588739"
+        },
+        {
+            "@id": "event:e7459547557372589452"
+        },
+        {
+            "@id": "event:e8503593658267528795"
+        },
+        {
+            "@id": "event:e2392427662454894564"
+        },
+        {
+            "@id": "event:e2077655430531794476"
+        },
+        {
+            "@id": "event:e1631745339307600493"
+        },
+        {
+            "@id": "event:e2802598709513040049"
+        },
+        {
+            "@id": "event:e2989755616409080666"
+        },
+        {
+            "@id": "event:e8261321965268516057"
+        },
+        {
+            "@id": "event:e1929485719033740712"
+        },
+        {
+            "@id": "event:e1265752643853753230"
+        },
+        {
+            "@id": "event:e3154096368326571118"
+        },
+        {
+            "@id": "event:e8639671215933477443"
+        },
+        {
+            "@id": "event:e1807174010763912858"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Frey, Alexander (1877-1945)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910367",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

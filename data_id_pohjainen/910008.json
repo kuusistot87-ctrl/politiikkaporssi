@@ -1,0 +1,358 @@
+{
+    "@id": "people:p910008",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b9217354816763887002"
+        },
+        {
+            "@id": "publications:b8449426750233622422"
+        },
+        {
+            "@id": "publications:b7425886175711576340"
+        },
+        {
+            "@id": "publications:b5726454565735753677"
+        },
+        {
+            "@id": "publications:b4852569259166525306"
+        },
+        {
+            "@id": "publications:b3384760795713579298"
+        },
+        {
+            "@id": "publications:b3041453273112478144"
+        },
+        {
+            "@id": "publications:b2376731382382644747"
+        },
+        {
+            "@id": "publications:b2273384418590218283"
+        },
+        {
+            "@id": "publications:b2255389036080230356"
+        },
+        {
+            "@id": "publications:b1855104974889172229"
+        },
+        {
+            "@id": "publications:b1765422564906999452"
+        },
+        {
+            "@id": "publications:b1312793606226186883"
+        },
+        {
+            "@id": "publications:b1288260952646472451"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Apajalahti, Jouni Arto Aarre"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910008.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1966-04-05_1966-04-05_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rovasti, kulttuurijohtaja"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1008"
+        },
+        {
+            "@id": "occupations:o29"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1366928456135031736"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910008"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2673031283552079432"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1188892444876107410"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910008"
+    },
+    "semparl:sortingLabel": "apajalahti jouni",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910008"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jouni-Apajalahti-1972.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910008.aspx"
+        },
+        {
+            "@id": "viaf:280664054"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jouni_Apajalahti"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jouni_Apajalahti"
+        },
+        {
+            "@id": "wd:Q11867226"
+        },
+        {
+            "@id": "finaf:000067398"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1464293520589479119"
+        },
+        {
+            "@id": "event:e1522481550648644494"
+        },
+        {
+            "@id": "event:e3310917651890681263"
+        },
+        {
+            "@id": "event:e2060752221194368772"
+        },
+        {
+            "@id": "event:e5758689960971487929"
+        },
+        {
+            "@id": "event:e9442323352097231791"
+        },
+        {
+            "@id": "event:e1422331653300766517"
+        },
+        {
+            "@id": "event:e3024321065608640231"
+        },
+        {
+            "@id": "event:e8281094013114126427"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2744475837991378102"
+        },
+        {
+            "@id": "event:e9781619304934740174"
+        },
+        {
+            "@id": "event:e1130950983926723822"
+        },
+        {
+            "@id": "event:e2859441551612120865"
+        },
+        {
+            "@id": "event:e2188989475609593630"
+        },
+        {
+            "@id": "event:e3715294811521820408"
+        },
+        {
+            "@id": "event:e9901410183956777730"
+        },
+        {
+            "@id": "event:e6171336370346660019"
+        },
+        {
+            "@id": "event:e1555311422664690292"
+        },
+        {
+            "@id": "event:e2752401517070616645"
+        },
+        {
+            "@id": "event:e1550453846790988534"
+        },
+        {
+            "@id": "event:e7857260904206931091"
+        },
+        {
+            "@id": "event:e2010760764452695194"
+        },
+        {
+            "@id": "event:e6456951221899858989"
+        },
+        {
+            "@id": "event:e3181485964020536417"
+        },
+        {
+            "@id": "event:e1157352476286389992"
+        },
+        {
+            "@id": "event:e1948233692601175323"
+        },
+        {
+            "@id": "event:e4063771855060601648"
+        },
+        {
+            "@id": "event:e2754540716446024546"
+        },
+        {
+            "@id": "event:e1728934374509143342"
+        },
+        {
+            "@id": "event:e1005515666601413119"
+        },
+        {
+            "@id": "event:e1445913357584463310"
+        },
+        {
+            "@id": "event:e7903721821402541559"
+        },
+        {
+            "@id": "event:e1513480737381694847"
+        },
+        {
+            "@id": "event:e2744111541137787831"
+        },
+        {
+            "@id": "event:e1854820583451308371"
+        },
+        {
+            "@id": "event:e1420512472839361782"
+        },
+        {
+            "@id": "event:e6727643222667021925"
+        },
+        {
+            "@id": "event:e7967521705085053116"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e1170977143541541169"
+        },
+        {
+            "@id": "event:e3240974817774768665"
+        },
+        {
+            "@id": "event:e1153068595608852406"
+        },
+        {
+            "@id": "event:e3695731840156745380"
+        },
+        {
+            "@id": "event:e5367930403754660539"
+        },
+        {
+            "@id": "event:e1225277346076485632"
+        },
+        {
+            "@id": "event:e1293657979825422555"
+        },
+        {
+            "@id": "event:e2140013772841295301"
+        },
+        {
+            "@id": "event:e2693789826980784089"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Apajalahti, Jouni (1920-2009)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Apajalahti, Jouni Arto Aarre"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910008",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

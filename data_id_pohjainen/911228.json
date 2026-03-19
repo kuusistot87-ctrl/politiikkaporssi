@@ -1,0 +1,362 @@
+{
+    "@id": "people:p911228",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "everstiluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1407672051062138661"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pentti, Arvo Veikko"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911228.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, everstiluutnantti evp, poliisineuvos"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1139"
+        },
+        {
+            "@id": "occupations:o1744"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p5479316355221122219"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911228"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1851010347120435003"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2882193950509992392"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911228"
+    },
+    "semparl:sortingLabel": "pentti arvo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911228"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Arvo%20Pentti%2029.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911228.aspx"
+        },
+        {
+            "@id": "natbib:786"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Arvo_Pentti"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Arvo_Pentti"
+        },
+        {
+            "@id": "wd:Q11853013"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_235"
+        },
+        {
+            "@id": "finaf:000130070"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4728"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3096856260864278613"
+        },
+        {
+            "@id": "event:e1360186410270258155"
+        },
+        {
+            "@id": "event:e3249378163490493513"
+        },
+        {
+            "@id": "event:e1748005599101606828"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3983494435870660486"
+        },
+        {
+            "@id": "event:e3290009852505857505"
+        },
+        {
+            "@id": "event:e3073305277139144659"
+        },
+        {
+            "@id": "event:e3025042859002645762"
+        },
+        {
+            "@id": "event:e2280846365547157473"
+        },
+        {
+            "@id": "event:e3275834213566680786"
+        },
+        {
+            "@id": "event:e1067061088552296236"
+        },
+        {
+            "@id": "event:e5282995362128408095"
+        },
+        {
+            "@id": "event:e3020373037250044618"
+        },
+        {
+            "@id": "event:e1440066454912144098"
+        },
+        {
+            "@id": "event:e1685276870538219585"
+        },
+        {
+            "@id": "event:e4301895192773811406"
+        },
+        {
+            "@id": "event:e2106975082739840725"
+        },
+        {
+            "@id": "event:e4498801884956508167"
+        },
+        {
+            "@id": "event:e8324775960859434010"
+        },
+        {
+            "@id": "event:e2859946048464987309"
+        },
+        {
+            "@id": "event:e1285723649505812008"
+        },
+        {
+            "@id": "event:e1400891454374665914"
+        },
+        {
+            "@id": "event:e2605997021096229721"
+        },
+        {
+            "@id": "event:e2781144079699648410"
+        },
+        {
+            "@id": "event:e3333132388316912083"
+        },
+        {
+            "@id": "event:e2369795681930822051"
+        },
+        {
+            "@id": "event:e2259300473681443629"
+        },
+        {
+            "@id": "event:e2388395388988134633"
+        },
+        {
+            "@id": "event:e3993353261178979084"
+        },
+        {
+            "@id": "event:e1983113719115152127"
+        },
+        {
+            "@id": "event:e1703554273282694155"
+        },
+        {
+            "@id": "event:e3076373874034996784"
+        },
+        {
+            "@id": "event:e3097501971472422945"
+        },
+        {
+            "@id": "event:e2248891148827918990"
+        },
+        {
+            "@id": "event:e5302912872350861934"
+        },
+        {
+            "@id": "event:e1031223408945605980"
+        },
+        {
+            "@id": "event:e5964501057191937289"
+        },
+        {
+            "@id": "event:e1256950876254423358"
+        },
+        {
+            "@id": "event:e1013628622009261953"
+        },
+        {
+            "@id": "event:e2154552765959166882"
+        },
+        {
+            "@id": "event:e1943851281919348812"
+        },
+        {
+            "@id": "event:e2674343449311394571"
+        },
+        {
+            "@id": "event:e1375215941537904876"
+        },
+        {
+            "@id": "event:e8947091525664737902"
+        },
+        {
+            "@id": "event:e3102095049987529190"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e1357000377708975691"
+        },
+        {
+            "@id": "event:e1233580667868506519"
+        },
+        {
+            "@id": "event:e2996136529235608176"
+        },
+        {
+            "@id": "event:e2221964756772382481"
+        },
+        {
+            "@id": "event:e1664481113923510346"
+        },
+        {
+            "@id": "event:e5568510869080072261"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2869424401532173317"
+        },
+        {
+            "@id": "event:e1034083410826758573"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pentti, Arvo (1915-1986)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pentti, Arvo Veikko"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911228",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

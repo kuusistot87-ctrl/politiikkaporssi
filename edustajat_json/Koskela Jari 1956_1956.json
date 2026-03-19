@@ -1,0 +1,262 @@
+{
+    "@id": "people:p1413",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Kankaanpää"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a5942256037948419350"
+        },
+        {
+            "@id": "affiliations:a4381201166933665576"
+        },
+        {
+            "@id": "affiliations:a3313842546638365736"
+        },
+        {
+            "@id": "affiliations:a3029805265178888176"
+        },
+        {
+            "@id": "affiliations:a2998197414080017382"
+        },
+        {
+            "@id": "affiliations:a2716626002440439913"
+        },
+        {
+            "@id": "affiliations:a2154000209846540317"
+        },
+        {
+            "@id": "affiliations:a1767645264167851157"
+        },
+        {
+            "@id": "affiliations:a1420976312691801335"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1413.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "pastori, yhteiskuntatieteiden tohtori"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o250"
+        },
+        {
+            "@id": "occupations:o26"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3396866021108520817"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3384788122799176848"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1413"
+    },
+    "semparl:sortingLabel": "koskela jari jukka hannu",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1413"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/654363/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jarikoskelahelsinki-2019-11-29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1413.aspx"
+        },
+        {
+            "@id": "yle:18-295614"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jari_Koskela"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jari_Koskela"
+        },
+        {
+            "@id": "wd:Q28779980"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2309926235396505735"
+        },
+        {
+            "@id": "event:e1925643779170823393"
+        },
+        {
+            "@id": "event:e3223341838046108219"
+        },
+        {
+            "@id": "event:e2924715201510576839"
+        },
+        {
+            "@id": "event:e3378921284476715452"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2698102472870133869"
+        },
+        {
+            "@id": "event:e1742938159918882767"
+        },
+        {
+            "@id": "event:e1908979989227548305"
+        },
+        {
+            "@id": "event:e1385721329960745651"
+        },
+        {
+            "@id": "event:e2605001565325952146"
+        },
+        {
+            "@id": "event:e2889171506408361881"
+        },
+        {
+            "@id": "event:e9590896425209125109"
+        },
+        {
+            "@id": "event:e3859505107969211765"
+        },
+        {
+            "@id": "event:e2140194989773253827"
+        },
+        {
+            "@id": "event:e3134277772327421427"
+        },
+        {
+            "@id": "event:e2450915288544025025"
+        },
+        {
+            "@id": "event:e1763073284738716788"
+        },
+        {
+            "@id": "event:e2625255465818237984"
+        },
+        {
+            "@id": "event:e1960465550210568844"
+        },
+        {
+            "@id": "event:e1392952968463831789"
+        },
+        {
+            "@id": "event:e2954119005667033470"
+        },
+        {
+            "@id": "event:e9975379946841169074"
+        },
+        {
+            "@id": "event:e5645856111377180293"
+        },
+        {
+            "@id": "event:e1830197923606476462"
+        },
+        {
+            "@id": "event:e3482779894035912582"
+        },
+        {
+            "@id": "event:e2105618722152440598"
+        },
+        {
+            "@id": "event:e2010242519571722038"
+        },
+        {
+            "@id": "event:e2146442080065119661"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Koskela, Jari (1956-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q634277"
+    },
+    "semparl:id": "1413",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

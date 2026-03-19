@@ -1,0 +1,260 @@
+{
+    "@id": "people:p471",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Koskinen, Elise Marjaana"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:471.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24_2011-04-19_2011-04-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sosiaalityöntekijä"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o332"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1313956950778829840"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2483776302367228232"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l7727044916490284292"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=471"
+    },
+    "semparl:sortingLabel": "koskinen marjaana",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b471"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:471.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Marjaana_Koskinen"
+        },
+        {
+            "@id": "wd:Q16300079"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2676228565265999650"
+        },
+        {
+            "@id": "event:e4255262410113627928"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2930053235042370651"
+        },
+        {
+            "@id": "event:e3785913301586541763"
+        },
+        {
+            "@id": "event:e3821230447445768670"
+        },
+        {
+            "@id": "event:e2171220971473742093"
+        },
+        {
+            "@id": "event:e2009164834648142362"
+        },
+        {
+            "@id": "event:e1877024633196117274"
+        },
+        {
+            "@id": "event:e1202850843943509301"
+        },
+        {
+            "@id": "event:e2243543793822198028"
+        },
+        {
+            "@id": "event:e1490525351889097854"
+        },
+        {
+            "@id": "event:e2477948098471835421"
+        },
+        {
+            "@id": "event:e1658271891273008068"
+        },
+        {
+            "@id": "event:e2797880251049509835"
+        },
+        {
+            "@id": "event:e5664978121216201975"
+        },
+        {
+            "@id": "event:e5043129783006791714"
+        },
+        {
+            "@id": "event:e2623386694946434745"
+        },
+        {
+            "@id": "event:e3741975046407083181"
+        },
+        {
+            "@id": "event:e2907973543457986224"
+        },
+        {
+            "@id": "event:e3280733659403580962"
+        },
+        {
+            "@id": "event:e6397958202230966918"
+        },
+        {
+            "@id": "event:e8063165915082614819"
+        },
+        {
+            "@id": "event:e4987770179643615643"
+        },
+        {
+            "@id": "event:e1773731447624931320"
+        },
+        {
+            "@id": "event:e1526102367003038778"
+        },
+        {
+            "@id": "event:e1091267009181340065"
+        },
+        {
+            "@id": "event:e2836597063695754855"
+        },
+        {
+            "@id": "event:e1043983595676236839"
+        },
+        {
+            "@id": "event:e1651548362681144028"
+        },
+        {
+            "@id": "event:e3630374715379010472"
+        },
+        {
+            "@id": "event:e2372707849243977196"
+        },
+        {
+            "@id": "event:e1094227418797572107"
+        },
+        {
+            "@id": "event:e7623064918068871212"
+        },
+        {
+            "@id": "event:e2145412154448206576"
+        },
+        {
+            "@id": "event:e7327499935000312184"
+        },
+        {
+            "@id": "event:e7611838686229571764"
+        },
+        {
+            "@id": "event:e8180229762911881198"
+        },
+        {
+            "@id": "event:e1219334486373990152"
+        },
+        {
+            "@id": "event:e3688852585735369580"
+        },
+        {
+            "@id": "event:e2525394665129945957"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Koskinen, Marjaana (1962-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Koskinen, Elise Marjaana"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "471",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

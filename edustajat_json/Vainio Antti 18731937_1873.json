@@ -1,0 +1,189 @@
+{
+    "@id": "people:p911680",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vainio(e. Bragge), Anders (Antti)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911680.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1928-02-03_1928-02-03_1929-07-31_1929-07-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1929",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1929-07-31_1929-07-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o216"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1155941833089628337"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911680"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l1999337015544861741"
+        },
+        {
+            "@id": "label:l1754389504790169513"
+        },
+        {
+            "@id": "label:l1393224187766385031"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2560913316162739288"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911680"
+    },
+    "semparl:sortingLabel": "vainio antti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911680"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911680.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Antti_Vainio"
+        },
+        {
+            "@id": "wd:Q5483701"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2772328915091227788"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1473871560266871979"
+        },
+        {
+            "@id": "event:e6738126633932957602"
+        },
+        {
+            "@id": "event:e2947479022398970472"
+        },
+        {
+            "@id": "event:e1364549811441685443"
+        },
+        {
+            "@id": "event:e3341858797572486580"
+        },
+        {
+            "@id": "event:e2996799031501913687"
+        },
+        {
+            "@id": "event:e1385545236858537023"
+        },
+        {
+            "@id": "event:e2421105691002735014"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vainio, Antti (1873-1937)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Bragge, Anders"
+        },
+        {
+            "@language": "fi",
+            "@value": "Vainio, Anders"
+        },
+        {
+            "@language": "fi",
+            "@value": "Bragge, Antti"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911680",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

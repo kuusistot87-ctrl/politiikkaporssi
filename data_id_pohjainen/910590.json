@@ -1,0 +1,202 @@
+{
+    "@id": "people:p910590",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Jacobsson, Otto Jonas"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910590.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1924-05-01_1924-05-01_1934-12-31_1934-12-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, pormestari"
+    },
+    "semparl:end_of_representative_period_text": "31.12.1934",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1934-12-31_1934-12-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1190"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8354527857936287614"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910590"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2941727864116843290"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1800266917846683319"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910590"
+    },
+    "semparl:sortingLabel": "jacobsson otto",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910590"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910590.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Otto_Jacobsson"
+        },
+        {
+            "@id": "wd:Q17381127"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2741174963395868307"
+        },
+        {
+            "@id": "event:e1884486208346516668"
+        },
+        {
+            "@id": "event:e5863093162389301891"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2660627557203057963"
+        },
+        {
+            "@id": "event:e1607864601324206272"
+        },
+        {
+            "@id": "event:e9691109870860194532"
+        },
+        {
+            "@id": "event:e2457830160060017590"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1015225089169529242"
+        },
+        {
+            "@id": "event:e3705064944473518193"
+        },
+        {
+            "@id": "event:e2890611454325662177"
+        },
+        {
+            "@id": "event:e3207233960445285549"
+        },
+        {
+            "@id": "event:e1599754838034281963"
+        },
+        {
+            "@id": "event:e2343385609325866929"
+        },
+        {
+            "@id": "event:e1410354367453358019"
+        },
+        {
+            "@id": "event:e1306810079365666870"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Jacobsson, Otto (1886-1937)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Jacobsson, Otto Jonas"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910590",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

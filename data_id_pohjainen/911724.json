@@ -1,0 +1,282 @@
+{
+    "@id": "people:p911724",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p8836503607552657554"
+    },
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b2697787007115664286"
+        },
+        {
+            "@id": "publications:b2585829519630346776"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vesterinen, Vihtori"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911724.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1919-04-01_1919-04-01_1951-07-20_1951-07-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, ministeri"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8588314694637809994"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911724"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1306268017347745979"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911724"
+    },
+    "semparl:sortingLabel": "vesterinen vihtori",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911724"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vihtori%20Vesterinen.png"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911724.aspx"
+        },
+        {
+            "@id": "viaf:43801458"
+        },
+        {
+            "@id": "natbib:999"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Vihtori_Vesterinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Vihtori_Vesterinen"
+        },
+        {
+            "@id": "wd:Q11901290"
+        },
+        {
+            "@id": "finaf:000062451"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5995"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2050654705335633674"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5825783172052264945"
+        },
+        {
+            "@id": "event:e3370123472392073773"
+        },
+        {
+            "@id": "event:e3111396188652282559"
+        },
+        {
+            "@id": "event:e3072947371017108428"
+        },
+        {
+            "@id": "event:e2968506259995867969"
+        },
+        {
+            "@id": "event:e2421121669917524260"
+        },
+        {
+            "@id": "event:e1861852887204668712"
+        },
+        {
+            "@id": "event:e1671756588022130899"
+        },
+        {
+            "@id": "event:e1630381801501327149"
+        },
+        {
+            "@id": "event:e1319608315046281950"
+        },
+        {
+            "@id": "event:e1068075333718535485"
+        },
+        {
+            "@id": "event:e1831942864574773452"
+        },
+        {
+            "@id": "event:e1533319478839116236"
+        },
+        {
+            "@id": "event:e1905592890819853168"
+        },
+        {
+            "@id": "event:e2710656276392016591"
+        },
+        {
+            "@id": "event:e6763919664567365434"
+        },
+        {
+            "@id": "event:e7454677854667390181"
+        },
+        {
+            "@id": "event:e1498498164136557587"
+        },
+        {
+            "@id": "event:e1494347394871320651"
+        },
+        {
+            "@id": "event:e1166659675152613662"
+        },
+        {
+            "@id": "event:e3002121868734826459"
+        },
+        {
+            "@id": "event:e2211890252791211342"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e3178360420042318825"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vesterinen, Vihtori (1885-1958)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911724",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

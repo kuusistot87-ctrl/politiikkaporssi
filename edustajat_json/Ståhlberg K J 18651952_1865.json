@@ -1,0 +1,389 @@
+{
+    "@id": "people:p911547",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2173972594021557385"
+    },
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b5574248609220908410"
+        },
+        {
+            "@id": "publications:b3047051851003764759"
+        }
+    ],
+    "semparl:authored": {
+        "@id": "publications:b2917426787998085584"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ståhlberg, Carl Johan (Kaarlo Juho, K.J.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911547.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1918-08-10_1918-08-10"
+        },
+        {
+            "@id": "times:t_1908-08-01_1908-08-01_1910-02-28_1910-02-28"
+        },
+        {
+            "@id": "times:t_1930-10-21_1930-10-21_1933-08-31_1933-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "senaattori, professori, Tasavallan Presidentti"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1933",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1933-08-31_1933-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o78"
+        },
+        {
+            "@id": "occupations:o1215"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p1833009985402627934"
+        },
+        {
+            "@id": "event:p1018518471052175817"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911547"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2727120609799758163"
+        },
+        {
+            "@id": "label:l1571194643613456725"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2514218297198848882"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911547"
+    },
+    "semparl:sortingLabel": "ståhlberg k. j.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911547"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911547.aspx"
+        },
+        {
+            "@id": "yle:18-190275"
+        },
+        {
+            "@id": "viaf:15835304"
+        },
+        {
+            "@id": "natbib:626"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/K._J._St%C3%A5hlberg"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kaarlo_Juho_St%C3%A5hlberg"
+        },
+        {
+            "@id": "wd:Q214029"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2712"
+        },
+        {
+            "@id": "finaf:000076971"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p329"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2630676682276780778"
+        },
+        {
+            "@id": "event:e6940188766008499145"
+        },
+        {
+            "@id": "event:e9364367685735123237"
+        },
+        {
+            "@id": "event:e2088035820645695458"
+        },
+        {
+            "@id": "event:e5748930670271662785"
+        },
+        {
+            "@id": "event:e1011108781597454456"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3258444794678536452"
+        },
+        {
+            "@id": "event:e2850131054404147112"
+        },
+        {
+            "@id": "event:e2673182142630535112"
+        },
+        {
+            "@id": "event:e2496328964882461549"
+        },
+        {
+            "@id": "event:e2913361944202039296"
+        },
+        {
+            "@id": "event:e2266087643507359734"
+        },
+        {
+            "@id": "event:e2403797273050098761"
+        },
+        {
+            "@id": "event:e1407156660624079890"
+        },
+        {
+            "@id": "event:e2497910933911206596"
+        },
+        {
+            "@id": "event:e2413597676834804462"
+        },
+        {
+            "@id": "event:e7320200236121221383"
+        },
+        {
+            "@id": "event:e1480404575481596261"
+        },
+        {
+            "@id": "event:e1166641242392270876"
+        },
+        {
+            "@id": "event:e1126772773036461818"
+        },
+        {
+            "@id": "event:e5529288818420340489"
+        },
+        {
+            "@id": "event:e1115185655282038314"
+        },
+        {
+            "@id": "event:e1638678794706092662"
+        },
+        {
+            "@id": "event:e4533028546097676056"
+        },
+        {
+            "@id": "event:e2850195714661523142"
+        },
+        {
+            "@id": "event:e1003448500248326108"
+        },
+        {
+            "@id": "event:e2049672881972337959"
+        },
+        {
+            "@id": "event:e1651177336496051215"
+        },
+        {
+            "@id": "event:e1449863353387931998"
+        },
+        {
+            "@id": "event:e3871598033359680135"
+        },
+        {
+            "@id": "event:e3218229947834181829"
+        },
+        {
+            "@id": "event:e1672059417213914887"
+        },
+        {
+            "@id": "event:e1357057536755671785"
+        },
+        {
+            "@id": "event:e2510757864703887926"
+        },
+        {
+            "@id": "event:e1934015152115687469"
+        },
+        {
+            "@id": "event:e2100741512916478848"
+        },
+        {
+            "@id": "event:e2688507120028512179"
+        },
+        {
+            "@id": "event:e1495099074104690301"
+        },
+        {
+            "@id": "event:e2562101378415906943"
+        },
+        {
+            "@id": "event:e2577197310854804499"
+        },
+        {
+            "@id": "event:e7907221386083364390"
+        },
+        {
+            "@id": "event:e7587578103164315396"
+        },
+        {
+            "@id": "event:e1987038856031768569"
+        },
+        {
+            "@id": "event:e1096952535276878623"
+        },
+        {
+            "@id": "event:e2460941732250796611"
+        },
+        {
+            "@id": "event:e2655333885444678419"
+        },
+        {
+            "@id": "event:e9260807748685421363"
+        },
+        {
+            "@id": "event:e2710501238484108281"
+        },
+        {
+            "@id": "event:e1012998826145990967"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e7898449851964358032"
+        },
+        {
+            "@id": "event:e1589234674144052840"
+        },
+        {
+            "@id": "event:e3351115028957907490"
+        },
+        {
+            "@id": "event:e1240903226380382610"
+        },
+        {
+            "@id": "event:e8421300909194710827"
+        },
+        {
+            "@id": "event:e9150620245092451094"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ståhlberg, K. J. (1865-1952)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Ståhlberg, Carl Johan"
+        },
+        {
+            "@language": "fi",
+            "@value": "Ståhlberg, Kaarlo Juho"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1713433"
+        },
+        {
+            "@id": "groups:Q1191102"
+        }
+    ],
+    "semparl:id": "911547",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

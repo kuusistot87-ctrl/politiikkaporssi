@@ -1,0 +1,251 @@
+{
+    "@id": "people:p1392",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Kirkkonummi"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9686533817683584719"
+        },
+        {
+            "@id": "affiliations:a8696545926827032312"
+        },
+        {
+            "@id": "affiliations:a7367384492560345276"
+        },
+        {
+            "@id": "affiliations:a7275140875728000806"
+        },
+        {
+            "@id": "affiliations:a6517305878380151650"
+        },
+        {
+            "@id": "affiliations:a6227665590485780698"
+        },
+        {
+            "@id": "affiliations:a3280550326269141223"
+        },
+        {
+            "@id": "affiliations:a2734655906699106385"
+        },
+        {
+            "@id": "affiliations:a2703145493452495860"
+        },
+        {
+            "@id": "affiliations:a2506821361744172160"
+        },
+        {
+            "@id": "affiliations:a2459183475805756510"
+        },
+        {
+            "@id": "affiliations:a1770733286135686084"
+        },
+        {
+            "@id": "affiliations:a1641965382593203998"
+        },
+        {
+            "@id": "affiliations:a1459313737696484676"
+        },
+        {
+            "@id": "affiliations:a1371975816818504861"
+        },
+        {
+            "@id": "affiliations:a1167083920130021216"
+        },
+        {
+            "@id": "affiliations:a1056521230360195460"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1392.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteiden maisteri, poliittinen suunnittelija"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o935"
+        },
+        {
+            "@id": "occupations:o44"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1733137397271244940"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2814668352894660822"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1392"
+    },
+    "semparl:sortingLabel": "purra riikka katriina",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1392"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/649631/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Riikka-Purra-01%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1392.aspx"
+        },
+        {
+            "@id": "yle:18-290377"
+        },
+        {
+            "@id": "twitter:ir_rkp"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Riikka_Purra"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Riikka_Purra"
+        },
+        {
+            "@id": "wd:Q29892910"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e9799380933424460082"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2916969570012827378"
+        },
+        {
+            "@id": "event:e2913646399601887157"
+        },
+        {
+            "@id": "event:e1398711364511116928"
+        },
+        {
+            "@id": "event:e3226495330354013218"
+        },
+        {
+            "@id": "event:e1194410845516572231"
+        },
+        {
+            "@id": "event:e1829517480621476232"
+        },
+        {
+            "@id": "event:e6654852982945477355"
+        },
+        {
+            "@id": "event:e3398514734576291935"
+        },
+        {
+            "@id": "event:e2115311041634406319"
+        },
+        {
+            "@id": "event:e2031264054717570482"
+        },
+        {
+            "@id": "event:e2324352739493282871"
+        },
+        {
+            "@id": "event:e2702332866971179973"
+        },
+        {
+            "@id": "event:e2473041759145997798"
+        },
+        {
+            "@id": "event:e3377430491587777360"
+        },
+        {
+            "@id": "event:e1742938159918882767"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Purra, Riikka (1977-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q634277"
+    },
+    "semparl:id": "1392",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

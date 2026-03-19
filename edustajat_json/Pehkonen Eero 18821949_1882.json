@@ -1,0 +1,308 @@
+{
+    "@id": "people:p911215",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pehkonen, Eero Yrjö (E.Y.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911215.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1918-10-10_1918-10-10"
+        },
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1917-04-03_1917-04-03"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, maaherra, valtioneuvos"
+    },
+    "semparl:end_of_representative_period_text": "10.10.1918",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1918-10-10_1918-10-10"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o289"
+        },
+        {
+            "@id": "occupations:o57"
+        },
+        {
+            "@id": "occupations:o152"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2653933957154110743"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911215"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5429102050448961285"
+        },
+        {
+            "@id": "label:l3021348811700823139"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l9929517805694001170"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911215"
+    },
+    "semparl:sortingLabel": "pehkonen eero",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911215"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Maaherra%20E.Y.Pehkonen%20pit%C3%A4m%C3%A4ss%C3%A4%20puhetta%20Oulu%201943.09.10.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911215.aspx"
+        },
+        {
+            "@id": "natbib:945"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/E._Y._Pehkonen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Eero_Yrj%C3%B6_Pehkonen"
+        },
+        {
+            "@id": "wd:Q4348339"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_4280"
+        },
+        {
+            "@id": "finaf:000083664"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2730"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3376859746278681041"
+        },
+        {
+            "@id": "event:e6494417922393671210"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7019374578924897572"
+        },
+        {
+            "@id": "event:e2739495488220713769"
+        },
+        {
+            "@id": "event:e2609113934518890684"
+        },
+        {
+            "@id": "event:e2545113555376142350"
+        },
+        {
+            "@id": "event:e1868832102090390728"
+        },
+        {
+            "@id": "event:e1828449688944885318"
+        },
+        {
+            "@id": "event:e2592957088805279461"
+        },
+        {
+            "@id": "event:e2285794116852743075"
+        },
+        {
+            "@id": "event:e2738064921502785457"
+        },
+        {
+            "@id": "event:e6002094146490340772"
+        },
+        {
+            "@id": "event:e3040269504561038531"
+        },
+        {
+            "@id": "event:e1374043923196700565"
+        },
+        {
+            "@id": "event:e8339718922923832359"
+        },
+        {
+            "@id": "event:e3162272136316998861"
+        },
+        {
+            "@id": "event:e3284033892016911983"
+        },
+        {
+            "@id": "event:e1791374421494347076"
+        },
+        {
+            "@id": "event:e2607003148681689195"
+        },
+        {
+            "@id": "event:e2123278399965804303"
+        },
+        {
+            "@id": "event:e1823423106640909777"
+        },
+        {
+            "@id": "event:e6045684128022567730"
+        },
+        {
+            "@id": "event:e1041863603105842103"
+        },
+        {
+            "@id": "event:e1973058952075386420"
+        },
+        {
+            "@id": "event:e2555566626809331144"
+        },
+        {
+            "@id": "event:e3014458741040083669"
+        },
+        {
+            "@id": "event:e2234029332215808401"
+        },
+        {
+            "@id": "event:e4179110704013067470"
+        },
+        {
+            "@id": "event:e2669801582814619983"
+        },
+        {
+            "@id": "event:e5035549583253471626"
+        },
+        {
+            "@id": "event:e3190237600649562124"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2270014656062742190"
+        },
+        {
+            "@id": "event:e1841586353230068347"
+        },
+        {
+            "@id": "event:e2287526058437964946"
+        },
+        {
+            "@id": "event:e1832996487815119780"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        },
+        {
+            "@id": "event:e3320704728029062202"
+        },
+        {
+            "@id": "event:e1520048442124171444"
+        },
+        {
+            "@id": "event:e3208661995913232035"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pehkonen, Eero (1882-1949)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Pehkonen, E.Y."
+        },
+        {
+            "@language": "fi",
+            "@value": "Pehkonen, Eero Yrjö"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911215",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

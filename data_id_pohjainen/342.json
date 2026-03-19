@@ -1,0 +1,347 @@
+{
+    "@id": "people:p342",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p1117942186818683583"
+    },
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Gestrin, Lars Olof Kristian"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:342.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1962-02-20_1962-02-20_1979-03-23_1979-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, pankinjohtaja, ministeri"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1979",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1979-03-23_1979-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1"
+        },
+        {
+            "@id": "occupations:o120"
+        },
+        {
+            "@id": "occupations:o214"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2452488555205303480"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d342"
+    },
+    "xl:altLabel": {
+        "@id": "label:l5410864826897523480"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l7840973560582300677"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=342"
+    },
+    "semparl:sortingLabel": "gestrin kristian",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b342"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristian-Gestrin-1971.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:342.aspx"
+        },
+        {
+            "@id": "viaf:8225066"
+        },
+        {
+            "@id": "natbib:2204"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kristian_Gestrin"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kristian_Gestrin"
+        },
+        {
+            "@id": "wd:Q3864624"
+        },
+        {
+            "@id": "finaf:000104521"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3597"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e7729782060180187882"
+        },
+        {
+            "@id": "event:e2175960010055299600"
+        },
+        {
+            "@id": "event:e2905141226688118769"
+        },
+        {
+            "@id": "event:e2928068004725797775"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7569574993865968760"
+        },
+        {
+            "@id": "event:e7528382730825651547"
+        },
+        {
+            "@id": "event:e3061116597314385083"
+        },
+        {
+            "@id": "event:e2815129839161699691"
+        },
+        {
+            "@id": "event:e2553520816804303182"
+        },
+        {
+            "@id": "event:e2547813760037510823"
+        },
+        {
+            "@id": "event:e2334802074745254144"
+        },
+        {
+            "@id": "event:e2252668781459634928"
+        },
+        {
+            "@id": "event:e1547081190287333396"
+        },
+        {
+            "@id": "event:e2848858569447212946"
+        },
+        {
+            "@id": "event:e2125354611891280267"
+        },
+        {
+            "@id": "event:e1673764352688757569"
+        },
+        {
+            "@id": "event:e6020560593308718585"
+        },
+        {
+            "@id": "event:e1831036105131776201"
+        },
+        {
+            "@id": "event:e1838081403114389177"
+        },
+        {
+            "@id": "event:e2590973430159282615"
+        },
+        {
+            "@id": "event:e2612954988648587108"
+        },
+        {
+            "@id": "event:e2079573375122358227"
+        },
+        {
+            "@id": "event:e2502682120395628872"
+        },
+        {
+            "@id": "event:e1021966103475500407"
+        },
+        {
+            "@id": "event:e2189701198934195631"
+        },
+        {
+            "@id": "event:e4362671828572511749"
+        },
+        {
+            "@id": "event:e3300831148673802694"
+        },
+        {
+            "@id": "event:e3142952482104060685"
+        },
+        {
+            "@id": "event:e6782561678845789677"
+        },
+        {
+            "@id": "event:e1983114009294579913"
+        },
+        {
+            "@id": "event:e2115162078716841315"
+        },
+        {
+            "@id": "event:e1920061652805447286"
+        },
+        {
+            "@id": "event:e3021435982928925226"
+        },
+        {
+            "@id": "event:e1591353455056237581"
+        },
+        {
+            "@id": "event:e1661550910214947350"
+        },
+        {
+            "@id": "event:e8781976631029181431"
+        },
+        {
+            "@id": "event:e1208695974608424287"
+        },
+        {
+            "@id": "event:e2169355526342187324"
+        },
+        {
+            "@id": "event:e3338862907517594316"
+        },
+        {
+            "@id": "event:e3185956913331610077"
+        },
+        {
+            "@id": "event:e3148397689277595136"
+        },
+        {
+            "@id": "event:e4063850631987154946"
+        },
+        {
+            "@id": "event:e6198097824970497008"
+        },
+        {
+            "@id": "event:e2703139014170111418"
+        },
+        {
+            "@id": "event:e2770143039156695714"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1345935171427550565"
+        },
+        {
+            "@id": "event:e1422887243572312013"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Gestrin, Kristian (1929-1990)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Gestrin, Lars Olof Kristian"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "342",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

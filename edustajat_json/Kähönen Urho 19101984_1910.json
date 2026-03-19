@@ -1,0 +1,323 @@
+{
+    "@id": "people:p910850",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kähönen, Urho"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910850.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1951-07-21_1951-07-21_1966-04-04_1966-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, pääjohtaja, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o152"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1071638913211557638"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910850"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2512910942570980943"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910850"
+    },
+    "semparl:sortingLabel": "kähönen urho",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910850"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Urho%20K%C3%A4h%C3%B6nen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910850.aspx"
+        },
+        {
+            "@id": "viaf:21230559"
+        },
+        {
+            "@id": "natbib:888"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Urho_K%C3%A4h%C3%B6nen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Urho_K%C3%A4h%C3%B6nen"
+        },
+        {
+            "@id": "wd:Q11899647"
+        },
+        {
+            "@id": "finaf:000049323"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4230"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2202773645646787298"
+        },
+        {
+            "@id": "event:e1765547327352054443"
+        },
+        {
+            "@id": "event:e2196410841532318745"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3258591317699203701"
+        },
+        {
+            "@id": "event:e1260664292619625971"
+        },
+        {
+            "@id": "event:e1424838918566555464"
+        },
+        {
+            "@id": "event:e1169681053040584472"
+        },
+        {
+            "@id": "event:e2280894013029085342"
+        },
+        {
+            "@id": "event:e8330473335305438752"
+        },
+        {
+            "@id": "event:e1935616424534335271"
+        },
+        {
+            "@id": "event:e2048431236301422573"
+        },
+        {
+            "@id": "event:e3235772029804984882"
+        },
+        {
+            "@id": "event:e8058949791194339963"
+        },
+        {
+            "@id": "event:e2404504717899749377"
+        },
+        {
+            "@id": "event:e2292769331815154560"
+        },
+        {
+            "@id": "event:e2464787509343206899"
+        },
+        {
+            "@id": "event:e6311425591118428028"
+        },
+        {
+            "@id": "event:e1368522929475950741"
+        },
+        {
+            "@id": "event:e5907687937363465614"
+        },
+        {
+            "@id": "event:e1233092613306068164"
+        },
+        {
+            "@id": "event:e8305049021849505349"
+        },
+        {
+            "@id": "event:e1741706723390214278"
+        },
+        {
+            "@id": "event:e3243435940915079832"
+        },
+        {
+            "@id": "event:e2497964517883853749"
+        },
+        {
+            "@id": "event:e1749319300601073466"
+        },
+        {
+            "@id": "event:e2414409869142419205"
+        },
+        {
+            "@id": "event:e4817440260038889850"
+        },
+        {
+            "@id": "event:e3202046784257654951"
+        },
+        {
+            "@id": "event:e1190535020728692594"
+        },
+        {
+            "@id": "event:e2521472002727366526"
+        },
+        {
+            "@id": "event:e6223202982266778592"
+        },
+        {
+            "@id": "event:e1014735433297169554"
+        },
+        {
+            "@id": "event:e2246002475853506347"
+        },
+        {
+            "@id": "event:e9469777624591439969"
+        },
+        {
+            "@id": "event:e1677424062063274120"
+        },
+        {
+            "@id": "event:e2569723927725771542"
+        },
+        {
+            "@id": "event:e2173207086519009192"
+        },
+        {
+            "@id": "event:e2271953985800985218"
+        },
+        {
+            "@id": "event:e2577322772352364292"
+        },
+        {
+            "@id": "event:e1710118282437689982"
+        },
+        {
+            "@id": "event:e3130931853647026035"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2237708527243041867"
+        },
+        {
+            "@id": "event:e1667044086152201552"
+        },
+        {
+            "@id": "event:e3114596404624759245"
+        },
+        {
+            "@id": "event:e1654926211581677789"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e2868165170431916115"
+        },
+        {
+            "@id": "event:e2249735191335610016"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kähönen, Urho (1910-1984)"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q506591"
+        },
+        {
+            "@id": "groups:Q1854411"
+        }
+    ],
+    "semparl:id": "910850",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

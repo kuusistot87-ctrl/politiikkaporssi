@@ -1,0 +1,234 @@
+{
+    "@id": "people:p911114",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Mäkinen, Väinö Oskari (V.O.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911114.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1966-04-05_1966-04-05_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri, kaupunginjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o99"
+        },
+        {
+            "@id": "occupations:o206"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2615004216244616304"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911114"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l6367058457361573540"
+        },
+        {
+            "@id": "label:l2031712220053901496"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2975163210061080530"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911114"
+    },
+    "semparl:sortingLabel": "mäkinen väinö",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911114"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911114.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/V%C3%A4in%C3%B6_M%C3%A4kinen"
+        },
+        {
+            "@id": "wd:Q56399152"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4395441040943008934"
+        },
+        {
+            "@id": "event:e3155901273840674133"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3396109950915189619"
+        },
+        {
+            "@id": "event:e2119770613176101816"
+        },
+        {
+            "@id": "event:e7105494585328688540"
+        },
+        {
+            "@id": "event:e3304002024122596863"
+        },
+        {
+            "@id": "event:e1501973053345762103"
+        },
+        {
+            "@id": "event:e2178316755046754963"
+        },
+        {
+            "@id": "event:e5627043919781330372"
+        },
+        {
+            "@id": "event:e2523023729468737206"
+        },
+        {
+            "@id": "event:e6477408097742107405"
+        },
+        {
+            "@id": "event:e1156452956304332524"
+        },
+        {
+            "@id": "event:e1432143607389309684"
+        },
+        {
+            "@id": "event:e2731879178900792351"
+        },
+        {
+            "@id": "event:e1371482711413370909"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e1701160081270017334"
+        },
+        {
+            "@id": "event:e2100366745464693806"
+        },
+        {
+            "@id": "event:e1772917377743683000"
+        },
+        {
+            "@id": "event:e2395035190026087917"
+        },
+        {
+            "@id": "event:e1335434890854609065"
+        },
+        {
+            "@id": "event:e1420884180051251613"
+        },
+        {
+            "@id": "event:e2247620285238007121"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Mäkinen, Väinö (1915-1983)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Mäkinen, V.O."
+        },
+        {
+            "@language": "fi",
+            "@value": "Mäkinen, Väinö Oskari"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911114",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,295 @@
+{
+    "@id": "people:p911141",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Nissinen, David (Tatu)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911141.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1920-10-15_1920-10-15_1922-09-04_1922-09-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, toiminnanjohtaja, maanviljelysneuvos"
+    },
+    "semparl:end_of_representative_period_text": "04.09.1922",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1922-09-04_1922-09-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o272"
+        },
+        {
+            "@id": "occupations:o59"
+        },
+        {
+            "@id": "occupations:o152"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2512016023954183858"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911141"
+    },
+    "xl:altLabel": {
+        "@id": "label:l6910649495971935126"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1447881852452234907"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911141"
+    },
+    "semparl:sortingLabel": "nissinen tatu",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911141"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tatu%20Nissinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911141.aspx"
+        },
+        {
+            "@id": "natbib:4744"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tatu_Nissinen"
+        },
+        {
+            "@id": "wd:Q17382608"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2255"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4795"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4356831552423730629"
+        },
+        {
+            "@id": "event:e2204470581413076571"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2185334450567625911"
+        },
+        {
+            "@id": "event:e1647498667910848993"
+        },
+        {
+            "@id": "event:e2756730132477273208"
+        },
+        {
+            "@id": "event:e2759162463593777159"
+        },
+        {
+            "@id": "event:e3043266880172957156"
+        },
+        {
+            "@id": "event:e2625883505779742044"
+        },
+        {
+            "@id": "event:e2997672621532405256"
+        },
+        {
+            "@id": "event:e3386629117503333732"
+        },
+        {
+            "@id": "event:e3214262569771969089"
+        },
+        {
+            "@id": "event:e2008368602456241644"
+        },
+        {
+            "@id": "event:e1758873159908598000"
+        },
+        {
+            "@id": "event:e2648643332016168403"
+        },
+        {
+            "@id": "event:e7915018337038085451"
+        },
+        {
+            "@id": "event:e1505225043561017356"
+        },
+        {
+            "@id": "event:e3333936614856177983"
+        },
+        {
+            "@id": "event:e2325562201782610212"
+        },
+        {
+            "@id": "event:e1900631931157667016"
+        },
+        {
+            "@id": "event:e1669603780366389543"
+        },
+        {
+            "@id": "event:e9361399877619891793"
+        },
+        {
+            "@id": "event:e1118497117893219390"
+        },
+        {
+            "@id": "event:e1275968456532841757"
+        },
+        {
+            "@id": "event:e4609618667485099938"
+        },
+        {
+            "@id": "event:e3139193749851010294"
+        },
+        {
+            "@id": "event:e1428400918416682013"
+        },
+        {
+            "@id": "event:e1129981461505447504"
+        },
+        {
+            "@id": "event:e1984699651439668014"
+        },
+        {
+            "@id": "event:e2879210383959884887"
+        },
+        {
+            "@id": "event:e1012998826145990967"
+        },
+        {
+            "@id": "event:e1071315530610975116"
+        },
+        {
+            "@id": "event:e3895394764558953363"
+        },
+        {
+            "@id": "event:e1213383265979200780"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e1550385697492735474"
+        },
+        {
+            "@id": "event:e1939142419992384851"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e2237708527243041867"
+        },
+        {
+            "@id": "event:e1156621852944863876"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e1370709619397739485"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Nissinen, Tatu (1883-1966)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Nissinen, David"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "911141",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

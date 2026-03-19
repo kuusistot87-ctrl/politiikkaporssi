@@ -1,0 +1,212 @@
+{
+    "@id": "people:p910268",
+    "semparl:extra_info": "Asetettu syytteeseen valtiopetoksesta, edustajantoimi katsottu lakanneeksi 16.5.1918 (1917 II vp).",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Annala, Valentin"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910268.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1924-05-01_1924-05-01_1926-10-19_1926-10-19"
+        },
+        {
+            "@id": "times:t_1909-06-01_1909-06-01_1918-05-16_1918-05-16"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "ratavartija"
+    },
+    "semparl:end_of_representative_period_text": "19.10.1926",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1926-10-19_1926-10-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1244"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2176139298205884400"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910268"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6229538728081481133"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910268"
+    },
+    "semparl:sortingLabel": "annala valentin",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910268"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910268.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Valentin_Annala"
+        },
+        {
+            "@id": "wd:Q11900092"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2204913239095506842"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6006133047362700795"
+        },
+        {
+            "@id": "event:e3286988081412205961"
+        },
+        {
+            "@id": "event:e1249525751532363475"
+        },
+        {
+            "@id": "event:e7985166577567627639"
+        },
+        {
+            "@id": "event:e1870994267941677547"
+        },
+        {
+            "@id": "event:e1708854050360204546"
+        },
+        {
+            "@id": "event:e1746714310641593812"
+        },
+        {
+            "@id": "event:e2690996119133467175"
+        },
+        {
+            "@id": "event:e1924990590914850520"
+        },
+        {
+            "@id": "event:e8693437589024754668"
+        },
+        {
+            "@id": "event:e2672272585231353519"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2363331272135787139"
+        },
+        {
+            "@id": "event:e4802900424072039146"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e1588694704653344227"
+        },
+        {
+            "@id": "event:e7626127639604996552"
+        },
+        {
+            "@id": "event:e3061057294112825711"
+        },
+        {
+            "@id": "event:e7687152417327742414"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Annala, Valentin (1859-1926)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910268",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,304 @@
+{
+    "@id": "people:p910485",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hirvensalo(v:een 1903 Lagus), Johan Gabriel (Kapri, J.G.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910485.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1917-10-31_1917-10-31"
+        },
+        {
+            "@id": "times:t_1922-09-05_1922-09-05_1924-04-30_1924-04-30"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, osastopäällikkö, maanviljelysneuvos"
+    },
+    "semparl:end_of_representative_period_text": "30.04.1924",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1924-04-30_1924-04-30"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o272"
+        },
+        {
+            "@id": "occupations:o153"
+        },
+        {
+            "@id": "occupations:o152"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p6972850447455464624"
+        },
+        {
+            "@id": "event:p1325665106569765327"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910485"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3205912674937792805"
+        },
+        {
+            "@id": "label:l2893470657216847241"
+        },
+        {
+            "@id": "label:l2343519040372542265"
+        },
+        {
+            "@id": "label:l2330151983393939326"
+        },
+        {
+            "@id": "label:l1587635119079164403"
+        },
+        {
+            "@id": "label:l1050379838591482502"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l7626279239981010904"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910485"
+    },
+    "semparl:sortingLabel": "hirvensalo gabriel",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910485"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910485.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Gabriel_Hirvensalo"
+        },
+        {
+            "@id": "wd:Q18164988"
+        },
+        {
+            "@id": "finaf:000087055"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p10341"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3295380345608993617"
+        },
+        {
+            "@id": "event:e2127873185853119499"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3131506829232523006"
+        },
+        {
+            "@id": "event:e2179356079887043122"
+        },
+        {
+            "@id": "event:e1379196483442203388"
+        },
+        {
+            "@id": "event:e2258292041785772414"
+        },
+        {
+            "@id": "event:e3339323933721785308"
+        },
+        {
+            "@id": "event:e2565831507769144999"
+        },
+        {
+            "@id": "event:e6437570546185020687"
+        },
+        {
+            "@id": "event:e2774119274110814499"
+        },
+        {
+            "@id": "event:e1417044186264802654"
+        },
+        {
+            "@id": "event:e2588014971674673508"
+        },
+        {
+            "@id": "event:e1920968562456120597"
+        },
+        {
+            "@id": "event:e1977623545754826935"
+        },
+        {
+            "@id": "event:e1754120809527727539"
+        },
+        {
+            "@id": "event:e1449861475414025600"
+        },
+        {
+            "@id": "event:e1824406985479799034"
+        },
+        {
+            "@id": "event:e2291181606836650236"
+        },
+        {
+            "@id": "event:e8947196173208227701"
+        },
+        {
+            "@id": "event:e2096046487015215156"
+        },
+        {
+            "@id": "event:e1146425924025509109"
+        },
+        {
+            "@id": "event:e1883426524752919674"
+        },
+        {
+            "@id": "event:e8317295966573879948"
+        },
+        {
+            "@id": "event:e4179110704013067470"
+        },
+        {
+            "@id": "event:e1494711732761450279"
+        },
+        {
+            "@id": "event:e3264753351799420927"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e1386976870389227611"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hirvensalo, Gabriel (1880-1941)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Hirvensalo, Johan Gabriel"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lagus, J.G."
+        },
+        {
+            "@language": "fi",
+            "@value": "Lagus, Johan Gabriel"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lagus, Kapri"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hirvensalo, J.G."
+        },
+        {
+            "@language": "fi",
+            "@value": "Hirvensalo, Kapri"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1713433"
+        },
+        {
+            "@id": "groups:Q1191102"
+        }
+    ],
+    "semparl:id": "910485",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

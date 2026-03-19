@@ -1,0 +1,299 @@
+{
+    "@id": "people:p963",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Suomussalmi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:963.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2007-03-21_2007-03-21_2015-04-21_2015-04-21"
+        },
+        {
+            "@id": "times:t_2019-04-17_2019-04-17__"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "bioanalyytikko YAMK, Master of Healthcare and Management"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1471460552543123715"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1898400827823667538"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=963"
+    },
+    "semparl:sortingLabel": "kyllönen merja sinikka",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b963"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/635696/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/MerjaKyll%C3%B6nenPresidentiksi2%20cropped.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:963.aspx"
+        },
+        {
+            "@id": "yle:18-159697"
+        },
+        {
+            "@id": "twitter:KyllonenMerja"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Merja_Kyll%C3%B6nen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Merja_Kyll%C3%B6nen"
+        },
+        {
+            "@id": "wd:Q460676"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1522585357382602450"
+        },
+        {
+            "@id": "event:e2589316073766993439"
+        },
+        {
+            "@id": "event:e2636590401712531994"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9092426368824899133"
+        },
+        {
+            "@id": "event:e3639275809182915420"
+        },
+        {
+            "@id": "event:e3148723479846057075"
+        },
+        {
+            "@id": "event:e3081573270471956333"
+        },
+        {
+            "@id": "event:e3038431120298852744"
+        },
+        {
+            "@id": "event:e2949461668847296647"
+        },
+        {
+            "@id": "event:e2638416487124968590"
+        },
+        {
+            "@id": "event:e2461216560783905538"
+        },
+        {
+            "@id": "event:e1415166873942620461"
+        },
+        {
+            "@id": "event:e1331037418398649058"
+        },
+        {
+            "@id": "event:e1294201853875852262"
+        },
+        {
+            "@id": "event:e1175512083362909249"
+        },
+        {
+            "@id": "event:e6328247306938222660"
+        },
+        {
+            "@id": "event:e3402275248767830497"
+        },
+        {
+            "@id": "event:e2783596747426959926"
+        },
+        {
+            "@id": "event:e2506786530145926692"
+        },
+        {
+            "@id": "event:e1052441964890659160"
+        },
+        {
+            "@id": "event:e3379850387802978332"
+        },
+        {
+            "@id": "event:e2933460972397995663"
+        },
+        {
+            "@id": "event:e1913773883119809647"
+        },
+        {
+            "@id": "event:e3239664181717080736"
+        },
+        {
+            "@id": "event:e9684139137978123328"
+        },
+        {
+            "@id": "event:e3397010992153560373"
+        },
+        {
+            "@id": "event:e2396122729366967143"
+        },
+        {
+            "@id": "event:e7625168777652843302"
+        },
+        {
+            "@id": "event:e7569419294558759742"
+        },
+        {
+            "@id": "event:e3314577779413746274"
+        },
+        {
+            "@id": "event:e2761430034110329581"
+        },
+        {
+            "@id": "event:e1705732810008080802"
+        },
+        {
+            "@id": "event:e1818938309153903920"
+        },
+        {
+            "@id": "event:e2199651658907459183"
+        },
+        {
+            "@id": "event:e1606601158955765181"
+        },
+        {
+            "@id": "event:e2410619494583828620"
+        },
+        {
+            "@id": "event:e3130427755195165646"
+        },
+        {
+            "@id": "event:e2884538764918740412"
+        },
+        {
+            "@id": "event:e3164473969312911988"
+        },
+        {
+            "@id": "event:e3204712634326073528"
+        },
+        {
+            "@id": "event:e1459883896524049005"
+        },
+        {
+            "@id": "event:e1049007275277035961"
+        },
+        {
+            "@id": "event:e1142162889327706252"
+        },
+        {
+            "@id": "event:e6532169236856456395"
+        },
+        {
+            "@id": "event:e2587726519884973007"
+        },
+        {
+            "@id": "event:e2329939956051291991"
+        },
+        {
+            "@id": "event:e2932986167548849674"
+        },
+        {
+            "@id": "event:e3342511242896872526"
+        },
+        {
+            "@id": "event:e2489680185200312314"
+        },
+        {
+            "@id": "event:e3309923187389447308"
+        },
+        {
+            "@id": "event:e1506127455180735467"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kyllönen, Merja (1977-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q385927"
+    },
+    "semparl:id": "963",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

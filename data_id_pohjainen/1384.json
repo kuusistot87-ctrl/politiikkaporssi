@@ -1,0 +1,262 @@
+{
+    "@id": "people:p1384",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Helsinki"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a7383164189970839650"
+        },
+        {
+            "@id": "affiliations:a5988444075311104478"
+        },
+        {
+            "@id": "affiliations:a5273103521549422579"
+        },
+        {
+            "@id": "affiliations:a3208721210391104880"
+        },
+        {
+            "@id": "affiliations:a2794785683481002102"
+        },
+        {
+            "@id": "affiliations:a2253535836599680874"
+        },
+        {
+            "@id": "affiliations:a2099052570171423608"
+        },
+        {
+            "@id": "affiliations:a9211256889716596951"
+        },
+        {
+            "@id": "affiliations:a3066268089848336127"
+        },
+        {
+            "@id": "affiliations:a1677024093574308931"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1384.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansanedustaja, Master in Environment and Development"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o926"
+        },
+        {
+            "@id": "occupations:o67"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p5092299103049318214"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3153294095472766742"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1384"
+    },
+    "semparl:sortingLabel": "kivelä mai",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1384"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/658225/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/MaiKivela%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1384.aspx"
+        },
+        {
+            "@id": "yle:18-295635"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mai_Kivel%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Mai_Kivel%C3%A4"
+        },
+        {
+            "@id": "wd:Q18706421"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1008111148208702613"
+        },
+        {
+            "@id": "event:e2440716183466278884"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1407417685810084124"
+        },
+        {
+            "@id": "event:e2046861946089453159"
+        },
+        {
+            "@id": "event:e5988912942602776949"
+        },
+        {
+            "@id": "event:e2101592650995784337"
+        },
+        {
+            "@id": "event:e2735233354370206601"
+        },
+        {
+            "@id": "event:e1240587883813067579"
+        },
+        {
+            "@id": "event:e1303601031595220942"
+        },
+        {
+            "@id": "event:e2750984580402806673"
+        },
+        {
+            "@id": "event:e3950720386513867684"
+        },
+        {
+            "@id": "event:e3237897036280459410"
+        },
+        {
+            "@id": "event:e6235457866762295742"
+        },
+        {
+            "@id": "event:e9155351788758518104"
+        },
+        {
+            "@id": "event:e5833119442174291095"
+        },
+        {
+            "@id": "event:e5170878340658839460"
+        },
+        {
+            "@id": "event:e2992961433798813667"
+        },
+        {
+            "@id": "event:e2629884095119241902"
+        },
+        {
+            "@id": "event:e2192599820529190504"
+        },
+        {
+            "@id": "event:e2247324283595695667"
+        },
+        {
+            "@id": "event:e2881996363927687029"
+        },
+        {
+            "@id": "event:e2235236167232986948"
+        },
+        {
+            "@id": "event:e1338738325873521682"
+        },
+        {
+            "@id": "event:e4285492927329521518"
+        },
+        {
+            "@id": "event:e3131212377205202003"
+        },
+        {
+            "@id": "event:e3376216427421715259"
+        },
+        {
+            "@id": "event:e1002332755015191087"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kivelä, Mai (1982-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q385927"
+    },
+    "semparl:id": "1384",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

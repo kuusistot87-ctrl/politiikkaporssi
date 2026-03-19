@@ -1,0 +1,309 @@
+{
+    "@id": "people:p910332",
+    "semparl:authored": [
+        {
+            "@id": "publications:b4423104999277674899"
+        },
+        {
+            "@id": "publications:b1147870583623384123"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ehrnrooth, Georg Carl Casimir (Georg C.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910332.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1958-07-22_1958-07-22_1979-03-23_1979-03-23"
+        },
+        {
+            "@id": "times:t_1983-03-26_1983-03-26_1987-03-20_1987-03-20"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lakitieteen lisensiaatti, varatuomari"
+    },
+    "semparl:end_of_representative_period_text": "20.03.1987",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1987-03-20_1987-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o191"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p3301245214032931282"
+        },
+        {
+            "@id": "event:p2656342236841611094"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910332"
+    },
+    "xl:altLabel": {
+        "@id": "label:l7177351800898869538"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6780994705947811842"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910332"
+    },
+    "semparl:sortingLabel": "ehrnrooth georg c.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910332"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ehrnrooth%20ja%20Korte.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910332.aspx"
+        },
+        {
+            "@id": "viaf:48055753"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Georg_C._Ehrnrooth"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Georg_C._Ehrnrooth"
+        },
+        {
+            "@id": "wd:Q5628544"
+        },
+        {
+            "@id": "finaf:000041806"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2124357455018819479"
+        },
+        {
+            "@id": "event:e5543075571104859011"
+        },
+        {
+            "@id": "event:e8337160993067165886"
+        },
+        {
+            "@id": "event:e2604636570398474177"
+        },
+        {
+            "@id": "event:e2520965711204416855"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3346784432843116654"
+        },
+        {
+            "@id": "event:e3150576747585063583"
+        },
+        {
+            "@id": "event:e2708611216268897324"
+        },
+        {
+            "@id": "event:e2428857630364647235"
+        },
+        {
+            "@id": "event:e1793435366493126105"
+        },
+        {
+            "@id": "event:e1131354864552482065"
+        },
+        {
+            "@id": "event:e1044040331458779935"
+        },
+        {
+            "@id": "event:e2024408973039120722"
+        },
+        {
+            "@id": "event:e1545845266758135345"
+        },
+        {
+            "@id": "event:e9737426520476350873"
+        },
+        {
+            "@id": "event:e3372862625029218339"
+        },
+        {
+            "@id": "event:e2844752789233996755"
+        },
+        {
+            "@id": "event:e1612081385209218750"
+        },
+        {
+            "@id": "event:e1856762370041192944"
+        },
+        {
+            "@id": "event:e2304223310411931807"
+        },
+        {
+            "@id": "event:e3054248928568655583"
+        },
+        {
+            "@id": "event:e1250188341622005436"
+        },
+        {
+            "@id": "event:e4880357021018850252"
+        },
+        {
+            "@id": "event:e1522065940553047011"
+        },
+        {
+            "@id": "event:e1401200741684292948"
+        },
+        {
+            "@id": "event:e2050801635795699338"
+        },
+        {
+            "@id": "event:e3108808817569182795"
+        },
+        {
+            "@id": "event:e1824382071769708824"
+        },
+        {
+            "@id": "event:e1145506908421548392"
+        },
+        {
+            "@id": "event:e1381579763039565097"
+        },
+        {
+            "@id": "event:e2845305233954803789"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1345935171427550565"
+        },
+        {
+            "@id": "event:e1786667815001131960"
+        },
+        {
+            "@id": "event:e1494142077134983090"
+        },
+        {
+            "@id": "event:e2703139014170111418"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ehrnrooth, Georg C. (1926-2010)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Ehrnrooth, Georg Carl Casimir"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q845537"
+        },
+        {
+            "@id": "groups:Q5164311"
+        }
+    ],
+    "semparl:id": "910332",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

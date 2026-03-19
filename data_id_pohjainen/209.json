@@ -1,0 +1,297 @@
+{
+    "@id": "people:p209",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Sarja(e. Hautamäki, e. Paavilainen, v:sta 2006 Pihlajamäki), Tuula Kaarina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:209.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_1991-03-21_1991-03-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "päiväkodin johtaja"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o258"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1231441697207605099"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8943156667341652536"
+        },
+        {
+            "@id": "label:l8346583005500246414"
+        },
+        {
+            "@id": "label:l2404387608504375808"
+        },
+        {
+            "@id": "label:l2073873371920253315"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l4497984869165668867"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=209"
+    },
+    "semparl:sortingLabel": "sarja tuula",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b209"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:209.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tuula_Pihlajamaa"
+        },
+        {
+            "@id": "wd:Q11898879"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2204904010626513920"
+        },
+        {
+            "@id": "event:e1966651403115387481"
+        },
+        {
+            "@id": "event:e5205086203740514588"
+        },
+        {
+            "@id": "event:e1260200822858588927"
+        },
+        {
+            "@id": "event:e1401120132757148293"
+        },
+        {
+            "@id": "event:e5830735110286616541"
+        },
+        {
+            "@id": "event:e1698114000365294146"
+        },
+        {
+            "@id": "event:e1832842343363801201"
+        },
+        {
+            "@id": "event:e1580895443459904565"
+        },
+        {
+            "@id": "event:e3115976381188878030"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1733631749853936876"
+        },
+        {
+            "@id": "event:e1141728832415994911"
+        },
+        {
+            "@id": "event:e2949270809487858539"
+        },
+        {
+            "@id": "event:e1135559874093916499"
+        },
+        {
+            "@id": "event:e1334434620004136526"
+        },
+        {
+            "@id": "event:e2666407443788708048"
+        },
+        {
+            "@id": "event:e5858672235453432150"
+        },
+        {
+            "@id": "event:e2064683426549079472"
+        },
+        {
+            "@id": "event:e2295706796184455943"
+        },
+        {
+            "@id": "event:e2873807710033995417"
+        },
+        {
+            "@id": "event:e9954867555961272613"
+        },
+        {
+            "@id": "event:e2009904761531676570"
+        },
+        {
+            "@id": "event:e6428894319706808939"
+        },
+        {
+            "@id": "event:e1129179982026494371"
+        },
+        {
+            "@id": "event:e2828024250492628279"
+        },
+        {
+            "@id": "event:e8007816218335566265"
+        },
+        {
+            "@id": "event:e7948995507583818815"
+        },
+        {
+            "@id": "event:e2885518385659591899"
+        },
+        {
+            "@id": "event:e2563271148610217391"
+        },
+        {
+            "@id": "event:e2900806586556616775"
+        },
+        {
+            "@id": "event:e5908987837108847061"
+        },
+        {
+            "@id": "event:e1803147570636972462"
+        },
+        {
+            "@id": "event:e4913029748774183239"
+        },
+        {
+            "@id": "event:e2489041556889535885"
+        },
+        {
+            "@id": "event:e2005065940733917757"
+        },
+        {
+            "@id": "event:e1818612758224265999"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e3054970672535759484"
+        },
+        {
+            "@id": "event:e1097513521910006121"
+        },
+        {
+            "@id": "event:e3304251647862606485"
+        },
+        {
+            "@id": "event:e2794313861882923912"
+        },
+        {
+            "@id": "event:e3560242722839103128"
+        },
+        {
+            "@id": "event:e1805656671696952771"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Sarja, Tuula (1945-)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Paavilainen, Tuula Kaarina"
+        },
+        {
+            "@language": "fi",
+            "@value": "Sarja, Tuula Kaarina"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hautamäki, Tuula Kaarina"
+        },
+        {
+            "@language": "fi",
+            "@value": "Pihlajamäki, Tuula Kaarina"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "209",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

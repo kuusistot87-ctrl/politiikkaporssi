@@ -1,0 +1,324 @@
+{
+    "@id": "people:p911024",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Malkamäki(e. Sommarberg), Aino Elin"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911024.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1960-11-18_1960-11-18_1961-10-17_1961-10-17"
+        },
+        {
+            "@id": "times:t_1933-09-01_1933-09-01_1958-07-21_1958-07-21"
+        },
+        {
+            "@id": "times:t_1922-09-05_1922-09-05_1929-07-31_1929-07-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, kouluneuvos"
+    },
+    "semparl:end_of_representative_period_text": "17.10.1961",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1961-10-17_1961-10-17"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1074"
+        },
+        {
+            "@id": "occupations:o83"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p3074716401833986861"
+        },
+        {
+            "@id": "event:p2533341807123620882"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911024"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5158842250477795458"
+        },
+        {
+            "@id": "label:l1207951969594997380"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l5027042012985522330"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911024"
+    },
+    "semparl:sortingLabel": "malkamäki aino",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911024"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Aino%20Malkam%C3%A4ki.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911024.aspx"
+        },
+        {
+            "@id": "natbib:914"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Aino_Malkam%C3%A4ki"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Aino_Malkam%C3%A4ki"
+        },
+        {
+            "@id": "wd:Q11850171"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2229"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2534"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1573785339345919398"
+        },
+        {
+            "@id": "event:e1527336718600713267"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4642887359002321532"
+        },
+        {
+            "@id": "event:e1735429070803759891"
+        },
+        {
+            "@id": "event:e1708115691758894584"
+        },
+        {
+            "@id": "event:e1613751874710854950"
+        },
+        {
+            "@id": "event:e1485303637596382786"
+        },
+        {
+            "@id": "event:e1059621660155250900"
+        },
+        {
+            "@id": "event:e3067413202426118001"
+        },
+        {
+            "@id": "event:e7130859912776239853"
+        },
+        {
+            "@id": "event:e1186626586008222448"
+        },
+        {
+            "@id": "event:e1087828348530161139"
+        },
+        {
+            "@id": "event:e3251784213887984200"
+        },
+        {
+            "@id": "event:e3079043328353615477"
+        },
+        {
+            "@id": "event:e1449378276287550222"
+        },
+        {
+            "@id": "event:e2433239965388957490"
+        },
+        {
+            "@id": "event:e3290815330290219141"
+        },
+        {
+            "@id": "event:e3193197920006478697"
+        },
+        {
+            "@id": "event:e2436604439900158588"
+        },
+        {
+            "@id": "event:e1532244281975186829"
+        },
+        {
+            "@id": "event:e2024802124207463001"
+        },
+        {
+            "@id": "event:e2226746886381327757"
+        },
+        {
+            "@id": "event:e1333098577876463504"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e2294241244464566291"
+        },
+        {
+            "@id": "event:e2939156788281367885"
+        },
+        {
+            "@id": "event:e8580714580688914706"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e6801120323859157668"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2488722643283282055"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Malkamäki, Aino (1895-1961)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Sommarberg, Aino Elin"
+        },
+        {
+            "@language": "fi",
+            "@value": "Malkamäki, Aino Elin"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q1813319"
+        }
+    ],
+    "semparl:id": "911024",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

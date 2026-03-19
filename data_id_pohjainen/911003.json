@@ -1,0 +1,275 @@
+{
+    "@id": "people:p911003",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lumivuokko(v:een 1906 Lindqvist), Johan (Jussi) Henrik"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911003.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1917-04-03_1917-04-03"
+        },
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1917-10-31_1917-10-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "verhoilija"
+    },
+    "semparl:end_of_representative_period_text": "31.10.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-10-31_1917-10-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1517"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1080819851820387869"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911003"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2620725006182152189"
+        },
+        {
+            "@id": "label:l1605223866101532080"
+        },
+        {
+            "@id": "label:l1560947209073986910"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2599683206769225017"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911003"
+    },
+    "semparl:sortingLabel": "lumivuokko jussi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911003"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jussi%20Lumivuokko.JPG"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911003.aspx"
+        },
+        {
+            "@id": "natbib:4776"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/J._H._Lumivuokko"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:J._H._Lumivuokko"
+        },
+        {
+            "@id": "wd:Q11868045"
+        },
+        {
+            "@id": "finaf:000119620"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1209"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4778762168290223334"
+        },
+        {
+            "@id": "event:e3984988768005412071"
+        },
+        {
+            "@id": "event:e1131894486107198376"
+        },
+        {
+            "@id": "event:e3218107082407274298"
+        },
+        {
+            "@id": "event:e6606825577952594459"
+        },
+        {
+            "@id": "event:e2325316837921031770"
+        },
+        {
+            "@id": "event:e2880043509165853411"
+        },
+        {
+            "@id": "event:e5278581469240277061"
+        },
+        {
+            "@id": "event:e1533240552943195896"
+        },
+        {
+            "@id": "event:e3859628738546348237"
+        },
+        {
+            "@id": "event:e1541461173104489697"
+        },
+        {
+            "@id": "event:e3159209619145825415"
+        },
+        {
+            "@id": "event:e9583071122827783512"
+        },
+        {
+            "@id": "event:e1228309041716069230"
+        },
+        {
+            "@id": "event:e3388196586912587821"
+        },
+        {
+            "@id": "event:e2325218418177724540"
+        },
+        {
+            "@id": "event:e2273239909118510721"
+        },
+        {
+            "@id": "event:e1445570280570533724"
+        },
+        {
+            "@id": "event:e7873403330004368262"
+        },
+        {
+            "@id": "event:e1423485274740191450"
+        },
+        {
+            "@id": "event:e1207388068773043710"
+        },
+        {
+            "@id": "event:e8448625595601526924"
+        },
+        {
+            "@id": "event:e2887725667003776855"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2831638401875865864"
+        },
+        {
+            "@id": "event:e1605594300167255127"
+        },
+        {
+            "@id": "event:e2976465060752347336"
+        },
+        {
+            "@id": "event:e2427886660696223147"
+        },
+        {
+            "@id": "event:e4886176840844831012"
+        },
+        {
+            "@id": "event:e1229753606358883383"
+        },
+        {
+            "@id": "event:e3056363952207170403"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lumivuokko, Jussi (1884-1938)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Lindqvist, Johan Henrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lumivuokko, Johan Henrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lindqvist, Jussi"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911003",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

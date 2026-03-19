@@ -1,0 +1,307 @@
+{
+    "@id": "people:p910366",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "von Frenckell, Erik"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910366.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1927-09-02_1927-09-02_1939-08-31_1939-08-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri, kaupunginjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1939",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1939-08-31_1939-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o99"
+        },
+        {
+            "@id": "occupations:o206"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2859447827215253720"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910366"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2612594007040795362"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910366"
+    },
+    "semparl:sortingLabel": "frenckell erik von",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910366"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Erik-von-Frenckell.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910366.aspx"
+        },
+        {
+            "@id": "yle:18-183350"
+        },
+        {
+            "@id": "viaf:8403157884840660620004"
+        },
+        {
+            "@id": "natbib:1853"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Erik_von_Frenckell"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Erik_von_Frenckell"
+        },
+        {
+            "@id": "wd:Q5742742"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2598"
+        },
+        {
+            "@id": "finaf:000080265"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3629"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e9738873549450874104"
+        },
+        {
+            "@id": "event:e2721919855751372697"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4783947721077668244"
+        },
+        {
+            "@id": "event:e3163948318863074983"
+        },
+        {
+            "@id": "event:e1202664241835062632"
+        },
+        {
+            "@id": "event:e9198486034118806467"
+        },
+        {
+            "@id": "event:e2648710107089617092"
+        },
+        {
+            "@id": "event:e1804632899258837854"
+        },
+        {
+            "@id": "event:e1422210763796159099"
+        },
+        {
+            "@id": "event:e3252322615208045265"
+        },
+        {
+            "@id": "event:e6527342208733630162"
+        },
+        {
+            "@id": "event:e6679975934648761646"
+        },
+        {
+            "@id": "event:e7975355705590503129"
+        },
+        {
+            "@id": "event:e5346747375634469468"
+        },
+        {
+            "@id": "event:e3216449174578713358"
+        },
+        {
+            "@id": "event:e3306573368672040209"
+        },
+        {
+            "@id": "event:e1095022623447599638"
+        },
+        {
+            "@id": "event:e2311665139408165160"
+        },
+        {
+            "@id": "event:e1531232133199169791"
+        },
+        {
+            "@id": "event:e2396184930736762118"
+        },
+        {
+            "@id": "event:e1408545058069053291"
+        },
+        {
+            "@id": "event:e1482672619562909648"
+        },
+        {
+            "@id": "event:e3374552577857972458"
+        },
+        {
+            "@id": "event:e5795075454036682579"
+        },
+        {
+            "@id": "event:e1888809734593159496"
+        },
+        {
+            "@id": "event:e2977462396652657498"
+        },
+        {
+            "@id": "event:e1056433699787639357"
+        },
+        {
+            "@id": "event:e2492251596271089731"
+        },
+        {
+            "@id": "event:e1931335538202443978"
+        },
+        {
+            "@id": "event:e1772149643749046993"
+        },
+        {
+            "@id": "event:e1889116481777891398"
+        },
+        {
+            "@id": "event:e7308193688040017623"
+        },
+        {
+            "@id": "event:e1765628631630577126"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e3178360420042318825"
+        },
+        {
+            "@id": "event:e1742363176608918935"
+        },
+        {
+            "@id": "event:e1824433648595919871"
+        },
+        {
+            "@id": "event:e2243297848801698575"
+        },
+        {
+            "@id": "event:e2401353868277968539"
+        },
+        {
+            "@id": "event:e7012192424317181907"
+        },
+        {
+            "@id": "event:e1213383265979200780"
+        },
+        {
+            "@id": "event:e2392427662454894564"
+        },
+        {
+            "@id": "event:e2978185534340366297"
+        },
+        {
+            "@id": "event:e5202903598686192625"
+        },
+        {
+            "@id": "event:e1763143479610831807"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "von Frenckell, Erik (1887-1977)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910366",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

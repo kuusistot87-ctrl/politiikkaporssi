@@ -1,0 +1,248 @@
+{
+    "@id": "people:p941",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Pietarsaari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:941.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, pankkilakimies"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o726"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1862184659506654728"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1511866049773411412"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=941"
+    },
+    "semparl:sortingLabel": "henriksson anna-maja kristina",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b941"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/656130/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Anna-Maja-Henriksson-01%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:941.aspx"
+        },
+        {
+            "@id": "yle:18-200081"
+        },
+        {
+            "@id": "viaf:6037157884835760620006"
+        },
+        {
+            "@id": "twitter:anna_maja"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Anna-Maja_Henriksson"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Anna-Maja_Henriksson"
+        },
+        {
+            "@id": "wd:Q2850448"
+        },
+        {
+            "@id": "finaf:000213773"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8075081591596933406"
+        },
+        {
+            "@id": "event:e3345457579978278798"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6068395226591419005"
+        },
+        {
+            "@id": "event:e3334247869756887315"
+        },
+        {
+            "@id": "event:e2951882993023695727"
+        },
+        {
+            "@id": "event:e2133495834181949898"
+        },
+        {
+            "@id": "event:e1896258459009177913"
+        },
+        {
+            "@id": "event:e1660072193990285759"
+        },
+        {
+            "@id": "event:e1579962602473523666"
+        },
+        {
+            "@id": "event:e1382153230127429393"
+        },
+        {
+            "@id": "event:e1061282194946591163"
+        },
+        {
+            "@id": "event:e1709226682199605034"
+        },
+        {
+            "@id": "event:e1941174661049432119"
+        },
+        {
+            "@id": "event:e2072130677111037328"
+        },
+        {
+            "@id": "event:e2658932265881414925"
+        },
+        {
+            "@id": "event:e8413003372225725631"
+        },
+        {
+            "@id": "event:e3247218448373191883"
+        },
+        {
+            "@id": "event:e2833320363090776624"
+        },
+        {
+            "@id": "event:e1394611457993357859"
+        },
+        {
+            "@id": "event:e4803411954154134200"
+        },
+        {
+            "@id": "event:e7250120833865189509"
+        },
+        {
+            "@id": "event:e2359749046339961445"
+        },
+        {
+            "@id": "event:e2536187585677412456"
+        },
+        {
+            "@id": "event:e1815638184149053168"
+        },
+        {
+            "@id": "event:e2750542120413119150"
+        },
+        {
+            "@id": "event:e1340486007882640975"
+        },
+        {
+            "@id": "event:e3045126006426492911"
+        },
+        {
+            "@id": "event:e1028006806535457354"
+        },
+        {
+            "@id": "event:e2707507422009099440"
+        },
+        {
+            "@id": "event:e2794843532072731931"
+        },
+        {
+            "@id": "event:e2573207418892631316"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Henriksson, Anna-Maja (1964-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "941",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

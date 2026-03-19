@@ -1,0 +1,264 @@
+{
+    "@id": "people:p911164",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Nybergh, August"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911164.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1910-03-01_1910-03-01_1914-02-01_1914-02-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "senaattori, korkeimman oikeuden presidentti"
+    },
+    "semparl:end_of_representative_period_text": "01.02.1914",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1914-02-01_1914-02-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1320"
+        },
+        {
+            "@id": "occupations:o1215"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3098417056842271589"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911164"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3284442071178162007"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911164"
+    },
+    "semparl:sortingLabel": "nybergh august",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911164"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911164.aspx"
+        },
+        {
+            "@id": "natbib:6297"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/August_Nybergh"
+        },
+        {
+            "@id": "wd:Q4355148"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4754"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2349582333710986964"
+        },
+        {
+            "@id": "event:e6556001967487461159"
+        },
+        {
+            "@id": "event:e2670477261282879168"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1324685056822228941"
+        },
+        {
+            "@id": "event:e1155704635786984662"
+        },
+        {
+            "@id": "event:e2850683616380940005"
+        },
+        {
+            "@id": "event:e1345810159803055830"
+        },
+        {
+            "@id": "event:e3300511428517077448"
+        },
+        {
+            "@id": "event:e2479543311389069134"
+        },
+        {
+            "@id": "event:e7484926684015627851"
+        },
+        {
+            "@id": "event:e8528900223369329058"
+        },
+        {
+            "@id": "event:e3194540593906792966"
+        },
+        {
+            "@id": "event:e2193840821624631251"
+        },
+        {
+            "@id": "event:e1164437028066853786"
+        },
+        {
+            "@id": "event:e2969932827418613003"
+        },
+        {
+            "@id": "event:e3092699197375164173"
+        },
+        {
+            "@id": "event:e2755455718594103703"
+        },
+        {
+            "@id": "event:e9273984992634448269"
+        },
+        {
+            "@id": "event:e7016267549096404624"
+        },
+        {
+            "@id": "event:e3208824233395684974"
+        },
+        {
+            "@id": "event:e2984447424599710741"
+        },
+        {
+            "@id": "event:e2551891877327203700"
+        },
+        {
+            "@id": "event:e1708127235058382697"
+        },
+        {
+            "@id": "event:e3067555547709636666"
+        },
+        {
+            "@id": "event:e9695621391990503791"
+        },
+        {
+            "@id": "event:e2869162117588342934"
+        },
+        {
+            "@id": "event:e8635108189676379952"
+        },
+        {
+            "@id": "event:e7898449851964358032"
+        },
+        {
+            "@id": "event:e3037704179928363342"
+        },
+        {
+            "@id": "event:e3275959803678167448"
+        },
+        {
+            "@id": "event:e4065530187690814580"
+        },
+        {
+            "@id": "event:e2016710324074170806"
+        },
+        {
+            "@id": "event:e1244447383834573199"
+        },
+        {
+            "@id": "event:e2466462156346310615"
+        },
+        {
+            "@id": "event:e2238764838618752220"
+        },
+        {
+            "@id": "event:e2391766640365990924"
+        },
+        {
+            "@id": "event:e2507968966791770682"
+        },
+        {
+            "@id": "event:e1337688624414665306"
+        },
+        {
+            "@id": "event:e8780257854968228266"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Nybergh, August (1851-1920)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "911164",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

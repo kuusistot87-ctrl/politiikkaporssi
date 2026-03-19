@@ -1,0 +1,274 @@
+{
+    "@id": "people:p776",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "semparl:authored": {
+        "@id": "publications:b2587463923270587094"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Saarikangas, (Martin) Jarl-Martin Alexander"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:776.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "vuorineuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o620"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2454890034631914336"
+    },
+    "xl:altLabel": {
+        "@id": "label:l6404545890700691748"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2004446647983318938"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=776"
+    },
+    "semparl:sortingLabel": "saarikangas martin",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b776"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Saarikangas.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:776.aspx"
+        },
+        {
+            "@id": "viaf:19210333"
+        },
+        {
+            "@id": "natbib:9165"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Martin_Saarikangas"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Martin_Saarikangas"
+        },
+        {
+            "@id": "wd:Q6776521"
+        },
+        {
+            "@id": "finaf:000106851"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p6145"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e7615983699979504859"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3358366412634288678"
+        },
+        {
+            "@id": "event:e2379587255321672937"
+        },
+        {
+            "@id": "event:e3219303795205726009"
+        },
+        {
+            "@id": "event:e3134882160870469159"
+        },
+        {
+            "@id": "event:e1002948255509494720"
+        },
+        {
+            "@id": "event:e1652241395414503091"
+        },
+        {
+            "@id": "event:e2083595739917912266"
+        },
+        {
+            "@id": "event:e3066355836351758310"
+        },
+        {
+            "@id": "event:e9721846530459107685"
+        },
+        {
+            "@id": "event:e2709283220150939373"
+        },
+        {
+            "@id": "event:e3318184407538133565"
+        },
+        {
+            "@id": "event:e1307848630533705071"
+        },
+        {
+            "@id": "event:e5123330200171186863"
+        },
+        {
+            "@id": "event:e2318479222392656898"
+        },
+        {
+            "@id": "event:e7094171374996064471"
+        },
+        {
+            "@id": "event:e3334089180866202514"
+        },
+        {
+            "@id": "event:e1835434331398325592"
+        },
+        {
+            "@id": "event:e2212325106490884036"
+        },
+        {
+            "@id": "event:e2579845093215645123"
+        },
+        {
+            "@id": "event:e3477269199941795315"
+        },
+        {
+            "@id": "event:e3402787628727746705"
+        },
+        {
+            "@id": "event:e1144587351656567601"
+        },
+        {
+            "@id": "event:e7398127106565826754"
+        },
+        {
+            "@id": "event:e9512055989280678163"
+        },
+        {
+            "@id": "event:e2628315475831950763"
+        },
+        {
+            "@id": "event:e1756173494031413573"
+        },
+        {
+            "@id": "event:e2478820230611631809"
+        },
+        {
+            "@id": "event:e3742461819702154534"
+        },
+        {
+            "@id": "event:e2459272799566346983"
+        },
+        {
+            "@id": "event:e2563302073299376368"
+        },
+        {
+            "@id": "event:e9369160680197254653"
+        },
+        {
+            "@id": "event:e7519647855354570441"
+        },
+        {
+            "@id": "event:e1912192391872183900"
+        },
+        {
+            "@id": "event:e4492797285013229568"
+        },
+        {
+            "@id": "event:e2797980798428445809"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Saarikangas, Martin (1937-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Saarikangas, Jarl-Martin Alexander"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "776",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

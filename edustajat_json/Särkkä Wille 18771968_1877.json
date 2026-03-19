@@ -1,0 +1,260 @@
+{
+    "@id": "people:p911577",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Särkkä, Wilhelm Gustaf (Wille Kustaa, W.K.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911577.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1929-07-31_1929-07-31"
+        },
+        {
+            "@id": "times:t_1930-10-21_1930-10-21_1936-08-31_1936-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1936",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1936-08-31_1936-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2646609106242404859"
+        },
+        {
+            "@id": "event:p1263721321690274436"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911577"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3093384280122657575"
+        },
+        {
+            "@id": "label:l2141057937281405399"
+        },
+        {
+            "@id": "label:l1381551168759289535"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3407170841622903861"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911577"
+    },
+    "semparl:sortingLabel": "särkkä wille",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911577"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911577.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Wille_S%C3%A4rkk%C3%A4"
+        },
+        {
+            "@id": "wd:Q18166329"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2609558680617962987"
+        },
+        {
+            "@id": "event:e2398082308935525601"
+        },
+        {
+            "@id": "event:e1832636743602372881"
+        },
+        {
+            "@id": "event:e1361178846082353388"
+        },
+        {
+            "@id": "event:e9498728424701528179"
+        },
+        {
+            "@id": "event:e6837961909869256291"
+        },
+        {
+            "@id": "event:e3349938520255221336"
+        },
+        {
+            "@id": "event:e2256187535412424627"
+        },
+        {
+            "@id": "event:e1600717566980094875"
+        },
+        {
+            "@id": "event:e2211398127484920853"
+        },
+        {
+            "@id": "event:e5890168845913544821"
+        },
+        {
+            "@id": "event:e1012998826145990967"
+        },
+        {
+            "@id": "event:e1494504750863981865"
+        },
+        {
+            "@id": "event:e1696161858892372017"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2436973866821454660"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Särkkä, Wille (1877-1968)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Särkkä, Wille Kustaa"
+        },
+        {
+            "@language": "fi",
+            "@value": "Särkkä, Wilhelm Gustaf"
+        },
+        {
+            "@language": "fi",
+            "@value": "Särkkä, W.K."
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1713433"
+        },
+        {
+            "@id": "groups:Q1191102"
+        }
+    ],
+    "semparl:id": "911577",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "@id": "people:p1301",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Lappeenranta"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9105519888183028226"
+        },
+        {
+            "@id": "affiliations:a3136166164650391928"
+        },
+        {
+            "@id": "affiliations:a3126055452074434402"
+        },
+        {
+            "@id": "affiliations:a2710092660209633100"
+        },
+        {
+            "@id": "affiliations:a2654739540413528827"
+        },
+        {
+            "@id": "affiliations:a1828244298747965886"
+        },
+        {
+            "@id": "affiliations:a1611827600267621545"
+        },
+        {
+            "@id": "affiliations:a1117854315978351847"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1301.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "järjestelmäasiantuntija, tradenomi"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o874"
+        },
+        {
+            "@id": "occupations:o785"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2478122065542728577"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2951644072484857204"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1301"
+    },
+    "semparl:sortingLabel": "mäkelä jani kalevi kristian",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1301"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/648900/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Janimakelahelsinki-2019-02-06%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1301.aspx"
+        },
+        {
+            "@id": "yle:18-252638"
+        },
+        {
+            "@id": "twitter:JaniMakelaFi"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jani_M%C3%A4kel%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jani_M%C3%A4kel%C3%A4"
+        },
+        {
+            "@id": "wd:Q20255240"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2465928382560439166"
+        },
+        {
+            "@id": "event:e2009403164303275581"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8298711141033248137"
+        },
+        {
+            "@id": "event:e7928516994365666032"
+        },
+        {
+            "@id": "event:e2665000846861431083"
+        },
+        {
+            "@id": "event:e2444863840975237263"
+        },
+        {
+            "@id": "event:e1050955565149344777"
+        },
+        {
+            "@id": "event:e5227283839596307978"
+        },
+        {
+            "@id": "event:e1194305425249191483"
+        },
+        {
+            "@id": "event:e2283388967896234720"
+        },
+        {
+            "@id": "event:e6937995199796168841"
+        },
+        {
+            "@id": "event:e1413637786785399371"
+        },
+        {
+            "@id": "event:e1106813769770615629"
+        },
+        {
+            "@id": "event:e1865686193985094589"
+        },
+        {
+            "@id": "event:e1383687033005050383"
+        },
+        {
+            "@id": "event:e1301937806898847130"
+        },
+        {
+            "@id": "event:e1049219040929980124"
+        },
+        {
+            "@id": "event:e2076622347921240075"
+        },
+        {
+            "@id": "event:e2866026561450812361"
+        },
+        {
+            "@id": "event:e7714650231456815504"
+        },
+        {
+            "@id": "event:e2780896277794371227"
+        },
+        {
+            "@id": "event:e2143629659785651532"
+        },
+        {
+            "@id": "event:e2861756721735363271"
+        },
+        {
+            "@id": "event:e3586265272987092920"
+        },
+        {
+            "@id": "event:e3236166408183072059"
+        },
+        {
+            "@id": "event:e2514609768418329616"
+        },
+        {
+            "@id": "event:e3029722746150342464"
+        },
+        {
+            "@id": "event:e4129309063181848146"
+        },
+        {
+            "@id": "event:e1138929673949203346"
+        },
+        {
+            "@id": "event:e2839339001927776232"
+        },
+        {
+            "@id": "event:e2689885411816685700"
+        },
+        {
+            "@id": "event:e3357202143089948762"
+        },
+        {
+            "@id": "event:e8054906853995601639"
+        },
+        {
+            "@id": "event:e5213882922597322315"
+        },
+        {
+            "@id": "event:e2391335233894559757"
+        },
+        {
+            "@id": "event:e3342511242896872526"
+        },
+        {
+            "@id": "event:e6837148528252402750"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Mäkelä, Jani (1976-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q634277"
+    },
+    "semparl:id": "1301",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

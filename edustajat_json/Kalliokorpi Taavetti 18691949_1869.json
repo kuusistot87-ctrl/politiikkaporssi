@@ -1,0 +1,228 @@
+{
+    "@id": "people:p910665",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kalliokorpi(e. Noppa, e. Järvinen), Taavetti Jeremias (Daavid Jeremias, D.J.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910665.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1907-05-22_1907-05-22_1908-07-31_1908-07-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1908",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1908-07-31_1908-07-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o216"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1923652728380587414"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910665"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l7738080512184947146"
+        },
+        {
+            "@id": "label:l7149708077171663420"
+        },
+        {
+            "@id": "label:l6300643545324493521"
+        },
+        {
+            "@id": "label:l3700473093158065721"
+        },
+        {
+            "@id": "label:l3389349267692802726"
+        },
+        {
+            "@id": "label:l3114024361883234886"
+        },
+        {
+            "@id": "label:l1945102807170247658"
+        },
+        {
+            "@id": "label:l1414608699313518105"
+        },
+        {
+            "@id": "label:l1132833235163602699"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2408589499393829315"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910665"
+    },
+    "semparl:sortingLabel": "kalliokorpi taavetti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910665"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/D.%20J.%20Kalliokorpi.png"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910665.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/D._J._Kalliokorpi"
+        },
+        {
+            "@id": "wd:Q11895925"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3283414018150069548"
+        },
+        {
+            "@id": "event:e1629113692304686307"
+        },
+        {
+            "@id": "event:e1781648348258864070"
+        },
+        {
+            "@id": "event:e5307818026875667378"
+        },
+        {
+            "@id": "event:e1348049696035687494"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kalliokorpi, Taavetti (1869-1949)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Noppa, Daavid Jeremias"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kalliokorpi, Daavid Jeremias"
+        },
+        {
+            "@language": "fi",
+            "@value": "Järvinen, Daavid Jeremias"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kalliokorpi, D.J."
+        },
+        {
+            "@language": "fi",
+            "@value": "Järvinen, D.J."
+        },
+        {
+            "@language": "fi",
+            "@value": "Noppa, D.J."
+        },
+        {
+            "@language": "fi",
+            "@value": "Järvinen, Taavetti Jeremias"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kalliokorpi, Taavetti Jeremias"
+        },
+        {
+            "@language": "fi",
+            "@value": "Noppa, Taavetti Jeremias"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910665",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

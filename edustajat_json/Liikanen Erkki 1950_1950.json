@@ -1,0 +1,268 @@
+{
+    "@id": "people:p171",
+    "semparl:authored": {
+        "@id": "publications:b6537441179841719818"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Liikanen, Erkki Antero"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:171.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1972-01-22_1972-01-22_1990-08-31_1990-08-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "Euroopan komission jäsen"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1990",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1990-08-31_1990-08-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o184"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2624444640535388871"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1216962978364389944"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5229131067554175746"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=171"
+    },
+    "semparl:sortingLabel": "liikanen erkki",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b171"
+    },
+    "sch:image": [
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Erkki%20Liikanen.jpg"
+        },
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Erkki%20Liikanen%20at%20Bank%20of%20Finland%20seminar%2C%202016%2001.jpg"
+        }
+    ],
+    "sch:sameAs": [
+        {
+            "@id": "mps:171.aspx"
+        },
+        {
+            "@id": "viaf:311425641"
+        },
+        {
+            "@id": "natbib:4068"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Erkki_Liikanen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Erkki_Liikanen_(politician)"
+        },
+        {
+            "@id": "wd:Q194058"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3172"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8222077824334010412"
+        },
+        {
+            "@id": "event:e1590100369922170981"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5913174808878745284"
+        },
+        {
+            "@id": "event:e3233480102116039376"
+        },
+        {
+            "@id": "event:e2845637907132702430"
+        },
+        {
+            "@id": "event:e1970161906452810800"
+        },
+        {
+            "@id": "event:e2174827948348944418"
+        },
+        {
+            "@id": "event:e1636544571823965147"
+        },
+        {
+            "@id": "event:e1635633267828530330"
+        },
+        {
+            "@id": "event:e2603034339020131809"
+        },
+        {
+            "@id": "event:e3113692068669139881"
+        },
+        {
+            "@id": "event:e2995010795490988526"
+        },
+        {
+            "@id": "event:e1165728879293512192"
+        },
+        {
+            "@id": "event:e5001660531378858983"
+        },
+        {
+            "@id": "event:e2117833256671616612"
+        },
+        {
+            "@id": "event:e1452182170329472897"
+        },
+        {
+            "@id": "event:e5843398463175395359"
+        },
+        {
+            "@id": "event:e1003566183883587784"
+        },
+        {
+            "@id": "event:e9951201923752415260"
+        },
+        {
+            "@id": "event:e3330902141832934089"
+        },
+        {
+            "@id": "event:e1941163334509161463"
+        },
+        {
+            "@id": "event:e5782972529299557486"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e2157197183617108990"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e1129447682583826935"
+        },
+        {
+            "@id": "event:e1558254217443804636"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Liikanen, Erkki (1950-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Liikanen, Erkki Antero"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "171",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

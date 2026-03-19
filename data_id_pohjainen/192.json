@@ -1,0 +1,230 @@
+{
+    "@id": "people:p192",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Koistinen, Elsa Annikki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:192.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1987-03-21_1987-03-21_1999-03-23_1999-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kotitalousopettaja"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o136"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p3240053681067837059"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2042045286754829395"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2697779625782600690"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=192"
+    },
+    "semparl:sortingLabel": "koistinen annikki",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b192"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:192.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Annikki_Koistinen"
+        },
+        {
+            "@id": "wd:Q11851795"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2589703917070175254"
+        },
+        {
+            "@id": "event:e2276149643623735907"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2199153231337279485"
+        },
+        {
+            "@id": "event:e2202541608908035753"
+        },
+        {
+            "@id": "event:e2981208600626071105"
+        },
+        {
+            "@id": "event:e2602896461121089174"
+        },
+        {
+            "@id": "event:e1388609335242137782"
+        },
+        {
+            "@id": "event:e2080305892643083160"
+        },
+        {
+            "@id": "event:e2684446816118336270"
+        },
+        {
+            "@id": "event:e2220136575710381906"
+        },
+        {
+            "@id": "event:e3666653916163592355"
+        },
+        {
+            "@id": "event:e8855559230956118855"
+        },
+        {
+            "@id": "event:e2272718031373591070"
+        },
+        {
+            "@id": "event:e1505712854379365134"
+        },
+        {
+            "@id": "event:e1806190148194731214"
+        },
+        {
+            "@id": "event:e1063609112368569782"
+        },
+        {
+            "@id": "event:e2262811543956661715"
+        },
+        {
+            "@id": "event:e7765315726580327944"
+        },
+        {
+            "@id": "event:e3242851810967392922"
+        },
+        {
+            "@id": "event:e2911585891492410693"
+        },
+        {
+            "@id": "event:e1317402101581916164"
+        },
+        {
+            "@id": "event:e8815434441953939619"
+        },
+        {
+            "@id": "event:e1684617709370592072"
+        },
+        {
+            "@id": "event:e8939349675420822956"
+        },
+        {
+            "@id": "event:e1805656671696952771"
+        },
+        {
+            "@id": "event:e3489733167711783277"
+        },
+        {
+            "@id": "event:e5043194588877623752"
+        },
+        {
+            "@id": "event:e1497173739837398404"
+        },
+        {
+            "@id": "event:e1113201709019185055"
+        },
+        {
+            "@id": "event:e2650958033440523802"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Koistinen, Annikki (1934-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Koistinen, Elsa Annikki"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "192",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,347 @@
+{
+    "@id": "people:p910717",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Keto(e. Liukku), Jaakko William (J.W.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910717.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1919-04-01_1919-04-01_1931-10-15_1931-10-15"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian kandidaatti, apulaiskaupunginjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "15.10.1931",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1931-10-15_1931-10-15"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o123"
+        },
+        {
+            "@id": "occupations:o50"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1231801504690558495"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910717"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l9769311675318657349"
+        },
+        {
+            "@id": "label:l9591817701776712719"
+        },
+        {
+            "@id": "label:l2696403277703953798"
+        },
+        {
+            "@id": "label:l1182085400784979326"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2855459315057388604"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910717"
+    },
+    "semparl:sortingLabel": "keto jaakko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910717"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910717.aspx"
+        },
+        {
+            "@id": "viaf:305096607"
+        },
+        {
+            "@id": "natbib:671"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/J._W._Keto"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:J._W._Keto"
+        },
+        {
+            "@id": "wd:Q5907142"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2151"
+        },
+        {
+            "@id": "finaf:000083091"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p349"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2319224134266292484"
+        },
+        {
+            "@id": "event:e3282796856079715285"
+        },
+        {
+            "@id": "event:e2037559135710446223"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3176057067085235621"
+        },
+        {
+            "@id": "event:e2431452452283346281"
+        },
+        {
+            "@id": "event:e1500463443067230356"
+        },
+        {
+            "@id": "event:e3049783507533857661"
+        },
+        {
+            "@id": "event:e2360136068201095093"
+        },
+        {
+            "@id": "event:e2800843249504232118"
+        },
+        {
+            "@id": "event:e1673638787735380493"
+        },
+        {
+            "@id": "event:e3101538606371018071"
+        },
+        {
+            "@id": "event:e1144187852846484348"
+        },
+        {
+            "@id": "event:e3046152262516060448"
+        },
+        {
+            "@id": "event:e1826276030293818331"
+        },
+        {
+            "@id": "event:e1689103067516440744"
+        },
+        {
+            "@id": "event:e3623916653259272508"
+        },
+        {
+            "@id": "event:e3284392146788690449"
+        },
+        {
+            "@id": "event:e2185703082710185358"
+        },
+        {
+            "@id": "event:e2986073658210320035"
+        },
+        {
+            "@id": "event:e6480156114330495268"
+        },
+        {
+            "@id": "event:e5003851465393408374"
+        },
+        {
+            "@id": "event:e3361962278478010370"
+        },
+        {
+            "@id": "event:e1536361932839770234"
+        },
+        {
+            "@id": "event:e6624025636232978255"
+        },
+        {
+            "@id": "event:e2011150224003335982"
+        },
+        {
+            "@id": "event:e2849802145120731179"
+        },
+        {
+            "@id": "event:e2518224101931534628"
+        },
+        {
+            "@id": "event:e4440729614364948679"
+        },
+        {
+            "@id": "event:e8915172744821041943"
+        },
+        {
+            "@id": "event:e2247629932350485728"
+        },
+        {
+            "@id": "event:e9414274253658014847"
+        },
+        {
+            "@id": "event:e8581769873391584862"
+        },
+        {
+            "@id": "event:e3152907017121586244"
+        },
+        {
+            "@id": "event:e2546868711462639581"
+        },
+        {
+            "@id": "event:e6380006027382380844"
+        },
+        {
+            "@id": "event:e3046896685202896739"
+        },
+        {
+            "@id": "event:e1223887506214378703"
+        },
+        {
+            "@id": "event:e1783565641385883293"
+        },
+        {
+            "@id": "event:e5558826442005195366"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e1129447682583826935"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e5114147749500997303"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e1281718518548118415"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Keto, Jaakko (1884-1947)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Keto, J.W."
+        },
+        {
+            "@language": "fi",
+            "@value": "Liukku, Jaakko William"
+        },
+        {
+            "@language": "fi",
+            "@value": "Liukku, J.W."
+        },
+        {
+            "@language": "fi",
+            "@value": "Keto, Jaakko William"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910717",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

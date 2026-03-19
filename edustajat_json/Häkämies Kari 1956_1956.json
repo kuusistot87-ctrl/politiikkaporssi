@@ -1,0 +1,253 @@
+{
+    "@id": "people:p138",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p1547295168013078548"
+        },
+        {
+            "@id": "ns1:p2077681379472202547"
+        }
+    ],
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Häkämies, Kari Pekka"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:138.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1987-03-21_1987-03-21_1998-07-31_1998-07-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, kansliapäällikkö"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1998",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1998-07-31_1998-07-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o121"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p6109552216529098623"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3370935497348545319"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3130486090103750576"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=138"
+    },
+    "semparl:sortingLabel": "häkämies kari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b138"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kari%20H%C3%A4k%C3%A4mies.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:138.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kari_H%C3%A4k%C3%A4mies"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kari_H%C3%A4k%C3%A4mies"
+        },
+        {
+            "@id": "wd:Q11869910"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1771107377916391161"
+        },
+        {
+            "@id": "event:e2983250861363439341"
+        },
+        {
+            "@id": "event:e2982666064548194110"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5857929557255420511"
+        },
+        {
+            "@id": "event:e2758640477131807252"
+        },
+        {
+            "@id": "event:e2493271989802668328"
+        },
+        {
+            "@id": "event:e2158898015249904848"
+        },
+        {
+            "@id": "event:e1136931706814238701"
+        },
+        {
+            "@id": "event:e1688819065684181383"
+        },
+        {
+            "@id": "event:e9072041726974539802"
+        },
+        {
+            "@id": "event:e1074182875720692981"
+        },
+        {
+            "@id": "event:e1014171307354360573"
+        },
+        {
+            "@id": "event:e1892274352299670298"
+        },
+        {
+            "@id": "event:e3012955173130557692"
+        },
+        {
+            "@id": "event:e3490478616819387212"
+        },
+        {
+            "@id": "event:e1140827697929212996"
+        },
+        {
+            "@id": "event:e7779644000941265516"
+        },
+        {
+            "@id": "event:e3765303700108740201"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e2337422011269261627"
+        },
+        {
+            "@id": "event:e7811806363641353220"
+        },
+        {
+            "@id": "event:e7538832937353548670"
+        },
+        {
+            "@id": "event:e3005418731197037965"
+        },
+        {
+            "@id": "event:e1262356800282188073"
+        },
+        {
+            "@id": "event:e3209166227382509078"
+        },
+        {
+            "@id": "event:e2418542517797506065"
+        },
+        {
+            "@id": "event:e1005875904677815227"
+        },
+        {
+            "@id": "event:e1819673599316487140"
+        },
+        {
+            "@id": "event:e3037749533843071810"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Häkämies, Kari (1956-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Häkämies, Kari Pekka"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "138",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

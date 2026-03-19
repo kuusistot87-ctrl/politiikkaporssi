@@ -1,0 +1,259 @@
+{
+    "@id": "people:p911727",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Westman, Johan Wilhelm"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911727.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1930-10-21_1930-10-21_1933-08-31_1933-08-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, pankinjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1933",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1933-08-31_1933-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o120"
+        },
+        {
+            "@id": "occupations:o214"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3261440647052115844"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911727"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1148535044095259229"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1804277653887156709"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911727"
+    },
+    "semparl:sortingLabel": "westman wilhelm",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911727"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911727.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Wilhelm_Westman"
+        },
+        {
+            "@id": "wd:Q30174464"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3303765501365307240"
+        },
+        {
+            "@id": "event:e2315349627059429336"
+        },
+        {
+            "@id": "event:e1409182662202406511"
+        },
+        {
+            "@id": "event:e2127873185853119499"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2813467530821264118"
+        },
+        {
+            "@id": "event:e1867935403183575546"
+        },
+        {
+            "@id": "event:e2176723311654870781"
+        },
+        {
+            "@id": "event:e2219409623279305053"
+        },
+        {
+            "@id": "event:e5627987181713450463"
+        },
+        {
+            "@id": "event:e1747708821279895305"
+        },
+        {
+            "@id": "event:e1247398591182478160"
+        },
+        {
+            "@id": "event:e1480446938528429422"
+        },
+        {
+            "@id": "event:e1919341947072960057"
+        },
+        {
+            "@id": "event:e1481942456286672343"
+        },
+        {
+            "@id": "event:e2923355494701561051"
+        },
+        {
+            "@id": "event:e1708687348823661476"
+        },
+        {
+            "@id": "event:e3247175829007897827"
+        },
+        {
+            "@id": "event:e3373920200500253563"
+        },
+        {
+            "@id": "event:e9275987679148733448"
+        },
+        {
+            "@id": "event:e2911287061580376698"
+        },
+        {
+            "@id": "event:e2759816935232764632"
+        },
+        {
+            "@id": "event:e1956951181654024082"
+        },
+        {
+            "@id": "event:e1835073254700960975"
+        },
+        {
+            "@id": "event:e3809518873292583331"
+        },
+        {
+            "@id": "event:e6443227797597605711"
+        },
+        {
+            "@id": "event:e3155030834012935400"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1962081140977701417"
+        },
+        {
+            "@id": "event:e1946128088161969326"
+        },
+        {
+            "@id": "event:e1728090310787569116"
+        },
+        {
+            "@id": "event:e9150620245092451094"
+        },
+        {
+            "@id": "event:e1862846999996762590"
+        },
+        {
+            "@id": "event:e3240762929959900622"
+        },
+        {
+            "@id": "event:e5226604976727663004"
+        },
+        {
+            "@id": "event:e1350078229083823434"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Westman, Wilhelm (1878-1955)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Westman, Johan Wilhelm"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "911727",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

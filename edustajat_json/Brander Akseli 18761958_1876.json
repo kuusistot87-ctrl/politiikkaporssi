@@ -1,0 +1,306 @@
+{
+    "@id": "people:p910307",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p2733327910052674088"
+        },
+        {
+            "@id": "ns1:p1999637000047865756"
+        },
+        {
+            "@id": "ns1:p1511761901650641244"
+        }
+    ],
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b6924344677277490502"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Brander, Aksel (Akseli) Vilhelm"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910307.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1933-09-01_1933-09-01_1951-07-20_1951-07-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, koulunjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o305"
+        },
+        {
+            "@id": "occupations:o152"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1245668615703062324"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910307"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2896028839276902817"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1005352432559411330"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910307"
+    },
+    "semparl:sortingLabel": "brander akseli",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910307"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910307.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Akseli_Brander"
+        },
+        {
+            "@id": "wd:Q11850391"
+        },
+        {
+            "@id": "finaf:000074598"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p10510"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1615244606084686680"
+        },
+        {
+            "@id": "event:e1069820826610485344"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5530868643064104829"
+        },
+        {
+            "@id": "event:e1817679647514490067"
+        },
+        {
+            "@id": "event:e3177440106502290503"
+        },
+        {
+            "@id": "event:e1078930251244800402"
+        },
+        {
+            "@id": "event:e8340070908753218471"
+        },
+        {
+            "@id": "event:e2464951552825835315"
+        },
+        {
+            "@id": "event:e2779877972501428814"
+        },
+        {
+            "@id": "event:e6263099882691302166"
+        },
+        {
+            "@id": "event:e1870139188110795558"
+        },
+        {
+            "@id": "event:e3558867137594776579"
+        },
+        {
+            "@id": "event:e2518818786563974530"
+        },
+        {
+            "@id": "event:e2859698817648646141"
+        },
+        {
+            "@id": "event:e7672713846429296677"
+        },
+        {
+            "@id": "event:e6638112185836727274"
+        },
+        {
+            "@id": "event:e1353468011600849268"
+        },
+        {
+            "@id": "event:e8602400207081851233"
+        },
+        {
+            "@id": "event:e2996370422454225822"
+        },
+        {
+            "@id": "event:e2089023265840282817"
+        },
+        {
+            "@id": "event:e2902877765704924185"
+        },
+        {
+            "@id": "event:e3089350291771142099"
+        },
+        {
+            "@id": "event:e1746423944862432621"
+        },
+        {
+            "@id": "event:e2046146848209251298"
+        },
+        {
+            "@id": "event:e3994445153732009831"
+        },
+        {
+            "@id": "event:e2559151064967330092"
+        },
+        {
+            "@id": "event:e8922531122656299597"
+        },
+        {
+            "@id": "event:e2394990547527583726"
+        },
+        {
+            "@id": "event:e3777524273607702046"
+        },
+        {
+            "@id": "event:e2366262013767958113"
+        },
+        {
+            "@id": "event:e1064872724699143877"
+        },
+        {
+            "@id": "event:e2807959280185911243"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        },
+        {
+            "@id": "event:e1167796855220596259"
+        },
+        {
+            "@id": "event:e7939762503109885054"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e2237708527243041867"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2082595608152975183"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Brander, Akseli (1876-1958)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Brander, Aksel Vilhelm"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910307",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

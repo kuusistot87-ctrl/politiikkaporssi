@@ -1,0 +1,217 @@
+{
+    "@id": "people:p910549",
+    "semparl:extra_info": "Asetettu syytteeseen valtiopetoksesta 1918",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Häkkinen, Samuel (Samuli)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910549.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1918-05-06_1918-05-06"
+        },
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1908-07-31_1908-07-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, torppari"
+    },
+    "semparl:end_of_representative_period_text": "06.05.1918",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1918-05-06_1918-05-06"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1361"
+        },
+        {
+            "@id": "occupations:o83"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1254248086773578617"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910549"
+    },
+    "xl:altLabel": {
+        "@id": "label:l9631053681291314556"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3043914167739213738"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910549"
+    },
+    "semparl:sortingLabel": "häkkinen samuli",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910549"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/SamuliHakkinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910549.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Samuli_H%C3%A4kkinen"
+        },
+        {
+            "@id": "wd:Q11892314"
+        },
+        {
+            "@id": "finaf:000094422"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1125301824844031979"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8292051977408521570"
+        },
+        {
+            "@id": "event:e2607244696007679653"
+        },
+        {
+            "@id": "event:e1987347549993244075"
+        },
+        {
+            "@id": "event:e1629113692304686307"
+        },
+        {
+            "@id": "event:e2963638479899555234"
+        },
+        {
+            "@id": "event:e1804314039226184786"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1538438052266146257"
+        },
+        {
+            "@id": "event:e2598281114832915244"
+        },
+        {
+            "@id": "event:e2744589876397015913"
+        },
+        {
+            "@id": "event:e1159693717660086378"
+        },
+        {
+            "@id": "event:e1730462071229612503"
+        },
+        {
+            "@id": "event:e2120495369210432915"
+        },
+        {
+            "@id": "event:e1776307328924026651"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Häkkinen, Samuli (1857-1918)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Häkkinen, Samuel"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910549",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

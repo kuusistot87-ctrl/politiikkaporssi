@@ -1,0 +1,391 @@
+{
+    "@id": "people:p910047",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b5384562112805035841"
+        },
+        {
+            "@id": "publications:b4651973046218200055"
+        },
+        {
+            "@id": "publications:b4087730520436193934"
+        },
+        {
+            "@id": "publications:b3236589792373905867"
+        },
+        {
+            "@id": "publications:b3225643374117940705"
+        },
+        {
+            "@id": "publications:b2966386183516083174"
+        },
+        {
+            "@id": "publications:b2469927367709018106"
+        },
+        {
+            "@id": "publications:b2247566080302894427"
+        },
+        {
+            "@id": "publications:b2149769443095664362"
+        },
+        {
+            "@id": "publications:b2007642935656160361"
+        },
+        {
+            "@id": "publications:b1972750756602028629"
+        },
+        {
+            "@id": "publications:b1519826536834030693"
+        },
+        {
+            "@id": "publications:b1494923740369406353"
+        },
+        {
+            "@id": "publications:b1093166396204725501"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Juva(v:een 1935 Juvelius), Mikko Einar"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910047.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1964-09-15_1964-09-15_1966-04-04_1966-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "teologian tohtori, filosofian tohtori, arkkipiispa"
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1052"
+        },
+        {
+            "@id": "occupations:o131"
+        },
+        {
+            "@id": "occupations:o233"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p3187129333364152566"
+        },
+        {
+            "@id": "event:p2953331309447483861"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910047"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2121009990309541378"
+        },
+        {
+            "@id": "label:l1473725064822744128"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1305790999478309577"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910047"
+    },
+    "semparl:sortingLabel": "juva mikko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910047"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikko-Juva-1964.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910047.aspx"
+        },
+        {
+            "@id": "yle:18-190304"
+        },
+        {
+            "@id": "viaf:12277889"
+        },
+        {
+            "@id": "natbib:3029"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mikko_Juva"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Mikko_Juva"
+        },
+        {
+            "@id": "wd:Q1933723"
+        },
+        {
+            "@id": "finaf:000045989"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p865"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1733039332465049432"
+        },
+        {
+            "@id": "event:e1045661423465619942"
+        },
+        {
+            "@id": "event:e5112195640440711093"
+        },
+        {
+            "@id": "event:e2290026620140855990"
+        },
+        {
+            "@id": "event:e1464043864336615848"
+        },
+        {
+            "@id": "event:e3100493750010442471"
+        },
+        {
+            "@id": "event:e1745779675171232602"
+        },
+        {
+            "@id": "event:e1970604833198385335"
+        },
+        {
+            "@id": "event:e7599290324634411756"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3287510008084806554"
+        },
+        {
+            "@id": "event:e2567602784552777709"
+        },
+        {
+            "@id": "event:e3385549406232821494"
+        },
+        {
+            "@id": "event:e1915072774917745304"
+        },
+        {
+            "@id": "event:e1528526505081087286"
+        },
+        {
+            "@id": "event:e4933398247020722529"
+        },
+        {
+            "@id": "event:e2425842380992474235"
+        },
+        {
+            "@id": "event:e2617584603839353235"
+        },
+        {
+            "@id": "event:e6335800806319934063"
+        },
+        {
+            "@id": "event:e1766110733536175186"
+        },
+        {
+            "@id": "event:e2429652911884787269"
+        },
+        {
+            "@id": "event:e1717672581504457196"
+        },
+        {
+            "@id": "event:e2276527064580911378"
+        },
+        {
+            "@id": "event:e3024621235707438115"
+        },
+        {
+            "@id": "event:e2715288646567887677"
+        },
+        {
+            "@id": "event:e2007558456583496674"
+        },
+        {
+            "@id": "event:e3092359548199729183"
+        },
+        {
+            "@id": "event:e2281872302647130984"
+        },
+        {
+            "@id": "event:e2412064103433972749"
+        },
+        {
+            "@id": "event:e1544193103569435156"
+        },
+        {
+            "@id": "event:e1639738608901153621"
+        },
+        {
+            "@id": "event:e3108246814409884733"
+        },
+        {
+            "@id": "event:e1573378602238237593"
+        },
+        {
+            "@id": "event:e6534697308436723992"
+        },
+        {
+            "@id": "event:e7080505317205559389"
+        },
+        {
+            "@id": "event:e1298495129723853087"
+        },
+        {
+            "@id": "event:e1211400166833647885"
+        },
+        {
+            "@id": "event:e1027020553673677979"
+        },
+        {
+            "@id": "event:e4920914568805476423"
+        },
+        {
+            "@id": "event:e2647187971788896487"
+        },
+        {
+            "@id": "event:e2430117414035093053"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e7754214720330651827"
+        },
+        {
+            "@id": "event:e2695316024260068688"
+        },
+        {
+            "@id": "event:e1203114551787020107"
+        },
+        {
+            "@id": "event:e2571349551549031358"
+        },
+        {
+            "@id": "event:e2491041543583321275"
+        },
+        {
+            "@id": "event:e4300219022020605232"
+        },
+        {
+            "@id": "event:e2736817237036539701"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Juva, Mikko (1918-2004)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Juvelius, Mikko Einar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Juva, Mikko Einar"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1628434"
+        },
+        {
+            "@id": "groups:Q613849"
+        }
+    ],
+    "semparl:id": "910047",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

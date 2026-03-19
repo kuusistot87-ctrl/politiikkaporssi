@@ -1,0 +1,178 @@
+{
+    "@id": "people:Q7310413",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p3205827595858885456"
+        },
+        {
+            "@id": "ns1:p1542084649628597384"
+        }
+    ],
+    "semparl:comment": {
+        "@language": "fi",
+        "@value": "ammatti/virkamies"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2019325813667223796"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d7310413"
+    },
+    "xl:altLabel": {
+        "@id": "label:l4380654850993330306"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1922544393158795060"
+    },
+    "dct:source": [
+        {
+            "@id": "wd:Q7310413"
+        },
+        {
+            "@id": "http://valtioneuvosto.fi/tietoa/historiaa/hallitukset-ja-ministerit/raportti/-/r/m2/317"
+        }
+    ],
+    "semparl:sortingLabel": "oittinen reino",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b7310413"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Reino-Oittinen-1969.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "viaf:215006419"
+        },
+        {
+            "@id": "natbib:647"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Reino_Oittinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Reino_Oittinen"
+        },
+        {
+            "@id": "wd:Q7310413"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p340"
+        },
+        {
+            "@id": "finaf:000073195"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2263"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Oittinen, Reino (1912-1978)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Oittinen, Reino Henrik"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1036937829720690326"
+        },
+        {
+            "@id": "event:e1181602277822909294"
+        },
+        {
+            "@id": "event:e1848377604573911159"
+        },
+        {
+            "@id": "event:e1877973047748089200"
+        },
+        {
+            "@id": "event:e1969476847519589963"
+        },
+        {
+            "@id": "event:e1983383036046272027"
+        },
+        {
+            "@id": "event:e3260840194221149097"
+        },
+        {
+            "@id": "event:e5908665048131415832"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

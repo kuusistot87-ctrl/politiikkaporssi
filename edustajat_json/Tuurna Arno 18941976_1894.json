@@ -1,0 +1,489 @@
+{
+    "@id": "people:p911660",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tuurna(v:een 1935 Thuneberg), Otto Arno"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911660.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1939-09-01_1939-09-01_1958-07-21_1958-07-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, kaupunginjohtaja, majuri evp."
+    },
+    "semparl:end_of_representative_period_text": "21.07.1958",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1958-07-21_1958-07-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o99"
+        },
+        {
+            "@id": "occupations:o120"
+        },
+        {
+            "@id": "occupations:o1160"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p4048272687902229855"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911660"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2310594479392626767"
+        },
+        {
+            "@id": "label:l1489676715962705861"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1078565694537230207"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911660"
+    },
+    "semparl:sortingLabel": "tuurna arno",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911660"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Arno-Tuurna-1930s.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911660.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Arno_Tuurna"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Arno_Tuurna"
+        },
+        {
+            "@id": "wd:Q6691517"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_4264"
+        },
+        {
+            "@id": "http://www.norssit.fi/semweb/#!/tiedot/http:~2F~2Fldf.fi~2Fnorssit~2Fnorssi_1014"
+        },
+        {
+            "@id": "finaf:000072004"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1756213235755426610"
+        },
+        {
+            "@id": "event:e1053587868694077615"
+        },
+        {
+            "@id": "event:e1045331785868932125"
+        },
+        {
+            "@id": "event:e8163203541239256513"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9987203396502331875"
+        },
+        {
+            "@id": "event:e7828867689044507126"
+        },
+        {
+            "@id": "event:e1635957687029149622"
+        },
+        {
+            "@id": "event:e1142361075069691111"
+        },
+        {
+            "@id": "event:e2264025273624195879"
+        },
+        {
+            "@id": "event:e1245453744516582859"
+        },
+        {
+            "@id": "event:e1454913956185143693"
+        },
+        {
+            "@id": "event:e1753189044299096604"
+        },
+        {
+            "@id": "event:e2877810852509807303"
+        },
+        {
+            "@id": "event:e7546675744387299037"
+        },
+        {
+            "@id": "event:e2374457941420482695"
+        },
+        {
+            "@id": "event:e3053074307549523885"
+        },
+        {
+            "@id": "event:e1400766715872301423"
+        },
+        {
+            "@id": "event:e3155932554357432479"
+        },
+        {
+            "@id": "event:e2493938350526820769"
+        },
+        {
+            "@id": "event:e1274330089454212262"
+        },
+        {
+            "@id": "event:e1476956378118691100"
+        },
+        {
+            "@id": "event:e2455532806498375039"
+        },
+        {
+            "@id": "event:e3213548169932965636"
+        },
+        {
+            "@id": "event:e6896321961699683142"
+        },
+        {
+            "@id": "event:e2463166724242074086"
+        },
+        {
+            "@id": "event:e1945565269709744885"
+        },
+        {
+            "@id": "event:e1312597972056763866"
+        },
+        {
+            "@id": "event:e2105463011454798793"
+        },
+        {
+            "@id": "event:e2219368169797551665"
+        },
+        {
+            "@id": "event:e2723099114210191507"
+        },
+        {
+            "@id": "event:e9897004025788387182"
+        },
+        {
+            "@id": "event:e6217518865278977399"
+        },
+        {
+            "@id": "event:e6024099755396212720"
+        },
+        {
+            "@id": "event:e2583564820847288605"
+        },
+        {
+            "@id": "event:e3137184716458118585"
+        },
+        {
+            "@id": "event:e1011148305308079311"
+        },
+        {
+            "@id": "event:e1281209814496548859"
+        },
+        {
+            "@id": "event:e9426618325089605898"
+        },
+        {
+            "@id": "event:e2367527973572132371"
+        },
+        {
+            "@id": "event:e3069575064521097967"
+        },
+        {
+            "@id": "event:e2208319264684480018"
+        },
+        {
+            "@id": "event:e3535817473096668176"
+        },
+        {
+            "@id": "event:e1782440943972687890"
+        },
+        {
+            "@id": "event:e5025089393649660111"
+        },
+        {
+            "@id": "event:e6380412417603743362"
+        },
+        {
+            "@id": "event:e2161403430574348971"
+        },
+        {
+            "@id": "event:e1282718172909814152"
+        },
+        {
+            "@id": "event:e1839420524238255611"
+        },
+        {
+            "@id": "event:e2869076433129556759"
+        },
+        {
+            "@id": "event:e1079237815745451575"
+        },
+        {
+            "@id": "event:e3001796566418993993"
+        },
+        {
+            "@id": "event:e2116879847396482248"
+        },
+        {
+            "@id": "event:e4880357021018850252"
+        },
+        {
+            "@id": "event:e1520200528008231608"
+        },
+        {
+            "@id": "event:e1731143499142141844"
+        },
+        {
+            "@id": "event:e3263589228833880092"
+        },
+        {
+            "@id": "event:e3371467384134375792"
+        },
+        {
+            "@id": "event:e1986880173908392117"
+        },
+        {
+            "@id": "event:e1261296354685156680"
+        },
+        {
+            "@id": "event:e3401848560305643856"
+        },
+        {
+            "@id": "event:e1428079257286797345"
+        },
+        {
+            "@id": "event:e1407755781292518228"
+        },
+        {
+            "@id": "event:e1751268706931395766"
+        },
+        {
+            "@id": "event:e2348007687066656866"
+        },
+        {
+            "@id": "event:e3357922073997686369"
+        },
+        {
+            "@id": "event:e1664039361282146399"
+        },
+        {
+            "@id": "event:e5557748784799540297"
+        },
+        {
+            "@id": "event:e2463868076105180275"
+        },
+        {
+            "@id": "event:e6379774127874435130"
+        },
+        {
+            "@id": "event:e3287568473250638868"
+        },
+        {
+            "@id": "event:e4320873607352421103"
+        },
+        {
+            "@id": "event:e8267716681155894064"
+        },
+        {
+            "@id": "event:e2336217948904457677"
+        },
+        {
+            "@id": "event:e1124562788313965017"
+        },
+        {
+            "@id": "event:e2629345869600970494"
+        },
+        {
+            "@id": "event:e3382124311793278316"
+        },
+        {
+            "@id": "event:e1936242587607981632"
+        },
+        {
+            "@id": "event:e2268141329723298735"
+        },
+        {
+            "@id": "event:e1328217134831863437"
+        },
+        {
+            "@id": "event:e2249735191335610016"
+        },
+        {
+            "@id": "event:e7956167257227455928"
+        },
+        {
+            "@id": "event:e3078512628858803923"
+        },
+        {
+            "@id": "event:e9261070303255019413"
+        },
+        {
+            "@id": "event:e5972056210779631696"
+        },
+        {
+            "@id": "event:e1591408093027570039"
+        },
+        {
+            "@id": "event:e1208640873423071876"
+        },
+        {
+            "@id": "event:e1242955729791048088"
+        },
+        {
+            "@id": "event:e2694194870449423642"
+        },
+        {
+            "@id": "event:e1727897614134596116"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e1191843984267054297"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e2576789958035553916"
+        },
+        {
+            "@id": "event:e1438985591966074361"
+        },
+        {
+            "@id": "event:e3008216436105343947"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e1893086213496117268"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tuurna, Arno (1894-1976)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Tuurna, Otto Arno"
+        },
+        {
+            "@language": "fi",
+            "@value": "Thuneberg, Otto Arno"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911660",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

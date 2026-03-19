@@ -1,0 +1,312 @@
+{
+    "@id": "people:p910058",
+    "semparl:authored": [
+        {
+            "@id": "publications:b4559136330883439047"
+        },
+        {
+            "@id": "publications:b2882396267817621159"
+        },
+        {
+            "@id": "publications:b1879334245801981559"
+        },
+        {
+            "@id": "publications:b1288474242922274282"
+        },
+        {
+            "@id": "publications:b1205932486896851565"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kangas, Ilmi Orvokki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910058.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1970-03-23_1970-03-23_1983-03-25_1983-03-25"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "emäntä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "25.03.1983",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1983-03-25_1983-03-25"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o135"
+        },
+        {
+            "@id": "occupations:o137"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p5240390198651389907"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910058"
+    },
+    "xl:altLabel": {
+        "@id": "label:l5396487394727948168"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2009270564466710653"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910058"
+    },
+    "semparl:sortingLabel": "kangas orvokki",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910058"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910058.aspx"
+        },
+        {
+            "@id": "viaf:48187402"
+        },
+        {
+            "@id": "natbib:4029"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Orvokki_Kangas"
+        },
+        {
+            "@id": "wd:Q11885819"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2135"
+        },
+        {
+            "@id": "finaf:000046653"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1092"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3387174414334460610"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3402199414144511323"
+        },
+        {
+            "@id": "event:e2979473446574377660"
+        },
+        {
+            "@id": "event:e1155729621288498942"
+        },
+        {
+            "@id": "event:e1872060307147488539"
+        },
+        {
+            "@id": "event:e1204688347983256654"
+        },
+        {
+            "@id": "event:e2387917999300316388"
+        },
+        {
+            "@id": "event:e2157756044110980735"
+        },
+        {
+            "@id": "event:e4020201358730669554"
+        },
+        {
+            "@id": "event:e2142277299475572875"
+        },
+        {
+            "@id": "event:e2686194652960280657"
+        },
+        {
+            "@id": "event:e2988635250050142726"
+        },
+        {
+            "@id": "event:e2806305258797952954"
+        },
+        {
+            "@id": "event:e3322222712829989652"
+        },
+        {
+            "@id": "event:e1194172959279692356"
+        },
+        {
+            "@id": "event:e5114321738362752615"
+        },
+        {
+            "@id": "event:e1496623726745500851"
+        },
+        {
+            "@id": "event:e1225957556417060058"
+        },
+        {
+            "@id": "event:e4242002562164776010"
+        },
+        {
+            "@id": "event:e8609163750562842588"
+        },
+        {
+            "@id": "event:e1423082607476947689"
+        },
+        {
+            "@id": "event:e2483605945960015195"
+        },
+        {
+            "@id": "event:e2197819375333099531"
+        },
+        {
+            "@id": "event:e2992365671250435382"
+        },
+        {
+            "@id": "event:e2166899347034407580"
+        },
+        {
+            "@id": "event:e2364331435739547823"
+        },
+        {
+            "@id": "event:e1686671525301362768"
+        },
+        {
+            "@id": "event:e7441266440224903440"
+        },
+        {
+            "@id": "event:e1002743386379631820"
+        },
+        {
+            "@id": "event:e1659567981881275687"
+        },
+        {
+            "@id": "event:e1532244281975186829"
+        },
+        {
+            "@id": "event:e6812563239152868580"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e4536684556211399391"
+        },
+        {
+            "@id": "event:e1448521121488057565"
+        },
+        {
+            "@id": "event:e9228434574425832485"
+        },
+        {
+            "@id": "event:e4380841010064402733"
+        },
+        {
+            "@id": "event:e1826269009732863902"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kangas, Orvokki (1921-2000)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kangas, Ilmi Orvokki"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910058",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

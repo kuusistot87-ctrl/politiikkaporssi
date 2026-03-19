@@ -1,0 +1,363 @@
+{
+    "@id": "people:p910581",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b4695722728390361367"
+        },
+        {
+            "@id": "publications:b3279894188085410843"
+        },
+        {
+            "@id": "publications:b1582335562385705074"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ingman, Lars (Lauri) Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910581.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1919-03-31_1919-03-31"
+        },
+        {
+            "@id": "times:t_1922-09-05_1922-09-05_1929-07-31_1929-07-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, arkkipiispa"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1929",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1929-07-31_1929-07-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1052"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p8665401669300095687"
+        },
+        {
+            "@id": "event:p2339853662989076786"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910581"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2868053596664475928"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1511503460661413970"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910581"
+    },
+    "semparl:sortingLabel": "ingman lauri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910581"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingman%20Lauri.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910581.aspx"
+        },
+        {
+            "@id": "viaf:8192547"
+        },
+        {
+            "@id": "natbib:641"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lauri_Ingman"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Lauri_Ingman"
+        },
+        {
+            "@id": "wd:Q440166"
+        },
+        {
+            "@id": "finaf:000075031"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p338"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2971023866815194048"
+        },
+        {
+            "@id": "event:e2074815666794062743"
+        },
+        {
+            "@id": "event:e7305256813928647943"
+        },
+        {
+            "@id": "event:e1025292862020562235"
+        },
+        {
+            "@id": "event:e8432896954079209209"
+        },
+        {
+            "@id": "event:e3372136038761735503"
+        },
+        {
+            "@id": "event:e3314201016574269390"
+        },
+        {
+            "@id": "event:e6100251497603937180"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8952643773271927250"
+        },
+        {
+            "@id": "event:e6336218393242267613"
+        },
+        {
+            "@id": "event:e6186106853976398096"
+        },
+        {
+            "@id": "event:e4799997616240474307"
+        },
+        {
+            "@id": "event:e3080396580277037080"
+        },
+        {
+            "@id": "event:e2570008958400558589"
+        },
+        {
+            "@id": "event:e1530609370542755833"
+        },
+        {
+            "@id": "event:e1133058789271797202"
+        },
+        {
+            "@id": "event:e1123060492367465421"
+        },
+        {
+            "@id": "event:e3267378392177348601"
+        },
+        {
+            "@id": "event:e1848248717827112741"
+        },
+        {
+            "@id": "event:e7761478009691971772"
+        },
+        {
+            "@id": "event:e2597455681376937042"
+        },
+        {
+            "@id": "event:e1058012380131969547"
+        },
+        {
+            "@id": "event:e3271986427727930884"
+        },
+        {
+            "@id": "event:e1670108831134151037"
+        },
+        {
+            "@id": "event:e1800809159094231930"
+        },
+        {
+            "@id": "event:e1063499403423005745"
+        },
+        {
+            "@id": "event:e3116438249550672625"
+        },
+        {
+            "@id": "event:e9617143720782088619"
+        },
+        {
+            "@id": "event:e2937652325006460874"
+        },
+        {
+            "@id": "event:e2997900555699686448"
+        },
+        {
+            "@id": "event:e1796567132469087710"
+        },
+        {
+            "@id": "event:e1372412063888803826"
+        },
+        {
+            "@id": "event:e1082962247056847270"
+        },
+        {
+            "@id": "event:e3395938879901122370"
+        },
+        {
+            "@id": "event:e3043110796178075140"
+        },
+        {
+            "@id": "event:e8755846180973825011"
+        },
+        {
+            "@id": "event:e1880032532322146938"
+        },
+        {
+            "@id": "event:e3226746628243595225"
+        },
+        {
+            "@id": "event:e8450143657433468043"
+        },
+        {
+            "@id": "event:e1809388723495043452"
+        },
+        {
+            "@id": "event:e2881975961621583662"
+        },
+        {
+            "@id": "event:e8972778405370118475"
+        },
+        {
+            "@id": "event:e1999744165004461782"
+        },
+        {
+            "@id": "event:e1112615170228655502"
+        },
+        {
+            "@id": "event:e1470570450436605478"
+        },
+        {
+            "@id": "event:e3399487737280026679"
+        },
+        {
+            "@id": "event:e1513905552217524818"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e1595447894567197347"
+        },
+        {
+            "@id": "event:e2694194870449423642"
+        },
+        {
+            "@id": "event:e1425895767676698518"
+        },
+        {
+            "@id": "event:e2798889158821282243"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ingman, Lauri (1868-1934)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Ingman, Lars Johannes"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q304191"
+        }
+    ],
+    "semparl:id": "910581",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

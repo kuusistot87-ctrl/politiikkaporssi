@@ -1,0 +1,231 @@
+{
+    "@id": "people:p910799",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Koskenniemi, Niilo Topias"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910799.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1970-03-23_1970-03-23_1987-03-20_1987-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kunnanjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "20.03.1987",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1987-03-20_1987-03-20"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o317"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2229721006745081988"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910799"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1791369130009113458"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l8276546685037864679"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910799"
+    },
+    "semparl:sortingLabel": "koskenniemi niilo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910799"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910799.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Niilo_Koskenniemi"
+        },
+        {
+            "@id": "wd:Q17381822"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1488887972580193657"
+        },
+        {
+            "@id": "event:e1145934877750541285"
+        },
+        {
+            "@id": "event:e3126506775128650825"
+        },
+        {
+            "@id": "event:e1261360180821874870"
+        },
+        {
+            "@id": "event:e6219668492705334828"
+        },
+        {
+            "@id": "event:e2353327738191828258"
+        },
+        {
+            "@id": "event:e4569486852298212820"
+        },
+        {
+            "@id": "event:e2541036616110083958"
+        },
+        {
+            "@id": "event:e2546290216045320817"
+        },
+        {
+            "@id": "event:e6725784728514351047"
+        },
+        {
+            "@id": "event:e2110099898212988384"
+        },
+        {
+            "@id": "event:e2405429294486078871"
+        },
+        {
+            "@id": "event:e1855610123157891879"
+        },
+        {
+            "@id": "event:e3608608653359857647"
+        },
+        {
+            "@id": "event:e2422058805464467227"
+        },
+        {
+            "@id": "event:e2291995703084076812"
+        },
+        {
+            "@id": "event:e9268809898553721869"
+        },
+        {
+            "@id": "event:e2762951265617556441"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1843698646222587808"
+        },
+        {
+            "@id": "event:e1409792813164159340"
+        },
+        {
+            "@id": "event:e1221931569557770879"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Koskenniemi, Niilo (1926-1988)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Koskenniemi, Niilo Topias"
+    },
+    "semparl:party": {
+        "@id": "groups:Q585735"
+    },
+    "semparl:id": "910799",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "@id": "people:p911566",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b1276404872459731712"
+    },
+    "semparl:extra_info": "Yleisesikuntaupseeri 1927",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "everstiluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1407672051062138661"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b8806650633712458008"
+        },
+        {
+            "@id": "publications:b7333621650529790100"
+        },
+        {
+            "@id": "publications:b6660914866960983496"
+        },
+        {
+            "@id": "publications:b5386597799745724879"
+        },
+        {
+            "@id": "publications:b3381621157644661632"
+        },
+        {
+            "@id": "publications:b3187408145398392740"
+        },
+        {
+            "@id": "publications:b3052969465567065248"
+        },
+        {
+            "@id": "publications:b2444117226970473719"
+        },
+        {
+            "@id": "publications:b2084953181576785255"
+        },
+        {
+            "@id": "publications:b1589489461715488780"
+        },
+        {
+            "@id": "publications:b1190188895608729917"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Susitaival(v:een 1927 Sivén), Paavo Oskar Edvard"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911566.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1939-09-01_1939-09-01_1940-12-31_1940-12-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "everstiluutnantti evp., kirjailija"
+    },
+    "semparl:end_of_representative_period_text": "31.12.1940",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1940-12-31_1940-12-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o33"
+        },
+        {
+            "@id": "occupations:o1744"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2976020545986123264"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911566"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2732289692943004998"
+        },
+        {
+            "@id": "label:l2163381982014541116"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2497619766650039771"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911566"
+    },
+    "semparl:sortingLabel": "susitaival paavo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911566"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Paavo%20Susitaival%201935.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911566.aspx"
+        },
+        {
+            "@id": "viaf:60441970"
+        },
+        {
+            "@id": "natbib:5598"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Paavo_Susitaival"
+        },
+        {
+            "@id": "wd:Q6961306"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2359"
+        },
+        {
+            "@id": "http://www.norssit.fi/semweb/#!/tiedot/http:~2F~2Fldf.fi~2Fnorssit~2Fnorssi_1190"
+        },
+        {
+            "@id": "finaf:000092745"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1340"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1376383408465759712"
+        },
+        {
+            "@id": "event:e3226340006386870116"
+        },
+        {
+            "@id": "event:e1527336718600713267"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9098721711779537164"
+        },
+        {
+            "@id": "event:e1543097212621871438"
+        },
+        {
+            "@id": "event:e3087915223209625268"
+        },
+        {
+            "@id": "event:e2005538900548483886"
+        },
+        {
+            "@id": "event:e3371899249031619653"
+        },
+        {
+            "@id": "event:e3076866266309979370"
+        },
+        {
+            "@id": "event:e1952944934313314662"
+        },
+        {
+            "@id": "event:e2108025793715387014"
+        },
+        {
+            "@id": "event:e2261435033982216722"
+        },
+        {
+            "@id": "event:e1325913389412862274"
+        },
+        {
+            "@id": "event:e2793628380104155397"
+        },
+        {
+            "@id": "event:e4749514258723534518"
+        },
+        {
+            "@id": "event:e1610704129851673447"
+        },
+        {
+            "@id": "event:e3055151853001228089"
+        },
+        {
+            "@id": "event:e6884951308633965472"
+        },
+        {
+            "@id": "event:e2466581472311964241"
+        },
+        {
+            "@id": "event:e2080660855634267303"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Susitaival, Paavo (1896-1993)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Sivén, Paavo Oskar Edvard"
+        },
+        {
+            "@language": "fi",
+            "@value": "Susitaival, Paavo Oskar Edvard"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1442516"
+    },
+    "semparl:id": "911566",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,363 @@
+{
+    "@id": "people:p910320",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Cajander, Aimo Kaarlo (A.K.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910320.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1936-09-01_1936-09-01_1943-01-21_1943-01-21"
+        },
+        {
+            "@id": "times:t_1929-08-01_1929-08-01_1933-08-31_1933-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, pääjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "21.01.1943",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1943-01-21_1943-01-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1746602349845029791"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910320"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1924261537595056425"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2652028929483964140"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910320"
+    },
+    "semparl:sortingLabel": "cajander a.k.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910320"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Akcajander.png"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910320.aspx"
+        },
+        {
+            "@id": "viaf:23280404"
+        },
+        {
+            "@id": "natbib:727"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/A._K._Cajander"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Aimo_Cajander"
+        },
+        {
+            "@id": "wd:Q319444"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2019"
+        },
+        {
+            "@id": "finaf:000065907"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p364"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1748908226675566741"
+        },
+        {
+            "@id": "event:e1765271697590444337"
+        },
+        {
+            "@id": "event:e8315285809478507752"
+        },
+        {
+            "@id": "event:e1456605007252713202"
+        },
+        {
+            "@id": "event:e1695452642695006260"
+        },
+        {
+            "@id": "event:e2835260388825247324"
+        },
+        {
+            "@id": "event:e1069820826610485344"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5391411983757887482"
+        },
+        {
+            "@id": "event:e4638021632122552083"
+        },
+        {
+            "@id": "event:e3380495550266732262"
+        },
+        {
+            "@id": "event:e2851425011750905551"
+        },
+        {
+            "@id": "event:e2802698675595047236"
+        },
+        {
+            "@id": "event:e2391839333298105566"
+        },
+        {
+            "@id": "event:e1733110479296894021"
+        },
+        {
+            "@id": "event:e1406007528474701755"
+        },
+        {
+            "@id": "event:e1019930330061909762"
+        },
+        {
+            "@id": "event:e1428860492468617460"
+        },
+        {
+            "@id": "event:e2498316172494892404"
+        },
+        {
+            "@id": "event:e1817390178840241995"
+        },
+        {
+            "@id": "event:e1023802054630783283"
+        },
+        {
+            "@id": "event:e2456812412187932008"
+        },
+        {
+            "@id": "event:e2193910469391783736"
+        },
+        {
+            "@id": "event:e7949231779276661204"
+        },
+        {
+            "@id": "event:e2479438675674066883"
+        },
+        {
+            "@id": "event:e2380728171749379737"
+        },
+        {
+            "@id": "event:e2888790967542571756"
+        },
+        {
+            "@id": "event:e2238884060259357105"
+        },
+        {
+            "@id": "event:e1596516976164777426"
+        },
+        {
+            "@id": "event:e3051386572241672004"
+        },
+        {
+            "@id": "event:e3236916007380818711"
+        },
+        {
+            "@id": "event:e1958596104846430413"
+        },
+        {
+            "@id": "event:e1204560295655205293"
+        },
+        {
+            "@id": "event:e1598901877734158075"
+        },
+        {
+            "@id": "event:e2510860914645964585"
+        },
+        {
+            "@id": "event:e2570791284247156605"
+        },
+        {
+            "@id": "event:e6470006884156176148"
+        },
+        {
+            "@id": "event:e1773668176148640181"
+        },
+        {
+            "@id": "event:e3321268110150541709"
+        },
+        {
+            "@id": "event:e1773354002702920777"
+        },
+        {
+            "@id": "event:e1240441579095138038"
+        },
+        {
+            "@id": "event:e1217220708973137236"
+        },
+        {
+            "@id": "event:e6069573402899568552"
+        },
+        {
+            "@id": "event:e2849657451946123382"
+        },
+        {
+            "@id": "event:e3224443149910900858"
+        },
+        {
+            "@id": "event:e9630485048942583595"
+        },
+        {
+            "@id": "event:e3319927780659496715"
+        },
+        {
+            "@id": "event:e2569664002615539705"
+        },
+        {
+            "@id": "event:e3113907995919005488"
+        },
+        {
+            "@id": "event:e3260162140418284383"
+        },
+        {
+            "@id": "event:e3095742961622189265"
+        },
+        {
+            "@id": "event:e1615617218208213110"
+        },
+        {
+            "@id": "event:e1832996487815119780"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e1255358115347366398"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e1455597163229634737"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2082595608152975183"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e1575543740984252011"
+        },
+        {
+            "@id": "event:e6973197151873538875"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Cajander, A.K. (1879-1943)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Cajander, Aimo Kaarlo"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "910320",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

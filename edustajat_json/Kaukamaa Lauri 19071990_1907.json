@@ -1,0 +1,254 @@
+{
+    "@id": "people:p910699",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kaukamaa(v:een 1929 Munter), Lauri Iivari (L.I.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910699.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1948-07-22_1948-07-22_1951-07-20_1951-07-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian tohtori, kouluneuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1074"
+        },
+        {
+            "@id": "occupations:o233"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p9977219390307984056"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910699"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l9046776060763023516"
+        },
+        {
+            "@id": "label:l8290903864598234160"
+        },
+        {
+            "@id": "label:l8090285783186308034"
+        },
+        {
+            "@id": "label:l2637098308034566014"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1330056172499382411"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910699"
+    },
+    "semparl:sortingLabel": "kaukamaa lauri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910699"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910699.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lauri_Kaukamaa"
+        },
+        {
+            "@id": "wd:Q18216881"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2723698630240680116"
+        },
+        {
+            "@id": "event:e2412526470360131454"
+        },
+        {
+            "@id": "event:e1886658999580778094"
+        },
+        {
+            "@id": "event:e1527584389317948246"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1749020678174444565"
+        },
+        {
+            "@id": "event:e8083988019007481216"
+        },
+        {
+            "@id": "event:e3068145972081663879"
+        },
+        {
+            "@id": "event:e1215395410615119980"
+        },
+        {
+            "@id": "event:e1793044345724757090"
+        },
+        {
+            "@id": "event:e1804755204612423917"
+        },
+        {
+            "@id": "event:e8176985982929320219"
+        },
+        {
+            "@id": "event:e3058778217214085327"
+        },
+        {
+            "@id": "event:e2313150338621619506"
+        },
+        {
+            "@id": "event:e3016656475394207110"
+        },
+        {
+            "@id": "event:e1260915158565657883"
+        },
+        {
+            "@id": "event:e1018464694613777175"
+        },
+        {
+            "@id": "event:e2202172748858643652"
+        },
+        {
+            "@id": "event:e1662179011160110800"
+        },
+        {
+            "@id": "event:e2586699678143215349"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2233436259280938359"
+        },
+        {
+            "@id": "event:e1667044086152201552"
+        },
+        {
+            "@id": "event:e6426646998110993065"
+        },
+        {
+            "@id": "event:e3000659563580007526"
+        },
+        {
+            "@id": "event:e1615084478525013293"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kaukamaa, Lauri (1907-1990)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Kaukamaa, L.I."
+        },
+        {
+            "@language": "fi",
+            "@value": "Munter, Lauri Iivari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kaukamaa, Lauri Iivari"
+        },
+        {
+            "@language": "fi",
+            "@value": "Munter, L.I."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910699",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,273 @@
+{
+    "@id": "people:p1148",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lohela, Maria Tuulia"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1148.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "projektipäällikkö, humanististen tieteiden kandidaatti"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o49"
+        },
+        {
+            "@id": "occupations:o848"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p8409056731469141695"
+        },
+        {
+            "@id": "event:p1717424460605423795"
+        },
+        {
+            "@id": "event:p1138577764153119151"
+        }
+    ],
+    "xl:altLabel": {
+        "@id": "label:l2002049865950123312"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1974115438510314529"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1148"
+    },
+    "semparl:sortingLabel": "lohela maria",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1148"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Maria%20Lohela%202015.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1148.aspx"
+        },
+        {
+            "@id": "yle:18-236861"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Maria_Lohela"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Maria_Lohela"
+        },
+        {
+            "@id": "wd:Q16984994"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8351329585697459119"
+        },
+        {
+            "@id": "event:e2841272730319991799"
+        },
+        {
+            "@id": "event:e1990372291378376862"
+        },
+        {
+            "@id": "event:e1802772862855959735"
+        },
+        {
+            "@id": "event:e1543457273568842741"
+        },
+        {
+            "@id": "event:e1794726363631413779"
+        },
+        {
+            "@id": "event:e3018093210825255314"
+        },
+        {
+            "@id": "event:e2549655163380581588"
+        },
+        {
+            "@id": "event:e9440868219381182757"
+        },
+        {
+            "@id": "event:e9310479781795838797"
+        },
+        {
+            "@id": "event:e2647185820735442224"
+        },
+        {
+            "@id": "event:e1065908168430179795"
+        },
+        {
+            "@id": "event:e1134873612481476406"
+        },
+        {
+            "@id": "event:e1898367804379864132"
+        },
+        {
+            "@id": "event:e1215343761858215479"
+        },
+        {
+            "@id": "event:e3046129298721469370"
+        },
+        {
+            "@id": "event:e1362254579822813493"
+        },
+        {
+            "@id": "event:e1718332253784598239"
+        },
+        {
+            "@id": "event:e1807362035308032345"
+        },
+        {
+            "@id": "event:e2187668219593302712"
+        },
+        {
+            "@id": "event:e2749066273214614938"
+        },
+        {
+            "@id": "event:e1608321419273895089"
+        },
+        {
+            "@id": "event:e2673735894181181579"
+        },
+        {
+            "@id": "event:e1784118243996935860"
+        },
+        {
+            "@id": "event:e3213601125094323643"
+        },
+        {
+            "@id": "event:e3290502801620040501"
+        },
+        {
+            "@id": "event:e6559442001876137023"
+        },
+        {
+            "@id": "event:e2474299607645885687"
+        },
+        {
+            "@id": "event:e1750141423159593143"
+        },
+        {
+            "@id": "event:e1371063673552230659"
+        },
+        {
+            "@id": "event:e2414776510847767268"
+        },
+        {
+            "@id": "event:e6578129537576099590"
+        },
+        {
+            "@id": "event:e3364684472714668602"
+        },
+        {
+            "@id": "event:e2430420986768257924"
+        },
+        {
+            "@id": "event:e6746618414859156419"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lohela, Maria (1978-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Lohela, Maria Tuulia"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q634277"
+        },
+        {
+            "@id": "groups:Q30337076"
+        },
+        {
+            "@id": "groups:Q52157683"
+        }
+    ],
+    "semparl:id": "1148",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

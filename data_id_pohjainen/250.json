@@ -1,0 +1,295 @@
+{
+    "@id": "people:p250",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ryynänen, Anja Mirja Kerttuli"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:250.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1987-03-21_1987-03-21_1995-03-23_1995-03-23"
+        },
+        {
+            "@id": "times:t_1999-03-24_1999-03-24_2003-03-18_2003-03-18"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, lehtori"
+    },
+    "semparl:end_of_representative_period_text": "18.03.2003",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2003-03-18_2003-03-18"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o107"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2563362264544149354"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3207918416921148928"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2066255279812917323"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=250"
+    },
+    "semparl:sortingLabel": "ryynänen mirja",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b250"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/MEP%27s%20makeover%201998%20%28JOKASEK5I03C-1%29.tif"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:250.aspx"
+        },
+        {
+            "@id": "viaf:419144783070651055684"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mirja_Ryyn%C3%A4nen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Mirja_Ryyn%C3%A4nen"
+        },
+        {
+            "@id": "wd:Q11882983"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e9224493256995150581"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8150852253359680074"
+        },
+        {
+            "@id": "event:e6982767990429019361"
+        },
+        {
+            "@id": "event:e6200783393751338712"
+        },
+        {
+            "@id": "event:e3061424489953555190"
+        },
+        {
+            "@id": "event:e2817482153812927397"
+        },
+        {
+            "@id": "event:e2180927510877956591"
+        },
+        {
+            "@id": "event:e1948772168346021651"
+        },
+        {
+            "@id": "event:e1702641880287463373"
+        },
+        {
+            "@id": "event:e1323870523272190468"
+        },
+        {
+            "@id": "event:e1752777078415948984"
+        },
+        {
+            "@id": "event:e5595978814948187601"
+        },
+        {
+            "@id": "event:e2648728678732252569"
+        },
+        {
+            "@id": "event:e1215986878291032901"
+        },
+        {
+            "@id": "event:e1104749797800005015"
+        },
+        {
+            "@id": "event:e3422343663780988655"
+        },
+        {
+            "@id": "event:e1582900956160540334"
+        },
+        {
+            "@id": "event:e1520665523680552151"
+        },
+        {
+            "@id": "event:e1069123240843544099"
+        },
+        {
+            "@id": "event:e1628832649651174191"
+        },
+        {
+            "@id": "event:e2490888419362790430"
+        },
+        {
+            "@id": "event:e3192763790539429055"
+        },
+        {
+            "@id": "event:e6156928979118932275"
+        },
+        {
+            "@id": "event:e2446301518743815581"
+        },
+        {
+            "@id": "event:e3953202678901523784"
+        },
+        {
+            "@id": "event:e2162218564544173352"
+        },
+        {
+            "@id": "event:e3317076105996517212"
+        },
+        {
+            "@id": "event:e2765522531579201372"
+        },
+        {
+            "@id": "event:e2766442108357479139"
+        },
+        {
+            "@id": "event:e1676204714858553095"
+        },
+        {
+            "@id": "event:e3147304615502154788"
+        },
+        {
+            "@id": "event:e1040192397150071321"
+        },
+        {
+            "@id": "event:e1312190760649500020"
+        },
+        {
+            "@id": "event:e1455532738967511280"
+        },
+        {
+            "@id": "event:e1752514313941013052"
+        },
+        {
+            "@id": "event:e6168508507263768334"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e9484035004013130769"
+        },
+        {
+            "@id": "event:e3303656867960650609"
+        },
+        {
+            "@id": "event:e7818727297863448326"
+        },
+        {
+            "@id": "event:e2550258482692221814"
+        },
+        {
+            "@id": "event:e1466501706587524992"
+        },
+        {
+            "@id": "event:e3121398123168878257"
+        },
+        {
+            "@id": "event:e2562610477302665617"
+        },
+        {
+            "@id": "event:e2073891982677024300"
+        },
+        {
+            "@id": "event:e2738287858439150976"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ryynänen, Mirja (1944-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Ryynänen, Anja Mirja Kerttuli"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "250",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

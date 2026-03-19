@@ -1,0 +1,333 @@
+{
+    "@id": "people:p1319",
+    "semparl:authored": [
+        {
+            "@id": "publications:b1433819639502691138"
+        },
+        {
+            "@id": "publications:b1286977052514331068"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Taavitsainen, Satu Johanna"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1319.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sosionomi (AMK), toiminnanjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o102"
+        },
+        {
+            "@id": "occupations:o59"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3222094805829608540"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2862872157584392172"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2491864481754279198"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1319"
+    },
+    "semparl:sortingLabel": "taavitsainen satu",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1319"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1319.aspx"
+        },
+        {
+            "@id": "yle:18-292896"
+        },
+        {
+            "@id": "twitter:SatuTaavitsaine"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Satu_Taavitsainen"
+        },
+        {
+            "@id": "wd:Q20254160"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2163558965097179056"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6153857618526184222"
+        },
+        {
+            "@id": "event:e2459954640088729221"
+        },
+        {
+            "@id": "event:e1210051511952520957"
+        },
+        {
+            "@id": "event:e1855248158313938430"
+        },
+        {
+            "@id": "event:e3042888687967682331"
+        },
+        {
+            "@id": "event:e2061808223748776250"
+        },
+        {
+            "@id": "event:e3378357374965027362"
+        },
+        {
+            "@id": "event:e1219915973782739177"
+        },
+        {
+            "@id": "event:e8579010763273402953"
+        },
+        {
+            "@id": "event:e2839746850469932741"
+        },
+        {
+            "@id": "event:e3380321853582273605"
+        },
+        {
+            "@id": "event:e2179787127023807030"
+        },
+        {
+            "@id": "event:e6801548792923054014"
+        },
+        {
+            "@id": "event:e2759582477085874533"
+        },
+        {
+            "@id": "event:e3176073347836261299"
+        },
+        {
+            "@id": "event:e1147067929396343405"
+        },
+        {
+            "@id": "event:e2974851189189940120"
+        },
+        {
+            "@id": "event:e2646115595382809031"
+        },
+        {
+            "@id": "event:e3418009819758551391"
+        },
+        {
+            "@id": "event:e1426540940096048680"
+        },
+        {
+            "@id": "event:e5093088762057980521"
+        },
+        {
+            "@id": "event:e2529751839498710628"
+        },
+        {
+            "@id": "event:e7672172821151065104"
+        },
+        {
+            "@id": "event:e3293850177248618504"
+        },
+        {
+            "@id": "event:e6843233471492389527"
+        },
+        {
+            "@id": "event:e2499485815509983382"
+        },
+        {
+            "@id": "event:e2710273748104037937"
+        },
+        {
+            "@id": "event:e1208360070658448005"
+        },
+        {
+            "@id": "event:e7388563492158192569"
+        },
+        {
+            "@id": "event:e1921781316454809867"
+        },
+        {
+            "@id": "event:e7605682167165441216"
+        },
+        {
+            "@id": "event:e1074195513582654988"
+        },
+        {
+            "@id": "event:e5723415811444127315"
+        },
+        {
+            "@id": "event:e2429816402703808038"
+        },
+        {
+            "@id": "event:e2021715136828036483"
+        },
+        {
+            "@id": "event:e1611578545637727628"
+        },
+        {
+            "@id": "event:e1903287995226452332"
+        },
+        {
+            "@id": "event:e3223580303232667822"
+        },
+        {
+            "@id": "event:e3348819578796701832"
+        },
+        {
+            "@id": "event:e1390474365410227187"
+        },
+        {
+            "@id": "event:e2032434988555177354"
+        },
+        {
+            "@id": "event:e1202863738068663218"
+        },
+        {
+            "@id": "event:e2367466695024619895"
+        },
+        {
+            "@id": "event:e1649449203448760541"
+        },
+        {
+            "@id": "event:e9856128728007103488"
+        },
+        {
+            "@id": "event:e3136492209650107283"
+        },
+        {
+            "@id": "event:e3222066412960179886"
+        },
+        {
+            "@id": "event:e1798628954381639043"
+        },
+        {
+            "@id": "event:e8088473517957734595"
+        },
+        {
+            "@id": "event:e8556940820998465677"
+        },
+        {
+            "@id": "event:e1755116444606528166"
+        },
+        {
+            "@id": "event:e1204097281236816869"
+        },
+        {
+            "@id": "event:e3087109505218301754"
+        },
+        {
+            "@id": "event:e3025455695108445355"
+        },
+        {
+            "@id": "event:e1353195058253253862"
+        },
+        {
+            "@id": "event:e6837148528252402750"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Taavitsainen, Satu (1977-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Taavitsainen, Satu Johanna"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q52157683"
+        }
+    ],
+    "semparl:id": "1319",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

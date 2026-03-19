@@ -1,0 +1,261 @@
+{
+    "@id": "people:p910373",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Gadolin, Alexander Wilhelm (A.W.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910373.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-04-13_1917-04-13_1917-10-31_1917-10-31"
+        },
+        {
+            "@id": "times:t_1914-02-02_1914-02-02_1917-04-03_1917-04-03"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori"
+    },
+    "semparl:end_of_representative_period_text": "31.10.1917",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1917-10-31_1917-10-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o34"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2215010384016028277"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910373"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3012071597421106112"
+        },
+        {
+            "@id": "label:l1168648912975329188"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2028743283889839107"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910373"
+    },
+    "semparl:sortingLabel": "gadolin alexander",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910373"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910373.aspx"
+        },
+        {
+            "@id": "viaf:53642715"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Alexander_Gadolin"
+        },
+        {
+            "@id": "wd:Q2152676"
+        },
+        {
+            "@id": "finaf:000086281"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3388267048176469898"
+        },
+        {
+            "@id": "event:e1623577908819256435"
+        },
+        {
+            "@id": "event:e1858866737394468286"
+        },
+        {
+            "@id": "event:e3850648977095640287"
+        },
+        {
+            "@id": "event:e2144434170676849435"
+        },
+        {
+            "@id": "event:e3314201016574269390"
+        },
+        {
+            "@id": "event:e4726103112370477769"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3798230767144030404"
+        },
+        {
+            "@id": "event:e3338736973888389291"
+        },
+        {
+            "@id": "event:e2016900299648922852"
+        },
+        {
+            "@id": "event:e3177137416724320785"
+        },
+        {
+            "@id": "event:e7282882932762424006"
+        },
+        {
+            "@id": "event:e3770734818422096308"
+        },
+        {
+            "@id": "event:e4100095799200434445"
+        },
+        {
+            "@id": "event:e3725006128134518207"
+        },
+        {
+            "@id": "event:e5472721339453164267"
+        },
+        {
+            "@id": "event:e6363568862646729801"
+        },
+        {
+            "@id": "event:e1564647796011948526"
+        },
+        {
+            "@id": "event:e1589900228508997346"
+        },
+        {
+            "@id": "event:e2566501568857247212"
+        },
+        {
+            "@id": "event:e7741062122209026758"
+        },
+        {
+            "@id": "event:e3176781915838992178"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1863258391498243490"
+        },
+        {
+            "@id": "event:e7285418405853077168"
+        },
+        {
+            "@id": "event:e2680571954535203025"
+        },
+        {
+            "@id": "event:e1155268442398425596"
+        },
+        {
+            "@id": "event:e1864615750001533713"
+        },
+        {
+            "@id": "event:e2963573116343157838"
+        },
+        {
+            "@id": "event:e3214616401671023059"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Gadolin, Alexander (1868-1939)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Gadolin, A.W."
+        },
+        {
+            "@language": "fi",
+            "@value": "Gadolin, Alexander Wilhelm"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910373",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

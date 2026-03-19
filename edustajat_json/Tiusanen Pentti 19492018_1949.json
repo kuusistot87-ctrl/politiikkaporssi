@@ -1,0 +1,318 @@
+{
+    "@id": "people:p505",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "korpraali"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2765523183330582251"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tiusanen, Pentti Uolevi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:505.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24_2011-04-19_2011-04-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirurgian erikoislääkäri"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o341"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1195923152511374239"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d505"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2298924112780075927"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2050158673172601544"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=505"
+    },
+    "semparl:sortingLabel": "tiusanen pentti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b505"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Pentti%20Tiusanen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:505.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pentti_Tiusanen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Pentti_Tiusanen"
+        },
+        {
+            "@id": "wd:Q7165321"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8654593606626445866"
+        },
+        {
+            "@id": "event:e3371724950298914727"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7261094565894849051"
+        },
+        {
+            "@id": "event:e3646097192043132163"
+        },
+        {
+            "@id": "event:e2237161669685700895"
+        },
+        {
+            "@id": "event:e2871558476826002205"
+        },
+        {
+            "@id": "event:e1801033857813204493"
+        },
+        {
+            "@id": "event:e2399926874913290167"
+        },
+        {
+            "@id": "event:e1190625199161368457"
+        },
+        {
+            "@id": "event:e1333336186989281360"
+        },
+        {
+            "@id": "event:e5013051505354454953"
+        },
+        {
+            "@id": "event:e1983435724030962528"
+        },
+        {
+            "@id": "event:e2871126355113878404"
+        },
+        {
+            "@id": "event:e1136951570226906865"
+        },
+        {
+            "@id": "event:e6748507362142047488"
+        },
+        {
+            "@id": "event:e2014363829101955435"
+        },
+        {
+            "@id": "event:e2433701317345572035"
+        },
+        {
+            "@id": "event:e1461915561018966554"
+        },
+        {
+            "@id": "event:e2898216984807708508"
+        },
+        {
+            "@id": "event:e2826938504547202955"
+        },
+        {
+            "@id": "event:e2928381795029988755"
+        },
+        {
+            "@id": "event:e1156270156127615393"
+        },
+        {
+            "@id": "event:e2227360663043802816"
+        },
+        {
+            "@id": "event:e7868511509580067378"
+        },
+        {
+            "@id": "event:e1579722149219492950"
+        },
+        {
+            "@id": "event:e2217612520975232843"
+        },
+        {
+            "@id": "event:e1187732280066466118"
+        },
+        {
+            "@id": "event:e3197786548730705247"
+        },
+        {
+            "@id": "event:e2379152134171794204"
+        },
+        {
+            "@id": "event:e8603031306363574301"
+        },
+        {
+            "@id": "event:e2250038273294082323"
+        },
+        {
+            "@id": "event:e3676714461725646858"
+        },
+        {
+            "@id": "event:e1887105272474608331"
+        },
+        {
+            "@id": "event:e1356970835276901646"
+        },
+        {
+            "@id": "event:e1188189086279822131"
+        },
+        {
+            "@id": "event:e3130730720766951303"
+        },
+        {
+            "@id": "event:e1114698471254936059"
+        },
+        {
+            "@id": "event:e6938630290179805691"
+        },
+        {
+            "@id": "event:e3394146419341248215"
+        },
+        {
+            "@id": "event:e2625291752593620622"
+        },
+        {
+            "@id": "event:e2622281421340344589"
+        },
+        {
+            "@id": "event:e2589926126244786661"
+        },
+        {
+            "@id": "event:e2370865101663327167"
+        },
+        {
+            "@id": "event:e2724497314493345219"
+        },
+        {
+            "@id": "event:e2281751708409912239"
+        },
+        {
+            "@id": "event:e2331478116988145908"
+        },
+        {
+            "@id": "event:e1961044898935786432"
+        },
+        {
+            "@id": "event:e6524115968870166429"
+        },
+        {
+            "@id": "event:e7729353767497310909"
+        },
+        {
+            "@id": "event:e2997597184542987923"
+        },
+        {
+            "@id": "event:e2818334474943945154"
+        },
+        {
+            "@id": "event:e1087419258083411968"
+        },
+        {
+            "@id": "event:e1476946750379875038"
+        },
+        {
+            "@id": "event:e1792567980759221220"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tiusanen, Pentti (1949-2018)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tiusanen, Pentti Uolevi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q385927"
+    },
+    "semparl:id": "505",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

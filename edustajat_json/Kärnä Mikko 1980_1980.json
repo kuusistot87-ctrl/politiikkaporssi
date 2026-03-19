@@ -1,0 +1,305 @@
+{
+    "@id": "people:p1348",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b3128797922069775091"
+        },
+        {
+            "@id": "publications:b1221708672345356131"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kärnä, Mikko"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1348.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2015-04-30_2015-04-30_2018-06-11_2018-06-11"
+        },
+        {
+            "@id": "times:t_2019-04-17_2019-04-17_2023-04-04_2023-04-04"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirjailija, kapteeni evp."
+    },
+    "semparl:end_of_representative_period_text": "04.04.2023",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2023-04-04_2023-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o911"
+        },
+        {
+            "@id": "occupations:o33"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p6585789514021783570"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3051177024095749991"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1348"
+    },
+    "semparl:sortingLabel": "kärnä mikko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1348"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Mikko%20K%C3%A4rn%C3%A4.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1348.aspx"
+        },
+        {
+            "@id": "yle:18-257386"
+        },
+        {
+            "@id": "twitter:KarnaMikko"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mikko_K%C3%A4rn%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Mikko_K%C3%A4rn%C3%A4"
+        },
+        {
+            "@id": "wd:Q18633181"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2717378535682476633"
+        },
+        {
+            "@id": "event:e5836882902426653244"
+        },
+        {
+            "@id": "event:e3336580575161318909"
+        },
+        {
+            "@id": "event:e2949064263587323129"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9574965975738434111"
+        },
+        {
+            "@id": "event:e2827271221654165410"
+        },
+        {
+            "@id": "event:e2540327154514982914"
+        },
+        {
+            "@id": "event:e1483343939394869150"
+        },
+        {
+            "@id": "event:e1802804343289422998"
+        },
+        {
+            "@id": "event:e2971783531861047465"
+        },
+        {
+            "@id": "event:e4418534567912211606"
+        },
+        {
+            "@id": "event:e2844527687986829045"
+        },
+        {
+            "@id": "event:e1883608394658633023"
+        },
+        {
+            "@id": "event:e2437466020067386114"
+        },
+        {
+            "@id": "event:e3267242448704503706"
+        },
+        {
+            "@id": "event:e2570590023510594976"
+        },
+        {
+            "@id": "event:e9331007020723501174"
+        },
+        {
+            "@id": "event:e6141460811353339796"
+        },
+        {
+            "@id": "event:e2273607077920357448"
+        },
+        {
+            "@id": "event:e6060772118966126313"
+        },
+        {
+            "@id": "event:e2513811837587558230"
+        },
+        {
+            "@id": "event:e3226419017735383136"
+        },
+        {
+            "@id": "event:e1328040146708944768"
+        },
+        {
+            "@id": "event:e1709026426390850416"
+        },
+        {
+            "@id": "event:e1597622782971147651"
+        },
+        {
+            "@id": "event:e4454572044417398888"
+        },
+        {
+            "@id": "event:e2981858297496495845"
+        },
+        {
+            "@id": "event:e1449631536648227193"
+        },
+        {
+            "@id": "event:e2354823741946271131"
+        },
+        {
+            "@id": "event:e2541877576583053234"
+        },
+        {
+            "@id": "event:e2656148922784770803"
+        },
+        {
+            "@id": "event:e7748923021730162166"
+        },
+        {
+            "@id": "event:e1743702907119459398"
+        },
+        {
+            "@id": "event:e5664570206020750802"
+        },
+        {
+            "@id": "event:e2937155182028243310"
+        },
+        {
+            "@id": "event:e8236024720940169124"
+        },
+        {
+            "@id": "event:e3162469157216622823"
+        },
+        {
+            "@id": "event:e9431820094711757921"
+        },
+        {
+            "@id": "event:e1871631061891593631"
+        },
+        {
+            "@id": "event:e3128164705754221761"
+        },
+        {
+            "@id": "event:e3165198449255601001"
+        },
+        {
+            "@id": "event:e5136095706531367387"
+        },
+        {
+            "@id": "event:e2702332866971179973"
+        },
+        {
+            "@id": "event:e1514994729656879761"
+        },
+        {
+            "@id": "event:e7600953793081716533"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kärnä, Mikko (1980-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "1348",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

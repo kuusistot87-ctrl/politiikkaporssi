@@ -1,0 +1,248 @@
+{
+    "@id": "people:p226",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "tykkimies"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1438597896955899661"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Nyman, Per-Henrik"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:226.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1987-03-21_1987-03-21_1991-03-21_1991-03-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kaupunkineuvos"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o100"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1315533130059405465"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d226"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2288910135443289133"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=226"
+    },
+    "semparl:sortingLabel": "nyman per-henrik",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b226"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:226.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Per-Henrik_Nyman"
+        },
+        {
+            "@id": "wd:Q5490078"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2484789832573166597"
+        },
+        {
+            "@id": "event:e3335349957966126931"
+        },
+        {
+            "@id": "event:e5430459667417131331"
+        },
+        {
+            "@id": "event:e8051365225935169441"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3356703534708242122"
+        },
+        {
+            "@id": "event:e1793986512190855391"
+        },
+        {
+            "@id": "event:e3296039657835543962"
+        },
+        {
+            "@id": "event:e8714086115859812378"
+        },
+        {
+            "@id": "event:e3231585762120413872"
+        },
+        {
+            "@id": "event:e7202744747857924028"
+        },
+        {
+            "@id": "event:e7013561212032680607"
+        },
+        {
+            "@id": "event:e3159806077475895173"
+        },
+        {
+            "@id": "event:e1013021393730192753"
+        },
+        {
+            "@id": "event:e2578163528036620390"
+        },
+        {
+            "@id": "event:e9101576850532525859"
+        },
+        {
+            "@id": "event:e1806190148194731214"
+        },
+        {
+            "@id": "event:e3311037200783583692"
+        },
+        {
+            "@id": "event:e5971474895091502791"
+        },
+        {
+            "@id": "event:e5752306610726797387"
+        },
+        {
+            "@id": "event:e1427935636330471043"
+        },
+        {
+            "@id": "event:e4647921806676072040"
+        },
+        {
+            "@id": "event:e7186729588761671651"
+        },
+        {
+            "@id": "event:e2331869094008169978"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2634922088088907666"
+        },
+        {
+            "@id": "event:e6340641775807143943"
+        },
+        {
+            "@id": "event:e4645629482781258486"
+        },
+        {
+            "@id": "event:e2817898187453738012"
+        },
+        {
+            "@id": "event:e3279625018208541019"
+        },
+        {
+            "@id": "event:e1841142928709581038"
+        },
+        {
+            "@id": "event:e1394423648528180809"
+        },
+        {
+            "@id": "event:e1569897159318258788"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Nyman, Per-Henrik (1927-2015)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "226",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

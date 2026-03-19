@@ -1,0 +1,401 @@
+{
+    "@id": "people:p910355",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b2041233632214258054"
+        },
+        {
+            "@id": "publications:b1949762738065222274"
+        }
+    ],
+    "semparl:authored": [
+        {
+            "@id": "publications:b3376737998148720574"
+        },
+        {
+            "@id": "publications:b2622705760448088801"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Fagerholm, Karl-August (K-A.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910355.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1930-10-21_1930-10-21_1966-04-04_1966-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "pääjohtaja, valtioneuvos, valtiotieteen tohtori h.c."
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1225"
+        },
+        {
+            "@id": "occupations:o289"
+        },
+        {
+            "@id": "occupations:o1115"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p6672685735203336240"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910355"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1488375590401269038"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3170122474012545319"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910355"
+    },
+    "semparl:sortingLabel": "fagerholm karl-august",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910355"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20August%20Fagerholm%201955.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910355.aspx"
+        },
+        {
+            "@id": "viaf:33248452"
+        },
+        {
+            "@id": "natbib:637"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Karl-August_Fagerholm"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Karl-August_Fagerholm"
+        },
+        {
+            "@id": "wd:Q471307"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2036"
+        },
+        {
+            "@id": "finaf:000076170"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3560"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e6560723082821989873"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7702477437828785173"
+        },
+        {
+            "@id": "event:e3681514161056036613"
+        },
+        {
+            "@id": "event:e3194608766652153505"
+        },
+        {
+            "@id": "event:e3132610187157804220"
+        },
+        {
+            "@id": "event:e3098043828215925899"
+        },
+        {
+            "@id": "event:e3082459941118556909"
+        },
+        {
+            "@id": "event:e2950538160024602039"
+        },
+        {
+            "@id": "event:e2776587090955008931"
+        },
+        {
+            "@id": "event:e2471222663462196270"
+        },
+        {
+            "@id": "event:e2259366551536844810"
+        },
+        {
+            "@id": "event:e2025965085004580697"
+        },
+        {
+            "@id": "event:e1101924465919921287"
+        },
+        {
+            "@id": "event:e2281690120920018091"
+        },
+        {
+            "@id": "event:e2463584270759326137"
+        },
+        {
+            "@id": "event:e2845428305862303233"
+        },
+        {
+            "@id": "event:e5363592056730297212"
+        },
+        {
+            "@id": "event:e1251237671766804538"
+        },
+        {
+            "@id": "event:e8927834994042334986"
+        },
+        {
+            "@id": "event:e1753829704421570903"
+        },
+        {
+            "@id": "event:e6206982106043934956"
+        },
+        {
+            "@id": "event:e5819896312992620622"
+        },
+        {
+            "@id": "event:e3012795635921967833"
+        },
+        {
+            "@id": "event:e1951409742475077336"
+        },
+        {
+            "@id": "event:e2773361963687339136"
+        },
+        {
+            "@id": "event:e2131054358005322975"
+        },
+        {
+            "@id": "event:e3315937857775815966"
+        },
+        {
+            "@id": "event:e1248833166608882564"
+        },
+        {
+            "@id": "event:e1177320932033258623"
+        },
+        {
+            "@id": "event:e1792726070997864960"
+        },
+        {
+            "@id": "event:e2242683500492802992"
+        },
+        {
+            "@id": "event:e3308348383537332667"
+        },
+        {
+            "@id": "event:e3004627452210193651"
+        },
+        {
+            "@id": "event:e1577991873023387677"
+        },
+        {
+            "@id": "event:e3065714953873166750"
+        },
+        {
+            "@id": "event:e5183890321790542662"
+        },
+        {
+            "@id": "event:e3397952474977841253"
+        },
+        {
+            "@id": "event:e7063584733625895678"
+        },
+        {
+            "@id": "event:e2465620277400006717"
+        },
+        {
+            "@id": "event:e2180023263479154582"
+        },
+        {
+            "@id": "event:e3041926477964469760"
+        },
+        {
+            "@id": "event:e1823574886694642322"
+        },
+        {
+            "@id": "event:e3872926708133843453"
+        },
+        {
+            "@id": "event:e2033417023485655511"
+        },
+        {
+            "@id": "event:e3338303589709305318"
+        },
+        {
+            "@id": "event:e2842883290368334896"
+        },
+        {
+            "@id": "event:e1198791220811928946"
+        },
+        {
+            "@id": "event:e9289113060529171150"
+        },
+        {
+            "@id": "event:e2613156932190292667"
+        },
+        {
+            "@id": "event:e1667347353080338256"
+        },
+        {
+            "@id": "event:e2042653977201309713"
+        },
+        {
+            "@id": "event:e3039201710881591123"
+        },
+        {
+            "@id": "event:e3177338940328766887"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e1395672836504755086"
+        },
+        {
+            "@id": "event:e1088438800140077651"
+        },
+        {
+            "@id": "event:e2653786931164881885"
+        },
+        {
+            "@id": "event:e3189553376168721515"
+        },
+        {
+            "@id": "event:e2798931637034452134"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e8177438702010444414"
+        },
+        {
+            "@id": "event:e3241949396016256260"
+        },
+        {
+            "@id": "event:e5567719397729518231"
+        },
+        {
+            "@id": "event:e1532967017797863306"
+        },
+        {
+            "@id": "event:e2996526449837382632"
+        },
+        {
+            "@id": "event:e9150620245092451094"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Fagerholm, Karl-August (1901-1984)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Fagerholm, K-A."
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910355",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

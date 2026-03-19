@@ -1,0 +1,342 @@
+{
+    "@id": "people:p910627",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Jutila(v:een 1906 Lindfors), Kaarle (Kalle) Teodor (K.T.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910627.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1945-04-06_1945-04-06_1945-10-05_1945-10-05"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, pankinjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "05.10.1945",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1945-10-05_1945-10-05"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o34"
+        },
+        {
+            "@id": "occupations:o214"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p7694293357138023068"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910627"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8034834231419128785"
+        },
+        {
+            "@id": "label:l6114643701357568042"
+        },
+        {
+            "@id": "label:l3180960495439473464"
+        },
+        {
+            "@id": "label:l2985526180298221424"
+        },
+        {
+            "@id": "label:l2581354327012883328"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1067958100271555416"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910627"
+    },
+    "semparl:sortingLabel": "jutila kalle",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910627"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910627.aspx"
+        },
+        {
+            "@id": "viaf:1084159279135808160004"
+        },
+        {
+            "@id": "natbib:760"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kalle_Jutila"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kalle_Jutila"
+        },
+        {
+            "@id": "wd:Q5406612"
+        },
+        {
+            "@id": "finaf:000105263"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p374"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2032718493818377731"
+        },
+        {
+            "@id": "event:e1037409390739909424"
+        },
+        {
+            "@id": "event:e1562457581291752543"
+        },
+        {
+            "@id": "event:e2193660087402576087"
+        },
+        {
+            "@id": "event:e9223964133132550212"
+        },
+        {
+            "@id": "event:e3232085053783011962"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7354133710714309681"
+        },
+        {
+            "@id": "event:e6590692015987145167"
+        },
+        {
+            "@id": "event:e5390469757038491112"
+        },
+        {
+            "@id": "event:e4201571359000935379"
+        },
+        {
+            "@id": "event:e3363486215055975332"
+        },
+        {
+            "@id": "event:e3003446683180244729"
+        },
+        {
+            "@id": "event:e2993033830316104667"
+        },
+        {
+            "@id": "event:e2256465028301806337"
+        },
+        {
+            "@id": "event:e1418041442354906230"
+        },
+        {
+            "@id": "event:e2476749406928179411"
+        },
+        {
+            "@id": "event:e5392477381831454115"
+        },
+        {
+            "@id": "event:e7523152913322367054"
+        },
+        {
+            "@id": "event:e3280570090548635741"
+        },
+        {
+            "@id": "event:e3044575134545057019"
+        },
+        {
+            "@id": "event:e2988800351055620670"
+        },
+        {
+            "@id": "event:e2646676965995952675"
+        },
+        {
+            "@id": "event:e3377777454834609213"
+        },
+        {
+            "@id": "event:e3236916007380818711"
+        },
+        {
+            "@id": "event:e3006373838483383077"
+        },
+        {
+            "@id": "event:e2482236394561665340"
+        },
+        {
+            "@id": "event:e1919727203071941125"
+        },
+        {
+            "@id": "event:e1723725281723313328"
+        },
+        {
+            "@id": "event:e1080364997035950546"
+        },
+        {
+            "@id": "event:e1791955593570483994"
+        },
+        {
+            "@id": "event:e3334124616650464379"
+        },
+        {
+            "@id": "event:e2993923487356857045"
+        },
+        {
+            "@id": "event:e1425829931464331688"
+        },
+        {
+            "@id": "event:e2650632272560884857"
+        },
+        {
+            "@id": "event:e2120406282821092761"
+        },
+        {
+            "@id": "event:e6683660092753059353"
+        },
+        {
+            "@id": "event:e2996235761340488959"
+        },
+        {
+            "@id": "event:e1641097175957005088"
+        },
+        {
+            "@id": "event:e8581769873391584862"
+        },
+        {
+            "@id": "event:e1306135571824931654"
+        },
+        {
+            "@id": "event:e5673601478775179741"
+        },
+        {
+            "@id": "event:e3089334894467471145"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e1550385697492735474"
+        },
+        {
+            "@id": "event:e2237708527243041867"
+        },
+        {
+            "@id": "event:e2082595608152975183"
+        },
+        {
+            "@id": "event:e1698744268063421150"
+        },
+        {
+            "@id": "event:e5979944835684088425"
+        },
+        {
+            "@id": "event:e1684272985996162133"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Jutila, Kalle (1891-1966)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Lindfors, Kaarle Teodor"
+        },
+        {
+            "@language": "fi",
+            "@value": "Jutila, Kaarle Teodor"
+        },
+        {
+            "@language": "fi",
+            "@value": "Jutila, K.T."
+        },
+        {
+            "@language": "fi",
+            "@value": "Lindfors, Kalle"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lindfors, K.T."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910627",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

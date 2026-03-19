@@ -1,0 +1,329 @@
+{
+    "@id": "people:p910370",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Fränti(e. Hippi), Aleksanteri"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910370.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1933-11-14_1933-11-14_1936-08-31_1936-08-31"
+        },
+        {
+            "@id": "times:t_1909-06-01_1909-06-01_1914-02-01_1914-02-01"
+        },
+        {
+            "@id": "times:t_1919-04-01_1919-04-01_1922-09-04_1922-09-04"
+        },
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1917-10-31_1917-10-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, toiminnanjohtaja, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1936",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1936-08-31_1936-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o59"
+        },
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o83"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p8349483206661464090"
+        },
+        {
+            "@id": "event:p3273614170335669968"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910370"
+    },
+    "xl:altLabel": {
+        "@id": "label:l5252304181226567148"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5400728929634169251"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910370"
+    },
+    "semparl:sortingLabel": "fränti aleksanteri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910370"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910370.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Aleksanteri_Fr%C3%A4nti"
+        },
+        {
+            "@id": "wd:Q11850680"
+        },
+        {
+            "@id": "finaf:000092767"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7803546593242580252"
+        },
+        {
+            "@id": "event:e3396769075604816153"
+        },
+        {
+            "@id": "event:e3015013491682048321"
+        },
+        {
+            "@id": "event:e2751624801243673949"
+        },
+        {
+            "@id": "event:e2258041463835222301"
+        },
+        {
+            "@id": "event:e5522781300650538382"
+        },
+        {
+            "@id": "event:e1043546816793601296"
+        },
+        {
+            "@id": "event:e3308285676178414581"
+        },
+        {
+            "@id": "event:e2442965609247039359"
+        },
+        {
+            "@id": "event:e1017033625498962951"
+        },
+        {
+            "@id": "event:e1208968930311954061"
+        },
+        {
+            "@id": "event:e2315779255632979912"
+        },
+        {
+            "@id": "event:e8159396468597501151"
+        },
+        {
+            "@id": "event:e4276076973297562762"
+        },
+        {
+            "@id": "event:e1188803659006307789"
+        },
+        {
+            "@id": "event:e5768890091284956637"
+        },
+        {
+            "@id": "event:e1652961790739458223"
+        },
+        {
+            "@id": "event:e3282736315900015860"
+        },
+        {
+            "@id": "event:e3216693426938405390"
+        },
+        {
+            "@id": "event:e2708050258773671903"
+        },
+        {
+            "@id": "event:e3248673756601061323"
+        },
+        {
+            "@id": "event:e1379645615965747488"
+        },
+        {
+            "@id": "event:e3313411573401418762"
+        },
+        {
+            "@id": "event:e2556412055519496189"
+        },
+        {
+            "@id": "event:e7695737473947717166"
+        },
+        {
+            "@id": "event:e1910288676424954067"
+        },
+        {
+            "@id": "event:e3054692569401923469"
+        },
+        {
+            "@id": "event:e2333577942022408777"
+        },
+        {
+            "@id": "event:e1427146506429023142"
+        },
+        {
+            "@id": "event:e8110865658849685160"
+        },
+        {
+            "@id": "event:e2788646485527449440"
+        },
+        {
+            "@id": "event:e3027356923766350234"
+        },
+        {
+            "@id": "event:e7543627410217923713"
+        },
+        {
+            "@id": "event:e2976927473110875146"
+        },
+        {
+            "@id": "event:e2670378893291240428"
+        },
+        {
+            "@id": "event:e1143037990350865665"
+        },
+        {
+            "@id": "event:e2615636043342481038"
+        },
+        {
+            "@id": "event:e1129447682583826935"
+        },
+        {
+            "@id": "event:e3317952979659085233"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e1293718632791298531"
+        },
+        {
+            "@id": "event:e2237708527243041867"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Fränti, Aleksanteri (1881-1950)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Hippi, Aleksanteri"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1713433"
+        },
+        {
+            "@id": "groups:Q1191102"
+        }
+    ],
+    "semparl:id": "910370",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

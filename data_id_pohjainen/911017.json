@@ -1,0 +1,234 @@
+{
+    "@id": "people:p911017",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lång(e. Long), Toivo Aapeli"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911017.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1945-04-06_1945-04-06_1948-07-21_1948-07-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "muurari, piirisihteeri"
+    },
+    "semparl:end_of_representative_period_text": "21.07.1948",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1948-07-21_1948-07-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o375"
+        },
+        {
+            "@id": "occupations:o1254"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3026858190694369917"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911017"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3756615476720623320"
+        },
+        {
+            "@id": "label:l2032429240438856477"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1000417898044227042"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911017"
+    },
+    "semparl:sortingLabel": "lång toivo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911017"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911017.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Toivo_L%C3%A5ng"
+        },
+        {
+            "@id": "wd:Q5485174"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1028818230372526107"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3151018357009709572"
+        },
+        {
+            "@id": "event:e2633277743890573143"
+        },
+        {
+            "@id": "event:e2692979877588810248"
+        },
+        {
+            "@id": "event:e2390856589138772903"
+        },
+        {
+            "@id": "event:e7914670640894505543"
+        },
+        {
+            "@id": "event:e3155817875942269439"
+        },
+        {
+            "@id": "event:e2917639127516190341"
+        },
+        {
+            "@id": "event:e1420723621312560448"
+        },
+        {
+            "@id": "event:e4615961823711176208"
+        },
+        {
+            "@id": "event:e6120664977892618205"
+        },
+        {
+            "@id": "event:e2796267796234987545"
+        },
+        {
+            "@id": "event:e6388056073917830030"
+        },
+        {
+            "@id": "event:e3326263301126146450"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2618167439609838470"
+        },
+        {
+            "@id": "event:e1205865756532767737"
+        },
+        {
+            "@id": "event:e8962673085732391510"
+        },
+        {
+            "@id": "event:e3011862219349962900"
+        },
+        {
+            "@id": "event:e1481404782138093819"
+        },
+        {
+            "@id": "event:e2448991049384818645"
+        },
+        {
+            "@id": "event:e3302894866624583671"
+        },
+        {
+            "@id": "event:e6573415779524863756"
+        },
+        {
+            "@id": "event:e7443942274920278803"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lång, Toivo (1903-1970)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Long, Toivo Aapeli"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lång, Toivo Aapeli"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q585735"
+    },
+    "semparl:id": "911017",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

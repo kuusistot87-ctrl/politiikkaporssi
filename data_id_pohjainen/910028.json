@@ -1,0 +1,399 @@
+{
+    "@id": "people:p910028",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p1247453726297428324"
+    },
+    "semparl:extra_info": "SL SR 1982, VR 1 rtk., SL K 1971, SVR R I 1963, VM, SU hop.am krk. 1967, KL, SLTAR suurr. 1976, EnglBIR suurr. 1976, ItävAR suuri kult. kmr. 1977",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2440855203929118390"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b2443046935980450781"
+        },
+        {
+            "@id": "publications:b1994549577165730206"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Helle, Veikko Kullervo"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910028.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1951-07-21_1951-07-21_1983-03-25_1983-03-25"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "ministeri"
+    },
+    "semparl:end_of_representative_period_text": "25.03.1983",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1983-03-25_1983-03-25"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2062826270530959824"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910028"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2558945621111755315"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2514292965486598173"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910028"
+    },
+    "semparl:sortingLabel": "helle veikko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910028"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Helle%20ja%20paasio.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910028.aspx"
+        },
+        {
+            "@id": "yle:18-347252"
+        },
+        {
+            "@id": "viaf:271385934"
+        },
+        {
+            "@id": "natbib:3965"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Veikko_Helle"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Veikko_Helle"
+        },
+        {
+            "@id": "wd:Q5799015"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2068"
+        },
+        {
+            "@id": "finaf:000043847"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3811"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2023979988261275658"
+        },
+        {
+            "@id": "event:e2811678019233919183"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9656799673704807640"
+        },
+        {
+            "@id": "event:e7340202433178416025"
+        },
+        {
+            "@id": "event:e5387112086691959806"
+        },
+        {
+            "@id": "event:e3479764232609310008"
+        },
+        {
+            "@id": "event:e3028445667619292252"
+        },
+        {
+            "@id": "event:e2414987882982414978"
+        },
+        {
+            "@id": "event:e2176720434399035766"
+        },
+        {
+            "@id": "event:e1529461489172236748"
+        },
+        {
+            "@id": "event:e1175597575753264644"
+        },
+        {
+            "@id": "event:e5365963237902891798"
+        },
+        {
+            "@id": "event:e2055079216027268345"
+        },
+        {
+            "@id": "event:e2736996407385268165"
+        },
+        {
+            "@id": "event:e2543041524845480718"
+        },
+        {
+            "@id": "event:e6619255383206094679"
+        },
+        {
+            "@id": "event:e2685867474854696143"
+        },
+        {
+            "@id": "event:e4748315109711423598"
+        },
+        {
+            "@id": "event:e1275674012703992485"
+        },
+        {
+            "@id": "event:e2875020467638991820"
+        },
+        {
+            "@id": "event:e1609221217807662182"
+        },
+        {
+            "@id": "event:e2355446421121451864"
+        },
+        {
+            "@id": "event:e2157499040970839352"
+        },
+        {
+            "@id": "event:e1624961268180956172"
+        },
+        {
+            "@id": "event:e2074238181031538785"
+        },
+        {
+            "@id": "event:e2019261129467899852"
+        },
+        {
+            "@id": "event:e2154467798001396646"
+        },
+        {
+            "@id": "event:e4198124851988553335"
+        },
+        {
+            "@id": "event:e5330803894608737479"
+        },
+        {
+            "@id": "event:e7503323094825267696"
+        },
+        {
+            "@id": "event:e2285082036493877203"
+        },
+        {
+            "@id": "event:e3280309060129039563"
+        },
+        {
+            "@id": "event:e1609099698194191099"
+        },
+        {
+            "@id": "event:e2268104677817539558"
+        },
+        {
+            "@id": "event:e6701725339664168486"
+        },
+        {
+            "@id": "event:e1847532031098948250"
+        },
+        {
+            "@id": "event:e2205614683398347518"
+        },
+        {
+            "@id": "event:e2106855675627923078"
+        },
+        {
+            "@id": "event:e2942639249188106479"
+        },
+        {
+            "@id": "event:e3106126590826609796"
+        },
+        {
+            "@id": "event:e1880823134599071945"
+        },
+        {
+            "@id": "event:e3171648361292643186"
+        },
+        {
+            "@id": "event:e2398901757337927902"
+        },
+        {
+            "@id": "event:e1828301968454626248"
+        },
+        {
+            "@id": "event:e1131920329971215200"
+        },
+        {
+            "@id": "event:e9762649573572596597"
+        },
+        {
+            "@id": "event:e2924413604070806106"
+        },
+        {
+            "@id": "event:e2745154340550969155"
+        },
+        {
+            "@id": "event:e4714559430725209835"
+        },
+        {
+            "@id": "event:e3245165259647152294"
+        },
+        {
+            "@id": "event:e1911989376429640495"
+        },
+        {
+            "@id": "event:e4063850631987154946"
+        },
+        {
+            "@id": "event:e5429801658098909115"
+        },
+        {
+            "@id": "event:e6380006027382380844"
+        },
+        {
+            "@id": "event:e1450568219564137424"
+        },
+        {
+            "@id": "event:e1375215941537904876"
+        },
+        {
+            "@id": "event:e1308508911928171269"
+        },
+        {
+            "@id": "event:e1698214923005856460"
+        },
+        {
+            "@id": "event:e1792336914242650609"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2107615245167252405"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Helle, Veikko (1911-2005)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Helle, Veikko Kullervo"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910028",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

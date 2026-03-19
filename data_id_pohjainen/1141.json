@@ -1,0 +1,279 @@
+{
+    "@id": "people:p1141",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Luoto"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8737582620937491881"
+        },
+        {
+            "@id": "affiliations:a7268391291823286690"
+        },
+        {
+            "@id": "affiliations:a1436995544647887913"
+        },
+        {
+            "@id": "affiliations:a3216115598279923439"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        },
+        {
+            "@id": "affiliations:a2119990650880061756"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1141.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansanedustaja"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o67"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p3002252769970884016"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2134854955069211629"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1141"
+    },
+    "semparl:sortingLabel": "östman peter johan",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1141"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/648847/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20%C3%96stman.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1141.aspx"
+        },
+        {
+            "@id": "yle:18-173510"
+        },
+        {
+            "@id": "twitter:pjostman"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Peter_%C3%96stman"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Peter_%C3%96stman"
+        },
+        {
+            "@id": "wd:Q7177967"
+        },
+        {
+            "@id": "finaf:000158308"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1850161383419390369"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3843493975482994472"
+        },
+        {
+            "@id": "event:e3260427452560731777"
+        },
+        {
+            "@id": "event:e3222178594664552760"
+        },
+        {
+            "@id": "event:e1977825436580339939"
+        },
+        {
+            "@id": "event:e1163169523629120565"
+        },
+        {
+            "@id": "event:e3089890777515704685"
+        },
+        {
+            "@id": "event:e3282288752232962049"
+        },
+        {
+            "@id": "event:e7464253529105075210"
+        },
+        {
+            "@id": "event:e1021026071742368859"
+        },
+        {
+            "@id": "event:e2609544795857594863"
+        },
+        {
+            "@id": "event:e9741294684165852798"
+        },
+        {
+            "@id": "event:e2296200768551909309"
+        },
+        {
+            "@id": "event:e2470143279269690307"
+        },
+        {
+            "@id": "event:e1841241679151678529"
+        },
+        {
+            "@id": "event:e2278877834304146151"
+        },
+        {
+            "@id": "event:e3128848233489877029"
+        },
+        {
+            "@id": "event:e1237309127005980506"
+        },
+        {
+            "@id": "event:e2382809036640948242"
+        },
+        {
+            "@id": "event:e7600953793081716533"
+        },
+        {
+            "@id": "event:e2176209352502750808"
+        },
+        {
+            "@id": "event:e2044606048472718314"
+        },
+        {
+            "@id": "event:e2192599820529190504"
+        },
+        {
+            "@id": "event:e6629030093566775667"
+        },
+        {
+            "@id": "event:e3165198449255601001"
+        },
+        {
+            "@id": "event:e5467994405958114921"
+        },
+        {
+            "@id": "event:e1439450725872352790"
+        },
+        {
+            "@id": "event:e2213116157607863631"
+        },
+        {
+            "@id": "event:e1609695691909740950"
+        },
+        {
+            "@id": "event:e2826178667019373409"
+        },
+        {
+            "@id": "event:e1721411616735680113"
+        },
+        {
+            "@id": "event:e1194824721365780083"
+        },
+        {
+            "@id": "event:e1932578247284414389"
+        },
+        {
+            "@id": "event:e2792546713615708656"
+        },
+        {
+            "@id": "event:e4203933823341509942"
+        },
+        {
+            "@id": "event:e1920633138699100613"
+        },
+        {
+            "@id": "event:e2344041022912685191"
+        },
+        {
+            "@id": "event:e1392312421370095762"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Östman, Peter (1961-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1138982"
+    },
+    "semparl:id": "1141",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

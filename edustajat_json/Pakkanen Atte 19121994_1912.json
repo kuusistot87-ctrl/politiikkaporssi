@@ -1,0 +1,323 @@
+{
+    "@id": "people:p911201",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pakkanen, Atte Mikael Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911201.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1948-07-22_1948-07-22_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, johtaja"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o169"
+        },
+        {
+            "@id": "occupations:o152"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2187280128951531079"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911201"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1342895242964004853"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1886728617393211869"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911201"
+    },
+    "semparl:sortingLabel": "pakkanen atte",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911201"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Atte%20Pakkanen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911201.aspx"
+        },
+        {
+            "@id": "natbib:940"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Atte_Pakkanen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Atte_Pakkanen"
+        },
+        {
+            "@id": "wd:Q11853314"
+        },
+        {
+            "@id": "finaf:000064379"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4710"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1188494885594341315"
+        },
+        {
+            "@id": "event:e7599290324634411756"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2892505236580832945"
+        },
+        {
+            "@id": "event:e2797125616971358805"
+        },
+        {
+            "@id": "event:e1902537197582607436"
+        },
+        {
+            "@id": "event:e1405601401775900607"
+        },
+        {
+            "@id": "event:e3275834213566680786"
+        },
+        {
+            "@id": "event:e1126385747810293490"
+        },
+        {
+            "@id": "event:e1398520757605898907"
+        },
+        {
+            "@id": "event:e2845182438055216819"
+        },
+        {
+            "@id": "event:e1031254065264202159"
+        },
+        {
+            "@id": "event:e2652177986706065937"
+        },
+        {
+            "@id": "event:e2486508593258724348"
+        },
+        {
+            "@id": "event:e9933045721034916652"
+        },
+        {
+            "@id": "event:e7508671191983322143"
+        },
+        {
+            "@id": "event:e1370230345757338682"
+        },
+        {
+            "@id": "event:e3276967933643747363"
+        },
+        {
+            "@id": "event:e1508003022432228673"
+        },
+        {
+            "@id": "event:e1317672470483522585"
+        },
+        {
+            "@id": "event:e6203996041925359343"
+        },
+        {
+            "@id": "event:e1485447100059016764"
+        },
+        {
+            "@id": "event:e1258083172592375658"
+        },
+        {
+            "@id": "event:e1748715095556616877"
+        },
+        {
+            "@id": "event:e7637193196694589006"
+        },
+        {
+            "@id": "event:e1993398739466198333"
+        },
+        {
+            "@id": "event:e2908160611055727245"
+        },
+        {
+            "@id": "event:e8947410059050633949"
+        },
+        {
+            "@id": "event:e3301190689087168429"
+        },
+        {
+            "@id": "event:e2952939295841639782"
+        },
+        {
+            "@id": "event:e1941229869025463336"
+        },
+        {
+            "@id": "event:e3087899768078549100"
+        },
+        {
+            "@id": "event:e4373762704022405347"
+        },
+        {
+            "@id": "event:e1698744268063421150"
+        },
+        {
+            "@id": "event:e3102095049987529190"
+        },
+        {
+            "@id": "event:e2363086531514447539"
+        },
+        {
+            "@id": "event:e1534883808292345261"
+        },
+        {
+            "@id": "event:e1667044086152201552"
+        },
+        {
+            "@id": "event:e2272030819836071904"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e6801120323859157668"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1219550812727728791"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pakkanen, Atte (1912-1994)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pakkanen, Atte Mikael Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911201",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

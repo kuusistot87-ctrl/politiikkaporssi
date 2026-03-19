@@ -1,0 +1,622 @@
+{
+    "@id": "people:p231",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b6011835234160427293"
+        },
+        {
+            "@id": "publications:b2661524467099162523"
+        },
+        {
+            "@id": "publications:b2542171236226821989"
+        },
+        {
+            "@id": "publications:b2119544038634985438"
+        },
+        {
+            "@id": "publications:b3011259496677339221"
+        }
+    ],
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b9580693764365216884"
+        },
+        {
+            "@id": "publications:b8287281081470289887"
+        },
+        {
+            "@id": "publications:b7504949233006099901"
+        },
+        {
+            "@id": "publications:b4420530807599387746"
+        },
+        {
+            "@id": "publications:b3658828315149161064"
+        },
+        {
+            "@id": "publications:b3254592288195332279"
+        },
+        {
+            "@id": "publications:b3250686029595693440"
+        },
+        {
+            "@id": "publications:b3215076192121283814"
+        },
+        {
+            "@id": "publications:b3192579189840602033"
+        },
+        {
+            "@id": "publications:b3191221258864285144"
+        },
+        {
+            "@id": "publications:b2802121149409158040"
+        },
+        {
+            "@id": "publications:b2619421256348674808"
+        },
+        {
+            "@id": "publications:b2484291189873046806"
+        },
+        {
+            "@id": "publications:b2247478526882780623"
+        },
+        {
+            "@id": "publications:b2024191712955376959"
+        },
+        {
+            "@id": "publications:b1773091483000706667"
+        },
+        {
+            "@id": "publications:b1701971112573675869"
+        },
+        {
+            "@id": "publications:b1671014512576466604"
+        },
+        {
+            "@id": "publications:b1479738434853307747"
+        },
+        {
+            "@id": "publications:b1211159815858272240"
+        },
+        {
+            "@id": "publications:b1040934594453193837"
+        },
+        {
+            "@id": "publications:b2782420242768668514"
+        },
+        {
+            "@id": "publications:b1960477336129611550"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Virolainen, Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:231.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1948-07-22_1948-07-22_1983-03-25_1983-03-25"
+        },
+        {
+            "@id": "times:t_1987-03-21_1987-03-21_1991-03-21_1991-03-21"
+        },
+        {
+            "@id": "times:t_1945-04-06_1945-04-06_1948-07-21_1948-07-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maatalous- ja metsätieteiden tohtori, valtioneuvos, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o288"
+        },
+        {
+            "@id": "occupations:o289"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1848791346655463797"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d231"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5802289479435735609"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=231"
+    },
+    "semparl:sortingLabel": "virolainen johannes",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b231"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Johannes%20Virolainen%201970%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:231.aspx"
+        },
+        {
+            "@id": "yle:18-184368"
+        },
+        {
+            "@id": "viaf:44354747"
+        },
+        {
+            "@id": "natbib:638"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Johannes_Virolainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Johannes_Virolainen"
+        },
+        {
+            "@id": "wd:Q471278"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2391"
+        },
+        {
+            "@id": "finaf:000062736"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2568"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8752747926781957359"
+        },
+        {
+            "@id": "event:e1686092939929979047"
+        },
+        {
+            "@id": "event:e1683275030209580514"
+        },
+        {
+            "@id": "event:e2260169925323489766"
+        },
+        {
+            "@id": "event:e1868764996024525290"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9793182397212675365"
+        },
+        {
+            "@id": "event:e9598443502703701150"
+        },
+        {
+            "@id": "event:e9436716664246538427"
+        },
+        {
+            "@id": "event:e8308818764379587692"
+        },
+        {
+            "@id": "event:e3354028354399442318"
+        },
+        {
+            "@id": "event:e3351101785724532582"
+        },
+        {
+            "@id": "event:e3191494970555491719"
+        },
+        {
+            "@id": "event:e3038103818785543463"
+        },
+        {
+            "@id": "event:e3000273178671807260"
+        },
+        {
+            "@id": "event:e2982783300115058227"
+        },
+        {
+            "@id": "event:e2892347664926851172"
+        },
+        {
+            "@id": "event:e2412425748581664587"
+        },
+        {
+            "@id": "event:e2397213588448882370"
+        },
+        {
+            "@id": "event:e2123795529319431323"
+        },
+        {
+            "@id": "event:e2048916078945048072"
+        },
+        {
+            "@id": "event:e1990429876987344547"
+        },
+        {
+            "@id": "event:e1922466227094844880"
+        },
+        {
+            "@id": "event:e1886618043361532873"
+        },
+        {
+            "@id": "event:e1818738531458512627"
+        },
+        {
+            "@id": "event:e1797464096390602540"
+        },
+        {
+            "@id": "event:e1629938964984452191"
+        },
+        {
+            "@id": "event:e1586623752195239603"
+        },
+        {
+            "@id": "event:e1575896046529701045"
+        },
+        {
+            "@id": "event:e1514074251744116782"
+        },
+        {
+            "@id": "event:e1473520618866206745"
+        },
+        {
+            "@id": "event:e1247813430747640387"
+        },
+        {
+            "@id": "event:e1179937519242457513"
+        },
+        {
+            "@id": "event:e1109637655874288462"
+        },
+        {
+            "@id": "event:e1890863565418765372"
+        },
+        {
+            "@id": "event:e6184790089988711944"
+        },
+        {
+            "@id": "event:e7093560053880934501"
+        },
+        {
+            "@id": "event:e2724154513435149479"
+        },
+        {
+            "@id": "event:e2496521249226777311"
+        },
+        {
+            "@id": "event:e2927134193896848382"
+        },
+        {
+            "@id": "event:e1434350966121448906"
+        },
+        {
+            "@id": "event:e3085130988656370255"
+        },
+        {
+            "@id": "event:e2739593433774279038"
+        },
+        {
+            "@id": "event:e6628005183046201709"
+        },
+        {
+            "@id": "event:e6637372559918916601"
+        },
+        {
+            "@id": "event:e1942547368623159468"
+        },
+        {
+            "@id": "event:e2801893841994334986"
+        },
+        {
+            "@id": "event:e1730100421480917982"
+        },
+        {
+            "@id": "event:e3623087314207651107"
+        },
+        {
+            "@id": "event:e2330121826014462359"
+        },
+        {
+            "@id": "event:e8533405154291344087"
+        },
+        {
+            "@id": "event:e4408222773905101855"
+        },
+        {
+            "@id": "event:e9088337851898971684"
+        },
+        {
+            "@id": "event:e1768833954461401746"
+        },
+        {
+            "@id": "event:e1096856740389681407"
+        },
+        {
+            "@id": "event:e8173569457124847603"
+        },
+        {
+            "@id": "event:e2625086037388805502"
+        },
+        {
+            "@id": "event:e6464383643705801082"
+        },
+        {
+            "@id": "event:e5287029435570610726"
+        },
+        {
+            "@id": "event:e1435543356722881077"
+        },
+        {
+            "@id": "event:e1421319351218469811"
+        },
+        {
+            "@id": "event:e3059906438873847796"
+        },
+        {
+            "@id": "event:e2800795059950968874"
+        },
+        {
+            "@id": "event:e2867492341472626185"
+        },
+        {
+            "@id": "event:e1785815997269223073"
+        },
+        {
+            "@id": "event:e3324028145849958646"
+        },
+        {
+            "@id": "event:e1422250384669478385"
+        },
+        {
+            "@id": "event:e2060168065024584481"
+        },
+        {
+            "@id": "event:e1222785777158450682"
+        },
+        {
+            "@id": "event:e1164731489442829785"
+        },
+        {
+            "@id": "event:e1059017278101527681"
+        },
+        {
+            "@id": "event:e2416331709130646996"
+        },
+        {
+            "@id": "event:e2460009404796309281"
+        },
+        {
+            "@id": "event:e2661778836104088210"
+        },
+        {
+            "@id": "event:e4566409900132994331"
+        },
+        {
+            "@id": "event:e1343037664372121669"
+        },
+        {
+            "@id": "event:e1753435108169727915"
+        },
+        {
+            "@id": "event:e1208884779832775936"
+        },
+        {
+            "@id": "event:e3598617391411860758"
+        },
+        {
+            "@id": "event:e3106366288348522941"
+        },
+        {
+            "@id": "event:e4295947848270886904"
+        },
+        {
+            "@id": "event:e1604827615491346635"
+        },
+        {
+            "@id": "event:e8236720855818170872"
+        },
+        {
+            "@id": "event:e2298033985863624611"
+        },
+        {
+            "@id": "event:e3022039361073676388"
+        },
+        {
+            "@id": "event:e6828972830868657964"
+        },
+        {
+            "@id": "event:e7186729588761671651"
+        },
+        {
+            "@id": "event:e1850602448681913851"
+        },
+        {
+            "@id": "event:e1540209393767429646"
+        },
+        {
+            "@id": "event:e1838089829194988399"
+        },
+        {
+            "@id": "event:e2765210196809226950"
+        },
+        {
+            "@id": "event:e3298209674981091165"
+        },
+        {
+            "@id": "event:e1014266562938752325"
+        },
+        {
+            "@id": "event:e1010230035369348267"
+        },
+        {
+            "@id": "event:e1159467658874886465"
+        },
+        {
+            "@id": "event:e3954707494842097279"
+        },
+        {
+            "@id": "event:e3015311684459059651"
+        },
+        {
+            "@id": "event:e1307417346166539373"
+        },
+        {
+            "@id": "event:e2455157258618386053"
+        },
+        {
+            "@id": "event:e2257319325085065776"
+        },
+        {
+            "@id": "event:e2249735191335610016"
+        },
+        {
+            "@id": "event:e9261070303255019413"
+        },
+        {
+            "@id": "event:e1643994025591381661"
+        },
+        {
+            "@id": "event:e2219257659250125017"
+        },
+        {
+            "@id": "event:e9453442516157067194"
+        },
+        {
+            "@id": "event:e1823073241893421626"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2463012299580107129"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e1345935171427550565"
+        },
+        {
+            "@id": "event:e2751122992417279555"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Virolainen, Johannes (1914-2000)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "231",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,296 @@
+{
+    "@id": "people:p183",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "ylikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e3258098168663831268"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kietäväinen, Timo Päivö Kalervo"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:183.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_1991-03-21_1991-03-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen maisteri, varatoimitusjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o208"
+        },
+        {
+            "@id": "occupations:o44"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2190622555844515784"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3352949736599591295"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1131211897880789040"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=183"
+    },
+    "semparl:sortingLabel": "kietäväinen timo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b183"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:183.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Timo_Kiet%C3%A4v%C3%A4inen"
+        },
+        {
+            "@id": "wd:Q5485764"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2480750221128205010"
+        },
+        {
+            "@id": "event:e1510578138785880678"
+        },
+        {
+            "@id": "event:e2431092698542780489"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1028389522147437796"
+        },
+        {
+            "@id": "event:e1475589923520586243"
+        },
+        {
+            "@id": "event:e1717723310052227356"
+        },
+        {
+            "@id": "event:e1112591816528967805"
+        },
+        {
+            "@id": "event:e1276610788364451939"
+        },
+        {
+            "@id": "event:e1362347579585966986"
+        },
+        {
+            "@id": "event:e9904176013416558585"
+        },
+        {
+            "@id": "event:e1162560023499454750"
+        },
+        {
+            "@id": "event:e3039327883766743223"
+        },
+        {
+            "@id": "event:e1299350296449876539"
+        },
+        {
+            "@id": "event:e3171225901077609602"
+        },
+        {
+            "@id": "event:e9972292129913848923"
+        },
+        {
+            "@id": "event:e1886369253485314656"
+        },
+        {
+            "@id": "event:e2184038437096899514"
+        },
+        {
+            "@id": "event:e3837291444510591739"
+        },
+        {
+            "@id": "event:e1085129517141743600"
+        },
+        {
+            "@id": "event:e3083656834492518957"
+        },
+        {
+            "@id": "event:e1736388133932878272"
+        },
+        {
+            "@id": "event:e5871498105188434532"
+        },
+        {
+            "@id": "event:e3059303339975123036"
+        },
+        {
+            "@id": "event:e5510383417634312216"
+        },
+        {
+            "@id": "event:e1309660161150617252"
+        },
+        {
+            "@id": "event:e3217324302105424095"
+        },
+        {
+            "@id": "event:e1733779825462243030"
+        },
+        {
+            "@id": "event:e1221334654482366542"
+        },
+        {
+            "@id": "event:e6967656435327386888"
+        },
+        {
+            "@id": "event:e3225070982144347648"
+        },
+        {
+            "@id": "event:e2687046953728437280"
+        },
+        {
+            "@id": "event:e1008280339744358282"
+        },
+        {
+            "@id": "event:e3126814092304790338"
+        },
+        {
+            "@id": "event:e1331827364209576274"
+        },
+        {
+            "@id": "event:e3296693961029395693"
+        },
+        {
+            "@id": "event:e1193902889193575809"
+        },
+        {
+            "@id": "event:e2056404718269871374"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1575065704635544665"
+        },
+        {
+            "@id": "event:e2283558800108402986"
+        },
+        {
+            "@id": "event:e4802630410537313688"
+        },
+        {
+            "@id": "event:e3127575288132453628"
+        },
+        {
+            "@id": "event:e3079740256221057783"
+        },
+        {
+            "@id": "event:e6108229603584466705"
+        },
+        {
+            "@id": "event:e2826811236496726476"
+        },
+        {
+            "@id": "event:e2422058805464467227"
+        },
+        {
+            "@id": "event:e3279625018208541019"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kietäväinen, Timo (1957-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kietäväinen, Timo Päivö Kalervo"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "183",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

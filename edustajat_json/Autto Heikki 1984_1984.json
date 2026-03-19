@@ -1,0 +1,306 @@
+{
+    "@id": "people:p1089",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Rovaniemi"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a7691619644931782874"
+        },
+        {
+            "@id": "affiliations:a2886244485880171399"
+        },
+        {
+            "@id": "affiliations:a2834428962783427467"
+        },
+        {
+            "@id": "affiliations:a2817341035688324805"
+        },
+        {
+            "@id": "affiliations:a2765738757091130181"
+        },
+        {
+            "@id": "affiliations:a2467953729005152509"
+        },
+        {
+            "@id": "affiliations:a2432541006491704894"
+        },
+        {
+            "@id": "affiliations:a2230952195453656314"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1089.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2019-04-17_2019-04-17__"
+        },
+        {
+            "@id": "times:t_2011-04-20_2011-04-20_2015-04-21_2015-04-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yhteyspäällikkö, hallintotieteiden maisteri"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o769"
+        },
+        {
+            "@id": "occupations:o285"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1339372238937375061"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l8097359104777507828"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1089"
+    },
+    "semparl:sortingLabel": "autto heikki samuli",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1089"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/638936/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Autto-heikki-01.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1089.aspx"
+        },
+        {
+            "@id": "yle:18-193754"
+        },
+        {
+            "@id": "twitter:heikkiautto"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Heikki_Autto"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Heikki_Autto"
+        },
+        {
+            "@id": "wd:Q11861811"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2659883646768157459"
+        },
+        {
+            "@id": "event:e1134228854633178137"
+        },
+        {
+            "@id": "event:e7321829648722295461"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4225280441665853468"
+        },
+        {
+            "@id": "event:e2959422346412224279"
+        },
+        {
+            "@id": "event:e2670835333943487211"
+        },
+        {
+            "@id": "event:e2043249603638200242"
+        },
+        {
+            "@id": "event:e3242035488122190054"
+        },
+        {
+            "@id": "event:e2917821806004320901"
+        },
+        {
+            "@id": "event:e2815431352630350169"
+        },
+        {
+            "@id": "event:e9496929112303457132"
+        },
+        {
+            "@id": "event:e8293383117143809744"
+        },
+        {
+            "@id": "event:e2948724295783941398"
+        },
+        {
+            "@id": "event:e2920755658767210616"
+        },
+        {
+            "@id": "event:e1723409266216388331"
+        },
+        {
+            "@id": "event:e1888585968999657996"
+        },
+        {
+            "@id": "event:e3348382168197054145"
+        },
+        {
+            "@id": "event:e2431801348346711183"
+        },
+        {
+            "@id": "event:e9027081339865825510"
+        },
+        {
+            "@id": "event:e2947044083194053222"
+        },
+        {
+            "@id": "event:e1156175659046811704"
+        },
+        {
+            "@id": "event:e1153041241815604253"
+        },
+        {
+            "@id": "event:e2942873087633210320"
+        },
+        {
+            "@id": "event:e7790233859169298677"
+        },
+        {
+            "@id": "event:e2461563653184139709"
+        },
+        {
+            "@id": "event:e2933720021808776972"
+        },
+        {
+            "@id": "event:e2607505132134182740"
+        },
+        {
+            "@id": "event:e2252265397466833062"
+        },
+        {
+            "@id": "event:e3077264113537042604"
+        },
+        {
+            "@id": "event:e2975688166080256536"
+        },
+        {
+            "@id": "event:e2001169219323723316"
+        },
+        {
+            "@id": "event:e7492613781242077150"
+        },
+        {
+            "@id": "event:e1058120833799368171"
+        },
+        {
+            "@id": "event:e2898796905251478604"
+        },
+        {
+            "@id": "event:e1050272807268045328"
+        },
+        {
+            "@id": "event:e2342863181262189751"
+        },
+        {
+            "@id": "event:e1138929673949203346"
+        },
+        {
+            "@id": "event:e9565266492120059248"
+        },
+        {
+            "@id": "event:e2629884095119241902"
+        },
+        {
+            "@id": "event:e1200491039636599519"
+        },
+        {
+            "@id": "event:e1852122902360326862"
+        },
+        {
+            "@id": "event:e3001270284822835222"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Autto, Heikki (1984-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1089",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

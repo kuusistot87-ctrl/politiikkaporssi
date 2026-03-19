@@ -1,0 +1,344 @@
+{
+    "@id": "people:p911450",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Impiö, Lauri Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911450.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1975-01-13_1975-01-13_1987-03-20_1987-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "teologian kandidaatti, kansanopiston rehtori, rovasti"
+    },
+    "semparl:end_of_representative_period_text": "20.03.1987",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1987-03-20_1987-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o30"
+        },
+        {
+            "@id": "occupations:o29"
+        },
+        {
+            "@id": "occupations:o1514"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3313581399973944996"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911450"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2062499494525860067"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3279388797854168257"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911450"
+    },
+    "semparl:sortingLabel": "impiö lauri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911450"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lauri%20Impi%C3%B6.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911450.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lauri_Impi%C3%B6"
+        },
+        {
+            "@id": "wd:Q5406738"
+        },
+        {
+            "@id": "finaf:000076571"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3374516911873871279"
+        },
+        {
+            "@id": "event:e7138956526192018411"
+        },
+        {
+            "@id": "event:e2602656171490607044"
+        },
+        {
+            "@id": "event:e9183450103837438189"
+        },
+        {
+            "@id": "event:e2443518719140652537"
+        },
+        {
+            "@id": "event:e2099437568341902661"
+        },
+        {
+            "@id": "event:e1141424024485996516"
+        },
+        {
+            "@id": "event:e3153297865085969635"
+        },
+        {
+            "@id": "event:e5712672199909613140"
+        },
+        {
+            "@id": "event:e7128891248328432451"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8532296362599988288"
+        },
+        {
+            "@id": "event:e1748146892108980806"
+        },
+        {
+            "@id": "event:e1089386846547100051"
+        },
+        {
+            "@id": "event:e1563567136978944333"
+        },
+        {
+            "@id": "event:e8398938010881815841"
+        },
+        {
+            "@id": "event:e1273239801342724422"
+        },
+        {
+            "@id": "event:e3379583099695566031"
+        },
+        {
+            "@id": "event:e7822797256088268492"
+        },
+        {
+            "@id": "event:e3103957729530557913"
+        },
+        {
+            "@id": "event:e2735277340017286075"
+        },
+        {
+            "@id": "event:e8064368042540652732"
+        },
+        {
+            "@id": "event:e1716790515382229492"
+        },
+        {
+            "@id": "event:e2181875341506078804"
+        },
+        {
+            "@id": "event:e1942823293419950429"
+        },
+        {
+            "@id": "event:e3018727882099780726"
+        },
+        {
+            "@id": "event:e2441358405737916359"
+        },
+        {
+            "@id": "event:e2023210124036375458"
+        },
+        {
+            "@id": "event:e7633134358591454091"
+        },
+        {
+            "@id": "event:e2770138696243616515"
+        },
+        {
+            "@id": "event:e1314014630683817404"
+        },
+        {
+            "@id": "event:e2025163356427620037"
+        },
+        {
+            "@id": "event:e2316669486854774330"
+        },
+        {
+            "@id": "event:e1621611139038558399"
+        },
+        {
+            "@id": "event:e2275830991708377743"
+        },
+        {
+            "@id": "event:e1488683590361661650"
+        },
+        {
+            "@id": "event:e1868576444888741988"
+        },
+        {
+            "@id": "event:e1184207766417533141"
+        },
+        {
+            "@id": "event:e4485295400589096300"
+        },
+        {
+            "@id": "event:e2646869765282239795"
+        },
+        {
+            "@id": "event:e2741332988624391072"
+        },
+        {
+            "@id": "event:e3079708797174126546"
+        },
+        {
+            "@id": "event:e5303131758185311855"
+        },
+        {
+            "@id": "event:e2794785851153054958"
+        },
+        {
+            "@id": "event:e2878717581176773423"
+        },
+        {
+            "@id": "event:e9248339503032503430"
+        },
+        {
+            "@id": "event:e1176503055628881007"
+        },
+        {
+            "@id": "event:e1742739637669490079"
+        },
+        {
+            "@id": "event:e1591952866897566335"
+        },
+        {
+            "@id": "event:e3180045278901933509"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e4797954670975850896"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2040808073362254491"
+        },
+        {
+            "@id": "event:e2333735636436012651"
+        },
+        {
+            "@id": "event:e2588613387559600347"
+        },
+        {
+            "@id": "event:e1375502425505205368"
+        },
+        {
+            "@id": "event:e6375835271828819751"
+        },
+        {
+            "@id": "event:e7381126544946067569"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Impiö, Lauri (1929-2006)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Impiö, Lauri Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911450",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

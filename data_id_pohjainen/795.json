@@ -1,0 +1,289 @@
+{
+    "@id": "people:p795",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Cronberg, Tarja Anneli"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:795.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "tekniikan tohtori, kauppatieteiden tohtori"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o653"
+        },
+        {
+            "@id": "occupations:o267"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2684568638633703724"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2238059234260209607"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l7394368027974213434"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=795"
+    },
+    "semparl:sortingLabel": "cronberg tarja",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b795"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tarja%20Cronberg%20Finnish%20MEP%202014.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:795.aspx"
+        },
+        {
+            "@id": "viaf:71639261"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tarja_Cronberg"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Tarja_Cronberg"
+        },
+        {
+            "@id": "wd:Q444761"
+        },
+        {
+            "@id": "finaf:000041592"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1206029246331849276"
+        },
+        {
+            "@id": "event:e3231011443201511441"
+        },
+        {
+            "@id": "event:e2487122384701903819"
+        },
+        {
+            "@id": "event:e2998112833777442665"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4456063787037909618"
+        },
+        {
+            "@id": "event:e1647424789291342598"
+        },
+        {
+            "@id": "event:e1281080865646649121"
+        },
+        {
+            "@id": "event:e2649103897201761035"
+        },
+        {
+            "@id": "event:e1743134894055076258"
+        },
+        {
+            "@id": "event:e2512169813915396051"
+        },
+        {
+            "@id": "event:e1568380585669431333"
+        },
+        {
+            "@id": "event:e2479027818081268720"
+        },
+        {
+            "@id": "event:e1956411573810844224"
+        },
+        {
+            "@id": "event:e1702830553516966208"
+        },
+        {
+            "@id": "event:e2208438592931527658"
+        },
+        {
+            "@id": "event:e1526275489933411381"
+        },
+        {
+            "@id": "event:e3387505825663158819"
+        },
+        {
+            "@id": "event:e2966759071279286605"
+        },
+        {
+            "@id": "event:e5691396414922119582"
+        },
+        {
+            "@id": "event:e8083260488518514164"
+        },
+        {
+            "@id": "event:e2953681605074463510"
+        },
+        {
+            "@id": "event:e5924158264647581560"
+        },
+        {
+            "@id": "event:e2711419551632384731"
+        },
+        {
+            "@id": "event:e6325401700246487804"
+        },
+        {
+            "@id": "event:e1265743949422063431"
+        },
+        {
+            "@id": "event:e3154830695573870637"
+        },
+        {
+            "@id": "event:e3073726357028980943"
+        },
+        {
+            "@id": "event:e1515418783762625724"
+        },
+        {
+            "@id": "event:e9463077782927374267"
+        },
+        {
+            "@id": "event:e1655536828887696093"
+        },
+        {
+            "@id": "event:e2037523830452630187"
+        },
+        {
+            "@id": "event:e1435913462562300320"
+        },
+        {
+            "@id": "event:e2714326534757621284"
+        },
+        {
+            "@id": "event:e2553620659102076989"
+        },
+        {
+            "@id": "event:e2787532530523365562"
+        },
+        {
+            "@id": "event:e1817894876918505789"
+        },
+        {
+            "@id": "event:e9780532688839197943"
+        },
+        {
+            "@id": "event:e2459272799566346983"
+        },
+        {
+            "@id": "event:e1951518560699936842"
+        },
+        {
+            "@id": "event:e2924063077920601496"
+        },
+        {
+            "@id": "event:e2472347294810775759"
+        },
+        {
+            "@id": "event:e2293025795951748124"
+        },
+        {
+            "@id": "event:e2009889708866069141"
+        },
+        {
+            "@id": "event:e2968741283197529087"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Cronberg, Tarja (1943-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Cronberg, Tarja Anneli"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "795",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,232 @@
+{
+    "@id": "people:p911816",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "korpraali"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2765523183330582251"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b5078024115747710942"
+        },
+        {
+            "@id": "publications:b3015376050029809217"
+        },
+        {
+            "@id": "publications:b2964599572720028157"
+        },
+        {
+            "@id": "publications:b1204497662370937758"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Enävaara, Reijo Aukusti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911816.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_1984-08-06_1984-08-06"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen maisteri, päätoimittaja"
+    },
+    "semparl:end_of_representative_period_text": "06.08.1984",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1984-08-06_1984-08-06"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o409"
+        },
+        {
+            "@id": "occupations:o44"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2632259353223030112"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911816"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2343699015981701045"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2867237536313823613"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911816"
+    },
+    "semparl:sortingLabel": "enävaara reijo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911816"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911816.aspx"
+        },
+        {
+            "@id": "viaf:30848501"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Reijo_En%C3%A4vaara"
+        },
+        {
+            "@id": "wd:Q11890391"
+        },
+        {
+            "@id": "finaf:000066760"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1776796897870628498"
+        },
+        {
+            "@id": "event:e2624199454014761375"
+        },
+        {
+            "@id": "event:e1527249124356014986"
+        },
+        {
+            "@id": "event:e9777735901181196673"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1956485692120614095"
+        },
+        {
+            "@id": "event:e1468338703659830291"
+        },
+        {
+            "@id": "event:e2044950898171483393"
+        },
+        {
+            "@id": "event:e3154423716628734923"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e6862224804107403844"
+        },
+        {
+            "@id": "event:e1485314228439294336"
+        },
+        {
+            "@id": "event:e1985414557061756523"
+        },
+        {
+            "@id": "event:e2190650941176273209"
+        },
+        {
+            "@id": "event:e1196077911610444322"
+        },
+        {
+            "@id": "event:e2104468696109377173"
+        },
+        {
+            "@id": "event:e3191037727169151035"
+        },
+        {
+            "@id": "event:e4782582680639460935"
+        },
+        {
+            "@id": "event:e3786225015889155678"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Enävaara, Reijo (1938-1984)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Enävaara, Reijo Aukusti"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1854411"
+    },
+    "semparl:id": "911816",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

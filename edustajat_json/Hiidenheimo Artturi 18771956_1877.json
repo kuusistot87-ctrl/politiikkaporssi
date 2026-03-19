@@ -1,0 +1,342 @@
+{
+    "@id": "people:p910474",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p7483282295406687610"
+        },
+        {
+            "@id": "ns1:p3761086361787832369"
+        },
+        {
+            "@id": "ns1:p1464615293363967352"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hiidenheimo(v:een 1906 Törnström), Arthur (Artturi) Fredrik"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910474.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1919-04-01_1919-04-01_1927-09-01_1927-09-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "01.09.1927",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1927-09-01_1927-09-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8164906620861097838"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910474"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2655082716446725649"
+        },
+        {
+            "@id": "label:l2596790087902324703"
+        },
+        {
+            "@id": "label:l2276036672316287864"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2104807092670991651"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910474"
+    },
+    "semparl:sortingLabel": "hiidenheimo artturi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910474"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Artturi-Hiidenheimo.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910474.aspx"
+        },
+        {
+            "@id": "natbib:2206"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Artturi_Hiidenheimo"
+        },
+        {
+            "@id": "wd:Q5481471"
+        },
+        {
+            "@id": "finaf:000113355"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3596"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1447633707111244602"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2884995403811845729"
+        },
+        {
+            "@id": "event:e1497470783052303215"
+        },
+        {
+            "@id": "event:e4632372476706926140"
+        },
+        {
+            "@id": "event:e9582967472450030364"
+        },
+        {
+            "@id": "event:e1868740059716895195"
+        },
+        {
+            "@id": "event:e7264614180778922418"
+        },
+        {
+            "@id": "event:e1588448717363073083"
+        },
+        {
+            "@id": "event:e1521536708430597211"
+        },
+        {
+            "@id": "event:e2087528938150945286"
+        },
+        {
+            "@id": "event:e2019062635938891207"
+        },
+        {
+            "@id": "event:e2701603063798407507"
+        },
+        {
+            "@id": "event:e2221506168496684327"
+        },
+        {
+            "@id": "event:e3150902140453479058"
+        },
+        {
+            "@id": "event:e2880252335922526262"
+        },
+        {
+            "@id": "event:e1881615163722747953"
+        },
+        {
+            "@id": "event:e1032615647243767293"
+        },
+        {
+            "@id": "event:e3353191417051821917"
+        },
+        {
+            "@id": "event:e1361416000515105744"
+        },
+        {
+            "@id": "event:e9797153535508552724"
+        },
+        {
+            "@id": "event:e6307342810148921025"
+        },
+        {
+            "@id": "event:e2934874013977897457"
+        },
+        {
+            "@id": "event:e3658730291324768215"
+        },
+        {
+            "@id": "event:e2613593556204453120"
+        },
+        {
+            "@id": "event:e2070714220202608939"
+        },
+        {
+            "@id": "event:e3325165925297265960"
+        },
+        {
+            "@id": "event:e6436783053360321092"
+        },
+        {
+            "@id": "event:e7543627410217923713"
+        },
+        {
+            "@id": "event:e2807673710434591839"
+        },
+        {
+            "@id": "event:e1143479868851269867"
+        },
+        {
+            "@id": "event:e2958470938744679214"
+        },
+        {
+            "@id": "event:e1884962794642384804"
+        },
+        {
+            "@id": "event:e2402903863832335365"
+        },
+        {
+            "@id": "event:e1823832092763659229"
+        },
+        {
+            "@id": "event:e5895263657557272216"
+        },
+        {
+            "@id": "event:e3216172884992758109"
+        },
+        {
+            "@id": "event:e6712527867667934945"
+        },
+        {
+            "@id": "event:e2031905189916241473"
+        },
+        {
+            "@id": "event:e1399626018928176572"
+        },
+        {
+            "@id": "event:e8554552448102889198"
+        },
+        {
+            "@id": "event:e7006319091767663125"
+        },
+        {
+            "@id": "event:e2853837480795897816"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2215859158371500087"
+        },
+        {
+            "@id": "event:e2237708527243041867"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2082595608152975183"
+        },
+        {
+            "@id": "event:e1835674085464326688"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        },
+        {
+            "@id": "event:e1935641343133436104"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hiidenheimo, Artturi (1877-1956)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Törnström, Arthur Fredrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hiidenheimo, Arthur Fredrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Törnström, Artturi"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910474",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,331 @@
+{
+    "@id": "people:p1338",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Savonlinna"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a8143346808499582838"
+        },
+        {
+            "@id": "affiliations:a6349540340074853291"
+        },
+        {
+            "@id": "affiliations:a5880214104908539569"
+        },
+        {
+            "@id": "affiliations:a3396392109656926026"
+        },
+        {
+            "@id": "affiliations:a3359240286036516198"
+        },
+        {
+            "@id": "affiliations:a3106215560360213032"
+        },
+        {
+            "@id": "affiliations:a3089288651933685975"
+        },
+        {
+            "@id": "affiliations:a2970380546283245276"
+        },
+        {
+            "@id": "affiliations:a2326265766712032847"
+        },
+        {
+            "@id": "affiliations:a2262858915012937940"
+        },
+        {
+            "@id": "affiliations:a2223107533217694722"
+        },
+        {
+            "@id": "affiliations:a2161456833668976906"
+        },
+        {
+            "@id": "affiliations:a3382547017410891778"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1338.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, yrittäjä"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o32"
+        },
+        {
+            "@id": "occupations:o355"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1816554766956536255"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3070485701157979636"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1338"
+    },
+    "semparl:sortingLabel": "kosonen hanna leena",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1338"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/637292/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanna%20Kosonen%2018.3.2020%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1338.aspx"
+        },
+        {
+            "@id": "yle:18-241647"
+        },
+        {
+            "@id": "twitter:KosonenHanna"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hanna_Kosonen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Hanna_Kosonen"
+        },
+        {
+            "@id": "wd:Q5648706"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4925759806565058609"
+        },
+        {
+            "@id": "event:e1004059883583466536"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9252592406500874966"
+        },
+        {
+            "@id": "event:e2503404098146385071"
+        },
+        {
+            "@id": "event:e1747370726837798886"
+        },
+        {
+            "@id": "event:e1628169695302184331"
+        },
+        {
+            "@id": "event:e1493600379863338999"
+        },
+        {
+            "@id": "event:e9041055200549686036"
+        },
+        {
+            "@id": "event:e1513354573059282224"
+        },
+        {
+            "@id": "event:e3121954356099063510"
+        },
+        {
+            "@id": "event:e2832788507744537481"
+        },
+        {
+            "@id": "event:e3295592541328210557"
+        },
+        {
+            "@id": "event:e3143010472175487614"
+        },
+        {
+            "@id": "event:e4120247844661028709"
+        },
+        {
+            "@id": "event:e1699719713303619501"
+        },
+        {
+            "@id": "event:e2480640160555682467"
+        },
+        {
+            "@id": "event:e1724035053998511318"
+        },
+        {
+            "@id": "event:e3195843880229630579"
+        },
+        {
+            "@id": "event:e2246786221462928574"
+        },
+        {
+            "@id": "event:e2039208852294873510"
+        },
+        {
+            "@id": "event:e1003976316584215245"
+        },
+        {
+            "@id": "event:e8400725309266600597"
+        },
+        {
+            "@id": "event:e2288273608820048991"
+        },
+        {
+            "@id": "event:e2203188623541437944"
+        },
+        {
+            "@id": "event:e1347574846356550589"
+        },
+        {
+            "@id": "event:e2428610195649409644"
+        },
+        {
+            "@id": "event:e7592766488109630810"
+        },
+        {
+            "@id": "event:e2143629659785651532"
+        },
+        {
+            "@id": "event:e1560426800460650632"
+        },
+        {
+            "@id": "event:e1873515809678478505"
+        },
+        {
+            "@id": "event:e2008692988103872029"
+        },
+        {
+            "@id": "event:e1836193132123193741"
+        },
+        {
+            "@id": "event:e1238610816815111218"
+        },
+        {
+            "@id": "event:e8580593654973451043"
+        },
+        {
+            "@id": "event:e1440791150052441479"
+        },
+        {
+            "@id": "event:e5263123106166006085"
+        },
+        {
+            "@id": "event:e2163057644718717620"
+        },
+        {
+            "@id": "event:e2519356990439547001"
+        },
+        {
+            "@id": "event:e2898796905251478604"
+        },
+        {
+            "@id": "event:e2734275774830961826"
+        },
+        {
+            "@id": "event:e1945940079318467501"
+        },
+        {
+            "@id": "event:e3167277335469818558"
+        },
+        {
+            "@id": "event:e7607370107667661097"
+        },
+        {
+            "@id": "event:e1863627879057226361"
+        },
+        {
+            "@id": "event:e2199834935424792823"
+        },
+        {
+            "@id": "event:e3123335594182590888"
+        },
+        {
+            "@id": "event:e3025455695108445355"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kosonen, Hanna (1976-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "1338",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

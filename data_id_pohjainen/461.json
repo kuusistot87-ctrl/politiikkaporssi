@@ -1,0 +1,231 @@
+{
+    "@id": "people:p461",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Karjalainen, Tapio Seppo"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:461.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24_2003-03-18_2003-03-18"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rehtori"
+    },
+    "semparl:end_of_representative_period_text": "18.03.2003",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2003-03-18_2003-03-18"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o63"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1753103019712428532"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1995127893450822370"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1000180353881486306"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=461"
+    },
+    "semparl:sortingLabel": "karjalainen tapio",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b461"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:461.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tapio_Karjalainen"
+        },
+        {
+            "@id": "wd:Q11896452"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e5698029909167816275"
+        },
+        {
+            "@id": "event:e2787279844828588170"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3113662998176485234"
+        },
+        {
+            "@id": "event:e2474980667667965395"
+        },
+        {
+            "@id": "event:e1720638505415820306"
+        },
+        {
+            "@id": "event:e1505293984805800257"
+        },
+        {
+            "@id": "event:e1701985919080618421"
+        },
+        {
+            "@id": "event:e2746999629138254615"
+        },
+        {
+            "@id": "event:e2842882787987726841"
+        },
+        {
+            "@id": "event:e1549697740270594241"
+        },
+        {
+            "@id": "event:e2115336143248289534"
+        },
+        {
+            "@id": "event:e5544847022534292867"
+        },
+        {
+            "@id": "event:e2051207627542810449"
+        },
+        {
+            "@id": "event:e1844706733432954473"
+        },
+        {
+            "@id": "event:e3395553044655492884"
+        },
+        {
+            "@id": "event:e2597336323238351593"
+        },
+        {
+            "@id": "event:e3052654152732815282"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e3630374715379010472"
+        },
+        {
+            "@id": "event:e2047561839439070852"
+        },
+        {
+            "@id": "event:e3962045588900411899"
+        },
+        {
+            "@id": "event:e3087309696953864487"
+        },
+        {
+            "@id": "event:e2306925857987165414"
+        },
+        {
+            "@id": "event:e2512416952487185942"
+        },
+        {
+            "@id": "event:e8461641770407433198"
+        },
+        {
+            "@id": "event:e2079149441321647513"
+        },
+        {
+            "@id": "event:e1725991522003557009"
+        },
+        {
+            "@id": "event:e7545707571046781910"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Karjalainen, Tapio (1939-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Karjalainen, Tapio Seppo"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "461",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

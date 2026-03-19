@@ -1,0 +1,323 @@
+{
+    "@id": "people:p1130",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tuupainen, Kauko Ilmari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1130.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "tilintarkastaja, eläkeläinen"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o758"
+        },
+        {
+            "@id": "occupations:o405"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3142854927940823317"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2626712916226109926"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2203979410699287846"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1130"
+    },
+    "semparl:sortingLabel": "tuupainen kauko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1130"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kauko%20Tuupainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1130.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kauko_Tuupainen"
+        },
+        {
+            "@id": "wd:Q11870525"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3048244470325542844"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2644437772677849849"
+        },
+        {
+            "@id": "event:e1980183818781314990"
+        },
+        {
+            "@id": "event:e3054253251911294350"
+        },
+        {
+            "@id": "event:e2890749550361868386"
+        },
+        {
+            "@id": "event:e2389822819492160507"
+        },
+        {
+            "@id": "event:e1140885248429574614"
+        },
+        {
+            "@id": "event:e2770459977251484230"
+        },
+        {
+            "@id": "event:e2526938759241679520"
+        },
+        {
+            "@id": "event:e1699725752299251015"
+        },
+        {
+            "@id": "event:e2581850171844540265"
+        },
+        {
+            "@id": "event:e3036969023219063931"
+        },
+        {
+            "@id": "event:e3333418021448425493"
+        },
+        {
+            "@id": "event:e1076117957704548982"
+        },
+        {
+            "@id": "event:e5544849531478960925"
+        },
+        {
+            "@id": "event:e1942769519892801188"
+        },
+        {
+            "@id": "event:e1019720251125435691"
+        },
+        {
+            "@id": "event:e2964044812779872834"
+        },
+        {
+            "@id": "event:e1845305189249208355"
+        },
+        {
+            "@id": "event:e3301029476636794255"
+        },
+        {
+            "@id": "event:e3266774803785613396"
+        },
+        {
+            "@id": "event:e3031386458289692680"
+        },
+        {
+            "@id": "event:e8012866570723633611"
+        },
+        {
+            "@id": "event:e1081876826041051728"
+        },
+        {
+            "@id": "event:e2256955549072709311"
+        },
+        {
+            "@id": "event:e1748890665098560977"
+        },
+        {
+            "@id": "event:e3208312557098061155"
+        },
+        {
+            "@id": "event:e2192729476060561673"
+        },
+        {
+            "@id": "event:e2086177119031813949"
+        },
+        {
+            "@id": "event:e2461360252324941852"
+        },
+        {
+            "@id": "event:e7685589013495718672"
+        },
+        {
+            "@id": "event:e3320464169320091574"
+        },
+        {
+            "@id": "event:e2874608139949021731"
+        },
+        {
+            "@id": "event:e2292333752484730303"
+        },
+        {
+            "@id": "event:e2298868817736105073"
+        },
+        {
+            "@id": "event:e2445213775360047127"
+        },
+        {
+            "@id": "event:e2566579234889696584"
+        },
+        {
+            "@id": "event:e2029373957051219006"
+        },
+        {
+            "@id": "event:e2738295407414980275"
+        },
+        {
+            "@id": "event:e1958115657273947037"
+        },
+        {
+            "@id": "event:e1926049502039307133"
+        },
+        {
+            "@id": "event:e3354840412246959161"
+        },
+        {
+            "@id": "event:e2731199464628445720"
+        },
+        {
+            "@id": "event:e3245870755221887012"
+        },
+        {
+            "@id": "event:e1298862769200185284"
+        },
+        {
+            "@id": "event:e3230271729611702628"
+        },
+        {
+            "@id": "event:e3707710572165678437"
+        },
+        {
+            "@id": "event:e1602349343667410116"
+        },
+        {
+            "@id": "event:e3396218362652193135"
+        },
+        {
+            "@id": "event:e1439341754886752388"
+        },
+        {
+            "@id": "event:e2206032695813813602"
+        },
+        {
+            "@id": "event:e2686792078107667863"
+        },
+        {
+            "@id": "event:e6677301901394456767"
+        },
+        {
+            "@id": "event:e2349997020198378588"
+        },
+        {
+            "@id": "event:e2365412975420202754"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tuupainen, Kauko (1940-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tuupainen, Kauko Ilmari"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q634277"
+        }
+    ],
+    "semparl:id": "1130",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

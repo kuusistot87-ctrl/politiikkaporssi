@@ -1,0 +1,246 @@
+{
+    "@id": "people:p910534",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Huttunen, Johan Edvard"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910534.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1937-02-04_1937-02-04_1939-08-31_1939-08-31"
+        },
+        {
+            "@id": "times:t_1924-05-01_1924-05-01_1933-08-31_1933-08-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansaneläkelaitoksen johtaja"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1939",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1939-08-31_1939-08-31"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1191"
+    },
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2242536424818661226"
+        },
+        {
+            "@id": "event:p1330163864641586111"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910534"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2465106914782727071"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3409854983621620987"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910534"
+    },
+    "semparl:sortingLabel": "huttunen edvard",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910534"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910534.aspx"
+        },
+        {
+            "@id": "natbib:2129"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Edvard_Huttunen"
+        },
+        {
+            "@id": "wd:Q11856609"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p587"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3045036212637843797"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2729716570499995392"
+        },
+        {
+            "@id": "event:e1792868450437339002"
+        },
+        {
+            "@id": "event:e1470594412190570232"
+        },
+        {
+            "@id": "event:e1341129723148350899"
+        },
+        {
+            "@id": "event:e1447726399488446410"
+        },
+        {
+            "@id": "event:e7479120035871391753"
+        },
+        {
+            "@id": "event:e1538935439013605305"
+        },
+        {
+            "@id": "event:e2432313366754466954"
+        },
+        {
+            "@id": "event:e1831313687218186503"
+        },
+        {
+            "@id": "event:e2454579826340906416"
+        },
+        {
+            "@id": "event:e1698970628676951677"
+        },
+        {
+            "@id": "event:e1890771664563988518"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e1107552035014425523"
+        },
+        {
+            "@id": "event:e3388842410841393969"
+        },
+        {
+            "@id": "event:e1183372465998465800"
+        },
+        {
+            "@id": "event:e2210837922050211204"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e3832541667769362358"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1589234674144052840"
+        },
+        {
+            "@id": "event:e1462786435108332244"
+        },
+        {
+            "@id": "event:e1532967017797863306"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Huttunen, Edvard (1889-1943)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Huttunen, Johan Edvard"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q2305779"
+        }
+    ],
+    "semparl:id": "910534",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

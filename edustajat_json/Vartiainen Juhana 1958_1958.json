@@ -1,0 +1,269 @@
+{
+    "@id": "people:p1330",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vartiainen, Juhana Mikael"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1330.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22_2021-09-07_2021-09-07"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteiden tohtori, ylijohtaja"
+    },
+    "semparl:end_of_representative_period_text": "07.09.2021",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2021-09-07_2021-09-07"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o903"
+        },
+        {
+            "@id": "occupations:o47"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2506905729830507619"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1180386548099105721"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1700992261179527632"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1330"
+    },
+    "semparl:sortingLabel": "vartiainen juhana",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1330"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Juhana%20Vartiainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1330.aspx"
+        },
+        {
+            "@id": "yle:18-197114"
+        },
+        {
+            "@id": "viaf:208886497"
+        },
+        {
+            "@id": "twitter:filsdeproust"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Juhana_Vartiainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Juhana_Vartiainen"
+        },
+        {
+            "@id": "wd:Q11867451"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1387646791258484030"
+        },
+        {
+            "@id": "event:e1897047097609957261"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2968002361614289938"
+        },
+        {
+            "@id": "event:e2620428076308668164"
+        },
+        {
+            "@id": "event:e1391396515722331228"
+        },
+        {
+            "@id": "event:e8232856577892304695"
+        },
+        {
+            "@id": "event:e2373921675934476911"
+        },
+        {
+            "@id": "event:e2175112760979493159"
+        },
+        {
+            "@id": "event:e1634436594123137058"
+        },
+        {
+            "@id": "event:e3757095060817428732"
+        },
+        {
+            "@id": "event:e4932650551536226278"
+        },
+        {
+            "@id": "event:e2523981140997475429"
+        },
+        {
+            "@id": "event:e1112682942719180825"
+        },
+        {
+            "@id": "event:e2847634240450229160"
+        },
+        {
+            "@id": "event:e6401451312920127193"
+        },
+        {
+            "@id": "event:e2310576712122264788"
+        },
+        {
+            "@id": "event:e1942099814992693134"
+        },
+        {
+            "@id": "event:e2804477327924732319"
+        },
+        {
+            "@id": "event:e3770928606077315007"
+        },
+        {
+            "@id": "event:e2892531943342256169"
+        },
+        {
+            "@id": "event:e2727999708807914154"
+        },
+        {
+            "@id": "event:e3087740893514275506"
+        },
+        {
+            "@id": "event:e1861623976347780022"
+        },
+        {
+            "@id": "event:e1798628954381639043"
+        },
+        {
+            "@id": "event:e2544942927074396840"
+        },
+        {
+            "@id": "event:e9392015726468579992"
+        },
+        {
+            "@id": "event:e1540305488444861686"
+        },
+        {
+            "@id": "event:e2460249873502031421"
+        },
+        {
+            "@id": "event:e2840242454279861076"
+        },
+        {
+            "@id": "event:e2726741150484435148"
+        },
+        {
+            "@id": "event:e4751150530422322267"
+        },
+        {
+            "@id": "event:e2017837094908275985"
+        },
+        {
+            "@id": "event:e2245054072479692589"
+        },
+        {
+            "@id": "event:e4584951528027682736"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vartiainen, Juhana (1958-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Vartiainen, Juhana Mikael"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1330",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

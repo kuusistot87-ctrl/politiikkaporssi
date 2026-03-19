@@ -1,0 +1,407 @@
+{
+    "@id": "people:p409",
+    "semparl:authored": [
+        {
+            "@id": "publications:b2850100975836093044"
+        },
+        {
+            "@id": "publications:b1305538139301601826"
+        },
+        {
+            "@id": "publications:b1244367605156582296"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Luhtanen, Leena Marjatta"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:409.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1991-03-22_1991-03-22_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "opetusministeriön opetusneuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o72"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2760476025555814851"
+    },
+    "xl:altLabel": {
+        "@id": "label:l5430939708829776122"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2871955635546073209"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=409"
+    },
+    "semparl:sortingLabel": "luhtanen leena",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b409"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Leena%20Luhtanen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:409.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Leena_Luhtanen"
+        },
+        {
+            "@id": "wd:Q3228984"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1252354668513338890"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3042067926255430857"
+        },
+        {
+            "@id": "event:e2816774587698223930"
+        },
+        {
+            "@id": "event:e2507781018955153114"
+        },
+        {
+            "@id": "event:e2230219350033609844"
+        },
+        {
+            "@id": "event:e8159872295434883143"
+        },
+        {
+            "@id": "event:e2335139030410525649"
+        },
+        {
+            "@id": "event:e1994479978284895689"
+        },
+        {
+            "@id": "event:e1939497519764052836"
+        },
+        {
+            "@id": "event:e3080771463376309379"
+        },
+        {
+            "@id": "event:e1783959295417187704"
+        },
+        {
+            "@id": "event:e3139371682622078861"
+        },
+        {
+            "@id": "event:e2591764252244821910"
+        },
+        {
+            "@id": "event:e1288911704072443505"
+        },
+        {
+            "@id": "event:e1451543041704603274"
+        },
+        {
+            "@id": "event:e1542472112118665802"
+        },
+        {
+            "@id": "event:e1241361140010857214"
+        },
+        {
+            "@id": "event:e1429146197072910979"
+        },
+        {
+            "@id": "event:e1901990590046718641"
+        },
+        {
+            "@id": "event:e9764726605859798312"
+        },
+        {
+            "@id": "event:e2371657813454604185"
+        },
+        {
+            "@id": "event:e4995427831848872292"
+        },
+        {
+            "@id": "event:e2997152726799773551"
+        },
+        {
+            "@id": "event:e2764420009445811716"
+        },
+        {
+            "@id": "event:e1336291369565643194"
+        },
+        {
+            "@id": "event:e1658771692436983080"
+        },
+        {
+            "@id": "event:e1230858067330418614"
+        },
+        {
+            "@id": "event:e5200877718594910382"
+        },
+        {
+            "@id": "event:e1557072200795880987"
+        },
+        {
+            "@id": "event:e2636994473863036010"
+        },
+        {
+            "@id": "event:e2709466947256623244"
+        },
+        {
+            "@id": "event:e2184428632947307090"
+        },
+        {
+            "@id": "event:e1274673328469041721"
+        },
+        {
+            "@id": "event:e4001986287577807041"
+        },
+        {
+            "@id": "event:e1336806757280412054"
+        },
+        {
+            "@id": "event:e1020273983319079638"
+        },
+        {
+            "@id": "event:e1280855481586396124"
+        },
+        {
+            "@id": "event:e1325528948058606742"
+        },
+        {
+            "@id": "event:e2841076738694956295"
+        },
+        {
+            "@id": "event:e1513952849210819590"
+        },
+        {
+            "@id": "event:e1057445539143368910"
+        },
+        {
+            "@id": "event:e2118788660225138114"
+        },
+        {
+            "@id": "event:e2948548942368836792"
+        },
+        {
+            "@id": "event:e4286134155129669815"
+        },
+        {
+            "@id": "event:e2813339969574726071"
+        },
+        {
+            "@id": "event:e3111705911931151281"
+        },
+        {
+            "@id": "event:e1576507472318426251"
+        },
+        {
+            "@id": "event:e1486726480783093052"
+        },
+        {
+            "@id": "event:e2446729364616364921"
+        },
+        {
+            "@id": "event:e2865161329818686565"
+        },
+        {
+            "@id": "event:e3170331046282769006"
+        },
+        {
+            "@id": "event:e1531347679841021998"
+        },
+        {
+            "@id": "event:e1651834141687781657"
+        },
+        {
+            "@id": "event:e3068653955262711645"
+        },
+        {
+            "@id": "event:e2972777941237888335"
+        },
+        {
+            "@id": "event:e5604011227505601559"
+        },
+        {
+            "@id": "event:e2719362086190089862"
+        },
+        {
+            "@id": "event:e3308376848797196983"
+        },
+        {
+            "@id": "event:e1085266549272140574"
+        },
+        {
+            "@id": "event:e2905922289827575518"
+        },
+        {
+            "@id": "event:e1575353953759760930"
+        },
+        {
+            "@id": "event:e3274640916507292104"
+        },
+        {
+            "@id": "event:e3109396536860052329"
+        },
+        {
+            "@id": "event:e3186375780679987279"
+        },
+        {
+            "@id": "event:e2693179904528817380"
+        },
+        {
+            "@id": "event:e1868153337703757444"
+        },
+        {
+            "@id": "event:e1099543569242280757"
+        },
+        {
+            "@id": "event:e3021009451118998757"
+        },
+        {
+            "@id": "event:e1613747386690630373"
+        },
+        {
+            "@id": "event:e2363571124481993843"
+        },
+        {
+            "@id": "event:e2684655322142295910"
+        },
+        {
+            "@id": "event:e1125114287062477481"
+        },
+        {
+            "@id": "event:e2568042139700806108"
+        },
+        {
+            "@id": "event:e2004323336043070603"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e5844019432661694295"
+        },
+        {
+            "@id": "event:e1972139642252245596"
+        },
+        {
+            "@id": "event:e1128264936557481310"
+        },
+        {
+            "@id": "event:e2512403840195215462"
+        },
+        {
+            "@id": "event:e3473402443340419186"
+        },
+        {
+            "@id": "event:e1691742835526520941"
+        },
+        {
+            "@id": "event:e1916108219573148139"
+        },
+        {
+            "@id": "event:e2058703054095974447"
+        },
+        {
+            "@id": "event:e1593360304338530260"
+        },
+        {
+            "@id": "event:e1561876851445303500"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Luhtanen, Leena (1941-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Luhtanen, Leena Marjatta"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "409",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

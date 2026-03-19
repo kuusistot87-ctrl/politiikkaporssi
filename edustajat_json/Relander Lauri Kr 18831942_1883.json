@@ -1,0 +1,305 @@
+{
+    "@id": "people:p911349",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b1082845938100518690"
+    },
+    "semparl:authored": {
+        "@id": "publications:b4341851460871290303"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Relander, Lars (Lauri) Kristian (Lauri Kr.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911349.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1920-10-08_1920-10-08"
+        },
+        {
+            "@id": "times:t_1910-03-01_1910-03-01_1914-02-01_1914-02-01"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian tohtori, Tasavallan Presidentti"
+    },
+    "semparl:end_of_representative_period_text": "08.10.1920",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1920-10-08_1920-10-08"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o78"
+        },
+        {
+            "@id": "occupations:o233"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1757468458907261701"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911349"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2723765101746435064"
+        },
+        {
+            "@id": "label:l2569059756184458593"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l8821472084641171001"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911349"
+    },
+    "semparl:sortingLabel": "relander lauri kr.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911349"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Lauri%20Kristian%20Relander.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911349.aspx"
+        },
+        {
+            "@id": "yle:18-200056"
+        },
+        {
+            "@id": "viaf:7323148997700059870007"
+        },
+        {
+            "@id": "natbib:628"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Lauri_Kristian_Relander"
+        },
+        {
+            "@id": "wd:Q214009"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2312"
+        },
+        {
+            "@id": "finaf:000075766"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p330"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2175597048694028852"
+        },
+        {
+            "@id": "event:e2349887112601784714"
+        },
+        {
+            "@id": "event:e2585516838666232317"
+        },
+        {
+            "@id": "event:e2100194790387057376"
+        },
+        {
+            "@id": "event:e2167102747253408398"
+        },
+        {
+            "@id": "event:e3019680266296861753"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9854487461621771175"
+        },
+        {
+            "@id": "event:e6556272944587810475"
+        },
+        {
+            "@id": "event:e2145235250266655641"
+        },
+        {
+            "@id": "event:e3062143799767289817"
+        },
+        {
+            "@id": "event:e9264684058518666316"
+        },
+        {
+            "@id": "event:e6128958877937996375"
+        },
+        {
+            "@id": "event:e2690876098203579953"
+        },
+        {
+            "@id": "event:e1460733593607961040"
+        },
+        {
+            "@id": "event:e2928616399301023245"
+        },
+        {
+            "@id": "event:e3083034274750987474"
+        },
+        {
+            "@id": "event:e8186929751519570945"
+        },
+        {
+            "@id": "event:e1149238025551060935"
+        },
+        {
+            "@id": "event:e9741005914062312258"
+        },
+        {
+            "@id": "event:e3211159902638698038"
+        },
+        {
+            "@id": "event:e2444075734658863589"
+        },
+        {
+            "@id": "event:e2359592786977394355"
+        },
+        {
+            "@id": "event:e1851930249618741518"
+        },
+        {
+            "@id": "event:e2497678347956521579"
+        },
+        {
+            "@id": "event:e1513608980945070184"
+        },
+        {
+            "@id": "event:e2734518695858664067"
+        },
+        {
+            "@id": "event:e1792806355516723197"
+        },
+        {
+            "@id": "event:e2105897085904842781"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2270014656062742190"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e7071969855920436292"
+        },
+        {
+            "@id": "event:e2356348609991149020"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Relander, Lauri Kr. (1883-1942)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Relander, Lars Kristian"
+        },
+        {
+            "@language": "fi",
+            "@value": "Relander, Lauri"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911349",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

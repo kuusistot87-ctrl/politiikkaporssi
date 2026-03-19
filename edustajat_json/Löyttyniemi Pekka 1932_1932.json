@@ -1,0 +1,314 @@
+{
+    "@id": "people:p911021",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Löyttyniemi, Pekka Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911021.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1979-03-24_1979-03-24_1985-01-31_1985-01-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri, varatuomari, kaupunkineuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.01.1985",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1985-01-31_1985-01-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o100"
+        },
+        {
+            "@id": "occupations:o120"
+        },
+        {
+            "@id": "occupations:o206"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1519297686086972988"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1692858808952968722"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5271818657412559152"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911021"
+    },
+    "semparl:sortingLabel": "löyttyniemi pekka",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911021"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911021.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pekka_L%C3%B6yttyniemi"
+        },
+        {
+            "@id": "wd:Q11887153"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1117091732917478907"
+        },
+        {
+            "@id": "event:e3174392605345971471"
+        },
+        {
+            "@id": "event:e5291572614510857855"
+        },
+        {
+            "@id": "event:e4464035873271345238"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4659768653206665300"
+        },
+        {
+            "@id": "event:e2072311559743828160"
+        },
+        {
+            "@id": "event:e5314114029716046623"
+        },
+        {
+            "@id": "event:e1940876668907622005"
+        },
+        {
+            "@id": "event:e5551003689109849533"
+        },
+        {
+            "@id": "event:e2440637858308930275"
+        },
+        {
+            "@id": "event:e4518658979858933702"
+        },
+        {
+            "@id": "event:e7561690997445471407"
+        },
+        {
+            "@id": "event:e1327155729542377199"
+        },
+        {
+            "@id": "event:e3235041205511754434"
+        },
+        {
+            "@id": "event:e3328143888134119953"
+        },
+        {
+            "@id": "event:e2721107962498327507"
+        },
+        {
+            "@id": "event:e1072460513786444001"
+        },
+        {
+            "@id": "event:e9995415803682400440"
+        },
+        {
+            "@id": "event:e1340163927903798342"
+        },
+        {
+            "@id": "event:e1541566280209175621"
+        },
+        {
+            "@id": "event:e1067659654616305407"
+        },
+        {
+            "@id": "event:e3215859060888439748"
+        },
+        {
+            "@id": "event:e2706128350777473796"
+        },
+        {
+            "@id": "event:e3456697073914793852"
+        },
+        {
+            "@id": "event:e2410425835973808974"
+        },
+        {
+            "@id": "event:e7640191107096083242"
+        },
+        {
+            "@id": "event:e3081737237206183857"
+        },
+        {
+            "@id": "event:e4084183973991402187"
+        },
+        {
+            "@id": "event:e2958618114742618909"
+        },
+        {
+            "@id": "event:e1309536427729736935"
+        },
+        {
+            "@id": "event:e2393476390351016848"
+        },
+        {
+            "@id": "event:e8362768319003599693"
+        },
+        {
+            "@id": "event:e2525240011848356358"
+        },
+        {
+            "@id": "event:e2647145900982313781"
+        },
+        {
+            "@id": "event:e2530905964941975021"
+        },
+        {
+            "@id": "event:e5598330263529440275"
+        },
+        {
+            "@id": "event:e2687619507693844209"
+        },
+        {
+            "@id": "event:e1902684505529212137"
+        },
+        {
+            "@id": "event:e1866349848457385526"
+        },
+        {
+            "@id": "event:e2634254043694198003"
+        },
+        {
+            "@id": "event:e8146361400411398663"
+        },
+        {
+            "@id": "event:e1055637789905202836"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e2260825280616548959"
+        },
+        {
+            "@id": "event:e1994392113004040446"
+        },
+        {
+            "@id": "event:e8083806049374110801"
+        },
+        {
+            "@id": "event:e2679221523872865405"
+        },
+        {
+            "@id": "event:e1434980321739584709"
+        },
+        {
+            "@id": "event:e3614606665844472381"
+        },
+        {
+            "@id": "event:e5227759362879456629"
+        },
+        {
+            "@id": "event:e1816028072268206056"
+        },
+        {
+            "@id": "event:e3235755070744207057"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Löyttyniemi, Pekka (1932-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Löyttyniemi, Pekka Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911021",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

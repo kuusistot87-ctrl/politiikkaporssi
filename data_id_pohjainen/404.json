@@ -1,0 +1,303 @@
+{
+    "@id": "people:p404",
+    "semparl:authored": [
+        {
+            "@id": "publications:b7843342835504388109"
+        },
+        {
+            "@id": "publications:b7180036461108954473"
+        },
+        {
+            "@id": "publications:b4558694585147081604"
+        },
+        {
+            "@id": "publications:b2548366719821919107"
+        },
+        {
+            "@id": "publications:b2471723441327083956"
+        },
+        {
+            "@id": "publications:b1398347515515532678"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Anttila, Ulla Mari Ainikki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:404.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1991-03-22_1991-03-22_2007-03-20_2007-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen maisteri, sosiaalipsykologi"
+    },
+    "semparl:end_of_representative_period_text": "20.03.2007",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2007-03-20_2007-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o435"
+        },
+        {
+            "@id": "occupations:o44"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2536049327752110713"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1796638577990697637"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3339865663166778489"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=404"
+    },
+    "semparl:sortingLabel": "anttila ulla",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b404"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:404.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ulla_Anttila"
+        },
+        {
+            "@id": "wd:Q4820257"
+        },
+        {
+            "@id": "finaf:000040570"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e5416486657260555523"
+        },
+        {
+            "@id": "event:e2610567234606893471"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7887692134654617680"
+        },
+        {
+            "@id": "event:e1487197617511335621"
+        },
+        {
+            "@id": "event:e1363703258310649472"
+        },
+        {
+            "@id": "event:e1094055931691400757"
+        },
+        {
+            "@id": "event:e1723722881045518430"
+        },
+        {
+            "@id": "event:e3078630249412657302"
+        },
+        {
+            "@id": "event:e2309674090330011618"
+        },
+        {
+            "@id": "event:e3182208981838471395"
+        },
+        {
+            "@id": "event:e1119134531947464618"
+        },
+        {
+            "@id": "event:e1387737264176042390"
+        },
+        {
+            "@id": "event:e9614675496125752654"
+        },
+        {
+            "@id": "event:e3238326943522099201"
+        },
+        {
+            "@id": "event:e6854990109336742261"
+        },
+        {
+            "@id": "event:e2712138851708116285"
+        },
+        {
+            "@id": "event:e2496251995796840030"
+        },
+        {
+            "@id": "event:e1758068172161125097"
+        },
+        {
+            "@id": "event:e3027127586036262081"
+        },
+        {
+            "@id": "event:e1386131444186494989"
+        },
+        {
+            "@id": "event:e3063587534873389205"
+        },
+        {
+            "@id": "event:e2601479580620526388"
+        },
+        {
+            "@id": "event:e7165801680215306080"
+        },
+        {
+            "@id": "event:e6779226072501660787"
+        },
+        {
+            "@id": "event:e1402937446016015188"
+        },
+        {
+            "@id": "event:e1186727353292723648"
+        },
+        {
+            "@id": "event:e3065064512592031086"
+        },
+        {
+            "@id": "event:e2663928067847837832"
+        },
+        {
+            "@id": "event:e2007527546877274749"
+        },
+        {
+            "@id": "event:e2803695285938063139"
+        },
+        {
+            "@id": "event:e1026977044326341957"
+        },
+        {
+            "@id": "event:e2054409115487545198"
+        },
+        {
+            "@id": "event:e6939089773644385367"
+        },
+        {
+            "@id": "event:e1516881637597092143"
+        },
+        {
+            "@id": "event:e1315089882758848949"
+        },
+        {
+            "@id": "event:e3630374715379010472"
+        },
+        {
+            "@id": "event:e3473402443340419186"
+        },
+        {
+            "@id": "event:e2068202992268502592"
+        },
+        {
+            "@id": "event:e8380529498334571241"
+        },
+        {
+            "@id": "event:e2148606147573039489"
+        },
+        {
+            "@id": "event:e2239294564240623917"
+        },
+        {
+            "@id": "event:e1865980361241940392"
+        },
+        {
+            "@id": "event:e7469867119491255148"
+        },
+        {
+            "@id": "event:e2956891896912121021"
+        },
+        {
+            "@id": "event:e2693179904528817380"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Anttila, Ulla (1963-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Anttila, Ulla Mari Ainikki"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "404",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

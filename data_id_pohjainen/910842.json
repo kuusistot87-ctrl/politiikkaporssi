@@ -1,0 +1,339 @@
+{
+    "@id": "people:p910842",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2568525127063097974"
+    },
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b8662139942498592874"
+        },
+        {
+            "@id": "publications:b3136091093315505985"
+        },
+        {
+            "@id": "publications:b1872651407221965349"
+        },
+        {
+            "@id": "publications:b1239285542683197637"
+        },
+        {
+            "@id": "publications:b1214068944597477781"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kuusinen, Otto Wilhelm (Otto Wille, O.W.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910842.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1908-08-01_1908-08-01_1910-02-28_1910-02-28"
+        },
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1918-05-16_1918-05-16"
+        },
+        {
+            "@id": "times:t_1911-02-01_1911-02-01_1914-02-01_1914-02-01"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian kandidaatti, sanomalehdentoimittaja"
+    },
+    "semparl:end_of_representative_period_text": "16.05.1918",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1918-05-16_1918-05-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o50"
+        },
+        {
+            "@id": "occupations:o1098"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1114126037444119706"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910842"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5449346525546414274"
+        },
+        {
+            "@id": "label:l3197548804387834656"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1929581576562847963"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910842"
+    },
+    "semparl:sortingLabel": "kuusinen otto wille",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910842"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Otto%20Wille%20Kuusinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910842.aspx"
+        },
+        {
+            "@id": "viaf:61675340"
+        },
+        {
+            "@id": "natbib:640"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Otto_Wille_Kuusinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Otto_Ville_Kuusinen"
+        },
+        {
+            "@id": "wd:Q313618"
+        },
+        {
+            "@id": "finaf:000049184"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p1768"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2100194790387057376"
+        },
+        {
+            "@id": "event:e2280956329017560734"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4722700021101502487"
+        },
+        {
+            "@id": "event:e2487036188251170186"
+        },
+        {
+            "@id": "event:e1809642136415588385"
+        },
+        {
+            "@id": "event:e1566044920924192412"
+        },
+        {
+            "@id": "event:e2303648817893732035"
+        },
+        {
+            "@id": "event:e1987170198006592294"
+        },
+        {
+            "@id": "event:e9568890688167137544"
+        },
+        {
+            "@id": "event:e1775814804978319010"
+        },
+        {
+            "@id": "event:e2953471419119514670"
+        },
+        {
+            "@id": "event:e1029367932906535612"
+        },
+        {
+            "@id": "event:e8339738087971040119"
+        },
+        {
+            "@id": "event:e1374829809075198057"
+        },
+        {
+            "@id": "event:e7400743242283891509"
+        },
+        {
+            "@id": "event:e3195314774063588439"
+        },
+        {
+            "@id": "event:e2574524455770239931"
+        },
+        {
+            "@id": "event:e2151325322455116675"
+        },
+        {
+            "@id": "event:e1271785116881944162"
+        },
+        {
+            "@id": "event:e1677400153400859318"
+        },
+        {
+            "@id": "event:e2457441391340798082"
+        },
+        {
+            "@id": "event:e2942826623046767496"
+        },
+        {
+            "@id": "event:e1128780132401713765"
+        },
+        {
+            "@id": "event:e1011465361093342258"
+        },
+        {
+            "@id": "event:e3003210033172370628"
+        },
+        {
+            "@id": "event:e2304682859457942574"
+        },
+        {
+            "@id": "event:e1615444919914849231"
+        },
+        {
+            "@id": "event:e2813339557121842010"
+        },
+        {
+            "@id": "event:e3251100961466141486"
+        },
+        {
+            "@id": "event:e3350278772923814379"
+        },
+        {
+            "@id": "event:e2187667981287196138"
+        },
+        {
+            "@id": "event:e2780761349577601575"
+        },
+        {
+            "@id": "event:e1605594300167255127"
+        },
+        {
+            "@id": "event:e1425895767676698518"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1097937268425700072"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2583971163797821242"
+        },
+        {
+            "@id": "event:e3241764227032702725"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kuusinen, Otto Wille (1881-1964)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Kuusinen, O.W."
+        },
+        {
+            "@language": "fi",
+            "@value": "Kuusinen, Otto Wilhelm"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q220217"
+        },
+        {
+            "@id": "groups:Q1341419"
+        }
+    ],
+    "semparl:id": "910842",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,330 @@
+{
+    "@id": "people:p775",
+    "semparl:authored": [
+        {
+            "@id": "publications:b2785985588131040479"
+        },
+        {
+            "@id": "publications:b1030653939420926836"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Matikainen-Kallström, Marjo Tuulevi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:775.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "diplomi-insinööri, Executive Master of Business Administration"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o631"
+        },
+        {
+            "@id": "occupations:o206"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8354132820923546437"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2217317507401349457"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1516763547694096024"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=775"
+    },
+    "semparl:sortingLabel": "matikainen-kallström marjo",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b775"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Marjomatikainenkalstr%C3%B6m.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:775.aspx"
+        },
+        {
+            "@id": "yle:18-196758"
+        },
+        {
+            "@id": "natbib:1931"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Marjo_Matikainen-Kallstr%C3%B6m"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Marjo_Matikainen-Kallstr%C3%B6m"
+        },
+        {
+            "@id": "wd:Q241412"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4456"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8447340105915425200"
+        },
+        {
+            "@id": "event:e8394513738970495895"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2204760841871748006"
+        },
+        {
+            "@id": "event:e2070155438006943994"
+        },
+        {
+            "@id": "event:e1531009094689793788"
+        },
+        {
+            "@id": "event:e1025672591967635070"
+        },
+        {
+            "@id": "event:e1593454137636026969"
+        },
+        {
+            "@id": "event:e1503508172976204049"
+        },
+        {
+            "@id": "event:e1907518942706216958"
+        },
+        {
+            "@id": "event:e3135860888125697164"
+        },
+        {
+            "@id": "event:e2100251455961963374"
+        },
+        {
+            "@id": "event:e2231766794671076176"
+        },
+        {
+            "@id": "event:e1602014324478710598"
+        },
+        {
+            "@id": "event:e9011215194252353192"
+        },
+        {
+            "@id": "event:e2735533139397462349"
+        },
+        {
+            "@id": "event:e8595003701691323093"
+        },
+        {
+            "@id": "event:e2152359689975382703"
+        },
+        {
+            "@id": "event:e1350148931709389116"
+        },
+        {
+            "@id": "event:e1561560084645000603"
+        },
+        {
+            "@id": "event:e1787539923303751088"
+        },
+        {
+            "@id": "event:e1224814803107338992"
+        },
+        {
+            "@id": "event:e9015348803481709411"
+        },
+        {
+            "@id": "event:e2971664312810996397"
+        },
+        {
+            "@id": "event:e2432027352215895456"
+        },
+        {
+            "@id": "event:e1402685727741648260"
+        },
+        {
+            "@id": "event:e2564236829341549745"
+        },
+        {
+            "@id": "event:e4121372587240757815"
+        },
+        {
+            "@id": "event:e7379327739562865210"
+        },
+        {
+            "@id": "event:e6469003412166069486"
+        },
+        {
+            "@id": "event:e1523809279420422744"
+        },
+        {
+            "@id": "event:e2930658880225239556"
+        },
+        {
+            "@id": "event:e3563340916205855279"
+        },
+        {
+            "@id": "event:e1334659263394113940"
+        },
+        {
+            "@id": "event:e2387197685297504433"
+        },
+        {
+            "@id": "event:e2382706850431577125"
+        },
+        {
+            "@id": "event:e3963291856576360471"
+        },
+        {
+            "@id": "event:e3228253153271590689"
+        },
+        {
+            "@id": "event:e2608101351902694164"
+        },
+        {
+            "@id": "event:e3119552637680410911"
+        },
+        {
+            "@id": "event:e2784084028901657065"
+        },
+        {
+            "@id": "event:e3407580757781951842"
+        },
+        {
+            "@id": "event:e3018896235794001779"
+        },
+        {
+            "@id": "event:e2844395773315012422"
+        },
+        {
+            "@id": "event:e1120904547309919455"
+        },
+        {
+            "@id": "event:e2736362423963697712"
+        },
+        {
+            "@id": "event:e1102389825158192997"
+        },
+        {
+            "@id": "event:e3870477906291777412"
+        },
+        {
+            "@id": "event:e1678482061290036204"
+        },
+        {
+            "@id": "event:e1603276980885122605"
+        },
+        {
+            "@id": "event:e2864660773199380718"
+        },
+        {
+            "@id": "event:e2595328187777170890"
+        },
+        {
+            "@id": "event:e1068733699646949403"
+        },
+        {
+            "@id": "event:e1183158238969734626"
+        },
+        {
+            "@id": "event:e1498018797918492071"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Matikainen-Kallström, Marjo (1965-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Matikainen-Kallström, Marjo Tuulevi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "775",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

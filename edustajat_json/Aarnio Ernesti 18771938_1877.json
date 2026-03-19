@@ -1,0 +1,245 @@
+{
+    "@id": "people:p910031",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Aarnio(v:een 1894 Henriksson), Kaarlo Ernesti (K.E.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910031.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1927-09-02_1927-09-02_1929-07-31_1929-07-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirkkoherra, lääninrovasti"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1929",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1929-07-31_1929-07-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1031"
+        },
+        {
+            "@id": "occupations:o593"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1566940761069567841"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910031"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l5312906800649583026"
+        },
+        {
+            "@id": "label:l2989144426055591255"
+        },
+        {
+            "@id": "label:l2117791075061544829"
+        },
+        {
+            "@id": "label:l1929921001800723427"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l7514899523530004808"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910031"
+    },
+    "semparl:sortingLabel": "aarnio ernesti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910031"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910031.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ernesti_Aarnio"
+        },
+        {
+            "@id": "wd:Q26449143"
+        },
+        {
+            "@id": "http://www.norssit.fi/semweb/#!/tiedot/http:~2F~2Fldf.fi~2Fnorssit~2Fnorssi_314"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1871470366781618338"
+        },
+        {
+            "@id": "event:e2434618220774252380"
+        },
+        {
+            "@id": "event:e1931533885889956897"
+        },
+        {
+            "@id": "event:e3305929536100124980"
+        },
+        {
+            "@id": "event:e1069820826610485344"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9551309880467629275"
+        },
+        {
+            "@id": "event:e2384832382059129381"
+        },
+        {
+            "@id": "event:e2391058066628872665"
+        },
+        {
+            "@id": "event:e2928468722474637855"
+        },
+        {
+            "@id": "event:e1883684361413857685"
+        },
+        {
+            "@id": "event:e7622691149689383236"
+        },
+        {
+            "@id": "event:e7122857708173765212"
+        },
+        {
+            "@id": "event:e2000700582936820915"
+        },
+        {
+            "@id": "event:e2412526327303923771"
+        },
+        {
+            "@id": "event:e1357279267763497860"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1391119181992252012"
+        },
+        {
+            "@id": "event:e2037972701007713742"
+        },
+        {
+            "@id": "event:e2088378448510834314"
+        },
+        {
+            "@id": "event:e9139886893848926772"
+        },
+        {
+            "@id": "event:e1131680487549575844"
+        },
+        {
+            "@id": "event:e1218542720706804390"
+        },
+        {
+            "@id": "event:e3553683647100359719"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Aarnio, Ernesti (1877-1938)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Henriksson, Kaarlo Ernesti"
+        },
+        {
+            "@language": "fi",
+            "@value": "Aarnio, Kaarlo Ernesti"
+        },
+        {
+            "@language": "fi",
+            "@value": "Henriksson, K.E."
+        },
+        {
+            "@language": "fi",
+            "@value": "Aarnio, K.E."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910031",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

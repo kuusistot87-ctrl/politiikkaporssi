@@ -1,0 +1,382 @@
+{
+    "@id": "people:p971",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Rovaniemi"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9771931856715001446"
+        },
+        {
+            "@id": "affiliations:a9225657740268042693"
+        },
+        {
+            "@id": "affiliations:a9036085729868778151"
+        },
+        {
+            "@id": "affiliations:a8505690764048803743"
+        },
+        {
+            "@id": "affiliations:a2315292552450949731"
+        },
+        {
+            "@id": "affiliations:a2253959581699547437"
+        },
+        {
+            "@id": "affiliations:a2051714166344031601"
+        },
+        {
+            "@id": "affiliations:a2034356924172772067"
+        },
+        {
+            "@id": "affiliations:a1791121923477495063"
+        },
+        {
+            "@id": "affiliations:a1780160626400765980"
+        },
+        {
+            "@id": "affiliations:a6530824149762565066"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:971.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "varatuomari, ulkomaankaupan merkonomi"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o750"
+        },
+        {
+            "@id": "occupations:o120"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p6688564014640443578"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2336539093523948773"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=971"
+    },
+    "semparl:sortingLabel": "ojala-niemelä johanna katriina",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b971"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/638936/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Johanna%20Ojala-Niemel%C3%A4%202.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:971.aspx"
+        },
+        {
+            "@id": "yle:18-293128"
+        },
+        {
+            "@id": "twitter:ojalaniemela"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Johanna_Ojala-Niemel%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Johanna_Ojala-Niemel%C3%A4"
+        },
+        {
+            "@id": "wd:Q11866673"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2164606450713951234"
+        },
+        {
+            "@id": "event:e6891282534473201097"
+        },
+        {
+            "@id": "event:e1911960007432277168"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6010895737825136365"
+        },
+        {
+            "@id": "event:e4132300428061026223"
+        },
+        {
+            "@id": "event:e2140237946901011305"
+        },
+        {
+            "@id": "event:e1697922885644173264"
+        },
+        {
+            "@id": "event:e1371929460518195557"
+        },
+        {
+            "@id": "event:e1321996095830323746"
+        },
+        {
+            "@id": "event:e8946660325270460820"
+        },
+        {
+            "@id": "event:e2743116269666331113"
+        },
+        {
+            "@id": "event:e2939977403763860170"
+        },
+        {
+            "@id": "event:e1955470400238681674"
+        },
+        {
+            "@id": "event:e7244115320311394993"
+        },
+        {
+            "@id": "event:e2170965404328496030"
+        },
+        {
+            "@id": "event:e3382769690341073334"
+        },
+        {
+            "@id": "event:e1863086084463498795"
+        },
+        {
+            "@id": "event:e1764981884349930120"
+        },
+        {
+            "@id": "event:e4507024529174385906"
+        },
+        {
+            "@id": "event:e9566929407012554257"
+        },
+        {
+            "@id": "event:e3366001499635679062"
+        },
+        {
+            "@id": "event:e3362660849382792992"
+        },
+        {
+            "@id": "event:e1028374295600891607"
+        },
+        {
+            "@id": "event:e1549624121450536178"
+        },
+        {
+            "@id": "event:e8442573841390927019"
+        },
+        {
+            "@id": "event:e8410801722829337508"
+        },
+        {
+            "@id": "event:e8785402871714461468"
+        },
+        {
+            "@id": "event:e2703977118966673989"
+        },
+        {
+            "@id": "event:e2107614439203523599"
+        },
+        {
+            "@id": "event:e7576426243874709811"
+        },
+        {
+            "@id": "event:e1694220457989333328"
+        },
+        {
+            "@id": "event:e3136079704560919788"
+        },
+        {
+            "@id": "event:e2431801348346711183"
+        },
+        {
+            "@id": "event:e4805527904322769640"
+        },
+        {
+            "@id": "event:e3172815920557239193"
+        },
+        {
+            "@id": "event:e1910478547971596322"
+        },
+        {
+            "@id": "event:e9842726170697646878"
+        },
+        {
+            "@id": "event:e4622562334046218906"
+        },
+        {
+            "@id": "event:e1638253515339674035"
+        },
+        {
+            "@id": "event:e1797715700300838473"
+        },
+        {
+            "@id": "event:e1123953078563229492"
+        },
+        {
+            "@id": "event:e7790233859169298677"
+        },
+        {
+            "@id": "event:e2014983203399479505"
+        },
+        {
+            "@id": "event:e1794819619367114281"
+        },
+        {
+            "@id": "event:e8791397481493697540"
+        },
+        {
+            "@id": "event:e2548472951279357672"
+        },
+        {
+            "@id": "event:e2058650454177044009"
+        },
+        {
+            "@id": "event:e2897389682475155742"
+        },
+        {
+            "@id": "event:e3347782920710621454"
+        },
+        {
+            "@id": "event:e2290239263232456433"
+        },
+        {
+            "@id": "event:e1487645766421519269"
+        },
+        {
+            "@id": "event:e1288394831553923648"
+        },
+        {
+            "@id": "event:e1281237230270753095"
+        },
+        {
+            "@id": "event:e3026998364038546535"
+        },
+        {
+            "@id": "event:e2342863181262189751"
+        },
+        {
+            "@id": "event:e8338790594643376477"
+        },
+        {
+            "@id": "event:e3314667524100251463"
+        },
+        {
+            "@id": "event:e3399357949036586829"
+        },
+        {
+            "@id": "event:e1343718698285427970"
+        },
+        {
+            "@id": "event:e1905956131474110069"
+        },
+        {
+            "@id": "event:e2980322978722185401"
+        },
+        {
+            "@id": "event:e6850740048455151757"
+        },
+        {
+            "@id": "event:e2189785246810247827"
+        },
+        {
+            "@id": "event:e2049773801832978331"
+        },
+        {
+            "@id": "event:e9556931604549700054"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ojala-Niemelä, Johanna (1974-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "971",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

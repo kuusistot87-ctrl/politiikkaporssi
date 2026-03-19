@@ -1,0 +1,250 @@
+{
+    "@id": "people:p1113",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tiainen, Eila Kyllikki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1113.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toimittaja, filosofian maisteri"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o145"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2382501968304637200"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2371984627883193338"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1892135656133544720"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1113"
+    },
+    "semparl:sortingLabel": "tiainen eila",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1113"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1113.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eila_Tiainen"
+        },
+        {
+            "@id": "wd:Q5413438"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2410497463531348251"
+        },
+        {
+            "@id": "event:e3086652605508595668"
+        },
+        {
+            "@id": "event:e3027484853112431558"
+        },
+        {
+            "@id": "event:e1496068875964016470"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2852070076741268695"
+        },
+        {
+            "@id": "event:e1169542515630050370"
+        },
+        {
+            "@id": "event:e1671454743786548798"
+        },
+        {
+            "@id": "event:e1312102267895869950"
+        },
+        {
+            "@id": "event:e1661080638996846399"
+        },
+        {
+            "@id": "event:e7836460313295659503"
+        },
+        {
+            "@id": "event:e2871444470388331354"
+        },
+        {
+            "@id": "event:e1569634943739466811"
+        },
+        {
+            "@id": "event:e1019720251125435691"
+        },
+        {
+            "@id": "event:e3175311452402360449"
+        },
+        {
+            "@id": "event:e2118393506030853853"
+        },
+        {
+            "@id": "event:e1024773992150813257"
+        },
+        {
+            "@id": "event:e2061142435730563513"
+        },
+        {
+            "@id": "event:e2726392119464628559"
+        },
+        {
+            "@id": "event:e1901266197883526931"
+        },
+        {
+            "@id": "event:e2707505205180376099"
+        },
+        {
+            "@id": "event:e3151953932646417177"
+        },
+        {
+            "@id": "event:e2271384711056701712"
+        },
+        {
+            "@id": "event:e2343057589915784289"
+        },
+        {
+            "@id": "event:e3362538541188524384"
+        },
+        {
+            "@id": "event:e7830743655727583538"
+        },
+        {
+            "@id": "event:e6549613815356426764"
+        },
+        {
+            "@id": "event:e5467994405958114921"
+        },
+        {
+            "@id": "event:e3287699088765210211"
+        },
+        {
+            "@id": "event:e1893275351986966944"
+        },
+        {
+            "@id": "event:e5251606267580505841"
+        },
+        {
+            "@id": "event:e2654961501856339366"
+        },
+        {
+            "@id": "event:e1850594774189502997"
+        },
+        {
+            "@id": "event:e2553505653986229173"
+        },
+        {
+            "@id": "event:e7468776522496707653"
+        },
+        {
+            "@id": "event:e2401007528880375798"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tiainen, Eila (1945-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tiainen, Eila Kyllikki"
+    },
+    "semparl:party": {
+        "@id": "groups:Q385927"
+    },
+    "semparl:id": "1113",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

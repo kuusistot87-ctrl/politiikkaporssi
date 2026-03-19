@@ -1,0 +1,368 @@
+{
+    "@id": "people:p911739",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vilhula, David (Taavi) Nikolai (T.N.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911739.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1933-09-01_1933-09-01_1954-03-28_1954-03-28"
+        },
+        {
+            "@id": "times:t_1929-08-01_1929-08-01_1930-10-20_1930-10-20"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, pääjohtaja, maanviljelysneuvos"
+    },
+    "semparl:end_of_representative_period_text": "28.03.1954",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1954-03-28_1954-03-28"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o272"
+        },
+        {
+            "@id": "occupations:o152"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1833952459309581222"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911739"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3191143819258893598"
+        },
+        {
+            "@id": "label:l2189066157165667012"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l4285822316446305006"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911739"
+    },
+    "semparl:sortingLabel": "vilhula taavi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911739"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Taavi%20Vilhula%20-%20Finnish%20Heritage%20Agency%20%28768298%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911739.aspx"
+        },
+        {
+            "@id": "natbib:1001"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Taavi_Vilhula"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Taavi_Vilhula"
+        },
+        {
+            "@id": "wd:Q17384647"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2390"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5790"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2853010855243748145"
+        },
+        {
+            "@id": "event:e1777954130248416075"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4422510574771560737"
+        },
+        {
+            "@id": "event:e3259986593819007620"
+        },
+        {
+            "@id": "event:e3189212018078137361"
+        },
+        {
+            "@id": "event:e1702684484083218453"
+        },
+        {
+            "@id": "event:e1490510991733004936"
+        },
+        {
+            "@id": "event:e6184790089988711944"
+        },
+        {
+            "@id": "event:e8831964234414537269"
+        },
+        {
+            "@id": "event:e1132000892074652361"
+        },
+        {
+            "@id": "event:e1431559216343919150"
+        },
+        {
+            "@id": "event:e5572875596487997290"
+        },
+        {
+            "@id": "event:e2225966627844321199"
+        },
+        {
+            "@id": "event:e3635661164566401929"
+        },
+        {
+            "@id": "event:e8933344801003879732"
+        },
+        {
+            "@id": "event:e1882857311949634601"
+        },
+        {
+            "@id": "event:e3167071972740364285"
+        },
+        {
+            "@id": "event:e3261982627459036955"
+        },
+        {
+            "@id": "event:e1905592890819853168"
+        },
+        {
+            "@id": "event:e5413304042705980573"
+        },
+        {
+            "@id": "event:e2185017401939167930"
+        },
+        {
+            "@id": "event:e1787180430541958875"
+        },
+        {
+            "@id": "event:e8681657266221277336"
+        },
+        {
+            "@id": "event:e1086251272171195170"
+        },
+        {
+            "@id": "event:e1617116561882843621"
+        },
+        {
+            "@id": "event:e1256623722192607621"
+        },
+        {
+            "@id": "event:e1950784207288121308"
+        },
+        {
+            "@id": "event:e2121050178733252168"
+        },
+        {
+            "@id": "event:e1771794071726523262"
+        },
+        {
+            "@id": "event:e7901222579411139938"
+        },
+        {
+            "@id": "event:e9104567290436507522"
+        },
+        {
+            "@id": "event:e1707769885235268174"
+        },
+        {
+            "@id": "event:e3359729508288040782"
+        },
+        {
+            "@id": "event:e5804907468729767270"
+        },
+        {
+            "@id": "event:e9131282187180221268"
+        },
+        {
+            "@id": "event:e1279427203082562872"
+        },
+        {
+            "@id": "event:e1249559664181445503"
+        },
+        {
+            "@id": "event:e1879697227506823192"
+        },
+        {
+            "@id": "event:e1465833277514606766"
+        },
+        {
+            "@id": "event:e3372403785916192200"
+        },
+        {
+            "@id": "event:e3777524273607702046"
+        },
+        {
+            "@id": "event:e2569723927725771542"
+        },
+        {
+            "@id": "event:e1548169118705875793"
+        },
+        {
+            "@id": "event:e2433144866963073051"
+        },
+        {
+            "@id": "event:e5895263657557272216"
+        },
+        {
+            "@id": "event:e1513564283985450653"
+        },
+        {
+            "@id": "event:e4847953140907675917"
+        },
+        {
+            "@id": "event:e4123452944016734390"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e2082595608152975183"
+        },
+        {
+            "@id": "event:e2332837629715532488"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e2215859158371500087"
+        },
+        {
+            "@id": "event:e3255620926986725627"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vilhula, Taavi (1897-1976)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Vilhula, T.N."
+        },
+        {
+            "@language": "fi",
+            "@value": "Vilhula, David Nikolai"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911739",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

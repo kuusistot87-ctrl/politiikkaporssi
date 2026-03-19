@@ -1,0 +1,310 @@
+{
+    "@id": "people:p562",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2712129236321469178"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Harkimo, Leena-Kaisa (Leena)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:562.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1999-03-24_1999-03-24_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "ylioppilasmerkonomi"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o38"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1366763827234105886"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3998859784092529911"
+        },
+        {
+            "@id": "label:l1625164333070614509"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1971252403823133659"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=562"
+    },
+    "semparl:sortingLabel": "harkimo leena",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b562"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Leena%20Harkimo%202009%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:562.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Leena_Harkimo"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Leena_Harkimo"
+        },
+        {
+            "@id": "wd:Q11875227"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1949776679869393403"
+        },
+        {
+            "@id": "event:e2610567234606893471"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1165490570786684251"
+        },
+        {
+            "@id": "event:e3215078715788956904"
+        },
+        {
+            "@id": "event:e1839178594328972285"
+        },
+        {
+            "@id": "event:e1688411847913529904"
+        },
+        {
+            "@id": "event:e2205808842612140077"
+        },
+        {
+            "@id": "event:e1451751129249602930"
+        },
+        {
+            "@id": "event:e7173277675121916993"
+        },
+        {
+            "@id": "event:e3383786035974203372"
+        },
+        {
+            "@id": "event:e3378261328468863545"
+        },
+        {
+            "@id": "event:e4684999693643423817"
+        },
+        {
+            "@id": "event:e2674740305933607069"
+        },
+        {
+            "@id": "event:e1298017861596072713"
+        },
+        {
+            "@id": "event:e2026986769502507442"
+        },
+        {
+            "@id": "event:e3061856040395099603"
+        },
+        {
+            "@id": "event:e4435551124817301855"
+        },
+        {
+            "@id": "event:e1762440052963742757"
+        },
+        {
+            "@id": "event:e3074025233830369740"
+        },
+        {
+            "@id": "event:e3909020169264889234"
+        },
+        {
+            "@id": "event:e1243765161102273009"
+        },
+        {
+            "@id": "event:e1165455776767859089"
+        },
+        {
+            "@id": "event:e2667753380695514549"
+        },
+        {
+            "@id": "event:e1464891738451735316"
+        },
+        {
+            "@id": "event:e7463206888323667877"
+        },
+        {
+            "@id": "event:e1303957355625999075"
+        },
+        {
+            "@id": "event:e1657281506274899853"
+        },
+        {
+            "@id": "event:e1266803778685063165"
+        },
+        {
+            "@id": "event:e2535826377490568657"
+        },
+        {
+            "@id": "event:e1082391844103184442"
+        },
+        {
+            "@id": "event:e1692681400178306062"
+        },
+        {
+            "@id": "event:e5955801004549254633"
+        },
+        {
+            "@id": "event:e4239064463176216180"
+        },
+        {
+            "@id": "event:e8587875933261975393"
+        },
+        {
+            "@id": "event:e1580341634564091494"
+        },
+        {
+            "@id": "event:e3353745552587665356"
+        },
+        {
+            "@id": "event:e2873670089419006785"
+        },
+        {
+            "@id": "event:e2643807449066800232"
+        },
+        {
+            "@id": "event:e2722598379975812381"
+        },
+        {
+            "@id": "event:e1594246483165151271"
+        },
+        {
+            "@id": "event:e1397049543610639936"
+        },
+        {
+            "@id": "event:e7121382630223919414"
+        },
+        {
+            "@id": "event:e3630374715379010472"
+        },
+        {
+            "@id": "event:e2634067876225979982"
+        },
+        {
+            "@id": "event:e5354879748232549059"
+        },
+        {
+            "@id": "event:e3036980224636460807"
+        },
+        {
+            "@id": "event:e2206032695813813602"
+        },
+        {
+            "@id": "event:e3276364642387036984"
+        },
+        {
+            "@id": "event:e2367866195066599460"
+        },
+        {
+            "@id": "event:e3233079507696510902"
+        },
+        {
+            "@id": "event:e1942253859075509698"
+        },
+        {
+            "@id": "event:e2908194416358372448"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Harkimo, Leena (1963-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Harkimo, Leena-Kaisa"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "562",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

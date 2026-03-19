@@ -1,0 +1,297 @@
+{
+    "@id": "people:p263",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Siitonen, Eva-Riitta"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:263.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_1989-12-31_1989-12-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "ekonomi, kaupunginjohtaja, ylipormestari"
+    },
+    "semparl:end_of_representative_period_text": "31.12.1989",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1989-12-31_1989-12-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o322"
+        },
+        {
+            "@id": "occupations:o99"
+        },
+        {
+            "@id": "occupations:o110"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2901048768186726310"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1694669706700911255"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=263"
+    },
+    "semparl:sortingLabel": "siitonen eva-riitta",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b263"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eva-Riitta%20Siitonen%20Tampere.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:263.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eva-Riitta_Siitonen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Eva-Riitta_Siitonen"
+        },
+        {
+            "@id": "wd:Q3735752"
+        },
+        {
+            "@id": "finaf:000107023"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2246530193184610245"
+        },
+        {
+            "@id": "event:e4327509696701397613"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1572175998646085482"
+        },
+        {
+            "@id": "event:e1294085765600838074"
+        },
+        {
+            "@id": "event:e2889906502264966620"
+        },
+        {
+            "@id": "event:e9934150808286371256"
+        },
+        {
+            "@id": "event:e1179336739250549630"
+        },
+        {
+            "@id": "event:e1983790358842247756"
+        },
+        {
+            "@id": "event:e1877194296130082254"
+        },
+        {
+            "@id": "event:e2175484413684043391"
+        },
+        {
+            "@id": "event:e1355419004571632578"
+        },
+        {
+            "@id": "event:e2007566505629080523"
+        },
+        {
+            "@id": "event:e1623940394125848196"
+        },
+        {
+            "@id": "event:e1728679484012675001"
+        },
+        {
+            "@id": "event:e2692369525424446164"
+        },
+        {
+            "@id": "event:e1924962288017565125"
+        },
+        {
+            "@id": "event:e7495811868553671889"
+        },
+        {
+            "@id": "event:e2449163448414540318"
+        },
+        {
+            "@id": "event:e5314887090018983215"
+        },
+        {
+            "@id": "event:e2162062073637209385"
+        },
+        {
+            "@id": "event:e9074658040286913536"
+        },
+        {
+            "@id": "event:e1980307102323413060"
+        },
+        {
+            "@id": "event:e5789114882967429358"
+        },
+        {
+            "@id": "event:e8877581920159421505"
+        },
+        {
+            "@id": "event:e3373290425032221671"
+        },
+        {
+            "@id": "event:e2762089988665978821"
+        },
+        {
+            "@id": "event:e1986230924458582925"
+        },
+        {
+            "@id": "event:e1338902101136780909"
+        },
+        {
+            "@id": "event:e9471476877898541793"
+        },
+        {
+            "@id": "event:e1382010235653513098"
+        },
+        {
+            "@id": "event:e1878706902942234419"
+        },
+        {
+            "@id": "event:e5747227251613480121"
+        },
+        {
+            "@id": "event:e1559231917280633273"
+        },
+        {
+            "@id": "event:e6772966971376851262"
+        },
+        {
+            "@id": "event:e1287317423217507192"
+        },
+        {
+            "@id": "event:e1979522543859202349"
+        },
+        {
+            "@id": "event:e1793176742569144242"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e1791637697854257615"
+        },
+        {
+            "@id": "event:e2422058805464467227"
+        },
+        {
+            "@id": "event:e2159281062526294670"
+        },
+        {
+            "@id": "event:e7124110127546077384"
+        },
+        {
+            "@id": "event:e1300078658569093676"
+        },
+        {
+            "@id": "event:e3346832272445346632"
+        },
+        {
+            "@id": "event:e3199504062677150224"
+        },
+        {
+            "@id": "event:e2216283791780121127"
+        },
+        {
+            "@id": "event:e3775376519412519176"
+        },
+        {
+            "@id": "event:e3322572830912338541"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Siitonen, Eva-Riitta (1940-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "263",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

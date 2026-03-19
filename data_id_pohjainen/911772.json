@@ -1,0 +1,308 @@
+{
+    "@id": "people:p911772",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Wuorimaa(v:een 1906 Blomberg), Artur Oliver (A.O.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911772.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1921-09-23_1921-09-23"
+        },
+        {
+            "@id": "times:t_1907-05-22_1907-05-22_1910-02-28_1910-02-28"
+        },
+        {
+            "@id": "times:t_1911-02-01_1911-02-01_1914-02-01_1914-02-01"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirkkoherra, rovasti"
+    },
+    "semparl:end_of_representative_period_text": "23.09.1921",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1921-09-23_1921-09-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o593"
+        },
+        {
+            "@id": "occupations:o29"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2743448513372436191"
+        },
+        {
+            "@id": "event:p2351638554662356380"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d911772"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l7524728895924573988"
+        },
+        {
+            "@id": "label:l6894153117140907694"
+        },
+        {
+            "@id": "label:l6891288252874626636"
+        },
+        {
+            "@id": "label:l2808929990428911398"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l9620259462183425795"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911772"
+    },
+    "semparl:sortingLabel": "wuorimaa artur",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911772"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Arthur-Wuorimaa.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911772.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/A._O._Wuorimaa"
+        },
+        {
+            "@id": "wd:Q6458144"
+        },
+        {
+            "@id": "finaf:000159904"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2138550608759436051"
+        },
+        {
+            "@id": "event:e1930832449934739937"
+        },
+        {
+            "@id": "event:e1598879425491311218"
+        },
+        {
+            "@id": "event:e1737325147511578802"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3374423582593070066"
+        },
+        {
+            "@id": "event:e3096184881644983054"
+        },
+        {
+            "@id": "event:e2789280560550103850"
+        },
+        {
+            "@id": "event:e1550616622791658174"
+        },
+        {
+            "@id": "event:e6632711134218296653"
+        },
+        {
+            "@id": "event:e2236891159569063235"
+        },
+        {
+            "@id": "event:e1512236332617686185"
+        },
+        {
+            "@id": "event:e1068525738170066238"
+        },
+        {
+            "@id": "event:e2104677009547476107"
+        },
+        {
+            "@id": "event:e7827948678915545482"
+        },
+        {
+            "@id": "event:e1375311437282992549"
+        },
+        {
+            "@id": "event:e1269952338271881057"
+        },
+        {
+            "@id": "event:e2287413160369207348"
+        },
+        {
+            "@id": "event:e4615386484579904031"
+        },
+        {
+            "@id": "event:e2692384180739105641"
+        },
+        {
+            "@id": "event:e3073501441513631117"
+        },
+        {
+            "@id": "event:e2008537044342565872"
+        },
+        {
+            "@id": "event:e6419546075362846993"
+        },
+        {
+            "@id": "event:e1967313380256652240"
+        },
+        {
+            "@id": "event:e1410712219477707331"
+        },
+        {
+            "@id": "event:e5597742588670768504"
+        },
+        {
+            "@id": "event:e3295329751433301627"
+        },
+        {
+            "@id": "event:e3034976591064669383"
+        },
+        {
+            "@id": "event:e3320022492251945711"
+        },
+        {
+            "@id": "event:e2126961038100319525"
+        },
+        {
+            "@id": "event:e1228941336032840619"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e1405116761047473427"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1636015204989047114"
+        },
+        {
+            "@id": "event:e1674168833067939485"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Wuorimaa, Artur (1854-1921)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Wuorimaa, A.O."
+        },
+        {
+            "@language": "fi",
+            "@value": "Blomberg, Artur Oliver"
+        },
+        {
+            "@language": "fi",
+            "@value": "Wuorimaa, Artur Oliver"
+        },
+        {
+            "@language": "fi",
+            "@value": "Blomberg, A.O."
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q506591"
+        }
+    ],
+    "semparl:id": "911772",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

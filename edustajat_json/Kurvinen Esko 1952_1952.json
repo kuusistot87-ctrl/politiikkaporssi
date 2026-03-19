@@ -1,0 +1,311 @@
+{
+    "@id": "people:p576",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kurvinen, Esko Anton"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:576.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1999-03-24_1999-03-24_2007-03-20_2007-03-20"
+        },
+        {
+            "@id": "times:t_2011-04-20_2011-04-20_2015-04-21_2015-04-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "insinööri, yrittäjä"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o209"
+        },
+        {
+            "@id": "occupations:o355"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8455334803736966693"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1833905981411229504"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l4757704174794882942"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=576"
+    },
+    "semparl:sortingLabel": "kurvinen esko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b576"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Esko%20Kurvinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:576.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Esko_Kurvinen"
+        },
+        {
+            "@id": "wd:Q11858705"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e6011653181431103877"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3341153787077794387"
+        },
+        {
+            "@id": "event:e2965819749709242185"
+        },
+        {
+            "@id": "event:e7609865641366128029"
+        },
+        {
+            "@id": "event:e3037804329399123628"
+        },
+        {
+            "@id": "event:e9753861204114287136"
+        },
+        {
+            "@id": "event:e2303386460075518339"
+        },
+        {
+            "@id": "event:e8787065487626950550"
+        },
+        {
+            "@id": "event:e1932872151705996313"
+        },
+        {
+            "@id": "event:e1699558249128497620"
+        },
+        {
+            "@id": "event:e3545836077980652583"
+        },
+        {
+            "@id": "event:e3135102497597110034"
+        },
+        {
+            "@id": "event:e1307170389876602727"
+        },
+        {
+            "@id": "event:e3118795559301598274"
+        },
+        {
+            "@id": "event:e3306652886344466068"
+        },
+        {
+            "@id": "event:e2408265928183217937"
+        },
+        {
+            "@id": "event:e5562462618621500252"
+        },
+        {
+            "@id": "event:e1097504228758098761"
+        },
+        {
+            "@id": "event:e2505616331140865229"
+        },
+        {
+            "@id": "event:e1606940608953297585"
+        },
+        {
+            "@id": "event:e2704147632977114259"
+        },
+        {
+            "@id": "event:e4734652688691898788"
+        },
+        {
+            "@id": "event:e2270663868961698732"
+        },
+        {
+            "@id": "event:e1972238117272735867"
+        },
+        {
+            "@id": "event:e2635974128841936786"
+        },
+        {
+            "@id": "event:e7368774347499045446"
+        },
+        {
+            "@id": "event:e2041366402455903680"
+        },
+        {
+            "@id": "event:e3422203097068130521"
+        },
+        {
+            "@id": "event:e2748612647271879673"
+        },
+        {
+            "@id": "event:e3546867613383003898"
+        },
+        {
+            "@id": "event:e3155662062833315073"
+        },
+        {
+            "@id": "event:e3016284577663525601"
+        },
+        {
+            "@id": "event:e1334472062852162335"
+        },
+        {
+            "@id": "event:e7790233859169298677"
+        },
+        {
+            "@id": "event:e2731191944147338595"
+        },
+        {
+            "@id": "event:e2026595444390592653"
+        },
+        {
+            "@id": "event:e3289993289691125761"
+        },
+        {
+            "@id": "event:e2721061558117692489"
+        },
+        {
+            "@id": "event:e9437889144560338100"
+        },
+        {
+            "@id": "event:e8466016556673706067"
+        },
+        {
+            "@id": "event:e3379112542102422552"
+        },
+        {
+            "@id": "event:e2728315369107385401"
+        },
+        {
+            "@id": "event:e3630374715379010472"
+        },
+        {
+            "@id": "event:e8475274251068986440"
+        },
+        {
+            "@id": "event:e4832255704403173216"
+        },
+        {
+            "@id": "event:e2649437424633629208"
+        },
+        {
+            "@id": "event:e1753539844018684397"
+        },
+        {
+            "@id": "event:e3087286237054740521"
+        },
+        {
+            "@id": "event:e7709657538872702353"
+        },
+        {
+            "@id": "event:e1466117936411583240"
+        },
+        {
+            "@id": "event:e1577095567819583600"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kurvinen, Esko (1952-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kurvinen, Esko Anton"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "576",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

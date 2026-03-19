@@ -1,0 +1,371 @@
+{
+    "@id": "people:p910160",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b8756118599966795544"
+        },
+        {
+            "@id": "publications:b5876374360039707474"
+        },
+        {
+            "@id": "publications:b1254032853592228134"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Sundqvist, Ulf Ludvig"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910160.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1970-03-23_1970-03-23_1983-03-25_1983-03-25"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen maisteri"
+    },
+    "semparl:end_of_representative_period_text": "25.03.1983",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1983-03-25_1983-03-25"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o44"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p9648353215212349707"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910160"
+    },
+    "xl:altLabel": {
+        "@id": "label:l6758691458613154565"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2652103244142999277"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910160"
+    },
+    "semparl:sortingLabel": "sundqvist ulf",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910160"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ulf%20Sundqvist.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910160.aspx"
+        },
+        {
+            "@id": "viaf:211107416"
+        },
+        {
+            "@id": "natbib:3991"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ulf_Sundqvist"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Ulf_Sundqvist"
+        },
+        {
+            "@id": "wd:Q6196482"
+        },
+        {
+            "@id": "finaf:000074004"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3099"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2364984394709720537"
+        },
+        {
+            "@id": "event:e2349365846402294761"
+        },
+        {
+            "@id": "event:e3221457372301748037"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6930272572300744747"
+        },
+        {
+            "@id": "event:e3230703612019350987"
+        },
+        {
+            "@id": "event:e3217725986985881733"
+        },
+        {
+            "@id": "event:e2199670059848630500"
+        },
+        {
+            "@id": "event:e1469581198060055811"
+        },
+        {
+            "@id": "event:e2322795830009236794"
+        },
+        {
+            "@id": "event:e2200759418398015531"
+        },
+        {
+            "@id": "event:e2337226968857746783"
+        },
+        {
+            "@id": "event:e3000896811513869450"
+        },
+        {
+            "@id": "event:e5241063059362245705"
+        },
+        {
+            "@id": "event:e1458832140387448457"
+        },
+        {
+            "@id": "event:e9091706191895925280"
+        },
+        {
+            "@id": "event:e1599771612253632525"
+        },
+        {
+            "@id": "event:e2620732611688677547"
+        },
+        {
+            "@id": "event:e2596655777187824545"
+        },
+        {
+            "@id": "event:e1549703518003470854"
+        },
+        {
+            "@id": "event:e1303778114928768251"
+        },
+        {
+            "@id": "event:e5696179764074904293"
+        },
+        {
+            "@id": "event:e2936398243256795686"
+        },
+        {
+            "@id": "event:e1599333296211892334"
+        },
+        {
+            "@id": "event:e1017611149654971661"
+        },
+        {
+            "@id": "event:e9924505633154912835"
+        },
+        {
+            "@id": "event:e2434358959375467480"
+        },
+        {
+            "@id": "event:e1266175538342396170"
+        },
+        {
+            "@id": "event:e1003695490021556403"
+        },
+        {
+            "@id": "event:e1372245847859436279"
+        },
+        {
+            "@id": "event:e3060181035840081404"
+        },
+        {
+            "@id": "event:e2449562597067582492"
+        },
+        {
+            "@id": "event:e3123516385756090281"
+        },
+        {
+            "@id": "event:e3088624980903295897"
+        },
+        {
+            "@id": "event:e2529925733522206474"
+        },
+        {
+            "@id": "event:e1312827799346477480"
+        },
+        {
+            "@id": "event:e5066086226033465300"
+        },
+        {
+            "@id": "event:e2962921742716899928"
+        },
+        {
+            "@id": "event:e1261791019474153561"
+        },
+        {
+            "@id": "event:e1466471209966334498"
+        },
+        {
+            "@id": "event:e7810761828072419297"
+        },
+        {
+            "@id": "event:e2661778836104088210"
+        },
+        {
+            "@id": "event:e2937277643021107186"
+        },
+        {
+            "@id": "event:e2580050851394118593"
+        },
+        {
+            "@id": "event:e1507366943740551287"
+        },
+        {
+            "@id": "event:e3075512111572138343"
+        },
+        {
+            "@id": "event:e1741776104004003384"
+        },
+        {
+            "@id": "event:e3310301160964263987"
+        },
+        {
+            "@id": "event:e1814302213559115261"
+        },
+        {
+            "@id": "event:e1306801274745041377"
+        },
+        {
+            "@id": "event:e1261359326255747260"
+        },
+        {
+            "@id": "event:e3328121117026815456"
+        },
+        {
+            "@id": "event:e1088438800140077651"
+        },
+        {
+            "@id": "event:e3109394925698650835"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2270014656062742190"
+        },
+        {
+            "@id": "event:e3156316536719920829"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e3231416663699344300"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e5077696703927920546"
+        },
+        {
+            "@id": "event:e1998923399945807067"
+        },
+        {
+            "@id": "event:e1171028363575668214"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Sundqvist, Ulf (1945-2023)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Sundqvist, Ulf Ludvig"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910160",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

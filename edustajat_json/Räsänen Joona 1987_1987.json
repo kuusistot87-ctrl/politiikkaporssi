@@ -1,0 +1,286 @@
+{
+    "@id": "people:p1311",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Lohja"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a7281502812259876922"
+        },
+        {
+            "@id": "affiliations:a6542830249921033586"
+        },
+        {
+            "@id": "affiliations:a3377521769835736708"
+        },
+        {
+            "@id": "affiliations:a3361174285277327993"
+        },
+        {
+            "@id": "affiliations:a3202349121181204311"
+        },
+        {
+            "@id": "affiliations:a3040482233595070308"
+        },
+        {
+            "@id": "affiliations:a2880325623269262650"
+        },
+        {
+            "@id": "affiliations:a2851517575640996588"
+        },
+        {
+            "@id": "affiliations:a2716032636408130381"
+        },
+        {
+            "@id": "affiliations:a1531498687447082406"
+        },
+        {
+            "@id": "affiliations:a1295522913949900976"
+        },
+        {
+            "@id": "affiliations:a1179977058125991810"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1311.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2015-04-22_2015-04-22_2019-04-16_2019-04-16"
+        },
+        {
+            "@id": "times:t_2023-04-05_2023-04-05__"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "johtaja"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o169"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2913602567998359397"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2959057252817309171"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1311"
+    },
+    "semparl:sortingLabel": "räsänen joona juhani",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1311"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/647752/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Joona%20R%C3%A4s%C3%A4nen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1311.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Joona_R%C3%A4s%C3%A4nen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Joona_R%C3%A4s%C3%A4nen"
+        },
+        {
+            "@id": "wd:Q11866905"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8041726638640421778"
+        },
+        {
+            "@id": "event:e7227753405335680417"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2657613282648191168"
+        },
+        {
+            "@id": "event:e2459954640088729221"
+        },
+        {
+            "@id": "event:e1078158114979116306"
+        },
+        {
+            "@id": "event:e9975870662011114672"
+        },
+        {
+            "@id": "event:e1763239256200609008"
+        },
+        {
+            "@id": "event:e1784037723978116833"
+        },
+        {
+            "@id": "event:e8590302668587479047"
+        },
+        {
+            "@id": "event:e1501135352714126916"
+        },
+        {
+            "@id": "event:e3387434555841848250"
+        },
+        {
+            "@id": "event:e1159854693561247222"
+        },
+        {
+            "@id": "event:e1936717367320800423"
+        },
+        {
+            "@id": "event:e1776805365866972591"
+        },
+        {
+            "@id": "event:e2676960256894302272"
+        },
+        {
+            "@id": "event:e2910661126777872884"
+        },
+        {
+            "@id": "event:e1165086900955294301"
+        },
+        {
+            "@id": "event:e2815416583034492294"
+        },
+        {
+            "@id": "event:e9223834239871358506"
+        },
+        {
+            "@id": "event:e2799168677600085395"
+        },
+        {
+            "@id": "event:e8911521841381600337"
+        },
+        {
+            "@id": "event:e7748923021730162166"
+        },
+        {
+            "@id": "event:e6559442001876137023"
+        },
+        {
+            "@id": "event:e2826178667019373409"
+        },
+        {
+            "@id": "event:e3402245245153170733"
+        },
+        {
+            "@id": "event:e1920633138699100613"
+        },
+        {
+            "@id": "event:e3841109298503194216"
+        },
+        {
+            "@id": "event:e1212951580870037114"
+        },
+        {
+            "@id": "event:e1956726509814777171"
+        },
+        {
+            "@id": "event:e8549396422424589870"
+        },
+        {
+            "@id": "event:e1850870353812425864"
+        },
+        {
+            "@id": "event:e6298715527473167673"
+        },
+        {
+            "@id": "event:e8914268129052305960"
+        },
+        {
+            "@id": "event:e2442521875013503803"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Räsänen, Joona (1987-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "1311",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,309 @@
+{
+    "@id": "people:p911719",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vennola(e. Karhu), Juho Heikki (J.H.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911719.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1919-04-01_1919-04-01_1930-10-20_1930-10-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori"
+    },
+    "semparl:end_of_representative_period_text": "20.10.1930",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1930-10-20_1930-10-20"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o34"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2811058253311251726"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911719"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2074091015499219469"
+        },
+        {
+            "@id": "label:l1824029661002725441"
+        },
+        {
+            "@id": "label:l1530370185701439444"
+        },
+        {
+            "@id": "label:l1449425092945518867"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2005632454096098036"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911719"
+    },
+    "semparl:sortingLabel": "vennola juho",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911719"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/JuhoVennola.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911719.aspx"
+        },
+        {
+            "@id": "viaf:9509262"
+        },
+        {
+            "@id": "natbib:729"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/J._H._Vennola"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Juho_Vennola"
+        },
+        {
+            "@id": "wd:Q471237"
+        },
+        {
+            "@id": "finaf:000087891"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p366"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3240752991155219877"
+        },
+        {
+            "@id": "event:e2284623485015971107"
+        },
+        {
+            "@id": "event:e2293741284581654551"
+        },
+        {
+            "@id": "event:e2518904891418946290"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e4805583194368389260"
+        },
+        {
+            "@id": "event:e2777140722322327557"
+        },
+        {
+            "@id": "event:e2696165437609894034"
+        },
+        {
+            "@id": "event:e2583202656261634171"
+        },
+        {
+            "@id": "event:e2234344103838946501"
+        },
+        {
+            "@id": "event:e1395043902338784251"
+        },
+        {
+            "@id": "event:e1267168812851644773"
+        },
+        {
+            "@id": "event:e1223950083539674942"
+        },
+        {
+            "@id": "event:e1103100455141653086"
+        },
+        {
+            "@id": "event:e1516318822746873269"
+        },
+        {
+            "@id": "event:e2591540983137973041"
+        },
+        {
+            "@id": "event:e3096776693047405810"
+        },
+        {
+            "@id": "event:e1226118781057884760"
+        },
+        {
+            "@id": "event:e4022865141911918435"
+        },
+        {
+            "@id": "event:e2941809988838904912"
+        },
+        {
+            "@id": "event:e4796016491961195505"
+        },
+        {
+            "@id": "event:e2744045017091587411"
+        },
+        {
+            "@id": "event:e9879188786679215799"
+        },
+        {
+            "@id": "event:e1693046976836334594"
+        },
+        {
+            "@id": "event:e2049347178441293264"
+        },
+        {
+            "@id": "event:e1783973125388481332"
+        },
+        {
+            "@id": "event:e1345122949974720382"
+        },
+        {
+            "@id": "event:e1314427405949398312"
+        },
+        {
+            "@id": "event:e2473394299389852909"
+        },
+        {
+            "@id": "event:e3102989370183664381"
+        },
+        {
+            "@id": "event:e2124386196333746673"
+        },
+        {
+            "@id": "event:e1269337305602089868"
+        },
+        {
+            "@id": "event:e1963053221427111254"
+        },
+        {
+            "@id": "event:e3152907017121586244"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e1550385697492735474"
+        },
+        {
+            "@id": "event:e2311793686701774611"
+        },
+        {
+            "@id": "event:e8607311612009650837"
+        },
+        {
+            "@id": "event:e2710501238484108281"
+        },
+        {
+            "@id": "event:e2455157258618386053"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vennola, Juho (1872-1938)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Vennola, J.H."
+        },
+        {
+            "@language": "fi",
+            "@value": "Karhu, Juho Heikki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Vennola, Juho Heikki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Karhu, J.H."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "911719",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

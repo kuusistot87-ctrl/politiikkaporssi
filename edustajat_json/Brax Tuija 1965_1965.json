@@ -1,0 +1,323 @@
+{
+    "@id": "people:p448",
+    "semparl:authored": {
+        "@id": "publications:b1997819729237962471"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Brax, Tuija Kaarina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:448.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "oikeustieteen kandidaatti, lainsäädäntösihteeri"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o456"
+        },
+        {
+            "@id": "occupations:o77"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1557407989297039935"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1893206829178637438"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6039823643399086135"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=448"
+    },
+    "semparl:sortingLabel": "brax tuija",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b448"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tuijabrax.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:448.aspx"
+        },
+        {
+            "@id": "viaf:2668154260425524480004"
+        },
+        {
+            "@id": "twitter:TuijaBrax"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Tuija_Brax"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Tuija_Brax"
+        },
+        {
+            "@id": "wd:Q297829"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e3240013803667882900"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3292142969594168958"
+        },
+        {
+            "@id": "event:e3114494486873700035"
+        },
+        {
+            "@id": "event:e2772030582673962955"
+        },
+        {
+            "@id": "event:e2574012947851352044"
+        },
+        {
+            "@id": "event:e2299376640431401072"
+        },
+        {
+            "@id": "event:e8130906040873368710"
+        },
+        {
+            "@id": "event:e2719811127895444423"
+        },
+        {
+            "@id": "event:e1035579299032543392"
+        },
+        {
+            "@id": "event:e1151033127181904991"
+        },
+        {
+            "@id": "event:e1674945829315743970"
+        },
+        {
+            "@id": "event:e1784555803067350120"
+        },
+        {
+            "@id": "event:e2311085179442827294"
+        },
+        {
+            "@id": "event:e2160328722382584815"
+        },
+        {
+            "@id": "event:e1863628140683227362"
+        },
+        {
+            "@id": "event:e1453945488633089620"
+        },
+        {
+            "@id": "event:e8857949108225354833"
+        },
+        {
+            "@id": "event:e3039957868162226357"
+        },
+        {
+            "@id": "event:e2633003095462791549"
+        },
+        {
+            "@id": "event:e4221053267895445164"
+        },
+        {
+            "@id": "event:e1984823338346232928"
+        },
+        {
+            "@id": "event:e7923693745565698148"
+        },
+        {
+            "@id": "event:e8952378436240850647"
+        },
+        {
+            "@id": "event:e3117124547896316111"
+        },
+        {
+            "@id": "event:e2115556769128390577"
+        },
+        {
+            "@id": "event:e1413827110746900602"
+        },
+        {
+            "@id": "event:e4308106435133288672"
+        },
+        {
+            "@id": "event:e2461475713936758194"
+        },
+        {
+            "@id": "event:e1187239483964649662"
+        },
+        {
+            "@id": "event:e2433638273580125758"
+        },
+        {
+            "@id": "event:e2593905568406059686"
+        },
+        {
+            "@id": "event:e2916673479433672240"
+        },
+        {
+            "@id": "event:e6263775583396340605"
+        },
+        {
+            "@id": "event:e1423262830288196934"
+        },
+        {
+            "@id": "event:e1202701171866727245"
+        },
+        {
+            "@id": "event:e2776997889586243579"
+        },
+        {
+            "@id": "event:e3103250498931926524"
+        },
+        {
+            "@id": "event:e2630247288644268518"
+        },
+        {
+            "@id": "event:e1446653056231842862"
+        },
+        {
+            "@id": "event:e2850349853971407002"
+        },
+        {
+            "@id": "event:e1969372209537068978"
+        },
+        {
+            "@id": "event:e6304936740798553218"
+        },
+        {
+            "@id": "event:e1983008205177650037"
+        },
+        {
+            "@id": "event:e1469408113783729639"
+        },
+        {
+            "@id": "event:e1844566423512805054"
+        },
+        {
+            "@id": "event:e1961044898935786432"
+        },
+        {
+            "@id": "event:e2397798621513497202"
+        },
+        {
+            "@id": "event:e1280921523302514836"
+        },
+        {
+            "@id": "event:e2445154080266092631"
+        },
+        {
+            "@id": "event:e1212639407352109222"
+        },
+        {
+            "@id": "event:e1378366804893971672"
+        },
+        {
+            "@id": "event:e1634386352030967848"
+        },
+        {
+            "@id": "event:e2547853050909381429"
+        },
+        {
+            "@id": "event:e2140160520887102125"
+        },
+        {
+            "@id": "event:e6669313730287984017"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Brax, Tuija (1965-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Brax, Tuija Kaarina"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "448",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

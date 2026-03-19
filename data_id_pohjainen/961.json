@@ -1,0 +1,309 @@
+{
+    "@id": "people:p961",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "jääkäri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2085173101001699691"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vuolanne, Antti Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:961.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2007-03-21_2007-03-21_2011-04-19_2011-04-19"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteiden kandidaatti"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o15"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2815978484944700777"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2174195081818555786"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2697153190968469119"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=961"
+    },
+    "semparl:sortingLabel": "vuolanne antti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b961"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Antti%20Vuolanne.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:961.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Antti_Vuolanne"
+        },
+        {
+            "@id": "wd:Q11852278"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2016531305149956982"
+        },
+        {
+            "@id": "event:e1112842814156804333"
+        },
+        {
+            "@id": "event:e2584252407398522330"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3677327056217822757"
+        },
+        {
+            "@id": "event:e2311840682824324785"
+        },
+        {
+            "@id": "event:e1335884072750287621"
+        },
+        {
+            "@id": "event:e1770472922340967735"
+        },
+        {
+            "@id": "event:e2942348382767044116"
+        },
+        {
+            "@id": "event:e1990893735708883180"
+        },
+        {
+            "@id": "event:e2636964286815910363"
+        },
+        {
+            "@id": "event:e2359312286316237710"
+        },
+        {
+            "@id": "event:e9265515322798220596"
+        },
+        {
+            "@id": "event:e1296634887963966244"
+        },
+        {
+            "@id": "event:e3145841420908312485"
+        },
+        {
+            "@id": "event:e1683028795924930583"
+        },
+        {
+            "@id": "event:e1670501043782069834"
+        },
+        {
+            "@id": "event:e2942709294047591058"
+        },
+        {
+            "@id": "event:e1170456207529295888"
+        },
+        {
+            "@id": "event:e2710616695939866075"
+        },
+        {
+            "@id": "event:e8297002273194735605"
+        },
+        {
+            "@id": "event:e2867582796512806687"
+        },
+        {
+            "@id": "event:e3379685983324711218"
+        },
+        {
+            "@id": "event:e3228867298386142007"
+        },
+        {
+            "@id": "event:e1340611567064773763"
+        },
+        {
+            "@id": "event:e1123360434511038113"
+        },
+        {
+            "@id": "event:e1299637347950436217"
+        },
+        {
+            "@id": "event:e1703595420650262187"
+        },
+        {
+            "@id": "event:e3084122163131289801"
+        },
+        {
+            "@id": "event:e8473529543073438232"
+        },
+        {
+            "@id": "event:e2555290721105856524"
+        },
+        {
+            "@id": "event:e2150584369692593790"
+        },
+        {
+            "@id": "event:e3048094739309066390"
+        },
+        {
+            "@id": "event:e2475209080076207189"
+        },
+        {
+            "@id": "event:e6321884136852061698"
+        },
+        {
+            "@id": "event:e2083060826277156023"
+        },
+        {
+            "@id": "event:e3074622543757416423"
+        },
+        {
+            "@id": "event:e6700287201273239044"
+        },
+        {
+            "@id": "event:e3302929487578406791"
+        },
+        {
+            "@id": "event:e2813917805443691595"
+        },
+        {
+            "@id": "event:e1200843909573762646"
+        },
+        {
+            "@id": "event:e1496607127866306246"
+        },
+        {
+            "@id": "event:e1275820564517999149"
+        },
+        {
+            "@id": "event:e1828708499815794660"
+        },
+        {
+            "@id": "event:e2548498343550779475"
+        },
+        {
+            "@id": "event:e2456458797425694184"
+        },
+        {
+            "@id": "event:e1673208980008490883"
+        },
+        {
+            "@id": "event:e1056985659205430726"
+        },
+        {
+            "@id": "event:e2750611074362488024"
+        },
+        {
+            "@id": "event:e1502057015208411020"
+        },
+        {
+            "@id": "event:e2586307860958202650"
+        },
+        {
+            "@id": "event:e3368936702724850381"
+        },
+        {
+            "@id": "event:e2812435457403689694"
+        },
+        {
+            "@id": "event:e2678422371402099447"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vuolanne, Antti (1967-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Vuolanne, Antti Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "961",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,314 @@
+{
+    "@id": "people:p911612",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "ylikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e3258098168663831268"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tiitu, Kustaa Emil"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911612.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1965-03-19_1965-03-19_1970-03-22_1970-03-22"
+        },
+        {
+            "@id": "times:t_1945-04-06_1945-04-06_1958-07-21_1958-07-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1011143759945791971"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911612"
+    },
+    "xl:altLabel": {
+        "@id": "label:l9975319400787254407"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6083356302319870436"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911612"
+    },
+    "semparl:sortingLabel": "tiitu kustaa",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911612"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911612.aspx"
+        },
+        {
+            "@id": "viaf:43250674"
+        },
+        {
+            "@id": "natbib:2218"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kustaa_Tiitu"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kustaa_Tiitu"
+        },
+        {
+            "@id": "wd:Q13684027"
+        },
+        {
+            "@id": "finaf:000066103"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p600"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1659997819855800336"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3116791941312674122"
+        },
+        {
+            "@id": "event:e3104179563293877796"
+        },
+        {
+            "@id": "event:e2807376491295545189"
+        },
+        {
+            "@id": "event:e1875600332701904319"
+        },
+        {
+            "@id": "event:e1367373282477386298"
+        },
+        {
+            "@id": "event:e1667812905241119982"
+        },
+        {
+            "@id": "event:e8504523540806392442"
+        },
+        {
+            "@id": "event:e8885744337895907703"
+        },
+        {
+            "@id": "event:e2734590382200413982"
+        },
+        {
+            "@id": "event:e2277677699125617754"
+        },
+        {
+            "@id": "event:e1170266080013309552"
+        },
+        {
+            "@id": "event:e1123515088396315016"
+        },
+        {
+            "@id": "event:e2326197821344099895"
+        },
+        {
+            "@id": "event:e4329389797945412643"
+        },
+        {
+            "@id": "event:e6641021943562372423"
+        },
+        {
+            "@id": "event:e8070097068552431414"
+        },
+        {
+            "@id": "event:e8318144486326171325"
+        },
+        {
+            "@id": "event:e2528489696741986912"
+        },
+        {
+            "@id": "event:e2323157111928176042"
+        },
+        {
+            "@id": "event:e2696736287330387788"
+        },
+        {
+            "@id": "event:e1131920329971215200"
+        },
+        {
+            "@id": "event:e3666327190210458512"
+        },
+        {
+            "@id": "event:e3628217741634511996"
+        },
+        {
+            "@id": "event:e2319373340278835628"
+        },
+        {
+            "@id": "event:e1124562788313965017"
+        },
+        {
+            "@id": "event:e2809744318389850417"
+        },
+        {
+            "@id": "event:e1617928635660478770"
+        },
+        {
+            "@id": "event:e1426207907308457619"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e5260683434740367079"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2627506224108340612"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e2402880414567891477"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e1625843422903643458"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tiitu, Kustaa (1896-1990)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tiitu, Kustaa Emil"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "911612",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

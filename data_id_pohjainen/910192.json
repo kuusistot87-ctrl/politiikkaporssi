@@ -1,0 +1,409 @@
+{
+    "@id": "people:p910192",
+    "crm:P129i_is_subject_of": {
+        "@id": "publications:b5701551579692648448"
+    },
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b8449119823843206858"
+        },
+        {
+            "@id": "publications:b3107724281099957100"
+        },
+        {
+            "@id": "publications:b2494433091467388107"
+        },
+        {
+            "@id": "publications:b2117708348079470385"
+        },
+        {
+            "@id": "publications:b1127881809394559356"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ursin, Martti Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910192.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1979-03-24_1979-03-24_1983-03-25_1983-03-25"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kaupunkineuvos, filosofian tohtori"
+    },
+    "semparl:end_of_representative_period_text": "25.03.1983",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1983-03-25_1983-03-25"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o100"
+        },
+        {
+            "@id": "occupations:o233"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2812487827797675110"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910192"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2081768268721530201"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2431301508592993410"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910192"
+    },
+    "semparl:sortingLabel": "ursin martti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910192"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Martti-Ursin-1964.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910192.aspx"
+        },
+        {
+            "@id": "viaf:18352382"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Martti_Ursin"
+        },
+        {
+            "@id": "wd:Q5397751"
+        },
+        {
+            "@id": "finaf:000061775"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1316163576576187643"
+        },
+        {
+            "@id": "event:e1932439409081590515"
+        },
+        {
+            "@id": "event:e4038889973621174309"
+        },
+        {
+            "@id": "event:e1046856106580789426"
+        },
+        {
+            "@id": "event:e1482881762313116553"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2067547589253420127"
+        },
+        {
+            "@id": "event:e3311010097946097697"
+        },
+        {
+            "@id": "event:e2489302760781373064"
+        },
+        {
+            "@id": "event:e1006702836162403224"
+        },
+        {
+            "@id": "event:e7738354641230285687"
+        },
+        {
+            "@id": "event:e4667339272978470396"
+        },
+        {
+            "@id": "event:e1977218536883670438"
+        },
+        {
+            "@id": "event:e9307922807947942959"
+        },
+        {
+            "@id": "event:e2939937044332545561"
+        },
+        {
+            "@id": "event:e3621990710728140604"
+        },
+        {
+            "@id": "event:e2367025567903072086"
+        },
+        {
+            "@id": "event:e3389269982136367934"
+        },
+        {
+            "@id": "event:e5340737886892261891"
+        },
+        {
+            "@id": "event:e6928082286317544186"
+        },
+        {
+            "@id": "event:e2808798110937077233"
+        },
+        {
+            "@id": "event:e8825485012065793237"
+        },
+        {
+            "@id": "event:e5557023341280082526"
+        },
+        {
+            "@id": "event:e2358170326321685015"
+        },
+        {
+            "@id": "event:e2948288796014895598"
+        },
+        {
+            "@id": "event:e6728771011823263041"
+        },
+        {
+            "@id": "event:e2848923723978211695"
+        },
+        {
+            "@id": "event:e2728725201693996338"
+        },
+        {
+            "@id": "event:e1652415236674449976"
+        },
+        {
+            "@id": "event:e1181459709645684158"
+        },
+        {
+            "@id": "event:e1736467832603784547"
+        },
+        {
+            "@id": "event:e2239092229859815594"
+        },
+        {
+            "@id": "event:e8834612022684414676"
+        },
+        {
+            "@id": "event:e1853420338518828260"
+        },
+        {
+            "@id": "event:e8830573434118052430"
+        },
+        {
+            "@id": "event:e2226486630646078633"
+        },
+        {
+            "@id": "event:e2772564157133245289"
+        },
+        {
+            "@id": "event:e1497940881781537366"
+        },
+        {
+            "@id": "event:e7098305382377239531"
+        },
+        {
+            "@id": "event:e1787358660569416917"
+        },
+        {
+            "@id": "event:e2161136033713003989"
+        },
+        {
+            "@id": "event:e1083886978190166305"
+        },
+        {
+            "@id": "event:e5448563587671470306"
+        },
+        {
+            "@id": "event:e8688455334128091653"
+        },
+        {
+            "@id": "event:e1182953597848600340"
+        },
+        {
+            "@id": "event:e3199978034598606483"
+        },
+        {
+            "@id": "event:e3667143686497539462"
+        },
+        {
+            "@id": "event:e1992969839686639171"
+        },
+        {
+            "@id": "event:e2185392902515693278"
+        },
+        {
+            "@id": "event:e2309818890538249787"
+        },
+        {
+            "@id": "event:e1326003291584425857"
+        },
+        {
+            "@id": "event:e1202032367146590299"
+        },
+        {
+            "@id": "event:e8187336661450494920"
+        },
+        {
+            "@id": "event:e8624514848079403740"
+        },
+        {
+            "@id": "event:e8698360972262562385"
+        },
+        {
+            "@id": "event:e9046238734111474146"
+        },
+        {
+            "@id": "event:e2878168730852516630"
+        },
+        {
+            "@id": "event:e7304236375104133282"
+        },
+        {
+            "@id": "event:e4949898916067503736"
+        },
+        {
+            "@id": "event:e2642374987098049677"
+        },
+        {
+            "@id": "event:e1698300181974178461"
+        },
+        {
+            "@id": "event:e1376570334554290185"
+        },
+        {
+            "@id": "event:e1594350609349365826"
+        },
+        {
+            "@id": "event:e1055209396425414461"
+        },
+        {
+            "@id": "event:e3077692629321934097"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1072705074485999043"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e5954514096194559146"
+        },
+        {
+            "@id": "event:e1664481113923510346"
+        },
+        {
+            "@id": "event:e1930813172153237808"
+        },
+        {
+            "@id": "event:e2629571413520069481"
+        },
+        {
+            "@id": "event:e3194036436982043562"
+        },
+        {
+            "@id": "event:e1720064669128065416"
+        },
+        {
+            "@id": "event:e2282589181876720678"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ursin, Martti (1934-2011)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Ursin, Martti Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910192",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

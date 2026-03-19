@@ -1,0 +1,269 @@
+{
+    "@id": "people:p910065",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kohtala, Leo Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910065.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1970-03-23_1970-03-23_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "oikeustieteen lisensiaatti, kaupunginjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o99"
+        },
+        {
+            "@id": "occupations:o300"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3243192950807918943"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1857095246483453153"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2706942360285742547"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910065"
+    },
+    "semparl:sortingLabel": "kohtala leo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910065"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910065.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Leo_Kohtala"
+        },
+        {
+            "@id": "wd:Q16299927"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1270623781923234690"
+        },
+        {
+            "@id": "event:e1854536405509149399"
+        },
+        {
+            "@id": "event:e2153636101568755632"
+        },
+        {
+            "@id": "event:e4574961812299042025"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1740820761479065325"
+        },
+        {
+            "@id": "event:e7889617365441552349"
+        },
+        {
+            "@id": "event:e1942621500589942592"
+        },
+        {
+            "@id": "event:e1890044479457876270"
+        },
+        {
+            "@id": "event:e2924269499221576917"
+        },
+        {
+            "@id": "event:e2688990349209242257"
+        },
+        {
+            "@id": "event:e2085467333236915971"
+        },
+        {
+            "@id": "event:e2365013464994364698"
+        },
+        {
+            "@id": "event:e3051928102775497479"
+        },
+        {
+            "@id": "event:e2233142357016119298"
+        },
+        {
+            "@id": "event:e9395363861901558407"
+        },
+        {
+            "@id": "event:e1151838173714250552"
+        },
+        {
+            "@id": "event:e3534661605131974589"
+        },
+        {
+            "@id": "event:e2402353022287461082"
+        },
+        {
+            "@id": "event:e3008719546253182372"
+        },
+        {
+            "@id": "event:e9085526370836462459"
+        },
+        {
+            "@id": "event:e3098255839136078482"
+        },
+        {
+            "@id": "event:e1357286032277073405"
+        },
+        {
+            "@id": "event:e9194897527006589566"
+        },
+        {
+            "@id": "event:e1044326238975677232"
+        },
+        {
+            "@id": "event:e1337870742099789472"
+        },
+        {
+            "@id": "event:e2684871707294220530"
+        },
+        {
+            "@id": "event:e1168187266872506707"
+        },
+        {
+            "@id": "event:e2321364709983393810"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e2563080512482188491"
+        },
+        {
+            "@id": "event:e2616834000910359336"
+        },
+        {
+            "@id": "event:e9268809898553721869"
+        },
+        {
+            "@id": "event:e3271892183967925006"
+        },
+        {
+            "@id": "event:e9552514885390505185"
+        },
+        {
+            "@id": "event:e1133907995759441963"
+        },
+        {
+            "@id": "event:e1222697171262631940"
+        },
+        {
+            "@id": "event:e1082502973240581683"
+        },
+        {
+            "@id": "event:e2922500540499880873"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kohtala, Leo (1934-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kohtala, Leo Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "910065",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

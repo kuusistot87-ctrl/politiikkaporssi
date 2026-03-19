@@ -1,0 +1,310 @@
+{
+    "@id": "people:p910023",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hanhirova, Veikko Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910023.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1966-04-05_1966-04-05_1972-01-21_1972-01-21"
+        },
+        {
+            "@id": "times:t_1975-09-27_1975-09-27_1979-03-23_1979-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "pankinjohtaja, kunnallisneuvos, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1979",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1979-03-23_1979-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o214"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1303834744804553632"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910023"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2638289525846413619"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1825198274075316749"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910023"
+    },
+    "semparl:sortingLabel": "hanhirova veikko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910023"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Veikko%20Hanhirova.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910023.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Veikko_Hanhirova"
+        },
+        {
+            "@id": "wd:Q17380523"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_4445"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1007098403870769111"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3459792186582108511"
+        },
+        {
+            "@id": "event:e2600065381423479270"
+        },
+        {
+            "@id": "event:e1365999436066794730"
+        },
+        {
+            "@id": "event:e3133610202800871666"
+        },
+        {
+            "@id": "event:e1636946669614002446"
+        },
+        {
+            "@id": "event:e1708349746643633704"
+        },
+        {
+            "@id": "event:e1529829076268293201"
+        },
+        {
+            "@id": "event:e6602494086031199555"
+        },
+        {
+            "@id": "event:e1008350433993573116"
+        },
+        {
+            "@id": "event:e1368776497247784761"
+        },
+        {
+            "@id": "event:e7842570592805371027"
+        },
+        {
+            "@id": "event:e2643491797642685482"
+        },
+        {
+            "@id": "event:e1410046003160124929"
+        },
+        {
+            "@id": "event:e3148398983875514793"
+        },
+        {
+            "@id": "event:e1227434211531766613"
+        },
+        {
+            "@id": "event:e2608843701919910047"
+        },
+        {
+            "@id": "event:e6046207722032269284"
+        },
+        {
+            "@id": "event:e2128953839033462280"
+        },
+        {
+            "@id": "event:e2042019748471930478"
+        },
+        {
+            "@id": "event:e2331366354684210525"
+        },
+        {
+            "@id": "event:e1549627862526743302"
+        },
+        {
+            "@id": "event:e2699792183311312380"
+        },
+        {
+            "@id": "event:e1498424743583170462"
+        },
+        {
+            "@id": "event:e1277830547049958065"
+        },
+        {
+            "@id": "event:e3284118800241671673"
+        },
+        {
+            "@id": "event:e1656921208896107837"
+        },
+        {
+            "@id": "event:e2254051820616930157"
+        },
+        {
+            "@id": "event:e3213980689280219121"
+        },
+        {
+            "@id": "event:e1826269009732863902"
+        },
+        {
+            "@id": "event:e3654985020008231799"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e1936842823352631933"
+        },
+        {
+            "@id": "event:e5716951077667101915"
+        },
+        {
+            "@id": "event:e2729914486389199850"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e3034333671505060352"
+        },
+        {
+            "@id": "event:e1664481113923510346"
+        },
+        {
+            "@id": "event:e2145744713574714719"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hanhirova, Veikko (1915-2004)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Hanhirova, Veikko Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910023",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

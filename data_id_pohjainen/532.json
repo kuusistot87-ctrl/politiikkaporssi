@@ -1,0 +1,267 @@
+{
+    "@id": "people:p532",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "yliluutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e6347759089053375123"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Koskinen, Jari Antero"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:532.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1996-03-01_1996-03-01_2009-09-08_2009-09-08"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, valtiotieteen maisteri"
+    },
+    "semparl:end_of_representative_period_text": "08.09.2009",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2009-09-08_2009-09-08"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o44"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2385828866986376639"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2932422334589575581"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2382764478167669922"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=532"
+    },
+    "semparl:sortingLabel": "koskinen jari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b532"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jari%20Koskinen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:532.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jari_Koskinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jari_Koskinen"
+        },
+        {
+            "@id": "wd:Q2614054"
+        },
+        {
+            "@id": "http://www.norssit.fi/semweb/#!/tiedot/http:~2F~2Fldf.fi~2Fnorssit~2Fnorssi_7955"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2479905946674547511"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2879273024302662090"
+        },
+        {
+            "@id": "event:e2253755363859392085"
+        },
+        {
+            "@id": "event:e1967234619667387629"
+        },
+        {
+            "@id": "event:e1062872325065931042"
+        },
+        {
+            "@id": "event:e3248733780295878100"
+        },
+        {
+            "@id": "event:e6481105430197422600"
+        },
+        {
+            "@id": "event:e2157810808644331444"
+        },
+        {
+            "@id": "event:e1470482559470165582"
+        },
+        {
+            "@id": "event:e1887655955600759374"
+        },
+        {
+            "@id": "event:e2298018833584757261"
+        },
+        {
+            "@id": "event:e1919238457198750879"
+        },
+        {
+            "@id": "event:e9389165101197355317"
+        },
+        {
+            "@id": "event:e1432904070449234555"
+        },
+        {
+            "@id": "event:e6758891745068832149"
+        },
+        {
+            "@id": "event:e2628153174480561468"
+        },
+        {
+            "@id": "event:e1368904269706889859"
+        },
+        {
+            "@id": "event:e1083897097846783140"
+        },
+        {
+            "@id": "event:e8452026932348134332"
+        },
+        {
+            "@id": "event:e1697102089488545858"
+        },
+        {
+            "@id": "event:e2831163584680123320"
+        },
+        {
+            "@id": "event:e9822978496579710796"
+        },
+        {
+            "@id": "event:e3367233646676525058"
+        },
+        {
+            "@id": "event:e1599574634807009304"
+        },
+        {
+            "@id": "event:e1495021055921622767"
+        },
+        {
+            "@id": "event:e3235168867719058656"
+        },
+        {
+            "@id": "event:e2152661776939965539"
+        },
+        {
+            "@id": "event:e2062352098527254472"
+        },
+        {
+            "@id": "event:e2182005124202125189"
+        },
+        {
+            "@id": "event:e1360288909391641590"
+        },
+        {
+            "@id": "event:e3372532015291888799"
+        },
+        {
+            "@id": "event:e1991576705595440403"
+        },
+        {
+            "@id": "event:e3616403376394332562"
+        },
+        {
+            "@id": "event:e2856256355660430061"
+        },
+        {
+            "@id": "event:e1347055707600264247"
+        },
+        {
+            "@id": "event:e3095973987236044002"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Koskinen, Jari (1960-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Koskinen, Jari Antero"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "532",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

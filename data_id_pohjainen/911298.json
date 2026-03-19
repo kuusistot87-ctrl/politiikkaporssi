@@ -1,0 +1,236 @@
+{
+    "@id": "people:p911298",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pusa, Juho Jalmar (Jalmari)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911298.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1948-07-22_1948-07-22_1951-07-20_1951-07-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "maanviljelijä, kapteeni evp"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o911"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1679199441209889569"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911298"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2335636454538696110"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2311195161760608814"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911298"
+    },
+    "semparl:sortingLabel": "pusa jalmari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911298"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911298.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jalmari_Pusa"
+        },
+        {
+            "@id": "wd:Q42901603"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2050654705335633674"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2742508398143930053"
+        },
+        {
+            "@id": "event:e8083988019007481216"
+        },
+        {
+            "@id": "event:e2586097217503845554"
+        },
+        {
+            "@id": "event:e2287535395346352066"
+        },
+        {
+            "@id": "event:e2840466492761006185"
+        },
+        {
+            "@id": "event:e1218659529361055394"
+        },
+        {
+            "@id": "event:e3069072878182294708"
+        },
+        {
+            "@id": "event:e2623926951401792555"
+        },
+        {
+            "@id": "event:e1430363438538646665"
+        },
+        {
+            "@id": "event:e2577148142656795705"
+        },
+        {
+            "@id": "event:e3093280151828810397"
+        },
+        {
+            "@id": "event:e2039668228643546343"
+        },
+        {
+            "@id": "event:e1498519039784388054"
+        },
+        {
+            "@id": "event:e6602814983376201486"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e1893086213496117268"
+        },
+        {
+            "@id": "event:e1196227752407286721"
+        },
+        {
+            "@id": "event:e2614762992196917603"
+        },
+        {
+            "@id": "event:e1717957097900626035"
+        },
+        {
+            "@id": "event:e2135224365942831756"
+        },
+        {
+            "@id": "event:e2845951047744156983"
+        },
+        {
+            "@id": "event:e1644232494976696762"
+        },
+        {
+            "@id": "event:e9482972843094816430"
+        },
+        {
+            "@id": "event:e1851930249618741518"
+        },
+        {
+            "@id": "event:e2125437963223153114"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pusa, Jalmari (1895-1957)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pusa, Juho Jalmar"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911298",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

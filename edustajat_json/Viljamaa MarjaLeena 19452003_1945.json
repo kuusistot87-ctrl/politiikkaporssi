@@ -1,0 +1,278 @@
+{
+    "@id": "people:p373",
+    "semparl:authored": [
+        {
+            "@id": "publications:b7216192014951363375"
+        },
+        {
+            "@id": "publications:b6927684517964902410"
+        },
+        {
+            "@id": "publications:b1783235008244964610"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Viljamaa, Marja-Leena"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:373.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1991-03-22_1991-03-22_1999-03-23_1999-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "psykologian tohtori, psykologi"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o401"
+        },
+        {
+            "@id": "occupations:o400"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2790391656823960225"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d373"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6266889088828057788"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=373"
+    },
+    "semparl:sortingLabel": "viljamaa marja-leena",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b373"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:373.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Marja-Leena_Viljamaa"
+        },
+        {
+            "@id": "wd:Q5411995"
+        },
+        {
+            "@id": "finaf:000114397"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3648614307734899541"
+        },
+        {
+            "@id": "event:e2548542422321775121"
+        },
+        {
+            "@id": "event:e6969880996840531422"
+        },
+        {
+            "@id": "event:e1298942160723584797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2539847388471861403"
+        },
+        {
+            "@id": "event:e4729369871883438950"
+        },
+        {
+            "@id": "event:e2286138797438782683"
+        },
+        {
+            "@id": "event:e3229728782794811818"
+        },
+        {
+            "@id": "event:e1911231435550316980"
+        },
+        {
+            "@id": "event:e1034170550756250689"
+        },
+        {
+            "@id": "event:e1578024190325774972"
+        },
+        {
+            "@id": "event:e1338394261464364636"
+        },
+        {
+            "@id": "event:e2644916954522601300"
+        },
+        {
+            "@id": "event:e1113298619063281453"
+        },
+        {
+            "@id": "event:e3982808178363386601"
+        },
+        {
+            "@id": "event:e5800862141281158715"
+        },
+        {
+            "@id": "event:e1759387632311179533"
+        },
+        {
+            "@id": "event:e2863347734446576082"
+        },
+        {
+            "@id": "event:e2319606258042057839"
+        },
+        {
+            "@id": "event:e2196165482420117853"
+        },
+        {
+            "@id": "event:e2803766846118045290"
+        },
+        {
+            "@id": "event:e2065489475450752044"
+        },
+        {
+            "@id": "event:e2236620270373200706"
+        },
+        {
+            "@id": "event:e1441131327034084219"
+        },
+        {
+            "@id": "event:e1856154255186876255"
+        },
+        {
+            "@id": "event:e1255297702441137885"
+        },
+        {
+            "@id": "event:e2259164117417675787"
+        },
+        {
+            "@id": "event:e2543878369933362574"
+        },
+        {
+            "@id": "event:e4107218906471117352"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e2615213729145726455"
+        },
+        {
+            "@id": "event:e1691742835526520941"
+        },
+        {
+            "@id": "event:e2455781013051906902"
+        },
+        {
+            "@id": "event:e1213211873270167480"
+        },
+        {
+            "@id": "event:e3267318776334227986"
+        },
+        {
+            "@id": "event:e1652388911377466564"
+        },
+        {
+            "@id": "event:e1125114287062477481"
+        },
+        {
+            "@id": "event:e1542371249106854343"
+        },
+        {
+            "@id": "event:e1988783435791596187"
+        },
+        {
+            "@id": "event:e1877486103115595825"
+        },
+        {
+            "@id": "event:e3312424317716161524"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Viljamaa, Marja-Leena (1945-2003)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "373",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

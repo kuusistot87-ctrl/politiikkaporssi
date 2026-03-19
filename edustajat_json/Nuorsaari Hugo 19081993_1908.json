@@ -1,0 +1,271 @@
+{
+    "@id": "people:p911153",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Nuorsaari(v:een 1935 Nyholm), Hugo Ruben"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911153.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1948-07-22_1948-07-22_1954-03-28_1954-03-28"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian kandidaatti, rehtori, opetusneuvos"
+    },
+    "semparl:end_of_representative_period_text": "28.03.1954",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1954-03-28_1954-03-28"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o72"
+        },
+        {
+            "@id": "occupations:o63"
+        },
+        {
+            "@id": "occupations:o50"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1667494328566846980"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911153"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3085544316367655139"
+        },
+        {
+            "@id": "label:l2764432781039336829"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l8403475911016624969"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911153"
+    },
+    "semparl:sortingLabel": "nuorsaari hugo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911153"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911153.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hugo_Nuorsaari"
+        },
+        {
+            "@id": "wd:Q11863721"
+        },
+        {
+            "@id": "finaf:000053783"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e6011908133314152500"
+        },
+        {
+            "@id": "event:e1454953982220683060"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2674115444316458482"
+        },
+        {
+            "@id": "event:e2368178380733749834"
+        },
+        {
+            "@id": "event:e2791816058756393340"
+        },
+        {
+            "@id": "event:e2895934193325771916"
+        },
+        {
+            "@id": "event:e2621720132252557806"
+        },
+        {
+            "@id": "event:e5316653182408966718"
+        },
+        {
+            "@id": "event:e6444625578877544401"
+        },
+        {
+            "@id": "event:e2077576398617551514"
+        },
+        {
+            "@id": "event:e1809027678122257707"
+        },
+        {
+            "@id": "event:e1253552783546137173"
+        },
+        {
+            "@id": "event:e3006810423256674352"
+        },
+        {
+            "@id": "event:e8442899065987540736"
+        },
+        {
+            "@id": "event:e7511968072258739796"
+        },
+        {
+            "@id": "event:e6133104277196994435"
+        },
+        {
+            "@id": "event:e2673452765148396050"
+        },
+        {
+            "@id": "event:e7453092095995781524"
+        },
+        {
+            "@id": "event:e3120354737729159356"
+        },
+        {
+            "@id": "event:e3055742568994200111"
+        },
+        {
+            "@id": "event:e2254922016422641307"
+        },
+        {
+            "@id": "event:e2503062408393261787"
+        },
+        {
+            "@id": "event:e3000659563580007526"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e3387944992063491979"
+        },
+        {
+            "@id": "event:e3475636242902404358"
+        },
+        {
+            "@id": "event:e2233436259280938359"
+        },
+        {
+            "@id": "event:e1253050262138618215"
+        },
+        {
+            "@id": "event:e3369217390889704807"
+        },
+        {
+            "@id": "event:e6426646998110993065"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Nuorsaari, Hugo (1908-1993)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Nuorsaari, Hugo Ruben"
+        },
+        {
+            "@language": "fi",
+            "@value": "Nyholm, Hugo Ruben"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911153",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "@id": "people:p910484",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Hirvelä López(e. Hirvelä), Inger Emilia"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910484.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1979-03-24_1979-03-24_1987-03-20_1987-03-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian kandidaatti, vt. yliopistonlehtori"
+    },
+    "semparl:end_of_representative_period_text": "20.03.1987",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1987-03-20_1987-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1380"
+        },
+        {
+            "@id": "occupations:o50"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8850212945422491353"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2929848848816921118"
+        },
+        {
+            "@id": "label:l1014811475792941777"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2008092035669506435"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910484"
+    },
+    "semparl:sortingLabel": "hirvelä lópez inger",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910484"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910484.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Inger_Hirvel%C3%A4_L%C3%B3pez"
+        },
+        {
+            "@id": "wd:Q11864857"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e6450749063557966527"
+        },
+        {
+            "@id": "event:e1527249124356014986"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7158364579827049079"
+        },
+        {
+            "@id": "event:e2362440053991008558"
+        },
+        {
+            "@id": "event:e5883916202313355856"
+        },
+        {
+            "@id": "event:e2408875778956106792"
+        },
+        {
+            "@id": "event:e1615808036833763586"
+        },
+        {
+            "@id": "event:e2900903307040641088"
+        },
+        {
+            "@id": "event:e2939768693733685943"
+        },
+        {
+            "@id": "event:e9439149472034889536"
+        },
+        {
+            "@id": "event:e4582862794331921600"
+        },
+        {
+            "@id": "event:e2086152141273048905"
+        },
+        {
+            "@id": "event:e1742324887229279788"
+        },
+        {
+            "@id": "event:e1403928433618559907"
+        },
+        {
+            "@id": "event:e2789169192703736200"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1640347416193417906"
+        },
+        {
+            "@id": "event:e1464243632996103182"
+        },
+        {
+            "@id": "event:e1034466942252871868"
+        },
+        {
+            "@id": "event:e2767893056564393426"
+        },
+        {
+            "@id": "event:e2022811897584432365"
+        },
+        {
+            "@id": "event:e1831668088510116003"
+        },
+        {
+            "@id": "event:e2323887677564461990"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Hirvelä López, Inger (1940-)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Hirvelä López, Inger Emilia"
+        },
+        {
+            "@language": "fi",
+            "@value": "Hirvelä, Inger Emilia"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q585735"
+        },
+        {
+            "@id": "groups:Q1341419"
+        }
+    ],
+    "semparl:id": "910484",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

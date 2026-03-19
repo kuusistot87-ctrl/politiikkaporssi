@@ -1,0 +1,316 @@
+{
+    "@id": "people:p911396",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b7966218642003262280"
+        },
+        {
+            "@id": "publications:b3036575406188193988"
+        },
+        {
+            "@id": "publications:b2074352044376426326"
+        },
+        {
+            "@id": "publications:b2038456442577584356"
+        },
+        {
+            "@id": "publications:b2026195389197131741"
+        },
+        {
+            "@id": "publications:b1616485413805976124"
+        },
+        {
+            "@id": "publications:b1556172435578628573"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ryti, Risto Henrik (Heikki)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911396.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1919-04-01_1919-04-01_1924-04-30_1924-04-30"
+        },
+        {
+            "@id": "times:t_1927-09-02_1927-09-02_1929-07-31_1929-07-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lakitieteen kandidaatti, valtiotieteen tohtori h.c., Tasavallan Presidentti"
+    },
+    "semparl:end_of_representative_period_text": "31.07.1929",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1929-07-31_1929-07-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o78"
+        },
+        {
+            "@id": "occupations:o1225"
+        },
+        {
+            "@id": "occupations:o130"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2814975732874673463"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911396"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2503120960645017731"
+        },
+        {
+            "@id": "label:l1844148158901902891"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1021186851673461051"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911396"
+    },
+    "semparl:sortingLabel": "ryti risto",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911396"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Risto%20Ryti.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911396.aspx"
+        },
+        {
+            "@id": "yle:18-168778"
+        },
+        {
+            "@id": "viaf:74659300"
+        },
+        {
+            "@id": "natbib:630"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Risto_Ryti"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Risto_Ryti"
+        },
+        {
+            "@id": "wd:Q209435"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2325"
+        },
+        {
+            "@id": "finaf:000057462"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p332"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e7587409043588868786"
+        },
+        {
+            "@id": "event:e1129548340789134304"
+        },
+        {
+            "@id": "event:e3151128428547538444"
+        },
+        {
+            "@id": "event:e2204470581413076571"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9036446989038201439"
+        },
+        {
+            "@id": "event:e3368677482250460129"
+        },
+        {
+            "@id": "event:e3344390172161068663"
+        },
+        {
+            "@id": "event:e2136385648381267484"
+        },
+        {
+            "@id": "event:e2135918815225726533"
+        },
+        {
+            "@id": "event:e2081403058656921587"
+        },
+        {
+            "@id": "event:e1054639649700431542"
+        },
+        {
+            "@id": "event:e1226222411854119061"
+        },
+        {
+            "@id": "event:e1045145103945543354"
+        },
+        {
+            "@id": "event:e2626566273654905096"
+        },
+        {
+            "@id": "event:e6753156641987165897"
+        },
+        {
+            "@id": "event:e8487418487104748617"
+        },
+        {
+            "@id": "event:e2439766020205142972"
+        },
+        {
+            "@id": "event:e4055851952145072457"
+        },
+        {
+            "@id": "event:e3258369319729033734"
+        },
+        {
+            "@id": "event:e1356846034045550375"
+        },
+        {
+            "@id": "event:e2410514391497918947"
+        },
+        {
+            "@id": "event:e2987180516647746061"
+        },
+        {
+            "@id": "event:e3239008580621399094"
+        },
+        {
+            "@id": "event:e1498419212651975942"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8685190944860287859"
+        },
+        {
+            "@id": "event:e3094129503080079026"
+        },
+        {
+            "@id": "event:e1293718632791298531"
+        },
+        {
+            "@id": "event:e1654926211581677789"
+        },
+        {
+            "@id": "event:e6482428464129827027"
+        },
+        {
+            "@id": "event:e2597453360559631001"
+        },
+        {
+            "@id": "event:e2037972701007713742"
+        },
+        {
+            "@id": "event:e6514950638682085067"
+        },
+        {
+            "@id": "event:e1866670571624870215"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ryti, Risto (1889-1956)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Ryti, Risto Henrik"
+        },
+        {
+            "@language": "fi",
+            "@value": "Ryti, Heikki"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "911396",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,388 @@
+{
+    "@id": "people:p1137",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Valkeakoski"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9744658641567730610"
+        },
+        {
+            "@id": "affiliations:a9722462660405221763"
+        },
+        {
+            "@id": "affiliations:a8259926222839918677"
+        },
+        {
+            "@id": "affiliations:a7697790890757295338"
+        },
+        {
+            "@id": "affiliations:a7393861418577188607"
+        },
+        {
+            "@id": "affiliations:a6927723949911728147"
+        },
+        {
+            "@id": "affiliations:a6442684215188739411"
+        },
+        {
+            "@id": "affiliations:a5699457733087845134"
+        },
+        {
+            "@id": "affiliations:a5594162407099684775"
+        },
+        {
+            "@id": "affiliations:a3177879931834465250"
+        },
+        {
+            "@id": "affiliations:a2940968148563273629"
+        },
+        {
+            "@id": "affiliations:a2866625508854177437"
+        },
+        {
+            "@id": "affiliations:a2852540501651872894"
+        },
+        {
+            "@id": "affiliations:a2640993158245806327"
+        },
+        {
+            "@id": "affiliations:a2604980238851368124"
+        },
+        {
+            "@id": "affiliations:a2570558310253252890"
+        },
+        {
+            "@id": "affiliations:a2433279596533501549"
+        },
+        {
+            "@id": "affiliations:a2294995909574236770"
+        },
+        {
+            "@id": "affiliations:a2256196472120686394"
+        },
+        {
+            "@id": "affiliations:a2243119124403672902"
+        },
+        {
+            "@id": "affiliations:a2105830848943765955"
+        },
+        {
+            "@id": "affiliations:a2069454374482369313"
+        },
+        {
+            "@id": "affiliations:a1967398245908538124"
+        },
+        {
+            "@id": "affiliations:a1849561009791138501"
+        },
+        {
+            "@id": "affiliations:a1765280657103626435"
+        },
+        {
+            "@id": "affiliations:a1608177304178326255"
+        },
+        {
+            "@id": "affiliations:a1604752290455950115"
+        },
+        {
+            "@id": "affiliations:a1601960366822508577"
+        },
+        {
+            "@id": "affiliations:a1582648840297811581"
+        },
+        {
+            "@id": "affiliations:a1500622182507304493"
+        },
+        {
+            "@id": "affiliations:a1486504590213217077"
+        },
+        {
+            "@id": "affiliations:a1401625033987912022"
+        },
+        {
+            "@id": "affiliations:a1358847637732069933"
+        },
+        {
+            "@id": "affiliations:a1294326364408290275"
+        },
+        {
+            "@id": "affiliations:a9481698531877440802"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1137.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "Filosofian maisteri, Master of Business Administration"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o830"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2097934535995368971"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2069993452267510165"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1137"
+    },
+    "semparl:sortingLabel": "kiuru pauli antero",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1137"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/632672/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Pauli%20Kiuru.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1137.aspx"
+        },
+        {
+            "@id": "yle:18-231220"
+        },
+        {
+            "@id": "twitter:KiuruPauli"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pauli_Kiuru"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Pauli_Kiuru"
+        },
+        {
+            "@id": "wd:Q433545"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1579727558825266097"
+        },
+        {
+            "@id": "event:e2748697333892083286"
+        },
+        {
+            "@id": "event:e2676894795241975215"
+        },
+        {
+            "@id": "event:e9654090510698255003"
+        },
+        {
+            "@id": "event:e2795185520072568771"
+        },
+        {
+            "@id": "event:e1269435857137432221"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2597131362153622766"
+        },
+        {
+            "@id": "event:e1417526653328607958"
+        },
+        {
+            "@id": "event:e2221930731664930021"
+        },
+        {
+            "@id": "event:e2737448222430581730"
+        },
+        {
+            "@id": "event:e2054927632631936565"
+        },
+        {
+            "@id": "event:e1402947623625937030"
+        },
+        {
+            "@id": "event:e1184458168553339205"
+        },
+        {
+            "@id": "event:e1598279147810932997"
+        },
+        {
+            "@id": "event:e3225372816360557923"
+        },
+        {
+            "@id": "event:e3636023956134310085"
+        },
+        {
+            "@id": "event:e2200236210385518830"
+        },
+        {
+            "@id": "event:e1337845867328017938"
+        },
+        {
+            "@id": "event:e1998098193795185275"
+        },
+        {
+            "@id": "event:e7151742065500643398"
+        },
+        {
+            "@id": "event:e1113306607240373998"
+        },
+        {
+            "@id": "event:e2864606040184529664"
+        },
+        {
+            "@id": "event:e2164295008670747569"
+        },
+        {
+            "@id": "event:e2341354321644603025"
+        },
+        {
+            "@id": "event:e2717186591675759501"
+        },
+        {
+            "@id": "event:e3342728273662096974"
+        },
+        {
+            "@id": "event:e2873670089419006785"
+        },
+        {
+            "@id": "event:e2613179490115239904"
+        },
+        {
+            "@id": "event:e1175526274149760229"
+        },
+        {
+            "@id": "event:e4351802553236696168"
+        },
+        {
+            "@id": "event:e9904673020561247947"
+        },
+        {
+            "@id": "event:e5421341906290460072"
+        },
+        {
+            "@id": "event:e1870759748434571405"
+        },
+        {
+            "@id": "event:e1910681593602450415"
+        },
+        {
+            "@id": "event:e2471258684274598881"
+        },
+        {
+            "@id": "event:e2902982518097188397"
+        },
+        {
+            "@id": "event:e2313789727045476441"
+        },
+        {
+            "@id": "event:e3119586132104045620"
+        },
+        {
+            "@id": "event:e3994776801699940187"
+        },
+        {
+            "@id": "event:e1592001187043735801"
+        },
+        {
+            "@id": "event:e2049773801832978331"
+        },
+        {
+            "@id": "event:e3126869528821781451"
+        },
+        {
+            "@id": "event:e2044606048472718314"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kiuru, Pauli (1962-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1137",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

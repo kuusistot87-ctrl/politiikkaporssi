@@ -1,0 +1,288 @@
+{
+    "@id": "people:p911280",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "vääpeli"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1410343662086009188"
+    },
+    "semparl:authored": {
+        "@id": "publications:b2206273761978813249"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Poutiainen, Eino"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911280.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1979-03-24_1979-03-24_1979-09-12_1979-09-12"
+        },
+        {
+            "@id": "times:t_1970-03-23_1970-03-23_1972-01-21_1972-01-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "työläistarkastaja, pienviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "12.09.1979",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1979-09-12_1979-09-12"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1492"
+        },
+        {
+            "@id": "occupations:o1081"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2604936520255721163"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911280"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3270019747367474380"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911280"
+    },
+    "semparl:sortingLabel": "poutiainen eino",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911280"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eino%20Poutiainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911280.aspx"
+        },
+        {
+            "@id": "viaf:311493090"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eino_Poutiainen"
+        },
+        {
+            "@id": "wd:Q11857176"
+        },
+        {
+            "@id": "finaf:000064474"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2680807992597494072"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2390005327482541441"
+        },
+        {
+            "@id": "event:e1704645504818651831"
+        },
+        {
+            "@id": "event:e1117587486578282752"
+        },
+        {
+            "@id": "event:e7843548039936282181"
+        },
+        {
+            "@id": "event:e2736913628849359655"
+        },
+        {
+            "@id": "event:e3195251599069941234"
+        },
+        {
+            "@id": "event:e2093219548845075540"
+        },
+        {
+            "@id": "event:e1424427914964709564"
+        },
+        {
+            "@id": "event:e2621798166412198994"
+        },
+        {
+            "@id": "event:e9794470858597939480"
+        },
+        {
+            "@id": "event:e2453351152398012000"
+        },
+        {
+            "@id": "event:e2527612235899751188"
+        },
+        {
+            "@id": "event:e1914070949080247117"
+        },
+        {
+            "@id": "event:e4163161546143097288"
+        },
+        {
+            "@id": "event:e2472580389753431006"
+        },
+        {
+            "@id": "event:e2188137258017801624"
+        },
+        {
+            "@id": "event:e9049343935239726241"
+        },
+        {
+            "@id": "event:e1361260832440552764"
+        },
+        {
+            "@id": "event:e5994702956587371847"
+        },
+        {
+            "@id": "event:e3100307989323353837"
+        },
+        {
+            "@id": "event:e2219912506190743393"
+        },
+        {
+            "@id": "event:e1511422839088951992"
+        },
+        {
+            "@id": "event:e5448940583876998071"
+        },
+        {
+            "@id": "event:e2486872680285386596"
+        },
+        {
+            "@id": "event:e1392787975251810659"
+        },
+        {
+            "@id": "event:e1186459175969339540"
+        },
+        {
+            "@id": "event:e2927123528739703722"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2920979376872333346"
+        },
+        {
+            "@id": "event:e3256786403578159774"
+        },
+        {
+            "@id": "event:e8360242114076440993"
+        },
+        {
+            "@id": "event:e4625676106890106564"
+        },
+        {
+            "@id": "event:e9668271444311352966"
+        },
+        {
+            "@id": "event:e3023257334951148634"
+        },
+        {
+            "@id": "event:e1755505744559647218"
+        },
+        {
+            "@id": "event:e2608406508319239275"
+        },
+        {
+            "@id": "event:e2525730951594082667"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Poutiainen, Eino (1917-1979)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1854411"
+    },
+    "semparl:id": "911280",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

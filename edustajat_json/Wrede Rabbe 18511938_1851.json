@@ -1,0 +1,307 @@
+{
+    "@id": "people:p911765",
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b6274260975668291350"
+        },
+        {
+            "@id": "publications:b2342933235401096667"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Wrede, Rabbe Axel (R.A.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911765.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-11-01_1917-11-01_1919-03-31_1919-03-31"
+        },
+        {
+            "@id": "times:t_1910-03-01_1910-03-01_1914-02-01_1914-02-01"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, kansleri, vapaaherra"
+    },
+    "semparl:end_of_representative_period_text": "31.03.1919",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1919-03-31_1919-03-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1540"
+        },
+        {
+            "@id": "occupations:o34"
+        },
+        {
+            "@id": "occupations:o1230"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p3184192677747571071"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911765"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l1890538299166215992"
+        },
+        {
+            "@id": "label:l1766063634280180411"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l3261739106519218094"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911765"
+    },
+    "semparl:sortingLabel": "wrede rabbe",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911765"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Nyblin%20-%20Portrait%20photograph%20of%20R.%20A.%20Wrede.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911765.aspx"
+        },
+        {
+            "@id": "viaf:50002714"
+        },
+        {
+            "@id": "natbib:3692"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/R._A._Wrede"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Rabbe_Axel_Wrede"
+        },
+        {
+            "@id": "wd:Q3375523"
+        },
+        {
+            "@id": "finaf:000068700"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3014"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1107577412045461105"
+        },
+        {
+            "@id": "event:e2347408498095957518"
+        },
+        {
+            "@id": "event:e9898900438707874779"
+        },
+        {
+            "@id": "event:e5515840289595816367"
+        },
+        {
+            "@id": "event:e2888591293347340771"
+        },
+        {
+            "@id": "event:e3190468317834357155"
+        },
+        {
+            "@id": "event:e1421743276656493150"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3221021679584752841"
+        },
+        {
+            "@id": "event:e1873781452369236370"
+        },
+        {
+            "@id": "event:e1155704635786984662"
+        },
+        {
+            "@id": "event:e2462679465556663659"
+        },
+        {
+            "@id": "event:e2264565352952557768"
+        },
+        {
+            "@id": "event:e1096600114780405663"
+        },
+        {
+            "@id": "event:e2893442761987117171"
+        },
+        {
+            "@id": "event:e3324332471465157443"
+        },
+        {
+            "@id": "event:e5432643041498182991"
+        },
+        {
+            "@id": "event:e3347743320251799862"
+        },
+        {
+            "@id": "event:e1953910877719644678"
+        },
+        {
+            "@id": "event:e1389452355769438465"
+        },
+        {
+            "@id": "event:e1503480185578618514"
+        },
+        {
+            "@id": "event:e3580638301134304170"
+        },
+        {
+            "@id": "event:e2136480641723279672"
+        },
+        {
+            "@id": "event:e2367283746712175707"
+        },
+        {
+            "@id": "event:e3408813827531606287"
+        },
+        {
+            "@id": "event:e1064816624808130798"
+        },
+        {
+            "@id": "event:e1266813592635796167"
+        },
+        {
+            "@id": "event:e2486979783498202990"
+        },
+        {
+            "@id": "event:e6980966744352007077"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1455597163229634737"
+        },
+        {
+            "@id": "event:e1425895767676698518"
+        },
+        {
+            "@id": "event:e2703139014170111418"
+        },
+        {
+            "@id": "event:e1832996487815119780"
+        },
+        {
+            "@id": "event:e1929052670119666642"
+        },
+        {
+            "@id": "event:e6198097824970497008"
+        },
+        {
+            "@id": "event:e1244447383834573199"
+        },
+        {
+            "@id": "event:e2815004763553470360"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Wrede, Rabbe (1851-1938)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Wrede, Rabbe Axel"
+        },
+        {
+            "@language": "fi",
+            "@value": "Wrede, R.A."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "911765",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

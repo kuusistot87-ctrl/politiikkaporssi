@@ -1,0 +1,325 @@
+{
+    "@id": "people:p910841",
+    "bioc:has_family_relation": [
+        {
+            "@id": "ns1:p3088428947905700266"
+        },
+        {
+            "@id": "ns1:p1556523535534831832"
+        }
+    ],
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "publications:b1199888751356039157"
+        },
+        {
+            "@id": "publications:b1884685148714647479"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kuusinen(e. Kuusinen-Leino), Hertta Elina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910841.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1945-04-06_1945-04-06_1972-01-21_1972-01-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sanomalehdentoimittaja"
+    },
+    "semparl:end_of_representative_period_text": "21.01.1972",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1972-01-21_1972-01-21"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1098"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1539913622219649187"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910841"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2417579470174517594"
+        },
+        {
+            "@id": "label:l1888931822129660134"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2108688405357573530"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910841"
+    },
+    "semparl:sortingLabel": "kuusinen hertta",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910841"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hertta%20Kuusinen%20neuvostoliittolaisen%20valtuuskunnan%20kanssa.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910841.aspx"
+        },
+        {
+            "@id": "viaf:52490160"
+        },
+        {
+            "@id": "viaf:159028270"
+        },
+        {
+            "@id": "natbib:778"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hertta_Kuusinen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Hertta_Kuusinen"
+        },
+        {
+            "@id": "wd:Q264314"
+        },
+        {
+            "@id": "finaf:000077570"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2748"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1354951646725643258"
+        },
+        {
+            "@id": "event:e1547431833292455266"
+        },
+        {
+            "@id": "event:e1439842293844144500"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2607210837405111533"
+        },
+        {
+            "@id": "event:e2335795517255566332"
+        },
+        {
+            "@id": "event:e1283923965387065178"
+        },
+        {
+            "@id": "event:e1118037226601246382"
+        },
+        {
+            "@id": "event:e2955453650838577357"
+        },
+        {
+            "@id": "event:e5734261130501801308"
+        },
+        {
+            "@id": "event:e1314274824893540179"
+        },
+        {
+            "@id": "event:e3201870037481535914"
+        },
+        {
+            "@id": "event:e2794253793356682374"
+        },
+        {
+            "@id": "event:e1304311948384022444"
+        },
+        {
+            "@id": "event:e2800692931410137127"
+        },
+        {
+            "@id": "event:e1453540815180042223"
+        },
+        {
+            "@id": "event:e1425772806200320120"
+        },
+        {
+            "@id": "event:e5322188922267699118"
+        },
+        {
+            "@id": "event:e1436699339734542223"
+        },
+        {
+            "@id": "event:e2268338760603156087"
+        },
+        {
+            "@id": "event:e6135596382202322777"
+        },
+        {
+            "@id": "event:e2015449910773578438"
+        },
+        {
+            "@id": "event:e2896004514777547473"
+        },
+        {
+            "@id": "event:e2401007528880375798"
+        },
+        {
+            "@id": "event:e6625523083142354292"
+        },
+        {
+            "@id": "event:e2098391198293185930"
+        },
+        {
+            "@id": "event:e1116541912724769080"
+        },
+        {
+            "@id": "event:e2546868711462639581"
+        },
+        {
+            "@id": "event:e1028956041954810469"
+        },
+        {
+            "@id": "event:e1761546471548658356"
+        },
+        {
+            "@id": "event:e1605594300167255127"
+        },
+        {
+            "@id": "event:e5972056210779631696"
+        },
+        {
+            "@id": "event:e1313199085129609483"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e2544420042463173451"
+        },
+        {
+            "@id": "event:e2223382414390318782"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kuusinen, Hertta (1904-1974)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Kuusinen-Leino, Hertta Elina"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kuusinen, Hertta Elina"
+        }
+    ],
+    "semparl:party": [
+        {
+            "@id": "groups:Q585735"
+        },
+        {
+            "@id": "groups:Q1341419"
+        }
+    ],
+    "semparl:id": "910841",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,259 @@
+{
+    "@id": "people:p910388",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Haapanen, Kaarlo Aleksanteri (Santeri)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910388.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1919-03-31_1919-03-31"
+        },
+        {
+            "@id": "times:t_1909-06-01_1909-06-01_1911-01-31_1911-01-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kansakoulunopettaja, maanviljelijä"
+    },
+    "semparl:end_of_representative_period_text": "31.03.1919",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1919-03-31_1919-03-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o83"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p2659611242862970391"
+        },
+        {
+            "@id": "event:p1807460770786940416"
+        }
+    ],
+    "crm:P100i_died_in": {
+        "@id": "event:d910388"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1701643089650327584"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1339205870218419989"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910388"
+    },
+    "semparl:sortingLabel": "haapanen santeri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910388"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910388.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Santeri_Haapanen"
+        },
+        {
+            "@id": "wd:Q11892437"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2897377959215890393"
+        },
+        {
+            "@id": "event:e2050654705335633674"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9400361379574602802"
+        },
+        {
+            "@id": "event:e6051454838308362899"
+        },
+        {
+            "@id": "event:e2557822396851761422"
+        },
+        {
+            "@id": "event:e1805601574898672206"
+        },
+        {
+            "@id": "event:e1251671707438584525"
+        },
+        {
+            "@id": "event:e1920224926919315679"
+        },
+        {
+            "@id": "event:e1545620891375423849"
+        },
+        {
+            "@id": "event:e3038432669580894090"
+        },
+        {
+            "@id": "event:e1505032010047713703"
+        },
+        {
+            "@id": "event:e2078888357562931747"
+        },
+        {
+            "@id": "event:e1223534070818359946"
+        },
+        {
+            "@id": "event:e1526937099235806853"
+        },
+        {
+            "@id": "event:e1889482511477810740"
+        },
+        {
+            "@id": "event:e1485511569259853238"
+        },
+        {
+            "@id": "event:e2825375547072326541"
+        },
+        {
+            "@id": "event:e3182660260306632701"
+        },
+        {
+            "@id": "event:e1009628844627343935"
+        },
+        {
+            "@id": "event:e1381870676844577625"
+        },
+        {
+            "@id": "event:e1679763815186883815"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2633379715294110210"
+        },
+        {
+            "@id": "event:e1967238614724159671"
+        },
+        {
+            "@id": "event:e3221289814379010954"
+        },
+        {
+            "@id": "event:e5892151085352478366"
+        },
+        {
+            "@id": "event:e3401872092474673229"
+        },
+        {
+            "@id": "event:e2635441914189367057"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Haapanen, Santeri (1877-1957)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Haapanen, Kaarlo Aleksanteri"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q1378704"
+        },
+        {
+            "@id": "groups:Q506591"
+        }
+    ],
+    "semparl:id": "910388",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

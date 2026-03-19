@@ -1,0 +1,210 @@
+{
+    "@id": "people:p1304",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Parviainen, Olli-Poika"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1304.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "Filosofian maisteri (M.Sc), medianomi (AMK)"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o878"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1243945118147377300"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l5755033988599564201"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1304"
+    },
+    "semparl:sortingLabel": "parviainen olli-poika",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1304"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Olli-Poika%20Parviainen%202015.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1304.aspx"
+        },
+        {
+            "@id": "twitter:OP_Parviainen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Olli-Poika_Parviainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Olli-Poika_Parviainen"
+        },
+        {
+            "@id": "wd:Q11885402"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1011070322588734292"
+        },
+        {
+            "@id": "event:e1057986499983286058"
+        },
+        {
+            "@id": "event:e1295113975511324536"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6451851805425490033"
+        },
+        {
+            "@id": "event:e2777378446124745519"
+        },
+        {
+            "@id": "event:e1725096919429287601"
+        },
+        {
+            "@id": "event:e1958819254896237397"
+        },
+        {
+            "@id": "event:e6724693996648962917"
+        },
+        {
+            "@id": "event:e2057832564644012963"
+        },
+        {
+            "@id": "event:e5509025125596309148"
+        },
+        {
+            "@id": "event:e1798628954381639043"
+        },
+        {
+            "@id": "event:e9095356192538507871"
+        },
+        {
+            "@id": "event:e1563054513414663284"
+        },
+        {
+            "@id": "event:e2118202129446263228"
+        },
+        {
+            "@id": "event:e3113422641838004809"
+        },
+        {
+            "@id": "event:e2815416583034492294"
+        },
+        {
+            "@id": "event:e1268251482381006590"
+        },
+        {
+            "@id": "event:e3077063410741763489"
+        },
+        {
+            "@id": "event:e2186325747014985913"
+        },
+        {
+            "@id": "event:e1661485723107479949"
+        },
+        {
+            "@id": "event:e6433729893837445592"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Parviainen, Olli-Poika (1980-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "1304",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

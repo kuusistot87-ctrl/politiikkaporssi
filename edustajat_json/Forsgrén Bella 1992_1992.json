@@ -1,0 +1,230 @@
+{
+    "@id": "people:p1445",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Jyväskylä"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a7899311291276333838"
+        },
+        {
+            "@id": "affiliations:a7049027062211774682"
+        },
+        {
+            "@id": "affiliations:a3261512892560766983"
+        },
+        {
+            "@id": "affiliations:a3203614975325679103"
+        },
+        {
+            "@id": "affiliations:a2933105843143410056"
+        },
+        {
+            "@id": "affiliations:a2451361188216303996"
+        },
+        {
+            "@id": "affiliations:a1954127158593883690"
+        },
+        {
+            "@id": "affiliations:a1493712876298845125"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1445.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "opiskelija"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o986"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2669027828014626095"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2807492978767133517"
+        },
+        {
+            "@id": "label:l2752933958107449443"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l7970538445017727487"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1445"
+    },
+    "semparl:sortingLabel": "forsgrén bella asha maria belaynesh",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1445"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/655194/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Bella%20kev%C3%A4t2019.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1445.aspx"
+        },
+        {
+            "@id": "yle:18-256546"
+        },
+        {
+            "@id": "twitter:bellaforsgren"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Bella_Forsgr%C3%A9n"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Bella_Forsgr%C3%A9n"
+        },
+        {
+            "@id": "wd:Q29895299"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1638058481627206462"
+        },
+        {
+            "@id": "event:e3358877889204455109"
+        },
+        {
+            "@id": "event:e3315076864976908777"
+        },
+        {
+            "@id": "event:e3178382469686492776"
+        },
+        {
+            "@id": "event:e9195572396921636078"
+        },
+        {
+            "@id": "event:e1851174318823593899"
+        },
+        {
+            "@id": "event:e3162469157216622823"
+        },
+        {
+            "@id": "event:e2165359677146955866"
+        },
+        {
+            "@id": "event:e3165198449255601001"
+        },
+        {
+            "@id": "event:e6725258895592227654"
+        },
+        {
+            "@id": "event:e2526972284209373834"
+        },
+        {
+            "@id": "event:e2426827916898762710"
+        },
+        {
+            "@id": "event:e2528345541343093131"
+        },
+        {
+            "@id": "event:e1589234497438394946"
+        },
+        {
+            "@id": "event:e1323185946553931530"
+        },
+        {
+            "@id": "event:e1636748653922825643"
+        },
+        {
+            "@id": "event:e2450915288544025025"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Forsgrén, Bella (1992-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "1445",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

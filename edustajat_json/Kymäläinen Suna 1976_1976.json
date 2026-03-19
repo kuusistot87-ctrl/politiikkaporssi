@@ -1,0 +1,287 @@
+{
+    "@id": "people:p1144",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Lappeenranta"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9915913170367403082"
+        },
+        {
+            "@id": "affiliations:a5987028179810124450"
+        },
+        {
+            "@id": "affiliations:a2578597459352353284"
+        },
+        {
+            "@id": "affiliations:a2523104313889927322"
+        },
+        {
+            "@id": "affiliations:a2318130511636957694"
+        },
+        {
+            "@id": "affiliations:a2044698174278246234"
+        },
+        {
+            "@id": "affiliations:a1637324995815013745"
+        },
+        {
+            "@id": "affiliations:a1212285241210623368"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1144.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lastenohjaaja"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o843"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p6485077206337066728"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2609616215155778309"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1144"
+    },
+    "semparl:sortingLabel": "kymäläinen suna ellen",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1144"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/648900/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Finlands%20Socialdemokratiska%20Parti%20%28Sd%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1144.aspx"
+        },
+        {
+            "@id": "yle:18-241649"
+        },
+        {
+            "@id": "twitter:sunakymlinen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Suna_Kym%C3%A4l%C3%A4inen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Suna_Kym%C3%A4l%C3%A4inen"
+        },
+        {
+            "@id": "wd:Q13628790"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1034723870050653110"
+        },
+        {
+            "@id": "event:e1515041153197366143"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8350368314131097370"
+        },
+        {
+            "@id": "event:e1925879348933436610"
+        },
+        {
+            "@id": "event:e1421434541637045683"
+        },
+        {
+            "@id": "event:e2420390577368058827"
+        },
+        {
+            "@id": "event:e3192294020803998828"
+        },
+        {
+            "@id": "event:e1867851716636978320"
+        },
+        {
+            "@id": "event:e2770783700237091447"
+        },
+        {
+            "@id": "event:e3130519579722099722"
+        },
+        {
+            "@id": "event:e2466007456178133671"
+        },
+        {
+            "@id": "event:e1278564818180780774"
+        },
+        {
+            "@id": "event:e5773301165620868075"
+        },
+        {
+            "@id": "event:e3082487049149396157"
+        },
+        {
+            "@id": "event:e1633101102322010965"
+        },
+        {
+            "@id": "event:e8491348179156617867"
+        },
+        {
+            "@id": "event:e2278877834304146151"
+        },
+        {
+            "@id": "event:e1063670589504019101"
+        },
+        {
+            "@id": "event:e1422659631072796292"
+        },
+        {
+            "@id": "event:e2064258325430405576"
+        },
+        {
+            "@id": "event:e2143629659785651532"
+        },
+        {
+            "@id": "event:e1826604825065531174"
+        },
+        {
+            "@id": "event:e2473041759145997798"
+        },
+        {
+            "@id": "event:e8914268129052305960"
+        },
+        {
+            "@id": "event:e1137762381906225030"
+        },
+        {
+            "@id": "event:e7742211959075401604"
+        },
+        {
+            "@id": "event:e2826178667019373409"
+        },
+        {
+            "@id": "event:e2061414472294691944"
+        },
+        {
+            "@id": "event:e3146404287811635441"
+        },
+        {
+            "@id": "event:e1212951580870037114"
+        },
+        {
+            "@id": "event:e2435460639508571264"
+        },
+        {
+            "@id": "event:e1863627879057226361"
+        },
+        {
+            "@id": "event:e1979336572531052404"
+        },
+        {
+            "@id": "event:e2602761709801118597"
+        },
+        {
+            "@id": "event:e2486657490125835330"
+        },
+        {
+            "@id": "event:e2319527323908470292"
+        },
+        {
+            "@id": "event:e2115311041634406319"
+        },
+        {
+            "@id": "event:e2443603244264421718"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kymäläinen, Suna (1976-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "1144",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

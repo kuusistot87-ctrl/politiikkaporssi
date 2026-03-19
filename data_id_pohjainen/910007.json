@@ -1,0 +1,283 @@
+{
+    "@id": "people:p910007",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b7523632935659134386"
+        },
+        {
+            "@id": "publications:b6392183958946105630"
+        },
+        {
+            "@id": "publications:b4668352587442822707"
+        },
+        {
+            "@id": "publications:b3021380024538066000"
+        },
+        {
+            "@id": "publications:b2928801941928412879"
+        },
+        {
+            "@id": "publications:b2441734142454136139"
+        },
+        {
+            "@id": "publications:b1956514175335923499"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Alenius, Ele Allan"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910007.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1966-04-05_1966-04-05_1977-04-30_1977-04-30"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen tohtori, pankinjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "30.04.1977",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1977-04-30_1977-04-30"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o47"
+        },
+        {
+            "@id": "occupations:o214"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2143900318012396397"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910007"
+    },
+    "xl:altLabel": {
+        "@id": "label:l8777004323452514764"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1687229399821586437"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910007"
+    },
+    "semparl:sortingLabel": "alenius ele",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910007"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ele-Alenius-1970.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910007.aspx"
+        },
+        {
+            "@id": "viaf:8873829"
+        },
+        {
+            "@id": "natbib:739"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ele_Alenius"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Ele_Alenius"
+        },
+        {
+            "@id": "wd:Q5477271"
+        },
+        {
+            "@id": "finaf:000040330"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2816"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1978838129979736655"
+        },
+        {
+            "@id": "event:e2874466420853593925"
+        },
+        {
+            "@id": "event:e2328331291864807550"
+        },
+        {
+            "@id": "event:e3335349957966126931"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3631910951423610333"
+        },
+        {
+            "@id": "event:e1865223545336676979"
+        },
+        {
+            "@id": "event:e1769186583632216018"
+        },
+        {
+            "@id": "event:e1635927222137613564"
+        },
+        {
+            "@id": "event:e2389653581533374927"
+        },
+        {
+            "@id": "event:e1633463888190881914"
+        },
+        {
+            "@id": "event:e1501473587807599281"
+        },
+        {
+            "@id": "event:e3117305992120366832"
+        },
+        {
+            "@id": "event:e2498542816255092155"
+        },
+        {
+            "@id": "event:e1110530403219836126"
+        },
+        {
+            "@id": "event:e2362888756596267149"
+        },
+        {
+            "@id": "event:e4257413444729013845"
+        },
+        {
+            "@id": "event:e2695329338871595337"
+        },
+        {
+            "@id": "event:e1023602796674497765"
+        },
+        {
+            "@id": "event:e4739743928290038231"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2270014656062742190"
+        },
+        {
+            "@id": "event:e2278385369755147252"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        },
+        {
+            "@id": "event:e1313199085129609483"
+        },
+        {
+            "@id": "event:e2974639165934036456"
+        },
+        {
+            "@id": "event:e2799896671783738662"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Alenius, Ele (1925-2022)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Alenius, Ele Allan"
+    },
+    "semparl:party": {
+        "@id": "groups:Q585735"
+    },
+    "semparl:id": "910007",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

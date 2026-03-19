@@ -1,0 +1,271 @@
+{
+    "@id": "people:p911761",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Witting, Rolf Johan"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911761.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1924-05-01_1924-05-01_1927-09-01_1927-09-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori, pääjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "01.09.1927",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1927-09-01_1927-09-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1248290321656200467"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911761"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3348390222705811313"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1605264732782319541"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911761"
+    },
+    "semparl:sortingLabel": "witting rolf",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911761"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Rolf-Witting-1943.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911761.aspx"
+        },
+        {
+            "@id": "viaf:52071297"
+        },
+        {
+            "@id": "natbib:813"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Rolf_Witting"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Rolf_Witting"
+        },
+        {
+            "@id": "wd:Q2136530"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2400"
+        },
+        {
+            "@id": "finaf:000082501"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5778"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2898602379710794312"
+        },
+        {
+            "@id": "event:e2081064977098427021"
+        },
+        {
+            "@id": "event:e2585516838666232317"
+        },
+        {
+            "@id": "event:e2835260388825247324"
+        },
+        {
+            "@id": "event:e1472527763962575615"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9073772292825011591"
+        },
+        {
+            "@id": "event:e8113186972753462041"
+        },
+        {
+            "@id": "event:e2781455516315247610"
+        },
+        {
+            "@id": "event:e2738045316162132412"
+        },
+        {
+            "@id": "event:e2270122958144847867"
+        },
+        {
+            "@id": "event:e1988872525865747932"
+        },
+        {
+            "@id": "event:e1519232908582784159"
+        },
+        {
+            "@id": "event:e1977477923810805221"
+        },
+        {
+            "@id": "event:e6484760615943789306"
+        },
+        {
+            "@id": "event:e1757918647305321616"
+        },
+        {
+            "@id": "event:e2471476683865299711"
+        },
+        {
+            "@id": "event:e7104640737577362715"
+        },
+        {
+            "@id": "event:e1540058024837400843"
+        },
+        {
+            "@id": "event:e3296476343228958223"
+        },
+        {
+            "@id": "event:e2663205063684367466"
+        },
+        {
+            "@id": "event:e2590399412664242766"
+        },
+        {
+            "@id": "event:e3079320929051933764"
+        },
+        {
+            "@id": "event:e3231944200175373037"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e3732705811673524918"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e1278345937412812062"
+        },
+        {
+            "@id": "event:e3299684254008831727"
+        },
+        {
+            "@id": "event:e1153638281324826244"
+        },
+        {
+            "@id": "event:e2053559099087694196"
+        },
+        {
+            "@id": "event:e6315444325806219802"
+        },
+        {
+            "@id": "event:e1164868787999268607"
+        },
+        {
+            "@id": "event:e1773668176148640181"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Witting, Rolf (1879-1944)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Witting, Rolf Johan"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "911761",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,301 @@
+{
+    "@id": "people:p911421",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p1989954296683294115"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Saarikivi(e. Gröhn), Alexander (Santeri)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911421.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1910-03-01_1910-03-01_1911-01-31_1911-01-31"
+        },
+        {
+            "@id": "times:t_1917-04-04_1917-04-04_1918-05-16_1918-05-16"
+        },
+        {
+            "@id": "times:t_1908-08-01_1908-08-01_1909-05-31_1909-05-31"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kunnankirjuri"
+    },
+    "semparl:end_of_representative_period_text": "16.05.1918",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1918-05-16_1918-05-16"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1457"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p5006487240044367898"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911421"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l3600482020116029564"
+        },
+        {
+            "@id": "label:l1599119499154652127"
+        },
+        {
+            "@id": "label:l1409971833855603000"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2690611490862485672"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911421"
+    },
+    "semparl:sortingLabel": "saarikivi santeri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911421"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Santeri%20Saarikivi.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911421.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Santeri_Saarikivi"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Santeri_Saarikivi"
+        },
+        {
+            "@id": "wd:Q17383447"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e9067640670586912939"
+        },
+        {
+            "@id": "event:e1308730154998687434"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8898315040514716978"
+        },
+        {
+            "@id": "event:e3254943587942537060"
+        },
+        {
+            "@id": "event:e3012464287680998356"
+        },
+        {
+            "@id": "event:e2249361626287074250"
+        },
+        {
+            "@id": "event:e2303648817893732035"
+        },
+        {
+            "@id": "event:e2866931108787641490"
+        },
+        {
+            "@id": "event:e1407245352052745405"
+        },
+        {
+            "@id": "event:e9386931981927475159"
+        },
+        {
+            "@id": "event:e1163708741389473144"
+        },
+        {
+            "@id": "event:e2627215778480415744"
+        },
+        {
+            "@id": "event:e1827515345207132416"
+        },
+        {
+            "@id": "event:e7511179317669057309"
+        },
+        {
+            "@id": "event:e9658466187228109918"
+        },
+        {
+            "@id": "event:e3716865100415449934"
+        },
+        {
+            "@id": "event:e7423910247732990389"
+        },
+        {
+            "@id": "event:e1749221724847500221"
+        },
+        {
+            "@id": "event:e2700540561344171444"
+        },
+        {
+            "@id": "event:e3601290671413202647"
+        },
+        {
+            "@id": "event:e3029927403591593258"
+        },
+        {
+            "@id": "event:e4940999317893309935"
+        },
+        {
+            "@id": "event:e1237576919916284423"
+        },
+        {
+            "@id": "event:e2142786522355055317"
+        },
+        {
+            "@id": "event:e2797346164023480315"
+        },
+        {
+            "@id": "event:e2412559084678254539"
+        },
+        {
+            "@id": "event:e1316795431285695794"
+        },
+        {
+            "@id": "event:e2588975706179292383"
+        },
+        {
+            "@id": "event:e1355013942183572672"
+        },
+        {
+            "@id": "event:e7769328718925167872"
+        },
+        {
+            "@id": "event:e1629767937718171458"
+        },
+        {
+            "@id": "event:e1957221299257661603"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2454233110079203128"
+        },
+        {
+            "@id": "event:e8086983017269919257"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Saarikivi, Santeri (1877-1969)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Saarikivi, Alexander"
+        },
+        {
+            "@language": "fi",
+            "@value": "Gröhn, Alexander"
+        },
+        {
+            "@language": "fi",
+            "@value": "Gröhn, Santeri"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911421",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

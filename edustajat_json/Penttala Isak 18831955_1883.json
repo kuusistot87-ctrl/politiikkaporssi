@@ -1,0 +1,240 @@
+{
+    "@id": "people:p911227",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Penttala, Isak"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911227.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1927-03-04_1927-03-04_1951-07-20_1951-07-20"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "talonomistaja, piirisihteeri"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1394"
+        },
+        {
+            "@id": "occupations:o375"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1105063018036294093"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911227"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2029761440273178798"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911227"
+    },
+    "semparl:sortingLabel": "penttala isak",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911227"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Isak%20Penttala.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911227.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Isak_Penttala"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Isak_Penttala"
+        },
+        {
+            "@id": "wd:Q5492511"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e8594151647519701138"
+        },
+        {
+            "@id": "event:e2054721718646540505"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2721383400779443573"
+        },
+        {
+            "@id": "event:e2179437765476326127"
+        },
+        {
+            "@id": "event:e3225081069160048727"
+        },
+        {
+            "@id": "event:e2318734936821726212"
+        },
+        {
+            "@id": "event:e1040337672795192062"
+        },
+        {
+            "@id": "event:e7439668893688887922"
+        },
+        {
+            "@id": "event:e1998198544230581060"
+        },
+        {
+            "@id": "event:e2471747524497789435"
+        },
+        {
+            "@id": "event:e2339034157427989481"
+        },
+        {
+            "@id": "event:e6996187988108695039"
+        },
+        {
+            "@id": "event:e1951886978868698510"
+        },
+        {
+            "@id": "event:e1721352123834449167"
+        },
+        {
+            "@id": "event:e8439759741077533832"
+        },
+        {
+            "@id": "event:e2832627467688317344"
+        },
+        {
+            "@id": "event:e3503095131919240059"
+        },
+        {
+            "@id": "event:e3111768091968119089"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2454233110079203128"
+        },
+        {
+            "@id": "event:e8331674935301047595"
+        },
+        {
+            "@id": "event:e2473901172279519341"
+        },
+        {
+            "@id": "event:e3332181678537037255"
+        },
+        {
+            "@id": "event:e2503953854510857062"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Penttala, Isak (1883-1955)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911227",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

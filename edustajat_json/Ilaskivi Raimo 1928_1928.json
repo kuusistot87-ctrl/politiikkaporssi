@@ -1,0 +1,425 @@
+{
+    "@id": "people:p535",
+    "semparl:extra_info": "Kokoomuksen presidenttiehdokas 1994",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kapteeni"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2659523024996209244"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b4469323870058125642"
+        },
+        {
+            "@id": "publications:b3143712122504361974"
+        },
+        {
+            "@id": "publications:b2683861813404830197"
+        },
+        {
+            "@id": "publications:b2442016821351062051"
+        },
+        {
+            "@id": "publications:b2368315257402498172"
+        },
+        {
+            "@id": "publications:b2346258403776938634"
+        },
+        {
+            "@id": "publications:b1858432651172939312"
+        },
+        {
+            "@id": "publications:b1081766455609367134"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Ilaskivi(v:een 1947 Hämäläinen), Raimo"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:535.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1962-02-20_1962-02-20_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "valtiotieteen tohtori, ylipormestari"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o322"
+        },
+        {
+            "@id": "occupations:o47"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2030963714064442747"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1025563699450371041"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2160123537576473646"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=535"
+    },
+    "semparl:sortingLabel": "ilaskivi raimo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b535"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Metron%20avajaistilaisuus%202.8.1982%20-%20N94259%20-%20hkm.HKMS000005-km0000opnu.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:535.aspx"
+        },
+        {
+            "@id": "viaf:273520542"
+        },
+        {
+            "@id": "natbib:8293"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Raimo_Ilaskivi"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Raimo_Ilaskivi"
+        },
+        {
+            "@id": "wd:Q3072287"
+        },
+        {
+            "@id": "finaf:000067320"
+        },
+        {
+            "@id": "http://ldf.fi/nbf/p3957"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3957"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1978838129979736655"
+        },
+        {
+            "@id": "event:e2470903374132921423"
+        },
+        {
+            "@id": "event:e2755835356058102362"
+        },
+        {
+            "@id": "event:e2393770620197299106"
+        },
+        {
+            "@id": "event:e3160931280238511815"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2808483140759740607"
+        },
+        {
+            "@id": "event:e2281818385821964157"
+        },
+        {
+            "@id": "event:e1831534512498000128"
+        },
+        {
+            "@id": "event:e1396739045826571902"
+        },
+        {
+            "@id": "event:e1007153563063969943"
+        },
+        {
+            "@id": "event:e1293546032370886870"
+        },
+        {
+            "@id": "event:e2393046236768271371"
+        },
+        {
+            "@id": "event:e1473028102182943905"
+        },
+        {
+            "@id": "event:e2777392829056669164"
+        },
+        {
+            "@id": "event:e6969814410985329147"
+        },
+        {
+            "@id": "event:e1832475417687931394"
+        },
+        {
+            "@id": "event:e1803158075610397581"
+        },
+        {
+            "@id": "event:e1192942367923900244"
+        },
+        {
+            "@id": "event:e2452775352322789524"
+        },
+        {
+            "@id": "event:e8893691778292315944"
+        },
+        {
+            "@id": "event:e1569231757348209410"
+        },
+        {
+            "@id": "event:e4032354947818992664"
+        },
+        {
+            "@id": "event:e9765399547811888507"
+        },
+        {
+            "@id": "event:e2079921484527114082"
+        },
+        {
+            "@id": "event:e2353259084004018653"
+        },
+        {
+            "@id": "event:e1059500800916729478"
+        },
+        {
+            "@id": "event:e6618695218095394007"
+        },
+        {
+            "@id": "event:e2278763228474840221"
+        },
+        {
+            "@id": "event:e6978031527840514000"
+        },
+        {
+            "@id": "event:e3078152971439546746"
+        },
+        {
+            "@id": "event:e1234769117880546457"
+        },
+        {
+            "@id": "event:e2056926282153256351"
+        },
+        {
+            "@id": "event:e2544084566471051734"
+        },
+        {
+            "@id": "event:e3003766658175185451"
+        },
+        {
+            "@id": "event:e3191134776733583318"
+        },
+        {
+            "@id": "event:e2991189006400767058"
+        },
+        {
+            "@id": "event:e3321612553140519528"
+        },
+        {
+            "@id": "event:e6019784313749369665"
+        },
+        {
+            "@id": "event:e3847457362952776097"
+        },
+        {
+            "@id": "event:e1759713533560055550"
+        },
+        {
+            "@id": "event:e3546342252292587776"
+        },
+        {
+            "@id": "event:e6830037457237012169"
+        },
+        {
+            "@id": "event:e2020510473407753510"
+        },
+        {
+            "@id": "event:e2942184724384019077"
+        },
+        {
+            "@id": "event:e1208645281740726954"
+        },
+        {
+            "@id": "event:e1784795976423267148"
+        },
+        {
+            "@id": "event:e2282723588807564625"
+        },
+        {
+            "@id": "event:e1397998042005308490"
+        },
+        {
+            "@id": "event:e2021605200705016900"
+        },
+        {
+            "@id": "event:e2796837106792498080"
+        },
+        {
+            "@id": "event:e1113427879843148496"
+        },
+        {
+            "@id": "event:e2835085720890908889"
+        },
+        {
+            "@id": "event:e1194682559533873951"
+        },
+        {
+            "@id": "event:e1025281051650314742"
+        },
+        {
+            "@id": "event:e1129030616467743600"
+        },
+        {
+            "@id": "event:e8542562914638133706"
+        },
+        {
+            "@id": "event:e8056867029253014412"
+        },
+        {
+            "@id": "event:e5003359032248266681"
+        },
+        {
+            "@id": "event:e1736335390365651874"
+        },
+        {
+            "@id": "event:e4367267407780280739"
+        },
+        {
+            "@id": "event:e2779254732697596340"
+        },
+        {
+            "@id": "event:e1346611954956492680"
+        },
+        {
+            "@id": "event:e1741993131698103960"
+        },
+        {
+            "@id": "event:e1691401692101640061"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e3303656867960650609"
+        },
+        {
+            "@id": "event:e3277742329358054813"
+        },
+        {
+            "@id": "event:e2190706585791973888"
+        },
+        {
+            "@id": "event:e9296575210650571263"
+        },
+        {
+            "@id": "event:e1216004184349439846"
+        },
+        {
+            "@id": "event:e5159268270234003285"
+        },
+        {
+            "@id": "event:e2852724322038059160"
+        },
+        {
+            "@id": "event:e7121854820929749373"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ilaskivi, Raimo (1928-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Hämäläinen, Raimo"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "535",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

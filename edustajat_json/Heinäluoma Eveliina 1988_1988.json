@@ -1,0 +1,278 @@
+{
+    "@id": "people:p1390",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2734892183747843589"
+    },
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Helsinki"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9794346080144244058"
+        },
+        {
+            "@id": "affiliations:a8775587379155488251"
+        },
+        {
+            "@id": "affiliations:a6245482901933268311"
+        },
+        {
+            "@id": "affiliations:a3378966697217767119"
+        },
+        {
+            "@id": "affiliations:a3269375379222892034"
+        },
+        {
+            "@id": "affiliations:a3255913149789582080"
+        },
+        {
+            "@id": "affiliations:a2935686441457652034"
+        },
+        {
+            "@id": "affiliations:a2799439182857455331"
+        },
+        {
+            "@id": "affiliations:a2221613606740410268"
+        },
+        {
+            "@id": "affiliations:a2067631268226835058"
+        },
+        {
+            "@id": "affiliations:a1836122270553202386"
+        },
+        {
+            "@id": "affiliations:a1412997226992983939"
+        },
+        {
+            "@id": "affiliations:a1314705651569057440"
+        },
+        {
+            "@id": "affiliations:a1245416233247555618"
+        },
+        {
+            "@id": "affiliations:a1048821803568238165"
+        },
+        {
+            "@id": "affiliations:a3066268089848336127"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1390.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yhteiskuntatieteiden maisteri, viestinnän asiantuntija"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o933"
+        },
+        {
+            "@id": "occupations:o62"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p7440897976846266758"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1217816166270645204"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1390"
+    },
+    "semparl:sortingLabel": "heinäluoma eveliina rosa",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1390"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/658225/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Eveliina%20Hein%C3%A4luoma%2C%20November%202022%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1390.aspx"
+        },
+        {
+            "@id": "yle:18-289570"
+        },
+        {
+            "@id": "twitter:eveheinaluoma"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Eveliina_Hein%C3%A4luoma"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Eveliina_Hein%C3%A4luoma"
+        },
+        {
+            "@id": "wd:Q29892746"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1948795812984255149"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1325184416104515304"
+        },
+        {
+            "@id": "event:e3258664991747167581"
+        },
+        {
+            "@id": "event:e1579036892495023020"
+        },
+        {
+            "@id": "event:e2144868552414021409"
+        },
+        {
+            "@id": "event:e1785247657960053102"
+        },
+        {
+            "@id": "event:e1621627375419033465"
+        },
+        {
+            "@id": "event:e1496038905876838787"
+        },
+        {
+            "@id": "event:e1054755918296055650"
+        },
+        {
+            "@id": "event:e1514994729656879761"
+        },
+        {
+            "@id": "event:e2702332866971179973"
+        },
+        {
+            "@id": "event:e7742211959075401604"
+        },
+        {
+            "@id": "event:e3186119749896940048"
+        },
+        {
+            "@id": "event:e2421757605129829823"
+        },
+        {
+            "@id": "event:e1313853477176721844"
+        },
+        {
+            "@id": "event:e2163057644718717620"
+        },
+        {
+            "@id": "event:e5170878340658839460"
+        },
+        {
+            "@id": "event:e3029722746150342464"
+        },
+        {
+            "@id": "event:e1871631061891593631"
+        },
+        {
+            "@id": "event:e3206370673543344306"
+        },
+        {
+            "@id": "event:e8634763231371492968"
+        },
+        {
+            "@id": "event:e1863627879057226361"
+        },
+        {
+            "@id": "event:e1678222783758026715"
+        },
+        {
+            "@id": "event:e6654852982945477355"
+        },
+        {
+            "@id": "event:e2528345541343093131"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Heinäluoma, Eveliina (1988-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "1390",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

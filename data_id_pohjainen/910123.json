@@ -1,0 +1,334 @@
+{
+    "@id": "people:p910123",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2142900220415367249"
+    },
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "majuri"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1097372855103316344"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Procopé, Johan Victor"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910123.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1966-04-05_1966-04-05_1975-09-26_1975-09-26"
+        },
+        {
+            "@id": "times:t_1958-07-22_1958-07-22_1962-02-19_1962-02-19"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1323203248276851072"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910123"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1947486576607335419"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3293889646287740872"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910123"
+    },
+    "semparl:sortingLabel": "procopé victor",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910123"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Victor-Procope-1966.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910123.aspx"
+        },
+        {
+            "@id": "viaf:19651394"
+        },
+        {
+            "@id": "natbib:5610"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Victor_Procop%C3%A9"
+        },
+        {
+            "@id": "wd:Q17383039"
+        },
+        {
+            "@id": "finaf:000078372"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p4970"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1546072571280845609"
+        },
+        {
+            "@id": "event:e1085746595404363606"
+        },
+        {
+            "@id": "event:e3155901273840674133"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3092429143269936213"
+        },
+        {
+            "@id": "event:e1941920205982586207"
+        },
+        {
+            "@id": "event:e1764434972968771134"
+        },
+        {
+            "@id": "event:e1600584555845613264"
+        },
+        {
+            "@id": "event:e5011231670322156300"
+        },
+        {
+            "@id": "event:e7199414156805857349"
+        },
+        {
+            "@id": "event:e1645436048980854561"
+        },
+        {
+            "@id": "event:e1670826598712552403"
+        },
+        {
+            "@id": "event:e4384225806634112175"
+        },
+        {
+            "@id": "event:e1440682726294518081"
+        },
+        {
+            "@id": "event:e7043349034714472173"
+        },
+        {
+            "@id": "event:e1835882362049717456"
+        },
+        {
+            "@id": "event:e7273895728052704515"
+        },
+        {
+            "@id": "event:e8943328790110849044"
+        },
+        {
+            "@id": "event:e7815472885199369551"
+        },
+        {
+            "@id": "event:e3692745840635312906"
+        },
+        {
+            "@id": "event:e2204232923047729070"
+        },
+        {
+            "@id": "event:e2681920284628677387"
+        },
+        {
+            "@id": "event:e6164918084751700422"
+        },
+        {
+            "@id": "event:e1302573762145947722"
+        },
+        {
+            "@id": "event:e3054248928568655583"
+        },
+        {
+            "@id": "event:e1521794926476376935"
+        },
+        {
+            "@id": "event:e7694979591277537341"
+        },
+        {
+            "@id": "event:e3140433718761133797"
+        },
+        {
+            "@id": "event:e2992315014987937346"
+        },
+        {
+            "@id": "event:e8192092268809592416"
+        },
+        {
+            "@id": "event:e6485898477719768823"
+        },
+        {
+            "@id": "event:e3168959349111778847"
+        },
+        {
+            "@id": "event:e1024704450176585058"
+        },
+        {
+            "@id": "event:e1839571817255753928"
+        },
+        {
+            "@id": "event:e7308193688040017623"
+        },
+        {
+            "@id": "event:e8813903269555362536"
+        },
+        {
+            "@id": "event:e2542872769849972035"
+        },
+        {
+            "@id": "event:e5146233827943955358"
+        },
+        {
+            "@id": "event:e2845044333752652214"
+        },
+        {
+            "@id": "event:e6198097824970497008"
+        },
+        {
+            "@id": "event:e2392427662454894564"
+        },
+        {
+            "@id": "event:e2703139014170111418"
+        },
+        {
+            "@id": "event:e1867337394518953235"
+        },
+        {
+            "@id": "event:e2092587372193886156"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e1293718632791298531"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2872728831660847743"
+        },
+        {
+            "@id": "event:e1727897614134596116"
+        },
+        {
+            "@id": "event:e1664481113923510346"
+        },
+        {
+            "@id": "event:e1371063409877330604"
+        },
+        {
+            "@id": "event:e2969620671428711492"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Procopé, Victor (1918-1998)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Procopé, Johan Victor"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "910123",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

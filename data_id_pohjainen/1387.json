@@ -1,0 +1,263 @@
+{
+    "@id": "people:p1387",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Helsinki"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1387.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "tutkija, yhteiskuntatieteiden tohtori"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o250"
+        },
+        {
+            "@id": "occupations:o642"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2915491870363895854"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2140396042245354104"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1387"
+    },
+    "semparl:sortingLabel": "ohisalo maria",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1387"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/658225/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Maria%20Ohisalo%20in%202022%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1387.aspx"
+        },
+        {
+            "@id": "yle:18-161149"
+        },
+        {
+            "@id": "twitter:MariaOhisalo"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Maria_Ohisalo"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Maria_Ohisalo"
+        },
+        {
+            "@id": "wd:Q15281152"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1602056354966804106"
+        },
+        {
+            "@id": "event:e2716379843509389567"
+        },
+        {
+            "@id": "event:e2714258860280471287"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6470281367826535824"
+        },
+        {
+            "@id": "event:e5042370983448222470"
+        },
+        {
+            "@id": "event:e3333576626720210513"
+        },
+        {
+            "@id": "event:e2383128821575988976"
+        },
+        {
+            "@id": "event:e1830240014036986127"
+        },
+        {
+            "@id": "event:e1317010199405365340"
+        },
+        {
+            "@id": "event:e2448654455382813513"
+        },
+        {
+            "@id": "event:e1640954409018948851"
+        },
+        {
+            "@id": "event:e4166178647535558880"
+        },
+        {
+            "@id": "event:e2663302460245783401"
+        },
+        {
+            "@id": "event:e2971441437812755989"
+        },
+        {
+            "@id": "event:e8135694577101502194"
+        },
+        {
+            "@id": "event:e1808801623168229915"
+        },
+        {
+            "@id": "event:e3282542539264823551"
+        },
+        {
+            "@id": "event:e2311445889810836437"
+        },
+        {
+            "@id": "event:e1095050387675339403"
+        },
+        {
+            "@id": "event:e3155985350365076869"
+        },
+        {
+            "@id": "event:e1695654597231803068"
+        },
+        {
+            "@id": "event:e1499929157061361540"
+        },
+        {
+            "@id": "event:e1967673995563058256"
+        },
+        {
+            "@id": "event:e1337547695349296723"
+        },
+        {
+            "@id": "event:e2573207418892631316"
+        },
+        {
+            "@id": "event:e1215721120345115944"
+        },
+        {
+            "@id": "event:e2734405137885679341"
+        },
+        {
+            "@id": "event:e5170878340658839460"
+        },
+        {
+            "@id": "event:e4803411954154134200"
+        },
+        {
+            "@id": "event:e1943628687828149574"
+        },
+        {
+            "@id": "event:e1669452286231986010"
+        },
+        {
+            "@id": "event:e1324645703934264231"
+        },
+        {
+            "@id": "event:e3809361221993851244"
+        },
+        {
+            "@id": "event:e6305518924906797007"
+        },
+        {
+            "@id": "event:e2900173994545872494"
+        },
+        {
+            "@id": "event:e3144169229772364113"
+        },
+        {
+            "@id": "event:e1201823910626721893"
+        },
+        {
+            "@id": "event:e3188379027647619529"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Ohisalo, Maria (1985-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "1387",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

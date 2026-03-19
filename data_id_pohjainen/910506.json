@@ -1,0 +1,308 @@
+{
+    "@id": "people:p910506",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p2658884112160913869"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Honka(v:een 1906 Bremer), Aarne Uno Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910506.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1948-07-22_1948-07-22_1951-07-20_1951-07-20"
+        },
+        {
+            "@id": "times:t_1933-09-01_1933-09-01_1945-04-05_1945-04-05"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, rehtori, kouluneuvos"
+    },
+    "semparl:end_of_representative_period_text": "20.07.1951",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1951-07-20_1951-07-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1074"
+        },
+        {
+            "@id": "occupations:o63"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2871189271559349114"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910506"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8065895181448246830"
+        },
+        {
+            "@id": "label:l1818513783587803938"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2759313588172584505"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910506"
+    },
+    "semparl:sortingLabel": "honka aarne",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910506"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Aarne%20Honka.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910506.aspx"
+        },
+        {
+            "@id": "viaf:167796625"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Aarne_Honka"
+        },
+        {
+            "@id": "wd:Q18632667"
+        },
+        {
+            "@id": "finaf:000076481"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1257142950271304387"
+        },
+        {
+            "@id": "event:e2469452198845140686"
+        },
+        {
+            "@id": "event:e3322703490503133996"
+        },
+        {
+            "@id": "event:e5863093162389301891"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3027665110227239978"
+        },
+        {
+            "@id": "event:e1397771111416670653"
+        },
+        {
+            "@id": "event:e2287499719069446712"
+        },
+        {
+            "@id": "event:e8083988019007481216"
+        },
+        {
+            "@id": "event:e3159882174138892828"
+        },
+        {
+            "@id": "event:e1883034733918553104"
+        },
+        {
+            "@id": "event:e9794004463628308716"
+        },
+        {
+            "@id": "event:e2729269403521843359"
+        },
+        {
+            "@id": "event:e2135145694508276788"
+        },
+        {
+            "@id": "event:e3031889637928967110"
+        },
+        {
+            "@id": "event:e2349429938176532871"
+        },
+        {
+            "@id": "event:e4705791664899066147"
+        },
+        {
+            "@id": "event:e3199457007869076428"
+        },
+        {
+            "@id": "event:e4866829631762886757"
+        },
+        {
+            "@id": "event:e2510971354682327616"
+        },
+        {
+            "@id": "event:e1153461178786825984"
+        },
+        {
+            "@id": "event:e2905384900904251452"
+        },
+        {
+            "@id": "event:e5097553042242302604"
+        },
+        {
+            "@id": "event:e3416805140909916768"
+        },
+        {
+            "@id": "event:e1766020112014367510"
+        },
+        {
+            "@id": "event:e3570909668620062136"
+        },
+        {
+            "@id": "event:e1401856035625900314"
+        },
+        {
+            "@id": "event:e2648658005808708030"
+        },
+        {
+            "@id": "event:e2271277997191026972"
+        },
+        {
+            "@id": "event:e4792340449496406714"
+        },
+        {
+            "@id": "event:e6438800457379301509"
+        },
+        {
+            "@id": "event:e3070297658677998219"
+        },
+        {
+            "@id": "event:e8846548205512546676"
+        },
+        {
+            "@id": "event:e3399487737280026679"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e6388020774355993996"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2733841380601971734"
+        },
+        {
+            "@id": "event:e5364038427827828196"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Honka, Aarne (1889-1975)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Bremer, Aarne Uno Johannes"
+        },
+        {
+            "@language": "fi",
+            "@value": "Honka, Aarne Uno Johannes"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "910506",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

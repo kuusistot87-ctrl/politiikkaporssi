@@ -1,0 +1,244 @@
+{
+    "@id": "people:p1303",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Parviainen, Ulla Mari"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1303.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rehtori, kasvatustieteen maisteri"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o63"
+        },
+        {
+            "@id": "occupations:o875"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2045189323393279140"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2583761829148457861"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l9081846492912933999"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1303"
+    },
+    "semparl:sortingLabel": "parviainen ulla",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1303"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1303.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ulla_Parviainen"
+        },
+        {
+            "@id": "wd:Q20252561"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1627534510126784420"
+        },
+        {
+            "@id": "event:e1563229144770200836"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8500881782622434461"
+        },
+        {
+            "@id": "event:e2852764693440274021"
+        },
+        {
+            "@id": "event:e7852829313315514449"
+        },
+        {
+            "@id": "event:e1423012272915037669"
+        },
+        {
+            "@id": "event:e2116195612293356702"
+        },
+        {
+            "@id": "event:e3046080319012770767"
+        },
+        {
+            "@id": "event:e2469103730790159916"
+        },
+        {
+            "@id": "event:e2769009651095817592"
+        },
+        {
+            "@id": "event:e3218873069694626611"
+        },
+        {
+            "@id": "event:e8114152752481939102"
+        },
+        {
+            "@id": "event:e3851362453296483906"
+        },
+        {
+            "@id": "event:e3263098876199540789"
+        },
+        {
+            "@id": "event:e2368881288727766259"
+        },
+        {
+            "@id": "event:e2887945324801357504"
+        },
+        {
+            "@id": "event:e1723985475143050230"
+        },
+        {
+            "@id": "event:e6984015732861402219"
+        },
+        {
+            "@id": "event:e2395298947424673020"
+        },
+        {
+            "@id": "event:e6033515156032182125"
+        },
+        {
+            "@id": "event:e2104388746997982348"
+        },
+        {
+            "@id": "event:e1847483573716670796"
+        },
+        {
+            "@id": "event:e2213116157607863631"
+        },
+        {
+            "@id": "event:e1026918077252980892"
+        },
+        {
+            "@id": "event:e6084603841599426387"
+        },
+        {
+            "@id": "event:e3123335594182590888"
+        },
+        {
+            "@id": "event:e1137201114460449335"
+        },
+        {
+            "@id": "event:e6905932494403037924"
+        },
+        {
+            "@id": "event:e8914268129052305960"
+        },
+        {
+            "@id": "event:e3117091721118642378"
+        },
+        {
+            "@id": "event:e2784973971117543415"
+        },
+        {
+            "@id": "event:e1630841770365052763"
+        },
+        {
+            "@id": "event:e2167046750113235690"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Parviainen, Ulla (1962-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Parviainen, Ulla Mari"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "1303",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

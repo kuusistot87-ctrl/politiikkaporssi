@@ -1,0 +1,344 @@
+{
+    "@id": "people:p771",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2440855203929118390"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b8365493969543130935"
+        },
+        {
+            "@id": "publications:b3272319495107477256"
+        },
+        {
+            "@id": "publications:b3158971619914708355"
+        },
+        {
+            "@id": "publications:b2301896812120110477"
+        },
+        {
+            "@id": "publications:b2284804688840402024"
+        },
+        {
+            "@id": "publications:b2094446772252084723"
+        },
+        {
+            "@id": "publications:b2059456301361826297"
+        },
+        {
+            "@id": "publications:b2014875908671067401"
+        },
+        {
+            "@id": "publications:b1715984765905772562"
+        },
+        {
+            "@id": "publications:b1651243417881203418"
+        },
+        {
+            "@id": "publications:b1289315571538521378"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kasvi, Jyrki Jouko Juhani"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:771.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2003-03-19_2003-03-19_2011-04-19_2011-04-19"
+        },
+        {
+            "@id": "times:t_2015-04-22_2015-04-22_2019-04-16_2019-04-16"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "tekniikan tohtori, tutkimus- ja kehittämisjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o629"
+        },
+        {
+            "@id": "occupations:o267"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2922241047112890562"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d771"
+    },
+    "xl:altLabel": {
+        "@id": "label:l8970822197738075535"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6364147289279899882"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=771"
+    },
+    "semparl:sortingLabel": "kasvi jyrki",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b771"
+    },
+    "sch:image": [
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jyrki%20Kasvi.jpg"
+        },
+        {
+            "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Jyrki%20J.J.%20Kasvi%2C%20at%20the%20Hugo%20Award%20Ceremony%2C%20at%20Worldcon%2075%20in%20Helsinki%202017%20%28cropped%29.jpg"
+        }
+    ],
+    "sch:sameAs": [
+        {
+            "@id": "mps:771.aspx"
+        },
+        {
+            "@id": "yle:18-198693"
+        },
+        {
+            "@id": "viaf:173154381056030292078"
+        },
+        {
+            "@id": "twitter:jyrkikasvi"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Jyrki_Kasvi"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Jyrki_Kasvi"
+        },
+        {
+            "@id": "wd:Q5903411"
+        },
+        {
+            "@id": "finaf:000047048"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3105655432369286103"
+        },
+        {
+            "@id": "event:e1376991763611939291"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7764576303740683143"
+        },
+        {
+            "@id": "event:e3009544607729118853"
+        },
+        {
+            "@id": "event:e2969715250684806660"
+        },
+        {
+            "@id": "event:e2395843909889139518"
+        },
+        {
+            "@id": "event:e1040703324245001510"
+        },
+        {
+            "@id": "event:e1725096919429287601"
+        },
+        {
+            "@id": "event:e7613972294885687575"
+        },
+        {
+            "@id": "event:e1378179025578862698"
+        },
+        {
+            "@id": "event:e1027043748236158514"
+        },
+        {
+            "@id": "event:e7666000009645174583"
+        },
+        {
+            "@id": "event:e1425109112917917738"
+        },
+        {
+            "@id": "event:e2849728088939666518"
+        },
+        {
+            "@id": "event:e1245182718976720553"
+        },
+        {
+            "@id": "event:e1343339768635698352"
+        },
+        {
+            "@id": "event:e1340623312117883129"
+        },
+        {
+            "@id": "event:e2183383393604095899"
+        },
+        {
+            "@id": "event:e1329806599710563716"
+        },
+        {
+            "@id": "event:e2727860540146210109"
+        },
+        {
+            "@id": "event:e2420044790738855696"
+        },
+        {
+            "@id": "event:e3267210574946297769"
+        },
+        {
+            "@id": "event:e1632015098795328600"
+        },
+        {
+            "@id": "event:e2495775951336610031"
+        },
+        {
+            "@id": "event:e2074132058041240278"
+        },
+        {
+            "@id": "event:e6701078748697124184"
+        },
+        {
+            "@id": "event:e2291439947267434179"
+        },
+        {
+            "@id": "event:e2524429812602991474"
+        },
+        {
+            "@id": "event:e1805018061745952576"
+        },
+        {
+            "@id": "event:e4343121353125748875"
+        },
+        {
+            "@id": "event:e9856128728007103488"
+        },
+        {
+            "@id": "event:e1249100053607421387"
+        },
+        {
+            "@id": "event:e3311996956184063926"
+        },
+        {
+            "@id": "event:e4037070225861101892"
+        },
+        {
+            "@id": "event:e7607370107667661097"
+        },
+        {
+            "@id": "event:e7638313840779271266"
+        },
+        {
+            "@id": "event:e6298715527473167673"
+        },
+        {
+            "@id": "event:e3231092242716840901"
+        },
+        {
+            "@id": "event:e1878939783934523932"
+        },
+        {
+            "@id": "event:e1219334486373990152"
+        },
+        {
+            "@id": "event:e2207305127883795951"
+        },
+        {
+            "@id": "event:e1739538463684443911"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kasvi, Jyrki (1964-2021)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Kasvi, Jyrki Jouko Juhani"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "771",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

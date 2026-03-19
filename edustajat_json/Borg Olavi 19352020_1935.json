@@ -1,0 +1,385 @@
+{
+    "@id": "people:p910012",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b9339835251778047709"
+        },
+        {
+            "@id": "publications:b7385432940629927971"
+        },
+        {
+            "@id": "publications:b6422408002920550767"
+        },
+        {
+            "@id": "publications:b6385636389390789468"
+        },
+        {
+            "@id": "publications:b3523313671961024696"
+        },
+        {
+            "@id": "publications:b3292163082517087034"
+        },
+        {
+            "@id": "publications:b3212416634552318335"
+        },
+        {
+            "@id": "publications:b3116801156112396401"
+        },
+        {
+            "@id": "publications:b2941206370175752398"
+        },
+        {
+            "@id": "publications:b2892075247505960324"
+        },
+        {
+            "@id": "publications:b2715861339969298986"
+        },
+        {
+            "@id": "publications:b2603858635223132721"
+        },
+        {
+            "@id": "publications:b2577329187242806640"
+        },
+        {
+            "@id": "publications:b2529325149536463038"
+        },
+        {
+            "@id": "publications:b2266942762754453807"
+        },
+        {
+            "@id": "publications:b2231049039844115339"
+        },
+        {
+            "@id": "publications:b2197423275926565767"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Borg, Olavi Allan"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910012.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1972-01-22_1972-01-22_1975-09-26_1975-09-26"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "professori emeritus"
+    },
+    "semparl:end_of_representative_period_text": "26.09.1975",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1975-09-26_1975-09-26"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o302"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2864414226187727797"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910012"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2702296896969867701"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1650350683328860084"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910012"
+    },
+    "semparl:sortingLabel": "borg olavi",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910012"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Olavi-Borg-1965.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910012.aspx"
+        },
+        {
+            "@id": "viaf:262875303"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Olavi_Borg"
+        },
+        {
+            "@id": "wd:Q11885263"
+        },
+        {
+            "@id": "finaf:000041252"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2077927767871007174"
+        },
+        {
+            "@id": "event:e1994086432172041142"
+        },
+        {
+            "@id": "event:e3074582685604335493"
+        },
+        {
+            "@id": "event:e9073871181117361381"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2104910548615860537"
+        },
+        {
+            "@id": "event:e1734204472857576310"
+        },
+        {
+            "@id": "event:e9613366901138136765"
+        },
+        {
+            "@id": "event:e2264839018264581589"
+        },
+        {
+            "@id": "event:e1905989929133689976"
+        },
+        {
+            "@id": "event:e1755578952419026373"
+        },
+        {
+            "@id": "event:e1805808647237063762"
+        },
+        {
+            "@id": "event:e8041231865624697154"
+        },
+        {
+            "@id": "event:e1613414353738447338"
+        },
+        {
+            "@id": "event:e5975837239066120873"
+        },
+        {
+            "@id": "event:e1408091839502914724"
+        },
+        {
+            "@id": "event:e1637398009239528839"
+        },
+        {
+            "@id": "event:e2741924985333223637"
+        },
+        {
+            "@id": "event:e1554066290259363755"
+        },
+        {
+            "@id": "event:e1711993371889110893"
+        },
+        {
+            "@id": "event:e2128252540030857351"
+        },
+        {
+            "@id": "event:e2568228638009991827"
+        },
+        {
+            "@id": "event:e1384679496162082654"
+        },
+        {
+            "@id": "event:e2398020386809039530"
+        },
+        {
+            "@id": "event:e5979026361035048345"
+        },
+        {
+            "@id": "event:e1230701935473737946"
+        },
+        {
+            "@id": "event:e3116534836088265167"
+        },
+        {
+            "@id": "event:e2397295083816267745"
+        },
+        {
+            "@id": "event:e1852341419252697981"
+        },
+        {
+            "@id": "event:e2133283614380973880"
+        },
+        {
+            "@id": "event:e1966197582484182458"
+        },
+        {
+            "@id": "event:e2083445764021613027"
+        },
+        {
+            "@id": "event:e4409167385857087016"
+        },
+        {
+            "@id": "event:e1222881508234401963"
+        },
+        {
+            "@id": "event:e1022762890867081622"
+        },
+        {
+            "@id": "event:e4528316669555445744"
+        },
+        {
+            "@id": "event:e7934542213472641288"
+        },
+        {
+            "@id": "event:e2935431133357532297"
+        },
+        {
+            "@id": "event:e1301921988011643145"
+        },
+        {
+            "@id": "event:e8036402830635816140"
+        },
+        {
+            "@id": "event:e2608509403954164633"
+        },
+        {
+            "@id": "event:e1625299331520523450"
+        },
+        {
+            "@id": "event:e6943796146625213284"
+        },
+        {
+            "@id": "event:e2462903917364460297"
+        },
+        {
+            "@id": "event:e3300011026332002312"
+        },
+        {
+            "@id": "event:e1170988191838111977"
+        },
+        {
+            "@id": "event:e1595923812673434090"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e8341181015821896801"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1844454249809780961"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e2563080512482188491"
+        },
+        {
+            "@id": "event:e2783855918264153473"
+        },
+        {
+            "@id": "event:e2384724387940460478"
+        },
+        {
+            "@id": "event:e9625141585821034474"
+        },
+        {
+            "@id": "event:e2171772883160646090"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Borg, Olavi (1935-2020)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Borg, Olavi Allan"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q613849"
+        },
+        {
+            "@id": "groups:Q914375"
+        }
+    ],
+    "semparl:id": "910012",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

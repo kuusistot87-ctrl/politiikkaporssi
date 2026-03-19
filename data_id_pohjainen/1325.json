@@ -1,0 +1,269 @@
+{
+    "@id": "people:p1325",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Tampere"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9001816092934302215"
+        },
+        {
+            "@id": "affiliations:a4546821145480522919"
+        },
+        {
+            "@id": "affiliations:a2791244876312110555"
+        },
+        {
+            "@id": "affiliations:a2608028641575845027"
+        },
+        {
+            "@id": "affiliations:a1927149256108246563"
+        },
+        {
+            "@id": "affiliations:a1513773531783156434"
+        },
+        {
+            "@id": "affiliations:a1475125042840822247"
+        },
+        {
+            "@id": "affiliations:a1344874432878115856"
+        },
+        {
+            "@id": "affiliations:a1068391860844181999"
+        },
+        {
+            "@id": "affiliations:a1359876446823066990"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1325.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2015-04-22_2015-04-22__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "erikoislääkäri"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o523"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2397838094272498515"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1868114079502372063"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1325"
+    },
+    "semparl:sortingLabel": "tanus sari marja hannele",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1325"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/634963/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hallitusneuvottelut%205.6.2023%20%2852952006871%29%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1325.aspx"
+        },
+        {
+            "@id": "yle:18-249082"
+        },
+        {
+            "@id": "twitter:saritanus"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Sari_Tanus"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Sari_Tanus"
+        },
+        {
+            "@id": "wd:Q20254165"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3237743444538991289"
+        },
+        {
+            "@id": "event:e5191055725236398450"
+        },
+        {
+            "@id": "event:e8032357824284329408"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3375878389994243414"
+        },
+        {
+            "@id": "event:e2910349755935882780"
+        },
+        {
+            "@id": "event:e2675071233941473457"
+        },
+        {
+            "@id": "event:e1752099576564854454"
+        },
+        {
+            "@id": "event:e1110578324942717306"
+        },
+        {
+            "@id": "event:e2063748808366420042"
+        },
+        {
+            "@id": "event:e3293850177248618504"
+        },
+        {
+            "@id": "event:e7625168777652843302"
+        },
+        {
+            "@id": "event:e2438013558499554242"
+        },
+        {
+            "@id": "event:e2992974118114035600"
+        },
+        {
+            "@id": "event:e3179604619718881234"
+        },
+        {
+            "@id": "event:e1986297337945731722"
+        },
+        {
+            "@id": "event:e1866708193556304915"
+        },
+        {
+            "@id": "event:e8415047601392611000"
+        },
+        {
+            "@id": "event:e1315124306563133324"
+        },
+        {
+            "@id": "event:e2015751064211127378"
+        },
+        {
+            "@id": "event:e2566414399999550090"
+        },
+        {
+            "@id": "event:e2526972284209373834"
+        },
+        {
+            "@id": "event:e2431015148519021427"
+        },
+        {
+            "@id": "event:e1678222783758026715"
+        },
+        {
+            "@id": "event:e1210890102328382709"
+        },
+        {
+            "@id": "event:e3287724533368371209"
+        },
+        {
+            "@id": "event:e6654852982945477355"
+        },
+        {
+            "@id": "event:e2399259804914791838"
+        },
+        {
+            "@id": "event:e7112376134956277877"
+        },
+        {
+            "@id": "event:e9095356192538507871"
+        },
+        {
+            "@id": "event:e1323185946553931530"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tanus, Sari (1964-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1138982"
+    },
+    "semparl:id": "1325",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

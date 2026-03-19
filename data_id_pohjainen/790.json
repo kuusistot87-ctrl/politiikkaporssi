@@ -1,0 +1,287 @@
+{
+    "@id": "people:p790",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tiilikainen, Kimmo Kalevi"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:790.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2003-03-19_2003-03-19_2019-04-16_2019-04-16"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "metsänhoitaja, luomuyrittäjä"
+    },
+    "semparl:end_of_representative_period_text": "16.04.2019",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2019-04-16_2019-04-16"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o644"
+        },
+        {
+            "@id": "occupations:o27"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1865781941434748657"
+    },
+    "xl:altLabel": {
+        "@id": "label:l6592636728978885685"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l9561787217807228146"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=790"
+    },
+    "semparl:sortingLabel": "tiilikainen kimmo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b790"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kimmo%20Tiilikainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:790.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kimmo_Tiilikainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Kimmo_Tiilikainen"
+        },
+        {
+            "@id": "wd:Q964549"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1383838255947406930"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6696549899984326128"
+        },
+        {
+            "@id": "event:e3361625039803783155"
+        },
+        {
+            "@id": "event:e3167186125312310491"
+        },
+        {
+            "@id": "event:e3093150826670488967"
+        },
+        {
+            "@id": "event:e1224938266047779235"
+        },
+        {
+            "@id": "event:e1144069860891634965"
+        },
+        {
+            "@id": "event:e3099461624886315898"
+        },
+        {
+            "@id": "event:e3080889734834120965"
+        },
+        {
+            "@id": "event:e3055974418313832065"
+        },
+        {
+            "@id": "event:e3265268547581368139"
+        },
+        {
+            "@id": "event:e1637114880320216362"
+        },
+        {
+            "@id": "event:e3282288752232962049"
+        },
+        {
+            "@id": "event:e5704543598053439359"
+        },
+        {
+            "@id": "event:e2321102895632835177"
+        },
+        {
+            "@id": "event:e3308252267889137608"
+        },
+        {
+            "@id": "event:e1537171996238605909"
+        },
+        {
+            "@id": "event:e2622404631085275180"
+        },
+        {
+            "@id": "event:e2187490743347361389"
+        },
+        {
+            "@id": "event:e2729560736626529070"
+        },
+        {
+            "@id": "event:e3188716879737272562"
+        },
+        {
+            "@id": "event:e2981076241081351649"
+        },
+        {
+            "@id": "event:e4968375126110877643"
+        },
+        {
+            "@id": "event:e1990365417563574176"
+        },
+        {
+            "@id": "event:e2204162667103727114"
+        },
+        {
+            "@id": "event:e3282208818381801883"
+        },
+        {
+            "@id": "event:e1418398873733194758"
+        },
+        {
+            "@id": "event:e3155662062833315073"
+        },
+        {
+            "@id": "event:e1909986534007140157"
+        },
+        {
+            "@id": "event:e3128128887687209766"
+        },
+        {
+            "@id": "event:e2606066537487543114"
+        },
+        {
+            "@id": "event:e1202863738068663218"
+        },
+        {
+            "@id": "event:e4020283576464697672"
+        },
+        {
+            "@id": "event:e2734988319747783522"
+        },
+        {
+            "@id": "event:e2925590271264425634"
+        },
+        {
+            "@id": "event:e1542357139724830125"
+        },
+        {
+            "@id": "event:e8914945831202488815"
+        },
+        {
+            "@id": "event:e8559640181078328229"
+        },
+        {
+            "@id": "event:e1587224644255493625"
+        },
+        {
+            "@id": "event:e7504685775971028951"
+        },
+        {
+            "@id": "event:e3397162787617143678"
+        },
+        {
+            "@id": "event:e3041239924408224196"
+        },
+        {
+            "@id": "event:e1621213507829064676"
+        },
+        {
+            "@id": "event:e1160859660738128394"
+        },
+        {
+            "@id": "event:e2240150954401690410"
+        },
+        {
+            "@id": "event:e2106252235057673883"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tiilikainen, Kimmo (1966-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tiilikainen, Kimmo Kalevi"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "790",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

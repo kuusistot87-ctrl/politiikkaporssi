@@ -1,0 +1,334 @@
+{
+    "@id": "people:p910624",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Jussila, Mauno Nikolai"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910624.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1951-07-21_1951-07-21_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agrologi, maanviljelijä, kunnallisneuvos"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o137"
+        },
+        {
+            "@id": "occupations:o217"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1834573703567148996"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910624"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1558927006296915124"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2691811220167698021"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910624"
+    },
+    "semparl:sortingLabel": "jussila mauno",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910624"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Mauno-Jussila-1950s.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910624.aspx"
+        },
+        {
+            "@id": "natbib:866"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mauno_Jussila"
+        },
+        {
+            "@id": "wd:Q11881774"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2115"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3936"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3072433876141699679"
+        },
+        {
+            "@id": "event:e1591704819228536614"
+        },
+        {
+            "@id": "event:e3045036212637843797"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e6650411973757452858"
+        },
+        {
+            "@id": "event:e6590219488619628067"
+        },
+        {
+            "@id": "event:e3565289542400155378"
+        },
+        {
+            "@id": "event:e3439243371274264713"
+        },
+        {
+            "@id": "event:e2771627094342260796"
+        },
+        {
+            "@id": "event:e1314161321931075925"
+        },
+        {
+            "@id": "event:e1217479282356363220"
+        },
+        {
+            "@id": "event:e1424838918566555464"
+        },
+        {
+            "@id": "event:e3275834213566680786"
+        },
+        {
+            "@id": "event:e2486395708013471000"
+        },
+        {
+            "@id": "event:e6427473250727550526"
+        },
+        {
+            "@id": "event:e1349047459213750682"
+        },
+        {
+            "@id": "event:e1518901299252986302"
+        },
+        {
+            "@id": "event:e7370394504864067921"
+        },
+        {
+            "@id": "event:e2288672694490083109"
+        },
+        {
+            "@id": "event:e2081998023330610613"
+        },
+        {
+            "@id": "event:e3260750847601117161"
+        },
+        {
+            "@id": "event:e2761855507379140150"
+        },
+        {
+            "@id": "event:e1430147884272031610"
+        },
+        {
+            "@id": "event:e1554429232573433144"
+        },
+        {
+            "@id": "event:e9065141590402761798"
+        },
+        {
+            "@id": "event:e7426234399932037606"
+        },
+        {
+            "@id": "event:e2053184088786961309"
+        },
+        {
+            "@id": "event:e3086858145908683784"
+        },
+        {
+            "@id": "event:e2900865587465488596"
+        },
+        {
+            "@id": "event:e1233086578957912929"
+        },
+        {
+            "@id": "event:e5818064183580176578"
+        },
+        {
+            "@id": "event:e1376876928158967306"
+        },
+        {
+            "@id": "event:e1694840355239954096"
+        },
+        {
+            "@id": "event:e2617969695297543519"
+        },
+        {
+            "@id": "event:e1415061414667399005"
+        },
+        {
+            "@id": "event:e3049926409136374536"
+        },
+        {
+            "@id": "event:e1986540453269268867"
+        },
+        {
+            "@id": "event:e1024851309883417097"
+        },
+        {
+            "@id": "event:e1809879630994055668"
+        },
+        {
+            "@id": "event:e9205455200972017726"
+        },
+        {
+            "@id": "event:e1884732722310069540"
+        },
+        {
+            "@id": "event:e2727215933138239488"
+        },
+        {
+            "@id": "event:e1874510029641802131"
+        },
+        {
+            "@id": "event:e2805371258372614237"
+        },
+        {
+            "@id": "event:e1422887243572312013"
+        },
+        {
+            "@id": "event:e2869424401532173317"
+        },
+        {
+            "@id": "event:e8542301069165534684"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e2455386276424059843"
+        },
+        {
+            "@id": "event:e1781715598572814335"
+        },
+        {
+            "@id": "event:e2488722643283282055"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e5424574177815314566"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e1579153060799349891"
+        },
+        {
+            "@id": "event:e1700875958246746538"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e2452744442902091447"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Jussila, Mauno (1908-1988)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Jussila, Mauno Nikolai"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "910624",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

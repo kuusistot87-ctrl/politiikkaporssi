@@ -1,0 +1,322 @@
+{
+    "@id": "people:p376",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "ylikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e3258098168663831268"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b7671342335110696830"
+        },
+        {
+            "@id": "publications:b4306860442095605564"
+        },
+        {
+            "@id": "publications:b2700016181167192560"
+        },
+        {
+            "@id": "publications:b2388322668679353450"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Laukkanen, Markku Matti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:376.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1991-03-22_1991-03-22_1995-03-23_1995-03-23"
+        },
+        {
+            "@id": "times:t_1999-03-24_1999-03-24_2011-04-19_2011-04-19"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "yhteiskuntatieteiden maisteri, radio- ja tv-toimittaja"
+    },
+    "semparl:end_of_representative_period_text": "19.04.2011",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2011-04-19_2011-04-19"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1161"
+        },
+        {
+            "@id": "occupations:o62"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2178103565157334932"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1697147631349634043"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3329988814347004698"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=376"
+    },
+    "semparl:sortingLabel": "laukkanen markku",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b376"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Markku%20Laukkanen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:376.aspx"
+        },
+        {
+            "@id": "viaf:273293726"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Markku_Laukkanen"
+        },
+        {
+            "@id": "wd:Q11881070"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1470660952911114104"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7579328006932693923"
+        },
+        {
+            "@id": "event:e4204755799917423278"
+        },
+        {
+            "@id": "event:e3399393118027775552"
+        },
+        {
+            "@id": "event:e1693037041385096177"
+        },
+        {
+            "@id": "event:e6169727484533921923"
+        },
+        {
+            "@id": "event:e1912328494197117691"
+        },
+        {
+            "@id": "event:e7237154717203011915"
+        },
+        {
+            "@id": "event:e1749472301708916126"
+        },
+        {
+            "@id": "event:e2311041291874632257"
+        },
+        {
+            "@id": "event:e2004287201316799632"
+        },
+        {
+            "@id": "event:e2437403746502259151"
+        },
+        {
+            "@id": "event:e2710885548112112645"
+        },
+        {
+            "@id": "event:e2493881519956168713"
+        },
+        {
+            "@id": "event:e1636414306673611534"
+        },
+        {
+            "@id": "event:e2406272599507491349"
+        },
+        {
+            "@id": "event:e3191588920946184636"
+        },
+        {
+            "@id": "event:e3080979292111902169"
+        },
+        {
+            "@id": "event:e3209547651363073743"
+        },
+        {
+            "@id": "event:e1972076880064512052"
+        },
+        {
+            "@id": "event:e2136406415634797302"
+        },
+        {
+            "@id": "event:e1994700711650297231"
+        },
+        {
+            "@id": "event:e1200349882288190913"
+        },
+        {
+            "@id": "event:e2305849807475922472"
+        },
+        {
+            "@id": "event:e1356970835276901646"
+        },
+        {
+            "@id": "event:e1424317105263335994"
+        },
+        {
+            "@id": "event:e3226897351236646893"
+        },
+        {
+            "@id": "event:e1606601158955765181"
+        },
+        {
+            "@id": "event:e3002902567391261765"
+        },
+        {
+            "@id": "event:e2298912519267440100"
+        },
+        {
+            "@id": "event:e3358798283185543080"
+        },
+        {
+            "@id": "event:e9898810383763849254"
+        },
+        {
+            "@id": "event:e1400204351036489730"
+        },
+        {
+            "@id": "event:e2692802498442213974"
+        },
+        {
+            "@id": "event:e8898618287926511738"
+        },
+        {
+            "@id": "event:e2922186655214189220"
+        },
+        {
+            "@id": "event:e1588246123598179725"
+        },
+        {
+            "@id": "event:e2308441139047472335"
+        },
+        {
+            "@id": "event:e8341233560796131610"
+        },
+        {
+            "@id": "event:e2746437637445098439"
+        },
+        {
+            "@id": "event:e1961044898935786432"
+        },
+        {
+            "@id": "event:e3087222245904181562"
+        },
+        {
+            "@id": "event:e3058344592030406083"
+        },
+        {
+            "@id": "event:e1675031137673937805"
+        },
+        {
+            "@id": "event:e2715288255200581966"
+        },
+        {
+            "@id": "event:e2993214072339908580"
+        },
+        {
+            "@id": "event:e3240098830239856131"
+        },
+        {
+            "@id": "event:e1818092478475168057"
+        },
+        {
+            "@id": "event:e5407630813960187579"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Laukkanen, Markku (1950-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Laukkanen, Markku Matti"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "376",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,310 @@
+{
+    "@id": "people:p297",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p1727298884285471268"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Urpilainen, Kari Johannes"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:297.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1983-02-11_1983-02-11_1995-03-23_1995-03-23"
+        },
+        {
+            "@id": "times:t_1999-03-24_1999-03-24_2003-03-18_2003-03-18"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "sosionomi"
+    },
+    "semparl:end_of_representative_period_text": "18.03.2003",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2003-03-18_2003-03-18"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o102"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2925537441568944344"
+    },
+    "xl:altLabel": {
+        "@id": "label:l9387654871841627753"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1188219291077707002"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=297"
+    },
+    "semparl:sortingLabel": "urpilainen kari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b297"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:297.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kari_Urpilainen"
+        },
+        {
+            "@id": "wd:Q16991079"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2934257537326735423"
+        },
+        {
+            "@id": "event:e1498541090748967236"
+        },
+        {
+            "@id": "event:e2615273798392368247"
+        },
+        {
+            "@id": "event:e3270355732319286644"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1900066518464459818"
+        },
+        {
+            "@id": "event:e1893179187426534335"
+        },
+        {
+            "@id": "event:e1734672257758588995"
+        },
+        {
+            "@id": "event:e1173285162210033238"
+        },
+        {
+            "@id": "event:e2490139176605544446"
+        },
+        {
+            "@id": "event:e1828036337260779702"
+        },
+        {
+            "@id": "event:e6430192953990067160"
+        },
+        {
+            "@id": "event:e6939917409219322060"
+        },
+        {
+            "@id": "event:e4754490687783807125"
+        },
+        {
+            "@id": "event:e8819668400270709021"
+        },
+        {
+            "@id": "event:e1944259563894916806"
+        },
+        {
+            "@id": "event:e2104646384814206208"
+        },
+        {
+            "@id": "event:e1331133062546893485"
+        },
+        {
+            "@id": "event:e8544426226205940329"
+        },
+        {
+            "@id": "event:e7087539157149608879"
+        },
+        {
+            "@id": "event:e1856488662517536020"
+        },
+        {
+            "@id": "event:e3158587302870869776"
+        },
+        {
+            "@id": "event:e2757554160089578334"
+        },
+        {
+            "@id": "event:e1724413552596071168"
+        },
+        {
+            "@id": "event:e3346240509023268231"
+        },
+        {
+            "@id": "event:e6392306667736312604"
+        },
+        {
+            "@id": "event:e2974247055858222788"
+        },
+        {
+            "@id": "event:e3755838192353677323"
+        },
+        {
+            "@id": "event:e3152428885664856123"
+        },
+        {
+            "@id": "event:e1326123502540653803"
+        },
+        {
+            "@id": "event:e2140562999370229690"
+        },
+        {
+            "@id": "event:e1398718525972797300"
+        },
+        {
+            "@id": "event:e1209125656044537151"
+        },
+        {
+            "@id": "event:e1250842386902963430"
+        },
+        {
+            "@id": "event:e1102095714972737527"
+        },
+        {
+            "@id": "event:e1161769513790492101"
+        },
+        {
+            "@id": "event:e1742681955711245586"
+        },
+        {
+            "@id": "event:e3260863379029543369"
+        },
+        {
+            "@id": "event:e1741585189415271567"
+        },
+        {
+            "@id": "event:e1563886312032292610"
+        },
+        {
+            "@id": "event:e2450266017776301294"
+        },
+        {
+            "@id": "event:e7548567279406017651"
+        },
+        {
+            "@id": "event:e1901594097701828893"
+        },
+        {
+            "@id": "event:e6947931523447750187"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e6154486009602298957"
+        },
+        {
+            "@id": "event:e3365640956961893270"
+        },
+        {
+            "@id": "event:e3118671904909707276"
+        },
+        {
+            "@id": "event:e1481442679224747839"
+        },
+        {
+            "@id": "event:e7002312466090360137"
+        },
+        {
+            "@id": "event:e1213211873270167480"
+        },
+        {
+            "@id": "event:e3352200943974427090"
+        },
+        {
+            "@id": "event:e6558824863883338380"
+        },
+        {
+            "@id": "event:e9010699227672871449"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Urpilainen, Kari (1951-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Urpilainen, Kari Johannes"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "297",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "@id": "people:p910836",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Kurkilahti(e. Lehtonen, e. Tenhunen), Martta Matilda"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910836.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1927-09-02_1927-09-02_1927-11-15_1927-11-15"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "konttoristi"
+    },
+    "semparl:end_of_representative_period_text": "15.11.1927",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1927-11-15_1927-11-15"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o1219"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1485360015548636680"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910836"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l8486397212198884141"
+        },
+        {
+            "@id": "label:l3121920200764915779"
+        },
+        {
+            "@id": "label:l2075892729758308754"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l1104052838420118406"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910836"
+    },
+    "semparl:sortingLabel": "kurkilahti martta",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910836"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910836.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Martta_Kurkilahti"
+        },
+        {
+            "@id": "wd:Q11881274"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3013768163782239480"
+        },
+        {
+            "@id": "event:e4326126554147769374"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kurkilahti, Martta (1900-1976)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Tenhunen, Martta Matilda"
+        },
+        {
+            "@language": "fi",
+            "@value": "Lehtonen, Martta Matilda"
+        },
+        {
+            "@language": "fi",
+            "@value": "Kurkilahti, Martta Matilda"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1336715"
+    },
+    "semparl:id": "910836",
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e1294700987953986140"
+        },
+        {
+            "@id": "event:e1354215737681416228"
+        },
+        {
+            "@id": "event:e3305250233359561268"
+        },
+        {
+            "@id": "event:e9614702963000903639"
+        },
+        {
+            "@id": "event:e1866253684865385034"
+        },
+        {
+            "@id": "event:e1407921528594734964"
+        },
+        {
+            "@id": "event:e2914646296757811080"
+        },
+        {
+            "@id": "event:e3202754857152332455"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

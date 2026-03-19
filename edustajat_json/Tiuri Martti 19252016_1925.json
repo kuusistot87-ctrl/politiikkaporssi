@@ -1,0 +1,421 @@
+{
+    "@id": "people:p279",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "alikersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2378301477483489115"
+    },
+    "semparl:authored": [
+        {
+            "@id": "publications:b4949321995908333165"
+        },
+        {
+            "@id": "publications:b3048836930220546963"
+        },
+        {
+            "@id": "publications:b2671917266245694251"
+        },
+        {
+            "@id": "publications:b2549537642850382728"
+        },
+        {
+            "@id": "publications:b2240586513695538419"
+        },
+        {
+            "@id": "publications:b1517322387222478560"
+        },
+        {
+            "@id": "publications:b1483179932192421828"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tiuri, Martti Eelis"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:279.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1983-03-26_1983-03-26_2003-03-18_2003-03-18"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "tekniikan tohtori, professori"
+    },
+    "semparl:end_of_representative_period_text": "18.03.2003",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2003-03-18_2003-03-18"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o267"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2125648899642776283"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d279"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1248840883947584794"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2998421570729664370"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=279"
+    },
+    "semparl:sortingLabel": "tiuri martti",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b279"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:279.aspx"
+        },
+        {
+            "@id": "viaf:111109314"
+        },
+        {
+            "@id": "natbib:6626"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Martti_Tiuri"
+        },
+        {
+            "@id": "wd:Q16990896"
+        },
+        {
+            "@id": "finaf:000061016"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3633546285231443700"
+        },
+        {
+            "@id": "event:e3315660214777762253"
+        },
+        {
+            "@id": "event:e2856520067672736669"
+        },
+        {
+            "@id": "event:e2934393869344317735"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3383779842167625337"
+        },
+        {
+            "@id": "event:e2319677573630534802"
+        },
+        {
+            "@id": "event:e3395718111778265601"
+        },
+        {
+            "@id": "event:e2097027079645640175"
+        },
+        {
+            "@id": "event:e2235773114927296534"
+        },
+        {
+            "@id": "event:e2314906314480150787"
+        },
+        {
+            "@id": "event:e1034446185888630421"
+        },
+        {
+            "@id": "event:e3072426584746157203"
+        },
+        {
+            "@id": "event:e3342004591164906635"
+        },
+        {
+            "@id": "event:e3126865487898536550"
+        },
+        {
+            "@id": "event:e2136907963283850385"
+        },
+        {
+            "@id": "event:e2471083482476163076"
+        },
+        {
+            "@id": "event:e1174445099191400189"
+        },
+        {
+            "@id": "event:e2670254641496111991"
+        },
+        {
+            "@id": "event:e2021675679186434913"
+        },
+        {
+            "@id": "event:e1330937127471134858"
+        },
+        {
+            "@id": "event:e1969998641468180485"
+        },
+        {
+            "@id": "event:e2764352127190144753"
+        },
+        {
+            "@id": "event:e2608950858257611008"
+        },
+        {
+            "@id": "event:e7160778201127204914"
+        },
+        {
+            "@id": "event:e1726231451462899685"
+        },
+        {
+            "@id": "event:e1465003590768284087"
+        },
+        {
+            "@id": "event:e1942008264725315990"
+        },
+        {
+            "@id": "event:e2695416240442691949"
+        },
+        {
+            "@id": "event:e2801772651138491078"
+        },
+        {
+            "@id": "event:e3660927964335945977"
+        },
+        {
+            "@id": "event:e6503211143180709768"
+        },
+        {
+            "@id": "event:e2236996648638927407"
+        },
+        {
+            "@id": "event:e2907119115748041003"
+        },
+        {
+            "@id": "event:e4971676761501609026"
+        },
+        {
+            "@id": "event:e1992743409033312307"
+        },
+        {
+            "@id": "event:e3374913145926717906"
+        },
+        {
+            "@id": "event:e9522143045215643760"
+        },
+        {
+            "@id": "event:e1748091489068757010"
+        },
+        {
+            "@id": "event:e2209089773708303707"
+        },
+        {
+            "@id": "event:e4372070689361235239"
+        },
+        {
+            "@id": "event:e7923360435351530916"
+        },
+        {
+            "@id": "event:e2951109569125067750"
+        },
+        {
+            "@id": "event:e1588428995078633363"
+        },
+        {
+            "@id": "event:e2196198754485111907"
+        },
+        {
+            "@id": "event:e2125801696888909923"
+        },
+        {
+            "@id": "event:e7493470513562531470"
+        },
+        {
+            "@id": "event:e2342624146036264997"
+        },
+        {
+            "@id": "event:e2162218564544173352"
+        },
+        {
+            "@id": "event:e1255297702441137885"
+        },
+        {
+            "@id": "event:e2345064102373164007"
+        },
+        {
+            "@id": "event:e3032834860010180778"
+        },
+        {
+            "@id": "event:e1089234661805232575"
+        },
+        {
+            "@id": "event:e3196062925774613143"
+        },
+        {
+            "@id": "event:e1514021665288421655"
+        },
+        {
+            "@id": "event:e5211446551737553295"
+        },
+        {
+            "@id": "event:e2282582747841607457"
+        },
+        {
+            "@id": "event:e3096456219796721970"
+        },
+        {
+            "@id": "event:e1758668585645863063"
+        },
+        {
+            "@id": "event:e2844395727778577934"
+        },
+        {
+            "@id": "event:e2252594769025910402"
+        },
+        {
+            "@id": "event:e2566303731583270666"
+        },
+        {
+            "@id": "event:e2776915149356093014"
+        },
+        {
+            "@id": "event:e1428706370206665341"
+        },
+        {
+            "@id": "event:e2737077968718936077"
+        },
+        {
+            "@id": "event:e4961938492057959337"
+        },
+        {
+            "@id": "event:e1075525352203962725"
+        },
+        {
+            "@id": "event:e2738287858439150976"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e2372707849243977196"
+        },
+        {
+            "@id": "event:e8458381205517958733"
+        },
+        {
+            "@id": "event:e2634067876225979982"
+        },
+        {
+            "@id": "event:e7729353767497310909"
+        },
+        {
+            "@id": "event:e1639329393435400142"
+        },
+        {
+            "@id": "event:e1939920521816256777"
+        },
+        {
+            "@id": "event:e1583793839450079927"
+        },
+        {
+            "@id": "event:e2725120487170927111"
+        },
+        {
+            "@id": "event:e1985414557061756523"
+        },
+        {
+            "@id": "event:e9514486512780736280"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tiuri, Martti (1925-2016)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tiuri, Martti Eelis"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "279",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

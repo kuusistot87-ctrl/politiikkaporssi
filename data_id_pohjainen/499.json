@@ -1,0 +1,332 @@
+{
+    "@id": "people:p499",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Riihimäki"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a5342115556034689111"
+        },
+        {
+            "@id": "affiliations:a4975917790496357931"
+        },
+        {
+            "@id": "affiliations:a3343086060483467732"
+        },
+        {
+            "@id": "affiliations:a2997679747461104523"
+        },
+        {
+            "@id": "affiliations:a2979124489884603109"
+        },
+        {
+            "@id": "affiliations:a2244330712161584981"
+        },
+        {
+            "@id": "affiliations:a2186959931571880920"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:499.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1995-03-24_1995-03-24__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lääkäri, lääketieteen lisensiaatti"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o197"
+        },
+        {
+            "@id": "occupations:o54"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2090444382449072586"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2360860504108635420"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=499"
+    },
+    "semparl:sortingLabel": "räsänen päivi maria",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b499"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/639406/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hallitusneuvottelut%208.5.2023%20%2852880370095%29%20%28cropped%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:499.aspx"
+        },
+        {
+            "@id": "yle:18-199281"
+        },
+        {
+            "@id": "viaf:56145443"
+        },
+        {
+            "@id": "twitter:paivirasanen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/P%C3%A4ivi_R%C3%A4s%C3%A4nen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:P%C3%A4ivi_R%C3%A4s%C3%A4nen"
+        },
+        {
+            "@id": "wd:Q438819"
+        },
+        {
+            "@id": "finaf:000071688"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e1256727902420316546"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9280636172572480217"
+        },
+        {
+            "@id": "event:e7702290560431058107"
+        },
+        {
+            "@id": "event:e6080815017742302183"
+        },
+        {
+            "@id": "event:e2696422223126705379"
+        },
+        {
+            "@id": "event:e2398631131631130376"
+        },
+        {
+            "@id": "event:e1935155671164579376"
+        },
+        {
+            "@id": "event:e1856217740986795382"
+        },
+        {
+            "@id": "event:e1803716621763833155"
+        },
+        {
+            "@id": "event:e1683267787024984683"
+        },
+        {
+            "@id": "event:e1661217731851576954"
+        },
+        {
+            "@id": "event:e1464688142211069162"
+        },
+        {
+            "@id": "event:e1094323530812401388"
+        },
+        {
+            "@id": "event:e1158287196702091471"
+        },
+        {
+            "@id": "event:e1178569004105272020"
+        },
+        {
+            "@id": "event:e2583296744446450415"
+        },
+        {
+            "@id": "event:e1178459391669141896"
+        },
+        {
+            "@id": "event:e1416322679997674144"
+        },
+        {
+            "@id": "event:e1938616104189114554"
+        },
+        {
+            "@id": "event:e2545242060071758464"
+        },
+        {
+            "@id": "event:e3354782689981333068"
+        },
+        {
+            "@id": "event:e3169417222333501693"
+        },
+        {
+            "@id": "event:e1170276431441383370"
+        },
+        {
+            "@id": "event:e1909348466754472580"
+        },
+        {
+            "@id": "event:e7855387527721532198"
+        },
+        {
+            "@id": "event:e1719921602680085997"
+        },
+        {
+            "@id": "event:e1188189086279822131"
+        },
+        {
+            "@id": "event:e2609243675157500597"
+        },
+        {
+            "@id": "event:e1091267009181340065"
+        },
+        {
+            "@id": "event:e3383091964164933414"
+        },
+        {
+            "@id": "event:e1809983172237040226"
+        },
+        {
+            "@id": "event:e3368046164424178691"
+        },
+        {
+            "@id": "event:e3326349723957815124"
+        },
+        {
+            "@id": "event:e1745368633056159582"
+        },
+        {
+            "@id": "event:e2261796430453653842"
+        },
+        {
+            "@id": "event:e2047561839439070852"
+        },
+        {
+            "@id": "event:e2049773801832978331"
+        },
+        {
+            "@id": "event:e6894856817276645259"
+        },
+        {
+            "@id": "event:e3398514734576291935"
+        },
+        {
+            "@id": "event:e2486046117538975586"
+        },
+        {
+            "@id": "event:e1763073284738716788"
+        },
+        {
+            "@id": "event:e1097082664304793495"
+        },
+        {
+            "@id": "event:e5421341906290460072"
+        },
+        {
+            "@id": "event:e1566995932178745598"
+        },
+        {
+            "@id": "event:e2229492044613170290"
+        },
+        {
+            "@id": "event:e2359749046339961445"
+        },
+        {
+            "@id": "event:e3156450192678845350"
+        },
+        {
+            "@id": "event:e2302343945678180060"
+        },
+        {
+            "@id": "event:e2592015663110269890"
+        },
+        {
+            "@id": "event:e2386428306934451829"
+        },
+        {
+            "@id": "event:e4550108140440415730"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Räsänen, Päivi (1959-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1138982"
+    },
+    "semparl:id": "499",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "@id": "people:Q969261",
+    "semparl:comment": {
+        "@language": "fi",
+        "@value": "ammatti/virkamies"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d969261"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l9399149057657579136"
+        },
+        {
+            "@id": "label:l1882017334886425506"
+        },
+        {
+            "@id": "label:l1521872797097779336"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2560669165988300731"
+    },
+    "dct:source": [
+        {
+            "@id": "wd:Q969261"
+        },
+        {
+            "@id": "http://valtioneuvosto.fi/tietoa/historiaa/hallitukset-ja-ministerit/raportti/-/r/m2/190"
+        }
+    ],
+    "semparl:sortingLabel": "enckell carl",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b969261"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Enckell.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "viaf:5834467"
+        },
+        {
+            "@id": "natbib:3273"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Carl_Enckell"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Carl_Enckell"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2031"
+        },
+        {
+            "@id": "finaf:000078230"
+        },
+        {
+            "@id": "wd:Q969261"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p2066"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Enckell, Carl (1876-1959)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Enckell, Alexis Carl Johan"
+        },
+        {
+            "@language": "fi",
+            "@value": "Enckell, Carl Johan Alexis"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1193221251951082769"
+        },
+        {
+            "@id": "event:e2179357788773600105"
+        },
+        {
+            "@id": "event:e2221016019242301741"
+        },
+        {
+            "@id": "event:e2720928958802184843"
+        },
+        {
+            "@id": "event:e2808587833295845224"
+        },
+        {
+            "@id": "event:e2999962343216389412"
+        },
+        {
+            "@id": "event:e3059740693778979797"
+        },
+        {
+            "@id": "event:e3108410422724464054"
+        },
+        {
+            "@id": "event:e3446610683297368669"
+        },
+        {
+            "@id": "event:e9075830640575308331"
+        }
+    ],
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,635 @@
+{
+    "@id": "people:p109",
+    "semparl:extra_info": "SL PF 1987, Suomen elokuva-arkiston kunniajäsen, kirjallisuuden valtionpalkinto 1972 ja 1985, kirjallisuuden Finlandia-palkinto 1985",
+    "semparl:authored": [
+        {
+            "@id": "publications:b9959619278586668409"
+        },
+        {
+            "@id": "publications:b9954975172312119132"
+        },
+        {
+            "@id": "publications:b9921531360649274001"
+        },
+        {
+            "@id": "publications:b9666634354483605992"
+        },
+        {
+            "@id": "publications:b9259084041379357032"
+        },
+        {
+            "@id": "publications:b8822457411766286137"
+        },
+        {
+            "@id": "publications:b8702467202224006441"
+        },
+        {
+            "@id": "publications:b8274910698529592470"
+        },
+        {
+            "@id": "publications:b6489402704767936426"
+        },
+        {
+            "@id": "publications:b6331993309858242159"
+        },
+        {
+            "@id": "publications:b6060886287507756357"
+        },
+        {
+            "@id": "publications:b5286012036676845825"
+        },
+        {
+            "@id": "publications:b5200908649222216997"
+        },
+        {
+            "@id": "publications:b5104201038997620637"
+        },
+        {
+            "@id": "publications:b4158754547628415214"
+        },
+        {
+            "@id": "publications:b3365401637350449313"
+        },
+        {
+            "@id": "publications:b3349435144015508804"
+        },
+        {
+            "@id": "publications:b3272565310099523457"
+        },
+        {
+            "@id": "publications:b3257768594679677360"
+        },
+        {
+            "@id": "publications:b3124702127983003562"
+        },
+        {
+            "@id": "publications:b3111007473082382456"
+        },
+        {
+            "@id": "publications:b3102644162237772181"
+        },
+        {
+            "@id": "publications:b3077386020776497762"
+        },
+        {
+            "@id": "publications:b3073821629904429756"
+        },
+        {
+            "@id": "publications:b2993986301456191406"
+        },
+        {
+            "@id": "publications:b2993023309765129842"
+        },
+        {
+            "@id": "publications:b2949825717753744093"
+        },
+        {
+            "@id": "publications:b2940509613923315056"
+        },
+        {
+            "@id": "publications:b2914295649437477639"
+        },
+        {
+            "@id": "publications:b2877604743401106786"
+        },
+        {
+            "@id": "publications:b2865225636852424266"
+        },
+        {
+            "@id": "publications:b2836782574839952014"
+        },
+        {
+            "@id": "publications:b2823784483842087774"
+        },
+        {
+            "@id": "publications:b2703556171254544012"
+        },
+        {
+            "@id": "publications:b2672255580748037731"
+        },
+        {
+            "@id": "publications:b2665075951790729707"
+        },
+        {
+            "@id": "publications:b2648360062564269924"
+        },
+        {
+            "@id": "publications:b2589434837208035266"
+        },
+        {
+            "@id": "publications:b2529301601604068499"
+        },
+        {
+            "@id": "publications:b2525576322138630504"
+        },
+        {
+            "@id": "publications:b2503477985825171857"
+        },
+        {
+            "@id": "publications:b2450517146210448118"
+        },
+        {
+            "@id": "publications:b2413753727262327440"
+        },
+        {
+            "@id": "publications:b2388402548846841255"
+        },
+        {
+            "@id": "publications:b2379153699632215988"
+        },
+        {
+            "@id": "publications:b2371136412748778196"
+        },
+        {
+            "@id": "publications:b2286573972351811156"
+        },
+        {
+            "@id": "publications:b2203347816596287809"
+        },
+        {
+            "@id": "publications:b2168538392235157864"
+        },
+        {
+            "@id": "publications:b2159633250881994271"
+        },
+        {
+            "@id": "publications:b2151293666976780197"
+        },
+        {
+            "@id": "publications:b2095975258120127315"
+        },
+        {
+            "@id": "publications:b2084440567174450292"
+        },
+        {
+            "@id": "publications:b2006060445380440074"
+        },
+        {
+            "@id": "publications:b1973901536575440228"
+        },
+        {
+            "@id": "publications:b1958759150955285090"
+        },
+        {
+            "@id": "publications:b1946525643593160697"
+        },
+        {
+            "@id": "publications:b1945998955459787308"
+        },
+        {
+            "@id": "publications:b1924360883948606050"
+        },
+        {
+            "@id": "publications:b1875127230346979506"
+        },
+        {
+            "@id": "publications:b1853021169366084481"
+        },
+        {
+            "@id": "publications:b1748695982450105851"
+        },
+        {
+            "@id": "publications:b1734982687521889433"
+        },
+        {
+            "@id": "publications:b1706439852498712851"
+        },
+        {
+            "@id": "publications:b1705846793209482376"
+        },
+        {
+            "@id": "publications:b1634658771055865221"
+        },
+        {
+            "@id": "publications:b1602675364766728301"
+        },
+        {
+            "@id": "publications:b1533423372638427857"
+        },
+        {
+            "@id": "publications:b1405612936712810805"
+        },
+        {
+            "@id": "publications:b1395372550249864958"
+        },
+        {
+            "@id": "publications:b1284590539986373036"
+        },
+        {
+            "@id": "publications:b1242496539271168645"
+        },
+        {
+            "@id": "publications:b1189621334935577274"
+        },
+        {
+            "@id": "publications:b1157861797365452890"
+        },
+        {
+            "@id": "publications:b1117119067759614481"
+        },
+        {
+            "@id": "publications:b1062312809261727535"
+        },
+        {
+            "@id": "publications:b1050737998073500768"
+        },
+        {
+            "@id": "publications:b1026613579619251699"
+        },
+        {
+            "@id": "publications:b1020533175363390674"
+        },
+        {
+            "@id": "publications:b1018210438247205721"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Donner, Jörn Johan"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:109.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2013-09-05_2013-09-05_2015-04-21_2015-04-21"
+        },
+        {
+            "@id": "times:t_2007-01-05_2007-01-05_2007-03-20_2007-03-20"
+        },
+        {
+            "@id": "times:t_1987-03-21_1987-03-21_1995-03-23_1995-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri, kirjailija, professori, ulkoasiainneuvos"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o35"
+        },
+        {
+            "@id": "occupations:o34"
+        },
+        {
+            "@id": "occupations:o33"
+        },
+        {
+            "@id": "occupations:o32"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2814164372959588063"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d109"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3301896593815812655"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2185067143003588448"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=109"
+    },
+    "semparl:sortingLabel": "donner jörn",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b109"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B6rn%20Donner%2002.JPG"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:109.aspx"
+        },
+        {
+            "@id": "yle:18-181061"
+        },
+        {
+            "@id": "viaf:114294067"
+        },
+        {
+            "@id": "natbib:4831"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/J%C3%B6rn_Donner"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:J%C3%B6rn_Donner"
+        },
+        {
+            "@id": "wd:Q982339"
+        },
+        {
+            "@id": "finaf:000041703"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p3408"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1054977972096579737"
+        },
+        {
+            "@id": "event:e4464035873271345238"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8978307695623609238"
+        },
+        {
+            "@id": "event:e3385017227466345974"
+        },
+        {
+            "@id": "event:e3327106937060748335"
+        },
+        {
+            "@id": "event:e2780191644041341975"
+        },
+        {
+            "@id": "event:e1692805129814943429"
+        },
+        {
+            "@id": "event:e1356261889873400427"
+        },
+        {
+            "@id": "event:e1206852248055900637"
+        },
+        {
+            "@id": "event:e9820417352675269138"
+        },
+        {
+            "@id": "event:e3278098719383499722"
+        },
+        {
+            "@id": "event:e2374474037480492597"
+        },
+        {
+            "@id": "event:e9309949858945083402"
+        },
+        {
+            "@id": "event:e8535554791547822965"
+        },
+        {
+            "@id": "event:e2700318300680414161"
+        },
+        {
+            "@id": "event:e3234360108742116776"
+        },
+        {
+            "@id": "event:e4734799889206085229"
+        },
+        {
+            "@id": "event:e1429205270399552925"
+        },
+        {
+            "@id": "event:e2861820782619259096"
+        },
+        {
+            "@id": "event:e8105345614208301926"
+        },
+        {
+            "@id": "event:e1507158831292764901"
+        },
+        {
+            "@id": "event:e4111165156331504098"
+        },
+        {
+            "@id": "event:e6004840314195316288"
+        },
+        {
+            "@id": "event:e3000437313626174967"
+        },
+        {
+            "@id": "event:e3082736505700470117"
+        },
+        {
+            "@id": "event:e2809227735518357569"
+        },
+        {
+            "@id": "event:e2039684287347883358"
+        },
+        {
+            "@id": "event:e3276312369593806647"
+        },
+        {
+            "@id": "event:e4340859624165015096"
+        },
+        {
+            "@id": "event:e1786095774840216106"
+        },
+        {
+            "@id": "event:e2965702322171149009"
+        },
+        {
+            "@id": "event:e1161133470245189256"
+        },
+        {
+            "@id": "event:e2651484885215070536"
+        },
+        {
+            "@id": "event:e1548102328139203308"
+        },
+        {
+            "@id": "event:e1407589854342321341"
+        },
+        {
+            "@id": "event:e2119780723521428696"
+        },
+        {
+            "@id": "event:e9631570242929358938"
+        },
+        {
+            "@id": "event:e1405733386800927119"
+        },
+        {
+            "@id": "event:e2441926991902070557"
+        },
+        {
+            "@id": "event:e1363448873982107710"
+        },
+        {
+            "@id": "event:e1167147201096477664"
+        },
+        {
+            "@id": "event:e5095468622648875678"
+        },
+        {
+            "@id": "event:e1099851875694740056"
+        },
+        {
+            "@id": "event:e2365571897305909505"
+        },
+        {
+            "@id": "event:e5512368947377391858"
+        },
+        {
+            "@id": "event:e1588198646413036086"
+        },
+        {
+            "@id": "event:e6757169587777560539"
+        },
+        {
+            "@id": "event:e2658162790294199493"
+        },
+        {
+            "@id": "event:e9697471536755260267"
+        },
+        {
+            "@id": "event:e5341509795234647768"
+        },
+        {
+            "@id": "event:e2170517996375339675"
+        },
+        {
+            "@id": "event:e2246460976726944101"
+        },
+        {
+            "@id": "event:e4121309599399130688"
+        },
+        {
+            "@id": "event:e2211362805052428855"
+        },
+        {
+            "@id": "event:e1983008205177650037"
+        },
+        {
+            "@id": "event:e1972605324333825621"
+        },
+        {
+            "@id": "event:e3183201359823759251"
+        },
+        {
+            "@id": "event:e2737602011891639539"
+        },
+        {
+            "@id": "event:e1422248259243632846"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e2265850287822437850"
+        },
+        {
+            "@id": "event:e3303656867960650609"
+        },
+        {
+            "@id": "event:e3023935875983852529"
+        },
+        {
+            "@id": "event:e2211800454333171409"
+        },
+        {
+            "@id": "event:e2611033836625107926"
+        },
+        {
+            "@id": "event:e2116425712445402323"
+        },
+        {
+            "@id": "event:e1346658607825591910"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Donner, Jörn (1933-2020)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Donner, Jörn Johan"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q499029"
+        },
+        {
+            "@id": "groups:Q845537"
+        },
+        {
+            "@id": "groups:Q585735"
+        }
+    ],
+    "semparl:id": "109",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

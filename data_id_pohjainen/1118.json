@@ -1,0 +1,265 @@
+{
+    "@id": "people:p1118",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Tolvanen, Kari Tapani"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1118.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2023-04-04_2023-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "rikosylikomisario, väkivaltarikosyksikön johtaja"
+    },
+    "semparl:end_of_representative_period_text": "04.04.2023",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2023-04-04_2023-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o804"
+        },
+        {
+            "@id": "occupations:o573"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2190804943969216766"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2479387063491484841"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l9266334023007369446"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1118"
+    },
+    "semparl:sortingLabel": "tolvanen kari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1118"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Kari%20Tolvanen%202015.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1118.aspx"
+        },
+        {
+            "@id": "yle:18-198897"
+        },
+        {
+            "@id": "twitter:karitolvanen3"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Kari_Tolvanen"
+        },
+        {
+            "@id": "wd:Q11870004"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3361260408302025945"
+        },
+        {
+            "@id": "event:e2660297458864619414"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2965151854369620931"
+        },
+        {
+            "@id": "event:e2640040038624227283"
+        },
+        {
+            "@id": "event:e3283300371244549533"
+        },
+        {
+            "@id": "event:e9409678908312184664"
+        },
+        {
+            "@id": "event:e2226174646944227397"
+        },
+        {
+            "@id": "event:e7728308590559054515"
+        },
+        {
+            "@id": "event:e3871265026060658871"
+        },
+        {
+            "@id": "event:e6362784465777727163"
+        },
+        {
+            "@id": "event:e2375071120127533091"
+        },
+        {
+            "@id": "event:e2825164604215745606"
+        },
+        {
+            "@id": "event:e1028656070068125019"
+        },
+        {
+            "@id": "event:e3642813423135234966"
+        },
+        {
+            "@id": "event:e9742403608899399908"
+        },
+        {
+            "@id": "event:e2196864160423332756"
+        },
+        {
+            "@id": "event:e1262874182598032320"
+        },
+        {
+            "@id": "event:e1973974920114431227"
+        },
+        {
+            "@id": "event:e9465945760533662881"
+        },
+        {
+            "@id": "event:e1455865876186746231"
+        },
+        {
+            "@id": "event:e3103297855859636681"
+        },
+        {
+            "@id": "event:e5486977058462624017"
+        },
+        {
+            "@id": "event:e1886440250300774106"
+        },
+        {
+            "@id": "event:e2075516671939345524"
+        },
+        {
+            "@id": "event:e3391299060119714158"
+        },
+        {
+            "@id": "event:e7025631683553087209"
+        },
+        {
+            "@id": "event:e1763073284738716788"
+        },
+        {
+            "@id": "event:e1798628954381639043"
+        },
+        {
+            "@id": "event:e2049777216734629485"
+        },
+        {
+            "@id": "event:e1945940079318467501"
+        },
+        {
+            "@id": "event:e9065197674281013667"
+        },
+        {
+            "@id": "event:e2544942927074396840"
+        },
+        {
+            "@id": "event:e1213735260641763432"
+        },
+        {
+            "@id": "event:e3364141724751274751"
+        },
+        {
+            "@id": "event:e3062924905052525804"
+        },
+        {
+            "@id": "event:e1907882076773121894"
+        },
+        {
+            "@id": "event:e3035865407624661257"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Tolvanen, Kari (1961-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Tolvanen, Kari Tapani"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1118",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

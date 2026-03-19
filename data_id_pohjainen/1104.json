@@ -1,0 +1,244 @@
+{
+    "@id": "people:p1104",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Haapanen, Satu Maria Kristiina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1104.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2015-04-21_2015-04-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kasvatustieteen maisteri, luokanopettaja"
+    },
+    "semparl:end_of_representative_period_text": "21.04.2015",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2015-04-21_2015-04-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o875"
+        },
+        {
+            "@id": "occupations:o560"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1601435902219118773"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1540401233814489859"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3211306837922655804"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1104"
+    },
+    "semparl:sortingLabel": "haapanen satu",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1104"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Satu%20Haapanen%20fra%20Grona%20forbundet%20%28grona%29%20i%20Finland.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1104.aspx"
+        },
+        {
+            "@id": "twitter:SatuHaapanen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Satu_Haapanen"
+        },
+        {
+            "@id": "wd:Q11892592"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1751918577443898441"
+        },
+        {
+            "@id": "event:e3325655577601306583"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2946400160856096614"
+        },
+        {
+            "@id": "event:e2879593050559342385"
+        },
+        {
+            "@id": "event:e1701308689873741544"
+        },
+        {
+            "@id": "event:e5162460594014199492"
+        },
+        {
+            "@id": "event:e2266194793433994719"
+        },
+        {
+            "@id": "event:e4493138760074303591"
+        },
+        {
+            "@id": "event:e1113996234951318716"
+        },
+        {
+            "@id": "event:e1620784688865222899"
+        },
+        {
+            "@id": "event:e1474773556171689568"
+        },
+        {
+            "@id": "event:e1798175158621438586"
+        },
+        {
+            "@id": "event:e1255701931249784333"
+        },
+        {
+            "@id": "event:e1875760094859044177"
+        },
+        {
+            "@id": "event:e1270771881256140469"
+        },
+        {
+            "@id": "event:e9512833372858917891"
+        },
+        {
+            "@id": "event:e1362254579822813493"
+        },
+        {
+            "@id": "event:e3626972257700468470"
+        },
+        {
+            "@id": "event:e6046724371003542354"
+        },
+        {
+            "@id": "event:e1194461669055719423"
+        },
+        {
+            "@id": "event:e3379112542102422552"
+        },
+        {
+            "@id": "event:e7830743655727583538"
+        },
+        {
+            "@id": "event:e1050272807268045328"
+        },
+        {
+            "@id": "event:e2850400770381672005"
+        },
+        {
+            "@id": "event:e1783901243458653066"
+        },
+        {
+            "@id": "event:e2256740308535773896"
+        },
+        {
+            "@id": "event:e3300956715228116890"
+        },
+        {
+            "@id": "event:e2619233986003752809"
+        },
+        {
+            "@id": "event:e1683061142044682120"
+        },
+        {
+            "@id": "event:e9957856583650725875"
+        },
+        {
+            "@id": "event:e4091445673312215147"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Haapanen, Satu (1969-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Haapanen, Satu Maria Kristiina"
+    },
+    "semparl:party": {
+        "@id": "groups:Q196695"
+    },
+    "semparl:id": "1104",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

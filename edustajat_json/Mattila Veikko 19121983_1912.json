@@ -1,0 +1,240 @@
+{
+    "@id": "people:p911050",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Mattila(e. Häggström), Veikko Aukusti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911050.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1964-03-10_1964-03-10_1970-03-22_1970-03-22"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kirkkoherra, rovasti"
+    },
+    "semparl:end_of_representative_period_text": "22.03.1970",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1970-03-22_1970-03-22"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o593"
+        },
+        {
+            "@id": "occupations:o29"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1761674350921491247"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911050"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l7523589453352471936"
+        },
+        {
+            "@id": "label:l7058051427987880147"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2956605047451181757"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911050"
+    },
+    "semparl:sortingLabel": "mattila veikko",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911050"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911050.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Veikko_Mattila"
+        },
+        {
+            "@id": "wd:Q56401563"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1281070692629770062"
+        },
+        {
+            "@id": "event:e5881730224117853879"
+        },
+        {
+            "@id": "event:e1846830270886757332"
+        },
+        {
+            "@id": "event:e6038582652084895964"
+        },
+        {
+            "@id": "event:e3389252461310518188"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9707210700738008799"
+        },
+        {
+            "@id": "event:e2958248691576359979"
+        },
+        {
+            "@id": "event:e5192948772507235978"
+        },
+        {
+            "@id": "event:e1892671930815386826"
+        },
+        {
+            "@id": "event:e1409102001998314443"
+        },
+        {
+            "@id": "event:e4551324217345569621"
+        },
+        {
+            "@id": "event:e1633944364319032556"
+        },
+        {
+            "@id": "event:e1332380203819446304"
+        },
+        {
+            "@id": "event:e9060962240178857434"
+        },
+        {
+            "@id": "event:e7145430746376704965"
+        },
+        {
+            "@id": "event:e1049071676796560154"
+        },
+        {
+            "@id": "event:e9084591219827140589"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e3101448523555538769"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e1532974499226726144"
+        },
+        {
+            "@id": "event:e2075954667372079321"
+        },
+        {
+            "@id": "event:e7320096602443626995"
+        },
+        {
+            "@id": "event:e1829999260395917713"
+        },
+        {
+            "@id": "event:e1573957275927903474"
+        },
+        {
+            "@id": "event:e2951496897208878180"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Mattila, Veikko (1912-1983)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Mattila, Veikko Aukusti"
+        },
+        {
+            "@language": "fi",
+            "@value": "Häggström, Veikko Aukusti"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911050",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

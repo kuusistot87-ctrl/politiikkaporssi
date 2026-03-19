@@ -1,0 +1,311 @@
+{
+    "@id": "people:p385",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Lahikainen, Erja Helena"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:385.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1991-03-22_1991-03-22_1995-03-23_1995-03-23"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "toiminnanjohtaja"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1995",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1995-03-23_1995-03-23"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o59"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p1407044281319072722"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2146772092303830862"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3079637057054438509"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=385"
+    },
+    "semparl:sortingLabel": "lahikainen erja",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b385"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Finnish%20Member%20of%20Parliament%20Erja%20Lahikainen%20at%20the%20Parliament%20House%20in%20Helsinki%20on%20the%2012th%20of%20April%2C%201991%20%28JOKAIH3D26-8%29.tif"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:385.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Erja_Lahikainen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Erja_Lahikainen"
+        },
+        {
+            "@id": "wd:Q11858244"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e1189818809224344502"
+        },
+        {
+            "@id": "event:e8104266444458772757"
+        },
+        {
+            "@id": "event:e2025831935833891215"
+        },
+        {
+            "@id": "event:e1891224550068719547"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1027279453572569807"
+        },
+        {
+            "@id": "event:e2375644424953329836"
+        },
+        {
+            "@id": "event:e2148938044504948080"
+        },
+        {
+            "@id": "event:e1245821807916383532"
+        },
+        {
+            "@id": "event:e1775711040613709196"
+        },
+        {
+            "@id": "event:e5279705497969858212"
+        },
+        {
+            "@id": "event:e2173407262867344343"
+        },
+        {
+            "@id": "event:e2527808325740879956"
+        },
+        {
+            "@id": "event:e2388864490133190307"
+        },
+        {
+            "@id": "event:e1510525293278314599"
+        },
+        {
+            "@id": "event:e1188417126608697348"
+        },
+        {
+            "@id": "event:e2108593735168219769"
+        },
+        {
+            "@id": "event:e1317772519663936900"
+        },
+        {
+            "@id": "event:e5842348099252667326"
+        },
+        {
+            "@id": "event:e1227261551483531734"
+        },
+        {
+            "@id": "event:e1864308621809152636"
+        },
+        {
+            "@id": "event:e6598424206453925140"
+        },
+        {
+            "@id": "event:e1589035893427821644"
+        },
+        {
+            "@id": "event:e2482077173054007589"
+        },
+        {
+            "@id": "event:e2765458481336730603"
+        },
+        {
+            "@id": "event:e2478875209388570532"
+        },
+        {
+            "@id": "event:e7247384183473579131"
+        },
+        {
+            "@id": "event:e7077486803599003597"
+        },
+        {
+            "@id": "event:e8284557695531518738"
+        },
+        {
+            "@id": "event:e1882128023526295720"
+        },
+        {
+            "@id": "event:e3188096942212554120"
+        },
+        {
+            "@id": "event:e2219980369204204441"
+        },
+        {
+            "@id": "event:e1166158260796540448"
+        },
+        {
+            "@id": "event:e3279808634976945823"
+        },
+        {
+            "@id": "event:e3069730561330419004"
+        },
+        {
+            "@id": "event:e3352124166502306926"
+        },
+        {
+            "@id": "event:e2943985875978209002"
+        },
+        {
+            "@id": "event:e1364792395304171052"
+        },
+        {
+            "@id": "event:e3386043722554613959"
+        },
+        {
+            "@id": "event:e5060531298748997443"
+        },
+        {
+            "@id": "event:e3276466989183626564"
+        },
+        {
+            "@id": "event:e3229017141984190919"
+        },
+        {
+            "@id": "event:e2120619699092688535"
+        },
+        {
+            "@id": "event:e3064556723071690017"
+        },
+        {
+            "@id": "event:e3394496328215910546"
+        },
+        {
+            "@id": "event:e9610305238225585189"
+        },
+        {
+            "@id": "event:e2999199875675654174"
+        },
+        {
+            "@id": "event:e2722486011975163174"
+        },
+        {
+            "@id": "event:e3367197305285430155"
+        },
+        {
+            "@id": "event:e1840805860356881627"
+        },
+        {
+            "@id": "event:e1958384905966616699"
+        },
+        {
+            "@id": "event:e7581680624205332545"
+        },
+        {
+            "@id": "event:e1039029034809175290"
+        },
+        {
+            "@id": "event:e3087388665246128477"
+        },
+        {
+            "@id": "event:e1029230918416390985"
+        },
+        {
+            "@id": "event:e3006146621756581371"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Lahikainen, Erja (1954-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Lahikainen, Erja Helena"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "385",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

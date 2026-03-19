@@ -1,0 +1,230 @@
+{
+    "@id": "people:p1088",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Mäntylä, Hanna Katariina"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1088.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20_2017-06-30_2017-06-30"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "erityisnuorisotyöntekijä, yhteiskuntatieteiden kandidaatti"
+    },
+    "semparl:end_of_representative_period_text": "30.06.2017",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2017-06-30_2017-06-30"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o767"
+        },
+        {
+            "@id": "occupations:o105"
+        }
+    ],
+    "semparl:has_party_membership": [
+        {
+            "@id": "event:p3620315908996630415"
+        },
+        {
+            "@id": "event:p1717864026830406288"
+        }
+    ],
+    "xl:altLabel": {
+        "@id": "label:l1381756536462740999"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1485391004044815220"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1088"
+    },
+    "semparl:sortingLabel": "mäntylä hanna",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1088"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Hanna%20M%C3%A4ntyl%C3%A4.JPG"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1088.aspx"
+        },
+        {
+            "@id": "twitter:hannamantyla"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Hanna_M%C3%A4ntyl%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Hanna_M%C3%A4ntyl%C3%A4"
+        },
+        {
+            "@id": "wd:Q11861334"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3184381664392668643"
+        },
+        {
+            "@id": "event:e2961012301348055429"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7083803050675612632"
+        },
+        {
+            "@id": "event:e6919612289601671019"
+        },
+        {
+            "@id": "event:e2015196369831487275"
+        },
+        {
+            "@id": "event:e3018093210825255314"
+        },
+        {
+            "@id": "event:e8488706158016478856"
+        },
+        {
+            "@id": "event:e2680479409684676193"
+        },
+        {
+            "@id": "event:e5762167658885670157"
+        },
+        {
+            "@id": "event:e2761236090093905150"
+        },
+        {
+            "@id": "event:e9783078178304355188"
+        },
+        {
+            "@id": "event:e6638089125939440102"
+        },
+        {
+            "@id": "event:e2158816943115847275"
+        },
+        {
+            "@id": "event:e2925428859735630729"
+        },
+        {
+            "@id": "event:e1410384298331219795"
+        },
+        {
+            "@id": "event:e2173311501476031543"
+        },
+        {
+            "@id": "event:e1808916650946929699"
+        },
+        {
+            "@id": "event:e8373532236972408231"
+        },
+        {
+            "@id": "event:e4346666722808643854"
+        },
+        {
+            "@id": "event:e1992908115486838889"
+        },
+        {
+            "@id": "event:e7790233859169298677"
+        },
+        {
+            "@id": "event:e8890517395056304559"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Mäntylä, Hanna (1974-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Mäntylä, Hanna Katariina"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q634277"
+        },
+        {
+            "@id": "groups:Q30337076"
+        }
+    ],
+    "semparl:id": "1088",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "@id": "people:p911743",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Viljanen, Väinö Matti Juho (V.M.J.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911743.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1924-05-01_1924-05-01_1927-09-01_1927-09-01"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "insinööri, toimitusjohtaja, vuorineuvos"
+    },
+    "semparl:end_of_representative_period_text": "01.09.1927",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1927-09-01_1927-09-01"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o620"
+        },
+        {
+            "@id": "occupations:o209"
+        },
+        {
+            "@id": "occupations:o111"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p8280078339719614327"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911743"
+    },
+    "xl:altLabel": {
+        "@id": "label:l1263384424607467474"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l7022507975511322591"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911743"
+    },
+    "semparl:sortingLabel": "viljanen v.m.j.",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911743"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Vuorineuvos%20Matti%20Viljanen.tif"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911743.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Matti_Viljanen_(vuorineuvos)"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Matti_Viljanen"
+        },
+        {
+            "@id": "wd:Q11881740"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p10389"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e7349262381756097303"
+        },
+        {
+            "@id": "event:e2858402023970495067"
+        },
+        {
+            "@id": "event:e6490629510172118400"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e1035675780498565252"
+        },
+        {
+            "@id": "event:e6718004210552464364"
+        },
+        {
+            "@id": "event:e8909666148134063019"
+        },
+        {
+            "@id": "event:e3147540132474556758"
+        },
+        {
+            "@id": "event:e3542754630868993181"
+        },
+        {
+            "@id": "event:e1490519102240949445"
+        },
+        {
+            "@id": "event:e3276872411213816208"
+        },
+        {
+            "@id": "event:e1226147944606504207"
+        },
+        {
+            "@id": "event:e1195624287702992404"
+        },
+        {
+            "@id": "event:e2089935660643669944"
+        },
+        {
+            "@id": "event:e3927453603940793694"
+        },
+        {
+            "@id": "event:e1974246692098057218"
+        },
+        {
+            "@id": "event:e1095078120453989915"
+        },
+        {
+            "@id": "event:e2387366979362217524"
+        },
+        {
+            "@id": "event:e1865968735535325389"
+        },
+        {
+            "@id": "event:e1498897331772154065"
+        },
+        {
+            "@id": "event:e5870765395524464281"
+        },
+        {
+            "@id": "event:e8829345181702457700"
+        },
+        {
+            "@id": "event:e1751595316663334646"
+        },
+        {
+            "@id": "event:e1762073431712260079"
+        },
+        {
+            "@id": "event:e1056433699787639357"
+        },
+        {
+            "@id": "event:e2672876626700020243"
+        },
+        {
+            "@id": "event:e8023294668838551244"
+        },
+        {
+            "@id": "event:e2968820093402769589"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e1848515319163233697"
+        },
+        {
+            "@id": "event:e2538498558562631757"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e3109460211830697012"
+        },
+        {
+            "@id": "event:e6482428464129827027"
+        },
+        {
+            "@id": "event:e2597453360559631001"
+        },
+        {
+            "@id": "event:e3388842410841393969"
+        },
+        {
+            "@id": "event:e3288820371833669325"
+        },
+        {
+            "@id": "event:e3076930481473672373"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Viljanen, V.M.J. (1874-1946)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Viljanen, Väinö Matti Juho"
+    },
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "911743",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

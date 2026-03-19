@@ -1,0 +1,299 @@
+{
+    "@id": "people:p276",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "luutnantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e1202058417577482813"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Taxell, Lars Evald Christoffer"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:276.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1975-09-27_1975-09-27_1991-03-21_1991-03-21"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "oikeustieteen kandidaatti, ministeri"
+    },
+    "semparl:end_of_representative_period_text": "21.03.1991",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1991-03-21_1991-03-21"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1"
+        },
+        {
+            "@id": "occupations:o77"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1315733299859849883"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3240551991398641496"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l6769559317170793726"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=276"
+    },
+    "semparl:sortingLabel": "taxell christoffer",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b276"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Christoffer%20Taxell.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:276.aspx"
+        },
+        {
+            "@id": "viaf:4012152988206912790006"
+        },
+        {
+            "@id": "natbib:4035"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Christoffer_Taxell"
+        },
+        {
+            "@id": "wd:Q6204863"
+        },
+        {
+            "@id": "finaf:000116598"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p5685"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e3223143092797985873"
+        },
+        {
+            "@id": "event:e3178579697498128044"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e8387806195718560370"
+        },
+        {
+            "@id": "event:e8169330571150596012"
+        },
+        {
+            "@id": "event:e5475547833135669491"
+        },
+        {
+            "@id": "event:e2747334127648919412"
+        },
+        {
+            "@id": "event:e2204302441438955758"
+        },
+        {
+            "@id": "event:e1760336448794618650"
+        },
+        {
+            "@id": "event:e1230979046251549683"
+        },
+        {
+            "@id": "event:e3288322368182479556"
+        },
+        {
+            "@id": "event:e1236308461581317768"
+        },
+        {
+            "@id": "event:e9783848144654091031"
+        },
+        {
+            "@id": "event:e2099219103402347236"
+        },
+        {
+            "@id": "event:e2248256902286322766"
+        },
+        {
+            "@id": "event:e2250257133150022729"
+        },
+        {
+            "@id": "event:e2601924078808101373"
+        },
+        {
+            "@id": "event:e3215574298936859582"
+        },
+        {
+            "@id": "event:e2473267202224717909"
+        },
+        {
+            "@id": "event:e7708600956622999974"
+        },
+        {
+            "@id": "event:e2042277107569261444"
+        },
+        {
+            "@id": "event:e3377863255128387429"
+        },
+        {
+            "@id": "event:e1551622008528929064"
+        },
+        {
+            "@id": "event:e3791095605816878394"
+        },
+        {
+            "@id": "event:e2000512679549741710"
+        },
+        {
+            "@id": "event:e1649080390472477136"
+        },
+        {
+            "@id": "event:e1715412263328171806"
+        },
+        {
+            "@id": "event:e1175418441903873959"
+        },
+        {
+            "@id": "event:e1300564694492780756"
+        },
+        {
+            "@id": "event:e2133934684684064390"
+        },
+        {
+            "@id": "event:e2234080155505363726"
+        },
+        {
+            "@id": "event:e1289747548543484778"
+        },
+        {
+            "@id": "event:e1169480210195029538"
+        },
+        {
+            "@id": "event:e1057185986373147429"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e2194307811658366347"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e1221089393120039290"
+        },
+        {
+            "@id": "event:e2449105882980807355"
+        },
+        {
+            "@id": "event:e1443292743475422141"
+        },
+        {
+            "@id": "event:e3078765183462820053"
+        },
+        {
+            "@id": "event:e1438894653693759604"
+        },
+        {
+            "@id": "event:e4074142775519406324"
+        },
+        {
+            "@id": "event:e3185244218611113353"
+        },
+        {
+            "@id": "event:e3162737983516250382"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Taxell, Christoffer (1948-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Taxell, Lars Evald Christoffer"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "276",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

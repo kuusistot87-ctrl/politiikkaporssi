@@ -1,0 +1,227 @@
+{
+    "@id": "people:p1437",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Ilmajoki"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9410503203357979452"
+        },
+        {
+            "@id": "affiliations:a3229372837256726181"
+        },
+        {
+            "@id": "affiliations:a3026587714912845376"
+        },
+        {
+            "@id": "affiliations:a1910673382280543263"
+        },
+        {
+            "@id": "affiliations:a1657906518168251603"
+        },
+        {
+            "@id": "affiliations:a1290566819103890575"
+        },
+        {
+            "@id": "affiliations:a2119990650880061756"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1437.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2019-04-17_2019-04-17__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "koneinsinööri, ammatillinen erityisopettaja"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o982"
+        },
+        {
+            "@id": "occupations:o981"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1670312316626678340"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3107334727387950247"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1437"
+    },
+    "semparl:sortingLabel": "mäenpää juha petri",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1437"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/656740/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Juha%20M%C3%A4enp%C3%A4%C3%A4%20in%202021.tiff"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1437.aspx"
+        },
+        {
+            "@id": "yle:18-256073"
+        },
+        {
+            "@id": "twitter:maenpaa_juha"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Juha_M%C3%A4enp%C3%A4%C3%A4"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Juha_M%C3%A4enp%C3%A4%C3%A4"
+        },
+        {
+            "@id": "wd:Q28780113"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2475593636997066723"
+        },
+        {
+            "@id": "event:e1742938159918882767"
+        },
+        {
+            "@id": "event:e2641127605683668656"
+        },
+        {
+            "@id": "event:e7091247384171835229"
+        },
+        {
+            "@id": "event:e1869229208946188305"
+        },
+        {
+            "@id": "event:e1839133062059464550"
+        },
+        {
+            "@id": "event:e1799297340601474460"
+        },
+        {
+            "@id": "event:e1439450725872352790"
+        },
+        {
+            "@id": "event:e1115416783454259874"
+        },
+        {
+            "@id": "event:e2826178667019373409"
+        },
+        {
+            "@id": "event:e2898796905251478604"
+        },
+        {
+            "@id": "event:e8338790594643376477"
+        },
+        {
+            "@id": "event:e2526566961732733349"
+        },
+        {
+            "@id": "event:e3206370673543344306"
+        },
+        {
+            "@id": "event:e1049007275277035961"
+        },
+        {
+            "@id": "event:e2373993965426868629"
+        },
+        {
+            "@id": "event:e2890740956713786170"
+        },
+        {
+            "@id": "event:e1830197923606476462"
+        },
+        {
+            "@id": "event:e2286124131120133419"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Mäenpää, Juha (1971-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q634277"
+    },
+    "semparl:id": "1437",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

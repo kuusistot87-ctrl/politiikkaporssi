@@ -1,0 +1,487 @@
+{
+    "@id": "people:p508",
+    "semparl:extra_info": "SVR K 2008, Moottoriliikenteen ansiomerkki 2013, Suomen kuntaliiton kultainen kunniamerkki",
+    "semparl:authored": [
+        {
+            "@id": "publications:b3119210138962567373"
+        },
+        {
+            "@id": "publications:b2201727205062554318"
+        },
+        {
+            "@id": "publications:b1919193443631734446"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Vehviläinen, Anu Helena"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:508.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_2007-03-21_2007-03-21_2023-04-04_2023-04-04"
+        },
+        {
+            "@id": "times:t_1995-03-24_1995-03-24_2003-03-18_2003-03-18"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian maisteri"
+    },
+    "semparl:end_of_representative_period_text": "04.04.2023",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___2023-04-04_2023-04-04"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o32"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p3674026262888854223"
+    },
+    "xl:altLabel": {
+        "@id": "label:l8033990378622146000"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1576643910249926532"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=508"
+    },
+    "semparl:sortingLabel": "vehviläinen anu",
+    "bioc:has_gender": {
+        "@id": "sch:Female"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b508"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/PuhemiesAnuVehvilainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:508.aspx"
+        },
+        {
+            "@id": "yle:18-170810"
+        },
+        {
+            "@id": "twitter:AnuVehvilainen"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Anu_Vehvil%C3%A4inen"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Anu_Vehvil%C3%A4inen"
+        },
+        {
+            "@id": "wd:Q4349014"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e5653258631505065481"
+        },
+        {
+            "@id": "event:e7798691371141989325"
+        },
+        {
+            "@id": "event:e2451198170254736811"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e7875317504406523322"
+        },
+        {
+            "@id": "event:e7727795210818624644"
+        },
+        {
+            "@id": "event:e6465468839718199600"
+        },
+        {
+            "@id": "event:e4902030303837310906"
+        },
+        {
+            "@id": "event:e2431124517852782135"
+        },
+        {
+            "@id": "event:e2201140905391298333"
+        },
+        {
+            "@id": "event:e2133693216440381668"
+        },
+        {
+            "@id": "event:e1986181544298718065"
+        },
+        {
+            "@id": "event:e1203273608537437210"
+        },
+        {
+            "@id": "event:e1006788541028782087"
+        },
+        {
+            "@id": "event:e3276138587439670726"
+        },
+        {
+            "@id": "event:e1234474389455579490"
+        },
+        {
+            "@id": "event:e2685595801499410131"
+        },
+        {
+            "@id": "event:e2743938366219327917"
+        },
+        {
+            "@id": "event:e2096327667661780005"
+        },
+        {
+            "@id": "event:e3294340506010363145"
+        },
+        {
+            "@id": "event:e6057487780069159288"
+        },
+        {
+            "@id": "event:e2069934742061957920"
+        },
+        {
+            "@id": "event:e1376087885510169216"
+        },
+        {
+            "@id": "event:e2636198759617327620"
+        },
+        {
+            "@id": "event:e1338221178128645436"
+        },
+        {
+            "@id": "event:e4570794646892186146"
+        },
+        {
+            "@id": "event:e1651489979530694680"
+        },
+        {
+            "@id": "event:e1977611524099196031"
+        },
+        {
+            "@id": "event:e3064909463931769606"
+        },
+        {
+            "@id": "event:e2026382698240459011"
+        },
+        {
+            "@id": "event:e1192693079861330488"
+        },
+        {
+            "@id": "event:e2882983396986080477"
+        },
+        {
+            "@id": "event:e2246788478635185517"
+        },
+        {
+            "@id": "event:e1208754595678084397"
+        },
+        {
+            "@id": "event:e3336031653881011834"
+        },
+        {
+            "@id": "event:e1110899776245454283"
+        },
+        {
+            "@id": "event:e8682857210644043054"
+        },
+        {
+            "@id": "event:e1462354411227419593"
+        },
+        {
+            "@id": "event:e8314616722189362334"
+        },
+        {
+            "@id": "event:e1228827680781952711"
+        },
+        {
+            "@id": "event:e2159827969062512661"
+        },
+        {
+            "@id": "event:e9834002638394818278"
+        },
+        {
+            "@id": "event:e6105310451688889267"
+        },
+        {
+            "@id": "event:e1435286449101316517"
+        },
+        {
+            "@id": "event:e6854990109336742261"
+        },
+        {
+            "@id": "event:e3420841821356820223"
+        },
+        {
+            "@id": "event:e1651116729845450074"
+        },
+        {
+            "@id": "event:e2049327343729627844"
+        },
+        {
+            "@id": "event:e3273180951966845586"
+        },
+        {
+            "@id": "event:e1439292582817381551"
+        },
+        {
+            "@id": "event:e1311080499388191692"
+        },
+        {
+            "@id": "event:e1815161451149823312"
+        },
+        {
+            "@id": "event:e2815672015991846016"
+        },
+        {
+            "@id": "event:e1928758063586115535"
+        },
+        {
+            "@id": "event:e5044007046791264155"
+        },
+        {
+            "@id": "event:e1574896222534867789"
+        },
+        {
+            "@id": "event:e2212146031775211961"
+        },
+        {
+            "@id": "event:e9540195267816359574"
+        },
+        {
+            "@id": "event:e2105064207097036820"
+        },
+        {
+            "@id": "event:e1833612855729575947"
+        },
+        {
+            "@id": "event:e4555439903516921327"
+        },
+        {
+            "@id": "event:e2754237374947577700"
+        },
+        {
+            "@id": "event:e3837527774496680267"
+        },
+        {
+            "@id": "event:e2628333502844082681"
+        },
+        {
+            "@id": "event:e3051584154501770741"
+        },
+        {
+            "@id": "event:e2971826902160732759"
+        },
+        {
+            "@id": "event:e1612164966621105333"
+        },
+        {
+            "@id": "event:e1042082973336484624"
+        },
+        {
+            "@id": "event:e4288783874773858277"
+        },
+        {
+            "@id": "event:e1701762824973323570"
+        },
+        {
+            "@id": "event:e2574887781565981476"
+        },
+        {
+            "@id": "event:e8558859886405919286"
+        },
+        {
+            "@id": "event:e3306984086148254896"
+        },
+        {
+            "@id": "event:e1620744335972323194"
+        },
+        {
+            "@id": "event:e2558846490609996995"
+        },
+        {
+            "@id": "event:e1961323563057448272"
+        },
+        {
+            "@id": "event:e3278284226086300409"
+        },
+        {
+            "@id": "event:e2586212770129672626"
+        },
+        {
+            "@id": "event:e1038735576244593498"
+        },
+        {
+            "@id": "event:e2546684336870941259"
+        },
+        {
+            "@id": "event:e3179398489371691297"
+        },
+        {
+            "@id": "event:e3101184733612999991"
+        },
+        {
+            "@id": "event:e2989296901661814932"
+        },
+        {
+            "@id": "event:e1211898024157418892"
+        },
+        {
+            "@id": "event:e1478887214911374023"
+        },
+        {
+            "@id": "event:e7428803224971788521"
+        },
+        {
+            "@id": "event:e7501197098896633776"
+        },
+        {
+            "@id": "event:e9227497274025958642"
+        },
+        {
+            "@id": "event:e3278183346906511551"
+        },
+        {
+            "@id": "event:e3330116959724553870"
+        },
+        {
+            "@id": "event:e2284749591987914721"
+        },
+        {
+            "@id": "event:e2047561839439070852"
+        },
+        {
+            "@id": "event:e3192425162932007096"
+        },
+        {
+            "@id": "event:e5226755693123692934"
+        },
+        {
+            "@id": "event:e2238728421167449339"
+        },
+        {
+            "@id": "event:e2689873634429389677"
+        },
+        {
+            "@id": "event:e1370932543759950638"
+        },
+        {
+            "@id": "event:e2487078941316521475"
+        },
+        {
+            "@id": "event:e7308655639880652504"
+        },
+        {
+            "@id": "event:e2728497864135608395"
+        },
+        {
+            "@id": "event:e1515784452050074969"
+        },
+        {
+            "@id": "event:e3696724282462339524"
+        },
+        {
+            "@id": "event:e7988087646745996298"
+        },
+        {
+            "@id": "event:e1914928858052495903"
+        },
+        {
+            "@id": "event:e3018768874968976174"
+        },
+        {
+            "@id": "event:e3237918074118360600"
+        },
+        {
+            "@id": "event:e3098306698316908135"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Vehviläinen, Anu (1963-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Vehviläinen, Anu Helena"
+    },
+    "semparl:party": {
+        "@id": "groups:Q506591"
+    },
+    "semparl:id": "508",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

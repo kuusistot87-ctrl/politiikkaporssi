@@ -1,0 +1,301 @@
+{
+    "@id": "people:p1133",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Lahti"
+    },
+    "semparl:has_affiliation": [
+        {
+            "@id": "affiliations:a9285648781418178256"
+        },
+        {
+            "@id": "affiliations:a3374608594926539138"
+        },
+        {
+            "@id": "affiliations:a2931678041722094693"
+        },
+        {
+            "@id": "affiliations:a2744356505092093782"
+        },
+        {
+            "@id": "affiliations:a2345016843352986339"
+        },
+        {
+            "@id": "affiliations:a2120220749900805891"
+        },
+        {
+            "@id": "affiliations:a1502193086046622566"
+        },
+        {
+            "@id": "affiliations:a1213902262572146459"
+        },
+        {
+            "@id": "affiliations:a1117867384583766279"
+        },
+        {
+            "@id": "affiliations:a1100951385074529348"
+        },
+        {
+            "@id": "affiliations:a1021449401977527656"
+        },
+        {
+            "@id": "affiliations:a1013676029661328846"
+        },
+        {
+            "@id": "affiliations:a2512744005438800670"
+        }
+    ],
+    "sch:relatedLink": {
+        "@id": "mps:1133.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2011-04-20_2011-04-20__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "työpajapäällikkö, yhteisöpedagogi AMK"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o825"
+        },
+        {
+            "@id": "occupations:o824"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p7997551592085552346"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1794571330680374305"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1133"
+    },
+    "semparl:sortingLabel": "kari mika pekka",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1133"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/649360/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/MikaKarikuva.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1133.aspx"
+        },
+        {
+            "@id": "yle:18-268541"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Mika_Kari"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Mika_Kari"
+        },
+        {
+            "@id": "wd:Q11882565"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2479802299862210643"
+        },
+        {
+            "@id": "event:e1198016210929479703"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2833770130811570183"
+        },
+        {
+            "@id": "event:e2426167702698022919"
+        },
+        {
+            "@id": "event:e2420390577368058827"
+        },
+        {
+            "@id": "event:e1710049819769983977"
+        },
+        {
+            "@id": "event:e1387964835262936881"
+        },
+        {
+            "@id": "event:e1514320787061794891"
+        },
+        {
+            "@id": "event:e3384179972842659348"
+        },
+        {
+            "@id": "event:e1947885543517891223"
+        },
+        {
+            "@id": "event:e2739059947465351722"
+        },
+        {
+            "@id": "event:e1020623550295172482"
+        },
+        {
+            "@id": "event:e5221891826700132408"
+        },
+        {
+            "@id": "event:e2599684798804705059"
+        },
+        {
+            "@id": "event:e9762078279422187295"
+        },
+        {
+            "@id": "event:e3185529299257510387"
+        },
+        {
+            "@id": "event:e3614468216653831283"
+        },
+        {
+            "@id": "event:e2559488038949697862"
+        },
+        {
+            "@id": "event:e1698813056245143988"
+        },
+        {
+            "@id": "event:e1261085420718155927"
+        },
+        {
+            "@id": "event:e3377576047250532636"
+        },
+        {
+            "@id": "event:e7272216115111596049"
+        },
+        {
+            "@id": "event:e2008463440598489517"
+        },
+        {
+            "@id": "event:e1749992557935531924"
+        },
+        {
+            "@id": "event:e1549537262346990471"
+        },
+        {
+            "@id": "event:e2513170889509158195"
+        },
+        {
+            "@id": "event:e1115416783454259874"
+        },
+        {
+            "@id": "event:e5772818752026954525"
+        },
+        {
+            "@id": "event:e1870759748434571405"
+        },
+        {
+            "@id": "event:e2602761709801118597"
+        },
+        {
+            "@id": "event:e1077125267601074251"
+        },
+        {
+            "@id": "event:e2098237981763864899"
+        },
+        {
+            "@id": "event:e2192599820529190504"
+        },
+        {
+            "@id": "event:e2587775654088517641"
+        },
+        {
+            "@id": "event:e1589234497438394946"
+        },
+        {
+            "@id": "event:e3390520560835916163"
+        },
+        {
+            "@id": "event:e2091580984572812994"
+        },
+        {
+            "@id": "event:e1137762381906225030"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Kari, Mika (1967-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "1133",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

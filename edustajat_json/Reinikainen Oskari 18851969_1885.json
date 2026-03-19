@@ -1,0 +1,298 @@
+{
+    "@id": "people:p911347",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Reinikainen, Oskar (Oskari) Brynolf"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911347.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1919-04-01_1919-04-01_1945-04-05_1945-04-05"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "lääketieteen lisensiaatti, pääjohtaja, professori"
+    },
+    "semparl:end_of_representative_period_text": "05.04.1945",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1945-04-05_1945-04-05"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1115"
+        },
+        {
+            "@id": "occupations:o54"
+        },
+        {
+            "@id": "occupations:o34"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p1561081017033793424"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911347"
+    },
+    "xl:altLabel": {
+        "@id": "label:l2587882373115471852"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l3177841882160387432"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911347"
+    },
+    "semparl:sortingLabel": "reinikainen oskari",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911347"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Oskari%20Reinikainen%20%28adjusted%29.png"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911347.aspx"
+        },
+        {
+            "@id": "natbib:960"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Oskari_Reinikainen"
+        },
+        {
+            "@id": "wd:Q11885880"
+        },
+        {
+            "@id": "http://www.sotasampo.fi/fi/persons/person_2310"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p401"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e4333792453061223360"
+        },
+        {
+            "@id": "event:e2721919855751372697"
+        },
+        {
+            "@id": "event:e7587003323626197365"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2142465529563913158"
+        },
+        {
+            "@id": "event:e1130465325262307033"
+        },
+        {
+            "@id": "event:e1131894486107198376"
+        },
+        {
+            "@id": "event:e3308403792391229372"
+        },
+        {
+            "@id": "event:e6432093102138666933"
+        },
+        {
+            "@id": "event:e1056611141717714219"
+        },
+        {
+            "@id": "event:e2952504617344562861"
+        },
+        {
+            "@id": "event:e1003336132717930716"
+        },
+        {
+            "@id": "event:e6573017189756281259"
+        },
+        {
+            "@id": "event:e5753572599769796002"
+        },
+        {
+            "@id": "event:e1911912844567035407"
+        },
+        {
+            "@id": "event:e2542474083437911987"
+        },
+        {
+            "@id": "event:e1731663705140026428"
+        },
+        {
+            "@id": "event:e1426179616560109455"
+        },
+        {
+            "@id": "event:e2166685736445616344"
+        },
+        {
+            "@id": "event:e3361850959924261006"
+        },
+        {
+            "@id": "event:e2572311657091479300"
+        },
+        {
+            "@id": "event:e7912843963386351829"
+        },
+        {
+            "@id": "event:e5781200762498034903"
+        },
+        {
+            "@id": "event:e2441319972767995400"
+        },
+        {
+            "@id": "event:e2481935945285666371"
+        },
+        {
+            "@id": "event:e1980982272562152421"
+        },
+        {
+            "@id": "event:e1301828862212348673"
+        },
+        {
+            "@id": "event:e1690661544064907420"
+        },
+        {
+            "@id": "event:e1671095206898887568"
+        },
+        {
+            "@id": "event:e2356410440321924266"
+        },
+        {
+            "@id": "event:e2718350286909821772"
+        },
+        {
+            "@id": "event:e1269768605583108174"
+        },
+        {
+            "@id": "event:e2271047387692256262"
+        },
+        {
+            "@id": "event:e3170613516307352209"
+        },
+        {
+            "@id": "event:e3399229580234190842"
+        },
+        {
+            "@id": "event:e7153958423855037393"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2382074358690116705"
+        },
+        {
+            "@id": "event:e2275151887470571499"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e2576789958035553916"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2204072136158208868"
+        },
+        {
+            "@id": "event:e1530204527058423871"
+        },
+        {
+            "@id": "event:e2388228435495570753"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Reinikainen, Oskari (1885-1969)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Reinikainen, Oskar Brynolf"
+    },
+    "semparl:party": {
+        "@id": "groups:Q499029"
+    },
+    "semparl:id": "911347",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

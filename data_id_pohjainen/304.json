@@ -1,0 +1,289 @@
+{
+    "@id": "people:p304",
+    "bioc:has_family_relation": {
+        "@id": "ns1:p4468741112616853708"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Norrback, Johan Ole"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:304.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1979-03-24_1979-03-24_1987-03-20_1987-03-20"
+        },
+        {
+            "@id": "times:t_1991-03-22_1991-03-22_1999-03-23_1999-03-23"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "opettaja, suurlähettiläs"
+    },
+    "semparl:end_of_representative_period_text": "23.03.1999",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1999-03-23_1999-03-23"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o316"
+        },
+        {
+            "@id": "occupations:o82"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2658459698625886571"
+    },
+    "xl:altLabel": {
+        "@id": "label:l7157442288895079248"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2650759876826676740"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=304"
+    },
+    "semparl:sortingLabel": "norrback ole",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b304"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Nordiskt%20statsministermote%20under%20Nordiska%20radets%20session%20i%20Helsingfors%20%284%29.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:304.aspx"
+        },
+        {
+            "@id": "viaf:33822679"
+        },
+        {
+            "@id": "natbib:4066"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Ole_Norrback"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Ole_Norrback"
+        },
+        {
+            "@id": "wd:Q6017325"
+        },
+        {
+            "@id": "finaf:000108918"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p6412"
+        }
+    ],
+    "semparl:has_education": {
+        "@id": "event:e2064020199240024195"
+    },
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e9691872181728282605"
+        },
+        {
+            "@id": "event:e8662331760238211060"
+        },
+        {
+            "@id": "event:e3400695282607518804"
+        },
+        {
+            "@id": "event:e3357852281826331692"
+        },
+        {
+            "@id": "event:e2910137040784881153"
+        },
+        {
+            "@id": "event:e2208662168565782901"
+        },
+        {
+            "@id": "event:e2080289947485420472"
+        },
+        {
+            "@id": "event:e2028823996309684448"
+        },
+        {
+            "@id": "event:e1997194212163528010"
+        },
+        {
+            "@id": "event:e1553095978898623700"
+        },
+        {
+            "@id": "event:e1503163823624644400"
+        },
+        {
+            "@id": "event:e1500488306061980738"
+        },
+        {
+            "@id": "event:e1376342003181685322"
+        },
+        {
+            "@id": "event:e1245952362537168874"
+        },
+        {
+            "@id": "event:e2703132314500453070"
+        },
+        {
+            "@id": "event:e1589412911154475586"
+        },
+        {
+            "@id": "event:e1233683483589936205"
+        },
+        {
+            "@id": "event:e3103750328750841569"
+        },
+        {
+            "@id": "event:e2779614991772522504"
+        },
+        {
+            "@id": "event:e4215854363035739716"
+        },
+        {
+            "@id": "event:e7480661281681433070"
+        },
+        {
+            "@id": "event:e3180303208923099473"
+        },
+        {
+            "@id": "event:e1334653999575083566"
+        },
+        {
+            "@id": "event:e1124370979840021363"
+        },
+        {
+            "@id": "event:e1049958960119695254"
+        },
+        {
+            "@id": "event:e6411343217949580984"
+        },
+        {
+            "@id": "event:e2684319017458728439"
+        },
+        {
+            "@id": "event:e1009593357841512140"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e2059629245360850350"
+        },
+        {
+            "@id": "event:e4068583476206592547"
+        },
+        {
+            "@id": "event:e2088467462879430093"
+        },
+        {
+            "@id": "event:e2538634919402015792"
+        },
+        {
+            "@id": "event:e2237361912988847705"
+        },
+        {
+            "@id": "event:e1622433585709997483"
+        },
+        {
+            "@id": "event:e2338595750827582946"
+        },
+        {
+            "@id": "event:e8362092490537370265"
+        },
+        {
+            "@id": "event:e1384693450352669259"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Norrback, Ole (1941-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Norrback, Johan Ole"
+    },
+    "semparl:party": {
+        "@id": "groups:Q845537"
+    },
+    "semparl:id": "304",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

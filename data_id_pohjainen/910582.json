@@ -1,0 +1,327 @@
+{
+    "@id": "people:p910582",
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Inkilä(v:een 1906 Mannelin), Arvo Verner Oskar"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:910582.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1933-09-01_1933-09-01_1939-08-31_1939-08-31"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "filosofian kandidaatti, työväenopiston johtaja, kouluneuvos"
+    },
+    "semparl:end_of_representative_period_text": "31.08.1939",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1939-08-31_1939-08-31"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o1281"
+        },
+        {
+            "@id": "occupations:o1074"
+        },
+        {
+            "@id": "occupations:o50"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2966591136910849791"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d910582"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l4754412574331019660"
+        },
+        {
+            "@id": "label:l3066883667604470269"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l2908882291883077174"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=910582"
+    },
+    "semparl:sortingLabel": "inkilä arvo",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b910582"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:910582.aspx"
+        },
+        {
+            "@id": "viaf:61216739"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Arvo_Inkil%C3%A4"
+        },
+        {
+            "@id": "wd:Q11852987"
+        },
+        {
+            "@id": "finaf:000077872"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2469452198845140686"
+        },
+        {
+            "@id": "event:e2167102747253408398"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3938001079282817924"
+        },
+        {
+            "@id": "event:e3034357737233511838"
+        },
+        {
+            "@id": "event:e1428860492468617460"
+        },
+        {
+            "@id": "event:e9188300346413551175"
+        },
+        {
+            "@id": "event:e3313513305901486878"
+        },
+        {
+            "@id": "event:e7430927449305276554"
+        },
+        {
+            "@id": "event:e2961470043669073259"
+        },
+        {
+            "@id": "event:e7848768642266354981"
+        },
+        {
+            "@id": "event:e2522854204976796554"
+        },
+        {
+            "@id": "event:e1692175570828024217"
+        },
+        {
+            "@id": "event:e2747733979866632750"
+        },
+        {
+            "@id": "event:e1265267856794348627"
+        },
+        {
+            "@id": "event:e2207383459732312166"
+        },
+        {
+            "@id": "event:e2409832430118470299"
+        },
+        {
+            "@id": "event:e7344258511267107615"
+        },
+        {
+            "@id": "event:e1751200722144030468"
+        },
+        {
+            "@id": "event:e2850709714302475120"
+        },
+        {
+            "@id": "event:e1010803975288394000"
+        },
+        {
+            "@id": "event:e3377443591342932947"
+        },
+        {
+            "@id": "event:e2942061550764967404"
+        },
+        {
+            "@id": "event:e1657158466881821767"
+        },
+        {
+            "@id": "event:e2346404050520829523"
+        },
+        {
+            "@id": "event:e2892181337185671955"
+        },
+        {
+            "@id": "event:e8683148845290336344"
+        },
+        {
+            "@id": "event:e2770678487672223891"
+        },
+        {
+            "@id": "event:e3367205006340846158"
+        },
+        {
+            "@id": "event:e2761621218581089744"
+        },
+        {
+            "@id": "event:e1920511091483042457"
+        },
+        {
+            "@id": "event:e6587508578386751601"
+        },
+        {
+            "@id": "event:e2222579929047663579"
+        },
+        {
+            "@id": "event:e5636927928005870365"
+        },
+        {
+            "@id": "event:e1902325947348426123"
+        },
+        {
+            "@id": "event:e3345620226532929588"
+        },
+        {
+            "@id": "event:e1435414535326376413"
+        },
+        {
+            "@id": "event:e2273462624080306454"
+        },
+        {
+            "@id": "event:e6317106981994178500"
+        },
+        {
+            "@id": "event:e3214390847163049315"
+        },
+        {
+            "@id": "event:e4729105241636749115"
+        },
+        {
+            "@id": "event:e2683070124962995059"
+        },
+        {
+            "@id": "event:e3395474816192854564"
+        },
+        {
+            "@id": "event:e1992503692995080996"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e2306486097951625990"
+        },
+        {
+            "@id": "event:e2150318776214735085"
+        },
+        {
+            "@id": "event:e2496693724975800767"
+        },
+        {
+            "@id": "event:e2860567163096925327"
+        },
+        {
+            "@id": "event:e5079988811888662827"
+        },
+        {
+            "@id": "event:e2030764516669239209"
+        },
+        {
+            "@id": "event:e1873084830402969231"
+        },
+        {
+            "@id": "event:e1473503893607940982"
+        },
+        {
+            "@id": "event:e1045666400383234618"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Inkilä, Arvo (1881-1965)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Mannelin, Arvo Verner Oskar"
+        },
+        {
+            "@language": "fi",
+            "@value": "Inkilä, Arvo Verner Oskar"
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q1191102"
+    },
+    "semparl:id": "910582",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

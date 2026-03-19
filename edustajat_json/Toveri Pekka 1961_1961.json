@@ -1,0 +1,282 @@
+{
+    "@id": "people:p1494",
+    "semparl:home_location_text": {
+        "@language": "fi",
+        "@value": "Tuusula"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:1494.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_2023-04-05_2023-04-05__"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "kenraalimajuri evp., yrittäjä"
+    },
+    "bioc:has_occupation": {
+        "@id": "occupations:o355"
+    },
+    "semparl:has_party_membership": {
+        "@id": "event:p2481778502184293924"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l1849179104354796270"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=1494"
+    },
+    "semparl:sortingLabel": "toveri pekka",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b1494"
+    },
+    "crm:P74_has_current_or_former_residence": {
+        "@id": "http://sws.geonames.org/633591/"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Pekka%20Toveri.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:1494.aspx"
+        },
+        {
+            "@id": "viaf:33749187"
+        },
+        {
+            "@id": "twitter:PToveri"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Pekka_Toveri"
+        },
+        {
+            "@id": "https://commons.wikimedia.org/wiki/Category:Pekka_Toveri"
+        },
+        {
+            "@id": "wd:Q67206923"
+        },
+        {
+            "@id": "finaf:000085237"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2393717768915180697"
+        },
+        {
+            "@id": "event:e8998927324587231645"
+        },
+        {
+            "@id": "event:e8859375950515941216"
+        },
+        {
+            "@id": "event:e3116775625403287387"
+        },
+        {
+            "@id": "event:e4334695679945753189"
+        },
+        {
+            "@id": "event:e2641428973817588521"
+        },
+        {
+            "@id": "event:e2692505648323963476"
+        },
+        {
+            "@id": "event:e2010266232213453182"
+        },
+        {
+            "@id": "event:e8963063026366528962"
+        },
+        {
+            "@id": "event:e5146545670020739006"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e2172471170649000102"
+        },
+        {
+            "@id": "event:e1941048009992460193"
+        },
+        {
+            "@id": "event:e1306085954424980732"
+        },
+        {
+            "@id": "event:e3369840356615474168"
+        },
+        {
+            "@id": "event:e2995441034036289294"
+        },
+        {
+            "@id": "event:e1891217085421263096"
+        },
+        {
+            "@id": "event:e1809552140305235824"
+        },
+        {
+            "@id": "event:e2697803195148061986"
+        },
+        {
+            "@id": "event:e3923499324382326196"
+        },
+        {
+            "@id": "event:e1697567342554538837"
+        },
+        {
+            "@id": "event:e4687931361291187175"
+        },
+        {
+            "@id": "event:e2616026993520363284"
+        },
+        {
+            "@id": "event:e1155506732887394422"
+        },
+        {
+            "@id": "event:e1070339821442164197"
+        },
+        {
+            "@id": "event:e1523736864453327852"
+        },
+        {
+            "@id": "event:e1748888949951328523"
+        },
+        {
+            "@id": "event:e1591257736395860667"
+        },
+        {
+            "@id": "event:e1210789828020346754"
+        },
+        {
+            "@id": "event:e1088399489747166229"
+        },
+        {
+            "@id": "event:e8888329488007811516"
+        },
+        {
+            "@id": "event:e1286907099998353922"
+        },
+        {
+            "@id": "event:e2258274408335360301"
+        },
+        {
+            "@id": "event:e6635498679260351616"
+        },
+        {
+            "@id": "event:e2285838087344880664"
+        },
+        {
+            "@id": "event:e1551427709736687935"
+        },
+        {
+            "@id": "event:e2526972284209373834"
+        },
+        {
+            "@id": "event:e2312316392008148140"
+        },
+        {
+            "@id": "event:e1156137346854668905"
+        },
+        {
+            "@id": "event:e1082997671383099350"
+        },
+        {
+            "@id": "event:e2444947927477620896"
+        },
+        {
+            "@id": "event:e2442521875013503803"
+        },
+        {
+            "@id": "event:e2074178499727348012"
+        },
+        {
+            "@id": "event:e3114482479002738492"
+        },
+        {
+            "@id": "event:e1282272512338303119"
+        },
+        {
+            "@id": "event:e2542236725652347866"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Toveri, Pekka (1961-)"
+    },
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "1494",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

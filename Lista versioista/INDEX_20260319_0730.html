@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POLITIIKKAPÖRSSI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg-deep:     #03050f;
+      --bg-panel:    #080d1f;
+      --bg-card:     #0b1128;
+      --border:      #1a2a55;
+      --glow-cyan:   #00f5ff;
+      --glow-pink:   #ff007a;
+      --glow-green:  #39ff14;
+      --text-primary:#e8f4ff;
+      --text-muted:  #5a7a99;
+      --accent:      #00d4ff;
+
+      /* Puoluevärit */
+      --kok:   #003580;
+      --ps:    #ffd700;
+      --sdp:   #cc0000;
+      --kesk:  #007a3d;
+      --vihr:  #39c639;
+      --vas:   #c8001e;
+      --rkp:   #ffd700;
+      --kd:    #003c8f;
+      --liik:  #6a0dad;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 16px;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── Taustakuvio ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0,212,255,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,212,255,.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: relative;
+      text-align: center;
+      padding: 3rem 1rem 2.5rem;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% -20%, rgba(0,212,255,.18), transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-eyebrow {
+      font-family: 'Orbitron', monospace;
+      font-size: .65rem;
+      letter-spacing: .35em;
+      color: var(--glow-cyan);
+      text-transform: uppercase;
+      margin-bottom: .75rem;
+      opacity: .8;
+    }
+
+    h1 {
+      font-family: 'Orbitron', monospace;
+      font-size: clamp(2rem, 6vw, 4.5rem);
+      font-weight: 900;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #fff 10%, var(--glow-cyan) 55%, var(--glow-pink) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 0 24px rgba(0,212,255,.4));
+      line-height: 1.05;
+    }
+
+    .header-sub {
+      margin-top: .9rem;
+      font-size: .95rem;
+      letter-spacing: .15em;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Scanline dekoratiivinen viiva otsikossa */
+    .scanline {
+      display: block;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--glow-cyan), var(--glow-pink), transparent);
+      margin: 1.4rem auto 0;
+      width: 60%;
+      opacity: .6;
+      animation: pulse-line 3s ease-in-out infinite;
+    }
+    @keyframes pulse-line {
+      0%,100% { opacity:.3; } 50% { opacity:.9; }
+    }
+
+    /* ── TOOLBAR ── */
+    .toolbar {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .75rem;
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid var(--border);
+      background: rgba(8,13,31,.7);
+      backdrop-filter: blur(6px);
+    }
+
+    .toolbar label {
+      font-size: .8rem;
+      letter-spacing: .12em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    #searchInput {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text-primary);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: .95rem;
+      padding: .5rem .9rem;
+      width: 220px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    #searchInput:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 10px rgba(0,212,255,.25);
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text-muted);
+      font-family: 'Rajdhani', sans-serif;
+      font-size: .8rem;
+      letter-spacing: .1em;
+      padding: .4rem .85rem;
+      cursor: pointer;
+      transition: all .2s;
+      text-transform: uppercase;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: 0 0 8px rgba(0,212,255,.2);
+    }
+
+    .count-badge {
+      margin-left: auto;
+      font-size: .78rem;
+      letter-spacing: .12em;
+      color: var(--text-muted);
+    }
+
+    /* ── GRID ── */
+    main {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* ── CARD ── */
+    .card {
+      position: relative;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0;
+      cursor: pointer;
+      overflow: hidden;
+      transition: transform .25s, box-shadow .25s, border-color .25s;
+      animation: fadeIn .4s ease both;
+    }
+    @keyframes fadeIn {
+      from { opacity:0; transform: translateY(14px); }
+      to   { opacity:1; transform: translateY(0); }
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.015);
+      box-shadow: 0 8px 32px rgba(0,0,0,.6), 0 0 18px var(--party-glow, rgba(0,212,255,.25));
+      border-color: var(--party-color, var(--accent));
+    }
+
+    /* Yläpalkki puoluevärillä */
+    .card-topbar {
+      height: 4px;
+      background: var(--party-color, var(--accent));
+      box-shadow: 0 0 12px var(--party-color, var(--accent));
+    }
+
+    .card-body { padding: 1.1rem 1.2rem 1.2rem; }
+
+    .card-party-tag {
+      display: inline-block;
+      font-size: .65rem;
+      letter-spacing: .18em;
+      padding: .2rem .6rem;
+      border-radius: 2px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--party-color, var(--border));
+      color: var(--party-color, var(--text-muted));
+      text-transform: uppercase;
+      margin-bottom: .6rem;
+    }
+
+    .card-name {
+      font-family: 'Orbitron', monospace;
+      font-size: .88rem;
+      font-weight: 700;
+      letter-spacing: .05em;
+      line-height: 1.3;
+      color: var(--text-primary);
+      margin-bottom: .45rem;
+    }
+
+    .card-meta {
+      font-size: .78rem;
+      color: var(--text-muted);
+      letter-spacing: .05em;
+    }
+
+    .card-arrow {
+      position: absolute;
+      bottom: .9rem;
+      right: 1rem;
+      font-size: .7rem;
+      letter-spacing: .1em;
+      color: var(--party-color, var(--accent));
+      opacity: 0;
+      transition: opacity .2s, transform .2s;
+    }
+    .card:hover .card-arrow { opacity:1; transform: translateX(4px); }
+
+    /* ── MODAL OVERLAY ── */
+    #modalOverlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.78);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .25s;
+    }
+    #modalOverlay.open {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    /* ── MODAL BOX ── */
+    #modalBox {
+      position: relative;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      width: min(560px, 94vw);
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 0 60px rgba(0,0,0,.8), 0 0 30px rgba(0,212,255,.1);
+      transform: translateY(20px) scale(.97);
+      transition: transform .28s;
+    }
+    #modalOverlay.open #modalBox {
+      transform: translateY(0) scale(1);
+    }
+
+    .modal-topbar {
+      height: 3px;
+      background: linear-gradient(90deg, var(--glow-cyan), var(--glow-pink));
+    }
+
+    #modalContent {
+      padding: 2rem 2rem 2.5rem;
+    }
+
+    .modal-label {
+      font-size: .7rem;
+      letter-spacing: .22em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: .2rem;
+    }
+    .modal-party-tag {
+      display: inline-block;
+      font-size: .72rem;
+      letter-spacing: .16em;
+      padding: .25rem .7rem;
+      border-radius: 3px;
+      background: rgba(255,255,255,.05);
+      border: 1px solid var(--modal-party-color, var(--border));
+      color: var(--modal-party-color, var(--text-muted));
+      text-transform: uppercase;
+      margin-bottom: .9rem;
+    }
+    .modal-name {
+      font-family: 'Orbitron', monospace;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--text-primary);
+      margin-bottom: 1.5rem;
+      letter-spacing: .04em;
+    }
+
+    .modal-divider {
+      height: 1px;
+      background: linear-gradient(90deg, var(--modal-party-color, var(--accent)), transparent);
+      margin: 1.25rem 0;
+      opacity: .5;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 1.5rem;
+    }
+
+    .detail-item {}
+    .detail-item .d-label {
+      font-size: .7rem;
+      letter-spacing: .18em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: .2rem;
+    }
+    .detail-item .d-value {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: .04em;
+    }
+
+    .puheenvuorot-bar {
+      margin-top: 1.5rem;
+    }
+    .puheenvuorot-bar .d-label {
+      font-size: .7rem;
+      letter-spacing: .18em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: .5rem;
+    }
+    .bar-track {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      height: 10px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--modal-party-color, var(--accent)), var(--glow-cyan));
+      box-shadow: 0 0 8px var(--modal-party-color, var(--accent));
+      border-radius: 4px;
+      transition: width .7s cubic-bezier(.4,0,.2,1);
+      width: 0%;
+    }
+    .bar-count {
+      font-family: 'Orbitron', monospace;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--modal-party-color, var(--accent));
+      margin-top: .4rem;
+    }
+
+    /* Loading / error */
+    .modal-loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 2rem 0;
+      color: var(--text-muted);
+      font-size: .9rem;
+      letter-spacing: .1em;
+    }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 2px solid var(--border);
+      border-top-color: var(--glow-cyan);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Sulje-nappi */
+    #closeBtn {
+      position: absolute;
+      top: .85rem;
+      right: 1rem;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-family: 'Orbitron', monospace;
+      font-size: .65rem;
+      letter-spacing: .15em;
+      padding: .3rem .65rem;
+      transition: all .2s;
+    }
+    #closeBtn:hover {
+      border-color: var(--glow-pink);
+      color: var(--glow-pink);
+      box-shadow: 0 0 8px rgba(255,0,122,.3);
+    }
+
+    /* ── EMPTY STATE ── */
+    .empty-state {
+      grid-column: 1/-1;
+      text-align: center;
+      padding: 5rem 1rem;
+      color: var(--text-muted);
+    }
+    .empty-state span {
+      font-family: 'Orbitron', monospace;
+      font-size: 2rem;
+      display: block;
+      margin-bottom: .5rem;
+      opacity: .3;
+    }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+    /* ── FOOTER ── */
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: .72rem;
+      letter-spacing: .12em;
+      color: var(--text-muted);
+    }
+    footer strong { color: var(--accent); }
+
+    @media (max-width: 600px) {
+      main { padding: 1rem; gap: .85rem; }
+      .detail-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-eyebrow">Suomen eduskunta · 2023–2027</div>
+  <h1>Politiikkapörssi</h1>
+  <div class="header-sub">KANSANEDUSTAJIEN TIETOKANTA // BETA v0.1</div>
+  <span class="scanline"></span>
+</header>
+
+<!-- TOOLBAR -->
+<div class="toolbar">
+  <label for="searchInput">Haku:</label>
+  <input id="searchInput" type="text" placeholder="Nimi tai puolue…" autocomplete="off"/>
+
+  <button class="filter-btn active" data-puolue="">Kaikki</button>
+  <button class="filter-btn" data-puolue="KOK">KOK</button>
+  <button class="filter-btn" data-puolue="PS">PS</button>
+  <button class="filter-btn" data-puolue="SDP">SDP</button>
+  <button class="filter-btn" data-puolue="KESK">KESK</button>
+  <button class="filter-btn" data-puolue="VIHR">VIHR</button>
+  <button class="filter-btn" data-puolue="VAS">VAS</button>
+
+  <span class="count-badge" id="countBadge"></span>
+</div>
+
+<!-- KORTTINÄKYMÄ -->
+<main id="grid"></main>
+
+<!-- MODAL -->
+<div id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalName">
+  <div id="modalBox">
+    <div class="modal-topbar"></div>
+    <button id="closeBtn" onclick="closeTTLProfile()" aria-label="Sulje">ESC ✕</button>
+    <div id="modalContent">
+      <!-- sisältö täytetään JS:llä -->
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <strong>POLITIIKKAPÖRSSI</strong> &mdash; Testidata. Ei virallinen lähde.
+  Tiedot haetaan <code>data/poliitikot/[etunimi-sukunimi].json</code>
+</footer>
+
+<script>
+/* ================================================================
+   EDUSTAJADATA  (testilista – korvaa isommalla listalla tarvittaessa)
+   ================================================================ */
+const EDUSTAJAT = [
+  { nimi: "Aino-Kaisa Pekonen",     puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Anders Adlercreutz",     puolue: "RKP",  vaalipiiri: "–" },
+  { nimi: "Anna-Maja Henriksson",   puolue: "RKP",  vaalipiiri: "–" },
+  { nimi: "Annika Saarikko",        puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Antti Kaikkonen",        puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Antti Kurvinen",         puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Antti Lindtman",         puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Atte Harjanne",          puolue: "VIHR", vaalipiiri: "–" },
+  { nimi: "Aura Salla",             puolue: "KOK",  vaalipiiri: "–" },
+  { nimi: "Eeva Kalli",             puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Hanna Räsänen",          puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Hanna Sarkkinen",        puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Jani Mäkelä",            puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Jenni Pitko",            puolue: "VIHR", vaalipiiri: "–" },
+  { nimi: "Joakim Vigelius",        puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Johanna Ojala-Niemelä",  puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Johannes Yrttiaho",      puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Jouni Ovaska",           puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Jukka Kopra",            puolue: "KOK",  vaalipiiri: "–" },
+  { nimi: "Jussi Saramo",           puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Kai Mykkänen",           puolue: "KOK",  vaalipiiri: "–" },
+  { nimi: "Katri Kulmuni",          puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Kim Berg",               puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Krista Kiuru",           puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Krista Mikkonen",        puolue: "VIHR", vaalipiiri: "–" },
+  { nimi: "Li Andersson",           puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Lulu Ranne",             puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Mari Rantanen",          puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Maria Guzenina",         puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Maria Ohisalo",          puolue: "VIHR", vaalipiiri: "–" },
+  { nimi: "Merja Kyllönen",         puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Miapetra Kumpula-Natri", puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Mika Lintilä",           puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Pekka Aittakumpu",       puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Pekka Haavisto",         puolue: "VIHR", vaalipiiri: "–" },
+  { nimi: "Pekka Toveri",           puolue: "KOK",  vaalipiiri: "–" },
+  { nimi: "Petri Honkonen",         puolue: "KESK", vaalipiiri: "–" },
+  { nimi: "Pia Kauma",              puolue: "KOK",  vaalipiiri: "–" },
+  { nimi: "Pia Lohikoski",          puolue: "VAS",  vaalipiiri: "–" },
+  { nimi: "Päivi Räsänen",          puolue: "KD",   vaalipiiri: "–" },
+  { nimi: "Saara Hyrkkö",           puolue: "VIHR", vaalipiiri: "–" },
+  { nimi: "Sandra Bergqvist",       puolue: "RKP",  vaalipiiri: "–" },
+  { nimi: "Sanna Antikainen",       puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Sanna Marin",            puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Sari Sarkomaa",          puolue: "KOK",  vaalipiiri: "–" },
+  { nimi: "Sebastian Tynkkynen",    puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Timo Harakka",           puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Timo Vornanen",          puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Tuula Haatainen",        puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Tytti Tuppurainen",      puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Vilhelm Junnila",        puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Ville Skinnari",         puolue: "SDP",  vaalipiiri: "–" },
+  { nimi: "Ville Tavio",            puolue: "PS",   vaalipiiri: "–" },
+  { nimi: "Wille Rydman",           puolue: "PS",   vaalipiiri: "–" },
+];
+
+/* ================================================================
+   PUOLUEVÄRIT
+   ================================================================ */
+const PUOLUEVARIT = {
+  KOK:  "#1a6fd8",
+  PS:   "#f5c400",
+  SDP:  "#e01010",
+  KESK: "#009b50",
+  VIHR: "#3ec63e",
+  VAS:  "#d00020",
+  RKP:  "#f5c400",
+  KD:   "#1040b0",
+  LIIK: "#8a25cc",
+};
+
+function puolueVari(p) {
+  return PUOLUEVARIT[p] || "#00d4ff";
+}
+
+/* ================================================================
+   APUFUNKTIOT
+   ================================================================ */
+function nimiToId(nimi) {
+  return nimi
+    .toLowerCase()
+    .replace(/ä/g, "a").replace(/ö/g, "o").replace(/å/g, "a")
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-]/g, "");
+}
+
+/* ================================================================
+   RENDERÖINTI
+   ================================================================ */
+let aktiivisuusPuolue = "";
+
+function renderEdustajat(lista) {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  if (lista.length === 0) {
+    grid.innerHTML = `<div class="empty-state"><span>∅</span>Ei hakutuloksia</div>`;
+    document.getElementById("countBadge").textContent = "";
+    return;
+  }
+
+  document.getElementById("countBadge").textContent =
+    `${lista.length} / ${EDUSTAJAT.length} edustajaa`;
+
+  lista.forEach((m, i) => {
+    const vari = puolueVari(m.puolue);
+    const card = document.createElement("div");
+    card.className = "card";
+    card.style.setProperty("--party-color", vari);
+    card.style.setProperty("--party-glow", vari + "55");
+    card.style.animationDelay = `${i * 45}ms`;
+    card.setAttribute("role", "button");
+    card.setAttribute("tabindex", "0");
+    card.setAttribute("aria-label", `${m.nimi}, ${m.puolue}`);
+    card.innerHTML = `
+      <div class="card-topbar"></div>
+      <div class="card-body">
+        <div class="card-party-tag">${m.puolue}</div>
+        <div class="card-name">${m.nimi}</div>
+        <div class="card-meta">${m.vaalipiiri}</div>
+      </div>
+      <div class="card-arrow">AVAA →</div>
+    `;
+    card.addEventListener("click", () => openTTLProfile(m));
+    card.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") openTTLProfile(m); });
+    grid.appendChild(card);
+  });
+}
+
+/* ================================================================
+   SEMPARL JSON -PARSERI
+   Lukee oikeat kentät edustaja_json/-tiedostoista
+   ================================================================ */
+function parseSemparl(raw, korttiData) {
+  // Koulutus / ammatti: semparl:occupation_text
+  const koulutus = raw["semparl:occupation_text"]?.["@value"] || "–";
+
+  // Kotikunta: semparl:home_location_text
+  const kotikunta = raw["semparl:home_location_text"]?.["@value"] || korttiData.vaalipiiri || "–";
+
+  // Vaalikaudet: lasketaan semparl:representative_period -kentästä
+  const rp = raw["semparl:representative_period"];
+  const vaalikaudet = Array.isArray(rp) ? rp.length : (rp ? 1 : "–");
+
+  // Edustuskausi päättynyt?
+  const paaattynyt = raw["semparl:end_of_representative_period_text"] || null;
+
+  // Kuva
+  const kuva = raw["sch:image"]?.["@id"] || null;
+
+  // Linkit
+  const sameAs = raw["sch:sameAs"] || [];
+  const wikiLink   = sameAs.find(s => s["@id"]?.includes("fi.wikipedia.org"))?.["@id"] || null;
+  const twitterId  = sameAs.find(s => s["@id"]?.startsWith("twitter:"))?.["@id"]?.replace("twitter:", "") || null;
+  const eduskuntaId = raw["semparl:id"] || null;
+  const eduskuntaLink = eduskuntaId
+    ? `https://www.eduskunta.fi/FI/kansanedustajat/Sivut/${eduskuntaId}.aspx`
+    : null;
+
+  return { koulutus, kotikunta, vaalikaudet, paaattynyt, kuva, wikiLink, twitterId, eduskuntaLink };
+}
+
+/* ================================================================
+   RAKENNA TIEDOSTONIMIKOKEILU-LISTA nimestä
+   Formaatti: Sukunimi_EtunimiIlmanVäliviivoja_vuosi_vuosi.json
+   Esim. "Aino-Kaisa Pekonen" -> Pekonen_AinoKaisa_1979_1979.json
+   ================================================================ */
+function rakennaTiedostokokeilut(m) {
+  if (m.tiedosto) return [`edustaja_json/${m.tiedosto}`];
+
+  const osat     = m.nimi.trim().split(/\s+/);
+  const sukuNimi = osat[osat.length - 1];
+
+  // Etunimet: kaksi varianttia – väliviivat poistettuna ja säilytettynä
+  const etuNimetRaw = osat.slice(0, -1);
+  const etuV1 = etuNimetRaw.map(n => n.replace(/-/g, "")).join("_"); // AinoKaisa
+  const etuV2 = etuNimetRaw.join("_");                                // Aino-Kaisa
+
+  const kokeet = [];
+  for (let v = 1935; v <= 1995; v++) {
+    kokeet.push(`edustaja_json/${sukuNimi}_${etuV1}_${v}_${v}.json`);
+    if (etuV2 !== etuV1)
+      kokeet.push(`edustaja_json/${sukuNimi}_${etuV2}_${v}_${v}.json`);
+  }
+  return kokeet;
+}
+
+/* ================================================================
+   MODAL – avaa
+   ================================================================ */
+async function openTTLProfile(m) {
+  const overlay = document.getElementById("modalOverlay");
+  const content = document.getElementById("modalContent");
+  const vari    = puolueVari(m.puolue);
+
+  overlay.style.setProperty("--modal-party-color", vari);
+  document.documentElement.style.setProperty("--modal-party-color", vari);
+  overlay.classList.add("open");
+  document.body.style.overflow = "hidden";
+
+  content.innerHTML = `
+    <div class="modal-loading">
+      <div class="spinner"></div>
+      <div>HAETAAN PROFIILIA…</div>
+      <div style="font-size:.75rem;opacity:.5;letter-spacing:.1em">${m.nimi}</div>
+    </div>
+  `;
+
+  const kokeilut = rakennaTiedostokokeilut(m);
+  let raw = null;
+  for (const url of kokeilut) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) { raw = await res.json(); break; }
+    } catch (_) {}
+  }
+
+  if (raw) {
+    const parsed = parseSemparl(raw, m);
+    renderModalContent(m, parsed, vari);
+  } else {
+    renderModalFallback(m, vari);
+  }
+}
+
+/* ── Onnistunut lataus ── */
+function renderModalContent(m, d, vari) {
+  const content = document.getElementById("modalContent");
+
+  const kuvaHtml = d.kuva
+    ? `<img src="${d.kuva}" alt="${m.nimi}"
+         onerror="this.style.display='none'"
+         style="width:70px;height:86px;object-fit:cover;border-radius:3px;
+                border:1px solid ${vari};float:right;margin:0 0 .5rem 1rem;">`
+    : "";
+
+  const linkit = [];
+  if (d.eduskuntaLink) linkit.push(`<a href="${d.eduskuntaLink}" target="_blank" rel="noopener"
+    style="color:${vari};font-size:.75rem;letter-spacing:.1em;text-decoration:none;
+           border:1px solid ${vari}55;padding:.2rem .55rem;border-radius:3px;">EDUSKUNTA.FI ↗</a>`);
+  if (d.wikiLink) linkit.push(`<a href="${d.wikiLink}" target="_blank" rel="noopener"
+    style="color:#aaa;font-size:.75rem;letter-spacing:.1em;text-decoration:none;
+           border:1px solid #aaa4;padding:.2rem .55rem;border-radius:3px;">WIKIPEDIA ↗</a>`);
+  if (d.twitterId) linkit.push(`<a href="https://twitter.com/${d.twitterId}" target="_blank" rel="noopener"
+    style="color:#1d9bf0;font-size:.75rem;letter-spacing:.1em;text-decoration:none;
+           border:1px solid #1d9bf044;padding:.2rem .55rem;border-radius:3px;">TWITTER ↗</a>`);
+
+  content.innerHTML = `
+    <div class="modal-label">Kansanedustaja · ${m.puolue}</div>
+    <div class="modal-party-tag" style="--modal-party-color:${vari}">${m.puolue}</div>
+    ${kuvaHtml}
+    <div class="modal-name" id="modalName">${m.nimi}</div>
+    <div class="modal-divider"></div>
+    <div class="detail-grid">
+      <div class="detail-item">
+        <div class="d-label">Koulutus / tutkinto</div>
+        <div class="d-value">${d.koulutus}</div>
+      </div>
+      <div class="detail-item">
+        <div class="d-label">Kotikunta</div>
+        <div class="d-value">${d.kotikunta}</div>
+      </div>
+      <div class="detail-item">
+        <div class="d-label">Vaalikaudet</div>
+        <div class="d-value">${d.vaalikaudet}</div>
+      </div>
+      <div class="detail-item">
+        <div class="d-label">Edustuskausi</div>
+        <div class="d-value" style="color:${d.paaattynyt ? '#f5a623' : '#3ec63e'}">
+          ${d.paaattynyt ? `päättyi ${d.paaattynyt}` : "aktiivinen"}
+        </div>
+      </div>
+    </div>
+    ${linkit.length ? `<div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1.25rem;">${linkit.join("")}</div>` : ""}
+  `;
+}
+
+/* ── Fallback – JSON ei löydy ── */
+function renderModalFallback(m, vari) {
+  const content = document.getElementById("modalContent");
+  content.innerHTML = `
+    <div class="modal-label">Kansanedustaja · ${m.puolue}</div>
+    <div class="modal-party-tag" style="--modal-party-color:${vari}">${m.puolue}</div>
+    <div class="modal-name" id="modalName">${m.nimi}</div>
+    <div style="background:rgba(255,200,0,.07);border:1px solid rgba(255,200,0,.2);
+         border-radius:4px;padding:.7rem 1rem;margin-top:1rem;
+         font-size:.8rem;letter-spacing:.08em;color:#c8a800;line-height:1.6;">
+      JSON-profiilia ei löydy kansiosta <code>edustaja_json/</code>.<br>
+      Varmista että tiedosto on muodossa <code>Sukunimi_Etunimi_vuosi_vuosi.json</code>.
+    </div>
+  `;
+}
+
+/* ================================================================
+   MODAL – sulje
+   ================================================================ */
+function closeTTLProfile() {
+  document.getElementById("modalOverlay").classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeTTLProfile();
+});
+document.getElementById("modalOverlay").addEventListener("click", e => {
+  if (e.target === document.getElementById("modalOverlay")) closeTTLProfile();
+});
+
+/* ================================================================
+   HAKU & SUODATUS
+   ================================================================ */
+function haeSuodata() {
+  const q = document.getElementById("searchInput").value.toLowerCase().trim();
+  const lista = EDUSTAJAT.filter(m => {
+    const puolueTasmaa = !aktiivisuusPuolue || m.puolue === aktiivisuusPuolue;
+    const hakuTasmaa   = !q ||
+      m.nimi.toLowerCase().includes(q) ||
+      m.puolue.toLowerCase().includes(q) ||
+      m.vaalipiiri.toLowerCase().includes(q);
+    return puolueTasmaa && hakuTasmaa;
+  });
+  renderEdustajat(lista);
+}
+
+document.getElementById("searchInput").addEventListener("input", haeSuodata);
+
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    aktiivisuusPuolue = btn.dataset.puolue;
+    haeSuodata();
+  });
+});
+
+/* ================================================================
+   KÄYNNISTÄ
+   ================================================================ */
+renderEdustajat(EDUSTAJAT);
+</script>
+</body>
+</html>

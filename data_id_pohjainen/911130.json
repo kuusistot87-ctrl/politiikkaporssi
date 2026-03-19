@@ -1,0 +1,310 @@
+{
+    "@id": "people:p911130",
+    "semparl:military_rank_text": {
+        "@language": "fi",
+        "@value": "kersantti"
+    },
+    "semparl:has_military_rank": {
+        "@id": "event:e2440855203929118390"
+    },
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Nieminen, Väinö Erkki (Väinö E.)"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911130.aspx"
+    },
+    "semparl:representative_period": {
+        "@id": "times:t_1958-07-22_1958-07-22_1966-04-04_1966-04-04"
+    },
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "agronomi, maanviljelijä, maanviljelysneuvos"
+    },
+    "semparl:end_of_representative_period_text": "04.04.1966",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1966-04-04_1966-04-04"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o272"
+        },
+        {
+            "@id": "occupations:o152"
+        },
+        {
+            "@id": "occupations:o216"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2504115166534712574"
+    },
+    "crm:P100i_died_in": {
+        "@id": "event:d911130"
+    },
+    "xl:altLabel": [
+        {
+            "@id": "label:l2272939800266620958"
+        },
+        {
+            "@id": "label:l1936731103592933903"
+        }
+    ],
+    "xl:prefLabel": {
+        "@id": "label:l8342991482048414392"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911130"
+    },
+    "semparl:sortingLabel": "nieminen väinö",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911130"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911130.aspx"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/V%C3%A4in%C3%B6_Nieminen"
+        },
+        {
+            "@id": "wd:Q42901598"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p10552"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e2853010855243748145"
+        },
+        {
+            "@id": "event:e1777954130248416075"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e3318551054124728453"
+        },
+        {
+            "@id": "event:e1635957687029149622"
+        },
+        {
+            "@id": "event:e2647611607353396709"
+        },
+        {
+            "@id": "event:e2854388327301964323"
+        },
+        {
+            "@id": "event:e3354777646075138775"
+        },
+        {
+            "@id": "event:e1081282353160039492"
+        },
+        {
+            "@id": "event:e1703931626963323164"
+        },
+        {
+            "@id": "event:e2650102751672355376"
+        },
+        {
+            "@id": "event:e1369573400899159931"
+        },
+        {
+            "@id": "event:e1859657442769083199"
+        },
+        {
+            "@id": "event:e1029020721852856727"
+        },
+        {
+            "@id": "event:e1474300833789464599"
+        },
+        {
+            "@id": "event:e2682026582826299755"
+        },
+        {
+            "@id": "event:e3221570086439855958"
+        },
+        {
+            "@id": "event:e1623751768899246723"
+        },
+        {
+            "@id": "event:e5196599809917322669"
+        },
+        {
+            "@id": "event:e3152024425209250181"
+        },
+        {
+            "@id": "event:e8665744271775114270"
+        },
+        {
+            "@id": "event:e1151919765421598070"
+        },
+        {
+            "@id": "event:e1583046305612895443"
+        },
+        {
+            "@id": "event:e1758676495817399716"
+        },
+        {
+            "@id": "event:e2888182783944517468"
+        },
+        {
+            "@id": "event:e2393639543248492829"
+        },
+        {
+            "@id": "event:e1443695144545931342"
+        },
+        {
+            "@id": "event:e2542523152600886635"
+        },
+        {
+            "@id": "event:e6596093760306894875"
+        },
+        {
+            "@id": "event:e3148689389258638439"
+        },
+        {
+            "@id": "event:e8323283956109018899"
+        },
+        {
+            "@id": "event:e3362395198030267989"
+        },
+        {
+            "@id": "event:e1513564283985450653"
+        },
+        {
+            "@id": "event:e3020839510884256441"
+        },
+        {
+            "@id": "event:e2068534612484504718"
+        },
+        {
+            "@id": "event:e6703446533731023037"
+        },
+        {
+            "@id": "event:e2694194870449423642"
+        },
+        {
+            "@id": "event:e2889770789650940882"
+        },
+        {
+            "@id": "event:e5455266807701799571"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e2932203817176724935"
+        },
+        {
+            "@id": "event:e3175951728351459214"
+        },
+        {
+            "@id": "event:e1345935171427550565"
+        },
+        {
+            "@id": "event:e2555676599024393224"
+        },
+        {
+            "@id": "event:e9706110263168482202"
+        },
+        {
+            "@id": "event:e7071969855920436292"
+        },
+        {
+            "@id": "event:e2437647329401450048"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Nieminen, Väinö (1898-1979)"
+    },
+    "skos:altLabel": [
+        {
+            "@language": "fi",
+            "@value": "Nieminen, Väinö Erkki"
+        },
+        {
+            "@language": "fi",
+            "@value": "Nieminen, Väinö E."
+        }
+    ],
+    "semparl:party": {
+        "@id": "groups:Q304191"
+    },
+    "semparl:id": "911130",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}

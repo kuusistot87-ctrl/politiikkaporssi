@@ -1,0 +1,361 @@
+{
+    "@id": "people:p911296",
+    "semparl:authored": [
+        {
+            "@id": "publications:b8664301567598093163"
+        },
+        {
+            "@id": "publications:b8417007639789538305"
+        },
+        {
+            "@id": "publications:b7352597185704207840"
+        },
+        {
+            "@id": "publications:b4221758807141381795"
+        },
+        {
+            "@id": "publications:b3334032946758146083"
+        },
+        {
+            "@id": "publications:b3178375198501391066"
+        },
+        {
+            "@id": "publications:b3143245113187031350"
+        },
+        {
+            "@id": "publications:b2689966594721924954"
+        },
+        {
+            "@id": "publications:b2362391683031992150"
+        },
+        {
+            "@id": "publications:b2069232606892495341"
+        },
+        {
+            "@id": "publications:b1341447932739423384"
+        },
+        {
+            "@id": "publications:b1294364834241724312"
+        },
+        {
+            "@id": "publications:b1282028174542688667"
+        }
+    ],
+    "skos:hiddenLabel": {
+        "@language": "fi",
+        "@value": "Pursiainen, Terho Martti"
+    },
+    "sch:relatedLink": {
+        "@id": "mps:911296.aspx"
+    },
+    "semparl:representative_period": [
+        {
+            "@id": "times:t_1979-03-24_1979-03-24_1987-03-20_1987-03-20"
+        },
+        {
+            "@id": "times:t_1970-03-23_1970-03-23_1972-01-21_1972-01-21"
+        }
+    ],
+    "semparl:occupation_text": {
+        "@language": "fi",
+        "@value": "teologian tohtori, dosentti, pastori"
+    },
+    "semparl:end_of_representative_period_text": "20.03.1987",
+    "semparl:end_of_representative_period": {
+        "@id": "times:t___1987-03-20_1987-03-20"
+    },
+    "bioc:has_occupation": [
+        {
+            "@id": "occupations:o131"
+        },
+        {
+            "@id": "occupations:o232"
+        },
+        {
+            "@id": "occupations:o26"
+        }
+    ],
+    "semparl:has_party_membership": {
+        "@id": "event:p2401053027947087759"
+    },
+    "xl:altLabel": {
+        "@id": "label:l3166968739473710463"
+    },
+    "xl:prefLabel": {
+        "@id": "label:l2196097478434703187"
+    },
+    "dct:source": {
+        "@id": "https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows?perPage=10&page=0&columnName=personId&columnValue=911296"
+    },
+    "semparl:sortingLabel": "pursiainen terho",
+    "bioc:has_gender": {
+        "@id": "sch:Male"
+    },
+    "crm:P98i_was_born": {
+        "@id": "event:b911296"
+    },
+    "sch:image": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Terho%20Pursiainen.jpg"
+    },
+    "sch:sameAs": [
+        {
+            "@id": "mps:911296.aspx"
+        },
+        {
+            "@id": "viaf:11155460"
+        },
+        {
+            "@id": "natbib:9610"
+        },
+        {
+            "@id": "https://fi.wikipedia.org/wiki/Terho_Pursiainen"
+        },
+        {
+            "@id": "wd:Q11896940"
+        },
+        {
+            "@id": "finaf:000055995"
+        },
+        {
+            "@id": "http://biografiasampo.fi/henkilo/p6315"
+        }
+    ],
+    "semparl:has_education": [
+        {
+            "@id": "event:e6103783784510008732"
+        },
+        {
+            "@id": "event:e1102390322571204486"
+        },
+        {
+            "@id": "event:e2349365846402294761"
+        },
+        {
+            "@id": "event:e6136090994671942235"
+        },
+        {
+            "@id": "event:e2394039743985373529"
+        }
+    ],
+    "bioc:bearer_of": [
+        {
+            "@id": "event:e5585295252792585709"
+        },
+        {
+            "@id": "event:e3406827016065835673"
+        },
+        {
+            "@id": "event:e7158364579827049079"
+        },
+        {
+            "@id": "event:e1386904709101994761"
+        },
+        {
+            "@id": "event:e1757837227165831988"
+        },
+        {
+            "@id": "event:e2154681424324586649"
+        },
+        {
+            "@id": "event:e3256506254824200258"
+        },
+        {
+            "@id": "event:e2081012037917289760"
+        },
+        {
+            "@id": "event:e5950457338938936733"
+        },
+        {
+            "@id": "event:e1209950262986843993"
+        },
+        {
+            "@id": "event:e2100210906835579653"
+        },
+        {
+            "@id": "event:e2140485026556043926"
+        },
+        {
+            "@id": "event:e2571343315977649991"
+        },
+        {
+            "@id": "event:e2642872051291420186"
+        },
+        {
+            "@id": "event:e3108512667364196678"
+        },
+        {
+            "@id": "event:e4796595970548842596"
+        },
+        {
+            "@id": "event:e1078547038808623334"
+        },
+        {
+            "@id": "event:e1470472378675684622"
+        },
+        {
+            "@id": "event:e3326693329098223797"
+        },
+        {
+            "@id": "event:e3216476492338146058"
+        },
+        {
+            "@id": "event:e3220141238480725636"
+        },
+        {
+            "@id": "event:e2238498019344926025"
+        },
+        {
+            "@id": "event:e4095974996136124319"
+        },
+        {
+            "@id": "event:e1426007904350795830"
+        },
+        {
+            "@id": "event:e1403205802751658119"
+        },
+        {
+            "@id": "event:e3366879118405342962"
+        },
+        {
+            "@id": "event:e4158964165084932530"
+        },
+        {
+            "@id": "event:e2003451769920270766"
+        },
+        {
+            "@id": "event:e4579970654959903339"
+        },
+        {
+            "@id": "event:e2224689399295919702"
+        },
+        {
+            "@id": "event:e1667656778977758647"
+        },
+        {
+            "@id": "event:e8677409073766241409"
+        },
+        {
+            "@id": "event:e2968152717441346077"
+        },
+        {
+            "@id": "event:e8533756592356772586"
+        },
+        {
+            "@id": "event:e2030296170743965606"
+        },
+        {
+            "@id": "event:e6753840209327638884"
+        },
+        {
+            "@id": "event:e2953132644244853047"
+        },
+        {
+            "@id": "event:e1013652107653927246"
+        },
+        {
+            "@id": "event:e9679219603752431908"
+        },
+        {
+            "@id": "event:e1888356487030398774"
+        },
+        {
+            "@id": "event:e9430217490338078804"
+        },
+        {
+            "@id": "event:e1664481113923510346"
+        },
+        {
+            "@id": "event:e2702866922306540239"
+        },
+        {
+            "@id": "event:e1052768947720693032"
+        }
+    ],
+    "@type": "bioc:Person",
+    "skos:prefLabel": {
+        "@language": "fi",
+        "@value": "Pursiainen, Terho (1945-)"
+    },
+    "skos:altLabel": {
+        "@language": "fi",
+        "@value": "Pursiainen, Terho Martti"
+    },
+    "semparl:party": [
+        {
+            "@id": "groups:Q585735"
+        },
+        {
+            "@id": "groups:Q196695"
+        }
+    ],
+    "semparl:id": "911296",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "nif": "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#",
+        "eks": "http://ldf.fi/eks/",
+        "ns1": "http://ldf.fi/semparl/relations/",
+        "spls": "http://ldf.fi/schema/semparl/linguistics/",
+        "twitter": "https://twitter.com/",
+        "yso": "http://www.yso.fi/onto/yso/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "sch": "http://schema.org/",
+        "text": "http://jena.apache.org/text#",
+        "spatial": "http://jena.apache.org/spatial#",
+        "portal": "http://ldf.fi/schema/parliamentsampo-portal/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "item": "http://ldf.fi/semparl/items/",
+        "void": "http://rdfs.org/ns/void#",
+        "committees": "http://ldf.fi/semparl/groups/committees/",
+        "eterms": "http://ldf.fi/semparl/times/electoral-terms/",
+        "ekss": "http://ldf.fi/schema/eks/",
+        "viaf": "https://viaf.org/viaf/",
+        "geo1": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "mps": "https://www.eduskunta.fi/FI/kansanedustajat/Sivut/",
+        "external": "http://ldf.fi/semparl/external/",
+        "geosparql": "http://www.opengis.net/ont/geosparql#",
+        "yle": "https://yle.fi/aihe/t/",
+        "semparl_linguistics": "http://ldf.fi/schema/semparl/linguistics/",
+        "sps": "http://ldf.fi/semparl/speeches/",
+        "semparls": "http://ldf.fi/schema/semparl/",
+        "semparl": "http://ldf.fi/schema/semparl/",
+        "finaf": "http://urn.fi/URN:NBN:fi:au:finaf:",
+        "roles": "http://ldf.fi/semparl/roles/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "districts": "http://ldf.fi/semparl/groups/districts/",
+        "affiliations": "http://ldf.fi/semparl/affiliations/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "occupations": "http://ldf.fi/semparl/occupations/",
+        "wd": "http://www.wikidata.org/entity/",
+        "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "times": "http://ldf.fi/semparl/times/",
+        "dct": "http://purl.org/dc/terms/",
+        "s_status": "http://ldf.fi/semparl/status/",
+        "event": "http://ldf.fi/semparl/events/",
+        "prov": "http://www.w3.org/ns/prov#",
+        "crm": "http://erlangen-crm.org/current/",
+        "gvp": "http://vocab.getty.edu/ontology#",
+        "distances": "http://ldf.fi/semparl/distances/",
+        "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "ammo": "http://ldf.fi/ammo/",
+        "gn": "http://www.geonames.org/ontology#",
+        "speeches": "http://ldf.fi/semparl/speeches/",
+        "groups": "http://ldf.fi/semparl/groups/",
+        "ent": "http://www.w3.org/ns/entailment/",
+        "label": "http://ldf.fi/semparl/labels/",
+        "people": "http://ldf.fi/semparl/people/",
+        "ldf": "http://ldf.fi/schema/ldf/",
+        "eks-scheme": "http://ldf.fi/schema/eks/",
+        "xl": "http://www.w3.org/2008/05/skos-xl#",
+        "bioc": "http://ldf.fi/schema/bioc/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "schema1": "http://schema.org/",
+        "speech": "http://ldf.fi/semparl/speeches/",
+        "natbib": "https://kansallisbiografia.fi/kansallisbiografia/henkilo/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "publications": "http://ldf.fi/semparl/publications/",
+        "frbroo": "http://erlangen-crm.org/efrbroo/",
+        "@vocab": "http://ldf.fi/eks/"
+    }
+}
