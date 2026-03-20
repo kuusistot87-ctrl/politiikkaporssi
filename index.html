@@ -1141,7 +1141,7 @@ document.getElementById("btnHistorialliset").addEventListener("click", () => set
 
 
 /* ── Sivutus ── */
-const SIVULLA = 50;
+const SIVULLA = 10;
 let nykyinenSivu = 1;
 let suodatettuLista = [];
 
@@ -1843,16 +1843,9 @@ async function naytaLobbausNakyma() {
   const pagin  = document.getElementById("pagination");
   const splash = document.getElementById("splash");
 
-  // Piilota muut näkymät
-  if (splash)  splash.style.display   = "none";
-  if (grid)    grid.style.display     = "none";
-  if (pagin)   pagin.style.display    = "none";
-  document.getElementById("tulosrivi").style.display = "none";
+  piilotaKaikki();
   nakyma.style.display = "block";
-
   document.getElementById("btnLobbaus").classList.add("active");
-  document.getElementById("btnNykyiset").classList.remove("active");
-  document.getElementById("btnHistorialliset").classList.remove("active");
 
   const yht = await lataaLobbausYhteenveto();
   if (!yht) {
@@ -1991,11 +1984,9 @@ function piilotaLobbausNakyma() {
 }
 
 document.getElementById("btnLobbaus").addEventListener("click", () => {
-  if (document.getElementById("lobbausNakyma").style.display !== "none") {
-    piilotaLobbausNakyma();
-  } else {
-    naytaLobbausNakyma();
-  }
+  // Piilota KAIKKI ensin, sitten näytä lobbaus
+  piilotaKaikki();
+  naytaLobbausNakyma();
 });
 
 
@@ -2032,17 +2023,9 @@ async function naytaHallitusNakyma() {
   const splash  = document.getElementById("splash");
   const lobbaus = document.getElementById("lobbausNakyma");
 
-  if (splash)  splash.style.display  = "none";
-  if (grid)    grid.style.display    = "none";
-  if (pagin)   pagin.style.display   = "none";
-  if (lobbaus) lobbaus.style.display = "none";
-  document.getElementById("tulosrivi").style.display = "none";
+  piilotaKaikki();
   nakyma.style.display = "block";
-
   document.getElementById("btnHallitus").classList.add("active");
-  document.getElementById("btnNykyiset").classList.remove("active");
-  document.getElementById("btnHistorialliset").classList.remove("active");
-  document.getElementById("btnLobbaus").classList.remove("active");
 
   // Hae lobbaustiedot
   const idx = await lataaLobbausIndex();
@@ -2107,13 +2090,21 @@ function piilotaHallitusNakyma() {
 }
 
 document.getElementById("btnHallitus").addEventListener("click", () => {
-  if (document.getElementById("hallitusNakyma").style.display !== "none") {
-    piilotaHallitusNakyma();
-    naytaSplash();
-  } else {
-    naytaHallitusNakyma();
-  }
+  piilotaKaikki();
+  naytaHallitusNakyma();
 });
+
+function piilotaKaikki() {
+  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma"];
+  ids.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = "none";
+  });
+  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.classList.remove("active");
+  });
+}
 
 lataaHakemisto();
 // Esihae lobbausdata taustalla vasta 5s kuluttua
