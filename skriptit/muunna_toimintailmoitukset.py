@@ -171,5 +171,68 @@ def main():
     for ke, d in top5:
         print(f"    {ke}: {sum(d['kaudet'].values())} yht, top lobbari: {d['lobbarit'].most_common(1)}")
 
+    # --- Luo yhteenveto.json lobbaus-dashboardia varten ---
+    print("\nLuodaan yhteenveto.json...")
+
+    def norm_tavat(tc):
+        kat = {"Sahkoposti":0,"Tapaaminen":0,"Puhelu":0,"Verkkovierailu":0,"Viesti/some":0,"Tapahtuma":0,"Muu":0}
+        for tapa, n in tc.items():
+            t = tapa.lower()
+            if "hköposti" in t or "kirjeenvaihto" in t: kat["Sahkoposti"] += n
+            if "tapaaminen" in t or "vierailu" in t: kat["Tapaaminen"] += n
+            if "puhelin" in t: kat["Puhelu"] += n
+            if "verkkotapaaminen" in t: kat["Verkkovierailu"] += n
+            if "tekstiviesti" in t or "pikaviesti" in t or "yksityisviesti" in t or "linkedin" in t: kat["Viesti/some"] += n
+            if any(x in t for x in ["tapahtuma","tilaisuus","osallistuminen","avajaiset","julkaisu","kutsuvierastilaisuus"]): kat["Tapahtuma"] += n
+        yhteensa = sum(kat.values())
+        raaka = sum(tc.values())
+        kat["Muu"] += max(0, raaka - yhteensa)
+        # Palauta suomenkieliset nimet
+        nimet = {"Sahkoposti":"Sähköposti","Tapaaminen":"Tapaaminen","Puhelu":"Puhelu",
+                 "Verkkovierailu":"Verkkovierailu","Viesti/some":"Viesti/some",
+                 "Tapahtuma":"Tapahtuma","Muu":"Muu"}
+        return {nimet[k]:v for k,v in kat.items() if v > 0}
+
+    ke_yht_c  = Counter()
+    org_yht_c = Counter()
+    aihe_yht_c = Counter()
+    tapa_yht_c = Counter()
+    kausi_info = {}
+
+    for f in tiedostot:
+        kausi = parse_kausi(f.name)
+        if not kausi: continue
+        df2 = pd.read_excel(f, header=None)
+        cur_org = {}; cur_aihe = ""; state2 = None
+        kausi_ke_c = Counter()
+        for _, row in df2.iterrows():
+            c0,c1,c2,c3,c4,c5,c6,c7 = (v(row,j) for j in range(8))
+            if re.match(r"^\d{6,7}-\d$", c0):
+                cur_org = {"nimi": c1}; cur_aihe = ""; state2 = None; continue
+            if c1 == "Vaikuttamistoiminnan aiheet": state2 = "aiheet"; continue
+            if c2 == "Vaikuttamistoiminnan kohteet": state2 = "kohteet"; continue
+            if state2 == "aiheet" and c1 in ["Vaikuttamistoiminta asiakkaan puolesta","Vaikuttamistoiminnan neuvonta","Vaikuttamistoiminta omaan lukuun"]:
+                cur_aihe = c2[:120]; continue
+            if state2 == "kohteet" and c5 and c5 not in ["Nimike","-","","Organisaatio"] and c6 and c6 not in ["Nimi","-",""]:
+                ke_yht_c[c6] += 1
+                org_yht_c[cur_org.get("nimi","?")] += 1
+                if cur_aihe: aihe_yht_c[cur_aihe] += 1
+                if c7: tapa_yht_c[c7] += 1
+                kausi_ke_c[c6] += 1
+        kausi_info[kausi["id"]] = {"label": kausi["label"], "ke": dict(kausi_ke_c.most_common(30))}
+
+    yhteenveto = {
+        "top_ke":     ke_yht_c.most_common(30),
+        "top_org":    org_yht_c.most_common(30),
+        "top_aiheet": aihe_yht_c.most_common(20),
+        "tavat":      norm_tavat(tapa_yht_c),
+        "kausi_data": kausi_info
+    }
+
+    yht_out = KOHDE / "yhteenveto.json"
+    with open(yht_out, "w", encoding="utf-8") as f:
+        json.dump(yhteenveto, f, ensure_ascii=False, separators=(",",":"))
+    print(f"  Kirjoitettu: {yht_out} ({yht_out.stat().st_size//1024}KB)")
+
 if __name__ == "__main__":
     main()
