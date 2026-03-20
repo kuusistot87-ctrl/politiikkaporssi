@@ -1137,9 +1137,9 @@ function setPuolue(p) {
 
 function setAika(tila) {
   aikasuodatin = (aikasuodatin === tila) ? "" : tila;
+  piilotaKaikki();
   document.getElementById("btnNykyiset").classList.toggle("active", aikasuodatin === "nykyiset");
   document.getElementById("btnHistorialliset").classList.toggle("active", aikasuodatin === "hist");
-  piilotaHallitusNakyma();
 
   if (aikasuodatin || aktiivisuusPuolue || document.getElementById("searchInput").value.trim()) {
     naytaTulokset();
