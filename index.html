@@ -1757,7 +1757,6 @@ async function renderLobbausKortti(m, el) {
         <div class="d-label">Sijoitus ${sijoitusKausi}</div>
         <div style="font-family:'Orbitron',monospace;font-size:1.6rem;font-weight:700;color:${vari}">${sijoitus !== "–" ? "#"+sijoitus : "–"}</div>
       </div>
-    </div>
     </div>`;
   el.appendChild(header);
 
@@ -1769,8 +1768,16 @@ async function renderLobbausKortti(m, el) {
 
   // Aikasarjapalkit
   // Käytä tiData-kausitietoja jos keData puuttuu
+  // Hae kausien labelit idx.kaudet-listasta
+  const kausiLabelMap = {};
+  if (idx.kaudet) idx.kaudet.forEach(k => { kausiLabelMap[k.id] = k.label; });
+
   const kausitiedot = (keData && keData.kaudet && keData.kaudet.length) ? keData.kaudet
-    : (tiData && tiData.kaudet ? Object.entries(tiData.kaudet).sort((a,b)=>a[0].localeCompare(b[0])).map(([id,n]) => ({kausi_id:id, kausi_label:id, maara:n})) : []);
+    : (tiData && tiData.kaudet
+        ? Object.entries(tiData.kaudet)
+            .sort((a,b) => a[0].localeCompare(b[0]))
+            .map(([id,n]) => ({kausi_id:id, kausi_label: kausiLabelMap[id]||id, maara:n}))
+        : []);
 
   if (kausitiedot.length) {
     const maxM = Math.max(...kausitiedot.map(k => k.maara));
