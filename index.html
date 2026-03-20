@@ -730,6 +730,9 @@
     }
     .xml-ryhmaotsikko:first-child { margin-top: 0; border-top: none; }
 
+    .hidden-overlay { display: none !important; }
+    .hidden-overlay.open { display: flex !important; }
+
     /* ── HALLITUS-KORTIT ── */
     .hallitus-card {
       background: #080d1f;
@@ -885,6 +888,21 @@
 <!-- KORTTINÄKYMÄ -->
 <main id="grid" style="display:none"></main>
 <div id="pagination"></div>
+
+<!-- LOBBAUSKORTTI -->
+<div id="lobbausKorttiOverlay" style="display:none;position:fixed;inset:0;z-index:3000;
+  background:rgba(2,6,23,.92);backdrop-filter:blur(4px);
+  display:flex;align-items:center;justify-content:center;padding:1rem" class="hidden-overlay">
+  <div id="lobbausKorttiBox" style="background:#080d1f;border:1px solid #1a2a55;border-radius:8px;
+    width:min(600px,96vw);max-height:90vh;overflow-y:auto;position:relative;
+    box-shadow:0 0 60px rgba(0,0,0,.8)">
+    <button onclick="suljeLobbausKortti()" style="position:sticky;top:.5rem;float:right;
+      margin:.5rem .5rem 0 0;background:transparent;border:1px solid #1a2a55;
+      border-radius:4px;color:#5a7a99;padding:.2rem .6rem;cursor:pointer;
+      font-size:.8rem;z-index:1">ESC ×</button>
+    <div id="lobbausKorttiSisalto" style="padding:1.5rem"></div>
+  </div>
+</div>
 
 <!-- HALLITUS-NÄKYMÄ -->
 <div id="hallitusNakyma" style="display:none;position:relative;z-index:1;padding:1.5rem 2rem 3rem">
@@ -1248,6 +1266,7 @@ function renderEdustajat(lista) {
 const API = "https://avoindata.eduskunta.fi/api/v1/tables";
 
 function openTTLProfile(m) {
+  AKTIIVINEN_EDUSTAJA = m;
   const overlay = document.getElementById("modalOverlay");
   const vari    = puolueVari(m.puolue);
   // Näytä overlay ensin tyhjänä — nopea
@@ -1302,10 +1321,7 @@ function renderModalSkeleton(m, vari) {
         </div>
 `, true)}
 
-      ${accordionItem("lobbaus","LOBBAUSMERKINNÄT",`
-        <div id="lobbaus-${m.nimi.replace(/\s+/g,'-')}" class="lobbaus-container">
-          <span style="color:#5a7a99;font-size:.8rem">Ladataan...</span>
-        </div>`)}
+
       ${accordionItem("linkit","LINKIT & YHTEYSTIEDOT",`
         <div style="display:flex;flex-direction:column;gap:.6rem">
           ${m.eduskunta ? lnk(m.eduskunta,"PROFIILI EDUSKUNTA.FI ↗",vari) : ""}
@@ -1331,7 +1347,7 @@ function renderModalSkeleton(m, vari) {
 
   // Accordion-logiikka
   content.querySelectorAll(".accordion-header").forEach((h, idx) => {
-    const ids = ["perustiedot","lobbaus","linkit","toiminta","sidonnaisuudet","tyoura","valiokunnat","ministeriydet","sidonnaisuudet2"];
+    const ids = ["perustiedot","linkit","toiminta","sidonnaisuudet","tyoura","valiokunnat","ministeriydet","sidonnaisuudet2"];
     h.addEventListener("click", () => {
       const body = h.nextElementSibling;
       const isOpen = body.style.maxHeight && body.style.maxHeight !== "0px";
@@ -1647,6 +1663,143 @@ async function lataaXmlOsio(osio, m, vari) {
 }
 
 /* ── Modal sulje ── */
+/* ================================================================
+   LOBBAUSKORTTI — erillinen kortti henkilön lobbausdatalle
+   ================================================================ */
+let AKTIIVINEN_EDUSTAJA = null;
+
+function avaaLobbausKortti() {
+  if (!AKTIIVINEN_EDUSTAJA) return;
+  const overlay = document.getElementById("lobbausKorttiOverlay");
+  const sisalto = document.getElementById("lobbausKorttiSisalto");
+  overlay.classList.remove("hidden-overlay");
+  overlay.classList.add("open");
+  sisalto.innerHTML = '<div class="spinner" style="margin:2rem auto"></div>';
+  renderLobbausKortti(AKTIIVINEN_EDUSTAJA, sisalto);
+}
+
+function suljeLobbausKortti() {
+  const overlay = document.getElementById("lobbausKorttiOverlay");
+  overlay.classList.remove("open");
+  overlay.classList.add("hidden-overlay");
+}
+
+// Sulje ESC:llä
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") suljeLobbausKortti();
+});
+
+// Sulje klikkaamalla taustaa
+document.getElementById("lobbausKorttiOverlay").addEventListener("click", e => {
+  if (e.target.id === "lobbausKorttiOverlay") suljeLobbausKortti();
+});
+
+async function renderLobbausKortti(m, el) {
+  const vari = puolueVari(m.puolue);
+  const idx  = await lataaLobbausIndex();
+
+  if (!idx) {
+    el.innerHTML = '<p style="color:#5a7a99">Lobbausdata ei saatavilla</p>';
+    return;
+  }
+
+  const keData = idx.kansanedustajat ? idx.kansanedustajat[m.nimi] : null;
+  const tiData = idx.toimintailmoitukset ? idx.toimintailmoitukset[m.nimi] : null;
+
+  if (!keData && !tiData) {
+    el.innerHTML = `
+      <div style="color:${vari};font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.15em;margin-bottom:.5rem">LOBBAUSDATA</div>
+      <div style="font-size:1.1rem;font-weight:700;color:#e8f4ff;margin-bottom:1rem">${m.nimi}</div>
+      <p style="color:#5a7a99;font-size:.85rem">Ei merkintöjä avoimuusrekisterissä.</p>`;
+    return;
+  }
+
+  const yhteensa      = tiData ? tiData.yhteensa : (keData ? keData.yhteensa : 0);
+  const sijoitus      = keData ? (keData.sijoitus_viimeisin || "–") : "–";
+  const sijoitusKausi = keData ? (keData.sijoitus_kausi || "") : "";
+
+  el.innerHTML = "";
+
+  // Header
+  const header = document.createElement("div");
+  header.innerHTML = `
+    <div style="color:${vari};font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.15em;margin-bottom:.4rem">LOBBAUSDATA</div>
+    <div style="font-size:1.2rem;font-weight:700;color:#e8f4ff;margin-bottom:1.25rem">${m.nimi}</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:1.25rem">
+      <div style="background:#0a0f1e;border:1px solid #1a2a55;border-radius:6px;padding:.85rem">
+        <div class="d-label">Maininnat yhteensä</div>
+        <div style="font-family:'Orbitron',monospace;font-size:1.6rem;font-weight:700;color:${vari}">${yhteensa}</div>
+      </div>
+      <div style="background:#0a0f1e;border:1px solid #1a2a55;border-radius:6px;padding:.85rem">
+        <div class="d-label">Sijoitus ${sijoitusKausi}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:1.6rem;font-weight:700;color:${vari}">${sijoitus !== "–" ? "#"+sijoitus : "–"}</div>
+      </div>
+    </div>`;
+  el.appendChild(header);
+
+  // Aikasarjapalkit
+  if (keData && keData.kaudet && keData.kaudet.length) {
+    const maxM = Math.max(...keData.kaudet.map(k => k.maara));
+    const aikaDiv = document.createElement("div");
+    aikaDiv.style.marginBottom = "1.25rem";
+    aikaDiv.innerHTML = '<div class="d-label" style="margin-bottom:.5rem">MAININNAT KAUSITTAIN</div>';
+    const barRow = document.createElement("div");
+    barRow.className = "lobbaus-aikasarja";
+    barRow.style.height = "80px";
+    keData.kaudet.forEach(k => {
+      const px = maxM > 0 ? Math.max(4, Math.round(k.maara/maxM*70)) : 4;
+      const col = document.createElement("div");
+      col.style.cssText = "flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end";
+      col.innerHTML = `
+        <div style="font-size:.6rem;color:${vari};margin-bottom:3px;font-family:'Orbitron',monospace">${k.maara}</div>
+        <div style="width:100%;height:${px}px;background:${vari};border-radius:3px 3px 0 0;opacity:.8"></div>
+        <div style="font-size:.6rem;color:#5a7a99;text-align:center;margin-top:4px">${k.kausi_label}</div>`;
+      barRow.appendChild(col);
+    });
+    aikaDiv.appendChild(barRow);
+    el.appendChild(aikaDiv);
+  }
+
+  if (tiData) {
+    // Top lobbarit
+    if (tiData.top_lobbarit && tiData.top_lobbarit.length) {
+      const maxN   = tiData.top_lobbarit[0][1];
+      const lobDiv = document.createElement("div");
+      lobDiv.style.marginBottom = "1.25rem";
+      lobDiv.innerHTML = '<div class="d-label" style="margin-bottom:.5rem">TOP LOBBARIT</div>' +
+        tiData.top_lobbarit.slice(0,8).map(([org,n]) => {
+          const pct = Math.round(n/maxN*100);
+          const lyhyt = org.length > 45 ? org.slice(0,43)+"…" : org;
+          return `<div class="lobbaus-bar-wrap"><div class="lobbaus-bar-label"><span>${lyhyt}</span><span style="color:${vari}">${n}</span></div><div class="lobbaus-bar-track"><div class="lobbaus-bar-fill" style="width:${pct}%;background:${vari}"></div></div></div>`;
+        }).join("");
+      el.appendChild(lobDiv);
+    }
+
+    // Tavat
+    if (tiData.tavat) {
+      const tavat  = normTavat(tiData.tavat);
+      const tavDiv = document.createElement("div");
+      tavDiv.style.marginBottom = "1.25rem";
+      tavDiv.innerHTML = '<div class="d-label" style="margin-bottom:.5rem">YHTEYDENPIDON TAVAT</div><div style="display:flex;flex-wrap:wrap;gap:.35rem">' +
+        Object.entries(tavat).sort((a,b)=>b[1]-a[1]).map(([tapa,n]) =>
+          `<span style="background:rgba(255,255,255,.05);border:1px solid ${vari}55;border-radius:3px;padding:.25rem .6rem;font-size:.75rem;color:${vari}">${tapa} <strong style="color:#fff">${n}</strong></span>`
+        ).join("") + "</div>";
+      el.appendChild(tavDiv);
+    }
+
+    // Aiheet
+    if (tiData.top_aiheet && tiData.top_aiheet.length) {
+      const aihDiv = document.createElement("div");
+      aihDiv.innerHTML = '<div class="d-label" style="margin-bottom:.5rem">LOBBAUSAIHEET</div>' +
+        tiData.top_aiheet.slice(0,5).map(([aihe,n]) => {
+          const lyhyt = aihe.length > 90 ? aihe.slice(0,88)+"…" : aihe;
+          return `<div style="font-size:.78rem;color:#8899aa;padding:.3rem 0;border-bottom:1px solid #1a2a5566;line-height:1.5">${lyhyt}<span style="color:${vari};margin-left:.5rem;font-size:.7rem">${n}x</span></div>`;
+        }).join("");
+      el.appendChild(aihDiv);
+    }
+  }
+}
+
 function closeTTLProfile() {
   document.getElementById("modalOverlay").classList.remove("open");
   document.body.style.overflow = "";
