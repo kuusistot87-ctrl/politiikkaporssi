@@ -1388,7 +1388,8 @@ function paivitaAccordionKorkeus(el) {
 async function naytaLobbausTiedot(m, vari) {
   const containerId = "lobbaus-" + m.nimi.replace(/\s+/g,"-");
   const el = document.getElementById(containerId);
-  if (!el) return;
+  if (!el || el.dataset.ladattu) return;
+  el.dataset.ladattu = "1";
 
   const idx = await lataaLobbausIndex();
   if (!idx) {
@@ -1397,115 +1398,118 @@ async function naytaLobbausTiedot(m, vari) {
   }
 
   const keData = idx.kansanedustajat ? idx.kansanedustajat[m.nimi] : null;
-  const tiData2 = idx.toimintailmoitukset ? idx.toimintailmoitukset[m.nimi] : null;
+  const tiData = idx.toimintailmoitukset ? idx.toimintailmoitukset[m.nimi] : null;
 
-  if (!keData && !tiData2) {
+  if (!keData && !tiData) {
     el.innerHTML = '<span style="color:#5a7a99;font-size:.82rem">Ei merkintöjä avoimuusrekisterissä</span>';
     return;
   }
 
-  const maxMaara = keData ? Math.max(...keData.kaudet.map(k => k.maara)) : 0;
-  const yhteensa = keData ? keData.yhteensa : (tiData2 ? tiData2.yhteensa : 0);
+  const yhteensa     = keData ? keData.yhteensa : (tiData ? tiData.yhteensa : 0);
+  const sijoitus     = keData ? (keData.sijoitus_viimeisin || "–") : "–";
+  const sijoitusKausi= keData ? (keData.sijoitus_kausi || "") : "";
+  const nimikkeet    = tiData && tiData.nimikkeet
+    ? Object.entries(tiData.nimikkeet).sort((a,b)=>b[1]-a[1]).map(([n,c])=>n+" ("+c+")").join(", ")
+    : "";
 
-  // Sijoitus suoraan index.json:sta — ei erillistä fetchiä
-  const sijoitus      = keData ? (keData.sijoitus_viimeisin || "–") : "–";
-  const sijoitusKausi = keData ? (keData.sijoitus_kausi || "") : "";
+  // Rakenna DOM pala kerrallaan
+  el.innerHTML = "";
 
-  // Aikasarjapalkit
-  const BAR_MAX_PX = 56;
-  const aikaHtml = keData ? keData.kaudet.map(k => {
-    const px = maxMaara > 0 ? Math.max(4, Math.round(k.maara / maxMaara * BAR_MAX_PX)) : 4;
-    const lyhyt = k.kausi_label.replace(/^\d+\.\d+–(\d+\.\d+\.\d+)$/, "$1")
-                               .replace(/^(\d+)\.(\d+)–.*\.(\d+)$/, "$1.$2/$3");
-    return `<div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end">
-      <div style="font-size:.58rem;color:${vari};margin-bottom:2px;font-family:'Orbitron',monospace">${k.maara}</div>
-      <div style="width:100%;height:${px}px;background:${vari};border-radius:3px 3px 0 0;opacity:.8"
-           title="${k.kausi_label}: ${k.maara} mainintaa"></div>
-      <div style="font-size:.58rem;color:#5a7a99;text-align:center;margin-top:3px;letter-spacing:.03em;white-space:nowrap">${k.kausi_label.replace(/^\d+\.\d+–/,"").replace(/\.(\d{4})$/,"/$1")}</div>
+  // 1. Yhteenveto-rivi
+  const grid = document.createElement("div");
+  grid.style.cssText = "display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.85rem";
+  grid.innerHTML = `
+    <div>
+      <div class="d-label">Maininnat yhteensä</div>
+      <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${yhteensa}</div>
+      ${nimikkeet ? `<div style="font-size:.68rem;color:#5a7a99;margin-top:.2rem">${nimikkeet}</div>` : ""}
+    </div>
+    <div>
+      <div class="d-label">Sijoitus ${sijoitusKausi}</div>
+      <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${sijoitus !== "–" ? "#"+sijoitus : "–"}</div>
     </div>`;
-  }).join("") : "";
+  el.appendChild(grid);
 
-  // Toimintailmoitusdata (jo haettu yllä)
-  const tiData = tiData2;
+  // 2. Aikasarjapalkit (vain jos keData)
+  if (keData && keData.kaudet && keData.kaudet.length) {
+    const maxMaara = Math.max(...keData.kaudet.map(k => k.maara));
+    const BAR_MAX_PX = 56;
+    const aikaDiv = document.createElement("div");
+    aikaDiv.innerHTML = `<div class="d-label" style="margin-bottom:.4rem">Maininnat kausittain</div>`;
+    const barContainer = document.createElement("div");
+    barContainer.className = "lobbaus-aikasarja";
+    keData.kaudet.forEach(k => {
+      const px = maxMaara > 0 ? Math.max(4, Math.round(k.maara/maxMaara*BAR_MAX_PX)) : 4;
+      const bar = document.createElement("div");
+      bar.style.cssText = "flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end";
+      bar.innerHTML = `
+        <div style="font-size:.58rem;color:${vari};margin-bottom:2px;font-family:'Orbitron',monospace">${k.maara}</div>
+        <div style="width:100%;height:${px}px;background:${vari};border-radius:3px 3px 0 0;opacity:.8" title="${k.kausi_label}: ${k.maara}"></div>
+        <div style="font-size:.58rem;color:#5a7a99;text-align:center;margin-top:3px">${k.kausi_label.replace(/^\d+\.\d+–/,"").replace(/\.(\d{4})$/,"/$1")}</div>`;
+      barContainer.appendChild(bar);
+    });
+    aikaDiv.appendChild(barContainer);
+    el.appendChild(aikaDiv);
+  }
 
+  // 3. Org-data
+  const orgDiv = document.createElement("div");
+  orgDiv.style.marginTop = "1rem";
+  el.appendChild(orgDiv);
+  lataaOrgData(m, keData, vari, orgDiv);
 
-  el.style.setProperty("--party-c", vari);
-  setTimeout(() => paivitaAccordionKorkeus(el), 50);
-  el.innerHTML = `
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.85rem">
-      <div>
-        <div class="d-label">Maininnat yhteensä</div>
-        <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${yhteensa}</div>
-        ${tiData && tiData.nimikkeet ? '<div style="font-size:.68rem;color:#5a7a99;margin-top:.2rem">'+Object.entries(tiData.nimikkeet).sort((a,b)=>b[1]-a[1]).map(([nim,n])=>nim+' ('+n+')').join(', ')+'</div>' : ''}
-      </div>
-      <div>
-        <div class="d-label">Sijoitus ${sijoitusKausi}</div>
-        <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${sijoitus !== "–" ? "#" + sijoitus : "–"}</div>
-      </div>
-    </div>
-    <div class="d-label" style="margin-bottom:.4rem">Maininnat kausittain</div>
-    <div class="lobbaus-aikasarja">${aikaHtml}</div>
-    <div id="lobbaus-org-${containerId}" style="margin-top:1rem">
-      <div class="d-label" style="margin-bottom:.4rem">Lobbaukset organisaatioittain</div>
-      <div class="spinner" style="margin:.4rem auto;width:20px;height:20px;border-width:2px"></div>
-    </div>
-    ${tiData ? `<div style="margin-top:1.25rem;border-top:1px solid #1a2a55;padding-top:1rem">
-      <div class="d-label" style="margin-bottom:.5rem">TOP LOBBARIT — TOIMINTAILMOITUKSET</div>
-      ${tiData.top_lobbarit.slice(0,5).map(x => {
-        const org = x[0]; const n = x[1];
+  // 4. tiData-osiot — lisätään rAF:ssa jotta ei blokkaa
+  if (tiData) {
+    requestAnimationFrame(() => {
+      // Top lobbarit
+      if (tiData.top_lobbarit && tiData.top_lobbarit.length) {
+        const lobDiv = document.createElement("div");
+        lobDiv.style.cssText = "margin-top:1.25rem;border-top:1px solid #1a2a55;padding-top:1rem";
         const maxN = tiData.top_lobbarit[0][1];
-        const pct = Math.round(n/maxN*100);
-        const lyhyt = org.length > 38 ? org.slice(0,36)+"…" : org;
-        return '<div class="lobbaus-bar-wrap"><div class="lobbaus-bar-label"><span>'+lyhyt+'</span><span style="color:'+vari+'">'+n+'</span></div><div class="lobbaus-bar-track"><div class="lobbaus-bar-fill" style="width:'+pct+'%;background:'+vari+'"></div></div></div>';
-      }).join("")}
-      <div class="d-label" style="margin-top:.85rem;margin-bottom:.4rem">YHTEYDENPIDON TAVAT</div>
-      <div style="display:flex;flex-wrap:wrap;gap:.3rem">
-        ${(() => {
-          // Normalisoi tavat pääkategorioihin
-          const kategoriat = {
-            "Sähköposti": 0,
-            "Tapaaminen": 0,
-            "Puhelu": 0,
-            "Verkkovierailu": 0,
-            "Viesti/some": 0,
-            "Tapahtuma": 0,
-            "Muu": 0
-          };
-          Object.entries(tiData.tavat).forEach(([tapa, n]) => {
-            const t = tapa.toLowerCase();
-            if (t.includes("sähköposti") || t.includes("kirjeenvaihto")) kategoriat["Sähköposti"] += n;
-            if (t.includes("tapaaminen") || t.includes("vierailu")) kategoriat["Tapaaminen"] += n;
-            if (t.includes("puhelin") || t.includes("puhelinsoitto")) kategoriat["Puhelu"] += n;
-            if (t.includes("verkkotapaaminen") || t.includes("etä")) kategoriat["Verkkovierailu"] += n;
-            if (t.includes("tekstiviesti") || t.includes("pikaviesti") || t.includes("sosiaalisen median yksityisviesti") || t.includes("linkedin")) kategoriat["Viesti/some"] += n;
-            if (t.includes("tapahtuma") || t.includes("tilaisuus") || t.includes("osallistuminen") || t.includes("avajaiset") || t.includes("kiertotalouden") || t.includes("rakentamisen") || t.includes("julkaisu") || t.includes("kutsuvierastilaisuus")) kategoriat["Tapahtuma"] += n;
-          });
-          // Jos ei osunut mihinkään → Muu
-          const yhteensa_norm = Object.values(kategoriat).reduce((a,b)=>a+b,0);
-          const yhteensa_raw  = Object.values(tiData.tavat).reduce((a,b)=>a+b,0);
-          kategoriat["Muu"] += Math.max(0, yhteensa_raw - yhteensa_norm + kategoriat["Muu"]);
-          return Object.entries(kategoriat)
-            .filter(([,n]) => n > 0)
-            .sort((a,b) => b[1]-a[1])
-            .map(([kat, n]) =>
-              '<span style="background:rgba(255,255,255,.05);border:1px solid '+vari+'55;border-radius:3px;padding:.2rem .5rem;font-size:.72rem;color:'+vari+'">'+kat+' <strong style="color:#fff">'+n+'</strong></span>'
-            ).join("");
-        })()}
-      </div>
-      <div class="d-label" style="margin-top:.85rem;margin-bottom:.4rem">LOBBAUSAIHEET</div>
-      ${tiData.top_aiheet.slice(0,4).map(x => {
-        const aihe = x[0]; const n = x[1];
-        const lyhyt = aihe.length > 85 ? aihe.slice(0,83)+"…" : aihe;
-        return '<div style="font-size:.73rem;color:#8899aa;padding:.25rem 0;border-bottom:1px solid #1a2a5588;line-height:1.45">'+lyhyt+'<span style="color:'+vari+';margin-left:.4rem;font-size:.68rem">'+n+'x</span></div>';
-      }).join("")}
-    </div>` : ""}`;
+        lobDiv.innerHTML = `<div class="d-label" style="margin-bottom:.5rem">TOP LOBBARIT — TOIMINTAILMOITUKSET</div>` +
+          tiData.top_lobbarit.slice(0,5).map(([org,n]) => {
+            const pct = Math.round(n/maxN*100);
+            const lyhyt = org.length > 38 ? org.slice(0,36)+"…" : org;
+            return `<div class="lobbaus-bar-wrap"><div class="lobbaus-bar-label"><span>${lyhyt}</span><span style="color:${vari}">${n}</span></div><div class="lobbaus-bar-track"><div class="lobbaus-bar-fill" style="width:${pct}%;background:${vari}"></div></div></div>`;
+          }).join("");
+        el.appendChild(lobDiv);
+      }
 
-  // Lataa organisaatiodata
-  lataaOrgData(m, keData, vari, "lobbaus-org-" + containerId);
+      // Tavat
+      if (tiData.tavat) {
+        const tavat = normTavat(tiData.tavat);
+        const tavDiv = document.createElement("div");
+        tavDiv.style.marginTop = ".85rem";
+        tavDiv.innerHTML = `<div class="d-label" style="margin-bottom:.4rem">YHTEYDENPIDON TAVAT</div>
+          <div style="display:flex;flex-wrap:wrap;gap:.3rem">` +
+          Object.entries(tavat).sort((a,b)=>b[1]-a[1]).map(([tapa,n]) => {
+            const lyhyt = tapa.replace("Sähköposti tai muu kirjeenvaihto","Sähköposti").replace("Muu yhteydenotto","Muu");
+            return `<span style="background:rgba(255,255,255,.05);border:1px solid ${vari}55;border-radius:3px;padding:.2rem .5rem;font-size:.72rem;color:${vari}">${lyhyt} <strong style="color:#fff">${n}</strong></span>`;
+          }).join("") + "</div>";
+        el.appendChild(tavDiv);
+      }
+
+      // Aiheet
+      if (tiData.top_aiheet && tiData.top_aiheet.length) {
+        const aihDiv = document.createElement("div");
+        aihDiv.style.marginTop = ".85rem";
+        aihDiv.innerHTML = `<div class="d-label" style="margin-bottom:.4rem">LOBBAUSAIHEET</div>` +
+          tiData.top_aiheet.slice(0,4).map(([aihe,n]) => {
+            const lyhyt = aihe.length > 85 ? aihe.slice(0,83)+"…" : aihe;
+            return `<div style="font-size:.73rem;color:#8899aa;padding:.25rem 0;border-bottom:1px solid #1a2a5588;line-height:1.45">${lyhyt}<span style="color:${vari};margin-left:.4rem;font-size:.68rem">${n}x</span></div>`;
+          }).join("");
+        el.appendChild(aihDiv);
+      }
+
+      setTimeout(() => paivitaAccordionKorkeus(el), 50);
+    });
+  } else {
+    setTimeout(() => paivitaAccordionKorkeus(el), 50);
+  }
 }
 
-function lataaOrgData(m, keData, vari, orgElId) {
-  const orgEl = document.getElementById(orgElId);
+function lataaOrgData(m, keData, vari, orgElOrId) {
+  const orgEl = typeof orgElOrId === "string" ? document.getElementById(orgElOrId) : orgElOrId;
   if (!orgEl) return;
 
   const idx2 = LOBBAUS_INDEX || null;
@@ -1642,6 +1646,8 @@ async function lataaXmlOsio(osio, m, vari) {
 function closeTTLProfile() {
   document.getElementById("modalOverlay").classList.remove("open");
   document.body.style.overflow = "";
+  // Nollaa ladattu-flagit jotta uudelleenavauksessa data latautuu
+  document.querySelectorAll("[data-ladattu]").forEach(el => delete el.dataset.ladattu);
 }
 document.addEventListener("keydown", e => { if(e.key==="Escape") closeTTLProfile(); });
 document.getElementById("modalOverlay").addEventListener("click", e => {
