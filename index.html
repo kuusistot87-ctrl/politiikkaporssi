@@ -1882,7 +1882,7 @@ function paivitaLobbausData(yht) {
   const topKE = kausiData
     ? Object.entries(kausiData.ke||{}).sort((a,b)=>b[1]-a[1])
     : yht.top_ke;
-  renderPalkit("lobbausTopKE", topKE.slice(0,15), "#00d4ff", (nimi) => {
+  PALKIT_SIVUT["lobbausTopKE"]=0; renderPalkit("lobbausTopKE", topKE.slice(0,50), "#00d4ff", (nimi) => {
     piilotaLobbausNakyma();
     document.getElementById("searchInput").value = nimi;
     naytaTulokset();
@@ -1893,13 +1893,13 @@ function paivitaLobbausData(yht) {
   const topOrg = kausiData && kausiData.org
     ? Object.entries(kausiData.org).sort((a,b)=>b[1]-a[1])
     : yht.top_org;
-  renderPalkit("lobbausTopOrg", topOrg.slice(0,15), "#ff9500");
+  PALKIT_SIVUT["lobbausTopOrg"]=0; renderPalkit("lobbausTopOrg", topOrg.slice(0,30), "#ff9500");
 
   // Aiheet
   const topAiheet = kausiData && kausiData.aiheet
     ? Object.entries(kausiData.aiheet).sort((a,b)=>b[1]-a[1])
     : yht.top_aiheet;
-  renderPalkit("lobbausAiheet", topAiheet.slice(0,12), "#3ec63e");
+  PALKIT_SIVUT["lobbausAiheet"]=0; renderPalkit("lobbausAiheet", topAiheet.slice(0,20), "#3ec63e");
 
   // Tavat
   const tavat = kausiData && kausiData.tavat
