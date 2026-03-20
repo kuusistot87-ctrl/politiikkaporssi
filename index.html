@@ -1273,7 +1273,7 @@ function renderModalSkeleton(m, vari) {
           <div class="detail-item"><div class="d-label">Kotikunta</div><div class="d-value">${m.kotikunta||"–"}</div></div>
           <div class="detail-item"><div class="d-label">Vaalipiiri</div><div class="d-value">${m.vaalipiiri||"–"}</div></div>
           <div class="detail-item"><div class="d-label">Syntymävuosi</div><div class="d-value">${vuodet}</div></div>
-          <div class="detail-item"><div class="d-label">Vaalikaudet</div><div class="d-value">${m.vaalikaudet||"–"}</div></div>
+          <div class="detail-item" style="grid-column:1/-1"><div class="d-label">Vaalikaudet</div><div class="d-value" style="font-size:.85rem">${m.vaalikaudet_lista || (m.vaalikaudet ? m.vaalikaudet+" kautta" : "–")}</div></div>
           <div class="detail-item"><div class="d-label">Koulutus</div><div class="d-value">${m.koulutus||"–"}</div></div>
           <div class="detail-item"><div class="d-label">Status</div><div class="d-value" style="color:${m.nykyinen?"#3ec63e":"#f5a623"}">${m.nykyinen?"● aktiivinen":"● päättynyt"}</div></div>
         </div>`, true)}
