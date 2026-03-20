@@ -485,20 +485,21 @@
       align-items: center;
       gap: .75rem;
       margin: 1.5rem auto 0;
-      width: min(700px, 92%);
+      width: min(820px, 92%);
       flex-wrap: wrap;
       justify-content: center;
     }
     .header-search {
       position: relative;
       flex: 1;
-      min-width: 160px;
+      min-width: 200px;
     }
+
+    /* Puolue-nappi hakukentän vieressä */
     .header-filters {
       display: flex;
       gap: .5rem;
       align-items: center;
-      flex-wrap: nowrap;
     }
     .hdr-btn {
       background: rgba(11,17,40,.85);
@@ -516,6 +517,112 @@
     }
     .hdr-btn:hover { border-color: #00d4ff; color: #00d4ff; }
     .hdr-btn.active { background: rgba(0,212,255,.08); border-color: #00d4ff; color: #00d4ff; }
+
+    /* ── ISO NAVIGAATIORIVI ── */
+    .nav-btn-row {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: min(900px, 92%);
+      margin: 1.5rem auto 0;
+    }
+
+    .nav-btn {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: .45rem;
+      flex: 1;
+      min-width: 140px;
+      max-width: 200px;
+      padding: 1.2rem .75rem 1.1rem;
+      background: rgba(8,13,31,.9);
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'Rajdhani', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .13em;
+      transition: transform .2s, box-shadow .2s, background .2s;
+      overflow: hidden;
+      border: none;
+    }
+
+    /* Yläviiva värin mukaan */
+    .nav-btn::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--nb-color);
+      box-shadow: 0 0 12px var(--nb-color);
+      transition: height .2s;
+    }
+
+    /* Taustahohtokuvio hover */
+    .nav-btn::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--nb-glow), transparent 70%);
+      opacity: 0;
+      transition: opacity .25s;
+      pointer-events: none;
+    }
+    .nav-btn:hover::after, .nav-btn.active::after { opacity: 1; }
+
+    .nav-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px var(--nb-shadow);
+      border-color: var(--nb-color);
+    }
+    .nav-btn.active {
+      background: var(--nb-bg);
+      box-shadow: 0 0 24px var(--nb-shadow);
+    }
+    .nav-btn.active::before { height: 4px; }
+
+    .nav-btn-icon {
+      font-size: 1.6rem;
+      line-height: 1;
+      filter: drop-shadow(0 0 6px var(--nb-color));
+      transition: transform .2s;
+    }
+    .nav-btn:hover .nav-btn-icon { transform: scale(1.15); }
+
+    .nav-btn-label {
+      font-size: .78rem;
+      font-weight: 700;
+      color: var(--nb-color);
+      letter-spacing: .14em;
+    }
+    .nav-btn-sub {
+      font-size: .62rem;
+      color: #3a5a77;
+      letter-spacing: .08em;
+      font-weight: 400;
+      transition: color .2s;
+    }
+    .nav-btn:hover .nav-btn-sub, .nav-btn.active .nav-btn-sub { color: #6a9abb; }
+
+    /* Värit per nappi */
+    #btnNykyiset  { --nb-color:#3ec63e; --nb-glow:rgba(62,198,62,.12); --nb-shadow:rgba(62,198,62,.25); --nb-bg:rgba(62,198,62,.07); border:1px solid #1e4d2a; }
+    #btnHallitus  { --nb-color:#00d4ff; --nb-glow:rgba(0,212,255,.12); --nb-shadow:rgba(0,212,255,.25); --nb-bg:rgba(0,212,255,.07); border:1px solid #0a3a55; }
+    #btnLobbaus   { --nb-color:#ff9500; --nb-glow:rgba(255,149,0,.12);  --nb-shadow:rgba(255,149,0,.25);  --nb-bg:rgba(255,149,0,.07);  border:1px solid #553200; }
+    #btnHistorialliset { --nb-color:#a855f7; --nb-glow:rgba(168,85,247,.12); --nb-shadow:rgba(168,85,247,.25); --nb-bg:rgba(168,85,247,.07); border:1px solid #3d1a66; }
+
+    /* Neonpulssi nykyiset-napissa */
+    #btnNykyiset:not(.active) {
+      animation: neon-pulse-nav 2.2s ease-in-out infinite;
+    }
+    @keyframes neon-pulse-nav {
+      0%,100% { box-shadow: 0 0 6px rgba(62,198,62,.2), inset 0 0 8px rgba(62,198,62,.04); }
+      50%      { box-shadow: 0 0 18px rgba(62,198,62,.45), inset 0 0 16px rgba(62,198,62,.08); }
+    }
+    #btnNykyiset.active, #btnNykyiset:hover { animation: none; }
+
     .hdr-nykyiset { border-color: #1e4d2a !important; color: #3ec63e !important; }
     .hdr-nykyiset:hover, .hdr-nykyiset.active { background: rgba(62,198,62,.1) !important; border-color: #3ec63e !important; }
     .hdr-historialliset { border-color: #4d3a1a !important; color: #f5a623 !important; }
@@ -615,25 +722,7 @@
     }
     .puolue-dropdown .dp-btn:hover { border-color: #00d4ff; color: #00d4ff; }
     .puolue-dropdown .dp-btn.active { border-color: #00d4ff; color: #00d4ff; background: rgba(0,212,255,.08); }
-    #btnNykyiset {
-      border-color: #3ec63e !important;
-      color: #3ec63e !important;
-      animation: neon-pulse 1.8s ease-in-out infinite;
-    }
-    #btnNykyiset:hover, #btnNykyiset.active {
-      background: rgba(62,198,62,.1) !important;
-      animation: none;
-    }
-    @keyframes neon-pulse {
-      0%, 100% { box-shadow: 0 0 4px #3ec63e88, 0 0 10px #3ec63e44; }
-      50%       { box-shadow: 0 0 10px #3ec63ecc, 0 0 22px #3ec63e66; }
-    }
-    .hdr-hallitus { border-color: #00d4ff !important; color: #00d4ff !important; }
-    .hdr-hallitus:hover, .hdr-hallitus.active { background: rgba(0,212,255,.1) !important; border-color: #00d4ff !important; color: #00d4ff !important; }
-    .hdr-lobbaus { border-color: #ff9500 !important; color: #ff9500 !important; }
-    .hdr-lobbaus:hover, .hdr-lobbaus.active { background: rgba(255,149,0,.1) !important; border-color: #ff9500 !important; color: #ff9500 !important; }
-    .hdr-historialliset { border-color: #a855f7 !important; color: #a855f7 !important; }
-    #btnHistorialliset:hover, #btnHistorialliset.active { background: rgba(168,85,247,.1) !important; border-color: #a855f7 !important; color: #a855f7 !important; }
+    /* Vanhat hdr-btn-tyylit poistettu — korvattu .nav-btn-tyyleillä */
 
     /* ── SIVUTUS ── */
     #pagination {
@@ -857,11 +946,30 @@
         <button class="hdr-btn" id="btnPuolue">Puolue ▾</button>
         <div class="puolue-dropdown" id="puolueDropdown"></div>
       </div>
-      <button class="hdr-btn hdr-nykyiset" id="btnNykyiset">Nykyiset edustajat</button>
-      <button class="hdr-btn hdr-hallitus" id="btnHallitus">Hallitus</button>
-      <button class="hdr-btn hdr-lobbaus" id="btnLobbaus">Lobbaus</button>
-      <button class="hdr-btn hdr-historialliset" id="btnHistorialliset">Edustajahistoria</button>
     </div>
+  </div>
+  <!-- ISO NAVIGAATIORIVI -->
+  <div class="nav-btn-row">
+    <button class="nav-btn" id="btnNykyiset">
+      <span class="nav-btn-icon">🏛️</span>
+      <span class="nav-btn-label">Nykyiset</span>
+      <span class="nav-btn-sub">Istuvat kansanedustajat</span>
+    </button>
+    <button class="nav-btn" id="btnHallitus">
+      <span class="nav-btn-icon">⚡</span>
+      <span class="nav-btn-label">Hallitus</span>
+      <span class="nav-btn-sub">Orpon hallitus 2023–</span>
+    </button>
+    <button class="nav-btn" id="btnLobbaus">
+      <span class="nav-btn-icon">📡</span>
+      <span class="nav-btn-label">Lobbaus</span>
+      <span class="nav-btn-sub">Avoimuusrekisteri</span>
+    </button>
+    <button class="nav-btn" id="btnHistorialliset">
+      <span class="nav-btn-icon">📂</span>
+      <span class="nav-btn-label">Historia</span>
+      <span class="nav-btn-sub">Entiset edustajat</span>
+    </button>
   </div>
 </header>
 
