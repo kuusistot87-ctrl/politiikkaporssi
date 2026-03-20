@@ -1100,6 +1100,19 @@ const PUOLUEVARIT = {
 };
 const puolueVari = p => PUOLUEVARIT[p] || "#00d4ff";
 
+// Muuntaa kuva-URL:n oikeaan muotoon lähteestä riippuen
+function kuvaUrl(url, leveys) {
+  if (!url) return "";
+  // eduskunta.fi-kuvat toimivat suoraan
+  if (url.includes("eduskunta.fi")) return url;
+  // Wikimedia Commons: Special:FilePath → Special:Redirect/file (CORS-yhteensopiva)
+  if (url.includes("Special:FilePath")) {
+    const tiedosto = url.replace(/^.*Special:FilePath\//, "");
+    return "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/" + tiedosto + "&width=" + (leveys || 120);
+  }
+  return url;
+}
+
 let KAIKKI = [];
 let aktiivisuusPuolue = "";
 let aikasuodatin = "";
@@ -1285,7 +1298,7 @@ function luoKortti(m) {
   const vuodet = m.kuolinvuosi ? `${m.syntymavuosi||"?"}–${m.kuolinvuosi}`
                : m.syntymavuosi ? `s. ${m.syntymavuosi}` : "";
   const kuvaHtml = m.kuva
-    ? `<img src="${m.kuva}" alt="${m.nimi}" loading="lazy"
+    ? `<img src="${kuvaUrl(m.kuva, 88)}" alt="${m.nimi}" loading="lazy"
          onerror="this.style.display='none'"
          style="position:absolute;top:.7rem;right:.7rem;width:44px;height:54px;
                 object-fit:cover;border-radius:3px;
@@ -1421,9 +1434,15 @@ function renderModalSkeleton(m, vari) {
     ? `${m.syntymavuosi||"?"}–${m.kuolinvuosi}`
     : m.syntymavuosi ? `${m.syntymavuosi}–` : "–";
   const kuvaHtml = m.kuva
-    ? `<img src="${m.kuva}" alt="${m.nimi}" onerror="this.style.display='none'"
+    ? `${m.eduskunta ? `<a href="${m.eduskunta}" target="_blank" rel="noopener" title="Avaa eduskunta.fi-profiili" style="display:block;float:right;margin:0 0 .5rem 1rem;cursor:pointer">` : ""}
+       <img src="${kuvaUrl(m.kuva, 144)}" alt="${m.nimi}" onerror="this.parentElement.style.display='none'"
          style="width:72px;height:88px;object-fit:cover;border-radius:3px;
-                border:1px solid ${vari};float:right;margin:0 0 .5rem 1rem;">`
+                border:1px solid ${vari};
+                transition:opacity .2s,box-shadow .2s;
+                ${m.eduskunta ? "box-shadow:0 0 0 0 "+vari+"44;" : ""}"
+         onmouseover="${m.eduskunta ? "this.style.opacity='.75';this.style.boxShadow='0 0 10px "+vari+"88'" : ""}"
+         onmouseout="${m.eduskunta ? "this.style.opacity='1';this.style.boxShadow='0 0 0 0 transparent'" : ""}">
+       ${m.eduskunta ? "</a>" : ""}`
     : "";
   content.innerHTML = `
     <div class="modal-label">Kansanedustaja · ${m.puolue||"–"}</div>
