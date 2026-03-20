@@ -1309,6 +1309,15 @@ function renderModalSkeleton(m, vari) {
     ${kuvaHtml}
     <div class="modal-name" id="modalName">${m.nimi}</div>
     <div class="modal-divider"></div>
+    <button onclick="avaaLobbausKortti()"
+      style="margin:0 0 .75rem 0;background:transparent;border:1px solid ${vari}88;
+             border-radius:4px;color:${vari};font-family:'Rajdhani',sans-serif;
+             font-size:.78rem;letter-spacing:.12em;padding:.4rem 1rem;
+             cursor:pointer;transition:all .2s;width:100%"
+      onmouseover="this.style.background='rgba(0,212,255,.08)'"
+      onmouseout="this.style.background='transparent'">
+      LOBBAUSDATA ↗
+    </button>
     <div id="accordion-container">
       ${accordionItem("perustiedot","PERUSTIEDOT",`
         <div class="detail-grid">
