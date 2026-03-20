@@ -926,6 +926,15 @@
     @media (max-width: 600px) {
       main { padding: 1rem; gap: .85rem; }
       .detail-grid { grid-template-columns: 1fr; }
+      .nav-btn-row { gap: .6rem; }
+      .nav-btn { min-width: 120px; padding: 1rem .5rem .9rem; }
+      .nav-btn-sub { display: none; }
+      .modal-name { font-size: 1.15rem; }
+    }
+    @media (max-width: 380px) {
+      .card-body img { display: none !important; }
+      .nav-btn { min-width: 80px; }
+      .nav-btn-label { font-size: .7rem; }
     }
   </style>
 </head>
@@ -1298,7 +1307,7 @@ function luoKortti(m) {
   const vuodet = m.kuolinvuosi ? `${m.syntymavuosi||"?"}–${m.kuolinvuosi}`
                : m.syntymavuosi ? `s. ${m.syntymavuosi}` : "";
   const kuvaHtml = m.kuva
-    ? `<img src="${kuvaUrl(m.kuva, 88)}" alt="${m.nimi}" loading="lazy"
+    ? `<img src="${kuvaUrl(m.kuva, 88)}" alt="${m.nimi}"
          onerror="this.style.display='none'"
          style="position:absolute;top:.7rem;right:.7rem;width:44px;height:54px;
                 object-fit:cover;border-radius:3px;
