@@ -1460,8 +1460,8 @@ async function naytaLobbausTiedot(m, vari) {
   }
 
   const yhteensa      = tiData ? tiData.yhteensa : (keData ? keData.yhteensa : 0);
-  const sijoitus      = keData ? (keData.sijoitus_viimeisin || "–") : "–";
-  const sijoitusKausi = keData ? (keData.sijoitus_kausi || "") : "";
+  const sijoitus      = (keData && keData.sijoitus_viimeisin) ? keData.sijoitus_viimeisin : (tiData && tiData.sijoitus_viimeisin) ? tiData.sijoitus_viimeisin : "–";
+  const sijoitusKausi = (keData && keData.sijoitus_kausi) ? keData.sijoitus_kausi : (tiData && tiData.sijoitus_kausi) ? tiData.sijoitus_kausi : "";
 
   // Rakenna UI pala kerrallaan — ei yhtä isoa innerHTML
   el.innerHTML = "";
@@ -1738,8 +1738,8 @@ async function renderLobbausKortti(m, el) {
   }
 
   const yhteensa      = tiData ? tiData.yhteensa : (keData ? keData.yhteensa : 0);
-  const sijoitus      = keData ? (keData.sijoitus_viimeisin || "–") : "–";
-  const sijoitusKausi = keData ? (keData.sijoitus_kausi || "") : "";
+  const sijoitus      = (keData && keData.sijoitus_viimeisin) ? keData.sijoitus_viimeisin : (tiData && tiData.sijoitus_viimeisin) ? tiData.sijoitus_viimeisin : "–";
+  const sijoitusKausi = (keData && keData.sijoitus_kausi) ? keData.sijoitus_kausi : (tiData && tiData.sijoitus_kausi) ? tiData.sijoitus_kausi : "";
 
   el.innerHTML = "";
 
