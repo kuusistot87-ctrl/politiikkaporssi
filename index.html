@@ -1500,50 +1500,36 @@ async function naytaLobbausTiedot(m, vari) {
   lataaOrgData(m, keData, vari, "lobbaus-org-" + containerId);
 }
 
-async function lataaOrgData(m, keData, vari, orgElId) {
+function lataaOrgData(m, keData, vari, orgElId) {
   const orgEl = document.getElementById(orgElId);
   if (!orgEl) return;
 
-  // Kerää org-data kaikista kausista
-  const orgYhteensa = {};
-  for (const k of keData.kaudet) {
-    try {
-      const res = await fetch("lobbaus_json/" + k.kausi_id + ".json");
-      if (!res.ok) continue;
-      const data = await res.json();
-      const ke_org = data.ke_org || {};
-      const orgs = ke_org[m.nimi] || [];
-      for (const o of orgs) {
-        orgYhteensa[o.org] = (orgYhteensa[o.org] || 0) + o.maara;
-      }
-    } catch(_) {}
-  }
-
-  const orgLista = Object.entries(orgYhteensa)
-    .sort((a,b) => b[1]-a[1]).slice(0,8);
+  const idx2 = LOBBAUS_INDEX || null;
+  const ti   = idx2 && idx2.toimintailmoitukset ? idx2.toimintailmoitukset[m.nimi] : null;
+  const orgLista = ti && ti.top_lobbarit ? ti.top_lobbarit.slice(0,8) : [];
 
   if (!orgLista.length) {
-    orgEl.innerHTML = '<div class="d-label">Organisaatiodata ei saatavilla</div>';
+    orgEl.innerHTML = '<div style="color:#5a7a99;font-size:.78rem;padding:.25rem 0">Ei organisaatiodataa saatavilla</div>';
+    setTimeout(() => paivitaAccordionKorkeus(orgEl), 50);
     return;
   }
 
   const maxOrg = orgLista[0][1];
   const barsHtml = orgLista.map(([org, maara]) => {
-    const pct = Math.round(maara / maxOrg * 100);
-    const lyhyt = org.length > 35 ? org.slice(0,33) + "…" : org;
+    const pct   = Math.round(maara / maxOrg * 100);
+    const lyhyt = org.length > 38 ? org.slice(0,36) + "…" : org;
     return `<div class="lobbaus-bar-wrap">
       <div class="lobbaus-bar-label">
         <span>${lyhyt}</span><span style="color:${vari}">${maara}</span>
       </div>
       <div class="lobbaus-bar-track">
-        <div class="lobbaus-bar-fill" style="width:${pct}%;--party-c:${vari}"></div>
+        <div class="lobbaus-bar-fill" style="width:${pct}%;background:${vari}"></div>
       </div>
     </div>`;
   }).join("");
 
-  orgEl.innerHTML = `
-    <div class="d-label" style="margin-bottom:.5rem">Organisaatiot (kaikki kaudet)</div>
-    ${barsHtml}`;
+  orgEl.innerHTML = `<div class="d-label" style="margin-bottom:.5rem">TOP LOBBARIT</div>${barsHtml}`;
+  setTimeout(() => paivitaAccordionKorkeus(orgEl), 50);
 }
 
 /* ── Kutsutaan kun accordionin lobbaus-osio avataan ── */
