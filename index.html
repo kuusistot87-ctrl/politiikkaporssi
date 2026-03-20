@@ -1333,7 +1333,15 @@ function renderModalSkeleton(m, vari) {
     h.addEventListener("click", () => {
       const body = h.nextElementSibling;
       const isOpen = body.style.maxHeight && body.style.maxHeight !== "0px";
-      body.style.maxHeight = isOpen ? "0px" : body.scrollHeight + "px";
+      if (isOpen) {
+        body.style.maxHeight = "0px";
+      } else {
+        body.style.maxHeight = body.scrollHeight + "px";
+        // Poista max-height rajoitus animaation jälkeen
+        body.addEventListener("transitionend", () => {
+          if (body.style.maxHeight !== "0px") body.style.maxHeight = "none";
+        }, {once: true});
+      }
       h.querySelector(".accordion-arrow").style.transform = isOpen ? "rotate(0deg)" : "rotate(90deg)";
       if (!isOpen && ids[idx]) onAccordionOpen(ids[idx], m, vari);
     });
@@ -1375,13 +1383,13 @@ async function lataaLobbausIndex() {
 }
 
 function paivitaAccordionKorkeus(el) {
-  // Etsi lähin avoinna oleva accordion-body ja päivitä sen korkeus
+  // Jos max-height on none, ei tarvitse päivittää
   let body = el;
   while (body && !body.classList.contains("accordion-body")) {
     body = body.parentElement;
   }
-  if (body && body.style.maxHeight && body.style.maxHeight !== "0px") {
-    body.style.maxHeight = body.scrollHeight + "px";
+  if (body && body.style.maxHeight && body.style.maxHeight !== "0px" && body.style.maxHeight !== "none") {
+    body.style.maxHeight = "none"; // Vapautetaan rajoitus
   }
 }
 
@@ -1422,7 +1430,7 @@ async function naytaLobbausTiedot(m, vari) {
     <div>
       <div class="d-label">Maininnat yhteensä</div>
       <div style="font-family:'Orbitron',monospace;font-size:1.3rem;font-weight:700;color:${vari}">${yhteensa}</div>
-      ${nimikkeet ? `<div style="font-size:.68rem;color:#5a7a99;margin-top:.2rem">${nimikkeet}</div>` : ""}
+
     </div>
     <div>
       <div class="d-label">Sijoitus ${sijoitusKausi}</div>
