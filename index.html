@@ -2597,7 +2597,9 @@ const RSS_PROXY = "https://api.rss2json.com/v1/api.json?rss_url=";
 // Etsi uutistekstistä tunnettu poliitikko — palauttaa {sukunimi, vari} tai null
 function etsiPoliitikko(teksti) {
   // Tarkista sukunimi taivutusmuotoineen — täytyy olla oma sana
-  function nimiOsuu(suku) {
+  // Lyhyet sukunimet (alle 5 merkkiä) vaativat myös etunimen
+  function nimiOsuu(suku, etu) {
+    if (suku.length < 5 && etu && !teksti.includes(etu)) return false;
     const paatteet = ['','n','lle','lla','llä','lta','ltä','sta','stä','ssa','ssä','ksi','na','nä','tta','ttä'];
     return paatteet.some(p => {
       const muoto = suku + p;
@@ -2606,10 +2608,13 @@ function etsiPoliitikko(teksti) {
     });
   }
   // Hallituksen jäsenet (+ presidentti)
+  // Hallituksen jäsenet (+ presidentti)
   for (const m of HALLITUS) {
     const osat = m.nimi.split(' ');
     const suku = osat[osat.length - 1].toLowerCase();
-    if (nimiOsuu(suku)) {
+    const etu  = osat[0].toLowerCase();
+    const etuRe = new RegExp('(^|[^a-zäöåA-ZÄÖÅ])' + etu + '($|[^a-zäöåA-ZÄÖÅ])', 'i');
+    if (nimiOsuu(suku) && etuRe.test(teksti)) {
       const edustaja = KAIKKI ? KAIKKI.find(e => e.nimi === m.nimi) : null;
       return { sukunimi: osat[osat.length-1], vari: puolueVari(m.puolue), edustaja };
     }
@@ -2620,7 +2625,9 @@ function etsiPoliitikko(teksti) {
       if (!e.nykyinen) continue;
       const osat = e.nimi.split(' ');
       const suku = osat[osat.length - 1].toLowerCase();
-      if (nimiOsuu(suku)) {
+      const etu  = osat[0].toLowerCase();
+      const etuRe = new RegExp('(^|[^a-zäöåA-ZÄÖÅ])' + etu + '($|[^a-zäöåA-ZÄÖÅ])', 'i');
+      if (nimiOsuu(suku) && etuRe.test(teksti)) {
         return { sukunimi: osat[osat.length-1], vari: puolueVari(e.puolue), edustaja: e };
       }
     }
@@ -2663,11 +2670,15 @@ async function lataaPoliitikkoMaininnat() {
         const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
         const pol = poliitikot.find(p => {
           const paatteet = ['','n','lle','lla','llä','lta','ltä','sta','stä','ssa','ssä','ksi','na','nä'];
-          return paatteet.some(e => {
+          const sukuOsuu = paatteet.some(e => {
             const muoto = p.suku + e;
             const re = new RegExp('(^|[^a-zäöåA-ZÄÖÅ])' + muoto + '($|[^a-zäöåA-ZÄÖÅ])', 'i');
             return re.test(teksti);
           });
+          if (!sukuOsuu) return false;
+          // Tarkista myös etunimi
+          const etuRe = new RegExp('(^|[^a-zäöåA-ZÄÖÅ])' + p.etu + '($|[^a-zäöåA-ZÄÖÅ])', 'i');
+          return etuRe.test(teksti);
         });
         if (pol) {
           osumia.push({ item, lahde, pol });
