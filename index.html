@@ -1962,7 +1962,7 @@ async function renderLobbausKortti(m, el) {
 
   // Selityslaatikko
   const selitys = document.createElement("div");
-  selitys.style.cssText = "background:rgba(255,255,255,.03);border:1px solid #1a2a5588;border-radius:4px;padding:.55rem .75rem;margin-bottom:1rem;font-size:.72rem;color:#5a7a99;line-height:1.5";
+  selitys.style.cssText = "background:rgba(255,255,255,.03);border:1px solid #1a2a5588;border-radius:4px;padding:.55rem .75rem;margin-bottom:1rem;font-size:.82rem;color:#5a7a99;line-height:1.5";
   selitys.innerHTML = "ⓘ <strong style='color:#8899aa'>Maininnat yhteensä</strong> = kaikki roolit (toimintailmoitukset). <strong style='color:#8899aa'>Kausittain</strong> = kansanedustajana (avoimuusrekisterin raportit). Luvut voivat poiketa.";
   el.appendChild(selitys);
 
@@ -2524,7 +2524,7 @@ async function lataaSignaali() {
   for (const [ryhma, lahteet] of Object.entries(ryhmat)) {
     // Ryhmäotsikko
     const otsikko = document.createElement("div");
-    otsikko.style.cssText = "grid-column:1/-1;font-family:'Orbitron',monospace;font-size:.62rem;letter-spacing:.2em;color:"+ryhmaVarit[ryhma]+";margin:.5rem 0 .25rem;padding-top:.5rem;border-top:1px solid #1a2a55";
+    otsikko.style.cssText = "grid-column:1/-1;font-family:'Orbitron',monospace;font-size:.75rem;letter-spacing:.2em;color:"+ryhmaVarit[ryhma]+";margin:.5rem 0 .25rem;padding-top:.5rem;border-top:1px solid #1a2a55";
     otsikko.textContent = "— " + ryhma.toUpperCase() + " —";
     grid.appendChild(otsikko);
 
@@ -2545,7 +2545,7 @@ async function lataaSignaali() {
 
       const arrow = document.createElement("span");
       arrow.id = id + "-arrow";
-      arrow.style.cssText = "color:" + lahde.vari + ";font-size:.8rem";
+      arrow.style.cssText = "color:" + lahde.vari + ";font-size:1rem";
       arrow.textContent = "▸";
 
       header.appendChild(title);
@@ -2574,7 +2574,7 @@ async function lataaSignaali() {
           const el   = document.getElementById(id+'-body');
           if (!el) return;
           if (!data.items || !data.items.length) {
-            el.innerHTML = '<span style="color:#5a7a99;font-size:.78rem">Ei uutisia saatavilla</span>';
+            el.innerHTML = '<span style="color:#5a7a99;font-size:.88rem">Ei uutisia saatavilla</span>';
             return;
           }
           el.innerHTML = data.items.map(item => {
@@ -2586,18 +2586,18 @@ async function lataaSignaali() {
 
             const indikaattori = osuma
               ? '<span style="display:inline-block;background:' + osuma.vari + '22;border:1px solid ' + osuma.vari + '88;border-radius:3px;'
-                + 'font-size:.6rem;color:' + osuma.vari + ';padding:.1rem .4rem;margin-right:.4rem;font-family:Orbitron,monospace;'
+                + 'font-size:.72rem;color:' + osuma.vari + ';padding:.1rem .4rem;margin-right:.4rem;font-family:Orbitron,monospace;'
                 + 'letter-spacing:.08em;vertical-align:middle">👤 ' + osuma.sukunimi + '</span>'
               : '';
 
             return '<a href="' + item.link + '" target="_blank" rel="noopener" class="rss-item" style="display:block;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit">'
-              + '<div style="font-size:.88rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">' + indikaattori + item.title + '</div>'
-              + '<div style="font-size:.72rem;color:#5a7a99">' + pvm + '</div>'
+              + '<div style="font-size:1rem;color:#c8d8e8;line-height:1.5;margin-bottom:.25rem;font-weight:500">' + indikaattori + item.title + '</div>'
+              + '<div style="font-size:.82rem;color:#5a7a99">' + pvm + '</div>'
               + '</a>';
           }).join('');
         } catch(e) {
           const el = document.getElementById(id);
-          if (el) el.innerHTML = '<span style="color:#5a7a99;font-size:.78rem">Lataus epäonnistui</span>';
+          if (el) el.innerHTML = '<span style="color:#5a7a99;font-size:.88rem">Lataus epäonnistui</span>';
         }
       })(lahde, id);
     }
@@ -2659,7 +2659,7 @@ async function lataaPoliitikkoMaininnat() {
   if (lkm) lkm.textContent = uniikit.length + ' mainintaa';
 
   if (!uniikit.length) {
-    el.innerHTML = '<div style="color:#5a7a99;font-size:.82rem;padding:.5rem 0">Ei mainintoja löytynyt tällä hetkellä.</div>';
+    el.innerHTML = '<div style="color:#5a7a99;font-size:.92rem;padding:.5rem 0">Ei mainintoja löytynyt tällä hetkellä.</div>';
     return;
   }
 
@@ -2668,14 +2668,14 @@ async function lataaPoliitikkoMaininnat() {
     return '<a href="'+item.link+'" target="_blank" rel="noopener"'
       +' style="display:flex;align-items:flex-start;gap:.6rem;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none">'
       +'<span style="flex-shrink:0;background:'+pol.vari+'22;border:1px solid '+pol.vari+'66;border-radius:3px;'
-        +'font-size:.58rem;color:'+pol.vari+';padding:.15rem .4rem;font-family:Orbitron,monospace;'
+        +'font-size:.7rem;color:'+pol.vari+';padding:.15rem .4rem;font-family:Orbitron,monospace;'
         +'letter-spacing:.06em;margin-top:.15rem">'+pol.puolue+'</span>'
       +'<div style="flex:1;min-width:0">'
-        +'<div style="font-size:.82rem;color:#c8d8e8;line-height:1.4;margin-bottom:.15rem;font-weight:500">'
+        +'<div style="font-size:.95rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">'
           +'<span style="color:'+pol.vari+';font-weight:700">'+pol.nimi.split(' ').pop()+'</span>'
           +' — '+item.title
         +'</div>'
-        +'<div style="font-size:.65rem;color:#5a7a99">'+lahde.nimi+' · '+pvm+'</div>'
+        +'<div style="font-size:.78rem;color:#5a7a99">'+lahde.nimi+' · '+pvm+'</div>'
       +'</div>'
       +'</a>';
   }).join('');
