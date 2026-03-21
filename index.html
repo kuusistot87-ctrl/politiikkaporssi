@@ -928,67 +928,71 @@
       main { padding: 1rem; gap: .85rem; }
       .detail-grid { grid-template-columns: 1fr; }
     }
-    /* ── RSS NAV-PAINIKKEET ── */
-    .rss-nav-btn {
+    /* ── SIGNAALI RYHMÄPAINIKKEET ── */
+    .signaali-ryhma-btn {
       position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: .35rem;
+      gap: .45rem;
       flex: 1;
       min-width: 160px;
-      max-width: 220px;
-      padding: 1.1rem .75rem 1rem;
+      padding: 1.2rem .75rem 1.1rem;
       background: rgba(8,13,31,.9);
       border-radius: 8px;
       cursor: pointer;
       font-family: 'Rajdhani', sans-serif;
       text-transform: uppercase;
-      letter-spacing: .12em;
-      transition: transform .2s, box-shadow .2s;
+      letter-spacing: .13em;
+      transition: transform .2s, box-shadow .2s, background .2s;
       overflow: hidden;
       border: 1px solid #1a2a55;
     }
-    .rss-nav-btn::before {
+    .signaali-ryhma-btn::before {
       content: '';
       position: absolute;
       top: 0; left: 0; right: 0;
       height: 3px;
-      background: var(--rss-color, #ff4d6d);
-      box-shadow: 0 0 10px var(--rss-color, #ff4d6d);
+      background: var(--sr-color);
+      box-shadow: 0 0 12px var(--sr-color);
+      transition: height .2s;
     }
-    .rss-nav-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 20px rgba(0,0,0,.4);
-      border-color: var(--rss-color, #ff4d6d);
+    .signaali-ryhma-btn::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--sr-glow), transparent 70%);
+      opacity: 0;
+      transition: opacity .25s;
+      pointer-events: none;
     }
-    .rss-nav-btn.active {
-      background: rgba(255,77,109,.07);
-      border-color: var(--rss-color, #ff4d6d);
+    .signaali-ryhma-btn:hover::after,
+    .signaali-ryhma-btn.active::after { opacity: 1; }
+    .signaali-ryhma-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px var(--sr-shadow);
+      border-color: var(--sr-color);
     }
-    .rss-nav-btn-label {
-      font-size: .8rem;
+    .signaali-ryhma-btn.active {
+      background: var(--sr-bg);
+      box-shadow: 0 0 24px var(--sr-shadow);
+      border-color: var(--sr-color);
+    }
+    .signaali-ryhma-btn.active::before { height: 4px; }
+    .signaali-ryhma-label {
+      font-size: .82rem;
       font-weight: 700;
-      color: var(--rss-color, #ff4d6d);
-      letter-spacing: .13em;
+      color: var(--sr-color);
+      letter-spacing: .14em;
     }
-    .rss-nav-btn-sub {
-      font-size: .62rem;
+    .signaali-ryhma-sub {
+      font-size: .65rem;
       color: #3a5a77;
-      letter-spacing: .06em;
-    }
-    .rss-ryhmaotsikko {
-      width: 100%;
-      font-family: 'Orbitron', monospace;
-      font-size: .62rem;
-      letter-spacing: .2em;
-      padding: .5rem 0 .25rem;
-      border-top: 1px solid #1a2a55;
-      margin-top: .25rem;
+      letter-spacing: .08em;
     }
 
-    /* ── RSS UUTISLISTA OVERLAY ── */
+    /* RSS LISTA OVERLAY */
     #rssListaOverlay {
       position: fixed;
       inset: 0;
@@ -1001,16 +1005,13 @@
       pointer-events: none;
       transition: opacity .2s;
     }
-    #rssListaOverlay.open {
-      opacity: 1;
-      pointer-events: all;
-    }
+    #rssListaOverlay.open { opacity: 1; pointer-events: all; }
     #rssListaBox {
       background: #080d1f;
       border: 1px solid #1a2a55;
       border-radius: 8px;
-      width: min(560px, 96vw);
-      max-height: 85vh;
+      width: min(600px, 96vw);
+      max-height: 88vh;
       overflow-y: auto;
       position: relative;
       box-shadow: 0 0 60px rgba(0,0,0,.8);
@@ -1190,7 +1191,8 @@
   </div>
 
   <!-- RSS-syötteet -->
-  <div style="display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center" id="signaalinGrid">
+  <div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.5rem" id="signaalinRyhmaPainikkeet"></div>
+  <div id="signaalinGrid" style="display:none;flex-direction:column;gap:.5rem">
     <div style="color:#5a7a99;font-size:.85rem;letter-spacing:.1em">
       <div class="spinner" style="margin:2rem auto"></div>
     </div>
@@ -1200,11 +1202,11 @@
 <!-- RSS LISTA OVERLAY -->
 <div id="rssListaOverlay">
   <div id="rssListaBox">
-    <div id="rssListaTopbar" style="height:3px;background:#ff4d6d"></div>
-    <button onclick="suljeRssLista()" style="position:sticky;top:.5rem;float:right;
-      margin:.5rem .5rem 0 0;background:transparent;border:1px solid #1a2a55;
-      border-radius:4px;color:#5a7a99;padding:.2rem .6rem;cursor:pointer;font-size:.8rem;z-index:1">ESC ×</button>
-    <div id="rssListaSisalto" style="padding:1.5rem"></div>
+    <div id="rssListaTopbar" style="height:3px;background:#ff4d6d;border-radius:8px 8px 0 0"></div>
+    <button onclick="suljeRssLista()" style="position:sticky;top:.5rem;float:right;margin:.5rem .5rem 0 0;
+      background:transparent;border:1px solid #1a2a55;border-radius:4px;color:#5a7a99;
+      padding:.2rem .6rem;cursor:pointer;font-size:.8rem;z-index:1">ESC ×</button>
+    <div id="rssListaSisalto" style="padding:1.5rem 1.5rem 2rem"></div>
   </div>
 </div>
 
@@ -2622,36 +2624,47 @@ async function lataaSignaali() {
   for (const [ryhma, lahteet] of Object.entries(ryhmat)) {
     // Ryhmäotsikko
     const otsikko = document.createElement("div");
-    otsikko.className = "rss-ryhmaotsikko";
-    otsikko.style.color = ryhmaVarit[ryhma];
+    otsikko.style.cssText = "grid-column:1/-1;font-family:'Orbitron',monospace;font-size:.75rem;letter-spacing:.2em;color:"+ryhmaVarit[ryhma]+";margin:.5rem 0 .25rem;padding-top:.5rem;border-top:1px solid #1a2a55";
     otsikko.textContent = "— " + ryhma.toUpperCase() + " —";
     grid.appendChild(otsikko);
 
     for (const lahde of lahteet) {
       const id = "rss-" + lahde.nimi.replace(/[^a-zA-Z0-9]/g, '-');
 
-      // Luo nav-tyylinen painike
-      const btn = document.createElement("button");
-      btn.className = "rss-nav-btn";
-      btn.style.setProperty("--rss-color", lahde.vari);
-      btn.innerHTML =
-        '<span style="font-size:1.3rem;line-height:1">📰</span>' +
-        '<span class="rss-nav-btn-label">' + lahde.nimi + '</span>' +
-        '<span class="rss-nav-btn-sub">' + lahde.ryhma + '</span>';
+      const panel = document.createElement("div");
+      panel.className = "lobbaus-panel";
+      panel.style.cursor = "pointer";
 
-      btn.addEventListener("click", () => avaaRssLista(lahde, id));
-      grid.appendChild(btn);
+      const header = document.createElement("div");
+      header.style.cssText = "display:flex;justify-content:space-between;align-items:center";
 
-      // Lataa data taustalla valmiiksi
-      (async (lahde, id) => {
-        try {
-          const res  = await fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=15");
-          const data = await res.json();
-          if (data.items) btn.dataset.loaded = "1";
-          // Tallenna data painikkeeseen
-          btn.rssData = data.items || [];
-        } catch(e) { btn.rssData = []; }
-      })(lahde, id);
+      const title = document.createElement("div");
+      title.className = "lobbaus-panel-title";
+      title.style.cssText = "color:" + lahde.vari + ";margin-bottom:0";
+      title.textContent = lahde.nimi;
+
+      const arrow = document.createElement("span");
+      arrow.id = id + "-arrow";
+      arrow.style.cssText = "color:" + lahde.vari + ";font-size:1rem";
+      arrow.textContent = "▸";
+
+      header.appendChild(title);
+      header.appendChild(arrow);
+
+      const body = document.createElement("div");
+      body.id = id + "-body";
+      body.style.cssText = "display:none;flex-direction:column;gap:.35rem;overflow-y:auto;max-height:280px;padding-right:.25rem;margin-top:.6rem";
+      body.innerHTML = '<div class="spinner" style="margin:.5rem auto"></div>';
+
+      header.addEventListener("click", function() {
+        const isOpen = body.style.display !== "none";
+        body.style.display = isOpen ? "none" : "flex";
+        arrow.textContent = isOpen ? "▸" : "▾";
+      });
+
+      panel.appendChild(header);
+      panel.appendChild(body);
+      grid.appendChild(panel);
 
       // Lataa asynkronisesti — ei blokkaa muita
       (async (lahde, id) => {
@@ -2768,53 +2781,124 @@ async function lataaPoliitikkoMaininnat() {
   }).join('');
 }
 
-function avaaRssLista(lahde, id) {
+/* ── RSS-ryhmäpainikkeet ── */
+const RYHMA_IKONIT = { "Media": "📰", "Eduskunta": "🏛️", "Valtioneuvosto": "⚡" };
+const RYHMA_VARIT  = { "Media": "#ff4d6d", "Eduskunta": "#3ec63e", "Valtioneuvosto": "#f5c400" };
+let AKTIIVINEN_RSS_RYHMA = null;
+let RSS_CACHE = {}; // { lahdeNimi: [items] }
+
+function rakennaSIgnaaliPainikkeet() {
+  const wrap = document.getElementById("signaalinRyhmaPainikkeet");
+  if (!wrap) return;
+  wrap.innerHTML = "";
+  const ryhmat = [...new Set(RSS_LAHTEET.map(l => l.ryhma))];
+  ryhmat.forEach(ryhma => {
+    const vari   = RYHMA_VARIT[ryhma]   || "#00d4ff";
+    const ikoni  = RYHMA_IKONIT[ryhma]  || "📡";
+    const lahteet = RSS_LAHTEET.filter(l => l.ryhma === ryhma);
+    const btn = document.createElement("button");
+    btn.className = "signaali-ryhma-btn";
+    btn.style.setProperty("--sr-color",  vari);
+    btn.style.setProperty("--sr-glow",   vari.replace(")", ",.12)").replace("rgb","rgba"));
+    btn.style.setProperty("--sr-shadow", vari.replace(")", ",.25)").replace("rgb","rgba"));
+    btn.style.setProperty("--sr-bg",     vari.replace(")", ",.07)").replace("rgb","rgba"));
+    btn.innerHTML =
+      '<span style="font-size:1.5rem;line-height:1">'+ikoni+'</span>'+
+      '<span class="signaali-ryhma-label">'+ryhma+'</span>'+
+      '<span class="signaali-ryhma-sub">'+lahteet.length+' lähdettä</span>';
+    btn.addEventListener("click", () => avaaRssRyhma(ryhma, btn));
+    wrap.appendChild(btn);
+  });
+}
+
+function avaaRssRyhma(ryhma, btn) {
   const overlay  = document.getElementById("rssListaOverlay");
   const sisalto  = document.getElementById("rssListaSisalto");
   const topbar   = document.getElementById("rssListaTopbar");
-  topbar.style.background = lahde.vari;
+  const vari     = RYHMA_VARIT[ryhma] || "#ff4d6d";
+  topbar.style.background = vari;
   overlay.classList.add("open");
   document.body.style.overflow = "hidden";
 
-  // Hae painikkeen data
-  const btn = document.querySelector("[data-loaded]") || null;
-  const allBtns = document.querySelectorAll(".rss-nav-btn");
-  let rssData = [];
-  allBtns.forEach(b => { if (b.rssData !== undefined && b.querySelector(".rss-nav-btn-label") && b.querySelector(".rss-nav-btn-label").textContent === lahde.nimi) rssData = b.rssData; });
-
+  const lahteet = RSS_LAHTEET.filter(l => l.ryhma === ryhma);
   sisalto.innerHTML =
-    '<div style="color:'+lahde.vari+';font-family:Orbitron,monospace;font-size:.65rem;letter-spacing:.15em;margin-bottom:.3rem">'+lahde.ryhma.toUpperCase()+'</div>' +
-    '<div style="font-size:1.15rem;font-weight:700;color:#e8f4ff;margin-bottom:1rem">'+lahde.nimi+'</div>' +
-    '<div id="rssListaItems" style="display:flex;flex-direction:column;gap:.35rem">' +
-      (rssData.length ? '' : '<div class="spinner" style="margin:1rem auto"></div>') +
-    '</div>';
+    '<div style="color:'+vari+';font-family:Orbitron,monospace;font-size:.65rem;letter-spacing:.15em;margin-bottom:.3rem">'+RYHMA_IKONIT[ryhma]+' '+ryhma.toUpperCase()+'</div>'+
+    '<div style="font-size:1.15rem;font-weight:700;color:#e8f4ff;margin-bottom:1.25rem">'+lahteet.length+' uutislähdettä</div>'+
+    '<div id="rssListaItems"></div>';
 
-  if (rssData.length) {
-    renderRssItems(rssData, lahde.vari);
-  } else {
-    // Lataa nyt
-    fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=15")
-      .then(r => r.json())
-      .then(data => renderRssItems(data.items || [], lahde.vari))
-      .catch(() => { const el = document.getElementById("rssListaItems"); if(el) el.innerHTML = '<span style="color:#5a7a99">Lataus epäonnistui</span>'; });
-  }
+  renderRssRyhmaItems(lahteet, vari);
 }
 
-function renderRssItems(items, vari) {
+async function renderRssRyhmaItems(lahteet, vari) {
   const el = document.getElementById("rssListaItems");
   if (!el) return;
-  if (!items.length) { el.innerHTML = '<span style="color:#5a7a99;font-size:.88rem">Ei uutisia saatavilla</span>'; return; }
-  el.innerHTML = items.map(item => {
-    const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
-    const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
-    const pol = etsiPoliitikko(teksti);
-    const badge = pol ? '<span style="display:inline-block;background:'+pol.vari+'22;border:1px solid '+pol.vari+'66;border-radius:3px;font-size:.65rem;color:'+pol.vari+';padding:.1rem .4rem;margin-right:.4rem;font-family:Orbitron,monospace">👤 '+pol.sukunimi+'</span>' : '';
-    return '<a href="'+item.link+'" target="_blank" rel="noopener"'
-      +' style="display:block;padding:.5rem .6rem;border:1px solid #1a2a55;border-radius:4px;text-decoration:none;margin-bottom:.3rem;background:rgba(255,255,255,.02)">'
-      +'<div style="font-size:.92rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">'+badge+item.title+'</div>'
-      +'<div style="font-size:.75rem;color:#5a7a99">'+pvm+'</div>'
-      +'</a>';
-  }).join('');
+  el.innerHTML = '<div class="spinner" style="margin:1.5rem auto"></div>';
+
+  // Lataa kaikki lähteet rinnakkain
+  await Promise.all(lahteet.map(async lahde => {
+    if (!RSS_CACHE[lahde.nimi]) {
+      try {
+        const res  = await fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=15");
+        const data = await res.json();
+        RSS_CACHE[lahde.nimi] = data.items || [];
+      } catch(e) { RSS_CACHE[lahde.nimi] = []; }
+    }
+  }));
+
+  if (!el) return;
+  el.innerHTML = "";
+
+  lahteet.forEach(lahde => {
+    const items = RSS_CACHE[lahde.nimi] || [];
+
+    // Lähteen otsikko accordion-tyylisesti
+    const section = document.createElement("div");
+    section.style.marginBottom = ".75rem";
+
+    const header = document.createElement("div");
+    header.style.cssText = "display:flex;justify-content:space-between;align-items:center;"+
+      "padding:.5rem .75rem;background:rgba(255,255,255,.03);border:1px solid #1a2a55;"+
+      "border-radius:5px;cursor:pointer;margin-bottom:.35rem";
+
+    const htitle = document.createElement("div");
+    htitle.style.cssText = "font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.15em;color:"+lahde.vari;
+    htitle.textContent = lahde.nimi;
+
+    const arrow = document.createElement("span");
+    arrow.style.cssText = "color:"+lahde.vari+";font-size:.8rem";
+    arrow.textContent = "▸";
+
+    const body = document.createElement("div");
+    body.style.display = "none";
+
+    header.appendChild(htitle);
+    header.appendChild(arrow);
+    header.addEventListener("click", () => {
+      const open = body.style.display !== "none";
+      body.style.display = open ? "none" : "block";
+      arrow.textContent  = open ? "▸" : "▾";
+    });
+
+    if (!items.length) {
+      body.innerHTML = '<div style="color:#5a7a99;font-size:.82rem;padding:.35rem 0">Ei uutisia saatavilla</div>';
+    } else {
+      body.innerHTML = items.map(item => {
+        const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
+        const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
+        const pol    = etsiPoliitikko(teksti);
+        const badge  = pol ? '<span style="display:inline-block;background:'+pol.vari+'22;border:1px solid '+pol.vari+'66;border-radius:3px;font-size:.65rem;color:'+pol.vari+';padding:.1rem .4rem;margin-right:.4rem;font-family:Orbitron,monospace">👤 '+pol.sukunimi+'</span>' : '';
+        return '<a href="'+item.link+'" target="_blank" rel="noopener"'
+          +' style="display:block;padding:.5rem 0;border-bottom:1px solid #1a2a5533;text-decoration:none">'
+          +'<div style="font-size:.9rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">'+badge+item.title+'</div>'
+          +'<div style="font-size:.72rem;color:#5a7a99">'+pvm+'</div>'
+          +'</a>';
+      }).join('');
+    }
+
+    section.appendChild(header);
+    section.appendChild(body);
+    el.appendChild(section);
+  });
 }
 
 function suljeRssLista() {
@@ -2822,7 +2906,6 @@ function suljeRssLista() {
   document.body.style.overflow = "";
 }
 
-document.addEventListener("keydown", e => { if(e.key==="Escape") suljeRssLista(); });
 document.getElementById("rssListaOverlay").addEventListener("click", e => {
   if (e.target.id === "rssListaOverlay") suljeRssLista();
 });
@@ -2831,8 +2914,8 @@ function naytaSignaaliNakyma() {
   piilotaKaikki();
   document.getElementById("signaalinNakyma").style.display = "block";
   document.getElementById("btnSignaali").classList.add("active");
+  rakennaSIgnaaliPainikkeet();
   lataaPoliitikkoMaininnat();
-  lataaSignaali();
 }
 
 document.getElementById("btnSignaali").addEventListener("click", () => {
