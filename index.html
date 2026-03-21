@@ -2567,6 +2567,87 @@ function aktivoiBadget(container) {
 }
 
 
+// Rakentaa uutisrivin DOM-elementtinä — badgit toimivat oikein
+function luoUutisEl(item, lahde, pol, tyyli) {
+  const a = document.createElement('a');
+  a.href = item.link;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.style.cssText = tyyli || 'display:block;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit';
+
+  const otsikkoDiv = document.createElement('div');
+  otsikkoDiv.style.cssText = 'font-size:1rem;color:#c8d8e8;line-height:1.5;margin-bottom:.2rem;font-weight:500;display:flex;align-items:center;flex-wrap:wrap;gap:.2rem';
+
+  // Badge
+  if (pol) {
+    const badgeWrap = document.createElement('span');
+    badgeWrap.style.cssText = 'display:inline-flex;align-items:center;gap:.3rem;flex-shrink:0';
+
+    // Puoluebadge
+    const puolue = pol.edustaja ? pol.edustaja.puolue : (pol.puolue || '');
+    if (puolue) {
+      const pb = document.createElement('span');
+      pb.style.cssText = 'display:inline-block;background:'+pol.vari+'33;border:1px solid '+pol.vari+'88;'
+        +'border-radius:3px;font-size:.6rem;color:'+pol.vari+';padding:.1rem .45rem;'
+        +'font-family:Orbitron,monospace;letter-spacing:.1em;cursor:pointer;'
+        +'transition:transform .15s,box-shadow .15s';
+      pb.textContent = puolue;
+      pb.addEventListener('mouseover', () => { pb.style.transform='scale(1.08)'; pb.style.boxShadow='0 0 8px '+pol.vari+'88'; });
+      pb.addEventListener('mouseout',  () => { pb.style.transform='scale(1)';    pb.style.boxShadow='none'; });
+      pb.addEventListener('click', ev => {
+        ev.preventDefault(); ev.stopPropagation();
+        suljeRssLista(); suljeUutisetKortti(); suljeLobbausKortti();
+        document.getElementById('modalOverlay').classList.remove('open');
+        document.body.style.overflow = '';
+        setPuolue(puolue);
+        const dd = document.getElementById('puolueDropdown');
+        if (dd) {
+          dd.querySelectorAll('.dp-btn').forEach(b => b.classList.toggle('active', b.textContent === puolue));
+          document.getElementById('btnPuolue').textContent = puolue + ' ▾';
+          document.getElementById('btnPuolue').style.borderColor = '#00d4ff';
+          document.getElementById('btnPuolue').style.color = '#00d4ff';
+        }
+      });
+      badgeWrap.appendChild(pb);
+    }
+
+    // Sukunimibadge
+    const nb = document.createElement('span');
+    nb.style.cssText = 'font-size:.78rem;font-weight:700;color:'+pol.vari+';flex-shrink:0;'
+      +(pol.edustaja ? 'cursor:pointer;' : '')+'transition:transform .15s';
+    nb.textContent = pol.sukunimi;
+    if (pol.edustaja) {
+      nb.addEventListener('mouseover', () => { nb.style.transform='scale(1.08)'; });
+      nb.addEventListener('mouseout',  () => { nb.style.transform='scale(1)'; });
+      nb.addEventListener('click', ev => { ev.preventDefault(); ev.stopPropagation(); openTTLProfile(pol.edustaja); });
+    }
+    badgeWrap.appendChild(nb);
+
+    // Viiva
+    const dash = document.createElement('span');
+    dash.style.cssText = 'color:#5a7a99;font-size:.85rem;flex-shrink:0';
+    dash.textContent = '–';
+    badgeWrap.appendChild(dash);
+
+    otsikkoDiv.appendChild(badgeWrap);
+  }
+
+  // Otsikkoteksti
+  const txt = document.createElement('span');
+  txt.textContent = item.title;
+  otsikkoDiv.appendChild(txt);
+  a.appendChild(otsikkoDiv);
+
+  // Lähde + pvm
+  const meta = document.createElement('div');
+  meta.style.cssText = 'font-size:.72rem;color:#5a7a99;margin-top:.1rem';
+  const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
+  meta.textContent = (lahde ? lahde.nimi + ' · ' : '') + pvm;
+  a.appendChild(meta);
+
+  return a;
+}
+
 async function haeHenkilonUutiset(m, vari) {
   const el = document.getElementById("uutisetLista");
   if (!el) return;
@@ -2608,16 +2689,12 @@ async function haeHenkilonUutiset(m, vari) {
 
   // Järjestä uusimmat ensin, näytä max 10
   osumia.sort((a,b) => new Date(b.item.pubDate||0) - new Date(a.item.pubDate||0));
-  el.innerHTML = osumia.slice(0,10).map(({item, lahde}) => {
-    const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
-    return '<a href="'+item.link+'" target="_blank" rel="noopener"'+
-      ' style="display:block;padding:.5rem .6rem;border:1px solid #1a2a55;border-radius:4px;text-decoration:none;margin-bottom:.35rem;background:rgba(255,255,255,.02)">' +
-      '<div style="font-size:.65rem;color:'+lahde.vari+';font-family:Orbitron,monospace;letter-spacing:.1em;margin-bottom:.25rem">'+lahde.nimi+'</div>'+
-      '<div style="font-size:.85rem;color:#c8d8e8;line-height:1.4;margin-bottom:.2rem;font-weight:500">'+item.title+'</div>'+
-      '<div style="font-size:.7rem;color:#5a7a99">'+pvm+'</div>'+
-      '</a>';
-  }).join('');
-  aktivoiBadget(el);
+  el.innerHTML = '';
+  osumia.slice(0,10).forEach(({item, lahde}) => {
+    const teksti = (item.title+' '+(item.description||'')).toLowerCase();
+    const pol = etsiPoliitikko(teksti);
+    el.appendChild(luoUutisEl(item, lahde, pol, 'display:block;padding:.5rem .6rem;border:1px solid #1a2a55;border-radius:4px;text-decoration:none;margin-bottom:.35rem;background:rgba(255,255,255,.02)'));
+  });
 }
 
 function suljeUutisetKortti() {
@@ -2762,21 +2839,12 @@ async function lataaSignaali() {
             el.innerHTML = '<span style="color:#5a7a99;font-size:.88rem">Ei uutisia saatavilla</span>';
             return;
           }
-          el.innerHTML = data.items.map(item => {
-            const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
-
-            // Tarkista löytyykö otsikosta tunnettu poliitikko
-            const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
+          el.innerHTML = '';
+          data.items.forEach(item => {
+            const teksti = (item.title+' '+(item.description||'')).toLowerCase();
             const osuma = etsiPoliitikko(teksti);
-
-            const indikaattori = osuma ? luoBadge(osuma) : '';
-
-            return '<a href="' + item.link + '" target="_blank" rel="noopener" class="rss-item" style="display:block;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit">'
-              + '<div style="font-size:1rem;color:#c8d8e8;line-height:1.5;margin-bottom:.25rem;font-weight:500">' + indikaattori + item.title + '</div>'
-              + '<div style="font-size:.82rem;color:#5a7a99">' + pvm + '</div>'
-              + '</a>';
-          }).join('');
-          aktivoiBadget(el);
+            el.appendChild(luoUutisEl(item, null, osuma, 'display:block;padding:.4rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit'));
+          });
         } catch(e) {
           const el = document.getElementById(id);
           if (el) el.innerHTML = '<span style="color:#5a7a99;font-size:.88rem">Lataus epäonnistui</span>';
@@ -2849,23 +2917,10 @@ async function lataaPoliitikkoMaininnat() {
     return;
   }
 
-  el.innerHTML = uniikit.map(({item, lahde, pol}) => {
-    const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
-    return '<a href="'+item.link+'" target="_blank" rel="noopener"'
-      +' style="display:flex;align-items:flex-start;gap:.6rem;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none">'
-      +'<span style="flex-shrink:0;background:'+pol.vari+'22;border:1px solid '+pol.vari+'66;border-radius:3px;'
-        +'font-size:.7rem;color:'+pol.vari+';padding:.15rem .4rem;font-family:Orbitron,monospace;'
-        +'letter-spacing:.06em;margin-top:.15rem">'+pol.puolue+'</span>'
-      +'<div style="flex:1;min-width:0">'
-        +'<div style="font-size:.95rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">'
-          +'<span style="color:'+pol.vari+';font-weight:700">'+pol.nimi.split(' ').pop()+'</span>'
-          +' — '+item.title
-        +'</div>'
-        +'<div style="font-size:.78rem;color:#5a7a99">'+lahde.nimi+' · '+pvm+'</div>'
-      +'</div>'
-      +'</a>';
-  }).join('');
-  aktivoiBadget(el);
+  el.innerHTML = '';
+  uniikit.forEach(({item, lahde, pol}) => {
+    el.appendChild(luoUutisEl(item, lahde, pol, 'display:block;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit'));
+  });
 }
 
 /* ── RSS-ryhmäpainikkeet ── */
@@ -2969,17 +3024,12 @@ async function renderRssRyhmaItems(lahteet, vari) {
     if (!items.length) {
       body.innerHTML = '<div style="color:#5a7a99;font-size:.82rem;padding:.35rem 0">Ei uutisia saatavilla</div>';
     } else {
-      body.innerHTML = items.map(item => {
-        const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
-        const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
-        const pol    = etsiPoliitikko(teksti);
-        const badge  = pol ? luoBadge(pol) : '';
-        return '<a href="'+item.link+'" target="_blank" rel="noopener"'
-          +' style="display:block;padding:.5rem 0;border-bottom:1px solid #1a2a5533;text-decoration:none">'
-          +'<div style="font-size:.9rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">'+badge+item.title+'</div>'
-          +'<div style="font-size:.72rem;color:#5a7a99">'+pvm+'</div>'
-          +'</a>';
-      }).join('');
+      body.innerHTML = '';
+      items.forEach(item => {
+        const teksti = (item.title+' '+(item.description||'')).toLowerCase();
+        const pol = etsiPoliitikko(teksti);
+        body.appendChild(luoUutisEl(item, null, pol, 'display:block;padding:.5rem 0;border-bottom:1px solid #1a2a5533;text-decoration:none'));
+      });
     }
 
     section.appendChild(header);
