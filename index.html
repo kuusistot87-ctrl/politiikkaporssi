@@ -2368,6 +2368,7 @@ document.getElementById("btnLobbaus").addEventListener("click", () => {
    HALLITUSNÄKYMÄ — Orpon hallitus 2023–
    ================================================================ */
 const HALLITUS = [
+  {nimi:"Alexander Stubb",     salkku:"Tasavallan presidentti",                    puolue:"KOK"},
   {nimi:"Petteri Orpo",        salkku:"Pääministeri",                              puolue:"KOK"},
   {nimi:"Riikka Purra",        salkku:"Valtiovarainministeri",                     puolue:"PS"},
   {nimi:"Elina Valtonen",      salkku:"Ulkoministeri",                             puolue:"KOK"},
@@ -2514,7 +2515,7 @@ async function haeHenkilonUutiset(m, vari) {
       if (!data.items) return;
       data.items.forEach(item => {
         const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
-        if (teksti.includes(suku) && teksti.includes(etu)) {
+        if (teksti.includes(suku)) {
           osumia.push({ item, lahde });
         }
       });
@@ -2584,12 +2585,18 @@ const RSS_PROXY = "https://api.rss2json.com/v1/api.json?rss_url=";
 
 // Etsi uutistekstistä tunnettu poliitikko — palauttaa {sukunimi, vari} tai null
 function etsiPoliitikko(teksti) {
-  // Hallituksen jäsenet
+  // Tarkista sukunimi taivutusmuotoineen
+  function nimiOsuu(suku) {
+    if (teksti.includes(suku)) return true;
+    // Yleisimmät taivutuspäätteet
+    const paatteet = ['n','lle','lla','llä','lta','ltä','sta','stä','lle','ssa','ssä','ksi','na','nä','tta','ttä'];
+    return paatteet.some(p => teksti.includes(suku + p));
+  }
+  // Hallituksen jäsenet (+ presidentti)
   for (const m of HALLITUS) {
     const osat = m.nimi.split(' ');
     const suku = osat[osat.length - 1].toLowerCase();
-    const etu  = osat[0].toLowerCase();
-    if (teksti.includes(suku) && teksti.includes(etu)) {
+    if (nimiOsuu(suku)) {
       return { sukunimi: osat[osat.length-1], vari: puolueVari(m.puolue) };
     }
   }
@@ -2599,8 +2606,7 @@ function etsiPoliitikko(teksti) {
       if (!e.nykyinen) continue;
       const osat = e.nimi.split(' ');
       const suku = osat[osat.length - 1].toLowerCase();
-      const etu  = osat[0].toLowerCase();
-      if (teksti.includes(suku) && teksti.includes(etu)) {
+      if (nimiOsuu(suku)) {
         return { sukunimi: osat[osat.length-1], vari: puolueVari(e.puolue) };
       }
     }
@@ -2736,7 +2742,11 @@ async function lataaPoliitikkoMaininnat() {
       if (!data.items) return;
       data.items.forEach(item => {
         const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
-        const pol = poliitikot.find(p => teksti.includes(p.suku) && teksti.includes(p.etu));
+        const pol = poliitikot.find(p => {
+          if (teksti.includes(p.suku)) return true;
+          const paatteet = ['n','lle','lla','llä','lta','ltä','sta','stä','ssa','ssä','ksi','na','nä'];
+          return paatteet.some(e => teksti.includes(p.suku + e));
+        });
         if (pol) {
           osumia.push({ item, lahde, pol });
         }
