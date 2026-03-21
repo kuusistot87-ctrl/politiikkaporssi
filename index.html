@@ -569,14 +569,14 @@
     #btnSignaali { --nb-color:#ff4d6d; --nb-glow:rgba(255,77,109,.35);  --nb-shadow:rgba(255,77,109,.6);  --nb-bg:rgba(255,77,109,.1);  border:1px solid #661a2a; }
 
     /* Neonpulssi nykyiset-napissa */
-    #btnNykyiset:not(.active) {
+    #btnNykyiset:not(.active):not(:hover) {
       animation: neon-pulse-nav 2.2s ease-in-out infinite;
     }
     @keyframes neon-pulse-nav {
       0%,100% { box-shadow: 0 0 6px rgba(62,198,62,.2), inset 0 0 8px rgba(62,198,62,.04); }
       50%      { box-shadow: 0 0 18px rgba(62,198,62,.45), inset 0 0 16px rgba(62,198,62,.08); }
     }
-    #btnNykyiset.active, #btnNykyiset:hover { animation: none; }
+    #btnNykyiset.active { animation: none; }
 
     .hdr-nykyiset:hover, .hdr-nykyiset.active { background: rgba(62,198,62,.1) !important; border-color: #3ec63e !important; }
     .hdr-historialliset { border-color: #4d3a1a !important; color: #f5a623 !important; }
@@ -2626,7 +2626,8 @@ async function lataaPoliitikkoMaininnat() {
   const poliitikot = [];
   HALLITUS.forEach(m => {
     const osat = m.nimi.split(' ');
-    poliitikot.push({ nimi: m.nimi, suku: osat[osat.length-1].toLowerCase(), etu: osat[0].toLowerCase(), vari: puolueVari(m.puolue), puolue: m.puolue });
+    const edHallitus = KAIKKI ? KAIKKI.find(e => e.nimi === m.nimi) : null;
+    poliitikot.push({ nimi: m.nimi, sukunimi: osat[osat.length-1], suku: osat[osat.length-1].toLowerCase(), etu: osat[0].toLowerCase(), vari: puolueVari(m.puolue), puolue: m.puolue, edustaja: edHallitus });
   });
   if (KAIKKI && KAIKKI.length) {
     KAIKKI.filter(e => e.nykyinen).forEach(e => {
@@ -2634,7 +2635,7 @@ async function lataaPoliitikkoMaininnat() {
       const suku = osat[osat.length-1].toLowerCase();
       // Älä lisää duplikaatteja
       if (!poliitikot.find(p => p.suku === suku && p.etu === osat[0].toLowerCase())) {
-        poliitikot.push({ nimi: e.nimi, suku, etu: osat[0].toLowerCase(), vari: puolueVari(e.puolue), puolue: e.puolue });
+        poliitikot.push({ nimi: e.nimi, sukunimi: osat[osat.length-1], suku, etu: osat[0].toLowerCase(), vari: puolueVari(e.puolue), puolue: e.puolue, edustaja: e });
       }
     });
   }
