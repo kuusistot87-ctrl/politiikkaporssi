@@ -1179,6 +1179,13 @@
     📡 SIGNAALI — POLIITTISET UUTISET
   </div>
 
+  <div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.5rem" id="signaalinRyhmaPainikkeet"></div>
+  <div id="signaalinGrid" style="display:none;flex-direction:column;gap:.5rem">
+    <div style="color:#5a7a99;font-size:.85rem;letter-spacing:.1em">
+      <div class="spinner" style="margin:2rem auto"></div>
+    </div>
+  </div>
+
   <!-- Poliitikkomaininnat -->
   <div class="lobbaus-panel" style="margin-bottom:1.5rem">
     <div class="lobbaus-panel-title" style="color:#ff4d6d;display:flex;justify-content:space-between;align-items:center">
@@ -1189,13 +1196,6 @@
       <div class="spinner" style="margin:1rem auto"></div>
     </div>
   </div>
-
-  <!-- RSS-syötteet -->
-  <div style="display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.5rem" id="signaalinRyhmaPainikkeet"></div>
-  <div id="signaalinGrid" style="display:none;flex-direction:column;gap:.5rem">
-    <div style="color:#5a7a99;font-size:.85rem;letter-spacing:.1em">
-      <div class="spinner" style="margin:2rem auto"></div>
-    </div>
   </div>
 </div>
 
@@ -2504,18 +2504,24 @@ async function haeHenkilonUutiset(m, vari) {
 
   const osat = m.nimi.split(' ');
   const suku = osat[osat.length - 1].toLowerCase();
-  const etu  = osat[0].toLowerCase();
   const osumia = [];
+
+  // Taivutusmuodot
+  function nimiOsuu(teksti, suku) {
+    if (teksti.includes(suku)) return true;
+    const paatteet = ['n','lle','lla','llä','lta','ltä','sta','stä','ssa','ssä','ksi','na','nä','tta','ttä'];
+    return paatteet.some(p => teksti.includes(suku + p));
+  }
 
   // Käy läpi kaikki RSS-lähteet
   const haut = RSS_LAHTEET.map(async lahde => {
     try {
-      const res  = await fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=20");
+      const res  = await fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=50");
       const data = await res.json();
       if (!data.items) return;
       data.items.forEach(item => {
         const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
-        if (teksti.includes(suku)) {
+        if (nimiOsuu(teksti, suku)) {
           osumia.push({ item, lahde });
         }
       });
@@ -2531,9 +2537,9 @@ async function haeHenkilonUutiset(m, vari) {
     return;
   }
 
-  // Järjestä uusimmat ensin, näytä max 5
+  // Järjestä uusimmat ensin, näytä max 10
   osumia.sort((a,b) => new Date(b.item.pubDate||0) - new Date(a.item.pubDate||0));
-  el.innerHTML = osumia.slice(0,5).map(({item, lahde}) => {
+  el.innerHTML = osumia.slice(0,10).map(({item, lahde}) => {
     const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
     return '<a href="'+item.link+'" target="_blank" rel="noopener"'+
       ' style="display:block;padding:.5rem .6rem;border:1px solid #1a2a55;border-radius:4px;text-decoration:none;margin-bottom:.35rem;background:rgba(255,255,255,.02)">' +
