@@ -2149,7 +2149,14 @@ function closeTTLProfile() {
   // Nollaa ladattu-flagit jotta uudelleenavauksessa data latautuu
   document.querySelectorAll("[data-ladattu]").forEach(el => delete el.dataset.ladattu);
 }
-document.addEventListener("keydown", e => { if(e.key==="Escape") closeTTLProfile(); });
+document.addEventListener("keydown", e => {
+  if (e.key==="Escape") {
+    closeTTLProfile();
+    suljeLobbausKortti();
+    suljeUutisetKortti();
+    suljeRssLista();
+  }
+});
 document.getElementById("modalOverlay").addEventListener("click", e => {
   if(e.target===document.getElementById("modalOverlay")) closeTTLProfile();
 });
