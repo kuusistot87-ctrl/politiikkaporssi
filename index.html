@@ -2394,9 +2394,10 @@ async function lataaSignaali() {
       const id = "rss-" + lahde.nimi.replace(/\W/g,'-');
       const panel = document.createElement("div");
       panel.className = "lobbaus-panel";
+      panel.style.cssText += ';display:flex;flex-direction:column;height:280px';
       panel.innerHTML =
-        '<div class="lobbaus-panel-title" style="color:'+lahde.vari+'">'+lahde.nimi+'</div>'+
-        '<div id="'+id+'" style="display:flex;flex-direction:column;gap:.35rem">'+
+        '<div class="lobbaus-panel-title" style="color:'+lahde.vari+';flex-shrink:0">'+lahde.nimi+'</div>'+
+        '<div id="'+id+'" style="display:flex;flex-direction:column;gap:.35rem;overflow-y:auto;flex:1;padding-right:.25rem">'+
           '<div class="spinner" style="margin:.5rem auto"></div>'+
         '</div>';
       grid.appendChild(panel);
@@ -2415,9 +2416,9 @@ async function lataaSignaali() {
           el.innerHTML = data.items.map(item => {
             const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
             const vari = lahde.vari;
-            return '<a href="' + item.link + '" target="_blank" rel="noopener" class="rss-item" style="display:block;padding:.4rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit">'
-              + '<div style="font-size:.78rem;color:#c8d8e8;line-height:1.4;margin-bottom:.15rem">' + item.title + '</div>'
-              + '<div style="font-size:.65rem;color:#5a7a99">' + pvm + '</div>'
+            return '<a href="' + item.link + '" target="_blank" rel="noopener" class="rss-item" style="display:block;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none;color:inherit">'
+              + '<div style="font-size:.88rem;color:#c8d8e8;line-height:1.45;margin-bottom:.2rem;font-weight:500">' + item.title + '</div>'
+              + '<div style="font-size:.72rem;color:#5a7a99">' + pvm + '</div>'
               + '</a>';
           }).join('');
         } catch(e) {
