@@ -1090,6 +1090,19 @@
   <div style="font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.2em;color:#ff4d6d;margin-bottom:1.5rem">
     📡 SIGNAALI — POLIITTISET UUTISET
   </div>
+
+  <!-- Poliitikkomaininnat -->
+  <div class="lobbaus-panel" style="margin-bottom:1.5rem">
+    <div class="lobbaus-panel-title" style="color:#ff4d6d;display:flex;justify-content:space-between;align-items:center">
+      <span>👤 POLIITIKKOMAININNAT — KAIKKI LÄHTEET</span>
+      <span id="mainintaLkm" style="font-size:.65rem;color:#5a7a99"></span>
+    </div>
+    <div id="poliitikkoMaininnat" style="display:flex;flex-direction:column;gap:.35rem;max-height:420px;overflow-y:auto;padding-right:.25rem">
+      <div class="spinner" style="margin:1rem auto"></div>
+    </div>
+  </div>
+
+  <!-- RSS-syötteet -->
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem" id="signaalinGrid">
     <div style="color:#5a7a99;font-size:.85rem;letter-spacing:.1em">
       <div class="spinner" style="margin:2rem auto"></div>
@@ -2565,10 +2578,88 @@ async function lataaSignaali() {
   }
 }
 
+async function lataaPoliitikkoMaininnat() {
+  const el = document.getElementById("poliitikkoMaininnat");
+  const lkm = document.getElementById("mainintaLkm");
+  if (!el) return;
+
+  // Kerää kaikki poliitikkojen nimet (hallitus + nykyiset edustajat)
+  const poliitikot = [];
+  HALLITUS.forEach(m => {
+    const osat = m.nimi.split(' ');
+    poliitikot.push({ nimi: m.nimi, suku: osat[osat.length-1].toLowerCase(), etu: osat[0].toLowerCase(), vari: puolueVari(m.puolue), puolue: m.puolue });
+  });
+  if (KAIKKI && KAIKKI.length) {
+    KAIKKI.filter(e => e.nykyinen).forEach(e => {
+      const osat = e.nimi.split(' ');
+      const suku = osat[osat.length-1].toLowerCase();
+      // Älä lisää duplikaatteja
+      if (!poliitikot.find(p => p.suku === suku && p.etu === osat[0].toLowerCase())) {
+        poliitikot.push({ nimi: e.nimi, suku, etu: osat[0].toLowerCase(), vari: puolueVari(e.puolue), puolue: e.puolue });
+      }
+    });
+  }
+
+  const osumia = [];
+
+  // Hae kaikista lähteistä rinnakkain
+  await Promise.all(RSS_LAHTEET.map(async lahde => {
+    try {
+      const res  = await fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=20");
+      const data = await res.json();
+      if (!data.items) return;
+      data.items.forEach(item => {
+        const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
+        const pol = poliitikot.find(p => teksti.includes(p.suku) && teksti.includes(p.etu));
+        if (pol) {
+          osumia.push({ item, lahde, pol });
+        }
+      });
+    } catch(e) {}
+  }));
+
+  if (!el) return;
+
+  // Järjestä uusimmat ensin, poista duplikaatit saman otsikon perusteella
+  const nahdyt = new Set();
+  const uniikit = osumia
+    .sort((a,b) => new Date(b.item.pubDate||0) - new Date(a.item.pubDate||0))
+    .filter(({item}) => {
+      if (nahdyt.has(item.title)) return false;
+      nahdyt.add(item.title);
+      return true;
+    });
+
+  if (lkm) lkm.textContent = uniikit.length + ' mainintaa';
+
+  if (!uniikit.length) {
+    el.innerHTML = '<div style="color:#5a7a99;font-size:.82rem;padding:.5rem 0">Ei mainintoja löytynyt tällä hetkellä.</div>';
+    return;
+  }
+
+  el.innerHTML = uniikit.map(({item, lahde, pol}) => {
+    const pvm = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fi-FI',{day:'numeric',month:'numeric',hour:'2-digit',minute:'2-digit'}) : '';
+    return '<a href="'+item.link+'" target="_blank" rel="noopener"'
+      +' style="display:flex;align-items:flex-start;gap:.6rem;padding:.45rem 0;border-bottom:1px solid #1a2a5544;text-decoration:none">'
+      +'<span style="flex-shrink:0;background:'+pol.vari+'22;border:1px solid '+pol.vari+'66;border-radius:3px;'
+        +'font-size:.58rem;color:'+pol.vari+';padding:.15rem .4rem;font-family:Orbitron,monospace;'
+        +'letter-spacing:.06em;margin-top:.15rem">'+pol.puolue+'</span>'
+      +'<div style="flex:1;min-width:0">'
+        +'<div style="font-size:.82rem;color:#c8d8e8;line-height:1.4;margin-bottom:.15rem;font-weight:500">'
+          +'<span style="color:'+pol.vari+';font-weight:700">'+pol.nimi.split(' ').pop()+'</span>'
+          +' — '+item.title
+        +'</div>'
+        +'<div style="font-size:.65rem;color:#5a7a99">'+lahde.nimi+' · '+pvm+'</div>'
+      +'</div>'
+      +'</a>';
+  }).join('');
+}
+
 function naytaSignaaliNakyma() {
   piilotaKaikki();
   document.getElementById("signaalinNakyma").style.display = "block";
   document.getElementById("btnSignaali").classList.add("active");
+  lataaPoliitikkoMaininnat();
   lataaSignaali();
 }
 
