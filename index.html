@@ -1696,6 +1696,7 @@ function renderModalSkeleton(m, vari) {
     { id: "valiokunnat", icon: "⚖️", label: "Valiokunnat",     color: "#00f5ff", shadow: "rgba(0,245,255,.3)", bg: "rgba(0,245,255,.08)" },
     { id: "ministeriydet",icon:"⚡", label: "Hallitusjäs.",    color: "#ff4d6d", shadow: "rgba(255,77,109,.3)", bg: "rgba(255,77,109,.08)" },
     { id: "sidonnaisuudet2",icon:"💰",label:"Tulot & sidot.",  color: "#ffd700", shadow: "rgba(255,215,0,.3)",  bg: "rgba(255,215,0,.08)" },
+    { id: "aanestykset",   icon: "🗳️", label: "Äänestykset",  color: "#22d3ee", shadow: "rgba(34,211,238,.3)", bg: "rgba(34,211,238,.08)" },
   ];
 
   // Piilotettu sisältö per tab
@@ -1727,6 +1728,7 @@ function renderModalSkeleton(m, vari) {
     valiokunnat:     `<div id="xml-valiokunnat-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
     ministeriydet:   `<div id="xml-ministeriydet-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
     sidonnaisuudet2: `<div id="xml-sidonnaisuudet-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
+    aanestykset: `<div id="aanestykset-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
   };
 
   // Rakenna grid
@@ -1760,6 +1762,7 @@ function renderModalSkeleton(m, vari) {
       // Lataa data tarvittaessa
       const xmlOsiot = ["tyoura","valiokunnat","ministeriydet","sidonnaisuudet2"];
       if (tab.id === "poissaolot") naytaPoissaolot(m, vari);
+      else if (tab.id === "aanestykset") lataaAanestykset(m, vari);
       else if (xmlOsiot.includes(tab.id)) lataaXmlOsio(tab.id, m, vari);
     });
 
@@ -1770,6 +1773,137 @@ function renderModalSkeleton(m, vari) {
 }
 
 
+
+/* ================================================================
+   ÄÄNESTYSHISTORIA — eduskunnan avoin data API
+   ================================================================ */
+const AANESTYS_API = "https://avoindata.eduskunta.fi/api/v1/tables/";
+const AANESTYS_CACHE = {};
+
+async function lataaAanestykset(m, vari) {
+  const slug = m.nimi.replace(/\s+/g, '-');
+  const el   = document.getElementById("aanestykset-" + slug);
+  if (!el || el.dataset.ladattu) return;
+  el.dataset.ladattu = "1";
+  el.innerHTML = '<div class="spinner" style="margin:1rem auto"></div>';
+
+  // Muodosta hakunimi API:lle: "Sukunimi Etunimi" → "SUKUNIMI Etunimi"
+  // API käyttää muotoa "Sukunimi Etunimi"
+  const nimiOsat  = m.nimi.trim().split(" ");
+  const apiNimi   = m.nimi; // suoraan
+
+  try {
+    // Hae viimeisimmät äänestykset joissa edustaja on mukana
+    // Haetaan ensin viimeisimmät äänestysId:t vuodelta 2024-2025
+    const url = `${AANESTYS_API}SaliDBAanestysEdustaja/rows?columnName=EdustajaHenkiloNumero&columnValue=&page=0&perPage=1`;
+
+    // Käytetään edustajan nimeä hakuparametrina
+    const nimihaku = encodeURIComponent(m.nimi);
+    const res = await fetch(
+      `${AANESTYS_API}SaliDBAanestysEdustaja/rows?columnName=EdustajaHenkiloNimi&columnValue=${nimihaku}&page=0&perPage=50`
+    );
+
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    const rows = data.rowData || [];
+
+    if (!rows.length) {
+      el.innerHTML = '<span class="info-ei">Ei äänestystietoja saatavilla tällä nimellä.</span>';
+      return;
+    }
+
+    // Selvitä sarakkeet
+    const cols    = data.columnNames || [];
+    const iNimi   = cols.indexOf("EdustajaHenkiloNimi");
+    const iAani   = cols.indexOf("Aanestys");
+    const iAanId  = cols.indexOf("AanestysId");
+    const iKieli  = cols.indexOf("AanestysOtsikkoFI") !== -1
+                    ? cols.indexOf("AanestysOtsikkoFI")
+                    : cols.indexOf("AsiaNimike");
+
+    // Renderöi äänestysrivit
+    renderAanestykset(el, rows, cols, vari);
+
+  } catch(e) {
+    el.innerHTML = `<span class="info-ei">Äänestysdata ei saatavilla (${e.message})</span>
+      <div style="margin-top:.75rem">
+        ${lnk("https://avoindata.eduskunta.fi/","Avoindata.eduskunta.fi ↗","#22d3ee")}
+      </div>`;
+  }
+}
+
+function renderAanestykset(el, rows, cols, vari) {
+  if (!rows.length) {
+    el.innerHTML = '<span class="info-ei">Ei äänestystietoja.</span>';
+    return;
+  }
+
+  // Etsi sarake-indeksit
+  const get = (row, name) => {
+    const i = cols.indexOf(name);
+    return i >= 0 ? row[i] : "";
+  };
+
+  // Laske yhteenveto
+  const aanet = { "Jaa": 0, "Ei": 0, "Tyhjää": 0, "Poissa": 0 };
+  rows.forEach(r => {
+    const a = get(r, "Aanestys") || get(r, "EdustajaAanestys") || "";
+    if (aanet[a] !== undefined) aanet[a]++;
+    else aanet["Poissa"]++;
+  });
+  const yhteensa = rows.length;
+
+  // Yhteenvetopalkki
+  const jaaP   = Math.round(aanet["Jaa"]    / yhteensa * 100);
+  const eiP    = Math.round(aanet["Ei"]     / yhteensa * 100);
+  const poissaP= Math.round(aanet["Poissa"] / yhteensa * 100);
+
+  let html = `
+    <div style="margin-bottom:1rem">
+      <div class="d-label" style="margin-bottom:.5rem">YHTEENVETO — ${yhteensa} viimeisintä äänestystä</div>
+      <div style="display:flex;gap:.5rem;margin-bottom:.4rem">
+        <div style="flex:${jaaP};height:10px;background:#27ae60;border-radius:2px;min-width:2px" title="Jaa: ${aanet['Jaa']}"></div>
+        <div style="flex:${eiP};height:10px;background:#e74c3c;border-radius:2px;min-width:2px" title="Ei: ${aanet['Ei']}"></div>
+        <div style="flex:${poissaP};height:10px;background:#4a5a7a;border-radius:2px;min-width:2px" title="Poissa: ${aanet['Poissa']}"></div>
+      </div>
+      <div style="display:flex;gap:1rem;font-size:.72rem">
+        <span style="color:#27ae60">▲ Jaa: <strong>${aanet['Jaa']}</strong></span>
+        <span style="color:#e74c3c">▼ Ei: <strong>${aanet['Ei']}</strong></span>
+        <span style="color:#f59e0b">○ Tyhjää: <strong>${aanet['Tyhjää']}</strong></span>
+        <span style="color:#4a5a7a">– Poissa: <strong>${aanet['Poissa']}</strong></span>
+      </div>
+    </div>
+    <div class="d-label" style="margin-bottom:.4rem">VIIMEISIMMÄT ÄÄNESTYKSET</div>
+    <div style="display:flex;flex-direction:column;gap:.25rem;max-height:320px;overflow-y:auto;padding-right:.25rem">`;
+
+  rows.slice(0, 30).forEach(r => {
+    const aani    = get(r, "Aanestys") || get(r, "EdustajaAanestys") || "–";
+    const aanId   = get(r, "AanestysId") || "";
+    const otsikko = get(r, "AsiaNimike") || get(r, "AanestysOtsikkoFI") || get(r, "KaesittelyVaiheNimike") || `Äänestys ${aanId}`;
+    const pvm     = get(r, "AanestysHetki") || get(r, "IstuntoJarjestysNro") || "";
+    const pvmLyhyt = pvm ? pvm.slice(0,10) : "";
+
+    const vari2 = aani === "Jaa" ? "#27ae60" : aani === "Ei" ? "#e74c3c" : aani === "Tyhjää" ? "#f59e0b" : "#4a5a7a";
+    const ikoni = aani === "Jaa" ? "▲" : aani === "Ei" ? "▼" : aani === "Tyhjää" ? "○" : "–";
+    const lyhyt = otsikko.length > 60 ? otsikko.slice(0,58)+"…" : otsikko;
+
+    html += `<div style="display:flex;align-items:flex-start;gap:.6rem;padding:.4rem .5rem;border-radius:4px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.04)">
+      <span style="font-family:'Orbitron',monospace;font-size:.75rem;font-weight:700;color:${vari2};flex-shrink:0;min-width:20px;margin-top:1px">${ikoni}</span>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:.78rem;color:#c8d8e8;line-height:1.4">${lyhyt}</div>
+        ${pvmLyhyt ? `<div style="font-size:.65rem;color:#4a5a7a;margin-top:1px">${pvmLyhyt}</div>` : ""}
+      </div>
+      <span style="font-family:'Orbitron',monospace;font-size:.65rem;font-weight:700;color:${vari2};flex-shrink:0">${aani}</span>
+    </div>`;
+  });
+
+  html += `</div>
+    <div style="margin-top:.75rem;font-size:.65rem;color:#3a5a77">
+      Lähde: avoindata.eduskunta.fi · ${yhteensa} äänestystä haettu
+    </div>`;
+
+  el.innerHTML = html;
+}
 
 function suljeSubmodal() {
   document.getElementById("submodalOverlay").classList.remove("open");
@@ -3407,15 +3541,16 @@ function naytaKokemusNakyma() {
 
 function renderKokemus() {
   const el = document.getElementById("kokemusSisalto");
-  if (!el || el.dataset.rendered) return;
+  if (!el) return;
+  delete el.dataset.rendered;
   el.dataset.rendered = "1";
 
   const maxVp = KOKEMUS_MAX;
 
   // SVG pylväs kokeneimmille
-  const W = 340, H = 220, padB = 24, padT = 20;
-  const barW = 14, barGap = 3;
-  const topN = KOKEMUS_TOP;
+  const W = 340, H = 260, padB = 80, padT = 20;
+  const barW = 24, barGap = 8;
+  const topN = KOKEMUS_TOP.slice(0, 10);
   const totalW = topN.length * (barW + barGap) - barGap;
   const startX = (W - totalW) / 2;
 
@@ -3426,11 +3561,12 @@ function renderKokemus() {
     const y   = H - padB - bh;
     const cx2 = x + barW / 2;
     const vari = puolueVari(d.puolue);
-    bars += `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" rx="2" fill="${vari}" opacity="0.85"/>
-      <text x="${cx2}" y="${y - 4}" text-anchor="middle" font-family="Orbitron,monospace" font-size="8" fill="${vari}">${d.vp}</text>`;
-    // Lyhyt sukunimi x-akselille
-    const suku = d.nimi.split(" ").pop().slice(0, 6);
-    labels += `<text x="${cx2}" y="${H - 6}" text-anchor="middle" font-family="Rajdhani,sans-serif" font-size="8" fill="#5a7a99">${suku}</text>`;
+    bars += `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" rx="3" fill="${vari}" opacity="0.85"/>
+      <text x="${cx2}" y="${y - 5}" text-anchor="middle" font-family="Orbitron,monospace" font-size="9" fill="${vari}">${d.vp}</text>`;
+    // Sukunimi pystyyn rotaatiolla
+    const suku = d.nimi.split(" ").pop();
+    labels += `<text transform="rotate(-45, ${cx2}, ${H - padB + 6})" x="${cx2}" y="${H - padB + 6}"
+      text-anchor="end" font-family="Rajdhani,sans-serif" font-size="11" font-weight="600" fill="#c8d8e8">${suku}</text>`;
   });
 
   // Donitsikaavio kokemusryhmistä
@@ -3457,11 +3593,10 @@ function renderKokemus() {
       <!-- Vasen: kokeneimpien pylväs + donitsi -->
       <div style="display:flex;flex-direction:column;align-items:center;gap:1.25rem">
         <div style="width:100%;background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:.85rem">
-          <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#5a7a99;margin-bottom:.5rem">TOP 20 — ENITEN VALTIOPÄIVIÄ</div>
+          <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#5a7a99;margin-bottom:.5rem">TOP 10 — ENITEN VALTIOPÄIVIÄ</div>
           <svg viewBox="0 0 ${W} ${H}" width="100%" style="display:block">
             ${bars}
             ${labels}
-            <!-- Y-akselin viiteviiva -->
             <line x1="${startX}" y1="${H-padB-Math.round(20/maxVp*(H-padB-padT))}" x2="${startX+totalW}" y2="${H-padB-Math.round(20/maxVp*(H-padB-padT))}" stroke="#1a2a5588" stroke-dasharray="3,3" stroke-width="1"/>
             <text x="${startX-4}" y="${H-padB-Math.round(20/maxVp*(H-padB-padT))+3}" text-anchor="end" font-size="8" fill="#5a7a99" font-family="Orbitron,monospace">20</text>
           </svg>
