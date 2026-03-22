@@ -1003,11 +1003,6 @@
       <span class="nav-btn-label">Hallitus</span>
       <span class="nav-btn-sub">Orpon hallitus 2023–</span>
     </button>
-    <button class="nav-btn" id="btnVoimasuhteet">
-      <span class="nav-btn-icon">⚖️</span>
-      <span class="nav-btn-label">Voimasuhteet</span>
-      <span class="nav-btn-sub">Eduskuntaryhmät 2023–</span>
-    </button>
     <button class="nav-btn" id="btnLobbaus">
       <span class="nav-btn-icon">🤝</span>
       <span class="nav-btn-label">Lobbaus</span>
@@ -1054,6 +1049,18 @@
 </div>
 
 <!-- TULOSRIVI -->
+<!-- VOIMASUHTEET ALIPAINIKE (näkyy Nykyiset-näkymässä) -->
+<div id="voimasuhteetAlipainike" style="display:none;padding:.75rem 2rem 0">
+  <button onclick="piilotaKaikki();naytaVoimasuhteetNakyma()"
+    style="background:rgba(224,64,251,.08);border:1px solid #e040fb88;border-radius:6px;
+           color:#e040fb;font-family:'Rajdhani',sans-serif;font-size:.82rem;letter-spacing:.15em;
+           padding:.5rem 1.25rem;cursor:pointer;transition:all .2s;text-transform:uppercase"
+    onmouseover="this.style.background='rgba(224,64,251,.18)'"
+    onmouseout="this.style.background='rgba(224,64,251,.08)'">
+    ⚖️ Voimasuhteet
+  </button>
+</div>
+
 <div id="tulosrivi" style="display:none;padding:.5rem 2rem;font-size:.78rem;letter-spacing:.12em;color:#5a7a99;">
   <span id="countBadge"></span>
   <button id="btnTyhjenna" onclick="tyhjennaHaku()" style="margin-left:1rem;background:none;border:1px solid #1a2a55;border-radius:3px;color:#5a7a99;font-family:'Rajdhani',sans-serif;font-size:.72rem;letter-spacing:.1em;padding:.2rem .5rem;cursor:pointer;">✕ TYHJENNÄ</button>
@@ -1335,6 +1342,7 @@ function naytaTulokset() {
   document.getElementById("tulosrivi").style.display = "flex";
   document.getElementById("tulosrivi").style.alignItems = "center";
   document.getElementById("pagination").style.display = "flex";
+  document.getElementById("voimasuhteetAlipainike").style.display = "block";
 }
 
 function naytaSplash() {
@@ -1342,6 +1350,7 @@ function naytaSplash() {
   document.getElementById("grid").style.display      = "none";
   document.getElementById("tulosrivi").style.display = "none";
   document.getElementById("pagination").style.display = "none";
+  document.getElementById("voimasuhteetAlipainike").style.display = "none";
   document.getElementById("countBadge").textContent  = "";
   aktiivisuusPuolue = "";
   aikasuodatin = "";
@@ -2893,7 +2902,6 @@ function naytaVoimasuhteetNakyma() {
   piilotaKaikki();
   const nakyma = document.getElementById("voimasuhteetNakyma");
   nakyma.style.display = "block";
-  document.getElementById("btnVoimasuhteet").classList.add("active");
   renderVoimasuhteet();
 }
 
@@ -2999,10 +3007,7 @@ function puoluePalkki(p) {
   </div>`;
 }
 
-document.getElementById("btnVoimasuhteet").addEventListener("click", () => {
-  piilotaKaikki();
-  naytaVoimasuhteetNakyma();
-});
+
 
 lataaHakemisto();
 // Esihae lobbausdata taustalla vasta 5s kuluttua
