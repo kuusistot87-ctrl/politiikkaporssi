@@ -2347,17 +2347,15 @@ document.getElementById("btnLobbaus").addEventListener("click", () => {
    HALLITUSNÄKYMÄ — Orpon hallitus 2023–
    ================================================================ */
 const HALLITUS = [
-  {nimi:"Alexander Stubb",     salkku:"Tasavallan presidentti",                    puolue:"KOK"},
+  // Orpon hallitus 2023– (KOK + PS + RKP + KD)
   {nimi:"Petteri Orpo",        salkku:"Pääministeri",                              puolue:"KOK"},
   {nimi:"Riikka Purra",        salkku:"Valtiovarainministeri",                     puolue:"PS"},
   {nimi:"Elina Valtonen",      salkku:"Ulkoministeri",                             puolue:"KOK"},
   {nimi:"Antti Häkkänen",      salkku:"Oikeusministeri",                           puolue:"KOK"},
   {nimi:"Mari Rantanen",       salkku:"Sisäministeri",                             puolue:"PS"},
-  {nimi:"Antti Kaikkonen",     salkku:"Puolustusministeri",                        puolue:"KESK"},
   {nimi:"Sari Essayah",        salkku:"Sosiaali- ja terveysministeri",             puolue:"KD"},
   {nimi:"Anders Adlercreutz",  salkku:"Opetusministeri",                           puolue:"RKP"},
   {nimi:"Sari Multala",        salkku:"Tiede- ja kulttuuriministeri",              puolue:"KOK"},
-  {nimi:"Vilhelm Junnila",     salkku:"Elinkeinoministeri (ent.)",                 puolue:"PS"},
   {nimi:"Wille Rydman",        salkku:"Elinkeinoministeri",                        puolue:"PS"},
   {nimi:"Anna-Kaisa Ikonen",   salkku:"Kuntaministeri",                            puolue:"KOK"},
   {nimi:"Kai Mykkänen",        salkku:"Ympäristö- ja ilmastoministeri",            puolue:"KOK"},
@@ -2936,7 +2934,7 @@ const VOIMASUHTEET = [
 const VOIMASUHTEET_YHTEENSA = VOIMASUHTEET.reduce((s, p) => s + p.jasenia, 0);
 
 // Hallituspuolueet
-const HALLITUSPUOLUEET = new Set(["KOK","PS","KESK","KD","RKP"]);
+const HALLITUSPUOLUEET = new Set(["KOK","PS","RKP","KD"]); // Keskusta on oppositiossa
 
 function naytaVoimasuhteetNakyma() {
   piilotaKaikki();
