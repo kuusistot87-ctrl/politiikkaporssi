@@ -1,0 +1,313 @@
+{
+  "nimi": "Jenni Pitko",
+  "yhteenveto": {
+    "jaa": 24,
+    "ei": 122,
+    "tyhjaa": 1,
+    "poissa": 4,
+    "yhteensa": 300
+  },
+  "aanestykset": [
+    {
+      "id": "55849",
+      "otsikko": "Äänestys 55849",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55848",
+      "otsikko": "Äänestys 55848",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55847",
+      "otsikko": "Äänestys 55847",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55846",
+      "otsikko": "Äänestys 55846",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55845",
+      "otsikko": "Äänestys 55845",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55839",
+      "otsikko": "Äänestys 55839",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55838",
+      "otsikko": "Äänestys 55838",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55837",
+      "otsikko": "Äänestys 55837",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55836",
+      "otsikko": "Äänestys 55836",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55835",
+      "otsikko": "Äänestys 55835",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55834",
+      "otsikko": "Äänestys 55834",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55833",
+      "otsikko": "Äänestys 55833",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55832",
+      "otsikko": "Äänestys 55832",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55831",
+      "otsikko": "Äänestys 55831",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55830",
+      "otsikko": "Äänestys 55830",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55829",
+      "otsikko": "Äänestys 55829",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55828",
+      "otsikko": "Äänestys 55828",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55827",
+      "otsikko": "Äänestys 55827",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55826",
+      "otsikko": "Äänestys 55826",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55825",
+      "otsikko": "Äänestys 55825",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55824",
+      "otsikko": "Äänestys 55824",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55823",
+      "otsikko": "Äänestys 55823",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55822",
+      "otsikko": "Äänestys 55822",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55821",
+      "otsikko": "Äänestys 55821",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55820",
+      "otsikko": "Äänestys 55820",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55819",
+      "otsikko": "Äänestys 55819",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55818",
+      "otsikko": "Äänestys 55818",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55817",
+      "otsikko": "Äänestys 55817",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55816",
+      "otsikko": "Äänestys 55816",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55815",
+      "otsikko": "Äänestys 55815",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55814",
+      "otsikko": "Äänestys 55814",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55813",
+      "otsikko": "Äänestys 55813",
+      "aani": "Nej",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55812",
+      "otsikko": "Äänestys 55812",
+      "aani": "Ei",
+      "pvm": "2025-12-14"
+    },
+    {
+      "id": "55811",
+      "otsikko": "Äänestys 55811",
+      "aani": "Avstår",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55810",
+      "otsikko": "Äänestys 55810",
+      "aani": "Tyhjää",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55809",
+      "otsikko": "Äänestys 55809",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55808",
+      "otsikko": "Äänestys 55808",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55807",
+      "otsikko": "Äänestys 55807",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55806",
+      "otsikko": "Äänestys 55806",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55805",
+      "otsikko": "Äänestys 55805",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55804",
+      "otsikko": "Äänestys 55804",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55803",
+      "otsikko": "Äänestys 55803",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55802",
+      "otsikko": "Äänestys 55802",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55801",
+      "otsikko": "Äänestys 55801",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55800",
+      "otsikko": "Äänestys 55800",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55799",
+      "otsikko": "Äänestys 55799",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55798",
+      "otsikko": "Äänestys 55798",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55797",
+      "otsikko": "Äänestys 55797",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55796",
+      "otsikko": "Äänestys 55796",
+      "aani": "Ei",
+      "pvm": "2025-12-11"
+    },
+    {
+      "id": "55795",
+      "otsikko": "Äänestys 55795",
+      "aani": "Nej",
+      "pvm": "2025-12-11"
+    }
+  ],
+  "paivitetty": "2026-03-22"
+}

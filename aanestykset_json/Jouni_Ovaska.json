@@ -1,0 +1,313 @@
+{
+  "nimi": "Jouni Ovaska",
+  "yhteenveto": {
+    "jaa": 70,
+    "ei": 44,
+    "tyhjaa": 4,
+    "poissa": 31,
+    "yhteensa": 300
+  },
+  "aanestykset": [
+    {
+      "id": "56238",
+      "otsikko": "Äänestys 56238",
+      "aani": "Nej",
+      "pvm": "2026-03-17"
+    },
+    {
+      "id": "56237",
+      "otsikko": "Äänestys 56237",
+      "aani": "Ei",
+      "pvm": "2026-03-17"
+    },
+    {
+      "id": "56236",
+      "otsikko": "Äänestys 56236",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56235",
+      "otsikko": "Äänestys 56235",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56234",
+      "otsikko": "Äänestys 56234",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56233",
+      "otsikko": "Äänestys 56233",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56232",
+      "otsikko": "Äänestys 56232",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56231",
+      "otsikko": "Äänestys 56231",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56230",
+      "otsikko": "Äänestys 56230",
+      "aani": "Nej",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56229",
+      "otsikko": "Äänestys 56229",
+      "aani": "Ei",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56228",
+      "otsikko": "Äänestys 56228",
+      "aani": "Nej",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56227",
+      "otsikko": "Äänestys 56227",
+      "aani": "Ei",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56226",
+      "otsikko": "Äänestys 56226",
+      "aani": "Nej",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56225",
+      "otsikko": "Äänestys 56225",
+      "aani": "Ei",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56224",
+      "otsikko": "Äänestys 56224",
+      "aani": "Avstår",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56223",
+      "otsikko": "Äänestys 56223",
+      "aani": "Tyhjää",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56222",
+      "otsikko": "Äänestys 56222",
+      "aani": "Nej",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56221",
+      "otsikko": "Äänestys 56221",
+      "aani": "Ei",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56220",
+      "otsikko": "Äänestys 56220",
+      "aani": "Avstår",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56219",
+      "otsikko": "Äänestys 56219",
+      "aani": "Tyhjää",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56218",
+      "otsikko": "Äänestys 56218",
+      "aani": "Nej",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "55877",
+      "otsikko": "Äänestys 55877",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55876",
+      "otsikko": "Äänestys 55876",
+      "aani": "Nej",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55875",
+      "otsikko": "Äänestys 55875",
+      "aani": "Ei",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55874",
+      "otsikko": "Äänestys 55874",
+      "aani": "Nej",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55873",
+      "otsikko": "Äänestys 55873",
+      "aani": "Ei",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55872",
+      "otsikko": "Äänestys 55872",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55871",
+      "otsikko": "Äänestys 55871",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55870",
+      "otsikko": "Äänestys 55870",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55869",
+      "otsikko": "Äänestys 55869",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55868",
+      "otsikko": "Äänestys 55868",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55867",
+      "otsikko": "Äänestys 55867",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55866",
+      "otsikko": "Äänestys 55866",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55865",
+      "otsikko": "Äänestys 55865",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55864",
+      "otsikko": "Äänestys 55864",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55863",
+      "otsikko": "Äänestys 55863",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55862",
+      "otsikko": "Äänestys 55862",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55861",
+      "otsikko": "Äänestys 55861",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55860",
+      "otsikko": "Äänestys 55860",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55859",
+      "otsikko": "Äänestys 55859",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55858",
+      "otsikko": "Äänestys 55858",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55857",
+      "otsikko": "Äänestys 55857",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55856",
+      "otsikko": "Äänestys 55856",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55855",
+      "otsikko": "Äänestys 55855",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55854",
+      "otsikko": "Äänestys 55854",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55853",
+      "otsikko": "Äänestys 55853",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55852",
+      "otsikko": "Äänestys 55852",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55851",
+      "otsikko": "Äänestys 55851",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55850",
+      "otsikko": "Äänestys 55850",
+      "aani": "Ja",
+      "pvm": "2025-12-15"
+    },
+    {
+      "id": "55849",
+      "otsikko": "Äänestys 55849",
+      "aani": "Jaa",
+      "pvm": "2025-12-15"
+    }
+  ],
+  "paivitetty": "2026-03-22"
+}

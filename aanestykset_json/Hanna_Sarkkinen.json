@@ -1,0 +1,313 @@
+{
+  "nimi": "Hanna Sarkkinen",
+  "yhteenveto": {
+    "jaa": 7,
+    "ei": 85,
+    "tyhjaa": 2,
+    "poissa": 56,
+    "yhteensa": 300
+  },
+  "aanestykset": [
+    {
+      "id": "56238",
+      "otsikko": "Äänestys 56238",
+      "aani": "Nej",
+      "pvm": "2026-03-17"
+    },
+    {
+      "id": "56237",
+      "otsikko": "Äänestys 56237",
+      "aani": "Ei",
+      "pvm": "2026-03-17"
+    },
+    {
+      "id": "56236",
+      "otsikko": "Äänestys 56236",
+      "aani": "Frånvarande",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56235",
+      "otsikko": "Äänestys 56235",
+      "aani": "Poissa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56234",
+      "otsikko": "Äänestys 56234",
+      "aani": "Frånvarande",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56233",
+      "otsikko": "Äänestys 56233",
+      "aani": "Poissa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56232",
+      "otsikko": "Äänestys 56232",
+      "aani": "Frånvarande",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56231",
+      "otsikko": "Äänestys 56231",
+      "aani": "Poissa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56230",
+      "otsikko": "Äänestys 56230",
+      "aani": "Frånvarande",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56229",
+      "otsikko": "Äänestys 56229",
+      "aani": "Poissa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56228",
+      "otsikko": "Äänestys 56228",
+      "aani": "Nej",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56227",
+      "otsikko": "Äänestys 56227",
+      "aani": "Ei",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56226",
+      "otsikko": "Äänestys 56226",
+      "aani": "Nej",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56225",
+      "otsikko": "Äänestys 56225",
+      "aani": "Ei",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56224",
+      "otsikko": "Äänestys 56224",
+      "aani": "Nej",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56223",
+      "otsikko": "Äänestys 56223",
+      "aani": "Ei",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56222",
+      "otsikko": "Äänestys 56222",
+      "aani": "Ja",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56221",
+      "otsikko": "Äänestys 56221",
+      "aani": "Jaa",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56220",
+      "otsikko": "Äänestys 56220",
+      "aani": "Ja",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56219",
+      "otsikko": "Äänestys 56219",
+      "aani": "Jaa",
+      "pvm": "2026-03-03"
+    },
+    {
+      "id": "56218",
+      "otsikko": "Äänestys 56218",
+      "aani": "Nej",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56217",
+      "otsikko": "Äänestys 56217",
+      "aani": "Ei",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56216",
+      "otsikko": "Äänestys 56216",
+      "aani": "Nej",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56215",
+      "otsikko": "Äänestys 56215",
+      "aani": "Ei",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56214",
+      "otsikko": "Äänestys 56214",
+      "aani": "Nej",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56213",
+      "otsikko": "Äänestys 56213",
+      "aani": "Ei",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56212",
+      "otsikko": "Äänestys 56212",
+      "aani": "Nej",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56211",
+      "otsikko": "Äänestys 56211",
+      "aani": "Ei",
+      "pvm": "2026-02-24"
+    },
+    {
+      "id": "56210",
+      "otsikko": "Äänestys 56210",
+      "aani": "Nej",
+      "pvm": "2026-02-17"
+    },
+    {
+      "id": "56209",
+      "otsikko": "Äänestys 56209",
+      "aani": "Ei",
+      "pvm": "2026-02-17"
+    },
+    {
+      "id": "56208",
+      "otsikko": "Äänestys 56208",
+      "aani": "Nej",
+      "pvm": "2026-02-17"
+    },
+    {
+      "id": "56207",
+      "otsikko": "Äänestys 56207",
+      "aani": "Ei",
+      "pvm": "2026-02-17"
+    },
+    {
+      "id": "56206",
+      "otsikko": "Äänestys 56206",
+      "aani": "Nej",
+      "pvm": "2026-02-17"
+    },
+    {
+      "id": "56032",
+      "otsikko": "Äänestys 56032",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56031",
+      "otsikko": "Äänestys 56031",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56030",
+      "otsikko": "Äänestys 56030",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56029",
+      "otsikko": "Äänestys 56029",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56028",
+      "otsikko": "Äänestys 56028",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56027",
+      "otsikko": "Äänestys 56027",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56026",
+      "otsikko": "Äänestys 56026",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56025",
+      "otsikko": "Äänestys 56025",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56024",
+      "otsikko": "Äänestys 56024",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56023",
+      "otsikko": "Äänestys 56023",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56022",
+      "otsikko": "Äänestys 56022",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56021",
+      "otsikko": "Äänestys 56021",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56020",
+      "otsikko": "Äänestys 56020",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56019",
+      "otsikko": "Äänestys 56019",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56018",
+      "otsikko": "Äänestys 56018",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56017",
+      "otsikko": "Äänestys 56017",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56016",
+      "otsikko": "Äänestys 56016",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    }
+  ],
+  "paivitetty": "2026-03-22"
+}

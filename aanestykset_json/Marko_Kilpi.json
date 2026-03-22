@@ -1,0 +1,313 @@
+{
+  "nimi": "Marko Kilpi",
+  "yhteenveto": {
+    "jaa": 41,
+    "ei": 0,
+    "tyhjaa": 0,
+    "poissa": 109,
+    "yhteensa": 300
+  },
+  "aanestykset": [
+    {
+      "id": "56238",
+      "otsikko": "Äänestys 56238",
+      "aani": "Frånvarande",
+      "pvm": "2026-03-17"
+    },
+    {
+      "id": "56237",
+      "otsikko": "Äänestys 56237",
+      "aani": "Poissa",
+      "pvm": "2026-03-17"
+    },
+    {
+      "id": "56236",
+      "otsikko": "Äänestys 56236",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56235",
+      "otsikko": "Äänestys 56235",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56234",
+      "otsikko": "Äänestys 56234",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56233",
+      "otsikko": "Äänestys 56233",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56232",
+      "otsikko": "Äänestys 56232",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56231",
+      "otsikko": "Äänestys 56231",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56230",
+      "otsikko": "Äänestys 56230",
+      "aani": "Ja",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56229",
+      "otsikko": "Äänestys 56229",
+      "aani": "Jaa",
+      "pvm": "2026-03-10"
+    },
+    {
+      "id": "56228",
+      "otsikko": "Äänestys 56228",
+      "aani": "Ja",
+      "pvm": "2026-03-05"
+    },
+    {
+      "id": "56186",
+      "otsikko": "Äänestys 56186",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56185",
+      "otsikko": "Äänestys 56185",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56184",
+      "otsikko": "Äänestys 56184",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56183",
+      "otsikko": "Äänestys 56183",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56182",
+      "otsikko": "Äänestys 56182",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56181",
+      "otsikko": "Äänestys 56181",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56180",
+      "otsikko": "Äänestys 56180",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56179",
+      "otsikko": "Äänestys 56179",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56178",
+      "otsikko": "Äänestys 56178",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56177",
+      "otsikko": "Äänestys 56177",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56176",
+      "otsikko": "Äänestys 56176",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56175",
+      "otsikko": "Äänestys 56175",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56174",
+      "otsikko": "Äänestys 56174",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56173",
+      "otsikko": "Äänestys 56173",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56172",
+      "otsikko": "Äänestys 56172",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56171",
+      "otsikko": "Äänestys 56171",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56170",
+      "otsikko": "Äänestys 56170",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56169",
+      "otsikko": "Äänestys 56169",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56168",
+      "otsikko": "Äänestys 56168",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56167",
+      "otsikko": "Äänestys 56167",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56166",
+      "otsikko": "Äänestys 56166",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56165",
+      "otsikko": "Äänestys 56165",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56164",
+      "otsikko": "Äänestys 56164",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56163",
+      "otsikko": "Äänestys 56163",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56162",
+      "otsikko": "Äänestys 56162",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56161",
+      "otsikko": "Äänestys 56161",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56160",
+      "otsikko": "Äänestys 56160",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56159",
+      "otsikko": "Äänestys 56159",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56158",
+      "otsikko": "Äänestys 56158",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56157",
+      "otsikko": "Äänestys 56157",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56156",
+      "otsikko": "Äänestys 56156",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56155",
+      "otsikko": "Äänestys 56155",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56154",
+      "otsikko": "Äänestys 56154",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56153",
+      "otsikko": "Äänestys 56153",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56152",
+      "otsikko": "Äänestys 56152",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56151",
+      "otsikko": "Äänestys 56151",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56150",
+      "otsikko": "Äänestys 56150",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56149",
+      "otsikko": "Äänestys 56149",
+      "aani": "Poissa",
+      "pvm": "2025-12-18"
+    },
+    {
+      "id": "56148",
+      "otsikko": "Äänestys 56148",
+      "aani": "Frånvarande",
+      "pvm": "2025-12-18"
+    }
+  ],
+  "paivitetty": "2026-03-22"
+}
