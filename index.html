@@ -1337,6 +1337,7 @@ document.getElementById("searchInput").addEventListener("input", function() {
 });
 
 function naytaTulokset() {
+  tallennaNakyma('haku');
   document.getElementById("splash").style.display    = "none";
   document.getElementById("grid").style.display      = "grid";
   document.getElementById("tulosrivi").style.display = "flex";
@@ -1346,6 +1347,7 @@ function naytaTulokset() {
 }
 
 function naytaSplash() {
+  tallennaNakyma('splash');
   document.getElementById("splash").style.display    = "flex";
   document.getElementById("grid").style.display      = "none";
   document.getElementById("tulosrivi").style.display = "none";
@@ -1381,6 +1383,8 @@ function setAika(tila) {
   piilotaKaikki();
   document.getElementById("btnNykyiset").classList.toggle("active", aikasuodatin === "nykyiset");
   document.getElementById("btnHistorialliset").classList.toggle("active", aikasuodatin === "hist");
+  if (aikasuodatin === 'nykyiset') tallennaNakyma('nykyiset');
+  else if (aikasuodatin === 'hist') tallennaNakyma('historialliset');
 
   if (aikasuodatin || aktiivisuusPuolue || document.getElementById("searchInput").value.trim()) {
     naytaTulokset();
@@ -2083,13 +2087,46 @@ function closeTTLProfile() {
   // Nollaa ladattu-flagit jotta uudelleenavauksessa data latautuu
   document.querySelectorAll("[data-ladattu]").forEach(el => delete el.dataset.ladattu);
 }
-document.addEventListener("keydown", e => {
-  if (e.key==="Escape") {
-    closeTTLProfile();
-    suljeLobbausKortti();
-    suljeUutisetKortti();
-    suljeRssLista();
+// Navigaatiohistoria ESC-painiketta varten
+const NAKYMA_HISTORIA = [];
+
+function tallennaNakyma(nimi) {
+  // Älä tallenna samaa näkymää peräkkäin
+  if (NAKYMA_HISTORIA[NAKYMA_HISTORIA.length - 1] !== nimi) {
+    NAKYMA_HISTORIA.push(nimi);
   }
+}
+
+function paataEdelliseen() {
+  // Sulje ensin mahdolliset avoimet overlayit
+  const overlayit = [
+    () => { if (document.getElementById('modalOverlay').classList.contains('open')) { closeTTLProfile(); return true; } },
+    () => { if (document.getElementById('lobbausKorttiOverlay').classList.contains('open')) { suljeLobbausKortti(); return true; } },
+    () => { if (document.getElementById('uutisetKorttiOverlay').classList.contains('open')) { suljeUutisetKortti(); return true; } },
+    () => { if (document.getElementById('rssListaOverlay').classList.contains('open')) { suljeRssLista(); return true; } },
+  ];
+  for (const fn of overlayit) { if (fn()) return; }
+
+  // Poista nykyinen näkymä historiasta
+  NAKYMA_HISTORIA.pop();
+  const edellinen = NAKYMA_HISTORIA[NAKYMA_HISTORIA.length - 1];
+
+  if (!edellinen || edellinen === 'splash') {
+    naytaSplash();
+    return;
+  }
+  if (edellinen === 'nykyiset')      { setAika('nykyiset'); return; }
+  if (edellinen === 'historialliset') { setAika('hist'); return; }
+  if (edellinen === 'hallitus')       { piilotaKaikki(); naytaHallitusNakyma(); return; }
+  if (edellinen === 'voimasuhteet')   { piilotaKaikki(); naytaVoimasuhteetNakyma(); return; }
+  if (edellinen === 'lobbaus')        { piilotaKaikki(); naytaLobbausNakyma(); return; }
+  if (edellinen === 'signaali')       { piilotaKaikki(); naytaSignaaliNakyma(); return; }
+  if (edellinen === 'haku')           { naytaTulokset(); suodataJaRenderöi(); return; }
+  naytaSplash();
+}
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") paataEdelliseen();
 });
 document.getElementById("modalOverlay").addEventListener("click", e => {
   if(e.target===document.getElementById("modalOverlay")) closeTTLProfile();
@@ -2118,6 +2155,7 @@ async function naytaLobbausNakyma() {
   const splash = document.getElementById("splash");
 
   piilotaKaikki();
+  tallennaNakyma('lobbaus');
   nakyma.style.display = "block";
   document.getElementById("btnLobbaus").classList.add("active");
 
@@ -2340,6 +2378,7 @@ async function naytaHallitusNakyma() {
   const lobbaus = document.getElementById("lobbausNakyma");
 
   piilotaKaikki();
+  tallennaNakyma('hallitus');
   nakyma.style.display = "block";
   document.getElementById("btnHallitus").classList.add("active");
 
@@ -2868,6 +2907,7 @@ document.getElementById("rssListaOverlay").addEventListener("click", e => {
 
 function naytaSignaaliNakyma() {
   piilotaKaikki();
+  tallennaNakyma('signaali');
   document.getElementById("signaalinNakyma").style.display = "block";
   document.getElementById("btnSignaali").classList.add("active");
   rakennaSIgnaaliPainikkeet();
@@ -2900,6 +2940,7 @@ const HALLITUSPUOLUEET = new Set(["KOK","PS","KESK","KD","RKP"]);
 
 function naytaVoimasuhteetNakyma() {
   piilotaKaikki();
+  tallennaNakyma('voimasuhteet');
   const nakyma = document.getElementById("voimasuhteetNakyma");
   nakyma.style.display = "block";
   renderVoimasuhteet();
