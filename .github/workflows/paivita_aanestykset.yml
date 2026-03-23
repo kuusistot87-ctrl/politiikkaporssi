@@ -1,0 +1,42 @@
+name: Päivitä äänestysdata
+
+on:
+  # Aja joka yö klo 03:00 Suomen aikaa (00:00 UTC)
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Mahdollistaa manuaalisen ajon GitHub-käyttöliittymästä
+  workflow_dispatch:
+
+jobs:
+  hae-aanestykset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Lataa repositorio
+        uses: actions/checkout@v4
+
+      - name: Aseta Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Luo aanestykset_json-kansio
+        run: mkdir -p aanestykset_json
+
+      - name: Hae äänestysdata
+        run: python skriptit/hae_aanestykset.py
+
+      - name: Tarkista onko muutoksia
+        id: muutokset
+        run: |
+          git diff --quiet aanestykset_json/ || echo "muutoksia=true" >> $GITHUB_OUTPUT
+
+      - name: Committaa ja pushaa päivitetty data
+        if: steps.muutokset.outputs.muutoksia == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add aanestykset_json/
+          git commit -m "🗳️ Äänestysdata päivitetty $(date +'%d.%m.%Y')"
+          git push
