@@ -1850,7 +1850,7 @@ function renderAanestykset(el, data) {
     const apvm    = a.pvm || "";
     const v2      = aani === "Jaa" ? "#27ae60" : aani === "Ei" ? "#e74c3c" : aani === "Tyhjää" ? "#f59e0b" : "#4a5a7a";
     const ikoni   = aani === "Jaa" ? "▲" : aani === "Ei" ? "▼" : aani === "Tyhjää" ? "○" : "–";
-    const linkki  = a.id ? `https://www.eduskunta.fi/FI/vaski/Aanestys/Sivut/aanestys.aspx?aanestysid=${a.id}` : "";
+    const linkki  = a.url ? `https://www.eduskunta.fi${a.url}` : "";
     const tag     = linkki ? `a href="${linkki}" target="_blank" rel="noopener"` : "div";
     const tagEnd  = linkki ? "a" : "div";
     html += `<${tag} style="display:flex;align-items:flex-start;gap:.6rem;padding:.4rem .5rem;
