@@ -2770,62 +2770,66 @@ function luoUutisEl(item, lahde, pol, tyyli) {
   const otsikkoDiv = document.createElement('div');
   otsikkoDiv.style.cssText = 'font-size:1rem;color:#c8d8e8;line-height:1.5;margin-bottom:.2rem;font-weight:500;display:flex;align-items:center;flex-wrap:wrap;gap:.2rem';
 
-  // Badge
-  if (pol) {
-    const badgeWrap = document.createElement('span');
-    badgeWrap.style.cssText = 'display:inline-flex;align-items:center;gap:.3rem;flex-shrink:0';
+  // Tuki sekä yksittäiselle pol-objektille että taulukolle
+  const polit = Array.isArray(pol) ? pol : (pol ? [pol] : []);
 
-    // Puoluebadge
-    const puolue = pol.edustaja ? pol.edustaja.puolue : (pol.puolue || '');
-    if (puolue) {
-      const pb = document.createElement('span');
-      pb.style.cssText = 'display:inline-block;background:'+pol.vari+'33;border:1px solid '+pol.vari+'88;'
-        +'border-radius:3px;font-size:.6rem;color:'+pol.vari+';padding:.1rem .45rem;'
-        +'font-family:Orbitron,monospace;letter-spacing:.1em;cursor:pointer;'
+  if (polit.length > 0) {
+    polit.forEach((p, idx) => {
+      const badgeWrap = document.createElement('span');
+      badgeWrap.style.cssText = 'display:inline-flex;align-items:center;gap:.3rem;flex-shrink:0';
+
+      // Puoluebadge
+      const puolue = p.edustaja ? p.edustaja.puolue : (p.puolue || '');
+      if (puolue) {
+        const pb = document.createElement('span');
+        pb.style.cssText = 'display:inline-block;background:'+p.vari+'33;border:1px solid '+p.vari+'88;'
+          +'border-radius:3px;font-size:.6rem;color:'+p.vari+';padding:.1rem .45rem;'
+          +'font-family:Orbitron,monospace;letter-spacing:.1em;cursor:pointer;'
+          +'transition:transform .15s,box-shadow .15s';
+        pb.textContent = puolue;
+        pb.addEventListener('mouseover', () => { pb.style.transform='scale(1.08)'; pb.style.boxShadow='0 0 8px '+p.vari+'88'; });
+        pb.addEventListener('mouseout',  () => { pb.style.transform='scale(1)';    pb.style.boxShadow='none'; });
+        pb.addEventListener('click', ev => {
+          ev.preventDefault(); ev.stopPropagation();
+          suljeRssLista(); suljeUutisetKortti(); suljeLobbausKortti();
+          document.getElementById('modalOverlay').classList.remove('open');
+          document.body.style.overflow = '';
+          window.scrollTo({top: 0, behavior: 'auto'});
+          setPuolue(puolue);
+          const dd = document.getElementById('puolueDropdown');
+          if (dd) {
+            dd.querySelectorAll('.dp-btn').forEach(b => b.classList.toggle('active', b.textContent === puolue));
+            document.getElementById('btnPuolue').textContent = puolue + ' ▾';
+            document.getElementById('btnPuolue').style.borderColor = '#00d4ff';
+            document.getElementById('btnPuolue').style.color = '#00d4ff';
+          }
+        });
+        badgeWrap.appendChild(pb);
+      }
+
+      // Sukunimibadge
+      const nb = document.createElement('span');
+      nb.style.cssText = 'display:inline-block;background:'+p.vari+'22;border:1px solid '+p.vari+'66;'
+        +'border-radius:3px;font-size:.65rem;color:'+p.vari+';padding:.1rem .45rem;'
+        +'font-family:Orbitron,monospace;letter-spacing:.08em;flex-shrink:0;'
+        +(p.edustaja ? 'cursor:pointer;' : '')
         +'transition:transform .15s,box-shadow .15s';
-      pb.textContent = puolue;
-      pb.addEventListener('mouseover', () => { pb.style.transform='scale(1.08)'; pb.style.boxShadow='0 0 8px '+pol.vari+'88'; });
-      pb.addEventListener('mouseout',  () => { pb.style.transform='scale(1)';    pb.style.boxShadow='none'; });
-      pb.addEventListener('click', ev => {
-        ev.preventDefault(); ev.stopPropagation();
-        suljeRssLista(); suljeUutisetKortti(); suljeLobbausKortti();
-        document.getElementById('modalOverlay').classList.remove('open');
-        document.body.style.overflow = '';
-        window.scrollTo({top: 0, behavior: 'auto'});
-        setPuolue(puolue);
-        const dd = document.getElementById('puolueDropdown');
-        if (dd) {
-          dd.querySelectorAll('.dp-btn').forEach(b => b.classList.toggle('active', b.textContent === puolue));
-          document.getElementById('btnPuolue').textContent = puolue + ' ▾';
-          document.getElementById('btnPuolue').style.borderColor = '#00d4ff';
-          document.getElementById('btnPuolue').style.color = '#00d4ff';
-        }
-      });
-      badgeWrap.appendChild(pb);
-    }
+      nb.textContent = '👤 ' + p.sukunimi;
+      if (p.edustaja) {
+        nb.addEventListener('mouseover', () => { nb.style.transform='scale(1.08)'; nb.style.boxShadow='0 0 8px '+p.vari+'88'; });
+        nb.addEventListener('mouseout',  () => { nb.style.transform='scale(1)'; nb.style.boxShadow='none'; });
+        nb.addEventListener('click', ev => { ev.preventDefault(); ev.stopPropagation(); openTTLProfile(p.edustaja); });
+      }
+      badgeWrap.appendChild(nb);
 
-    // Sukunimibadge
-    const nb = document.createElement('span');
-    nb.style.cssText = 'display:inline-block;background:'+pol.vari+'22;border:1px solid '+pol.vari+'66;'
-      +'border-radius:3px;font-size:.65rem;color:'+pol.vari+';padding:.1rem .45rem;'
-      +'font-family:Orbitron,monospace;letter-spacing:.08em;flex-shrink:0;'
-      +(pol.edustaja ? 'cursor:pointer;' : '')
-      +'transition:transform .15s,box-shadow .15s';
-    nb.textContent = '👤 ' + pol.sukunimi;
-    if (pol.edustaja) {
-      nb.addEventListener('mouseover', () => { nb.style.transform='scale(1.08)'; nb.style.boxShadow='0 0 8px '+pol.vari+'88'; });
-      nb.addEventListener('mouseout',  () => { nb.style.transform='scale(1)'; nb.style.boxShadow='none'; });
-      nb.addEventListener('click', ev => { ev.preventDefault(); ev.stopPropagation(); openTTLProfile(pol.edustaja); });
-    }
-    badgeWrap.appendChild(nb);
+      otsikkoDiv.appendChild(badgeWrap);
+    });
 
-    // Viiva
+    // Viiva otsikon eteen
     const dash = document.createElement('span');
     dash.style.cssText = 'color:#5a7a99;font-size:.85rem;flex-shrink:0';
     dash.textContent = '–';
-    badgeWrap.appendChild(dash);
-
-    otsikkoDiv.appendChild(badgeWrap);
+    otsikkoDiv.appendChild(dash);
   }
 
   // Otsikkoteksti
@@ -2892,7 +2896,7 @@ async function haeHenkilonUutiset(m, vari) {
   el.innerHTML = '';
   osumia.slice(0,10).forEach(({item, lahde}) => {
     const teksti = (item.title+' '+(item.description||'')).toLowerCase();
-    const pol = etsiPoliitikko(teksti);
+    const pol = etsiPoliitikot(teksti);
     el.appendChild(luoUutisEl(item, lahde, pol, 'display:block;padding:.5rem .6rem;border:1px solid #1a2a55;border-radius:4px;text-decoration:none;margin-bottom:.35rem;background:rgba(255,255,255,.02)'));
   });
 }
@@ -2939,10 +2943,8 @@ const RSS_LAHTEET = [
 
 const RSS_PROXY = "https://api.rss2json.com/v1/api.json?rss_url=";
 
-// Etsi uutistekstistä tunnettu poliitikko — palauttaa {sukunimi, vari} tai null
-function etsiPoliitikko(teksti) {
-  // Tarkista sukunimi taivutusmuotoineen — täytyy olla oma sana
-  // Lyhyet sukunimet (alle 5 merkkiä) vaativat myös etunimen
+// Etsi uutistekstistä kaikki tunnetut poliitikot — palauttaa taulukon [{sukunimi, vari, edustaja}]
+function etsiPoliitikot(teksti) {
   function nimiOsuu(suku, etu) {
     if (suku.length < 5 && etu && !teksti.includes(etu)) return false;
     const paatteet = ['','n','lle','lla','llä','lta','ltä','sta','stä','ssa','ssä','ksi','na','nä','tta','ttä'];
@@ -2952,32 +2954,43 @@ function etsiPoliitikko(teksti) {
       return re.test(teksti);
     });
   }
-  // Hallituksen jäsenet (+ presidentti)
-  // Hallituksen jäsenet (+ presidentti)
+
+  const loydetyt = [];
+  const loydetytNimet = new Set();
+
+  // Hallituksen jäsenet
   for (const m of HALLITUS) {
     const osat = m.nimi.split(' ');
     const suku = osat[osat.length - 1].toLowerCase();
     const etu  = osat[0].toLowerCase();
     const etuRe = new RegExp('(^|[^a-zäöåA-ZÄÖÅ])' + etu + '($|[^a-zäöåA-ZÄÖÅ])', 'i');
-    if (nimiOsuu(suku) && etuRe.test(teksti)) {
+    if (nimiOsuu(suku) && etuRe.test(teksti) && !loydetytNimet.has(m.nimi)) {
+      loydetytNimet.add(m.nimi);
       const edustaja = KAIKKI ? KAIKKI.find(e => e.nimi === m.nimi) : null;
-      return { sukunimi: osat[osat.length-1], vari: puolueVari(m.puolue), edustaja };
+      loydetyt.push({ sukunimi: osat[osat.length-1], vari: puolueVari(m.puolue), edustaja });
     }
   }
   // Nykyiset kansanedustajat
   if (KAIKKI && KAIKKI.length) {
     for (const e of KAIKKI) {
-      if (!e.nykyinen) continue;
+      if (!e.nykyinen || loydetytNimet.has(e.nimi)) continue;
       const osat = e.nimi.split(' ');
       const suku = osat[osat.length - 1].toLowerCase();
       const etu  = osat[0].toLowerCase();
       const etuRe = new RegExp('(^|[^a-zäöåA-ZÄÖÅ])' + etu + '($|[^a-zäöåA-ZÄÖÅ])', 'i');
       if (nimiOsuu(suku) && etuRe.test(teksti)) {
-        return { sukunimi: osat[osat.length-1], vari: puolueVari(e.puolue), edustaja: e };
+        loydetytNimet.add(e.nimi);
+        loydetyt.push({ sukunimi: osat[osat.length-1], vari: puolueVari(e.puolue), edustaja: e });
       }
     }
   }
-  return null;
+  return loydetyt;
+}
+
+// Yhteensopivuus vanhan koodin kanssa — palauttaa ensimmäisen tai null
+function etsiPoliitikko(teksti) {
+  const kaikki = etsiPoliitikot(teksti);
+  return kaikki.length ? kaikki[0] : null;
 }
 
 async function lataaPoliitikkoMaininnat() {
@@ -3168,7 +3181,7 @@ async function renderRssRyhmaItems(lahteet, vari) {
       body.innerHTML = '';
       items.forEach(item => {
         const teksti = (item.title+' '+(item.description||'')).toLowerCase();
-        const pol = etsiPoliitikko(teksti);
+        const pol = etsiPoliitikot(teksti);
         body.appendChild(luoUutisEl(item, null, pol, 'display:block;padding:.5rem 0;border-bottom:1px solid #1a2a5533;text-decoration:none'));
       });
     }
