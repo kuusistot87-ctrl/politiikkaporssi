@@ -421,10 +421,10 @@
     /* ── ISO NAVIGAATIORIVI ── */
     .nav-btn-row {
       display: flex;
-      gap: 1rem;
+      gap: .85rem;
       justify-content: center;
       flex-wrap: wrap;
-      width: min(900px, 92%);
+      width: min(960px, 92%);
       margin: 1.5rem auto 0;
     }
 
@@ -434,94 +434,133 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: .45rem;
+      gap: .4rem;
       flex: 1;
       min-width: 140px;
-      max-width: 200px;
-      padding: 1.2rem .75rem 1.1rem;
-      background: rgba(8,13,31,.9);
-      border-radius: 8px;
+      max-width: 190px;
+      padding: 1.1rem .75rem 1rem;
+      background: linear-gradient(160deg, rgba(12,18,38,.97) 60%, rgba(20,28,55,.97) 100%);
+      /* Viistotut kulmat — pelimäinen hexagon-tyyli */
+      clip-path: polygon(12px 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%, 0% 12px);
       cursor: pointer;
       font-family: 'Rajdhani', sans-serif;
       text-transform: uppercase;
       letter-spacing: .13em;
-      transition: transform .2s, box-shadow .2s, background .2s;
-      overflow: hidden;
+      transition: transform .18s, filter .18s;
+      overflow: visible;
       border: none;
+      outline: none;
+      isolation: isolate;
     }
 
-    /* Yläviiva värin mukaan */
+    /* Reunaviiva clip-pathin kanssa — pseudo-elementtinä */
     .nav-btn::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      background: var(--nb-color);
-      box-shadow: 0 0 12px var(--nb-color);
-      transition: height .2s;
+      inset: 0;
+      clip-path: polygon(12px 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%, 0% 12px);
+      background: linear-gradient(160deg, var(--nb-color), transparent 60%);
+      opacity: .18;
+      transition: opacity .2s;
+      z-index: 0;
     }
 
-    /* Taustahohtokuvio hover */
+    /* Reunan outline — box-outline trick */
     .nav-btn::after {
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse 80% 60% at 50% 0%, var(--nb-glow), transparent 70%);
-      opacity: 0;
-      transition: opacity .25s;
-      pointer-events: none;
+      clip-path: polygon(12px 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%, 0% 12px,
+                         0 12px, 1px 12px, 1px calc(100% - 1px), calc(100% - 12px) calc(100% - 1px),
+                         calc(100% - 1px) calc(100% - 12px), calc(100% - 1px) 1px, 12px 1px, 12px 0);
+      background: var(--nb-color);
+      opacity: .35;
+      transition: opacity .2s;
+      z-index: 0;
     }
-    .nav-btn:hover::after, .nav-btn.active::after { opacity: 1; }
 
     .nav-btn:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 28px var(--nb-shadow), 0 0 40px var(--nb-glow), inset 0 0 20px var(--nb-glow);
-      border-color: var(--nb-color);
+      transform: translateY(-4px) scale(1.03);
+      filter: brightness(1.15);
+      box-shadow: 0 8px 24px var(--nb-color), 0 0 40px color-mix(in srgb, var(--nb-color) 30%, transparent);
     }
+    .nav-btn:hover::before { opacity: .32; }
+    .nav-btn:hover::after  { opacity: .7; }
+
     .nav-btn.active {
-      background: var(--nb-bg);
-      box-shadow: 0 0 24px var(--nb-shadow), 0 0 60px var(--nb-glow);
+      transform: translateY(-2px);
+      filter: brightness(1.1);
+      box-shadow: 0 4px 20px var(--nb-color), 0 0 60px color-mix(in srgb, var(--nb-color) 25%, transparent);
     }
-    .nav-btn.active::before { height: 4px; }
+    .nav-btn.active::before { opacity: .28; }
+    .nav-btn.active::after  { opacity: .9; }
+
+    /* Klikatessa välähtää */
+    .nav-btn:active { transform: scale(.97); filter: brightness(1.3); }
 
     .nav-btn-icon {
-      font-size: 1.6rem;
+      font-size: 1.65rem;
       line-height: 1;
-      filter: drop-shadow(0 0 6px var(--nb-color));
-      transition: transform .2s;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0 0 8px var(--nb-color));
+      transition: transform .2s, filter .2s;
     }
-    .nav-btn:hover .nav-btn-icon { transform: scale(1.15); }
+    .nav-btn:hover .nav-btn-icon {
+      transform: scale(1.2) translateY(-2px);
+      filter: drop-shadow(0 0 14px var(--nb-color));
+    }
 
     .nav-btn-label {
-      font-size: .78rem;
+      font-size: .8rem;
       font-weight: 700;
       color: var(--nb-color);
-      letter-spacing: .14em;
+      letter-spacing: .16em;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 0 12px var(--nb-color);
     }
     .nav-btn-sub {
-      font-size: .62rem;
+      font-size: .6rem;
       color: #3a5a77;
       letter-spacing: .08em;
       font-weight: 400;
+      position: relative;
+      z-index: 1;
       transition: color .2s;
     }
-    .nav-btn:hover .nav-btn-sub, .nav-btn.active .nav-btn-sub { color: #6a9abb; }
+    .nav-btn:hover .nav-btn-sub,
+    .nav-btn.active .nav-btn-sub { color: var(--nb-color); opacity: .7; }
+
+    /* Scanline-efekti painikkeen sisällä */
+    .nav-btn-label::after {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      height: 1px;
+      background: var(--nb-color);
+      opacity: 0;
+      bottom: -2px;
+      transition: opacity .2s;
+    }
+    .nav-btn:hover .nav-btn-label::after,
+    .nav-btn.active .nav-btn-label::after { opacity: .5; }
 
     /* Värit per nappi */
-    #btnNykyiset  { --nb-color:#3ec63e; --nb-glow:rgba(62,198,62,.35);  --nb-shadow:rgba(62,198,62,.6);  --nb-bg:rgba(62,198,62,.1);  border:1px solid #1e4d2a; }
-    #btnVoimasuhteet { --nb-color:#e040fb; --nb-glow:rgba(224,64,251,.35); --nb-shadow:rgba(224,64,251,.6); --nb-bg:rgba(224,64,251,.1); border:1px solid #5a1a66; }
-    #btnHallitus  { --nb-color:#00d4ff; --nb-glow:rgba(0,212,255,.35);  --nb-shadow:rgba(0,212,255,.6);  --nb-bg:rgba(0,212,255,.1);  border:1px solid #0a3a55; }
-    #btnLobbaus   { --nb-color:#ff9500; --nb-glow:rgba(255,149,0,.35);  --nb-shadow:rgba(255,149,0,.6);  --nb-bg:rgba(255,149,0,.1);  border:1px solid #553200; }
-    #btnHistorialliset { --nb-color:#a855f7; --nb-glow:rgba(168,85,247,.35); --nb-shadow:rgba(168,85,247,.6); --nb-bg:rgba(168,85,247,.1); border:1px solid #3d1a66; }
-    #btnSignaali { --nb-color:#ff4d6d; --nb-glow:rgba(255,77,109,.35);  --nb-shadow:rgba(255,77,109,.6);  --nb-bg:rgba(255,77,109,.1);  border:1px solid #661a2a; }
+    #btnNykyiset       { --nb-color:#3ec63e; --nb-glow:rgba(62,198,62,.35);   border:none; }
+    #btnVoimasuhteet   { --nb-color:#e040fb; --nb-glow:rgba(224,64,251,.35);  border:none; }
+    #btnHallitus       { --nb-color:#00d4ff; --nb-glow:rgba(0,212,255,.35);   border:none; }
+    #btnLobbaus        { --nb-color:#ff9500; --nb-glow:rgba(255,149,0,.35);   border:none; }
+    #btnHistorialliset { --nb-color:#a855f7; --nb-glow:rgba(168,85,247,.35);  border:none; }
+    #btnSignaali       { --nb-color:#ff4d6d; --nb-glow:rgba(255,77,109,.35);  border:none; }
 
-    /* Neonpulssi nykyiset-napissa */
+    /* Pulssianimaatio Nykyiset-napille */
     #btnNykyiset:not(.active):not(:hover) {
-      animation: neon-pulse-nav 2.2s ease-in-out infinite;
+      animation: game-pulse 2.5s ease-in-out infinite;
     }
-    @keyframes neon-pulse-nav {
-      0%,100% { box-shadow: 0 0 6px rgba(62,198,62,.2), inset 0 0 8px rgba(62,198,62,.04); }
-      50%      { box-shadow: 0 0 18px rgba(62,198,62,.45), inset 0 0 16px rgba(62,198,62,.08); }
+    @keyframes game-pulse {
+      0%,100% { filter: brightness(1)   drop-shadow(0 0 4px rgba(62,198,62,.2)); }
+      50%      { filter: brightness(1.08) drop-shadow(0 0 14px rgba(62,198,62,.5)); }
     }
     #btnNykyiset.active { animation: none; }
 
@@ -2731,7 +2770,7 @@ function piilotaKaikki() {
     const el = document.getElementById(id);
     if (el) el.style.display = "none";
   });
-  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus"].forEach(id => {
+  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet"].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove("active");
   });
