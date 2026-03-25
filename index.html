@@ -1975,14 +1975,16 @@ document.getElementById("submodalOverlay").addEventListener("click", e => {
   if (e.target.id === "submodalOverlay") suljeSubmodal();
 });
 
-// ESC sulkee modaalit oikeassa järjestyksessä: submodal → lobbaus → päämodaali → splash
+// ESC sulkee modaalit oikeassa järjestyksessä: submodal → lobbaus → rssLista → päämodaali → splash
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape") return;
   const sub     = document.getElementById("submodalOverlay");
   const lobbaus = document.getElementById("lobbausKorttiOverlay");
+  const rss     = document.getElementById("rssListaOverlay");
   const main    = document.getElementById("modalOverlay");
   if (sub     && sub.classList.contains("open"))    { suljeSubmodal(); return; }
   if (lobbaus && lobbaus.classList.contains("open")) { suljeLobbausKortti(); return; }
+  if (rss     && rss.classList.contains("open"))    { suljeRssLista(); return; }
   if (main    && main.classList.contains("open"))    { closeTTLProfile(); return; }
   // ESC sulkee nykyisen näkymän → aina splashiin
   naytaSplash();
