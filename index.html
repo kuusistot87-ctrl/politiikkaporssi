@@ -3874,7 +3874,8 @@ async function naytaAktiivisuusNakyma() {
 
   document.getElementById('aktLataaja').style.display = 'block';
   document.getElementById('aktLista').innerHTML = '';
-  document.getElementById('aktPodium').innerHTML = '';
+  const _pt = document.getElementById('aktPodiumTop');    if (_pt) _pt.innerHTML = '';
+  const _pb = document.getElementById('aktPodiumBottom'); if (_pb) _pb.innerHTML = '';
 
   await laskeAktiivisuusPisteet();
   document.getElementById('aktLataaja').style.display = 'none';
