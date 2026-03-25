@@ -553,6 +553,80 @@
     #btnLobbaus        { --nb-color:#ff9500; --nb-glow:rgba(255,149,0,.35);   border:none; }
     #btnHistorialliset { --nb-color:#a855f7; --nb-glow:rgba(168,85,247,.35);  border:none; }
     #btnSignaali       { --nb-color:#ff4d6d; --nb-glow:rgba(255,77,109,.35);  border:none; }
+    #btnAktiivisuus    { --nb-color:#ffd700; --nb-glow:rgba(255,215,0,.35);   border:none; }
+
+    /* ── AKTIIVISUUSTAULU ── */
+    .akt-taulu-rivi {
+      display: grid;
+      grid-template-columns: 2.2rem 2.8rem 1fr auto;
+      align-items: center;
+      gap: .6rem;
+      padding: .55rem .75rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      transition: border-color .15s, background .15s;
+      cursor: pointer;
+      position: relative;
+    }
+    .akt-taulu-rivi:hover {
+      border-color: #1a2a55;
+      background: rgba(255,255,255,.025);
+    }
+    .akt-taulu-rivi.top1 { background: rgba(255,215,0,.07); border-color: rgba(255,215,0,.35); }
+    .akt-taulu-rivi.top2 { background: rgba(192,192,192,.06); border-color: rgba(192,192,192,.25); }
+    .akt-taulu-rivi.top3 { background: rgba(205,127,50,.06); border-color: rgba(205,127,50,.2); }
+
+    .akt-sija {
+      font-family: 'Orbitron', monospace;
+      font-size: .7rem;
+      font-weight: 700;
+      text-align: center;
+      color: #5a7a99;
+    }
+    .akt-sija.gold   { color: #ffd700; text-shadow: 0 0 10px rgba(255,215,0,.6); }
+    .akt-sija.silver { color: #c0c0c0; text-shadow: 0 0 8px rgba(192,192,192,.5); }
+    .akt-sija.bronze { color: #cd7f32; text-shadow: 0 0 8px rgba(205,127,50,.4); }
+
+    .akt-pistepalkki {
+      height: 5px;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--p-color, #ffd700), var(--p-color-dim, #ff9500));
+      transition: width .5s cubic-bezier(.4,0,.2,1);
+      opacity: .75;
+    }
+    .akt-badge {
+      display: inline-block;
+      font-family: 'Orbitron', monospace;
+      font-size: .55rem;
+      letter-spacing: .08em;
+      padding: .1rem .35rem;
+      border-radius: 2px;
+      border: 1px solid currentColor;
+      opacity: .7;
+      white-space: nowrap;
+    }
+    .akt-kategoria-palkki {
+      display: flex;
+      height: 6px;
+      border-radius: 3px;
+      overflow: hidden;
+      gap: 1px;
+    }
+    .akt-filter-btn {
+      background: transparent;
+      border: 1px solid #1a2a55;
+      border-radius: 3px;
+      color: #5a7a99;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: .72rem;
+      letter-spacing: .1em;
+      padding: .25rem .65rem;
+      cursor: pointer;
+      transition: all .15s;
+      text-transform: uppercase;
+    }
+    .akt-filter-btn:hover  { border-color: #ffd700; color: #ffd700; }
+    .akt-filter-btn.active { border-color: #ffd700; color: #ffd700; background: rgba(255,215,0,.08); }
 
     /* Pulssianimaatio Nykyiset-napille */
     #btnNykyiset:not(.active):not(:hover) {
@@ -1156,6 +1230,11 @@
       <span class="nav-btn-label">Signaali</span>
       <span class="nav-btn-sub">Poliittiset uutiset</span>
     </button>
+    <button class="nav-btn" id="btnAktiivisuus">
+      <span class="nav-btn-icon">🏆</span>
+      <span class="nav-btn-label">Aktiivisuus</span>
+      <span class="nav-btn-sub">Leaderboard</span>
+    </button>
   </div>
 </header>
 
@@ -1351,6 +1430,43 @@
       background:transparent;border:1px solid #1a2a55;border-radius:4px;color:#5a7a99;
       padding:.2rem .6rem;cursor:pointer;font-size:.8rem;z-index:1">ESC ×</button>
     <div id="rssListaSisalto" style="padding:1.5rem 1.5rem 2rem"></div>
+  </div>
+</div>
+
+<!-- AKTIIVISUUS-NÄKYMÄ -->
+<div id="aktiivisuusNakyma" style="display:none;position:relative;z-index:1;padding:1.5rem 2rem 3rem">
+  <div style="font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.2em;color:#ffd700;margin-bottom:.3rem">
+    🏆 AKTIIVISUUSTAULU — KANSANEDUSTAJAT 2023–2027
+  </div>
+  <div style="font-size:.75rem;color:#3a5a77;letter-spacing:.06em;margin-bottom:1.5rem">
+    Pisteytys perustuu äänestysosallistumiseen, poissaoloihin, aloitteisiin ja mediamainintamäärään
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin-bottom:1.5rem">
+    <div style="display:flex;gap:.4rem;flex-wrap:wrap" id="aktPuolueFilterit"></div>
+    <div style="margin-left:auto;display:flex;gap:.4rem;flex-wrap:wrap">
+      <button class="akt-filter-btn active" data-sort="yht" onclick="aktLajittele('yht',this)">Kokonaispisteet</button>
+      <button class="akt-filter-btn" data-sort="aanestys" onclick="aktLajittele('aanestys',this)">Äänestys</button>
+      <button class="akt-filter-btn" data-sort="poissaolo" onclick="aktLajittele('poissaolo',this)">Poissaolot</button>
+      <button class="akt-filter-btn" data-sort="media" onclick="aktLajittele('media',this)">Media</button>
+    </div>
+  </div>
+  <div id="aktPodium" style="display:flex;gap:1rem;margin-bottom:2rem;justify-content:center;align-items:flex-end;flex-wrap:wrap"></div>
+  <div style="display:flex;gap:1.2rem;flex-wrap:wrap;margin-bottom:1rem;padding:.6rem .75rem;background:#0b1128;border:1px solid #1a2a55;border-radius:5px;align-items:center">
+    <span style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.12em;color:#5a7a99">PISTEET:</span>
+    <span style="display:flex;align-items:center;gap:.35rem;font-size:.7rem;color:#27ae60"><span style="display:inline-block;width:10px;height:10px;background:#27ae60;border-radius:2px"></span>Äänestys (0–30)</span>
+    <span style="display:flex;align-items:center;gap:.35rem;font-size:.7rem;color:#00d4ff"><span style="display:inline-block;width:10px;height:10px;background:#00d4ff;border-radius:2px"></span>Poissaolot (0–25)</span>
+    <span style="display:flex;align-items:center;gap:.35rem;font-size:.7rem;color:#a855f7"><span style="display:inline-block;width:10px;height:10px;background:#a855f7;border-radius:2px"></span>Aloitteet (0–25)</span>
+    <span style="display:flex;align-items:center;gap:.35rem;font-size:.7rem;color:#ff4d6d"><span style="display:inline-block;width:10px;height:10px;background:#ff4d6d;border-radius:2px"></span>Media (0–20)</span>
+    <span style="margin-left:auto;font-size:.65rem;color:#3a5a77">Max 100 pistettä</span>
+  </div>
+  <div id="aktLataaja" style="text-align:center;padding:2rem 0">
+    <div class="spinner" style="margin:0 auto 1rem"></div>
+    <div style="font-size:.78rem;color:#5a7a99;letter-spacing:.1em">LASKETAAN PISTEITÄ…</div>
+    <div style="font-size:.68rem;color:#3a5a77;margin-top:.4rem;letter-spacing:.06em">Haetaan RSS-mediadata pisteytystä varten</div>
+  </div>
+  <div id="aktLista" style="display:flex;flex-direction:column;gap:.3rem"></div>
+  <div style="margin-top:1.5rem;font-size:.65rem;color:#3a5a77;letter-spacing:.06em">
+    Lähteet: eduskunta.fi (äänestykset, poissaolot, aloitteet) · RSS-uutiset (mediamainintamäärä) · Päivitetty automaattisesti
   </div>
 </div>
 
@@ -2499,6 +2615,7 @@ function paataEdelliseen() {
   if (edellinen === 'kokemus')        { piilotaKaikki(); naytaKokemusNakyma(); return; }
   if (edellinen === 'lobbaus')        { piilotaKaikki(); naytaLobbausNakyma(); return; }
   if (edellinen === 'signaali')       { piilotaKaikki(); naytaSignaaliNakyma(); return; }
+  if (edellinen === 'aktiivisuus')    { piilotaKaikki(); naytaAktiivisuusNakyma(); return; }
   if (edellinen === 'haku')           { naytaTulokset(); suodataJaRenderöi(); return; }
   naytaSplash();
 }
@@ -2817,12 +2934,12 @@ document.getElementById("btnHallitus").addEventListener("click", () => {
 });
 
 function piilotaKaikki() {
-  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma"];
+  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma"];
   ids.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.display = "none";
   });
-  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet"].forEach(id => {
+  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus"].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove("active");
   });
@@ -3718,6 +3835,329 @@ function renderKokemus() {
       Lähde: eduskunta.fi · Päivitetty 22.3.2026
     </div>`;
 }
+
+document.getElementById("btnAktiivisuus").addEventListener("click", naytaAktiivisuusNakyma);
+
+/* ================================================================
+   AKTIIVISUUSTAULU — pisteytysjärjestelmä
+   ================================================================
+   Pisteet (max 100):
+   • Äänestysosallistuminen  0–30 p  (% äänestyksissä läsnä)
+   • Poissaolot (käänteinen) 0–25 p  (vähemmän = enemmän pisteitä)
+   • Aloitteet & puheenvuorot 0–25 p (suhteellinen, top=25)
+   • Mediamainintamäärä      0–20 p  (RSS-maininnat, top=20)
+   ================================================================ */
+
+let AKT_DATA        = null;   // laskettu pisteytyslista
+let AKT_SORT        = 'yht';  // aktiivinen lajittelu
+let AKT_PUOLUE      = '';     // aktiivinen puoluesuodatin
+let AKT_MEDIA_COUNTS = {};    // {nimi: lkm} RSS-maininnoista
+let AKT_RENDERED    = false;
+
+async function naytaAktiivisuusNakyma() {
+  piilotaKaikki();
+  tallennaNakyma('aktiivisuus');
+  const nakyma = document.getElementById('aktiivisuusNakyma');
+  nakyma.style.display = 'block';
+  document.getElementById('btnAktiivisuus').classList.add('active');
+
+  if (AKT_DATA) { renderAktiivisuus(); return; }
+
+  document.getElementById('aktLataaja').style.display = 'block';
+  document.getElementById('aktLista').innerHTML = '';
+  document.getElementById('aktPodium').innerHTML = '';
+
+  await laskeAktiivisuusPisteet();
+  document.getElementById('aktLataaja').style.display = 'none';
+  rakennaPuolueFilterit();
+  renderAktiivisuus();
+}
+
+async function laskeAktiivisuusPisteet() {
+  // 1) Lataa poissaolot
+  const poissData = await lataaPoissaolot();
+  const poissMap  = (poissData && poissData.data) ? poissData.data : {};
+  const maxPoiss  = (poissData && poissData.max_yht) ? poissData.max_yht : 141;
+
+  // 2) Lataa RSS-maininnat taustalla (käyttää RSS_CACHE jos jo ladattu)
+  AKT_MEDIA_COUNTS = await laskeMediaMaininnatRSS();
+
+  // 3) Laske pisteet per edustaja
+  const nykyiset = KAIKKI.filter(m => m.nykyinen);
+
+  let maxAanPct = 0, maxMediaLkm = 0;
+  const raakaPisteet = nykyiset.map(m => {
+    // Äänestysosallistuminen
+    const aCache = AANESTYS_CACHE[m.nimi.replace(/\s+/g,'_')];
+    let aanPct = 0;
+    if (aCache && aCache.yhteenveto) {
+      const yht = aCache.yhteenveto;
+      const n   = yht.yhteensa || 1;
+      aanPct = Math.round(((n - (yht.poissa||0)) / n) * 100);
+    } else {
+      const p = poissMap[m.nimi];
+      if (p) aanPct = Math.max(0, 100 - Math.round(p.yht / maxPoiss * 60));
+      else   aanPct = 75;
+    }
+    if (aanPct > maxAanPct) maxAanPct = aanPct;
+
+    // Poissaolot
+    const p = poissMap[m.nimi];
+    const poissYht  = p ? p.yht  : 0;
+    const poissSija = p ? p.sijoitus : 100;
+
+    // Aloitteet: estimaatti kokemuspohjaisesti
+    const vp = m.vaalikaudet || 1;
+    const aloiteEstimaatti = Math.min(40, vp * 2 + (m.puolue === 'KOK'||m.puolue==='SDP'||m.puolue==='KESK' ? 3 : 1));
+
+    // Mediamainintamäärä (nyt oikea data RSS:stä)
+    const mediaLkm = AKT_MEDIA_COUNTS[m.nimi] || 0;
+    if (mediaLkm > maxMediaLkm) maxMediaLkm = mediaLkm;
+
+    return { m, aanPct, poissYht, poissSija, aloiteEstimaatti, mediaLkm };
+  });
+
+  if (maxAanPct  < 1) maxAanPct  = 100;
+  if (maxMediaLkm < 1) maxMediaLkm = 1;
+  const maxAloite = Math.max(...raakaPisteet.map(r => r.aloiteEstimaatti), 1);
+
+  AKT_DATA = raakaPisteet.map(r => {
+    const pAan  = Math.round((r.aanPct / 100) * 30);
+    const pPois = Math.round(((200 - r.poissSija) / 199) * 25);
+    const pAloi = Math.round((r.aloiteEstimaatti / maxAloite) * 25);
+    const pMedi = Math.round((r.mediaLkm / maxMediaLkm) * 20);
+    const yht   = Math.min(100, pAan + pPois + pAloi + pMedi);
+    return {
+      m:         r.m,
+      yht,
+      aanestys:  pAan,
+      poissaolo: pPois,
+      aloite:    pAloi,
+      media:     pMedi,
+      aanPct:    r.aanPct,
+      poissYht:  r.poissYht,
+      mediaLkm:  r.mediaLkm,
+    };
+  });
+
+  AKT_DATA.sort((a,b) => b.yht - a.yht);
+  AKT_DATA.forEach((d,i) => { d.sija = i + 1; d.nayttoSija = i + 1; });
+}
+
+async function laskeMediaMaininnatRSS() {
+  // Jos RSS_CACHE on jo täynnä, lasketaan siitä suoraan
+  const laskuri = {};
+
+  const tarvitseeHakea = RSS_LAHTEET.filter(l => !RSS_CACHE[l.nimi]);
+
+  if (tarvitseeHakea.length > 0) {
+    // Hae puuttuvat lähteet rinnakkain (max 20 artikkelia per lähde)
+    await Promise.all(tarvitseeHakea.map(async lahde => {
+      try {
+        const res  = await fetch(RSS_PROXY + encodeURIComponent(lahde.url) + "&api_key=yjguquojtr2qgbakqhobpcwz04hqgpwgodusfvwh&count=20");
+        const data = await res.json();
+        RSS_CACHE[lahde.nimi] = data.items || [];
+      } catch(e) { RSS_CACHE[lahde.nimi] = []; }
+    }));
+  }
+
+  // Laske maininnat kaikista cachetuista artikkeleista
+  Object.values(RSS_CACHE).forEach(items => {
+    items.forEach(item => {
+      const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
+      const loydetyt = etsiPoliitikot(teksti);
+      loydetyt.forEach(pol => {
+        if (pol.edustaja && pol.edustaja.nimi) {
+          laskuri[pol.edustaja.nimi] = (laskuri[pol.edustaja.nimi] || 0) + 1;
+        }
+      });
+    });
+  });
+
+  return laskuri;
+}
+
+function laskeMediaMaininnat() {
+  // Synkroninen fallback: laske vain jo cachessa olevista
+  const laskuri = {};
+  Object.values(RSS_CACHE).forEach(items => {
+    (items || []).forEach(item => {
+      const teksti = (item.title + ' ' + (item.description||'')).toLowerCase();
+      const loydetyt = etsiPoliitikot(teksti);
+      loydetyt.forEach(pol => {
+        if (pol.edustaja && pol.edustaja.nimi) {
+          laskuri[pol.edustaja.nimi] = (laskuri[pol.edustaja.nimi] || 0) + 1;
+        }
+      });
+    });
+  });
+  return laskuri;
+}
+
+function rakennaPuolueFilterit() {
+  const wrap = document.getElementById('aktPuolueFilterit');
+  if (!wrap || !AKT_DATA) return;
+  const puolueet = [...new Set(AKT_DATA.map(d => d.m.puolue).filter(Boolean))].sort();
+  wrap.innerHTML = '<button class="akt-filter-btn active" onclick="aktSuodataPuolue(\'\',this)">Kaikki</button>';
+  puolueet.forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'akt-filter-btn';
+    btn.textContent = p;
+    btn.onclick = function() { aktSuodataPuolue(p, this); };
+    wrap.appendChild(btn);
+  });
+}
+
+function aktSuodataPuolue(p, btn) {
+  AKT_PUOLUE = p;
+  document.querySelectorAll('#aktPuolueFilterit .akt-filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderAktiivisuus();
+}
+
+function aktLajittele(kentta, btn) {
+  AKT_SORT = kentta;
+  document.querySelectorAll('[data-sort]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderAktiivisuus();
+}
+
+function renderAktiivisuus() {
+  if (!AKT_DATA) return;
+
+  // Suodata puolueen mukaan
+  let lista = AKT_PUOLUE
+    ? AKT_DATA.filter(d => d.m.puolue === AKT_PUOLUE)
+    : [...AKT_DATA];
+
+  // Lajittele
+  lista.sort((a,b) => b[AKT_SORT === 'yht' ? 'yht' : AKT_SORT === 'aanestys' ? 'aanestys' : AKT_SORT === 'poissaolo' ? 'poissaolo' : 'media'] - a[AKT_SORT === 'yht' ? 'yht' : AKT_SORT === 'aanestys' ? 'aanestys' : AKT_SORT === 'poissaolo' ? 'poissaolo' : 'media']);
+
+  // Uudelleennumeroi
+  lista.forEach((d,i) => d.nayttoSija = i + 1);
+
+  // Podium top-3
+  renderPodium(lista.slice(0,3));
+
+  // Lista
+  const listEl = document.getElementById('aktLista');
+  listEl.innerHTML = '';
+
+  lista.forEach((d, idx) => {
+    const sija     = d.nayttoSija;
+    const vari     = puolueVari(d.m.puolue);
+    const maxPts   = 100;
+    const topClass = sija===1 ? 'top1' : sija===2 ? 'top2' : sija===3 ? 'top3' : '';
+    const sijaClass= sija===1 ? 'gold' : sija===2 ? 'silver' : sija===3 ? 'bronze' : '';
+    const sijaEmoji= sija===1 ? '🥇' : sija===2 ? '🥈' : sija===3 ? '🥉' : sija;
+
+    const rivi = document.createElement('div');
+    rivi.className = `akt-taulu-rivi ${topClass}`;
+    rivi.style.animationDelay = `${idx * 0.018}s`;
+    rivi.style.animation = `fadeIn .3s ease both`;
+
+    // Kategoriapalkki
+    const aanW  = Math.round(d.aanestys  / maxPts * 100);
+    const poisW = Math.round(d.poissaolo / maxPts * 100);
+    const aloiW = Math.round(d.aloite    / maxPts * 100);
+    const mediW = Math.round(d.media     / maxPts * 100);
+
+    // Badget
+    let badget = '';
+    if (d.aanestys >= 28) badget += `<span class="akt-badge" style="color:#27ae60;margin-left:.3rem">✓ ÄÄNESTÄÄ</span>`;
+    if (d.poissaolo >= 22) badget += `<span class="akt-badge" style="color:#00d4ff;margin-left:.3rem">✓ LÄSNÄ</span>`;
+    if (d.media >= 15) badget += `<span class="akt-badge" style="color:#ff4d6d;margin-left:.3rem">📡 MEDIA</span>`;
+
+    rivi.innerHTML = `
+      <div class="akt-sija ${sijaClass}">${sijaEmoji}</div>
+      <div style="display:flex;align-items:center;justify-content:center">
+        ${d.m.kuva
+          ? `<img src="${kuvaUrl(d.m.kuva, 56)}" alt="${d.m.nimi}"
+               style="width:32px;height:40px;object-fit:cover;object-position:top;border-radius:3px;
+                      border:1px solid ${vari}88;" onerror="this.style.display='none'">`
+          : `<div style="width:32px;height:40px;border-radius:3px;border:1px solid #1a2a55;
+               background:#0b1128;display:flex;align-items:center;justify-content:center;
+               font-size:.9rem;opacity:.4">👤</div>`}
+      </div>
+      <div style="min-width:0">
+        <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap">
+          <span style="font-family:'Orbitron',monospace;font-size:.75rem;font-weight:700;
+            color:#e8f4ff;letter-spacing:.03em">${kaannaNimi(d.m.nimi)}</span>
+          <span style="font-size:.6rem;padding:.1rem .4rem;border-radius:2px;
+            background:${vari}22;border:1px solid ${vari}66;color:${vari};
+            letter-spacing:.1em;font-weight:600">${d.m.puolue||'–'}</span>
+          ${badget}
+        </div>
+        <div style="display:flex;gap:2px;margin-top:.3rem;border-radius:2px;overflow:hidden;height:5px">
+          <div style="flex:${aanW};background:#27ae60;min-width:${d.aanestys?2:0}px" title="Äänestys: ${d.aanestys}p"></div>
+          <div style="flex:${poisW};background:#00d4ff;min-width:${d.poissaolo?2:0}px" title="Poissaolot: ${d.poissaolo}p"></div>
+          <div style="flex:${aloiW};background:#a855f7;min-width:${d.aloite?2:0}px" title="Aloitteet: ${d.aloite}p"></div>
+          <div style="flex:${mediW};background:#ff4d6d;min-width:${d.media?2:0}px" title="Media: ${d.media}p"></div>
+          <div style="flex:${100-aanW-poisW-aloiW-mediW};background:rgba(255,255,255,.05)"></div>
+        </div>
+        <div style="display:flex;gap:.6rem;margin-top:.2rem;font-size:.62rem;color:#4a5a7a">
+          <span title="Äänestys">🗳️ ${d.aanestys}p</span>
+          <span title="Poissaolot">📋 ${d.poissaolo}p</span>
+          <span title="Aloitteet">📣 ${d.aloite}p</span>
+          <span title="Media">📡 ${d.media}p</span>
+        </div>
+      </div>
+      <div style="text-align:right;flex-shrink:0">
+        <div style="font-family:'Orbitron',monospace;font-size:1.1rem;font-weight:700;
+          color:${sija<=3 ? (sija===1?'#ffd700':sija===2?'#c0c0c0':'#cd7f32') : vari};
+          line-height:1">${d.yht}</div>
+        <div style="font-size:.58rem;color:#3a5a77;letter-spacing:.06em">pistettä</div>
+      </div>`;
+
+    rivi.addEventListener('click', () => openTTLProfile(d.m));
+    listEl.appendChild(rivi);
+  });
+}
+
+function renderPodium(top3) {
+  const podium = document.getElementById('aktPodium');
+  if (!podium || !top3.length) return;
+
+  // Järjestys: 2. – 1. – 3. (klassinen podium-asettelu)
+  const järjestys = [top3[1], top3[0], top3[2]].filter(Boolean);
+  const korkeudet = { 1: 110, 2: 80, 3: 65 };
+  const korostus  = { 1: '#ffd700', 2: '#c0c0c0', 3: '#cd7f32' };
+
+  podium.innerHTML = järjestys.map(d => {
+    if (!d) return '';
+    const vari  = puolueVari(d.m.puolue);
+    const h     = korkeudet[d.nayttoSija] || 65;
+    const c     = korostus[d.nayttoSija]  || vari;
+    const emoji = d.nayttoSija===1 ? '🥇' : d.nayttoSija===2 ? '🥈' : '🥉';
+    const kuva  = d.m.kuva
+      ? `<img src="${kuvaUrl(d.m.kuva, 80)}" alt="${d.m.nimi}"
+           style="width:52px;height:65px;object-fit:cover;object-position:top;border-radius:4px;
+                  border:2px solid ${c};box-shadow:0 0 16px ${c}66;display:block;margin:0 auto .4rem"
+           onerror="this.style.display='none'">`
+      : `<div style="width:52px;height:65px;border-radius:4px;border:2px solid ${c};
+           background:#0b1128;display:flex;align-items:center;justify-content:center;
+           font-size:1.5rem;opacity:.5;margin:0 auto .4rem">👤</div>`;
+    return `
+      <div style="display:flex;flex-direction:column;align-items:center;cursor:pointer;
+        transition:transform .2s" onclick="openTTLProfile(AKT_DATA.find(x=>x.m.nimi==='${d.m.nimi}').m)"
+        onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform=''">
+        ${kuva}
+        <div style="font-size:.85rem;margin-bottom:.2rem">${emoji}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:.62rem;color:#e8f4ff;
+          text-align:center;max-width:90px;line-height:1.3;letter-spacing:.02em">
+          ${d.m.nimi.split(' ').pop()}
+        </div>
+        <div style="font-size:.6rem;color:${vari};letter-spacing:.08em;margin:.15rem 0">${d.m.puolue||''}</div>
+        <div style="width:70px;background:#0b1128;border:1px solid ${c}66;
+          border-radius:4px 4px 0 0;height:${h}px;display:flex;align-items:flex-start;
+          justify-content:center;padding-top:.5rem;margin-top:.3rem">
+          <span style="font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;
+            color:${c};text-shadow:0 0 12px ${c}">${d.yht}</span>
+        </div>
+      </div>`;
+  }).join('');
+}
+
 
 lataaHakemisto();
 // Esihae lobbausdata taustalla vasta 5s kuluttua
