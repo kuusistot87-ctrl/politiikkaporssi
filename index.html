@@ -1450,7 +1450,16 @@
       <button class="akt-filter-btn" data-sort="media" onclick="aktLajittele('media',this)">Media</button>
     </div>
   </div>
-  <div id="aktPodium" style="display:flex;gap:1rem;margin-bottom:2rem;justify-content:center;align-items:flex-end;flex-wrap:wrap"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:2rem">
+    <div style="background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:1rem .5rem .75rem">
+      <div style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.18em;color:#ffd700;text-align:center;margin-bottom:.85rem">🏆 PARHAAT</div>
+      <div id="aktPodiumTop" style="display:flex;gap:.5rem;justify-content:center;align-items:flex-end;flex-wrap:wrap"></div>
+    </div>
+    <div style="background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:1rem .5rem .75rem">
+      <div style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.18em;color:#ff4d6d;text-align:center;margin-bottom:.85rem">💀 HÄNTÄPÄÄ</div>
+      <div id="aktPodiumBottom" style="display:flex;gap:.5rem;justify-content:center;align-items:flex-end;flex-wrap:wrap"></div>
+    </div>
+  </div>
   <div style="display:flex;gap:1.2rem;flex-wrap:wrap;margin-bottom:1rem;padding:.6rem .75rem;background:#0b1128;border:1px solid #1a2a55;border-radius:5px;align-items:center">
     <span style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.12em;color:#5a7a99">PISTEET:</span>
     <span style="display:flex;align-items:center;gap:.35rem;font-size:.7rem;color:#27ae60"><span style="display:inline-block;width:10px;height:10px;background:#27ae60;border-radius:2px"></span>Äänestys (0–30)</span>
@@ -4053,8 +4062,10 @@ function renderAktiivisuus() {
   // Uudelleennumeroi
   lista.forEach((d,i) => d.nayttoSija = i + 1);
 
-  // Podium top-3
-  renderPodium(lista.slice(0,3));
+  // Podiumit: parhaat top-3 ja häntäpää bottom-3
+  const kentta = AKT_SORT === 'yht' ? 'yht' : AKT_SORT === 'aanestys' ? 'aanestys' : AKT_SORT === 'poissaolo' ? 'poissaolo' : 'media';
+  renderPodium(lista.slice(0, 3), 'aktPodiumTop', false, kentta);
+  renderPodium(lista.slice(-3).reverse(), 'aktPodiumBottom', true, kentta);
 
   // Lista
   const listEl = document.getElementById('aktLista');
@@ -4131,45 +4142,55 @@ function renderAktiivisuus() {
   });
 }
 
-function renderPodium(top3) {
-  const podium = document.getElementById('aktPodium');
+function renderPodium(top3, elementId, hanta, kentta) {
+  const podium = document.getElementById(elementId);
   if (!podium || !top3.length) return;
 
-  // Järjestys: 2. – 1. – 3. (klassinen podium-asettelu)
+  // Parhaat: järjestys 2-1-3 (klassinen). Häntäpää: 2-1-3 käänteisesti (huonoin keskelle)
   const järjestys = [top3[1], top3[0], top3[2]].filter(Boolean);
-  const korkeudet = { 1: 110, 2: 80, 3: 65 };
-  const korostus  = { 1: '#ffd700', 2: '#c0c0c0', 3: '#cd7f32' };
 
-  podium.innerHTML = järjestys.map(d => {
+  // Värit: parhaat = kulta/hopea/pronssi, häntäpää = punainen asteikko
+  const korostusTop  = { 0: '#ffd700', 1: '#c0c0c0', 2: '#cd7f32' };
+  const korostusHant = { 0: '#ff2244', 1: '#ff6644', 2: '#ff9944' };
+  const emojitTop    = ['🥇','🥈','🥉'];
+  const emojitHant   = ['💀','😴','🪑'];
+  // Palkin korkeudet: huonoin (keskellä) korkein
+  const korkeudetTop  = { 0: 80, 1: 110, 2: 65 };
+  const korkeudetHant = { 0: 65, 1: 110, 2: 80 };
+
+  podium.innerHTML = järjestys.map((d, i) => {
     if (!d) return '';
-    const vari  = puolueVari(d.m.puolue);
-    const h     = korkeudet[d.nayttoSija] || 65;
-    const c     = korostus[d.nayttoSija]  || vari;
-    const emoji = d.nayttoSija===1 ? '🥇' : d.nayttoSija===2 ? '🥈' : '🥉';
-    const kuva  = d.m.kuva
+    const vari   = puolueVari(d.m.puolue);
+    const c      = hanta ? korostusHant[i] : korostusTop[i];
+    const emoji  = hanta ? emojitHant[i]   : emojitTop[i];
+    const h      = hanta ? korkeudetHant[i]: korkeudetTop[i];
+    // Näytetty arvo per aktiivinen kenttä
+    const arvoLabels = { yht:'p', aanestys:'p', poissaolo:'p', media:'p' };
+    const arvo = d[kentta || 'yht'];
+    const kuva = d.m.kuva
       ? `<img src="${kuvaUrl(d.m.kuva, 80)}" alt="${d.m.nimi}"
-           style="width:52px;height:65px;object-fit:cover;object-position:top;border-radius:4px;
-                  border:2px solid ${c};box-shadow:0 0 16px ${c}66;display:block;margin:0 auto .4rem"
+           style="width:48px;height:60px;object-fit:cover;object-position:top;border-radius:4px;
+                  border:2px solid ${c};box-shadow:0 0 12px ${c}66;display:block;margin:0 auto .35rem"
            onerror="this.style.display='none'">`
-      : `<div style="width:52px;height:65px;border-radius:4px;border:2px solid ${c};
+      : `<div style="width:48px;height:60px;border-radius:4px;border:2px solid ${c};
            background:#0b1128;display:flex;align-items:center;justify-content:center;
-           font-size:1.5rem;opacity:.5;margin:0 auto .4rem">👤</div>`;
+           font-size:1.4rem;opacity:.5;margin:0 auto .35rem">👤</div>`;
     return `
-      <div style="display:flex;flex-direction:column;align-items:center;cursor:pointer;
-        transition:transform .2s" onclick="openTTLProfile(AKT_DATA.find(x=>x.m.nimi==='${d.m.nimi}').m)"
+      <div style="display:flex;flex-direction:column;align-items:center;cursor:pointer;transition:transform .2s"
+        onclick="openTTLProfile(AKT_DATA.find(x=>x.m.nimi==='${d.m.nimi}').m)"
         onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform=''">
         ${kuva}
-        <div style="font-size:.85rem;margin-bottom:.2rem">${emoji}</div>
-        <div style="font-family:'Orbitron',monospace;font-size:.62rem;color:#e8f4ff;
-          text-align:center;max-width:90px;line-height:1.3;letter-spacing:.02em">
+        <div style="font-size:.8rem;margin-bottom:.15rem">${emoji}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:.58rem;color:#e8f4ff;
+          text-align:center;max-width:80px;line-height:1.3;letter-spacing:.02em">
           ${d.m.nimi.split(' ').pop()}
         </div>
-        <div style="font-size:.6rem;color:${vari};letter-spacing:.08em;margin:.15rem 0">${d.m.puolue||''}</div>
-        <div style="width:70px;background:#0b1128;border:1px solid ${c}66;
+        <div style="font-size:.55rem;color:${vari};letter-spacing:.08em;margin:.1rem 0">${d.m.puolue||''}</div>
+        <div style="width:64px;background:#0a0f1e;border:1px solid ${c}55;
           border-radius:4px 4px 0 0;height:${h}px;display:flex;align-items:flex-start;
-          justify-content:center;padding-top:.5rem;margin-top:.3rem">
-          <span style="font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;
-            color:${c};text-shadow:0 0 12px ${c}">${d.yht}</span>
+          justify-content:center;padding-top:.4rem;margin-top:.25rem">
+          <span style="font-family:'Orbitron',monospace;font-size:.9rem;font-weight:700;
+            color:${c};text-shadow:0 0 10px ${c}">${arvo}</span>
         </div>
       </div>`;
   }).join('');
