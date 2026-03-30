@@ -2268,7 +2268,7 @@ document.getElementById("submodalOverlay").addEventListener("click", e => {
   if (e.target.id === "submodalOverlay") suljeSubmodal();
 });
 
-// ESC sulkee modaalit oikeassa järjestyksessä: submodal → lobbaus → rssLista → päämodaali → splash
+// ESC sulkee modaalit oikeassa järjestyksessä: submodal → lobbaus → rssLista → päämodaali → edellinen näkymä
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape") return;
   const sub     = document.getElementById("submodalOverlay");
@@ -2279,8 +2279,8 @@ document.addEventListener("keydown", e => {
   if (lobbaus && lobbaus.classList.contains("open")) { suljeLobbausKortti(); return; }
   if (rss     && rss.classList.contains("open"))    { suljeRssLista(); return; }
   if (main    && main.classList.contains("open"))    { closeTTLProfile(); return; }
-  // ESC sulkee nykyisen näkymän → aina splashiin
-  naytaSplash();
+  // ESC → palaa edelliseen näkymään (tai splashiin)
+  paataEdelliseen();
 });
 
 function lnk(url, teksti, vari) {
@@ -2793,6 +2793,7 @@ function paataEdelliseen() {
   if (edellinen === 'lobbaus')        { piilotaKaikki(); naytaLobbausNakyma(); return; }
   if (edellinen === 'signaali')       { piilotaKaikki(); naytaSignaaliNakyma(); return; }
   if (edellinen === 'aktiivisuus')    { piilotaKaikki(); naytaAktiivisuusNakyma(); return; }
+  if (edellinen === 'vertaile')       { piilotaKaikki(); avaaVertailuNakyma(); return; }
   if (edellinen === 'haku')           { naytaTulokset(); suodataJaRenderöi(); return; }
   naytaSplash();
 }
