@@ -3896,12 +3896,12 @@ function naytaKokemusNakyma() {
 function renderKokemus() {
   const el = document.getElementById("kokemusSisalto");
   if (!el) return;
-  delete el.dataset.rendered;
   el.dataset.rendered = "1";
 
+  const nykyiset = KAIKKI.filter(m => m.nykyinen);
   const maxVp = KOKEMUS_MAX;
 
-  // SVG pylväs kokeneimmille
+  // ── Pylväskaavio top10 ──────────────────────────────────────────
   const W = 340, H = 260, padB = 80, padT = 20;
   const barW = 24, barGap = 8;
   const topN = KOKEMUS_TOP.slice(0, 10);
@@ -3915,22 +3915,21 @@ function renderKokemus() {
     const y   = H - padB - bh;
     const cx2 = x + barW / 2;
     const vari = puolueVari(d.puolue);
+    const suku = d.nimi.split(" ").slice(-1)[0];
+    const etu  = d.nimi.split(" ")[0];
     bars += `<rect x="${x}" y="${y}" width="${barW}" height="${bh}" rx="3" fill="${vari}" opacity="0.85"/>
       <text x="${cx2}" y="${y - 5}" text-anchor="middle" font-family="Orbitron,monospace" font-size="9" fill="${vari}">${d.vp}</text>`;
-    // Sukunimi pystyyn rotaatiolla
-    const suku = d.nimi.split(" ").pop();
     labels += `<text transform="rotate(-45, ${cx2}, ${H - padB + 6})" x="${cx2}" y="${H - padB + 6}"
-      text-anchor="end" font-family="Rajdhani,sans-serif" font-size="11" font-weight="600" fill="#c8d8e8">${suku}</text>`;
+      text-anchor="end" font-family="Rajdhani,sans-serif" font-size="10" font-weight="600" fill="#c8d8e8">${suku}</text>`;
   });
 
-  // Donitsikaavio kokemusryhmistä
+  // ── Donitsikaavio ───────────────────────────────────────────────
   const dCx = 100, dCy = 100, dR = 75, dRi = 48;
   const totalRyhma = KOKEMUS_RYHMAT.reduce((s, r) => s + r.lkm, 0);
   let kulma = -90, sektorit = "";
   KOKEMUS_RYHMAT.forEach(r => {
     const aste = (r.lkm / totalRyhma) * 360;
-    const s = kulma * Math.PI / 180;
-    const e = (kulma + aste) * Math.PI / 180;
+    const s = kulma * Math.PI / 180, e = (kulma + aste) * Math.PI / 180;
     const x1 = dCx + dR * Math.cos(s), y1 = dCy + dR * Math.sin(s);
     const x2 = dCx + dR * Math.cos(e), y2 = dCy + dR * Math.sin(e);
     const x3 = dCx + dRi * Math.cos(e), y3 = dCy + dRi * Math.sin(e);
@@ -3941,22 +3940,55 @@ function renderKokemus() {
     kulma += aste;
   });
 
-  el.innerHTML = `
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;max-width:900px">
+  // ── Dynaamiset tilastot ─────────────────────────────────────────
+  const kokenein = [...nykyiset].sort((a,b) => (b.vaalikaudet||1)-(a.vaalikaudet||1))[0];
+  const nuorin   = [...nykyiset].filter(m => m.syntymavuosi).sort((a,b) => b.syntymavuosi-a.syntymavuosi)[0];
+  const vanhin   = [...nykyiset].filter(m => m.syntymavuosi).sort((a,b) => a.syntymavuosi-b.syntymavuosi)[0];
+  const yli20    = nykyiset.filter(m => (m.vaalikaudet||1) >= 20).length;
+  const ensiKert = nykyiset.filter(m => (m.vaalikaudet||1) === 1).length;
+  const vuosi    = new Date().getFullYear();
+  const keski_ika = Math.round(nykyiset.filter(m=>m.syntymavuosi).reduce((s,m)=>s+(vuosi-m.syntymavuosi),0) / nykyiset.filter(m=>m.syntymavuosi).length);
 
-      <!-- Vasen: kokeneimpien pylväs + donitsi -->
+  // ── Puoluekohtainen kokemus ─────────────────────────────────────
+  const puolueetMap = {};
+  nykyiset.forEach(m => {
+    const p = m.puolue || '?';
+    if (!puolueetMap[p]) puolueetMap[p] = { lkm: 0, vpSum: 0 };
+    puolueetMap[p].lkm++;
+    puolueetMap[p].vpSum += (m.vaalikaudet||1);
+  });
+  const puolueetLista = Object.entries(puolueetMap)
+    .map(([p, d]) => ({ puolue: p, lkm: d.lkm, keski: Math.round(d.vpSum / d.lkm * 10) / 10 }))
+    .sort((a,b) => b.keski - a.keski);
+  const maxKeskiVp = puolueetLista[0]?.keski || 1;
+
+  // ── Uudet edustajat per puolue ──────────────────────────────────
+  const uudetMap = {};
+  nykyiset.filter(m => (m.vaalikaudet||1) === 1).forEach(m => {
+    const p = m.puolue || '?';
+    uudetMap[p] = (uudetMap[p]||0) + 1;
+  });
+  const uudetLista = Object.entries(uudetMap).sort((a,b) => b[1]-a[1]);
+
+  // ── Nuorimmat & vanhimmat top5 ──────────────────────────────────
+  const nuorimmat = [...nykyiset].filter(m=>m.syntymavuosi).sort((a,b)=>b.syntymavuosi-a.syntymavuosi).slice(0,5);
+  const vanhimmat = [...nykyiset].filter(m=>m.syntymavuosi).sort((a,b)=>a.syntymavuosi-b.syntymavuosi).slice(0,5);
+
+  // Globaali muuttuja onclick-käyttöä varten
+  window.kokeneinNimi = kokenein?.nimi || '';
+
+  el.innerHTML = `
+    <!-- RIVI 1: pylväs + donitsi + tilastot -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;max-width:1000px;margin-bottom:2rem">
       <div style="display:flex;flex-direction:column;align-items:center;gap:1.25rem">
         <div style="width:100%;background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:.85rem">
           <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#5a7a99;margin-bottom:.5rem">TOP 10 — ENITEN VALTIOPÄIVIÄ</div>
           <svg viewBox="0 0 ${W} ${H}" width="100%" style="display:block">
-            ${bars}
-            ${labels}
+            ${bars}${labels}
             <line x1="${startX}" y1="${H-padB-Math.round(20/maxVp*(H-padB-padT))}" x2="${startX+totalW}" y2="${H-padB-Math.round(20/maxVp*(H-padB-padT))}" stroke="#1a2a5588" stroke-dasharray="3,3" stroke-width="1"/>
             <text x="${startX-4}" y="${H-padB-Math.round(20/maxVp*(H-padB-padT))+3}" text-anchor="end" font-size="8" fill="#5a7a99" font-family="Orbitron,monospace">20</text>
           </svg>
         </div>
-
-        <!-- Donitsi ryhmistä -->
         <div style="position:relative;width:200px">
           <svg viewBox="0 0 200 200" width="200" height="200">
             ${sektorit}
@@ -3966,7 +3998,6 @@ function renderKokemus() {
         </div>
       </div>
 
-      <!-- Oikea: ryhmäpalkit + tilastot -->
       <div style="display:flex;flex-direction:column;gap:.5rem">
         <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#39ff14;margin-bottom:.25rem">KOKEMUSRYHMÄT</div>
         ${KOKEMUS_RYHMAT.map(r => {
@@ -3978,23 +4009,99 @@ function renderKokemus() {
               <span style="font-family:'Orbitron',monospace;font-size:.75rem;color:${r.vari}">${r.lkm} <span style="font-size:.6rem;color:#5a7a99">(${pct}%)</span></span>
             </div>
             <div style="background:rgba(255,255,255,.04);border-radius:3px;height:7px;overflow:hidden">
-              <div style="width:${pct / 40 * 100}%;height:100%;background:${r.vari};border-radius:3px;opacity:.85;transition:width .6s cubic-bezier(.4,0,.2,1)"></div>
+              <div style="width:${pct / 40 * 100}%;height:100%;background:${r.vari};border-radius:3px;opacity:.85"></div>
             </div>
           </div>`;
         }).join("")}
 
-        <!-- Tilastot -->
-        <div style="margin-top:.85rem;background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:.85rem;display:flex;flex-direction:column;gap:.6rem">
+        <div style="margin-top:.85rem;background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:.85rem;display:flex;flex-direction:column;gap:.5rem">
           <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#5a7a99;margin-bottom:.25rem">TILASTOT</div>
           <div><div class="d-label">Keski-kokemus</div><div class="d-value" style="color:#39ff14">${KOKEMUS_KESKI} valtiopäivää</div></div>
-          <div><div class="d-label">Kokenein edustaja</div><div style="font-size:.85rem;font-weight:600;color:#e8f4ff">Zyskowicz Ben / KOK</div><div class="muted txt-sm">48 valtiopäivää</div></div>
-          <div><div class="d-label">Yli 20 vp kokemusta</div><div class="d-value" style="color:#39ff14">20 edustajaa</div></div>
+          <div><div class="d-label">Keski-ikä</div><div class="d-value" style="color:#00d4ff">${keski_ika} vuotta</div></div>
+          <div><div class="d-label">Kokenein edustaja</div>
+            <div style="font-size:.85rem;font-weight:600;color:#e8f4ff;cursor:pointer" onclick="openTTLProfile(KAIKKI.find(m=>m.nimi===kokeneinNimi))">${kaannaNimi(kokenein?.nimi||'–')} / ${kokenein?.puolue||''}</div>
+            <div class="muted txt-sm">${kokenein?.vaalikaudet||'?'} valtiopäivää</div>
+          </div>
+          <div><div class="d-label">Ensikertalaiset</div><div class="d-value" style="color:#39ff14">${ensiKert} edustajaa (${Math.round(ensiKert/nykyiset.length*100)}%)</div></div>
+          <div><div class="d-label">Yli 20 vp kokemusta</div><div class="d-value" style="color:#39ff14">${yli20} edustajaa</div></div>
         </div>
       </div>
     </div>
-    <div style="margin-top:.75rem;font-size:.65rem;color:#3a5a77;letter-spacing:.08em">
-      Lähde: eduskunta.fi · Päivitetty 22.3.2026
-    </div>`;
+
+    <!-- RIVI 2: puoluekohtainen kokemus -->
+    <div style="max-width:1000px;margin-bottom:2rem;background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:1rem">
+      <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#00d4ff;margin-bottom:.85rem">PUOLUEIDEN KESKI-KOKEMUS (VALTIOPÄIVIÄ)</div>
+      <div style="display:flex;flex-direction:column;gap:.5rem">
+        ${puolueetLista.map(p => {
+          const vari = puolueVari(p.puolue);
+          const pct  = Math.round(p.keski / maxKeskiVp * 100);
+          return `<div style="display:grid;grid-template-columns:60px 1fr 80px;gap:.75rem;align-items:center">
+            <span style="font-family:'Orbitron',monospace;font-size:.65rem;color:${vari};text-align:right">${p.puolue}</span>
+            <div style="background:rgba(255,255,255,.04);border-radius:3px;height:8px;overflow:hidden">
+              <div style="width:${pct}%;height:100%;background:${vari};border-radius:3px;opacity:.85"></div>
+            </div>
+            <span style="font-size:.72rem;color:#8a9ab5">${p.keski} vp <span style="color:#3a5a77;font-size:.62rem">(${p.lkm} ed.)</span></span>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>
+
+    <!-- RIVI 3: uudet per puolue + nuorimmat/vanhimmat -->
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;max-width:1000px;margin-bottom:2rem">
+
+      <!-- Uudet edustajat per puolue -->
+      <div style="background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:1rem">
+        <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#ffd700;margin-bottom:.75rem">UUDET 2023 PER PUOLUE</div>
+        ${uudetLista.map(([p, n]) => {
+          const vari = puolueVari(p);
+          const tot  = puolueetMap[p]?.lkm || 1;
+          const pct  = Math.round(n/tot*100);
+          return `<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.4rem">
+            <span style="font-family:'Orbitron',monospace;font-size:.6rem;color:${vari};min-width:36px;text-align:right">${p}</span>
+            <div style="flex:1;background:rgba(255,255,255,.04);border-radius:2px;height:6px;overflow:hidden">
+              <div style="width:${pct}%;height:100%;background:${vari};opacity:.8"></div>
+            </div>
+            <span style="font-size:.68rem;color:#8a9ab5;min-width:28px">${n} <span style="color:#3a5a77">(${pct}%)</span></span>
+          </div>`;
+        }).join("")}
+      </div>
+
+      <!-- Nuorimmat -->
+      <div style="background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:1rem">
+        <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#39ff14;margin-bottom:.75rem">NUORIMMAT EDUSTAJAT</div>
+        ${nuorimmat.map((m, i) => {
+          const vari = puolueVari(m.puolue);
+          const ika  = vuosi - m.syntymavuosi;
+          return `<div style="display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;cursor:pointer"
+            onclick="openTTLProfile(KAIKKI.find(x=>x.nimi==='${m.nimi.replace(/'/g,"\\'")}'))">
+            <img src="${kuvaUrl(m.kuva,40)}" style="width:24px;height:30px;object-fit:cover;object-position:top;border-radius:2px;border:1px solid ${vari}55;flex-shrink:0" onerror="this.style.display='none'">
+            <div style="min-width:0">
+              <div style="font-size:.75rem;color:#c8d8e8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m.nimi)}</div>
+              <div style="font-size:.62rem;color:${vari}">${m.puolue} · ${ika} v</div>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+
+      <!-- Vanhimmat -->
+      <div style="background:#0b1128;border:1px solid #1a2a55;border-radius:6px;padding:1rem">
+        <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.18em;color:#ff9500;margin-bottom:.75rem">VANHIMMAT EDUSTAJAT</div>
+        ${vanhimmat.map((m, i) => {
+          const vari = puolueVari(m.puolue);
+          const ika  = vuosi - m.syntymavuosi;
+          return `<div style="display:flex;align-items:center;gap:.6rem;margin-bottom:.5rem;cursor:pointer"
+            onclick="openTTLProfile(KAIKKI.find(x=>x.nimi==='${m.nimi.replace(/'/g,"\\'")}'))">
+            <img src="${kuvaUrl(m.kuva,40)}" style="width:24px;height:30px;object-fit:cover;object-position:top;border-radius:2px;border:1px solid ${vari}55;flex-shrink:0" onerror="this.style.display='none'">
+            <div style="min-width:0">
+              <div style="font-size:.75rem;color:#c8d8e8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m.nimi)}</div>
+              <div style="font-size:.62rem;color:${vari}">${m.puolue} · ${ika} v</div>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>
+
+    <div style="font-size:.65rem;color:#3a5a77;letter-spacing:.08em">Lähde: eduskunta.fi</div>`;
 }
 
 document.getElementById("btnAktiivisuus").addEventListener("click", naytaAktiivisuusNakyma);
