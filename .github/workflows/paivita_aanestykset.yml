@@ -1,42 +1,55 @@
 name: Päivitä äänestysdata
 
 on:
-  # Aja joka yö klo 03:00 Suomen aikaa (00:00 UTC)
   schedule:
-    - cron: "0 0 * * *"
-
-  # Mahdollistaa manuaalisen ajon GitHub-käyttöliittymästä
-  workflow_dispatch:
+    - cron: '0 2 * * *'   # Joka yö klo 02:00 UTC (04:00 Helsinki)
+  workflow_dispatch:        # Myös manuaalisesti käynnistettävissä
 
 jobs:
-  hae-aanestykset:
+  paivita:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Lataa repositorio
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # Koko historia — tarvitaan rebase-varten
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Aseta Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Luo aanestykset_json-kansio
-        run: mkdir -p aanestykset_json
+      - name: Asenna riippuvuudet
+        run: pip install requests
 
       - name: Hae äänestysdata
         run: python skriptit/hae_aanestykset.py
 
-      - name: Tarkista onko muutoksia
-        id: muutokset
-        run: |
-          git diff --quiet aanestykset_json/ || echo "muutoksia=true" >> $GITHUB_OUTPUT
-
-      - name: Committaa ja pushaa päivitetty data
-        if: steps.muutokset.outputs.muutoksia == 'true'
+      - name: Commitoi ja push (rebase-strategia)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Pull ensin rebase-strategialla — välttää konfliktit
+          git pull --rebase --autostash origin main
+
+          # Lisää vain JSON-tiedostot — ei kosketa index.html:ään
           git add aanestykset_json/
-          git commit -m "🗳️ Äänestysdata päivitetty $(date +'%d.%m.%Y')"
-          git push
+
+          # Commitoi vain jos muutoksia
+          if git diff --staged --quiet; then
+            echo "Ei muutoksia äänestysdata — skipataan commit"
+          else
+            git commit -m "Auto: päivitä äänestysdata $(date +'%d.%m.%Y %H:%M')"
+            # Push retry-loopilla jos samanaikainen push törmää
+            for i in 1 2 3; do
+              git push && break
+              echo "Push epäonnistui, yritetään uudelleen ($i/3)..."
+              git pull --rebase origin main
+              sleep 5
+            done
+          fi
