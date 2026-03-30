@@ -199,6 +199,53 @@
       letter-spacing: .05em;
     }
 
+    /* Vertailu-ikoni kortissa */
+    .card-vert-btn {
+      position: absolute;
+      top: .5rem;
+      left: .5rem;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      border: 1px solid #1a2a55;
+      background: rgba(8,13,31,.85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .75rem;
+      cursor: pointer;
+      z-index: 2;
+      transition: all .18s;
+      opacity: 0;
+    }
+    .card:hover .card-vert-btn { opacity: 1; }
+    .card-vert-btn.valittu {
+      opacity: 1 !important;
+      background: rgba(255,0,122,.18);
+      border-color: #ff007a;
+      box-shadow: 0 0 8px rgba(255,0,122,.5);
+    }
+    .card.vert-valittu {
+      border-color: #ff007a !important;
+      box-shadow: 0 0 16px rgba(255,0,122,.3) !important;
+    }
+    /* Vertailupalkki alhaalla */
+    #vertPalkki {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 200;
+      background: linear-gradient(135deg, #0d0520, #150830);
+      border-top: 1px solid #ff007a55;
+      padding: .75rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      transform: translateY(100%);
+      transition: transform .3s cubic-bezier(.4,0,.2,1);
+      box-shadow: 0 -4px 24px rgba(255,0,122,.15);
+    }
+    #vertPalkki.auki { transform: translateY(0); }
+
     .card-arrow {
       position: absolute;
       bottom: .9rem;
@@ -1802,9 +1849,16 @@ function luoKortti(m) {
                 border:1px solid var(--party-color, #1a2a55);
                 opacity:.85;">`
     : "";
+  // Onko tämä edustaja jo vertailussa?
+  const vertaktiivinen = () => VERT_ED.some(v => v && v.nimi === m.nimi);
+
   card.innerHTML = `
     <div class="card-topbar"></div>
     <div class="card-body" style="position:relative">
+      <button class="card-vert-btn ${vertaktiivinen() ? 'valittu' : ''}"
+        title="Lisää vertailuun"
+        onclick="event.stopPropagation();korttiVertailu('${m.nimi.replace(/'/g,"\'")}')"
+        >⚔️</button>
       ${kuvaHtml}
       <div class="card-party-tag">${m.puolue||"–"}</div>
       <div class="card-name" style="padding-right:${m.kuva?"54px":"0"}">${kaannaNimi(m.nimi)}</div>
@@ -1958,11 +2012,7 @@ function renderModalSkeleton(m, vari) {
                    font-family:'Rajdhani',sans-serif;font-size:.7rem;letter-spacing:.12em;
                    padding:.3rem .7rem;cursor:pointer;transition:background .15s;text-transform:uppercase"
             onmouseover="this.style.background='rgba(255,77,109,.1)'" onmouseout="this.style.background='transparent'">📡 Uutiset</button>
-          <button onclick="lisaaVertailuun(AKTIIVINEN_EDUSTAJA)"
-            style="background:transparent;border:1px solid #ff007a88;color:#ff007a;border-radius:3px;
-                   font-family:'Rajdhani',sans-serif;font-size:.7rem;letter-spacing:.12em;
-                   padding:.3rem .7rem;cursor:pointer;transition:background .15s;text-transform:uppercase"
-            onmouseover="this.style.background='rgba(255,0,122,.1)'" onmouseout="this.style.background='transparent'">⚔️ Vertaile</button>
+
         </div>` : ""}
       </div>
     </div>
@@ -4358,39 +4408,106 @@ setTimeout(() => lataaLobbausIndex(), 5000);
    ================================================================ */
 
 let VERT_ED = [null, null];   // valitut edustajat [0]=1, [1]=2
-const VERT_CYAN = '#00d4ff';
-const VERT_PINK = '#ff007a';
 
-// Nav-painike
-document.getElementById('btnVertaile').addEventListener('click', naytaVertaileNakyma);
+// ── Korttivertailu: kutsutaan kortin ⚔️-napista ──
+function korttiVertailu(nimi) {
+  const m = KAIKKI.find(x => x.nimi === nimi);
+  if (!m) return;
 
-function naytaVertaileNakyma() {
+  // Jos jo valittu — poista
+  const idx = VERT_ED.findIndex(v => v && v.nimi === nimi);
+  if (idx !== -1) {
+    VERT_ED[idx] = null;
+    paivitaVertPalkki();
+    paivitaKortitVertTila();
+    return;
+  }
+
+  // Lisää vapaaseen slottiin
+  if (!VERT_ED[0])      { VERT_ED[0] = m; }
+  else if (!VERT_ED[1]) { VERT_ED[1] = m; }
+  else {
+    // Molemmat täynnä — ei tehdä mitään, nappi on jo piilotettu
+    return;
+  }
+
+  paivitaVertPalkki();
+  paivitaKortitVertTila();
+
+  // Jos molemmat valittu — avaa vertailu automaattisesti
+  if (VERT_ED[0] && VERT_ED[1]) {
+    setTimeout(avaaVertailuNakyma, 300);
+  }
+}
+
+function paivitaVertPalkki() {
+  const palkki = document.getElementById('vertPalkki');
+  const ed1el  = document.getElementById('vertPalkkiEd1');
+  const ed2el  = document.getElementById('vertPalkkiEd2');
+  const btn    = document.getElementById('vertPalkkiBtn');
+  if (!palkki) return;
+
+  const [m1, m2] = VERT_ED;
+  const jokuValittu = m1 || m2;
+
+  // Näytä/piilota palkki
+  palkki.classList.toggle('auki', !!jokuValittu);
+
+  // Ed 1
+  ed1el.innerHTML = m1
+    ? `<img src="${kuvaUrl(m1.kuva,40)}" style="width:22px;height:28px;object-fit:cover;object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+       <div style="min-width:0">
+         <div style="font-size:.7rem;color:#00d4ff;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m1.nimi)}</div>
+         <div style="font-size:.58rem;color:#3a5a77">${m1.puolue||''}</div>
+       </div>
+       <button onclick="VERT_ED[0]=null;paivitaVertPalkki();paivitaKortitVertTila()"
+         style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.7rem;flex-shrink:0">✕</button>`
+    : `<span style="font-size:.62rem;color:#2a4a67">Valitse edustaja 1...</span>`;
+
+  // Ed 2
+  ed2el.innerHTML = m2
+    ? `<img src="${kuvaUrl(m2.kuva,40)}" style="width:22px;height:28px;object-fit:cover;object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+       <div style="min-width:0">
+         <div style="font-size:.7rem;color:#ff007a;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m2.nimi)}</div>
+         <div style="font-size:.58rem;color:#3a5a77">${m2.puolue||''}</div>
+       </div>
+       <button onclick="VERT_ED[1]=null;paivitaVertPalkki();paivitaKortitVertTila()"
+         style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.7rem;flex-shrink:0">✕</button>`
+    : `<span style="font-size:.62rem;color:#2a4a67">Valitse edustaja 2...</span>`;
+
+  // VERTAILE-nappi vain kun molemmat valittu
+  btn.style.display = (m1 && m2) ? 'block' : 'none';
+}
+
+function paivitaKortitVertTila() {
+  // Päivitä kaikkien korttien ⚔️-ikonin tila
+  document.querySelectorAll('.card-vert-btn').forEach(btn => {
+    const nimi = btn.closest('.card') && btn.getAttribute('data-nimi');
+    // Uudelleenrenderöinti hoitaa tilan — päivitä vain visuaali
+  });
+  // Yksinkertaisin tapa: uudelleenrenderöi nykyinen sivu
+  renderSivu(nykyinenSivu);
+}
+
+function nollaaVertailu() {
+  VERT_ED = [null, null];
+  paivitaVertPalkki();
+  renderSivu(nykyinenSivu);
+}
+
+function avaaVertailuNakyma() {
+  if (!VERT_ED[0] || !VERT_ED[1]) return;
   piilotaKaikki();
   tallennaNakyma('vertaile');
   document.getElementById('vertaileNakyma').style.display = 'block';
   document.getElementById('btnVertaile').classList.add('active');
   renderVertaileNakyma();
 }
+const VERT_CYAN = '#00d4ff';
+const VERT_PINK = '#ff007a';
 
-// Kutsutaan profiilista "⚔️ Vertaile"-painikkeesta
-function lisaaVertailuun(m) {
-  // Laitetaan vapaaseen slottiin, tai korvataan toinen jos molemmat täynnä
-  if (!VERT_ED[0]) {
-    VERT_ED[0] = m;
-  } else if (!VERT_ED[1] && VERT_ED[0].nimi !== m.nimi) {
-    VERT_ED[1] = m;
-  } else if (VERT_ED[0].nimi === m.nimi) {
-    // jo valittu — vaihda kakkoseen
-    VERT_ED[1] = null;
-    VERT_ED[0] = m;
-  } else {
-    // molemmat täynnä — korvaa ykkönen, siirretään ykkönen kakkoseksi
-    VERT_ED[1] = VERT_ED[0];
-    VERT_ED[0] = m;
-  }
-  closeTTLProfile();
-  naytaVertaileNakyma();
-}
+// Nav-painike — auki vain jos vertailu jo käynnissä
+document.getElementById('btnVertaile').addEventListener('click', avaaVertailuNakyma);
 
 // Hakukenttä — suodattaa KAIKKI-listaa
 function vertHakuTulos(n) {
@@ -4697,5 +4814,32 @@ function renderVertVoittaja(m1, m2, d1, d2, pct1, pct2, poiss1, poiss2, akt1, ak
     </div>`;
 }
 </script>
+<!-- VERTAILUPALKKI (kiinteä alareuna) -->
+<div id="vertPalkki">
+  <div style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.15em;color:#ff007a;flex-shrink:0">
+    ⚔️ VERTAILU
+  </div>
+  <div id="vertPalkkiEd1" style="display:flex;align-items:center;gap:.5rem;background:#0b1128;
+    border:1px solid #00d4ff44;border-radius:6px;padding:.4rem .75rem;flex:1;min-width:0">
+    <span style="font-size:.65rem;color:#3a5a77">Valitse edustaja 1...</span>
+  </div>
+  <div style="font-family:'Orbitron',monospace;font-size:.7rem;color:#3a5a77">VS</div>
+  <div id="vertPalkkiEd2" style="display:flex;align-items:center;gap:.5rem;background:#0b1128;
+    border:1px solid #ff007a44;border-radius:6px;padding:.4rem .75rem;flex:1;min-width:0">
+    <span style="font-size:.65rem;color:#3a5a77">Valitse edustaja 2...</span>
+  </div>
+  <button id="vertPalkkiBtn" onclick="avaaVertailuNakyma()"
+    style="display:none;font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.1em;
+           background:#ff007a;color:#fff;border:none;border-radius:6px;padding:.5rem 1rem;
+           cursor:pointer;white-space:nowrap;transition:opacity .15s"
+    onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">
+    VERTAILE →
+  </button>
+  <button onclick="nollaaVertailu()"
+    style="font-family:'Orbitron',monospace;font-size:.58rem;color:#3a5a77;background:none;
+           border:1px solid #1a2a55;border-radius:4px;padding:.4rem .6rem;cursor:pointer;
+           white-space:nowrap;flex-shrink:0">✕ NOLLAA</button>
+</div>
+
 </body>
 </html>
