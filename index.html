@@ -200,21 +200,21 @@
       letter-spacing: .05em;
     }
 
-    /* Vertailu-banneri kortin alareunassa */
+    /* Vertailu-banneri — position:absolute jotta ei vaikuta layoutiin */
     .card-vert-btn {
       position: absolute;
       bottom: 0; left: 0; right: 0;
       height: 36px;
-      background: linear-gradient(135deg, rgba(255,0,122,.85), rgba(180,0,90,.9));
+      background: linear-gradient(135deg, rgba(255,0,122,.92), rgba(180,0,90,.95));
       border: none;
       border-top: 1px solid #ff007a99;
-      border-radius: 0 0 10px 10px;
+      border-radius: 0 0 6px 6px;
       color: #fff;
       font-family: 'Orbitron', monospace;
       font-size: .6rem;
       letter-spacing: .18em;
       cursor: pointer;
-      z-index: 2;
+      z-index: 3;
       width: 100%;
       display: flex;
       align-items: center;
@@ -1842,11 +1842,11 @@ function luoKortti(m) {
       <div class="card-party-tag">${m.puolue||"–"}</div>
       <div class="card-name" style="padding-right:${m.kuva?'54px':'0'}">${kaannaNimi(m.nimi)}</div>
       <div class="card-meta">${[paikkatieto,vuodet].filter(Boolean).join(" · ")}</div>
+      <button class="card-vert-btn ${vertaktiivinen() ? 'valittu' : ''}"
+        title="Lisää vertailuun"
+        onclick="event.stopPropagation();korttiVertailu('${m.nimi.replace(/'/g,"\'")}')"
+        >${vertaktiivinen() ? '✓ VERTAILUSSA' : '⚔️ VERTAILE'}</button>
     </div>
-    <button class="card-vert-btn ${vertaktiivinen() ? 'valittu' : ''}"
-      title="Lisää vertailuun"
-      onclick="event.stopPropagation();korttiVertailu('${m.nimi.replace(/'/g,"\\'")}')"
-      >${vertaktiivinen() ? '✓ VERTAILUSSA' : '⚔️ VERTAILE'}</button>
     <div class="card-arrow">AVAA →</div>`;
   card.addEventListener("click", () => openTTLProfile(m));
   card.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" ") openTTLProfile(m); });
