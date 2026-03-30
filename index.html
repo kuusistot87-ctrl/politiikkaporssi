@@ -2020,6 +2020,7 @@ function renderModalSkeleton(m, vari) {
     { id: "ministeriydet",icon:"⚡", label: "Hallitusjäs.",    color: "#ff4d6d", shadow: "rgba(255,77,109,.3)", bg: "rgba(255,77,109,.08)" },
     { id: "sidonnaisuudet2",icon:"💰",label:"Tulot & sidot.",  color: "#ffd700", shadow: "rgba(255,215,0,.3)",  bg: "rgba(255,215,0,.08)" },
     { id: "aanestykset",   icon: "🗳️", label: "Äänestykset",  color: "#22d3ee", shadow: "rgba(34,211,238,.3)", bg: "rgba(34,211,238,.08)" },
+    { id: "vaalikone",     icon: "🎯", label: "Vaalikone",     color: "#ff6b35", shadow: "rgba(255,107,53,.3)",  bg: "rgba(255,107,53,.08)"  },
   ];
 
   // Piilotettu sisältö per tab
@@ -2052,6 +2053,7 @@ function renderModalSkeleton(m, vari) {
     ministeriydet:   `<div id="xml-ministeriydet-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
     sidonnaisuudet2: `<div id="xml-sidonnaisuudet-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
     aanestykset: `<div id="aanestykset-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
+    vaalikone:   `<div id="vaalikone-${slug}" class="xml-osio"><div class="spinner" style="margin:.5rem auto"></div></div>`,
   };
 
   // Rakenna grid
@@ -2086,6 +2088,7 @@ function renderModalSkeleton(m, vari) {
       const xmlOsiot = ["tyoura","valiokunnat","ministeriydet","sidonnaisuudet2"];
       if (tab.id === "poissaolot") naytaPoissaolot(m, vari);
       else if (tab.id === "aanestykset") lataaAanestykset(m, vari);
+      else if (tab.id === "vaalikone") lataaVaalikone(m, vari);
       else if (xmlOsiot.includes(tab.id)) lataaXmlOsio(tab.id, m, vari);
     });
 
@@ -4641,6 +4644,115 @@ function renderPodium(top3, elementId, hanta, kentta) {
         </div>
       </div>`;
   }).join('');
+}
+
+/* ================================================================
+   VAALIKONE 2023 — Puoluetason keskiarvot YLE:n anonyymidata
+   Lähde: YLE vaalikoneiden vastausdata 2023, CC-BY
+   ================================================================ */
+let VAALIKONE_DATA = null;
+
+async function lataaVaalikoneData() {
+  if (VAALIKONE_DATA) return VAALIKONE_DATA;
+  try {
+    const r = await fetch('vaalikone_json/puoluekeskiarvot.json');
+    if (r.ok) VAALIKONE_DATA = await r.json();
+  } catch(_) {}
+  return VAALIKONE_DATA;
+}
+
+async function lataaVaalikone(m, vari) {
+  const slug = asciiSlug(m.nimi);
+  const elId = "vaalikone-" + slug;
+  const el   = document.getElementById(elId);
+  if (!el || el.dataset.ladattu) return;
+  el.dataset.ladattu = "1";
+  el.innerHTML = '<div class="spinner" style="margin:1rem auto"></div>';
+
+  const data = await lataaVaalikoneData();
+  if (!data) {
+    el.innerHTML = '<div class="info-ei">Vaalikonedataa ei saatavilla.</div>';
+    return;
+  }
+
+  const puolue     = m.puolue;
+  const puolueData = data.puolueet[puolue];
+  const kysymykset = data.kysymykset;
+
+  if (!puolueData) {
+    el.innerHTML = `<div class="info-ei">Ei vaalikonedataa puolueelle ${puolue}.</div>`;
+    return;
+  }
+
+  // Ryhmittele kysymykset aihealueittain
+  const teemat = [
+    { nimi: "🌍 Ympäristö & ilmasto",     idx: [6,7,8,9,10,11,12] },
+    { nimi: "🛡️ Turvallisuus & ulkopolitiikka", idx: [13,14,15,16,17,18,19,20] },
+    { nimi: "💰 Talous & verotus",          idx: [21,22,23,24,25] },
+    { nimi: "🏥 Sosiaali & terveys",        idx: [26,27,28,29,30] },
+    { nimi: "🌿 Päihteet & vapaudet",       idx: [30,31,32] },
+    { nimi: "🎓 Koulutus",                  idx: [33,34,35,36,37] },
+    { nimi: "🌐 Maahanmuutto",              idx: [38,39,40,41,42] },
+    { nimi: "🗺️ Alue & liikenne",           idx: [43,44] },
+    { nimi: "🇸🇪 Ruotsin kieli",             idx: [45,46] },
+    { nimi: "🏳️‍🌈 Arvot & yhteiskunta",       idx: [0,1,2,3,4,5] },
+  ];
+
+  const vastausLabels = ["","Täysin eri mieltä","Jokseenkin eri mieltä","Ei kantaa","Jokseenkin samaa mieltä","Täysin samaa mieltä"];
+
+  function arvoVari(arvo) {
+    if (arvo >= 4.2) return '#27ae60';
+    if (arvo >= 3.5) return '#7cb342';
+    if (arvo >= 2.5) return '#f5a623';
+    if (arvo >= 1.8) return '#e74c3c';
+    return '#c0392b';
+  }
+
+  function palkki(arvo) {
+    const pct = ((arvo - 1) / 4) * 100;
+    const cv  = arvoVari(arvo);
+    return `<div style="display:flex;align-items:center;gap:.5rem">
+      <div style="flex:1;background:rgba(255,255,255,.06);border-radius:3px;height:6px;overflow:hidden">
+        <div style="width:${pct}%;height:100%;background:${cv};border-radius:3px"></div>
+      </div>
+      <span style="font-family:'Orbitron',monospace;font-size:.65rem;color:${cv};min-width:28px;text-align:right">${arvo.toFixed(1)}</span>
+    </div>`;
+  }
+
+  let html = `
+    <div style="font-size:.72rem;color:#5a7a99;margin-bottom:1rem;line-height:1.5">
+      Alla näkyy <strong style="color:${vari}">${puolue}</strong>:n ehdokkaiden
+      <strong style="color:#e8f4ff">keskimääräinen kanta</strong> vaalikonekysymyksiin
+      (asteikko 1–5, YLE vaalikonetiedot 2023).
+    </div>`;
+
+  for (const teema of teemat) {
+    const kysRivit = teema.idx
+      .filter(i => i < kysymykset.length && puolueData[i] !== null)
+      .map(i => ({ kysymys: kysymykset[i], arvo: puolueData[i] }));
+
+    if (!kysRivit.length) continue;
+
+    html += `
+      <div style="margin-bottom:1rem">
+        <div style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.15em;
+                    color:#3a5a77;margin-bottom:.5rem;padding-bottom:.3rem;
+                    border-bottom:1px solid #1a2a55">${teema.nimi}</div>
+        <div style="display:flex;flex-direction:column;gap:.5rem">
+          ${kysRivit.map(({kysymys, arvo}) => `
+            <div>
+              <div style="font-size:.72rem;color:#c8d8e8;margin-bottom:.25rem;line-height:1.4">${kysymys}</div>
+              ${palkki(arvo)}
+            </div>`).join('')}
+        </div>
+      </div>`;
+  }
+
+  html += `<div style="font-size:.62rem;color:#2a4a67;margin-top:.75rem">
+    Lähde: YLE vaalikoneen anonyymi ehdokasdata 2023 (CC-BY) · Luvut ovat puolueen ehdokkaiden keskiarvoja, eivät yksittäisen edustajan kantoja.
+  </div>`;
+
+  el.innerHTML = html;
 }
 
 lataaHakemisto();
