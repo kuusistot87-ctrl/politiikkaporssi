@@ -4609,13 +4609,15 @@ function paivitaVertPalkki() {
     if (m1) {
       const pv1 = puolueVari(m1.puolue);
       if (box1) box1.style.borderColor = pv1 + '99';
-      t1.innerHTML = `<img src="${kuvaUrl(m1.kuva,40)}" style="width:18px;height:22px;object-fit:cover;object-position:top;border-radius:2px;vertical-align:middle;margin-right:.4rem" onerror="this.style.display='none'">
-        <span style="color:#00d4ff;font-weight:600">${kaannaNimi(m1.nimi)}</span>
-        <span style="color:${pv1};font-size:.6rem;margin-left:.3rem">${m1.puolue||''}</span>
-        <button onclick="event.stopPropagation();VERT_ED[0]=null;paivitaVertPalkki();renderSivu(nykyinenSivu)"
-          style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.65rem;flex-shrink:0;padding:0 0 0 .5rem">✕</button>`;
+      t1.innerHTML = `
+        <img src="${kuvaUrl(m1.kuva,40)}" style="width:18px;height:22px;object-fit:cover;object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+        <span style="color:${pv1};font-weight:600;font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m1.nimi)}</span>
+        <span style="background:${pv1}22;border:1px solid ${pv1}88;color:${pv1};font-size:.58rem;font-family:'Orbitron',monospace;padding:.1rem .35rem;border-radius:3px;flex-shrink:0">${m1.puolue||''}</span>
+        <button onclick="event.stopPropagation();VERT_ED[0]=null;paivitaVertPalkki();paivitaKorttiVertNapit()"
+          style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.65rem;flex-shrink:0;padding:0 0 0 .4rem">✕</button>`;
       t1.style.display = 'flex';
       t1.style.alignItems = 'center';
+      t1.style.gap = '.4rem';
       t1.style.width = '100%';
     } else {
       if (box1) box1.style.borderColor = '#00d4ff44';
@@ -4629,13 +4631,15 @@ function paivitaVertPalkki() {
     if (m2) {
       const pv2 = puolueVari(m2.puolue);
       if (box2) box2.style.borderColor = pv2 + '99';
-      t2.innerHTML = `<img src="${kuvaUrl(m2.kuva,40)}" style="width:18px;height:22px;object-fit:cover;object-position:top;border-radius:2px;vertical-align:middle;margin-right:.4rem" onerror="this.style.display='none'">
-        <span style="color:#ff007a;font-weight:600">${kaannaNimi(m2.nimi)}</span>
-        <span style="color:${pv2};font-size:.6rem;margin-left:.3rem">${m2.puolue||''}</span>
-        <button onclick="event.stopPropagation();VERT_ED[1]=null;paivitaVertPalkki();renderSivu(nykyinenSivu)"
-          style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.65rem;flex-shrink:0;padding:0 0 0 .5rem">✕</button>`;
+      t2.innerHTML = `
+        <img src="${kuvaUrl(m2.kuva,40)}" style="width:18px;height:22px;object-fit:cover;object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+        <span style="color:${pv2};font-weight:600;font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m2.nimi)}</span>
+        <span style="background:${pv2}22;border:1px solid ${pv2}88;color:${pv2};font-size:.58rem;font-family:'Orbitron',monospace;padding:.1rem .35rem;border-radius:3px;flex-shrink:0">${m2.puolue||''}</span>
+        <button onclick="event.stopPropagation();VERT_ED[1]=null;paivitaVertPalkki();paivitaKorttiVertNapit()"
+          style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.65rem;flex-shrink:0;padding:0 0 0 .4rem">✕</button>`;
       t2.style.display = 'flex';
       t2.style.alignItems = 'center';
+      t2.style.gap = '.4rem';
       t2.style.width = '100%';
     } else {
       if (box2) box2.style.borderColor = '#ff007a44';
