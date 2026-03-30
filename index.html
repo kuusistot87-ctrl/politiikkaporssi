@@ -1895,8 +1895,8 @@ function renderModalSkeleton(m, vari) {
     <div class="modal-divider"></div>
     <div id="profnav-container"></div>`;
 
-  // Profiilin nav-painikkeet
-  const slug = m.nimi.replace(/\s+/g, '-');
+  // Profiilin nav-painikkeet — käytä asciiSlug jotta id täsmää lataaAanestykset-funktion kanssa
+  const slug = asciiSlug(m.nimi);
   const navContainer = content.querySelector("#profnav-container");
 
   const tabs = [
@@ -2000,7 +2000,7 @@ function asciiSlug(nimi) {
 
 async function lataaAanestykset(m, vari) {
   const slug = asciiSlug(m.nimi);
-  const elId = "aanestykset-" + slug;   // sama kuin HTML:ssä id="aanestykset-${slug}"
+  const elId = "aanestykset-" + slug;
   const el   = document.getElementById(elId);
   if (!el || el.dataset.ladattu) return;
   el.dataset.ladattu = "1";
