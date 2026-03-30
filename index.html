@@ -4461,32 +4461,40 @@ function paivitaVertPalkki() {
   const t1 = document.getElementById('vertPalkkiEd1Teksti');
   const t2 = document.getElementById('vertPalkkiEd2Teksti');
   if (t1) {
+    const box1 = document.getElementById('vertPalkkiEd1');
     if (m1) {
+      const pv1 = puolueVari(m1.puolue);
+      if (box1) box1.style.borderColor = pv1 + '99';
       t1.innerHTML = `<img src="${kuvaUrl(m1.kuva,40)}" style="width:18px;height:22px;object-fit:cover;object-position:top;border-radius:2px;vertical-align:middle;margin-right:.4rem" onerror="this.style.display='none'">
         <span style="color:#00d4ff;font-weight:600">${kaannaNimi(m1.nimi)}</span>
-        <span style="color:#3a5a77;font-size:.6rem;margin-left:.3rem">${m1.puolue||''}</span>
+        <span style="color:${pv1};font-size:.6rem;margin-left:.3rem">${m1.puolue||''}</span>
         <button onclick="event.stopPropagation();VERT_ED[0]=null;paivitaVertPalkki();renderSivu(nykyinenSivu)"
           style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.65rem;flex-shrink:0;padding:0 0 0 .5rem">✕</button>`;
       t1.style.display = 'flex';
       t1.style.alignItems = 'center';
       t1.style.width = '100%';
     } else {
+      if (box1) box1.style.borderColor = '#00d4ff44';
       t1.innerHTML = 'Valitse edustaja 1...';
       t1.style.color = '#3a5a77';
       t1.style.display = '';
     }
   }
   if (t2) {
+    const box2 = document.getElementById('vertPalkkiEd2');
     if (m2) {
+      const pv2 = puolueVari(m2.puolue);
+      if (box2) box2.style.borderColor = pv2 + '99';
       t2.innerHTML = `<img src="${kuvaUrl(m2.kuva,40)}" style="width:18px;height:22px;object-fit:cover;object-position:top;border-radius:2px;vertical-align:middle;margin-right:.4rem" onerror="this.style.display='none'">
         <span style="color:#ff007a;font-weight:600">${kaannaNimi(m2.nimi)}</span>
-        <span style="color:#3a5a77;font-size:.6rem;margin-left:.3rem">${m2.puolue||''}</span>
+        <span style="color:${pv2};font-size:.6rem;margin-left:.3rem">${m2.puolue||''}</span>
         <button onclick="event.stopPropagation();VERT_ED[1]=null;paivitaVertPalkki();renderSivu(nykyinenSivu)"
           style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.65rem;flex-shrink:0;padding:0 0 0 .5rem">✕</button>`;
       t2.style.display = 'flex';
       t2.style.alignItems = 'center';
       t2.style.width = '100%';
     } else {
+      if (box2) box2.style.borderColor = '#ff007a44';
       t2.innerHTML = 'Valitse edustaja 2...';
       t2.style.color = '#3a5a77';
       t2.style.display = '';
@@ -4495,11 +4503,12 @@ function paivitaVertPalkki() {
   btn.style.display = (m1 && m2) ? 'block' : 'none';
 }
 
+let _vertDDauki = false;
+
 function vertPalkkiAktivoi(n) {
   const input = document.getElementById('vertPalkkiHaku' + n);
   const box   = document.getElementById('vertPalkkiEd' + n);
   if (!input) return;
-  // Jos jo valittu — poista ja aktivoi haku
   if (VERT_ED[n-1]) {
     VERT_ED[n-1] = null;
     paivitaVertPalkki();
@@ -4514,45 +4523,57 @@ function vertPalkkiAktivoi(n) {
 function vertPalkkiHakuTulos(n) {
   const haku = document.getElementById('vertPalkkiHaku' + n).value.toLowerCase().trim();
   const dd   = document.getElementById('vertPalkkiDD' + n);
-  const vari = n === 1 ? VERT_CYAN : VERT_PINK;
   if (!haku) { dd.style.display = 'none'; return; }
   const tulokset = KAIKKI.filter(m => m.nykyinen &&
     m.nimi.toLowerCase().includes(haku)
   ).slice(0, 8);
   if (!tulokset.length) { dd.style.display = 'none'; return; }
+  _vertDDauki = true;
   dd.style.display = 'block';
-  dd.innerHTML = tulokset.map(m => `
-    <div onclick="vertPalkkiValitse(${n},'${m.nimi.replace(/'/g,"\\'")}')"
+  dd.innerHTML = tulokset.map(m => {
+    const pv = puolueVari(m.puolue);
+    return `
+    <div onmousedown="vertPalkkiValitse(${n},'${m.nimi.replace(/'/g,"\\'")}')"
       style="display:flex;align-items:center;gap:.6rem;padding:.5rem .75rem;cursor:pointer;
              border-bottom:1px solid #0d1a35;transition:background .1s"
-      onmouseover="this.style.background='rgba(255,255,255,.05)'"
+      onmouseover="this.style.background='rgba(255,255,255,.06)'"
       onmouseout="this.style.background='transparent'">
       <img src="${kuvaUrl(m.kuva,40)}" style="width:20px;height:25px;object-fit:cover;
            object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
-      <div>
-        <div style="font-size:.82rem;color:#c8d8e8">${kaannaNimi(m.nimi)}</div>
-        <div style="font-size:.62rem;color:${vari}">${m.puolue||''}</div>
+      <div style="min-width:0">
+        <div style="font-size:.82rem;color:#c8d8e8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m.nimi)}</div>
+        <div style="font-size:.62rem;color:${pv}">${m.puolue||''}</div>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 function vertPalkkiValitse(n, nimi) {
+  _vertDDauki = false;
   const m = KAIKKI.find(x => x.nimi === nimi);
   if (!m) return;
   VERT_ED[n-1] = m;
-  vertPalkkiSuljeHaku(n);
+  // Sulje haku välittömästi
+  const input = document.getElementById('vertPalkkiHaku' + n);
+  const box   = document.getElementById('vertPalkkiEd' + n);
+  const dd    = document.getElementById('vertPalkkiDD' + n);
+  if (input) { input.style.display = 'none'; input.value = ''; }
+  if (box)   box.style.display = '';
+  if (dd)    dd.style.display  = 'none';
   paivitaVertPalkki();
   renderSivu(nykyinenSivu);
   if (VERT_ED[0] && VERT_ED[1]) setTimeout(avaaVertailuNakyma, 300);
 }
 
 function vertPalkkiSuljeHaku(n) {
+  if (_vertDDauki) return; // Älä sulje jos käyttäjä klikkaa dropdownia
+  _vertDDauki = false;
   const input = document.getElementById('vertPalkkiHaku' + n);
   const box   = document.getElementById('vertPalkkiEd' + n);
   const dd    = document.getElementById('vertPalkkiDD' + n);
   if (input) { input.style.display = 'none'; input.value = ''; }
-  if (box)   { box.style.display = ''; }
-  if (dd)    { dd.style.display = 'none'; }
+  if (box)   box.style.display = '';
+  if (dd)    dd.style.display  = 'none';
 }
 
 function nollaaVertailu() {
