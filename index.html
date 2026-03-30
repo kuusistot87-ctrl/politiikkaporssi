@@ -159,6 +159,7 @@
       transform: translateY(-4px) scale(1.015);
       box-shadow: none;
       border-color: var(--party-color, var(--accent));
+      overflow: visible;
     }
 
     /* Yläpalkki puoluevärillä */
@@ -199,35 +200,39 @@
       letter-spacing: .05em;
     }
 
-    /* Vertailu-ikoni kortissa */
+    /* Vertailu-banneri kortin alareunassa */
     .card-vert-btn {
       position: absolute;
-      top: .5rem;
-      left: .5rem;
-      width: 26px;
-      height: 26px;
-      border-radius: 50%;
-      border: 1px solid #1a2a55;
-      background: rgba(8,13,31,.85);
+      bottom: 0; left: 0; right: 0;
+      height: 36px;
+      background: linear-gradient(135deg, rgba(255,0,122,.85), rgba(180,0,90,.9));
+      border: none;
+      border-top: 1px solid #ff007a99;
+      border-radius: 0 0 10px 10px;
+      color: #fff;
+      font-family: 'Orbitron', monospace;
+      font-size: .6rem;
+      letter-spacing: .18em;
+      cursor: pointer;
+      z-index: 2;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: .75rem;
-      cursor: pointer;
-      z-index: 2;
-      transition: all .18s;
-      opacity: 0.35;
+      gap: .4rem;
+      transform: translateY(100%);
+      transition: transform .2s cubic-bezier(.4,0,.2,1);
+      box-shadow: 0 4px 16px rgba(255,0,122,.4);
     }
-    .card:hover .card-vert-btn { opacity: 1; }
+    .card:hover .card-vert-btn { transform: translateY(0); }
     .card-vert-btn.valittu {
-      opacity: 1 !important;
-      background: rgba(255,0,122,.18);
-      border-color: #ff007a;
-      box-shadow: 0 0 8px rgba(255,0,122,.5);
+      transform: translateY(0) !important;
+      background: linear-gradient(135deg, rgba(255,0,122,1), rgba(200,0,100,1));
+      box-shadow: 0 0 20px rgba(255,0,122,.7);
     }
     .card.vert-valittu {
       border-color: #ff007a !important;
-      box-shadow: 0 0 16px rgba(255,0,122,.3) !important;
+      box-shadow: 0 0 20px rgba(255,0,122,.35) !important;
     }
     /* Vertailupalkki alhaalla */
     #vertPalkki {
@@ -1833,15 +1838,15 @@ function luoKortti(m) {
   card.innerHTML = `
     <div class="card-topbar"></div>
     <div class="card-body" style="position:relative">
-      <button class="card-vert-btn ${vertaktiivinen() ? 'valittu' : ''}"
-        title="Lisää vertailuun"
-        onclick="event.stopPropagation();korttiVertailu('${m.nimi.replace(/'/g,"\'")}')"
-        >⚔️</button>
       ${kuvaHtml}
       <div class="card-party-tag">${m.puolue||"–"}</div>
-      <div class="card-name" style="padding-right:${m.kuva?"54px":"0"}">${kaannaNimi(m.nimi)}</div>
+      <div class="card-name" style="padding-right:${m.kuva?'54px':'0'}">${kaannaNimi(m.nimi)}</div>
       <div class="card-meta">${[paikkatieto,vuodet].filter(Boolean).join(" · ")}</div>
     </div>
+    <button class="card-vert-btn ${vertaktiivinen() ? 'valittu' : ''}"
+      title="Lisää vertailuun"
+      onclick="event.stopPropagation();korttiVertailu('${m.nimi.replace(/'/g,"\\'")}')"
+      >${vertaktiivinen() ? '✓ VERTAILUSSA' : '⚔️ VERTAILE'}</button>
     <div class="card-arrow">AVAA →</div>`;
   card.addEventListener("click", () => openTTLProfile(m));
   card.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" ") openTTLProfile(m); });
