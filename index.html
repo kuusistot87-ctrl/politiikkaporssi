@@ -4835,8 +4835,8 @@ function renderVertTulos(m1, m2, d1, d2) {
 
   tulos.innerHTML = `
     <div style="display:flex;flex-direction:column;gap:1.25rem">
-      ${vertRivi('PUOLUE',      m1.puolue||'–', m2.puolue||'–', pv1, pv2, 'teksti')}
-      ${vertRivi('VAALIPIIRI',  m1.vaalipiiri||'–', m2.vaalipiiri||'–', VERT_CYAN, VERT_PINK, 'teksti')}
+      ${vertPuolueRivi(m1, m2, pv1, pv2)}
+      ${vertVaalipiiriRivi(m1, m2, pv1, pv2)}
       ${vertRivi('VAALIKAUDET', vp1, vp2, VERT_CYAN, VERT_PINK, 'numero', 8)}
 
       <div style="border-top:1px solid #1a2a55;padding-top:.75rem;
@@ -4871,8 +4871,75 @@ function renderVertTulos(m1, m2, d1, d2) {
     </div>`;
 }
 
-function vertRivi(otsikko, v1, v2, c1, c2, tyyppi, max, n1, n2) {
-  const isNum = tyyppi !== 'teksti';
+function vertPuolueRivi(m1, m2, pv1, pv2) {
+  const nykyiset = KAIKKI.filter(m => m.nykyinen);
+  const total = nykyiset.length || 1;
+
+  function puolueLkm(puolue) {
+    return nykyiset.filter(m => m.puolue === puolue).length;
+  }
+
+  function tag(puolue, vari) {
+    const lkm = puolueLkm(puolue);
+    const pct = Math.round(lkm / total * 100);
+    const barW = Math.round(lkm / total * 100);
+    return `
+      <div style="display:inline-flex;flex-direction:column;gap:.3rem;min-width:100px">
+        <span style="display:inline-block;font-family:'Orbitron',monospace;font-size:.8rem;
+          font-weight:700;letter-spacing:.08em;color:${vari};
+          background:${vari}18;border:1px solid ${vari}88;
+          border-radius:4px;padding:.25rem .75rem;text-align:center">${puolue||'–'}</span>
+        <div style="background:rgba(255,255,255,.05);border-radius:3px;height:5px;overflow:hidden">
+          <div style="width:${barW}%;height:100%;background:${vari};opacity:.8;border-radius:3px"></div>
+        </div>
+        <span style="font-size:.62rem;color:#5a7a99;text-align:center">${lkm} paikkaa · ${pct}%</span>
+      </div>`;
+  }
+
+  return `
+    <div>
+      <div style="font-family:'Orbitron',monospace;font-size:.55rem;letter-spacing:.15em;
+                  color:#3a5a77;margin-bottom:.4rem">PUOLUE & VOIMASUHTEET</div>
+      <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:.75rem;align-items:center">
+        <div style="text-align:right">${tag(m1.puolue, pv1)}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:.55rem;color:#1a2a55;text-align:center">VS</div>
+        <div>${tag(m2.puolue, pv2)}</div>
+      </div>
+    </div>`;
+}
+
+function vertVaalipiiriRivi(m1, m2, pv1, pv2) {
+  const nykyiset = KAIKKI.filter(m => m.nykyinen);
+  const total = nykyiset.length || 1;
+
+  function vaalipiiriTag(vaalipiiri, vari) {
+    const lkm = nykyiset.filter(m => m.vaalipiiri === vaalipiiri).length;
+    const pct = Math.round(lkm / total * 100);
+    const barW = Math.round(lkm / total * 100);
+    return `
+      <div style="display:inline-flex;flex-direction:column;gap:.3rem;min-width:100px">
+        <span style="font-size:.78rem;font-weight:600;color:${vari};text-align:center">${vaalipiiri||'–'}</span>
+        <div style="background:rgba(255,255,255,.05);border-radius:3px;height:5px;overflow:hidden">
+          <div style="width:${barW}%;height:100%;background:${vari};opacity:.8;border-radius:3px"></div>
+        </div>
+        <span style="font-size:.62rem;color:#5a7a99;text-align:center">${lkm} edustajaa · ${pct}%</span>
+      </div>`;
+  }
+
+  return `
+    <div>
+      <div style="font-family:'Orbitron',monospace;font-size:.55rem;letter-spacing:.15em;
+                  color:#3a5a77;margin-bottom:.4rem">VAALIPIIRI & EDUSTUS</div>
+      <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:.75rem;align-items:center">
+        <div style="text-align:right">${vaalipiiriTag(m1.vaalipiiri, pv1)}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:.55rem;color:#1a2a55;text-align:center">VS</div>
+        <div>${vaalipiiriTag(m2.vaalipiiri, pv2)}</div>
+      </div>
+    </div>`;
+}
+
+function vertRivi(otsikko, v1, v2, c1, c2, tyyppi, max, n1, n2, cv1, cv2) {
+  const isNum = tyyppi !== 'teksti' && tyyppi !== 'vaalipiiri';
   const voittaja = isNum && n1 !== null && n2 !== null
     ? (tyyppi === 'palkki-inv'
         ? (n1 < n2 ? 1 : n1 > n2 ? 2 : 0)
@@ -4889,6 +4956,8 @@ function vertRivi(otsikko, v1, v2, c1, c2, tyyppi, max, n1, n2) {
         <div style="text-align:right">
           ${tyyppi==='teksti'
             ? `<span style="font-size:.88rem;font-weight:600;color:${voittaja===1?'#e8f4ff':'#5a7a99'}">${v1}</span>`
+            : tyyppi==='vaalipiiri'
+            ? `<span style="font-size:.85rem;font-weight:600;color:${cv1||'#e8f4ff'}">${v1}</span>`
             : `<div style="display:flex;align-items:center;justify-content:flex-end;gap:.5rem">
                 <span style="font-family:'Orbitron',monospace;font-size:.82rem;font-weight:700;
                   color:${voittaja===1?VERT_CYAN:'#4a6a88'}">${v1}</span>
@@ -4901,6 +4970,8 @@ function vertRivi(otsikko, v1, v2, c1, c2, tyyppi, max, n1, n2) {
         <div>
           ${tyyppi==='teksti'
             ? `<span style="font-size:.88rem;font-weight:600;color:${voittaja===2?'#e8f4ff':'#5a7a99'}">${v2}</span>`
+            : tyyppi==='vaalipiiri'
+            ? `<span style="font-size:.85rem;font-weight:600;color:${cv2||'#e8f4ff'}">${v2}</span>`
             : `<div style="display:flex;align-items:center;gap:.5rem">
                 <div style="width:${Math.max(w2,2)}%;max-width:120px;height:8px;background:${VERT_PINK};
                   border-radius:0 4px 4px 0;opacity:${voittaja===2?1:.45};min-width:2px"></div>
