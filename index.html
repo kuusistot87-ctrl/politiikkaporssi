@@ -2072,13 +2072,13 @@ function renderAanestykset(el, data, elIdOverride) {
   if (!AANESTYS_KIELISUODATIN[elId]) AANESTYS_KIELISUODATIN[elId] = 'fi';
   const aktiivinen = AANESTYS_KIELISUODATIN[elId];
 
-  // Kielisuodatinpainikkeet — näytetään vain jos molemmat kielet löytyvät
+  // Kielisuodatinpainikkeet — data haetaan AANESTYS_CACHE:sta eikä inline JSON:na
   const kieliPainikkeet = onKaksikielinen ? `
     <div style="display:flex;gap:.3rem;margin-bottom:.6rem">
       ${['fi','sv','kaikki'].map(k => {
         const labeli = k === 'fi' ? '🇫🇮 Suomi' : k === 'sv' ? '🇸🇪 Svenska' : '🌐 Kaikki';
         const aktiivi = k === aktiivinen;
-        return `<button onclick="vaihdaAanestysKieli('${elId}',${JSON.stringify(data)},'${k}',this.closest('[id]'))"
+        return `<button onclick="vaihdaAanestysKieli('${elId}','${k}')"
           style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.08em;
             padding:.25rem .55rem;border-radius:3px;cursor:pointer;transition:all .15s;
             border:1px solid ${aktiivi ? '#00d4ff' : '#1a2a55'};
@@ -2146,11 +2146,13 @@ function renderAanestykset(el, data, elIdOverride) {
   el.innerHTML = html;
 }
 
-function vaihdaAanestysKieli(elId, data, kieli) {
+function vaihdaAanestysKieli(elId, kieli) {
   AANESTYS_KIELISUODATIN[elId] = kieli;
-  // Hae elementti elId:llä — elementti on luotu lataaAanestykset-funktiossa
   const el = document.getElementById(elId);
-  if (el) renderAanestykset(el, data, elId);
+  if (!el) return;
+  const slug = elId.replace(/^aanestykset-/, "");
+  const data = AANESTYS_CACHE[slug];
+  if (data) renderAanestykset(el, data, elId);
 }
 
 
