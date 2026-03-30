@@ -2000,20 +2000,20 @@ function asciiSlug(nimi) {
 
 async function lataaAanestykset(m, vari) {
   const slug = asciiSlug(m.nimi);
-  const elId = "aanestykset-" + m.nimi.replace(/\s+/g, '-');
+  const elId = "aanestykset-" + slug;   // sama kuin HTML:ssä id="aanestykset-${slug}"
   const el   = document.getElementById(elId);
   if (!el || el.dataset.ladattu) return;
   el.dataset.ladattu = "1";
   el.innerHTML = '<div class="spinner" style="margin:1rem auto"></div>';
 
-  if (AANESTYS_CACHE[slug]) { renderAanestykset(el, AANESTYS_CACHE[slug]); return; }
+  if (AANESTYS_CACHE[slug]) { renderAanestykset(el, AANESTYS_CACHE[slug], elId); return; }
 
   try {
     const res = await fetch(`aanestykset_json/${slug}.json`);
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     AANESTYS_CACHE[slug] = data;
-    renderAanestykset(el, data);
+    renderAanestykset(el, data, elId);
   } catch(e) {
     el.innerHTML = `
       <div class="info-ei" style="margin-bottom:.75rem">Äänestysdata ei vielä saatavilla.</div>
@@ -2041,11 +2041,11 @@ function onRuotsinkielinen(otsikko) {
 // Tallentaa kielisuodattimen tilan per edustaja: { [elId]: 'fi'|'sv'|'kaikki' }
 const AANESTYS_KIELISUODATIN = {};
 
-function renderAanestykset(el, data) {
+function renderAanestykset(el, data, elIdOverride) {
   const yht   = data.yhteenveto  || {};
   const lista = data.aanestykset || [];
   const pvm   = data.paivitetty  || "";
-  const elId  = el.id || "aanestykset";
+  const elId  = elIdOverride || el.id || ("aanestykset-" + Math.random().toString(36).slice(2));
 
   if (!lista.length) {
     el.innerHTML = '<span class="info-ei">Ei äänestystietoja saatavilla.</span>';
@@ -2146,11 +2146,11 @@ function renderAanestykset(el, data) {
   el.innerHTML = html;
 }
 
-function vaihdaAanestysKieli(elId, data, kieli, container) {
+function vaihdaAanestysKieli(elId, data, kieli) {
   AANESTYS_KIELISUODATIN[elId] = kieli;
-  // Hae oikea elementti
+  // Hae elementti elId:llä — elementti on luotu lataaAanestykset-funktiossa
   const el = document.getElementById(elId);
-  if (el) renderAanestykset(el, data);
+  if (el) renderAanestykset(el, data, elId);
 }
 
 
