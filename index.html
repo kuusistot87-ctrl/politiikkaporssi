@@ -4522,7 +4522,7 @@ function vertPalkkiHakuTulos(n) {
   if (!tulokset.length) { dd.style.display = 'none'; return; }
   dd.style.display = 'block';
   dd.innerHTML = tulokset.map(m => `
-    <div onclick="vertPalkkiValitse(${n},'${m.nimi.replace(/'/g,"\\'")}\")"
+    <div onclick="vertPalkkiValitse(${n},'${m.nimi.replace(/'/g,"\\'")}')"
       style="display:flex;align-items:center;gap:.6rem;padding:.5rem .75rem;cursor:pointer;
              border-bottom:1px solid #0d1a35;transition:background .1s"
       onmouseover="this.style.background='rgba(255,255,255,.05)'"
