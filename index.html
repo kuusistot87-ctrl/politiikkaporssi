@@ -4439,15 +4439,30 @@ function korttiVertailu(nimi) {
   if (idx !== -1) {
     VERT_ED[idx] = null;
     paivitaVertPalkki();
-    renderSivu(nykyinenSivu);
+    paivitaKorttiVertNapit();
     return;
   }
   if      (!VERT_ED[0]) { VERT_ED[0] = m; }
   else if (!VERT_ED[1]) { VERT_ED[1] = m; }
   else { return; }
   paivitaVertPalkki();
-  renderSivu(nykyinenSivu);
+  paivitaKorttiVertNapit();
   if (VERT_ED[0] && VERT_ED[1]) setTimeout(avaaVertailuNakyma, 300);
+}
+
+// Päivitä vain ⚔️-nappien tila — ei uudelleenrenderöintiä
+function paivitaKorttiVertNapit() {
+  document.querySelectorAll('.card-vert-btn').forEach(btn => {
+    const card = btn.closest('.card');
+    if (!card) return;
+    // Etsi edustajan nimi kortin nimielementistä
+    const nimiEl = card.querySelector('.card-name');
+    if (!nimiEl) return;
+    const nimiTeksti = nimiEl.textContent.trim();
+    // Muunna näyttönimi takaisin — etsi KAIKKI:sta
+    const onValittu = VERT_ED.some(v => v && kaannaNimi(v.nimi) === nimiTeksti);
+    btn.classList.toggle('valittu', onValittu);
+  });
 }
 
 function paivitaVertPalkki() {
@@ -4553,7 +4568,6 @@ function vertPalkkiValitse(n, nimi) {
   const m = KAIKKI.find(x => x.nimi === nimi);
   if (!m) return;
   VERT_ED[n-1] = m;
-  // Sulje haku välittömästi
   const input = document.getElementById('vertPalkkiHaku' + n);
   const box   = document.getElementById('vertPalkkiEd' + n);
   const dd    = document.getElementById('vertPalkkiDD' + n);
@@ -4561,7 +4575,7 @@ function vertPalkkiValitse(n, nimi) {
   if (box)   box.style.display = '';
   if (dd)    dd.style.display  = 'none';
   paivitaVertPalkki();
-  renderSivu(nykyinenSivu);
+  paivitaKorttiVertNapit();
   if (VERT_ED[0] && VERT_ED[1]) setTimeout(avaaVertailuNakyma, 300);
 }
 
@@ -4579,7 +4593,7 @@ function vertPalkkiSuljeHaku(n) {
 function nollaaVertailu() {
   VERT_ED = [null, null];
   paivitaVertPalkki();
-  renderSivu(nykyinenSivu);
+  paivitaKorttiVertNapit();
 }
 
 function avaaVertailuNakyma() {
