@@ -554,6 +554,46 @@
     #btnHistorialliset { --nb-color:#a855f7; --nb-glow:rgba(168,85,247,.35);  border:none; }
     #btnSignaali       { --nb-color:#ff4d6d; --nb-glow:rgba(255,77,109,.35);  border:none; }
     #btnAktiivisuus    { --nb-color:#ffd700; --nb-glow:rgba(255,215,0,.35);   border:none; }
+    #btnVertaile       { --nb-color:#ff007a; --nb-glow:rgba(255,0,122,.35);   border:none; }
+
+    /* Vertailu-ikoni kortissa */
+    .card-vert-btn {
+      position: absolute;
+      top: .5rem; left: .5rem;
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      border: 1px solid #1a2a55;
+      background: rgba(8,13,31,.85);
+      display: flex; align-items: center; justify-content: center;
+      font-size: .65rem;
+      cursor: pointer;
+      z-index: 2;
+      transition: all .18s;
+      opacity: 0;
+    }
+    .card:hover .card-vert-btn { opacity: 1; }
+    .card-vert-btn.valittu {
+      opacity: 1 !important;
+      background: rgba(255,0,122,.18);
+      border-color: #ff007a;
+      box-shadow: 0 0 8px rgba(255,0,122,.5);
+    }
+    .card.vert-valittu { border-color: #ff007a !important; box-shadow: 0 0 16px rgba(255,0,122,.3) !important; }
+
+    /* Vertailupalkki alhaalla */
+    #vertPalkki {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 200;
+      background: linear-gradient(135deg, #0d0520, #150830);
+      border-top: 1px solid #ff007a55;
+      padding: .75rem 2rem;
+      display: flex; align-items: center; gap: 1rem;
+      transform: translateY(100%);
+      transition: transform .3s cubic-bezier(.4,0,.2,1);
+      box-shadow: 0 -4px 24px rgba(255,0,122,.15);
+    }
+    #vertPalkki.auki { transform: translateY(0); }
 
     /* ── AKTIIVISUUSTAULU ── */
     .akt-taulu-rivi {
@@ -1235,6 +1275,11 @@
       <span class="nav-btn-label">Aktiivisuus</span>
       <span class="nav-btn-sub">Leaderboard</span>
     </button>
+    <button class="nav-btn" id="btnVertaile">
+      <span class="nav-btn-icon">⚔️</span>
+      <span class="nav-btn-label">Vertaile</span>
+      <span class="nav-btn-sub">Kahden taistelu</span>
+    </button>
   </div>
 </header>
 
@@ -1491,6 +1536,40 @@
   </div>
 </div>
 
+<!-- VERTAILE-NÄKYMÄ -->
+<div id="vertaileNakyma" style="display:none;position:relative;z-index:1;padding:1.5rem 2rem 3rem">
+  <div style="font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.2em;color:#ff007a;margin-bottom:.3rem">
+    ⚔️ VERTAILE — KAHDEN EDUSTAJAN ANALYYSI
+  </div>
+  <div style="font-size:1.6rem;font-weight:700;font-family:'Orbitron',monospace;color:#e8f4ff;margin-bottom:.5rem;letter-spacing:.04em">
+    HEAD-TO-HEAD
+  </div>
+  <div id="vertKortitRivi" style="display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:center;margin-bottom:1.5rem">
+    <div id="vertKortti1"></div>
+    <div style="font-family:'Orbitron',monospace;font-size:1rem;color:#1a2a55">VS</div>
+    <div id="vertKortti2"></div>
+  </div>
+  <div id="vertTulos"></div>
+  <div id="vertOhje" style="text-align:center;padding:3rem 1rem;color:#3a5a77">
+    <div style="font-size:2.5rem;margin-bottom:1rem">⚔️</div>
+    <div style="font-family:'Orbitron',monospace;font-size:.7rem;letter-spacing:.2em;margin-bottom:.75rem">
+      VALITSE KAKSI EDUSTAJAA VERTAILLAKSESI
+    </div>
+    <div style="font-size:.82rem;color:#2a4a67;line-height:1.7">
+      Siirry <strong style="color:#3a6a8a">Nykyiset kansanedustajat</strong> -näkymään<br>
+      ja klikkaa korttien <strong style="color:#ff007a">⚔️</strong>-kuvaketta
+    </div>
+    <button onclick="naytaEdustajatJaVertailu()"
+      style="margin-top:1.25rem;font-family:'Orbitron',monospace;font-size:.62rem;letter-spacing:.12em;
+             background:transparent;border:1px solid #ff007a88;color:#ff007a;border-radius:6px;
+             padding:.5rem 1.25rem;cursor:pointer;transition:all .2s"
+      onmouseover="this.style.background='rgba(255,0,122,.1)'"
+      onmouseout="this.style.background='transparent'">
+      → SIIRRY VALITSEMAAN
+    </button>
+  </div>
+</div>
+
 <!-- MODAL -->
 <div id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalName">
   <div id="modalBox">
@@ -1733,9 +1812,16 @@ function luoKortti(m) {
                 border:1px solid var(--party-color, #1a2a55);
                 opacity:.85;">`
     : "";
+  const vertaktiivinen = () => VERT_ED.some(v => v && v.nimi === m.nimi);
+  const vertKnap = m.nykyinen
+    ? `<button class="card-vert-btn ${vertaktiivinen() ? 'valittu' : ''}"
+         title="Lisää vertailuun"
+         onclick="event.stopPropagation();korttiVertailu('${m.nimi.replace(/'/g,"\\'")}')">⚔️</button>`
+    : "";
   card.innerHTML = `
     <div class="card-topbar"></div>
     <div class="card-body" style="position:relative">
+      ${vertKnap}
       ${kuvaHtml}
       <div class="card-party-tag">${m.puolue||"–"}</div>
       <div class="card-name" style="padding-right:${m.kuva?"54px":"0"}">${kaannaNimi(m.nimi)}</div>
@@ -3009,12 +3095,12 @@ document.getElementById("btnHallitus").addEventListener("click", () => {
 });
 
 function piilotaKaikki() {
-  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma"];
+  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma","vertaileNakyma"];
   ids.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.display = "none";
   });
-  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus"].forEach(id => {
+  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus","btnVertaile"].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove("active");
   });
@@ -4273,10 +4359,341 @@ function renderPodium(top3, elementId, hanta, kentta) {
   }).join('');
 }
 
-
 lataaHakemisto();
-// Esihae lobbausdata taustalla vasta 5s kuluttua
 setTimeout(() => lataaLobbausIndex(), 5000);
+</script>
+
+<!-- VERTAILUPALKKI (kiinteä alareuna) -->
+<div id="vertPalkki">
+  <div style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.15em;color:#ff007a;flex-shrink:0">⚔️ VERTAILU</div>
+  <div id="vertPalkkiEd1" style="display:flex;align-items:center;gap:.5rem;background:#0b1128;
+    border:1px solid #00d4ff44;border-radius:6px;padding:.4rem .75rem;flex:1;min-width:0">
+    <span style="font-size:.65rem;color:#3a5a77">Valitse edustaja 1...</span>
+  </div>
+  <div style="font-family:'Orbitron',monospace;font-size:.7rem;color:#3a5a77">VS</div>
+  <div id="vertPalkkiEd2" style="display:flex;align-items:center;gap:.5rem;background:#0b1128;
+    border:1px solid #ff007a44;border-radius:6px;padding:.4rem .75rem;flex:1;min-width:0">
+    <span style="font-size:.65rem;color:#3a5a77">Valitse edustaja 2...</span>
+  </div>
+  <button id="vertPalkkiBtn" onclick="avaaVertailuNakyma()"
+    style="display:none;font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.1em;
+           background:#ff007a;color:#fff;border:none;border-radius:6px;padding:.5rem 1rem;
+           cursor:pointer;white-space:nowrap;transition:opacity .15s"
+    onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">
+    VERTAILE →
+  </button>
+  <button onclick="nollaaVertailu()"
+    style="font-family:'Orbitron',monospace;font-size:.58rem;color:#3a5a77;background:none;
+           border:1px solid #1a2a55;border-radius:4px;padding:.4rem .6rem;cursor:pointer;
+           white-space:nowrap;flex-shrink:0">✕ NOLLAA</button>
+</div>
+
+<script>
+/* ================================================================
+   VERTAILE-NÄKYMÄ — kahden edustajan head-to-head
+   ================================================================ */
+let VERT_ED = [null, null];
+const VERT_CYAN = '#00d4ff';
+const VERT_PINK = '#ff007a';
+
+document.getElementById('btnVertaile').addEventListener('click', avaaVertailuNakyma);
+
+function korttiVertailu(nimi) {
+  const m = KAIKKI.find(x => x.nimi === nimi);
+  if (!m) return;
+  const idx = VERT_ED.findIndex(v => v && v.nimi === nimi);
+  if (idx !== -1) {
+    VERT_ED[idx] = null;
+    paivitaVertPalkki();
+    renderSivu(nykyinenSivu);
+    return;
+  }
+  if      (!VERT_ED[0]) { VERT_ED[0] = m; }
+  else if (!VERT_ED[1]) { VERT_ED[1] = m; }
+  else { return; }
+  paivitaVertPalkki();
+  renderSivu(nykyinenSivu);
+  if (VERT_ED[0] && VERT_ED[1]) setTimeout(avaaVertailuNakyma, 300);
+}
+
+function paivitaVertPalkki() {
+  const palkki = document.getElementById('vertPalkki');
+  const ed1el  = document.getElementById('vertPalkkiEd1');
+  const ed2el  = document.getElementById('vertPalkkiEd2');
+  const btn    = document.getElementById('vertPalkkiBtn');
+  if (!palkki) return;
+  const [m1, m2] = VERT_ED;
+  palkki.classList.toggle('auki', !!(m1 || m2));
+  ed1el.innerHTML = m1
+    ? `<img src="${kuvaUrl(m1.kuva,40)}" style="width:22px;height:28px;object-fit:cover;object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+       <div style="min-width:0">
+         <div style="font-size:.7rem;color:#00d4ff;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m1.nimi)}</div>
+         <div style="font-size:.58rem;color:#3a5a77">${m1.puolue||''}</div>
+       </div>
+       <button onclick="VERT_ED[0]=null;paivitaVertPalkki();renderSivu(nykyinenSivu)"
+         style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.7rem;flex-shrink:0">✕</button>`
+    : `<span style="font-size:.62rem;color:#2a4a67">Valitse edustaja 1...</span>`;
+  ed2el.innerHTML = m2
+    ? `<img src="${kuvaUrl(m2.kuva,40)}" style="width:22px;height:28px;object-fit:cover;object-position:top;border-radius:2px;flex-shrink:0" onerror="this.style.display='none'">
+       <div style="min-width:0">
+         <div style="font-size:.7rem;color:#ff007a;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${kaannaNimi(m2.nimi)}</div>
+         <div style="font-size:.58rem;color:#3a5a77">${m2.puolue||''}</div>
+       </div>
+       <button onclick="VERT_ED[1]=null;paivitaVertPalkki();renderSivu(nykyinenSivu)"
+         style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;font-size:.7rem;flex-shrink:0">✕</button>`
+    : `<span style="font-size:.62rem;color:#2a4a67">Valitse edustaja 2...</span>`;
+  btn.style.display = (m1 && m2) ? 'block' : 'none';
+}
+
+function nollaaVertailu() {
+  VERT_ED = [null, null];
+  paivitaVertPalkki();
+  renderSivu(nykyinenSivu);
+}
+
+function avaaVertailuNakyma() {
+  piilotaKaikki();
+  tallennaNakyma('vertaile');
+  document.getElementById('vertaileNakyma').style.display = 'block';
+  document.getElementById('btnVertaile').classList.add('active');
+  renderVertaileNakyma();
+}
+
+function naytaEdustajatJaVertailu() {
+  piilotaKaikki();
+  document.getElementById('grid').style.display = '';
+  document.getElementById('pagination').style.display = '';
+  document.getElementById('tulosrivi').style.display = '';
+  aikasuodatin = 'nykyiset';
+  paivitaSuodatus();
+  tallennaNakyma('nykyiset');
+  document.getElementById('btnNykyiset').classList.add('active');
+}
+
+function renderVertaileNakyma() {
+  const [m1, m2] = VERT_ED;
+  const ohje  = document.getElementById('vertOhje');
+  const tulos = document.getElementById('vertTulos');
+
+  // Korttialueet
+  for (const n of [1,2]) {
+    const m  = VERT_ED[n-1];
+    const el = document.getElementById('vertKortti' + n);
+    if (!m) { el.innerHTML = ''; continue; }
+    const vari = n === 1 ? VERT_CYAN : VERT_PINK;
+    el.innerHTML = `
+      <div style="display:flex;align-items:center;gap:.75rem;background:#0b1128;
+                  border:1px solid ${vari}44;border-radius:8px;padding:.75rem 1rem">
+        <img src="${kuvaUrl(m.kuva,80)}" onerror="this.style.display='none'"
+          style="width:48px;height:60px;object-fit:cover;object-position:top;
+                 border-radius:4px;border:2px solid ${vari}66;flex-shrink:0">
+        <div>
+          <div style="font-family:'Orbitron',monospace;font-size:.78rem;font-weight:700;
+                      color:${vari};margin-bottom:.2rem">${kaannaNimi(m.nimi)}</div>
+          <div style="font-size:.72rem;color:#5a7a99">${m.puolue||''}${m.vaalipiiri?' · '+m.vaalipiiri:''}</div>
+        </div>
+        <button onclick="VERT_ED[${n-1}]=null;paivitaVertPalkki();renderVertaileNakyma()"
+          style="margin-left:auto;background:none;border:none;color:#3a5a77;cursor:pointer;
+                 font-size:.75rem;flex-shrink:0;align-self:flex-start">✕</button>
+      </div>`;
+  }
+
+  if (!m1 || !m2) {
+    ohje.style.display  = 'block';
+    tulos.style.display = 'none';
+    return;
+  }
+  ohje.style.display  = 'none';
+  tulos.style.display = 'block';
+  tulos.innerHTML = '<div style="color:#3a5a77;font-size:.8rem;padding:1rem 0">Ladataan dataa...</div>';
+
+  Promise.all([haeVertData(m1), haeVertData(m2)])
+    .then(([d1, d2]) => renderVertTulos(m1, m2, d1, d2));
+}
+
+async function haeVertData(m) {
+  const slug = asciiSlug(m.nimi);
+  let aanData = AANESTYS_CACHE[slug] || null;
+  if (!aanData) {
+    try {
+      const res = await fetch(`aanestykset_json/${slug}.json`);
+      if (res.ok) { aanData = await res.json(); AANESTYS_CACHE[slug] = aanData; }
+    } catch(_) {}
+  }
+  const poissData = await lataaPoissaolot();
+  const poissMap  = (poissData && poissData.data) ? poissData.data : {};
+  const poiss     = poissMap[m.nimi] || null;
+  const lobbIdx   = await lataaLobbausIndex();
+  const lobbYht   = lobbIdx && lobbIdx.kansanedustajat ? (lobbIdx.kansanedustajat[m.nimi]||{}).yhteensa||0 : 0;
+  return { aanData, poiss, lobbYht };
+}
+
+function renderVertTulos(m1, m2, d1, d2) {
+  const tulos = document.getElementById('vertTulos');
+  if (!tulos) return;
+  const pv1 = puolueVari(m1.puolue), pv2 = puolueVari(m2.puolue);
+
+  function aanPct(d) {
+    if (!d.aanData || !d.aanData.aanestykset) return null;
+    const fi = d.aanData.aanestykset.filter(a => !onRuotsinkielinen(a.otsikko));
+    const n  = fi.length || 1;
+    const poissa = fi.filter(a => normalisioiAani(a.aani) === 'Poissa').length;
+    return Math.round(((n - poissa) / n) * 100);
+  }
+
+  function aanJakauma(d) {
+    if (!d.aanData || !d.aanData.aanestykset) return { jaa:0, ei:0, poissa:0, n:0 };
+    const fi = d.aanData.aanestykset.filter(a => !onRuotsinkielinen(a.otsikko));
+    const n  = fi.length || 1;
+    return {
+      jaa:    fi.filter(a => normalisioiAani(a.aani) === 'Jaa').length,
+      ei:     fi.filter(a => normalisioiAani(a.aani) === 'Ei').length,
+      poissa: fi.filter(a => normalisioiAani(a.aani) === 'Poissa').length,
+      n
+    };
+  }
+
+  const pct1 = aanPct(d1), pct2 = aanPct(d2);
+  const jak1 = aanJakauma(d1), jak2 = aanJakauma(d2);
+  const poiss1 = d1.poiss ? d1.poiss.yht : null;
+  const poiss2 = d2.poiss ? d2.poiss.yht : null;
+  const vp1 = m1.vaalikaudet||1, vp2 = m2.vaalikaudet||1;
+  const akt1 = AKT_DATA ? AKT_DATA.find(x => x.m.nimi === m1.nimi) : null;
+  const akt2 = AKT_DATA ? AKT_DATA.find(x => x.m.nimi === m2.nimi) : null;
+
+  tulos.innerHTML = `
+    <div style="display:flex;flex-direction:column;gap:1.25rem">
+      ${vertRivi('PUOLUE',      m1.puolue||'–', m2.puolue||'–', pv1, pv2, 'teksti')}
+      ${vertRivi('VAALIPIIRI',  m1.vaalipiiri||'–', m2.vaalipiiri||'–', VERT_CYAN, VERT_PINK, 'teksti')}
+      ${vertRivi('VAALIKAUDET', vp1, vp2, VERT_CYAN, VERT_PINK, 'numero', 8)}
+
+      <div style="border-top:1px solid #1a2a55;padding-top:.75rem;
+                  font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.2em;color:#3a5a77">
+        ÄÄNESTYSOSALLISTUMINEN
+      </div>
+      ${pct1 !== null && pct2 !== null
+        ? vertRivi('OSALLISTUMINEN %', pct1+'%', pct2+'%', VERT_CYAN, VERT_PINK, 'palkki', 100, pct1, pct2)
+        : '<div style="color:#3a5a77;font-size:.78rem">Äänestysdata ei saatavilla</div>'}
+      ${vertJakaumaPalkki(jak1, jak2)}
+
+      <div style="border-top:1px solid #1a2a55;padding-top:.75rem;
+                  font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.2em;color:#3a5a77">
+        POISSAOLOT & AKTIIVISUUS
+      </div>
+      ${poiss1 !== null && poiss2 !== null
+        ? vertRivi('POISSAOLOJA YHT.', poiss1, poiss2, VERT_CYAN, VERT_PINK, 'palkki-inv',
+            Math.max(poiss1, poiss2, 1), poiss1, poiss2)
+        : '<div style="color:#3a5a77;font-size:.78rem">Poissaolotilasto ei saatavilla</div>'}
+      ${akt1 && akt2
+        ? vertRivi('AKTIIVISUUSPISTEET', akt1.yht+'p', akt2.yht+'p', VERT_CYAN, VERT_PINK, 'palkki', 100, akt1.yht, akt2.yht)
+        : '<div style="color:#3a5a77;font-size:.78rem;padding:.5rem 0">Aktiivisuuspisteet lasketaan kun avaat Aktiivisuustaulu-näkymän.</div>'}
+
+      <div style="border-top:1px solid #1a2a55;padding-top:.75rem;
+                  font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.2em;color:#3a5a77">
+        LOBBAUS
+      </div>
+      ${vertRivi('AVOIMUUSREKISTERI', d1.lobbYht||0, d2.lobbYht||0, VERT_CYAN, VERT_PINK, 'palkki',
+          Math.max(d1.lobbYht||0, d2.lobbYht||0, 1), d1.lobbYht||0, d2.lobbYht||0)}
+
+      ${renderVertVoittaja(m1, m2, pct1, pct2, poiss1, poiss2, akt1, akt2, d1, d2)}
+    </div>`;
+}
+
+function vertRivi(otsikko, v1, v2, c1, c2, tyyppi, max, n1, n2) {
+  const isNum = tyyppi !== 'teksti';
+  const voittaja = isNum && n1 !== null && n2 !== null
+    ? (tyyppi === 'palkki-inv'
+        ? (n1 < n2 ? 1 : n1 > n2 ? 2 : 0)
+        : (n1 > n2 ? 1 : n1 < n2 ? 2 : 0))
+    : 0;
+  const w1 = (isNum && max) ? Math.round((n1/max)*100) : 0;
+  const w2 = (isNum && max) ? Math.round((n2/max)*100) : 0;
+
+  return `
+    <div>
+      <div style="font-family:'Orbitron',monospace;font-size:.55rem;letter-spacing:.15em;
+                  color:#3a5a77;margin-bottom:.4rem">${otsikko}</div>
+      <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:.75rem;align-items:center">
+        <div style="text-align:right">
+          ${tyyppi==='teksti'
+            ? `<span style="font-size:.88rem;font-weight:600;color:${voittaja===1?'#e8f4ff':'#5a7a99'}">${v1}</span>`
+            : `<div style="display:flex;align-items:center;justify-content:flex-end;gap:.5rem">
+                <span style="font-family:'Orbitron',monospace;font-size:.82rem;font-weight:700;
+                  color:${voittaja===1?VERT_CYAN:'#4a6a88'}">${v1}</span>
+                <div style="width:${Math.max(w1,2)}%;max-width:120px;height:8px;background:${VERT_CYAN};
+                  border-radius:4px 0 0 4px;opacity:${voittaja===1?1:.45};min-width:2px"></div>
+              </div>`}
+        </div>
+        <div style="font-family:'Orbitron',monospace;font-size:.55rem;color:#1a2a55;
+                    white-space:nowrap;text-align:center">VS</div>
+        <div>
+          ${tyyppi==='teksti'
+            ? `<span style="font-size:.88rem;font-weight:600;color:${voittaja===2?'#e8f4ff':'#5a7a99'}">${v2}</span>`
+            : `<div style="display:flex;align-items:center;gap:.5rem">
+                <div style="width:${Math.max(w2,2)}%;max-width:120px;height:8px;background:${VERT_PINK};
+                  border-radius:0 4px 4px 0;opacity:${voittaja===2?1:.45};min-width:2px"></div>
+                <span style="font-family:'Orbitron',monospace;font-size:.82rem;font-weight:700;
+                  color:${voittaja===2?VERT_PINK:'#884a6a'}">${v2}</span>
+              </div>`}
+        </div>
+      </div>
+    </div>`;
+}
+
+function vertJakaumaPalkki(j1, j2) {
+  function palkki(j) {
+    if (!j.n) return '<span style="color:#3a5a77;font-size:.75rem">–</span>';
+    const jp = Math.round(j.jaa/j.n*100), ep = Math.round(j.ei/j.n*100), pp = Math.round(j.poissa/j.n*100);
+    return `
+      <div>
+        <div style="display:flex;gap:2px;border-radius:3px;overflow:hidden;height:10px;margin-bottom:.3rem">
+          <div style="flex:${jp};background:#27ae60;min-width:${j.jaa?2:0}px"></div>
+          <div style="flex:${ep};background:#e74c3c;min-width:${j.ei?2:0}px"></div>
+          <div style="flex:${pp};background:#3a4a5a;min-width:${j.poissa?2:0}px"></div>
+        </div>
+        <div style="font-size:.62rem;color:#4a5a7a;display:flex;gap:.6rem;flex-wrap:wrap">
+          <span style="color:#27ae60">▲${jp}%</span>
+          <span style="color:#e74c3c">▼${ep}%</span>
+          <span>–${pp}%</span>
+        </div>
+      </div>`;
+  }
+  return `
+    <div>
+      <div style="font-family:'Orbitron',monospace;font-size:.55rem;letter-spacing:.15em;
+                  color:#3a5a77;margin-bottom:.4rem">ÄÄNESTYSJAKAUMA</div>
+      <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:.75rem;align-items:center">
+        <div style="text-align:right">${palkki(j1)}</div>
+        <div style="font-family:'Orbitron',monospace;font-size:.55rem;color:#1a2a55">VS</div>
+        <div>${palkki(j2)}</div>
+      </div>
+    </div>`;
+}
+
+function renderVertVoittaja(m1, m2, pct1, pct2, poiss1, poiss2, akt1, akt2, d1, d2) {
+  let p1 = 0, p2 = 0;
+  if (pct1 !== null && pct2 !== null) { if (pct1>pct2) p1++; else if (pct2>pct1) p2++; }
+  if (poiss1 !== null && poiss2 !== null) { if (poiss1<poiss2) p1++; else if (poiss2<poiss1) p2++; }
+  if (akt1 && akt2) { if (akt1.yht>akt2.yht) p1++; else if (akt2.yht>akt1.yht) p2++; }
+  if ((d1.lobbYht||0)>(d2.lobbYht||0)) p1++; else if ((d2.lobbYht||0)>(d1.lobbYht||0)) p2++;
+  if ((m1.vaalikaudet||1)>(m2.vaalikaudet||1)) p1++; else if ((m2.vaalikaudet||1)>(m1.vaalikaudet||1)) p2++;
+  if (p1===0 && p2===0) return '';
+  const voittaja = p1>p2 ? m1 : p2>p1 ? m2 : null;
+  const vPisteet = p1>p2 ? p1 : p2, hPisteet = p1>p2 ? p2 : p1;
+  const vVari    = p1>p2 ? VERT_CYAN : VERT_PINK;
+  return `
+    <div style="margin-top:.5rem;border:1px solid ${vVari}55;border-radius:8px;
+                background:${vVari}08;padding:1rem;text-align:center">
+      <div style="font-family:'Orbitron',monospace;font-size:.58rem;letter-spacing:.2em;
+                  color:#3a5a77;margin-bottom:.5rem">KOKONAISVERTAILU</div>
+      ${voittaja
+        ? `<div style="font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;
+                       color:${vVari};margin-bottom:.25rem">🏆 ${kaannaNimi(voittaja.nimi)}</div>
+           <div style="font-size:.75rem;color:#5a7a99">${vPisteet}–${hPisteet} mitattua kategoriaa</div>`
+        : `<div style="font-family:'Orbitron',monospace;font-size:.9rem;color:#e8f4ff">🤝 TASAPELI</div>
+           <div style="font-size:.75rem;color:#5a7a99">${p1}–${p2}</div>`}
+    </div>`;
+}
 </script>
 </body>
 </html>
