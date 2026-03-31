@@ -1448,7 +1448,7 @@
     <button id="drawerClose" onclick="suljeDraver()">ESC ✕</button>
   </div>
   <div id="drawerHakuPalkki">
-    <input id="drawerHakuInput" type="text" placeholder="Hae historiallista edustajaa…" autocomplete="off" spellcheck="false"/>
+    <input id="drawerHakuInput" type="text" placeholder="Hae kansanedustajaa…" autocomplete="off" spellcheck="false"/>
     <div id="drawerPuoluePainikkeet"></div>
     <div id="drawerHakuTulos"></div>
   </div>
@@ -3347,20 +3347,35 @@ function suljeDraver() {
 }
 
 /* ── Drawer-hakupalkki (Historialliset) ── */
+let drawerNakyma = ''; // 'nykyiset' | 'historialliset'
+
 function naytaDrawerHaku(nakyma) {
   const palkki = document.getElementById('drawerHakuPalkki');
-  if (nakyma !== 'historialliset') {
+  if (nakyma !== 'historialliset' && nakyma !== 'nykyiset') {
     palkki.classList.remove('vis');
+    drawerNakyma = '';
     return;
   }
+  drawerNakyma = nakyma;
   palkki.classList.add('vis');
-  // Rakenna puolue-painikkeet historiallisista
+
+  // Päivitä placeholder
+  const inp = document.getElementById('drawerHakuInput');
+  inp.placeholder = nakyma === 'nykyiset'
+    ? 'Hae nykyistä kansanedustajaa…'
+    : 'Hae historiallista edustajaa…';
+
+  // Rakenna puolue-painikkeet oikeasta joukosta
   const pp = document.getElementById('drawerPuoluePainikkeet');
-  if (!pp.dataset.rakennettu && KAIKKI) {
-    const hist = KAIKKI.filter(m => !m.nykyinen);
-    const puolueet = [...new Set(hist.map(m => m.puolue).filter(p => p && p !== '–'))].sort();
+  pp.dataset.rakennettu = ''; // pakotetaan uudelleenrakennus näkymän vaihtuessa
+  if (KAIKKI) {
+    const joukko = nakyma === 'nykyiset'
+      ? KAIKKI.filter(m => m.nykyinen)
+      : KAIKKI.filter(m => !m.nykyinen);
+    const puolueet = [...new Set(joukko.map(m => m.puolue).filter(p => p && p !== '–'))].sort();
+    const aktiivinen = drawerPuolue;
     pp.innerHTML = puolueet.map(p =>
-      `<button class="drawer-puolue-btn" data-puolue="${p}" onclick="toggleDrawerPuolue('${p}')">${p}</button>`
+      `<button class="drawer-puolue-btn${p === aktiivinen ? ' active' : ''}" data-puolue="${p}" onclick="toggleDrawerPuolue('${p}')">${p}</button>`
     ).join('');
     pp.dataset.rakennettu = '1';
   }
@@ -3381,9 +3396,10 @@ function toggleDrawerPuolue(p) {
 
 function paivitaDrawerTulos() {
   if (!KAIKKI) return;
-  const q    = document.getElementById('drawerHakuInput').value.toLowerCase().trim();
-  const hist = KAIKKI.filter(m => {
-    if (m.nykyinen) return false;
+  const q = document.getElementById('drawerHakuInput').value.toLowerCase().trim();
+  const joukko = KAIKKI.filter(m => {
+    if (drawerNakyma === 'nykyiset'      && !m.nykyinen) return false;
+    if (drawerNakyma === 'historialliset' &&  m.nykyinen) return false;
     if (drawerPuolue && m.puolue !== drawerPuolue) return false;
     if (!q) return true;
     return (
@@ -3394,7 +3410,7 @@ function paivitaDrawerTulos() {
     );
   });
   const el = document.getElementById('drawerHakuTulos');
-  if (el) el.textContent = hist.length + ' edustajaa';
+  if (el) el.textContent = joukko.length + ' edustajaa';
 }
 
 // Haku-inputin kuuntelijat
