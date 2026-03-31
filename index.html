@@ -1750,6 +1750,7 @@ function naytaTulokset() {
   document.getElementById("tulosrivi").style.alignItems = "center";
   document.getElementById("pagination").style.display = "flex";
   document.getElementById("voimasuhteetAlipainike").style.display = aikasuodatin === "nykyiset" ? "flex" : "none";
+  scrollSisaltoon();
 }
 
 function naytaSplash() {
@@ -2839,6 +2840,7 @@ async function naytaLobbausNakyma() {
   tallennaNakyma('lobbaus');
   nakyma.style.display = "block";
   document.getElementById("btnLobbaus").classList.add("active");
+  scrollSisaltoon();
 
   const yht = await lataaLobbausYhteenveto();
   if (!yht) {
@@ -3061,6 +3063,7 @@ async function naytaHallitusNakyma() {
   document.getElementById("voimasuhteetAlipainike").style.display = "none";
   nakyma.style.display = "block";
   document.getElementById("btnHallitus").classList.add("active");
+  scrollSisaltoon();
 
   // Hae lobbaustiedot
   const idx = await lataaLobbausIndex();
@@ -3132,6 +3135,16 @@ function piilotaKaikki() {
     const el = document.getElementById(id);
     if (el) el.classList.remove("active");
   });
+}
+
+/* ================================================================
+   SCROLL — Vie katselu headerin alle sisältöön
+   ================================================================ */
+function scrollSisaltoon() {
+  const header = document.querySelector('header');
+  if (!header) return;
+  const y = header.getBoundingClientRect().bottom + window.scrollY;
+  window.scrollTo({ top: y, behavior: 'smooth' });
 }
 
 /* ================================================================
@@ -3606,6 +3619,7 @@ function naytaSignaaliNakyma() {
   document.getElementById("btnSignaali").classList.add("active");
   rakennaSIgnaaliPainikkeet();
   lataaPoliitikkoMaininnat();
+  scrollSisaltoon();
 }
 
 document.getElementById("btnSignaali").addEventListener("click", () => {
@@ -3638,6 +3652,7 @@ function naytaVoimasuhteetNakyma() {
   const nakyma = document.getElementById("voimasuhteetNakyma");
   nakyma.style.display = "block";
   renderVoimasuhteet();
+  scrollSisaltoon();
 }
 
 function renderVoimasuhteet() {
@@ -3918,6 +3933,7 @@ function naytaIkarakenneNakyma() {
   const nakyma = document.getElementById("ikarakenneNakyma");
   nakyma.style.display = "block";
   renderIkarakenne();
+  scrollSisaltoon();
 }
 
 function renderIkarakenne() {
@@ -4071,6 +4087,7 @@ function naytaKokemusNakyma() {
   tallennaNakyma('kokemus');
   document.getElementById("kokemusNakyma").style.display = "block";
   renderKokemus();
+  scrollSisaltoon();
 }
 
 function renderKokemus() {
@@ -4308,6 +4325,7 @@ async function naytaAktiivisuusNakyma() {
   const nakyma = document.getElementById('aktiivisuusNakyma');
   nakyma.style.display = 'block';
   document.getElementById('btnAktiivisuus').classList.add('active');
+  scrollSisaltoon();
 
   if (AKT_DATA) { renderAktiivisuus(); return; }
 
@@ -4999,6 +5017,7 @@ function avaaVertailuNakyma() {
   document.getElementById('vertaileNakyma').style.display = 'block';
   document.getElementById('btnVertaile').classList.add('active');
   renderVertaileNakyma();
+  scrollSisaltoon();
 }
 
 function naytaEdustajatJaVertailu() {
