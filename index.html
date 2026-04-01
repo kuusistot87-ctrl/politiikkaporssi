@@ -5176,6 +5176,20 @@ async function lataaVaalikone(m, vari) {
 
 lataaHakemisto();
 setTimeout(() => lataaLobbausIndex(), 5000);
+
+// Siirrä kaikki modaalit suoraan body:n alle — ei stacking context -ongelmia
+(function() {
+  const ids = [
+    'submodalOverlay','modalOverlay','lobbausKorttiOverlay',
+    'uutisetKorttiOverlay','rssListaOverlay','aktiivisuusNakyma'
+  ];
+  ids.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && el.parentNode !== document.body) {
+      document.body.appendChild(el);
+    }
+  });
+})();
 </script>
 
 <!-- VERTAILUPALKKI (kiinteä alareuna) -->
