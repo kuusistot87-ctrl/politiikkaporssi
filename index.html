@@ -47,6 +47,7 @@
     /* Modal auki — poista raskas taustakuvio */
     body.modal-open::before { display: none; }
     /* body.modal-open ei estä scrollia — drawer scrollaa itse */
+    body.ttl-open { overflow: hidden; }
 
     /* ── Taustakuvio ── */
     body::before {
@@ -262,7 +263,6 @@
       padding: .85rem 1.25rem;
       border-bottom: 1px solid var(--border);
       background: rgba(8,13,31,.8);
-      flex-shrink: 0;
     }
     #drawerHakuPalkki.vis { display: flex; }
     #drawerHakuInput {
@@ -336,8 +336,9 @@
       background: var(--bg-panel);
       border-left: 1px solid var(--border);
       z-index: 201;
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-rows: auto auto auto 1fr;
+      overflow: hidden;
       transform: translateX(100%);
       transition: transform .35s cubic-bezier(.22,1,.36,1);
       box-shadow: -12px 0 60px rgba(0,0,0,.7);
@@ -377,23 +378,12 @@
     }
     #drawerClose:hover { border-color: #ff007a; color: #ff007a; }
     #drawerContent {
-      flex: 1;
       overflow-y: auto;
       overflow-x: hidden;
       -webkit-overflow-scrolling: touch;
       overscroll-behavior: contain;
       touch-action: pan-y;
-      /* Pakota kaikki piilossa olevat lapset olemaan 0-korkuisia */
-    }
-    #drawerContent > div[style*="display:none"],
-    #drawerContent > div[style*="display: none"],
-    #drawerContent > main[style*="display:none"],
-    #drawerContent > main[style*="display: none"] {
-      position: absolute;
-      visibility: hidden;
-      height: 0;
-      overflow: hidden;
-      pointer-events: none;
+      min-height: 0;
     }
     @media (max-width: 600px) {
       #drawer { width: 100vw; }
@@ -2115,7 +2105,7 @@ function openTTLProfile(m) {
   overlay.style.setProperty("--modal-party-color", vari);
   document.documentElement.style.setProperty("--modal-party-color", vari);
   overlay.classList.add("open");
-  document.body.style.overflow = "hidden";
+  document.body.classList.add("ttl-open");
   // Renderöi sisältö seuraavassa frame:ssa — ei blokoi animaatiota
   requestAnimationFrame(() => {
     requestAnimationFrame(() => renderModalSkeleton(m, vari));
@@ -2931,7 +2921,7 @@ async function renderLobbausKortti(m, el) {
 
 function closeTTLProfile() {
   document.getElementById("modalOverlay").classList.remove("open");
-  document.body.style.overflow = "";
+  document.body.classList.remove("ttl-open");
   document.body.classList.remove("modal-open");
   // Nollaa ladattu-flagit jotta uudelleenavauksessa data latautuu
   document.querySelectorAll("[data-ladattu]").forEach(el => delete el.dataset.ladattu);
@@ -3337,7 +3327,7 @@ function avaaDraver(nakyma) {
   overlay.classList.add('open');
   drawer.classList.add('open');
   document.body.classList.add('modal-open');
-  document.body.style.overflow = ''; // drawer scrollaa itse, ei body
+  document.body.classList.remove('ttl-open'); // varmista ettei ttl-modaali lukitse scrollia
   // Scrollaa drawerin sisältö alkuun
   const dc = document.getElementById('drawerContent');
   if (dc) dc.scrollTop = 0;
@@ -3513,7 +3503,7 @@ function luoUutisEl(item, lahde, pol, tyyli) {
           ev.preventDefault(); ev.stopPropagation();
           suljeRssLista(); suljeUutisetKortti(); suljeLobbausKortti();
           document.getElementById('modalOverlay').classList.remove('open');
-          document.body.style.overflow = '';
+          document.body.classList.remove('ttl-open');
           window.scrollTo({top: 0, behavior: 'auto'});
           setPuolue(puolue);
           const dd = document.getElementById('puolueDropdown');
@@ -3834,7 +3824,7 @@ function avaaRssRyhma(ryhma, btn) {
   const vari     = RYHMA_VARIT[ryhma] || "#ff4d6d";
   topbar.style.background = vari;
   overlay.classList.add("open");
-  document.body.style.overflow = "hidden";
+  document.body.classList.add("ttl-open");
 
   const lahteet = RSS_LAHTEET.filter(l => l.ryhma === ryhma);
   sisalto.innerHTML =
@@ -3914,7 +3904,7 @@ async function renderRssRyhmaItems(lahteet, vari) {
 
 function suljeRssLista() {
   document.getElementById("rssListaOverlay").classList.remove("open");
-  document.body.style.overflow = "";
+  document.body.classList.remove("ttl-open");
 }
 
 document.getElementById("rssListaOverlay").addEventListener("click", e => {
