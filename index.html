@@ -2446,18 +2446,27 @@ document.getElementById("submodalOverlay").addEventListener("click", e => {
   if (e.target.id === "submodalOverlay") suljeSubmodal();
 });
 
-// ESC sulkee modaalit oikeassa järjestyksessä: submodal → lobbaus → rssLista → päämodaali → splash
+// ESC-hierarkia: sulkee aina vain ylimmän auki olevan ikkunan
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape") return;
   const sub     = document.getElementById("submodalOverlay");
   const lobbaus = document.getElementById("lobbausKorttiOverlay");
   const rss     = document.getElementById("rssListaOverlay");
+  const uutiset = document.getElementById("uutisetKorttiOverlay");
   const main    = document.getElementById("modalOverlay");
-  if (sub     && sub.classList.contains("open"))    { suljeSubmodal(); return; }
-  if (lobbaus && lobbaus.classList.contains("open")) { suljeLobbausKortti(); return; }
-  if (rss     && rss.classList.contains("open"))    { suljeRssLista(); return; }
-  if (main    && main.classList.contains("open"))    { closeTTLProfile(); return; }
-  // ESC sulkee nykyisen näkymän → aina splashiin
+  const drawer  = document.getElementById("drawer");
+  const aktNak  = document.getElementById("aktiivisuusNakyma");
+
+  // Suljetaan aina vain ylin auki oleva taso
+  if (sub     && sub.classList.contains("open"))               { suljeSubmodal();        return; }
+  if (lobbaus && lobbaus.style.display !== "none" && lobbaus.style.display !== "") { suljeLobbausKortti(); return; }
+  if (rss     && rss.classList.contains("open"))               { suljeRssLista();         return; }
+  if (uutiset && uutiset.classList.contains("open"))           { suljeUutisetKortti();    return; }
+  if (main    && main.classList.contains("open"))              { closeTTLProfile();       return; }
+  // Drawer + aktiivisuusnäkymä → sulkee drawerin (ei splashiin)
+  if (drawer  && drawer.classList.contains("open"))            { suljeDraver();           return; }
+  if (aktNak  && aktNak.style.display !== "none")              { suljeDraver();           return; }
+  // Muuten splash
   naytaSplash();
 });
 
@@ -3474,10 +3483,7 @@ window.addEventListener('resize', () => {
   dc.style.maxHeight = contentH + 'px';
 });
 
-// ESC sulkee drawerin
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') suljeDraver();
-});
+// ESC-hierarkia hoidetaan yhteisessä kuuntelijassa yllä
 
 function piilotaKaikki() {
   const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma","vertaileNakyma"];
