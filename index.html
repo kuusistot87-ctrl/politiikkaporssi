@@ -416,9 +416,7 @@
       border-radius: 8px;
       width: min(620px, 96vw);
       max-height: 90vh;
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch;
-      overscroll-behavior: contain;
+      overflow: visible;
       box-shadow: 0 4px 24px rgba(0,0,0,.8);
     }
 
@@ -428,6 +426,10 @@
     }
 
     #modalContent {
+      overflow-y: auto;
+      max-height: calc(90vh - 4rem);
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
       padding: 2rem 2rem 2.5rem;
     }
 
