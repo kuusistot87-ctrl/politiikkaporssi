@@ -2017,7 +2017,7 @@ function luoKortti(m) {
       <span class="card-action-avaa">AVAA →</span>
       ${vertKnap}
     </div>`;
-  card.addEventListener("click", () => openTTLProfile(m));
+  card.addEventListener("click", (e) => { if (!e.target.closest('button,a,input')) openTTLProfile(m); });
   card.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" ") openTTLProfile(m); });
   return card;
 }
@@ -2232,7 +2232,8 @@ function renderModalSkeleton(m, vari) {
     btn.style.cssText = `--pnb-color:${tab.color};--pnb-shadow:${tab.shadow};--pnb-bg:${tab.bg}`;
     btn.innerHTML = `<span class="profnav-icon">${tab.icon}</span><span class="profnav-label">${tab.label}</span>`;
 
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
       // Merkitse aktiiviseksi
       grid.querySelectorAll(".profnav-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
@@ -4994,7 +4995,7 @@ function renderAktiivisuus() {
         <div style="font-size:.58rem;color:#3a5a77;letter-spacing:.06em">pistettä</div>
       </div>`;
 
-    rivi.addEventListener('click', () => openTTLProfile(d.m));
+    rivi.addEventListener('click', (e) => { if (!e.target.closest('button,a,input')) openTTLProfile(d.m); });
     listEl.appendChild(rivi);
   });
 
