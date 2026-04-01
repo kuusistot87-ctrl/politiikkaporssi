@@ -1436,6 +1436,11 @@
       <span class="nav-btn-label">Vertaile</span>
       <span class="nav-btn-sub">Kahden taistelu</span>
     </button>
+    <button class="nav-btn" id="btnOhjelmat">
+      <span class="nav-btn-icon">📜</span>
+      <span class="nav-btn-label">Ohjelmat</span>
+      <span class="nav-btn-sub">Vaaliohjelmat 2023</span>
+    </button>
   </div>
 </header>
 
@@ -1716,6 +1721,10 @@
 </div>
 
 <!-- VERTAILE-NÄKYMÄ -->
+<div id="ohjelmaNakyma" style="display:none;padding:1.5rem 2rem 3rem">
+  <!-- sisältö täytetään JS:llä -->
+</div>
+
 <div id="vertaileNakyma" style="display:none;padding:1.5rem 2rem 3rem">
   <div style="font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.2em;color:#ff007a;margin-bottom:.3rem">
     ⚔️ VERTAILE — KAHDEN EDUSTAJAN ANALYYSI
@@ -2990,6 +2999,7 @@ function paataEdelliseen() {
   if (edellinen === 'lobbaus')        { piilotaKaikki(); naytaLobbausNakyma(); return; }
   if (edellinen === 'signaali')       { piilotaKaikki(); naytaSignaaliNakyma(); return; }
   if (edellinen === 'aktiivisuus')    { piilotaKaikki(); naytaAktiivisuusNakyma(); return; }
+  if (edellinen === 'ohjelmat')        { piilotaKaikki(); naytaOhjelmatNakyma(); return; }
   if (edellinen === 'haku')           { naytaTulokset(); suodataJaRenderöi(); return; }
   naytaSplash();
 }
@@ -3325,6 +3335,7 @@ const DRAWER_VARIT = {
   kokemus:       '#fbbf24',
   aktiivisuus:   '#f472b6',
   vertaile:      '#ff007a',
+  ohjelmat:      '#f59e0b',
 };
 const DRAWER_NIMET = {
   nykyiset:      '🏛️  NYKYISET KANSANEDUSTAJAT',
@@ -3337,6 +3348,7 @@ const DRAWER_NIMET = {
   kokemus:       '🎖️  KOKEMUS',
   aktiivisuus:   '🏆  AKTIIVISUUS',
   vertaile:      '⚔️  HEAD-TO-HEAD',
+  ohjelmat:      '📜  VAALIOHJELMAT 2023',
 };
 
 function avaaDraver(nakyma) {
@@ -3495,12 +3507,12 @@ window.addEventListener('resize', () => {
 // ESC-hierarkia hoidetaan yhteisessä kuuntelijassa yllä
 
 function piilotaKaikki() {
-  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma","vertaileNakyma"];
+  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma","vertaileNakyma","ohjelmaNakyma"];
   ids.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.display = "none";
   });
-  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus","btnVertaile"].forEach(id => {
+  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus","btnVertaile","btnOhjelmat"].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove("active");
   });
@@ -5176,6 +5188,182 @@ async function lataaVaalikone(m, vari) {
 
   el.innerHTML = html;
 }
+
+/* ================================================================
+   OHJELMAT 2023 — Eduskuntapuolueiden vaali- ja periaateohjelmat
+   Lähde: Pohtiva / FSD Tampereen yliopisto
+   ================================================================ */
+const OHJELMAT_DATA = [
+  {
+    puolue: 'KOK', nimi: 'Kansallinen Kokoomus', vari: '#1565C0',
+    ohjelmat: [
+      { otsikko: 'Kokoomuksen eduskuntavaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/KOK/1473' },
+      { otsikko: 'Avoin tulevaisuuspuolue — periaateohjelma', vuosi: 2018, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/KOK/981' },
+    ]
+  },
+  {
+    puolue: 'PS', nimi: 'Perussuomalaiset', vari: '#29B6F6',
+    ohjelmat: [
+      { otsikko: 'Periaateohjelma', vuosi: 2018, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/PS/1302' },
+    ]
+  },
+  {
+    puolue: 'SDP', nimi: 'Suomen Sosialidemokraattinen Puolue', vari: '#E53935',
+    ohjelmat: [
+      { otsikko: 'Rohkeutta olla sinun puolellasi — vaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/SDP/1474' },
+      { otsikko: 'Periaatejulistus: Yhdessä kestävään maailmaan', vuosi: 2020, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/SDP/1388' },
+    ]
+  },
+  {
+    puolue: 'KESK', nimi: 'Suomen Keskusta', vari: '#43A047',
+    ohjelmat: [
+      { otsikko: 'Eteenpäin! Vastuuta koko Suomesta — vaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/KESK/1470' },
+      { otsikko: 'Tasapainossa, eteenpäin — Keskustan 101 periaatetta', vuosi: 2018, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/KESK/1189' },
+    ]
+  },
+  {
+    puolue: 'VIHR', nimi: 'Vihreä liitto', vari: '#7CB342',
+    ohjelmat: [
+      { otsikko: 'Suojele elämää — vaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/VIHR/1485' },
+      { otsikko: 'Vihreiden periaateohjelma 2020–2028', vuosi: 2020, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/VIHR/1387' },
+    ]
+  },
+  {
+    puolue: 'VAS', nimi: 'Vasemmistoliitto', vari: '#880E4F',
+    ohjelmat: [
+      { otsikko: 'Reilumpi huominen kaikille — vaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/VAS/1472' },
+      { otsikko: 'Vasemmistoliitto rakentaa reilua yhteiskuntaa — periaateohjelma', vuosi: 2022, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/VAS/1458' },
+    ]
+  },
+  {
+    puolue: 'RKP', nimi: 'Ruotsalainen kansanpuolue', vari: '#FFA726',
+    ohjelmat: [
+      { otsikko: 'Yhdessä eteenpäin — vaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/SFP/1481' },
+      { otsikko: 'Inhimillinen ja menestyksekäs Suomi — puolueohjelma', vuosi: 2016, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/SFP/926' },
+    ]
+  },
+  {
+    puolue: 'KD', nimi: 'Kristillisdemokraatit', vari: '#7B1FA2',
+    ohjelmat: [
+      { otsikko: 'Järjen ääni — vaaliohjelma 2023', vuosi: 2023, tyyppi: 'vaaliohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/KD/1471' },
+      { otsikko: 'Kristillisdemokraattien periaateohjelma', vuosi: 2017, tyyppi: 'periaateohjelma', url: 'https://www.fsd.tuni.fi/pohtiva/ohjelmalistat/KD/1185' },
+    ]
+  },
+];
+
+let OHJELMA_AKTIIVINEN = null; // aktiivinen puolue
+
+function naytaOhjelmatNakyma() {
+  piilotaKaikki();
+  tallennaNakyma('ohjelmat');
+  const nakyma = document.getElementById('ohjelmaNakyma');
+  nakyma.style.display = 'block';
+  document.getElementById('btnOhjelmat').classList.add('active');
+  renderOhjelmatNakyma();
+  avaaDraver('ohjelmat');
+}
+
+function renderOhjelmatNakyma() {
+  const nakyma = document.getElementById('ohjelmaNakyma');
+
+  const tyyppiVari = {
+    'vaaliohjelma':    { bg: 'rgba(245,158,11,.12)', border: '#f59e0b', teksti: '#f59e0b',  label: 'VAALIOHJELMA' },
+    'periaateohjelma': { bg: 'rgba(99,102,241,.12)', border: '#6366f1', teksti: '#818cf8',  label: 'PERIAATEOHJELMA' },
+    'yleisohjelma':    { bg: 'rgba(20,184,166,.12)', border: '#14b8a6', teksti: '#2dd4bf',   label: 'YLEISOHJELMA' },
+  };
+
+  nakyma.innerHTML = `
+    <div style="font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.2em;color:#f59e0b;margin-bottom:.3rem">
+      📜 VAALIOHJELMAT 2023
+    </div>
+    <div style="font-size:.78rem;color:#3a5a77;letter-spacing:.06em;margin-bottom:1.5rem">
+      Eduskuntapuolueiden vaali- ja periaateohjelmat · Lähde: <a href="https://www.fsd.tuni.fi/pohtiva/vaalit/6" target="_blank" style="color:#f59e0b;text-decoration:none">Pohtiva / FSD Tampereen yliopisto</a>
+    </div>
+
+    <!-- Puoluepainikkeet -->
+    <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.75rem">
+      ${OHJELMAT_DATA.map(p => `
+        <button onclick="toggleOhjelmaPuolue('${p.puolue}')"
+          id="ohjBtn_${p.puolue}"
+          style="background:${OHJELMA_AKTIIVINEN===p.puolue ? p.vari+'22' : 'transparent'};
+                 border:1px solid ${OHJELMA_AKTIIVINEN===p.puolue ? p.vari : '#1a2a55'};
+                 border-radius:4px;color:${OHJELMA_AKTIIVINEN===p.puolue ? p.vari : '#5a7a99'};
+                 font-family:'Rajdhani',sans-serif;font-size:.82rem;font-weight:600;
+                 letter-spacing:.1em;padding:.3rem .8rem;cursor:pointer;transition:all .15s">
+          ${p.puolue}
+        </button>`).join('')}
+    </div>
+
+    <!-- Ohjelmakortit -->
+    <div id="ohjelmaKortit" style="display:flex;flex-direction:column;gap:1rem">
+      ${renderOhjelmaKortit()}
+    </div>
+
+    <div style="margin-top:1.5rem;font-size:.62rem;color:#2a4a67;letter-spacing:.06em">
+      Lähde: Pohtiva — Poliittisten ohjelmien tietovaranto, FSD Tampereen yliopisto · fsd.tuni.fi/pohtiva
+    </div>`;
+}
+
+function renderOhjelmaKortit() {
+  const data = OHJELMA_AKTIIVINEN
+    ? OHJELMAT_DATA.filter(p => p.puolue === OHJELMA_AKTIIVINEN)
+    : OHJELMAT_DATA;
+
+  const tyyppiMerkki = {
+    'vaaliohjelma':    { bg: 'rgba(245,158,11,.12)', border: '#f59e0b88', teksti: '#f59e0b', label: 'VAALIOHJELMA' },
+    'periaateohjelma': { bg: 'rgba(99,102,241,.12)', border: '#6366f188', teksti: '#818cf8', label: 'PERIAATEOHJELMA' },
+    'yleisohjelma':    { bg: 'rgba(20,184,166,.12)', border: '#14b8a688', teksti: '#2dd4bf',  label: 'YLEISOHJELMA' },
+  };
+
+  return data.map(p => `
+    <div style="background:#0b1128;border:1px solid ${p.vari}44;border-radius:8px;overflow:hidden">
+      <!-- Puolueotsikko -->
+      <div style="display:flex;align-items:center;gap:.75rem;padding:.85rem 1.25rem;border-bottom:1px solid ${p.vari}33;background:${p.vari}0d">
+        <span style="font-family:'Orbitron',monospace;font-size:.8rem;font-weight:700;color:${p.vari};letter-spacing:.12em">${p.puolue}</span>
+        <span style="font-size:.82rem;color:#8899aa">${p.nimi}</span>
+      </div>
+      <!-- Ohjelmat -->
+      <div style="padding:.75rem 1.25rem;display:flex;flex-direction:column;gap:.6rem">
+        ${p.ohjelmat.map(o => {
+          const t = tyyppiMerkki[o.tyyppi] || tyyppiMerkki['yleisohjelma'];
+          return `
+          <a href="${o.url}" target="_blank" rel="noopener"
+            style="display:flex;align-items:center;gap:.75rem;padding:.6rem .85rem;
+                   background:${t.bg};border:1px solid ${t.border};border-radius:5px;
+                   text-decoration:none;transition:all .15s;cursor:pointer"
+            onmouseover="this.style.borderColor='${p.vari}'" 
+            onmouseout="this.style.borderColor='${t.border}'">
+            <div style="flex:1;min-width:0">
+              <div style="font-size:.82rem;color:#e8f4ff;line-height:1.4;margin-bottom:.2rem">${o.otsikko}</div>
+              <div style="display:flex;gap:.5rem;align-items:center">
+                <span style="font-family:'Orbitron',monospace;font-size:.58rem;color:#5a7a99">${o.vuosi}</span>
+                <span style="font-size:.58rem;letter-spacing:.1em;color:${t.teksti};background:${t.bg};
+                             border:1px solid ${t.border};border-radius:2px;padding:.1rem .4rem">${t.label}</span>
+              </div>
+            </div>
+            <span style="color:#5a7a99;font-size:.8rem;flex-shrink:0">↗</span>
+          </a>`;
+        }).join('')}
+      </div>
+    </div>`).join('');
+}
+
+function toggleOhjelmaPuolue(puolue) {
+  OHJELMA_AKTIIVINEN = (OHJELMA_AKTIIVINEN === puolue) ? null : puolue;
+  // Päivitä kortit
+  document.getElementById('ohjelmaKortit').innerHTML = renderOhjelmaKortit();
+  // Päivitä nappien tyylit
+  OHJELMAT_DATA.forEach(p => {
+    const btn = document.getElementById('ohjBtn_' + p.puolue);
+    if (!btn) return;
+    const aktv = OHJELMA_AKTIIVINEN === p.puolue;
+    btn.style.background = aktv ? p.vari + '22' : 'transparent';
+    btn.style.borderColor = aktv ? p.vari : '#1a2a55';
+    btn.style.color       = aktv ? p.vari : '#5a7a99';
+  });
+}
+
+document.getElementById('btnOhjelmat').addEventListener('click', naytaOhjelmatNakyma);
 
 lataaHakemisto();
 setTimeout(() => lataaLobbausIndex(), 5000);
