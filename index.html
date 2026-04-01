@@ -2447,19 +2447,30 @@ document.getElementById("submodalOverlay").addEventListener("click", e => {
 });
 
 // ESC-hierarkia: sulkee aina vain ylimmän auki olevan ikkunan
-document.addEventListener("keydown", e => {
+document.addEventListener("keydown", function(e) {
   if (e.key !== "Escape") return;
-  const isOpen = id => {
-    const el = document.getElementById(id);
-    return el && (el.classList.contains("open") || (el.style.display && el.style.display !== "none"));
-  };
-  if (isOpen("submodalOverlay"))      { suljeSubmodal();       return; }
-  if (isOpen("lobbausKorttiOverlay")) { suljeLobbausKortti();  return; }
-  if (isOpen("rssListaOverlay"))      { suljeRssLista();       return; }
-  if (isOpen("uutisetKorttiOverlay")) { suljeUutisetKortti();  return; }
-  if (isOpen("modalOverlay"))         { closeTTLProfile();     return; }
-  if (isOpen("drawer"))               { suljeDraver();         return; }
-  if (isOpen("aktiivisuusNakyma"))    { suljeDraver();         return; }
+  // Submodaali
+  var sub = document.getElementById("submodalOverlay");
+  if (sub && sub.classList.contains("open")) { suljeSubmodal(); return; }
+  // Lobbauskortti
+  var lob = document.getElementById("lobbausKorttiOverlay");
+  if (lob && lob.classList.contains("open")) { suljeLobbausKortti(); return; }
+  // RSS
+  var rss = document.getElementById("rssListaOverlay");
+  if (rss && rss.classList.contains("open")) { suljeRssLista(); return; }
+  // Uutisetkortti
+  var uut = document.getElementById("uutisetKorttiOverlay");
+  if (uut && uut.classList.contains("open")) { suljeUutisetKortti(); return; }
+  // Profiilimodaali
+  var mod = document.getElementById("modalOverlay");
+  if (mod && mod.classList.contains("open")) { closeTTLProfile(); return; }
+  // Drawer
+  var drw = document.getElementById("drawer");
+  if (drw && drw.classList.contains("open")) { suljeDraver(); return; }
+  // Aktiivisuusnäkymä
+  var akt = document.getElementById("aktiivisuusNakyma");
+  if (akt && akt.style.display === "flex") { suljeDraver(); return; }
+  // Muuten splash
   naytaSplash();
 });
 
