@@ -3329,47 +3329,10 @@ function avaaDraver(nakyma) {
   drawer.classList.add('open');
   document.body.classList.add('modal-open');
   document.body.classList.remove('ttl-open');
-  // Laske drawerContentin korkeus JS:llä — varmin tapa saada scroll toimimaan
-  requestAnimationFrame(() => {
-    const dc = document.getElementById('drawerContent');
-    const topbar = document.getElementById('drawerTopbar');
-    const hdr = document.getElementById('drawerHeader');
-    const haku = document.getElementById('drawerHakuPalkki');
-    if (dc && drawer) {
-      const drawerH = window.innerHeight;
-      const topbarH = topbar ? topbar.getBoundingClientRect().height : 4;
-      const hdrH    = hdr    ? hdr.getBoundingClientRect().height    : 57;
-      const hakuH   = (haku && haku.classList.contains('vis'))
-                      ? haku.getBoundingClientRect().height : 0;
-      const contentH = drawerH - topbarH - hdrH - hakuH;
-      dc.style.height = contentH + 'px';
-      dc.style.maxHeight = contentH + 'px';
-      dc.scrollTop = 0;
-    }
-  });
+  // Odota drawer-animaatio (350ms) ennen mittausta
+  setTimeout(() => paivitaDrawerContentKorkeus(), 380);
   // Näytä hakupalkki historialliset-näkymässä
   naytaDrawerHaku(nakyma);
-
-  // DEBUG — poistetaan kun scroll toimii
-  requestAnimationFrame(() => {
-    const dc2 = document.getElementById('drawerContent');
-    const d2  = document.getElementById('drawer');
-    if (!dc2 || !d2) return;
-    const r = dc2.getBoundingClientRect();
-    let dbg = document.getElementById('_scrollDebug');
-    if (!dbg) {
-      dbg = document.createElement('div');
-      dbg.id = '_scrollDebug';
-      dbg.style.cssText = 'position:fixed;bottom:4px;left:4px;z-index:99999;background:#000;color:#0f0;font:11px monospace;padding:4px 8px;border:1px solid #0f0;pointer-events:none';
-      document.body.appendChild(dbg);
-    }
-    dbg.innerHTML =
-      'dc.height: '       + r.height.toFixed(0) + 'px<br>' +
-      'dc.scrollHeight: ' + dc2.scrollHeight     + 'px<br>' +
-      'dc.style.height: ' + dc2.style.height      + '<br>' +
-      'overflow-y: '      + getComputedStyle(dc2).overflowY + '<br>' +
-      'scrollable: '      + (dc2.scrollHeight > r.height ? '✅ YES' : '❌ NO');
-  });
 }
 
 function suljeDraver() {
@@ -3467,23 +3430,38 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+function paivitaDrawerContentKorkeus() {
+  const drawer = document.getElementById('drawer');
+  const dc     = document.getElementById('drawerContent');
+  const topbar = document.getElementById('drawerTopbar');
+  const hdr    = document.getElementById('drawerHeader');
+  const haku   = document.getElementById('drawerHakuPalkki');
+  if (!dc || !drawer) return;
+  const drawerH = window.innerHeight;
+  const topbarH = topbar ? topbar.offsetHeight : 4;
+  const hdrH    = hdr    ? hdr.offsetHeight    : 57;
+  const hakuH   = (haku && haku.classList.contains('vis')) ? haku.offsetHeight : 0;
+  const contentH = drawerH - topbarH - hdrH - hakuH;
+  dc.style.height    = contentH + 'px';
+  dc.style.maxHeight = contentH + 'px';
+  dc.style.overflowY = 'auto';
+
+  // Debug päivitys
+  const dbg = document.getElementById('_scrollDebug');
+  if (dbg) {
+    dbg.innerHTML =
+      'dc.offsetHeight: ' + dc.offsetHeight + 'px<br>' +
+      'dc.scrollHeight: ' + dc.scrollHeight + 'px<br>' +
+      'dc.style.height: ' + dc.style.height + '<br>' +
+      'scrollable: ' + (dc.scrollHeight > dc.offsetHeight ? '✅ YES' : '❌ NO');
+  }
+}
+
 // Päivitä drawerContentin korkeus kun ikkuna muuttuu
 window.addEventListener('resize', () => {
   const drawer = document.getElementById('drawer');
   if (!drawer || !drawer.classList.contains('open')) return;
-  const dc      = document.getElementById('drawerContent');
-  const topbar  = document.getElementById('drawerTopbar');
-  const hdr     = document.getElementById('drawerHeader');
-  const haku    = document.getElementById('drawerHakuPalkki');
-  if (!dc) return;
-  const drawerH = window.innerHeight;
-  const topbarH = topbar ? topbar.getBoundingClientRect().height : 4;
-  const hdrH    = hdr    ? hdr.getBoundingClientRect().height    : 57;
-  const hakuH   = (haku && haku.classList.contains('vis'))
-                  ? haku.getBoundingClientRect().height : 0;
-  const contentH = drawerH - topbarH - hdrH - hakuH;
-  dc.style.height = contentH + 'px';
-  dc.style.maxHeight = contentH + 'px';
+  paivitaDrawerContentKorkeus();
 });
 
 // ESC sulkee drawerin
@@ -4789,6 +4767,8 @@ async function laskeAktiivisuusPisteet() {
 
   AKT_DATA.sort((a,b) => b.yht - a.yht);
   AKT_DATA.forEach((d,i) => { d.sija = i + 1; d.nayttoSija = i + 1; });
+  // Päivitä korkeus nyt kun data on ladattu
+  setTimeout(() => paivitaDrawerContentKorkeus(), 100);
 }
 
 async function laskeMediaMaininnatRSS() {
