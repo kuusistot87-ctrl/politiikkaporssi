@@ -3328,10 +3328,25 @@ function avaaDraver(nakyma) {
   overlay.classList.add('open');
   drawer.classList.add('open');
   document.body.classList.add('modal-open');
-  document.body.classList.remove('ttl-open'); // varmista ettei ttl-modaali lukitse scrollia
-  // Scrollaa drawerin sisältö alkuun
-  const dc = document.getElementById('drawerContent');
-  if (dc) dc.scrollTop = 0;
+  document.body.classList.remove('ttl-open');
+  // Laske drawerContentin korkeus JS:llä — varmin tapa saada scroll toimimaan
+  requestAnimationFrame(() => {
+    const dc = document.getElementById('drawerContent');
+    const topbar = document.getElementById('drawerTopbar');
+    const hdr = document.getElementById('drawerHeader');
+    const haku = document.getElementById('drawerHakuPalkki');
+    if (dc && drawer) {
+      const drawerH = window.innerHeight;
+      const topbarH = topbar ? topbar.getBoundingClientRect().height : 4;
+      const hdrH    = hdr    ? hdr.getBoundingClientRect().height    : 57;
+      const hakuH   = (haku && haku.classList.contains('vis'))
+                      ? haku.getBoundingClientRect().height : 0;
+      const contentH = drawerH - topbarH - hdrH - hakuH;
+      dc.style.height = contentH + 'px';
+      dc.style.maxHeight = contentH + 'px';
+      dc.scrollTop = 0;
+    }
+  });
   // Näytä hakupalkki historialliset-näkymässä
   naytaDrawerHaku(nakyma);
 }
@@ -3429,6 +3444,25 @@ document.addEventListener('DOMContentLoaded', () => {
       paivitaDrawerTulos();
     });
   }
+});
+
+// Päivitä drawerContentin korkeus kun ikkuna muuttuu
+window.addEventListener('resize', () => {
+  const drawer = document.getElementById('drawer');
+  if (!drawer || !drawer.classList.contains('open')) return;
+  const dc      = document.getElementById('drawerContent');
+  const topbar  = document.getElementById('drawerTopbar');
+  const hdr     = document.getElementById('drawerHeader');
+  const haku    = document.getElementById('drawerHakuPalkki');
+  if (!dc) return;
+  const drawerH = window.innerHeight;
+  const topbarH = topbar ? topbar.getBoundingClientRect().height : 4;
+  const hdrH    = hdr    ? hdr.getBoundingClientRect().height    : 57;
+  const hakuH   = (haku && haku.classList.contains('vis'))
+                  ? haku.getBoundingClientRect().height : 0;
+  const contentH = drawerH - topbarH - hdrH - hakuH;
+  dc.style.height = contentH + 'px';
+  dc.style.maxHeight = contentH + 'px';
 });
 
 // ESC sulkee drawerin
