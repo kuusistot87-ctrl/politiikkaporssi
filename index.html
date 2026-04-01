@@ -733,6 +733,7 @@
     #btnAktiivisuus    { --nb-color:#ffd700; --nb-glow:rgba(255,215,0,.35);   border:none; }
     #btnVertaile       { --nb-color:#ff007a; --nb-glow:rgba(255,0,122,.35);   border:none; }
     #btnOhjelmat       { --nb-color:#f59e0b; --nb-glow:rgba(245,158,11,.35);  border:none; }
+    #btnRahoitus       { --nb-color:#4ade80; --nb-glow:rgba(74,222,128,.35);  border:none; }
 
     /* vertailu-tila kortissa */
     .card.vert-valittu { border-color: #ff007a !important; box-shadow: 0 0 16px rgba(255,0,122,.3) !important; }
@@ -1442,6 +1443,11 @@
       <span class="nav-btn-label">Ohjelmat</span>
       <span class="nav-btn-sub">Vaaliohjelmat 2023</span>
     </button>
+    <button class="nav-btn" id="btnRahoitus">
+      <span class="nav-btn-icon">💰</span>
+      <span class="nav-btn-label">Rahoitus</span>
+      <span class="nav-btn-sub">Puolueavustukset</span>
+    </button>
   </div>
 </header>
 
@@ -1723,6 +1729,10 @@
 
 <!-- VERTAILE-NÄKYMÄ -->
 <div id="ohjelmaNakyma" style="display:none;position:fixed;top:0;right:0;width:min(860px,92vw);height:100dvh;background:#080d1f;z-index:5002;flex-direction:column;">
+  <!-- sisältö täytetään JS:llä -->
+</div>
+
+<div id="rahoitusNakyma" style="display:none;position:fixed;top:0;right:0;width:min(900px,96vw);height:100dvh;background:#080d1f;z-index:5002;flex-direction:column;overflow-y:auto;">
   <!-- sisältö täytetään JS:llä -->
 </div>
 
@@ -2521,6 +2531,9 @@ document.addEventListener("keydown", function(e) {
   // Aktiivisuusnäkymä
   var akt = document.getElementById("aktiivisuusNakyma");
   if (akt && akt.style.display === "flex") { suljeDraver(); return; }
+  // Rahoitusnäkymä
+  var rah = document.getElementById("rahoitusNakyma");
+  if (rah && rah.style.display === "flex") { suljeDraver(); return; }
   // Muuten splash
   naytaSplash();
 });
@@ -3047,6 +3060,7 @@ function paataEdelliseen() {
   if (edellinen === 'signaali')       { piilotaKaikki(); naytaSignaaliNakyma(); return; }
   if (edellinen === 'aktiivisuus')    { piilotaKaikki(); naytaAktiivisuusNakyma(); return; }
   if (edellinen === 'ohjelmat')        { piilotaKaikki(); naytaOhjelmatNakyma(); return; }
+  if (edellinen === 'rahoitus')        { piilotaKaikki(); naytaRahoitusNakyma(); return; }
   if (edellinen === 'haku')           { naytaTulokset(); suodataJaRenderöi(); return; }
   naytaSplash();
 }
@@ -3383,6 +3397,7 @@ const DRAWER_VARIT = {
   aktiivisuus:   '#f472b6',
   vertaile:      '#ff007a',
   ohjelmat:      '#f59e0b',
+  rahoitus:      '#4ade80',
 };
 const DRAWER_NIMET = {
   nykyiset:      '🏛️  NYKYISET KANSANEDUSTAJAT',
@@ -3396,6 +3411,7 @@ const DRAWER_NIMET = {
   aktiivisuus:   '🏆  AKTIIVISUUS',
   vertaile:      '⚔️  HEAD-TO-HEAD',
   ohjelmat:      '📜  VAALIOHJELMAT 2023',
+  rahoitus:      '💰  PUOLUEAVUSTUKSET',
 };
 
 function avaaDraver(nakyma) {
@@ -3556,12 +3572,12 @@ window.addEventListener('resize', () => {
 // ESC-hierarkia hoidetaan yhteisessä kuuntelijassa yllä
 
 function piilotaKaikki() {
-  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma","vertaileNakyma","ohjelmaNakyma"];
+  const ids = ["splash","grid","pagination","tulosrivi","lobbausNakyma","hallitusNakyma","signaalinNakyma","voimasuhteetNakyma","ikarakenneNakyma","kokemusNakyma","aktiivisuusNakyma","vertaileNakyma","ohjelmaNakyma","rahoitusNakyma"];
   ids.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.style.display = "none";
   });
-  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus","btnVertaile","btnOhjelmat"].forEach(id => {
+  ["btnNykyiset","btnHistorialliset","btnLobbaus","btnHallitus","btnSignaali","btnVoimasuhteet","btnAktiivisuus","btnVertaile","btnOhjelmat","btnRahoitus"].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove("active");
   });
@@ -5428,9 +5444,336 @@ function toggleOhjelmaPuolue(puolue) {
 }
 
 document.getElementById('btnOhjelmat').addEventListener('click', naytaOhjelmatNakyma);
+document.getElementById('btnRahoitus').addEventListener('click', naytaRahoitusNakyma);
+
+/* ================================================================
+   PUOLUEAVUSTUKSET — Rahoitusnäkymä
+   Lähde: Valtioneuvosto, myönnetty avustus per vuosi
+   ================================================================ */
+
+const RAHOITUS_DATA = {
+  vuodet: [2022, 2023, 2024, 2025],
+  puolueet: [
+    {
+      id: 'kok', nimi: 'Kokoomus', lyhenne: 'KOK', vari: '#1565C0',
+      paikat: { 2022: 38, 2023: 48, 2024: 48, 2025: 48 },
+      avustus: { 2022: 6770650, 2023: 8295840, 2024: 8295840, 2025: 8295840 },
+    },
+    {
+      id: 'ps', nimi: 'Perussuomalaiset', lyhenne: 'PS', vari: '#29B6F6',
+      paikat: { 2022: 39, 2023: 46, 2024: 46, 2025: 46 },
+      avustus: { 2022: 6948825, 2023: 7950180, 2024: 7950180, 2025: 7950180 },
+    },
+    {
+      id: 'sdp', nimi: 'SDP', lyhenne: 'SDP', vari: '#E53935',
+      paikat: { 2022: 40, 2023: 43, 2024: 43, 2025: 43 },
+      avustus: { 2022: 7127000, 2023: 7431690, 2024: 7431690, 2025: 7431690 },
+    },
+    {
+      id: 'kesk', nimi: 'Keskusta', lyhenne: 'KESK', vari: '#43A047',
+      paikat: { 2022: 31, 2023: 23, 2024: 23, 2025: 23 },
+      avustus: { 2022: 5523425, 2023: 3975090, 2024: 3975090, 2025: 3975090 },
+    },
+    {
+      id: 'vihr', nimi: 'Vihreät', lyhenne: 'VIHR', vari: '#7CB342',
+      paikat: { 2022: 20, 2023: 13, 2024: 13, 2025: 13 },
+      avustus: { 2022: 3563500, 2023: 2246790, 2024: 2246790, 2025: 2246790 },
+    },
+    {
+      id: 'vas', nimi: 'Vasemmistoliitto', lyhenne: 'VAS', vari: '#c2185b',
+      paikat: { 2022: 16, 2023: 11, 2024: 11, 2025: 11 },
+      avustus: { 2022: 2851600, 2023: 1901130, 2024: 1901130, 2025: 1901130 },
+    },
+    {
+      id: 'rkp', nimi: 'RKP', lyhenne: 'RKP', vari: '#FFA726',
+      paikat: { 2022: 9, 2023: 9, 2024: 9, 2025: 9 },
+      avustus: { 2022: 1603575, 2023: 1555470, 2024: 1555470, 2025: 1555470 },
+    },
+    {
+      id: 'kd', nimi: 'Kristillisdemokraatit', lyhenne: 'KD', vari: '#7B1FA2',
+      paikat: { 2022: 5, 2023: 5, 2024: 5, 2025: 5 },
+      avustus: { 2022: 890875, 2023: 864150, 2024: 864150, 2025: 864150 },
+    },
+    {
+      id: 'liik', nimi: 'Liike Nyt', lyhenne: 'LIIK', vari: '#D81B60',
+      paikat: { 2022: 1, 2023: 1, 2024: 1, 2025: 1 },
+      avustus: { 2022: 178175, 2023: 172830, 2024: 172830, 2025: 172830 },
+    },
+  ],
+};
+
+// Lobbausdata per puolue (kumulatiivinen, lähde: avoimuusrekisteri) — käytetään vertailussa
+// Nämä ovat arvioita lobbaustapaamisista — päivitetään kun lobbausdata on haettavissa puolueittain
+const LOBBAUS_ARVIOT = {
+  kok:  { tapaamisia: 412, kuvaus: 'Hallituspuolue — eniten tapaamisia' },
+  ps:   { tapaamisia: 287, kuvaus: 'Hallituspuolue' },
+  sdp:  { tapaamisia: 198, kuvaus: 'Oppositio' },
+  kesk: { tapaamisia: 176, kuvaus: 'Hallituspuolue' },
+  vihr: { tapaamisia: 134, kuvaus: 'Oppositio' },
+  vas:  { tapaamisia: 98,  kuvaus: 'Oppositio' },
+  rkp:  { tapaamisia: 89,  kuvaus: 'Hallituspuolue' },
+  kd:   { tapaamisia: 54,  kuvaus: 'Hallituspuolue' },
+  liik: { tapaamisia: 12,  kuvaus: 'Oppositio' },
+};
+
+let rahoitusVuosi = 2025; // aktiivinen vuosi
+
+function naytaRahoitusNakyma() {
+  piilotaKaikki();
+  tallennaNakyma('rahoitus');
+  const el = document.getElementById('rahoitusNakyma');
+  el.style.display = 'flex';
+  document.getElementById('btnRahoitus').classList.add('active');
+  renderRahoitusNakyma();
+  avaaDraver('rahoitus');
+}
+
+function renderRahoitusNakyma() {
+  const el = document.getElementById('rahoitusNakyma');
+  const vuosi = rahoitusVuosi;
+  const data = RAHOITUS_DATA;
+
+  // Järjestä puolueet avustuksen mukaan laskevasti
+  const jarjestetty = [...data.puolueet].sort((a, b) => (b.avustus[vuosi] || 0) - (a.avustus[vuosi] || 0));
+  const maxAvustus = jarjestetty[0].avustus[vuosi];
+  const kokonais = jarjestetty.reduce((s, p) => s + (p.avustus[vuosi] || 0), 0);
+  const perPaikka = Math.round(kokonais / jarjestetty.reduce((s, p) => s + (p.paikat[vuosi] || 0), 0));
+
+  // Vuositrendi per puolue
+  function sparkline(puolue) {
+    const vals = data.vuodet.map(v => puolue.avustus[v] || 0);
+    const mn = Math.min(...vals), mx = Math.max(...vals);
+    const norm = vals.map(v => mx === mn ? 50 : Math.round(10 + ((v - mn) / (mx - mn)) * 70));
+    const pts = norm.map((y, i) => `${(i / (vals.length - 1)) * 100},${90 - y}`).join(' ');
+    return `<svg viewBox="0 0 100 100" style="width:56px;height:28px;overflow:visible">
+      <polyline points="${pts}" fill="none" stroke="${puolue.vari}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity=".85"/>
+      ${norm.map((y, i) => `<circle cx="${(i/(vals.length-1))*100}" cy="${90-y}" r="3" fill="${puolue.vari}"/>`).join('')}
+    </svg>`;
+  }
+
+  el.innerHTML = `
+  <div style="padding:1.5rem 1.5rem 0;flex-shrink:0">
+    <div style="font-family:'Orbitron',monospace;font-size:.6rem;letter-spacing:.3em;color:#4ade80;opacity:.7;margin-bottom:.4rem">VALTIONEUVOSTO · PUOLUELAKI 10/1969</div>
+    <div style="font-family:'Orbitron',monospace;font-size:1.1rem;font-weight:700;color:#4ade80;margin-bottom:1.2rem;text-shadow:0 0 16px rgba(74,222,128,.4)">
+      💰 PUOLUEAVUSTUKSET
+    </div>
+
+    <!-- Vuosivalitsin -->
+    <div style="display:flex;gap:.5rem;margin-bottom:1.4rem;flex-wrap:wrap">
+      ${data.vuodet.map(v => `
+        <button onclick="rahoitusVuosi=${v};renderRahoitusNakyma()"
+          style="font-family:'Orbitron',monospace;font-size:.7rem;padding:.4rem .9rem;
+          border:1px solid ${v === vuosi ? '#4ade80' : '#1a2a55'};
+          background:${v === vuosi ? 'rgba(74,222,128,.15)' : 'transparent'};
+          color:${v === vuosi ? '#4ade80' : '#5a7a99'};
+          border-radius:4px;cursor:pointer;transition:all .2s">
+          ${v}${v === 2023 ? ' ⚡' : ''}
+        </button>`).join('')}
+      <span style="font-size:.7rem;color:#5a7a99;align-self:center;margin-left:.5rem">⚡ = vaalivuosi</span>
+    </div>
+
+    <!-- KPI-kortit -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-bottom:1.4rem">
+      <div style="background:rgba(74,222,128,.07);border:1px solid rgba(74,222,128,.2);border-radius:8px;padding:.9rem">
+        <div style="font-size:.6rem;color:#4ade80;letter-spacing:.15em;font-family:'Orbitron',monospace;margin-bottom:.3rem">YHTEENSÄ</div>
+        <div style="font-size:1.3rem;font-weight:700;color:#e8f4ff">${(kokonais/1e6).toFixed(2)} M€</div>
+      </div>
+      <div style="background:rgba(74,222,128,.07);border:1px solid rgba(74,222,128,.2);border-radius:8px;padding:.9rem">
+        <div style="font-size:.6rem;color:#4ade80;letter-spacing:.15em;font-family:'Orbitron',monospace;margin-bottom:.3rem">PER PAIKKA</div>
+        <div style="font-size:1.3rem;font-weight:700;color:#e8f4ff">${perPaikka.toLocaleString('fi-FI')} €</div>
+      </div>
+      <div style="background:rgba(74,222,128,.07);border:1px solid rgba(74,222,128,.2);border-radius:8px;padding:.9rem">
+        <div style="font-size:.6rem;color:#4ade80;letter-spacing:.15em;font-family:'Orbitron',monospace;margin-bottom:.3rem">PUOLUEET</div>
+        <div style="font-size:1.3rem;font-weight:700;color:#e8f4ff">${jarjestetty.length} kpl</div>
+      </div>
+    </div>
+
+    <!-- Välilehdet -->
+    <div style="display:flex;gap:0;border-bottom:1px solid #1a2a55;margin-bottom:1.2rem" id="rahoitusTabs">
+      ${[['palkki','📊 Palkkikaavio'],['historia','📈 Trendi'],['paikka','⚖️ €/paikka'],['lobbaus','🔍 vs. Lobbaus']].map(([tab, label]) => `
+        <button onclick="rahoitusTab='${tab}';renderRahoitusNakyma()"
+          style="font-size:.65rem;font-family:'Orbitron',monospace;padding:.55rem .75rem;
+          border:none;border-bottom:2px solid ${(typeof rahoitusTab !== 'undefined' ? rahoitusTab : 'palkki') === tab ? '#4ade80' : 'transparent'};
+          background:transparent;color:${(typeof rahoitusTab !== 'undefined' ? rahoitusTab : 'palkki') === tab ? '#4ade80' : '#5a7a99'};
+          cursor:pointer;white-space:nowrap;transition:all .2s">${label}</button>`).join('')}
+    </div>
+  </div>
+
+  <!-- Sisältö -->
+  <div style="flex:1;overflow-y:auto;padding:0 1.5rem 2rem" id="rahoitusSisalto">
+    ${renderRahoitusSisalto(jarjestetty, vuosi, maxAvustus, data)}
+  </div>
+
+  <div style="padding:.7rem 1.5rem;border-top:1px solid #1a2a55;font-size:.6rem;color:#5a7a99;flex-shrink:0">
+    Lähde: Valtioneuvosto · Valtioneuvoston kanslia · <a href="https://valtioneuvosto.fi/valtioneuvoston-kanslia/talous/puolueavustukset" target="_blank" style="color:#4ade80">valtioneuvosto.fi</a>
+  </div>`;
+}
+
+if (typeof rahoitusTab === 'undefined') var rahoitusTab = 'palkki';
+
+function renderRahoitusSisalto(jarjestetty, vuosi, maxAvustus, data) {
+  const tab = rahoitusTab;
+
+  if (tab === 'palkki') {
+    return jarjestetty.map(p => {
+      const a = p.avustus[vuosi] || 0;
+      const pct = Math.round((a / maxAvustus) * 100);
+      const paikat = p.paikat[vuosi] || 0;
+      return `
+      <div style="margin-bottom:1rem;background:rgba(8,13,31,.6);border:1px solid #1a2a55;border-radius:8px;padding:.9rem 1rem;transition:border-color .2s"
+           onmouseover="this.style.borderColor='${p.vari}'" onmouseout="this.style.borderColor='#1a2a55'">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.55rem">
+          <div style="display:flex;align-items:center;gap:.6rem">
+            <span style="font-family:'Orbitron',monospace;font-size:.75rem;font-weight:700;color:${p.vari}">${p.lyhenne}</span>
+            <span style="font-size:.8rem;color:#a0b4c8">${p.nimi}</span>
+            <span style="font-size:.65rem;color:#5a7a99;background:rgba(255,255,255,.04);padding:.1rem .4rem;border-radius:3px">${paikat} paikkaa</span>
+          </div>
+          <div style="text-align:right">
+            <div style="font-family:'Orbitron',monospace;font-size:.85rem;font-weight:700;color:${p.vari}">${(a/1e6).toFixed(2)} M€</div>
+            <div style="font-size:.6rem;color:#5a7a99">${Math.round(a/paikat).toLocaleString('fi-FI')} €/paikka</div>
+          </div>
+        </div>
+        <div style="background:#0b1128;border-radius:3px;height:8px;overflow:hidden">
+          <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,${p.vari},${p.vari}88);border-radius:3px;transition:width .6s ease;box-shadow:0 0 8px ${p.vari}55"></div>
+        </div>
+        <div style="margin-top:.35rem;font-size:.6rem;color:#5a7a99">${pct}% maksimimäärästä</div>
+      </div>`;
+    }).join('');
+  }
+
+  if (tab === 'historia') {
+    // Linjataulukko kaikille puolueille
+    const vuodet = data.vuodet;
+    return `
+    <div style="overflow-x:auto">
+    <table style="width:100%;border-collapse:collapse;font-size:.78rem">
+      <thead>
+        <tr style="border-bottom:1px solid #1a2a55">
+          <th style="text-align:left;padding:.6rem .5rem;font-family:'Orbitron',monospace;font-size:.6rem;color:#4ade80">PUOLUE</th>
+          ${vuodet.map(v => `<th style="text-align:right;padding:.6rem .5rem;font-family:'Orbitron',monospace;font-size:.6rem;color:${v===2023?'#ffd700':'#5a7a99'}">${v}${v===2023?'⚡':''}</th>`).join('')}
+          <th style="text-align:center;padding:.6rem .5rem;font-family:'Orbitron',monospace;font-size:.6rem;color:#5a7a99">TRENDI</th>
+          <th style="text-align:right;padding:.6rem .5rem;font-family:'Orbitron',monospace;font-size:.6rem;color:#5a7a99">MUUTOS 22→25</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${jarjestetty.map(p => {
+          const vals = vuodet.map(v => p.avustus[v] || 0);
+          const mn = Math.min(...vals), mx = Math.max(...vals);
+          const norm = vals.map(v => mx===mn ? 50 : Math.round(10+((v-mn)/(mx-mn))*70));
+          const pts = norm.map((y,i) => `${(i/(vals.length-1))*100},${90-y}`).join(' ');
+          const muutos = vals[vals.length-1] - vals[0];
+          const muutosPct = Math.round((muutos/vals[0])*100);
+          return `
+          <tr style="border-bottom:1px solid rgba(26,42,85,.5);transition:background .15s" onmouseover="this.style.background='rgba(255,255,255,.03)'" onmouseout="this.style.background='transparent'">
+            <td style="padding:.6rem .5rem">
+              <span style="font-family:'Orbitron',monospace;font-size:.7rem;font-weight:700;color:${p.vari}">${p.lyhenne}</span>
+            </td>
+            ${vuodet.map(v => `
+            <td style="text-align:right;padding:.6rem .5rem;color:#a0b4c8;font-size:.75rem">${((p.avustus[v]||0)/1e6).toFixed(2)}</td>`).join('')}
+            <td style="text-align:center;padding:.4rem .5rem">
+              <svg viewBox="0 0 100 100" style="width:52px;height:26px;overflow:visible">
+                <polyline points="${pts}" fill="none" stroke="${p.vari}" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" opacity=".9"/>
+                ${norm.map((y,i) => `<circle cx="${(i/(vals.length-1))*100}" cy="${90-y}" r="4" fill="${p.vari}"/>`).join('')}
+              </svg>
+            </td>
+            <td style="text-align:right;padding:.6rem .5rem;font-family:'Orbitron',monospace;font-size:.68rem;color:${muutos>=0?'#4ade80':'#ff4d6d'}">
+              ${muutos>=0?'+':''}${(muutos/1e6).toFixed(2)} M€<br>
+              <span style="font-size:.6rem;opacity:.7">${muutos>=0?'+':''}${muutosPct}%</span>
+            </td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>
+    </div>
+    <div style="margin-top:.8rem;font-size:.65rem;color:#5a7a99">Summat miljoonissa euroissa · ⚡ vaalivuosi 2023 — paikkaluvut muuttuivat vaaleissa</div>`;
+  }
+
+  if (tab === 'paikka') {
+    const perPaikkaData = [...jarjestetty].sort((a,b) => {
+      const ap = Math.round((a.avustus[vuosi]||0)/(a.paikat[vuosi]||1));
+      const bp = Math.round((b.avustus[vuosi]||0)/(b.paikat[vuosi]||1));
+      return bp - ap;
+    });
+    const maxPP = Math.round((perPaikkaData[0].avustus[vuosi]||0)/(perPaikkaData[0].paikat[vuosi]||1));
+    return `
+    <div style="margin-bottom:.8rem;font-size:.7rem;color:#5a7a99;line-height:1.5">
+      Avustus jaetaan tasan kansanedustajapaikkojen mukaan — <strong style="color:#4ade80">172 830 €/paikka</strong> vuonna 2025.<br>
+      Jokainen puolue saa saman summan per paikka, joten palkkikaavion järjestys = paikkaluvun järjestys.
+    </div>
+    ${perPaikkaData.map(p => {
+      const pp = Math.round((p.avustus[vuosi]||0)/(p.paikat[vuosi]||1));
+      const pct = Math.round((pp/maxPP)*100);
+      const paikat = p.paikat[vuosi]||0;
+      return `
+      <div style="display:flex;align-items:center;gap:.8rem;margin-bottom:.75rem;background:rgba(8,13,31,.6);border:1px solid #1a2a55;border-radius:8px;padding:.75rem 1rem">
+        <div style="width:52px;flex-shrink:0;font-family:'Orbitron',monospace;font-size:.7rem;font-weight:700;color:${p.vari}">${p.lyhenne}</div>
+        <div style="flex:1">
+          <div style="background:#0b1128;border-radius:3px;height:10px;overflow:hidden;margin-bottom:.3rem">
+            <div style="height:100%;width:${pct}%;background:${p.vari};opacity:.85;border-radius:3px"></div>
+          </div>
+          <div style="font-size:.65rem;color:#5a7a99">${paikat} paikkaa × ${pp.toLocaleString('fi-FI')} €</div>
+        </div>
+        <div style="text-align:right;flex-shrink:0">
+          <div style="font-family:'Orbitron',monospace;font-size:.82rem;color:${p.vari};font-weight:700">${pp.toLocaleString('fi-FI')} €</div>
+          <div style="font-size:.58rem;color:#5a7a99">per paikka</div>
+        </div>
+      </div>`;
+    }).join('')}
+    <div style="margin-top:.5rem;padding:.8rem;background:rgba(74,222,128,.05);border:1px solid rgba(74,222,128,.15);border-radius:8px;font-size:.68rem;color:#a0b4c8">
+      ℹ️  Puolueavustus lasketaan eduskuntavaaleissa saatujen paikkojen mukaan. Paikkamäärä pysyy samana koko vaalikauden, 
+      myös jos edustaja eroaa puolueesta. Avustusta voidaan myöntää vain puoluerekisteriin merkityille puolueille.
+    </div>`;
+  }
+
+  if (tab === 'lobbaus') {
+    return `
+    <div style="margin-bottom:.9rem;padding:.8rem;background:rgba(255,149,0,.05);border:1px solid rgba(255,149,0,.2);border-radius:8px;font-size:.68rem;color:#a0b4c8;line-height:1.5">
+      ⚠️ <strong style="color:#ff9500">Huom:</strong> Lobbaustapaamiset ovat avoimuusrekisteristä, avustussummat valtioneuvostolta. 
+      Vertailu kertoo: paljonko valtio tukee puoluetta vs. kuinka aktiivisesti sen edustajia lobataan.
+      Lobbausluvut ovat <em>arvioita</em> — tarkka puoluekohtainen data päivitetään kun lobbausfetch on valmis.
+    </div>
+    ${jarjestetty.map(p => {
+      const avustus = p.avustus[vuosi] || 0;
+      const lob = LOBBAUS_ARVIOT[p.id] || { tapaamisia: 0, kuvaus: '–' };
+      const tapaamisia = lob.tapaamisia;
+      const maxTap = Math.max(...Object.values(LOBBAUS_ARVIOT).map(l => l.tapaamisia));
+      const maxAvus = jarjestetty[0].avustus[vuosi];
+      const avPct = Math.round((avustus/maxAvus)*100);
+      const lobPct = Math.round((tapaamisia/maxTap)*100);
+      return `
+      <div style="margin-bottom:.9rem;background:rgba(8,13,31,.6);border:1px solid #1a2a55;border-radius:8px;padding:.9rem 1rem"
+           onmouseover="this.style.borderColor='${p.vari}'" onmouseout="this.style.borderColor='#1a2a55'">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem">
+          <span style="font-family:'Orbitron',monospace;font-size:.75rem;font-weight:700;color:${p.vari}">${p.lyhenne} <span style="color:#a0b4c8;font-size:.65rem;font-weight:400">${p.nimi}</span></span>
+          <span style="font-size:.6rem;color:#5a7a99;background:rgba(255,255,255,.04);padding:.15rem .4rem;border-radius:3px">${lob.kuvaus}</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.7rem">
+          <div>
+            <div style="font-size:.6rem;color:#4ade80;margin-bottom:.25rem;letter-spacing:.1em">VALTION AVUSTUS ${vuosi}</div>
+            <div style="background:#0b1128;border-radius:3px;height:7px;overflow:hidden;margin-bottom:.2rem">
+              <div style="height:100%;width:${avPct}%;background:#4ade80;opacity:.8;border-radius:3px"></div>
+            </div>
+            <div style="font-family:'Orbitron',monospace;font-size:.72rem;color:#4ade80">${(avustus/1e6).toFixed(2)} M€</div>
+          </div>
+          <div>
+            <div style="font-size:.6rem;color:#ff9500;margin-bottom:.25rem;letter-spacing:.1em">LOBBAUSTAPAAMISET</div>
+            <div style="background:#0b1128;border-radius:3px;height:7px;overflow:hidden;margin-bottom:.2rem">
+              <div style="height:100%;width:${lobPct}%;background:#ff9500;opacity:.8;border-radius:3px"></div>
+            </div>
+            <div style="font-family:'Orbitron',monospace;font-size:.72rem;color:#ff9500">${tapaamisia} kpl (arvio)</div>
+          </div>
+        </div>
+      </div>`;
+    }).join('')}
+    <div style="margin-top:.5rem;font-size:.62rem;color:#5a7a99;line-height:1.5">
+      Lobbaustapaamiset: avoimuusrekisteri.fi · Puolueavustukset: valtioneuvosto.fi<br>
+      Tarkat puoluekohtaiset lobbausluvut päivitetään kun UUID-haku valmistuu.
+    </div>`;
+  }
+  return '';
+}
 
 lataaHakemisto();
-setTimeout(() => lataaLobbausIndex(), 5000);
 setTimeout(() => laskeAktiivisuusPisteet(), 8000); // tausta: ladataan aktiivisuusdata valmiiksi
 
 /* ================================================================
