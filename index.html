@@ -3329,8 +3329,7 @@ function avaaDraver(nakyma) {
   drawer.classList.add('open');
   document.body.classList.add('modal-open');
   document.body.classList.remove('ttl-open');
-  // Odota drawer-animaatio (350ms) ennen mittausta
-  setTimeout(() => paivitaDrawerContentKorkeus(), 380);
+
   // Näytä hakupalkki historialliset-näkymässä
   naytaDrawerHaku(nakyma);
 }
@@ -3430,38 +3429,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-function paivitaDrawerContentKorkeus() {
-  const drawer = document.getElementById('drawer');
-  const dc     = document.getElementById('drawerContent');
-  const topbar = document.getElementById('drawerTopbar');
-  const hdr    = document.getElementById('drawerHeader');
-  const haku   = document.getElementById('drawerHakuPalkki');
-  if (!dc || !drawer) return;
-  const drawerH = window.innerHeight;
-  const topbarH = topbar ? topbar.offsetHeight : 4;
-  const hdrH    = hdr    ? hdr.offsetHeight    : 57;
-  const hakuH   = (haku && haku.classList.contains('vis')) ? haku.offsetHeight : 0;
-  const contentH = drawerH - topbarH - hdrH - hakuH;
-  dc.style.height    = contentH + 'px';
-  dc.style.maxHeight = contentH + 'px';
-  dc.style.overflowY = 'auto';
-
-  // Debug päivitys
-  const dbg = document.getElementById('_scrollDebug');
-  if (dbg) {
-    dbg.innerHTML =
-      'dc.offsetHeight: ' + dc.offsetHeight + 'px<br>' +
-      'dc.scrollHeight: ' + dc.scrollHeight + 'px<br>' +
-      'dc.style.height: ' + dc.style.height + '<br>' +
-      'scrollable: ' + (dc.scrollHeight > dc.offsetHeight ? '✅ YES' : '❌ NO');
-  }
-}
-
 // Päivitä drawerContentin korkeus kun ikkuna muuttuu
 window.addEventListener('resize', () => {
   const drawer = document.getElementById('drawer');
   if (!drawer || !drawer.classList.contains('open')) return;
-  paivitaDrawerContentKorkeus();
+  const dc      = document.getElementById('drawerContent');
+  const topbar  = document.getElementById('drawerTopbar');
+  const hdr     = document.getElementById('drawerHeader');
+  const haku    = document.getElementById('drawerHakuPalkki');
+  if (!dc) return;
+  const drawerH = window.innerHeight;
+  const topbarH = topbar ? topbar.getBoundingClientRect().height : 4;
+  const hdrH    = hdr    ? hdr.getBoundingClientRect().height    : 57;
+  const hakuH   = (haku && haku.classList.contains('vis'))
+                  ? haku.getBoundingClientRect().height : 0;
+  const contentH = drawerH - topbarH - hdrH - hakuH;
+  dc.style.height = contentH + 'px';
+  dc.style.maxHeight = contentH + 'px';
 });
 
 // ESC sulkee drawerin
@@ -4767,8 +4751,6 @@ async function laskeAktiivisuusPisteet() {
 
   AKT_DATA.sort((a,b) => b.yht - a.yht);
   AKT_DATA.forEach((d,i) => { d.sija = i + 1; d.nayttoSija = i + 1; });
-  // Päivitä korkeus nyt kun data on ladattu
-  setTimeout(() => paivitaDrawerContentKorkeus(), 100);
 }
 
 async function laskeMediaMaininnatRSS() {
