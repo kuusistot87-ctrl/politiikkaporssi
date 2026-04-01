@@ -257,6 +257,7 @@
 
     /* ── DRAWER HAKUPALKKI ── */
     #drawerHakuPalkki {
+      flex-shrink: 0;
       display: none;
       flex-direction: column;
       gap: .6rem;
@@ -336,9 +337,8 @@
       background: var(--bg-panel);
       border-left: 1px solid var(--border);
       z-index: 201;
-      display: grid;
-      grid-template-rows: auto auto auto 1fr;
-      overflow: hidden;
+      display: flex;
+      flex-direction: column;
       transform: translateX(100%);
       transition: transform .35s cubic-bezier(.22,1,.36,1);
       box-shadow: -12px 0 60px rgba(0,0,0,.7);
@@ -346,17 +346,17 @@
     #drawer.open { transform: translateX(0); }
     #drawerTopbar {
       height: 4px;
-      background: linear-gradient(90deg, var(--drawer-color, var(--accent)), transparent);
       flex-shrink: 0;
+      background: linear-gradient(90deg, var(--drawer-color, var(--accent)), transparent);
       transition: background .3s;
     }
     #drawerHeader {
+      flex-shrink: 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: .85rem 1.25rem .85rem 1.5rem;
       border-bottom: 1px solid var(--border);
-      flex-shrink: 0;
     }
     #drawerTitle {
       font-family: "Orbitron", monospace;
@@ -378,12 +378,13 @@
     }
     #drawerClose:hover { border-color: #ff007a; color: #ff007a; }
     #drawerContent {
+      flex: 1;
+      min-height: 0;
       overflow-y: auto;
       overflow-x: hidden;
       -webkit-overflow-scrolling: touch;
       overscroll-behavior: contain;
       touch-action: pan-y;
-      min-height: 0;
     }
     @media (max-width: 600px) {
       #drawer { width: 100vw; }
