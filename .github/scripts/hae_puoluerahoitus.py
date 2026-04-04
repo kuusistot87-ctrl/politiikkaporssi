@@ -1,31 +1,37 @@
 #!/usr/bin/env python3
 """
-hae_puoluerahoitus.py
-Hakee usealta vuodelta listaussivut ja parsii kaikki puolueet automaattisesti.
+hae_puoluerahoitus.py — uusi versio
+Lataa CSV-tiedostot suoraan vaalirahoitusvalvonta.fi:stä.
+Paljon yksinkertaisempi kuin HTML-parsinta!
 """
 
 import requests
-from bs4 import BeautifulSoup
+import csv
 import json
 import os
-import re
+import io
 from datetime import datetime, timezone
 
-# Tunnetut puolueet — Y-tunnukset täydennetään automaattisesti listaussivulta
-PUOLUEET_NIMET = {
-    "Kansallinen Kokoomus":                   {"lyhenne": "KOK",  "ytunnus": None},
-    "Perussuomalaiset":                        {"lyhenne": "PS",   "ytunnus": None},
-    "Suomen Sosialidemokraattinen Puolue":     {"lyhenne": "SDP",  "ytunnus": None},
-    "Suomen Keskusta":                         {"lyhenne": "KESK", "ytunnus": None},
-    "Vihreä liitto":                           {"lyhenne": "VIHR", "ytunnus": None},
-    "Vasemmistoliitto":                        {"lyhenne": "VAS",  "ytunnus": None},
-    "Suomen ruotsalainen kansanpuolue":        {"lyhenne": "RKP",  "ytunnus": None},
-    "Kristillisdemokraatit":                   {"lyhenne": "KD",   "ytunnus": None},
-    "Liike Nyt":                               {"lyhenne": "LIIK", "ytunnus": None},
+BASE = "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/haetietoailmoituksista/tietoaineistot"
+
+# Vuodet joilta haetaan data
+VUODET = [2022, 2023, 2024, 2025, 2026]
+
+# Tunnistetaan pääpuolueet nimen perusteella
+PUOLUEET_MAP = {
+    "Kansallinen Kokoomus r.p.":                    "KOK",
+    "Perussuomalaiset r.p.":                        "PS",
+    "Suomen Sosialidemokraattinen Puolue r.p.":     "SDP",
+    "Suomen Keskusta r.p.":                         "KESK",
+    "Vihreä liitto r.p.":                           "VIHR",
+    "Vasemmistoliitto r.p.":                        "VAS",
+    "Suomen ruotsalainen kansanpuolue r.p.":        "RKP",
+    "Suomen Kristillisdemokraatit (KD) R.P.":       "KD",
+    "Liike Nyt r.p.":                               "LIIK",
 }
 
-# Tunnetut Y-tunnukset varmuuden vuoksi
-TUNNETUT_YTUNNUKSET = {
+# Pääpuolueiden Y-tunnukset
+PUOLUEET_YTUNNUS = {
     "KOK":  "0213498-5",
     "PS":   "0699608-4",
     "SDP":  "0117005-2",
@@ -37,204 +43,158 @@ TUNNETUT_YTUNNUKSET = {
     "LIIK": "3046798-7",
 }
 
-BASE_URL = "https://www.vaalirahoitusvalvonta.fi"
-LISTA_BASE = BASE_URL + "/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset.html"
-
-def hae_sivu(url, timeout=20):
+def hae_csv(vuosi):
+    url = f"{BASE}/{vuosi}_ajantasaiset_ilmoitukset.csv"
     try:
         headers = {"User-Agent": "Mozilla/5.0 (compatible; PolitiikkaporssiBot/1.0)"}
-        resp = requests.get(url, headers=headers, timeout=timeout)
+        resp = requests.get(url, headers=headers, timeout=30)
         if resp.status_code == 200:
-            return BeautifulSoup(resp.text, "lxml")
-        print(f"  HTTP {resp.status_code}: {url}")
+            print(f"  ✅ {vuosi}: {len(resp.content)} tavua")
+            # CSV on UTF-8 tai latin-1
+            try:
+                return resp.content.decode("utf-8-sig")
+            except:
+                return resp.content.decode("latin-1")
+        print(f"  ❌ {vuosi}: HTTP {resp.status_code}")
         return None
     except Exception as e:
-        print(f"  Virhe: {e}")
+        print(f"  ❌ {vuosi}: {e}")
         return None
 
-def parsii_rahasumma(teksti):
-    if not teksti or ',' not in teksti:
-        return None
-    puhdas = re.sub(r'[^\d,]', '', teksti.strip()).replace(',', '.')
-    try:
-        arvo = float(puhdas)
-        if 1000 <= arvo <= 10_000_000:
-            return arvo
-        return None
-    except ValueError:
-        return None
-
-def keraa_linkit_ja_ytunnukset(lista_soup):
-    """Kerää kaikki P_AI linkit ja niiden Y-tunnukset listaussivulta."""
-    linkit = []
-    ytunnukset_puolueittain = {}
-
-    for a in lista_soup.find_all("a", href=True):
-        href = a["href"]
-        if "/P_AI_" not in href:
+def parsii_csv(teksti, vuosi):
+    """Parsii CSV ja palauttaa rivit listana."""
+    rivit = []
+    reader = csv.reader(io.StringIO(teksti), delimiter=";")
+    otsikkorivi = None
+    for i, rivi in enumerate(reader):
+        if i == 0:
+            otsikkorivi = rivi
             continue
-        if href.startswith("/"):
-            href = BASE_URL + href
-
-        # Pura Y-tunnus URL:sta: .../ajantasaisetilmoitukset/VUOSI/YTUNNUS/...
-        m = re.search(r'/ajantasaisetilmoitukset/\d{4}/([^/]+)/', href)
-        if m:
-            ytunnus = m.group(1)
-            # Etsi puolueen nimi h4-otsikosta
-            # Käytetään tunnettua listaa
-            if ytunnus not in [v for v in TUNNETUT_YTUNNUKSET.values()]:
-                ytunnukset_puolueittain[ytunnus] = ytunnus
-
-            if href not in linkit:
-                linkit.append(href)
-
-    return linkit
-
-def hae_ilmoituslinkit(lista_soup, ytunnus):
-    linkit = []
-    for a in lista_soup.find_all("a", href=True):
-        href = a["href"]
-        if f"/{ytunnus}/" in href and "/P_AI_" in href:
-            if href.startswith("/"):
-                href = BASE_URL + href
-            if href not in linkit:
-                linkit.append(href)
-    return linkit
-
-def parsii_ilmoitus(soup, url):
-    tulos = {
-        "url": url,
-        "ilmoitusaika": None,
-        "kuukausi": None,
-        "vuosi": None,
-        "ilmoittaja": None,
-        "tuet": [],
-        "summa_yhteensa": 0.0,
-    }
-
-    m = re.search(r'/P_AI_(\d{4})(\d{2})\.html', url)
-    if m:
-        tulos["vuosi"] = int(m.group(1))
-        tulos["kuukausi"] = int(m.group(2))
-
-    for teksti in soup.stripped_strings:
-        if "saapumispäivä" in teksti.lower():
-            dm = re.search(r'(\d{1,2}\.\d{1,2}\.\d{4})', teksti)
-            if dm:
-                tulos["ilmoitusaika"] = dm.group(1)
-            break
-
-    for t in soup.find_all("table"):
-        for r in t.find_all("tr"):
-            solut = r.find_all("td")
-            if solut:
-                nimi = solut[0].get_text(strip=True)
-                if len(nimi) > 5 and not any(x in nimi.lower() for x in
-                        ["kuukausi", "vuosi", "yritys", "etunimi", "saadun", "tuen"]):
-                    tulos["ilmoittaja"] = nimi[:200]
-                    break
-        if tulos["ilmoittaja"]:
-            break
-
-    # Kaikki tukijat: sarake 0=Nimi, 1=Y-tunnus, 2=Tuen määrä
-    for rivi in soup.find_all("tr"):
-        solut = rivi.find_all("td")
-        if len(solut) < 3:
+        if len(rivi) < 9:
             continue
-        nimi = solut[0].get_text(strip=True)
-        if len(nimi) < 3:
-            continue
-        if any(x in nimi.lower() for x in ["yrityksen", "etunimet", "ilmoitus sisältää"]):
-            continue
-        ytunnus_teksti = solut[1].get_text(strip=True) if len(solut) > 1 else ""
-        ytunnus_m = re.search(r'\d{7}-\d', ytunnus_teksti)
-        summa_teksti = solut[2].get_text(strip=True) if len(solut) > 2 else ""
-        summa = parsii_rahasumma(summa_teksti)
-        if summa:
-            tulos["tuet"].append({
-                "nimi": nimi[:200],
-                "ytunnus": ytunnus_m.group() if ytunnus_m else None,
-                "maara": summa,
-            })
-            tulos["summa_yhteensa"] += summa
-
-    return tulos if (tulos["kuukausi"] or tulos["tuet"]) else None
+        rivit.append(rivi)
+    print(f"    {len(rivit)} datariviä")
+    return rivit, otsikkorivi
 
 def main():
     nyt = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    vuosi_nyt = datetime.now(timezone.utc).year
 
-    output = {"paivitetty": nyt, "lahde": "vaalirahoitusvalvonta.fi", "puolueet": []}
-
-    # Kerää linkit sekä kuluvan että edellisen vuoden listaussivulta
-    kaikki_linkit_per_ytunnus = {}
-
-    for vuosi in [vuosi_nyt - 1, vuosi_nyt]:
-        # Listaussivu näyttää oletuksena kuluvan vuoden — haetaan myös 2025
-        url = LISTA_BASE if vuosi == vuosi_nyt else \
-              f"{BASE_URL}/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/{vuosi}.html"
-        print(f"Haetaan {vuosi} listaussivu: {url}")
-        soup = hae_sivu(url if vuosi == vuosi_nyt else LISTA_BASE)
-        if not soup:
+    # Kerää kaikki data
+    kaikki_rivit = []
+    for vuosi in VUODET:
+        print(f"\nHaetaan {vuosi}...")
+        teksti = hae_csv(vuosi)
+        if not teksti:
             continue
+        rivit, _ = parsii_csv(teksti, vuosi)
+        for r in rivit:
+            kaikki_rivit.append((vuosi, r))
 
-        for lyhenne, ytunnus in TUNNETUT_YTUNNUKSET.items():
-            linkit = hae_ilmoituslinkit(soup, ytunnus)
-            if ytunnus not in kaikki_linkit_per_ytunnus:
-                kaikki_linkit_per_ytunnus[ytunnus] = []
-            for l in linkit:
-                if l not in kaikki_linkit_per_ytunnus[ytunnus]:
-                    kaikki_linkit_per_ytunnus[ytunnus].append(l)
+    print(f"\nYhteensä {len(kaikki_rivit)} riviä")
 
-    # Hae myös edellisen vuoden data suoraan URL-rakenteella
-    print(f"\nHaetaan {vuosi_nyt-1} ilmoitukset suoraan URL:eilla...")
-    for lyhenne, ytunnus in TUNNETUT_YTUNNUKSET.items():
-        for kk in range(1, 13):
-            url = (f"{BASE_URL}/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset"
-                   f"/ajantasaisetilmoitukset/{vuosi_nyt-1}/{ytunnus}"
-                   f"/P_AI_{vuosi_nyt-1}{kk:02d}.html")
-            if url not in kaikki_linkit_per_ytunnus.get(ytunnus, []):
-                if ytunnus not in kaikki_linkit_per_ytunnus:
-                    kaikki_linkit_per_ytunnus[ytunnus] = []
-                kaikki_linkit_per_ytunnus[ytunnus].append(url)
-
-    # Parsii kaikki ilmoitukset
-    for nimi_fi, tiedot in PUOLUEET_NIMET.items():
-        lyhenne = tiedot["lyhenne"]
-        ytunnus = TUNNETUT_YTUNNUKSET[lyhenne]
-        print(f"\n=== {lyhenne} ({ytunnus}) ===")
-
-        puolue_data = {
-            "nimi": nimi_fi,
-            "lyhenne": lyhenne,
-            "ytunnus": ytunnus,
+    # Ryhmittele pääpuolueittain
+    # CSV-sarakkeet: 0=saapumispvm, 2=ilmoittajan nimi, 3=rekisteritunnus,
+    #                4=kuukausi, 5=vuosi, 6=tuen antajan nimi, 7=y-tunnus, 8=summa
+    puolue_data = {}
+    for lyhenne in PUOLUEET_YTUNNUS:
+        puolue_data[lyhenne] = {
             "ilmoitukset": [],
-            "summa_per_vuosi": {}
+            "tuet_per_vuosi": {},
+            "tukijat": {}  # nimi -> kokonaissumma
         }
 
-        linkit = kaikki_linkit_per_ytunnus.get(ytunnus, [])
-        print(f"  {len(linkit)} linkkiä")
+    for vuosi_csv, rivi in kaikki_rivit:
+        ilmoittaja = rivi[2].strip() if len(rivi) > 2 else ""
+        rekisteritunnus = rivi[3].strip() if len(rivi) > 3 else ""
 
-        vuosi_summat = {}
-        for linkki in linkit[:48]:
-            s = hae_sivu(linkki)
-            if not s:
-                continue
-            ilm = parsii_ilmoitus(s, linkki)
-            if ilm and (ilm["tuet"] or ilm["kuukausi"]):
-                puolue_data["ilmoitukset"].append(ilm)
-                v = str(ilm.get("vuosi", "?"))
-                vuosi_summat[v] = vuosi_summat.get(v, 0) + ilm["summa_yhteensa"]
-                if ilm["summa_yhteensa"] > 0:
-                    print(f"    {ilm['kuukausi']:02d}/{ilm['vuosi']} {ilm['ilmoittaja']}: {ilm['summa_yhteensa']:,.0f} €")
+        # Tunnista puolue nimen tai Y-tunnuksen perusteella
+        lyhenne = None
+        if ilmoittaja in PUOLUEET_MAP:
+            lyhenne = PUOLUEET_MAP[ilmoittaja]
+        else:
+            for l, ytunnus in PUOLUEET_YTUNNUS.items():
+                if rekisteritunnus == ytunnus:
+                    lyhenne = l
+                    break
 
-        puolue_data["summa_per_vuosi"] = {k: round(v, 2) for k, v in vuosi_summat.items() if v > 0}
-        output["puolueet"].append(puolue_data)
+        if not lyhenne:
+            continue  # ei pääpuolue
+
+        try:
+            kuukausi = int(rivi[4]) if rivi[4].strip() else None
+            vuosi = int(rivi[5]) if rivi[5].strip() else vuosi_csv
+            tuen_antaja = rivi[6].strip() if len(rivi) > 6 else ""
+            tuen_antaja_ytunnus = rivi[7].strip() if len(rivi) > 7 else ""
+            summa_str = rivi[8].strip().replace(",", ".").replace(" ", "") if len(rivi) > 8 else ""
+            summa = float(summa_str) if summa_str else 0.0
+        except (ValueError, IndexError):
+            continue
+
+        if summa <= 0:
+            continue
+
+        v = str(vuosi)
+        if v not in puolue_data[lyhenne]["tuet_per_vuosi"]:
+            puolue_data[lyhenne]["tuet_per_vuosi"][v] = 0.0
+        puolue_data[lyhenne]["tuet_per_vuosi"][v] += summa
+
+        # Tukijatilasto
+        if tuen_antaja:
+            if tuen_antaja not in puolue_data[lyhenne]["tukijat"]:
+                puolue_data[lyhenne]["tukijat"][tuen_antaja] = {"ytunnus": tuen_antaja_ytunnus, "summa": 0.0}
+            puolue_data[lyhenne]["tukijat"][tuen_antaja]["summa"] += summa
+
+        puolue_data[lyhenne]["ilmoitukset"].append({
+            "saapunut": rivi[0].strip() if rivi[0].strip() else None,
+            "kuukausi": kuukausi,
+            "vuosi": vuosi,
+            "tuen_antaja": tuen_antaja,
+            "tuen_antaja_ytunnus": tuen_antaja_ytunnus,
+            "summa": summa,
+        })
+
+    # Rakenna output
+    output = {
+        "paivitetty": nyt,
+        "lahde": "vaalirahoitusvalvonta.fi — CSV-tietoaineistot",
+        "vuodet": [str(v) for v in VUODET],
+        "puolueet": []
+    }
+
+    for nimi_fi, lyhenne in [
+        ("Kansallinen Kokoomus", "KOK"),
+        ("Perussuomalaiset", "PS"),
+        ("Suomen Sosialidemokraattinen Puolue", "SDP"),
+        ("Suomen Keskusta", "KESK"),
+        ("Vihreä liitto", "VIHR"),
+        ("Vasemmistoliitto", "VAS"),
+        ("Suomen ruotsalainen kansanpuolue", "RKP"),
+        ("Kristillisdemokraatit", "KD"),
+        ("Liike Nyt", "LIIK"),
+    ]:
+        d = puolue_data[lyhenne]
+        # Top 10 tukijat
+        top_tukijat = sorted(
+            [{"nimi": k, **v} for k, v in d["tukijat"].items()],
+            key=lambda x: x["summa"], reverse=True
+        )[:20]
+
+        output["puolueet"].append({
+            "nimi": nimi_fi,
+            "lyhenne": lyhenne,
+            "ytunnus": PUOLUEET_YTUNNUS[lyhenne],
+            "ilmoituksia": len(d["ilmoitukset"]),
+            "tuet_per_vuosi": {k: round(v, 2) for k, v in sorted(d["tuet_per_vuosi"].items())},
+            "top_tukijat": top_tukijat,
+        })
+
+        vuosi_str = ", ".join(f"{k}: {v/1000:.0f}k€" for k, v in sorted(d["tuet_per_vuosi"].items()))
+        print(f"  {lyhenne}: {len(d['ilmoitukset'])} ilmoitusta | {vuosi_str}")
 
     os.makedirs("rahoitus_json", exist_ok=True)
     with open("rahoitus_json/puoluerahoitus.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ Valmis: rahoitus_json/puoluerahoitus.json")
+    print(f"\n✅ Tallennettu: rahoitus_json/puoluerahoitus.json")
 
 if __name__ == "__main__":
     main()
