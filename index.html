@@ -2530,7 +2530,13 @@ document.addEventListener("keydown", function(e) {
   if (mod && mod.classList.contains("open")) { closeTTLProfile(); return; }
   // Drawer
   var drw = document.getElementById("drawer");
-  if (drw && drw.classList.contains("open")) { suljeDraver(); return; }
+  if (drw && drw.classList.contains("open")) {
+    suljeDraver();
+    // Jos vertailunäkymä oli auki, nollaa myös vertailupalkki
+    var vp = document.getElementById("vertPalkki");
+    if (vp && vp.classList.contains("auki")) { nollaaVertailu(); }
+    return;
+  }
   // Aktiivisuusnäkymä
   var akt = document.getElementById("aktiivisuusNakyma");
   if (akt && akt.style.display === "flex") { suljeDraver(); return; }
@@ -6376,7 +6382,7 @@ function renderVertaileNakyma() {
   tulos.style.display = 'block';
   tulos.innerHTML = '<div style="color:#3a5a77;font-size:.8rem;padding:1rem 0">Ladataan dataa...</div>';
 
-  Promise.all([haeVertData(m1), haeVertData(m2)])
+  Promise.all([haeVertData(m1), haeVertData(m2), lataaVertVaalirahoitus()])
     .then(([d1, d2]) => renderVertTulos(m1, m2, d1, d2));
 }
 
@@ -6468,6 +6474,15 @@ function renderVertTulos(m1, m2, d1, d2) {
 
       ${renderVertVaalirahoitus(m1, m2, pv1, pv2)}
     </div>`;
+}
+
+async function lataaVertVaalirahoitus() {
+  if (VAALIRAHOITUS_LADATTU) return;
+  try {
+    const r = await fetch('https://kuusistot87-ctrl.github.io/politiikkaporssi/vaalirahoitus_json/eduskuntavaalit2023.json');
+    VAALIRAHOITUS_DATA = await r.json();
+    VAALIRAHOITUS_LADATTU = true;
+  } catch(_) {}
 }
 
 function renderVertVaalirahoitus(m1, m2, pv1, pv2) {
