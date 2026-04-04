@@ -1,585 +1,607 @@
 {
-  "paivitetty": "2026-04-04T05:55:44Z",
-  "lahde": "vaalirahoitusvalvonta.fi",
+  "paivitetty": "2026-04-04T06:15:16Z",
+  "lahde": "vaalirahoitusvalvonta.fi — CSV-tietoaineistot",
+  "vuodet": [
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
   "puolueet": [
     {
       "nimi": "Kansallinen Kokoomus",
       "lyhenne": "KOK",
       "ytunnus": "0213498-5",
-      "ilmoitukset": [
+      "ilmoituksia": 29,
+      "tuet_per_vuosi": {
+        "2022": 190000.0,
+        "2023": 910500.0,
+        "2024": 100000.0,
+        "2025": 100000.0,
+        "2026": 100000.0
+      },
+      "top_tukijat": [
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/136.135/P_AI_202601.html",
-          "ilmoitusaika": "9.2.2026",
-          "kuukausi": 1,
-          "vuosi": 2026,
-          "ilmoittaja": "Helsingin Kokoomus ry",
-          "tuet": [
-            {
-              "nimi": "HOK-Elanto Liiketoiminta Oy",
-              "ytunnus": "1837957-3",
-              "maara": 10833.0
-            }
-          ],
-          "summa_yhteensa": 10833.0
+          "nimi": "Kansallisen Kokoomuspuolueen Säätiö sr",
+          "ytunnus": "1491706-3",
+          "summa": 1100000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/P_AI_202603.html",
-          "ilmoitusaika": "10.3.2026",
-          "kuukausi": 3,
-          "vuosi": 2026,
-          "ilmoittaja": "Kansallinen Kokoomus r.p.",
-          "tuet": [
-            {
-              "nimi": "Kansallisen Kokoomuspuolueen Säätiö sr",
-              "ytunnus": "1491706-3",
-              "maara": 100000.0
-            }
-          ],
-          "summa_yhteensa": 100000.0
+          "nimi": "Pro Markkinatalous ry",
+          "ytunnus": "3134017-1",
+          "summa": 50000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/1491706-3/P_AI_202602.html",
-          "ilmoitusaika": "10.3.2026",
-          "kuukausi": 2,
-          "vuosi": 2026,
-          "ilmoittaja": "Kansallisen Kokoomuspuolueen Säätiö",
-          "tuet": [
-            {
-              "nimi": "Yksityisyrittäjäin Säätiö sr",
-              "ytunnus": "0221903-0",
-              "maara": 30000.0
-            }
-          ],
-          "summa_yhteensa": 30000.0
+          "nimi": "Wihuri Packaging Oy",
+          "ytunnus": "2557861-8",
+          "summa": 30000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/97.251/P_AI_202601.html",
-          "ilmoitusaika": "9.2.2026",
-          "kuukausi": 1,
-          "vuosi": 2026,
-          "ilmoittaja": "Uudenmaan Kokoomus ry",
-          "tuet": [
-            {
-              "nimi": "Helsingin Kokoomus ry, ruotsiksi Samlingspartiet i Helsingfo...",
-              "ytunnus": "1003907-2",
-              "maara": 5200.0
-            }
-          ],
-          "summa_yhteensa": 5200.0
+          "nimi": "Matkailu- ja Ravintolapalvelut MaRa ry, Turism- och Restaura...",
+          "ytunnus": "0201951-4",
+          "summa": 25000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/0808191-7/P_AI_202602.html",
-          "ilmoitusaika": "23.2.2026",
-          "kuukausi": 2,
-          "vuosi": 2026,
-          "ilmoittaja": "Varsinais-Suomen Kansallissäätiö",
-          "tuet": [
-            {
-              "nimi": "Oy Lunden Ab",
-              "ytunnus": "1992388-4",
-              "maara": 5000.0
-            }
-          ],
-          "summa_yhteensa": 5000.0
+          "nimi": "Versowood Oy",
+          "ytunnus": "1080944-4",
+          "summa": 20000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/0808191-7/P_AI_202603.html",
-          "ilmoitusaika": "26.3.2026",
-          "kuukausi": 3,
-          "vuosi": 2026,
-          "ilmoittaja": "Varsinais-Suomen Kansallissäätiö",
-          "tuet": [
-            {
-              "nimi": "Sarcodon Oy",
-              "ytunnus": "2993143-1",
-              "maara": 2500.0
-            }
-          ],
-          "summa_yhteensa": 2500.0
+          "nimi": "Notalar Oy",
+          "ytunnus": "1087167-8",
+          "summa": 20000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0213498-5/97.589/P_AI_202603.html",
-          "ilmoitusaika": "26.3.2026",
-          "kuukausi": 3,
-          "vuosi": 2026,
-          "ilmoittaja": "Varsinais-Suomen Kokoomus ry",
-          "tuet": [
-            {
-              "nimi": "Sarcodon Oy",
-              "ytunnus": "2993143-1",
-              "maara": 2500.0
-            }
-          ],
-          "summa_yhteensa": 2500.0
+          "nimi": "Tampereen Tiivisteteollisuus Oy",
+          "ytunnus": "0678547-8",
+          "summa": 10500.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0213498-5/P_AI_202503.html",
-          "ilmoitusaika": "20.3.2025",
-          "kuukausi": 3,
-          "vuosi": 2025,
-          "ilmoittaja": "Kansallinen Kokoomus r.p.",
-          "tuet": [
-            {
-              "nimi": "Kansallisen Kokoomuspuolueen Säätiö sr",
-              "ytunnus": "1491706-3",
-              "maara": 100000.0
-            }
-          ],
-          "summa_yhteensa": 100000.0
+          "nimi": "First Fellow Oy",
+          "ytunnus": "1477927-0",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "Avain Yhtiöt Oy",
+          "ytunnus": "2308788-2",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "Troll Capital Oy",
+          "ytunnus": "1545015-1",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "T2H Group Oy",
+          "ytunnus": "2946659-2",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "Pontos Oy",
+          "ytunnus": "2119855-4",
+          "summa": 10000.0
         }
-      ],
-      "summa_per_vuosi": {
-        "2026": 156033.0,
-        "2025": 100000.0
-      }
+      ]
     },
     {
       "nimi": "Perussuomalaiset",
       "lyhenne": "PS",
       "ytunnus": "0699608-4",
-      "ilmoitukset": [],
-      "summa_per_vuosi": {}
+      "ilmoituksia": 1,
+      "tuet_per_vuosi": {
+        "2024": 4366.58
+      },
+      "top_tukijat": []
     },
     {
       "nimi": "Suomen Sosialidemokraattinen Puolue",
       "lyhenne": "SDP",
       "ytunnus": "0117005-2",
-      "ilmoitukset": [
+      "ilmoituksia": 32,
+      "tuet_per_vuosi": {
+        "2022": 98222.03,
+        "2023": 88908.87,
+        "2024": 186850.0,
+        "2025": 103829.33,
+        "2026": 13853.63
+      },
+      "top_tukijat": [
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0117005-2/P_AI_202603.html",
-          "ilmoitusaika": "1.4.2026",
-          "kuukausi": 3,
-          "vuosi": 2026,
-          "ilmoittaja": "Suomen Sosialidemokraattinen Puolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Paperiliitto r.y.",
-              "ytunnus": "0201825-5",
-              "maara": 13853.63
-            }
-          ],
-          "summa_yhteensa": 13853.63
+          "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
+          "ytunnus": "0668222-5",
+          "summa": 120000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0117005-2/328/P_AI_202601.html",
-          "ilmoitusaika": "9.1.2026",
-          "kuukausi": 1,
-          "vuosi": 2026,
-          "ilmoittaja": "Tikkurilan Työväenyhdistys ry",
-          "tuet": [
-            {
-              "nimi": "Tikkurila Säätiö sr",
-              "ytunnus": "1015723-9",
-              "maara": 3500.0
-            }
-          ],
-          "summa_yhteensa": 3500.0
+          "nimi": "Turun Työväensäätiö sr",
+          "ytunnus": "0364474-1",
+          "summa": 75000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0117005-2/328/P_AI_202602.html",
-          "ilmoitusaika": "23.2.2026",
-          "kuukausi": 2,
-          "vuosi": 2026,
-          "ilmoittaja": "Tikkurilan Työväenyhdistys ry",
-          "tuet": [
-            {
-              "nimi": "Tikkurila Säätiö sr",
-              "ytunnus": "1015723-9",
-              "maara": 3500.0
-            }
-          ],
-          "summa_yhteensa": 3500.0
+          "nimi": "Työväenlehdistön Kannatusyhdistys ry",
+          "ytunnus": "0221227-7",
+          "summa": 63000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0117005-2/328/P_AI_202603.html",
-          "ilmoitusaika": "24.3.2026",
-          "kuukausi": 3,
-          "vuosi": 2026,
-          "ilmoittaja": "Tikkurilan Työväenyhdistys ry",
-          "tuet": [
-            {
-              "nimi": "Tikkurila Säätiö sr",
-              "ytunnus": "1015723-9",
-              "maara": 3500.0
-            }
-          ],
-          "summa_yhteensa": 3500.0
+          "nimi": "Paperiliitto r.y.",
+          "ytunnus": "0201825-5",
+          "summa": 62553.86
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0117005-2/P_AI_202502.html",
-          "ilmoitusaika": "4.3.2025",
-          "kuukausi": 2,
-          "vuosi": 2025,
-          "ilmoittaja": "Suomen Sosialidemokraattinen Puolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Suomen Ammattiliittojen Keskusjärjestö SAK ry, ruotsiksi Fin...",
-              "ytunnus": "0202092-9",
-              "maara": 30000.0
-            },
-            {
-              "nimi": "Suomen uusiutuvat ry, Finlands förnybara rf",
-              "ytunnus": "0833651-0",
-              "maara": 1910.0
-            },
-            {
-              "nimi": "Sateenkaariperheet - Regnbågsfamiljer ry",
-              "ytunnus": "2278089-6",
-              "maara": 1850.0
-            },
-            {
-              "nimi": "Energiakaupungit ry",
-              "ytunnus": "3229140-4",
-              "maara": 1910.0
-            },
-            {
-              "nimi": "Akava ry",
-              "ytunnus": "0200918-0",
-              "maara": 2010.0
-            },
-            {
-              "nimi": "Rakennustuoteteollisuus RTT ry, ruotsiksi Byggproduktindustr...",
-              "ytunnus": "0896425-0",
-              "maara": 1760.0
-            },
-            {
-              "nimi": "Suomen Kuljetus ja Logistiikka SKAL ry, Finlands Transport o...",
-              "ytunnus": "0202176-1",
-              "maara": 1510.0
-            },
-            {
-              "nimi": "Hyvinvointiala HALI ry",
-              "ytunnus": "2789560-9",
-              "maara": 2910.0
-            },
-            {
-              "nimi": "Suomen Kunnantyöntekijäin Liitto ry",
-              "ytunnus": "2638688-8",
-              "maara": 2300.0
-            },
-            {
-              "nimi": "AY-demarit ry",
-              "ytunnus": "3432777-3",
-              "maara": 1800.0
-            }
-          ],
-          "summa_yhteensa": 47960.0
+          "nimi": "MA/PI Oy",
+          "ytunnus": "3373738-3",
+          "summa": 51850.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0117005-2/P_AI_202503.html",
-          "ilmoitusaika": "3.4.2025",
-          "kuukausi": 3,
-          "vuosi": 2025,
-          "ilmoittaja": "Suomen Sosialidemokraattinen Puolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Tehy ry, ruotsiksi Tehy rf",
-              "ytunnus": "0469538-0",
-              "maara": 2450.0
-            }
-          ],
-          "summa_yhteensa": 2450.0
+          "nimi": "Teollisuusliiton Demareiden opintoyhdistys",
+          "ytunnus": "",
+          "summa": 30000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0117005-2/P_AI_202510.html",
-          "ilmoitusaika": "22.10.2025",
-          "kuukausi": 10,
-          "vuosi": 2025,
-          "ilmoittaja": "Suomen Sosialidemokraattinen Puolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Paperiliitto r.y.",
-              "ytunnus": "0201825-5",
-              "maara": 23419.33
-            }
-          ],
-          "summa_yhteensa": 23419.33
+          "nimi": "Teollisuusdemareiden opintoyhdistys",
+          "ytunnus": "",
+          "summa": 30000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0117005-2/P_AI_202511.html",
-          "ilmoitusaika": "28.11.2025",
-          "kuukausi": 11,
-          "vuosi": 2025,
-          "ilmoittaja": "Suomen Sosialidemokraattinen Puolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
-              "ytunnus": "0668222-5",
-              "maara": 30000.0
-            }
-          ],
-          "summa_yhteensa": 30000.0
+          "nimi": "Suomen Ammattiliittojen Keskusjärjestö SAK ry, ruotsiksi Fin...",
+          "ytunnus": "0202092-9",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "Hyvinvointiala HALI ry",
+          "ytunnus": "2789560-9",
+          "summa": 2910.0
+        },
+        {
+          "nimi": "Finanssiala ry",
+          "ytunnus": "2068335-5",
+          "summa": 2550.0
+        },
+        {
+          "nimi": "Tehy ry, ruotsiksi Tehy rf",
+          "ytunnus": "0469538-0",
+          "summa": 2450.0
+        },
+        {
+          "nimi": "Teollisuusliitto ry, ruotsiksi Industrifacket rf",
+          "ytunnus": "0201717-2",
+          "summa": 2300.0
+        },
+        {
+          "nimi": "Suomen Osuuskauppojen Keskuskunta",
+          "ytunnus": "0116323-1",
+          "summa": 2300.0
+        },
+        {
+          "nimi": "Suomen Kunnantyöntekijäin Liitto ry",
+          "ytunnus": "2638688-8",
+          "summa": 2300.0
+        },
+        {
+          "nimi": "Akava ry",
+          "ytunnus": "0200918-0",
+          "summa": 2010.0
+        },
+        {
+          "nimi": "Suomen uusiutuvat ry, Finlands förnybara rf",
+          "ytunnus": "0833651-0",
+          "summa": 1910.0
+        },
+        {
+          "nimi": "Energiakaupungit ry",
+          "ytunnus": "3229140-4",
+          "summa": 1910.0
+        },
+        {
+          "nimi": "Sateenkaariperheet - Regnbågsfamiljer ry",
+          "ytunnus": "2278089-6",
+          "summa": 1850.0
+        },
+        {
+          "nimi": "AY-demarit ry",
+          "ytunnus": "3432777-3",
+          "summa": 1800.0
+        },
+        {
+          "nimi": "Rakennustuoteteollisuus RTT ry, ruotsiksi Byggproduktindustr...",
+          "ytunnus": "0896425-0",
+          "summa": 1760.0
         }
-      ],
-      "summa_per_vuosi": {
-        "2026": 24353.63,
-        "2025": 103829.33
-      }
+      ]
     },
     {
       "nimi": "Suomen Keskusta",
       "lyhenne": "KESK",
       "ytunnus": "0179288-7",
-      "ilmoitukset": [],
-      "summa_per_vuosi": {}
+      "ilmoituksia": 60,
+      "tuet_per_vuosi": {
+        "2022": 128397.0,
+        "2023": 2349674.5,
+        "2024": 71984.84,
+        "2025": 8983.0
+      },
+      "top_tukijat": [
+        {
+          "nimi": "Pro Markkinatalous ry",
+          "ytunnus": "3134017-1",
+          "summa": 45000.0
+        },
+        {
+          "nimi": "Matkailu- ja Ravintolapalvelut MaRa ry, Turism- och Restaura...",
+          "ytunnus": "0201951-4",
+          "summa": 25000.0
+        },
+        {
+          "nimi": "Wihuri Oy",
+          "ytunnus": "2557856-2",
+          "summa": 20485.0
+        },
+        {
+          "nimi": "Restel Ravintolat Oy",
+          "ytunnus": "0658353-4",
+          "summa": 20468.0
+        },
+        {
+          "nimi": "Maa- ja metsätaloustuottajain Keskusliitto MTK ry",
+          "ytunnus": "0215194-5",
+          "summa": 10829.0
+        },
+        {
+          "nimi": "Maaseudun Sivistysliitto ry",
+          "ytunnus": "0215192-9",
+          "summa": 10346.130000000001
+        },
+        {
+          "nimi": "Suomenmaan Kustannus Oy",
+          "ytunnus": "2930378-5",
+          "summa": 10340.0
+        },
+        {
+          "nimi": "Tehy ry, ruotsiksi Tehy rf",
+          "ytunnus": "0469538-0",
+          "summa": 9330.0
+        },
+        {
+          "nimi": "Lääketeollisuus ry",
+          "ytunnus": "0881821-0",
+          "summa": 8000.0
+        },
+        {
+          "nimi": "Metsäteollisuus ry, Skogsindustrin rf",
+          "ytunnus": "0215217-1",
+          "summa": 8000.0
+        },
+        {
+          "nimi": "Suomen Ammattiliittojen Keskusjärjestö SAK ry, ruotsiksi Fin...",
+          "ytunnus": "0202092-9",
+          "summa": 7965.0
+        },
+        {
+          "nimi": "Energiateollisuus ry, Finsk Energiindustri rf",
+          "ytunnus": "1924697-5",
+          "summa": 6515.0
+        },
+        {
+          "nimi": "Näkeminen ja silmäterveys NÄE ry, ruotsiksi Syn och ögonhäls...",
+          "ytunnus": "0202285-2",
+          "summa": 5806.0
+        },
+        {
+          "nimi": "Akava ry",
+          "ytunnus": "0200918-0",
+          "summa": 5195.0
+        },
+        {
+          "nimi": "Pohjoisranta BCW Oy",
+          "ytunnus": "1013826-5",
+          "summa": 5040.0
+        },
+        {
+          "nimi": "Pohjolan Voima Oyj",
+          "ytunnus": "0210161-4",
+          "summa": 4870.0
+        },
+        {
+          "nimi": "Tasavallan Parhaaksi ry",
+          "ytunnus": "3347738-2",
+          "summa": 4431.21
+        },
+        {
+          "nimi": "Viking Line Abp",
+          "ytunnus": "0144983-8",
+          "summa": 4000.0
+        },
+        {
+          "nimi": "Julkisten ja hyvinvointialojen liitto JHL ry, Förbundet för ...",
+          "ytunnus": "0116647-5",
+          "summa": 3850.0
+        },
+        {
+          "nimi": "Finanssiala ry",
+          "ytunnus": "2068335-5",
+          "summa": 3495.0
+        }
+      ]
     },
     {
       "nimi": "Vihreä liitto",
       "lyhenne": "VIHR",
       "ytunnus": "0202918-5",
-      "ilmoitukset": [],
-      "summa_per_vuosi": {}
+      "ilmoituksia": 112,
+      "tuet_per_vuosi": {
+        "2022": 73620.0,
+        "2023": 134617.0,
+        "2024": 127414.5,
+        "2025": 38348.5
+      },
+      "top_tukijat": [
+        {
+          "nimi": "Pro Markkinatalous ry",
+          "ytunnus": "3134017-1",
+          "summa": 20000.0
+        },
+        {
+          "nimi": "Intensify Oy",
+          "ytunnus": "3126385-8",
+          "summa": 17000.0
+        },
+        {
+          "nimi": "Perttu Jussilan tukiyhdistys ry",
+          "ytunnus": "3334011-6",
+          "summa": 5285.0
+        },
+        {
+          "nimi": "GynMedi Oy",
+          "ytunnus": "2133234-6",
+          "summa": 5000.0
+        },
+        {
+          "nimi": "Ammattiliitto Pro ry, Fackförbundet Pro rf",
+          "ytunnus": "0215350-2",
+          "summa": 2200.0
+        },
+        {
+          "nimi": "Metsäteollisuus ry, Skogsindustrin rf",
+          "ytunnus": "0215217-1",
+          "summa": 2200.0
+        },
+        {
+          "nimi": "Sofia Virran vaalituki ry",
+          "ytunnus": "3335082-4",
+          "summa": 2000.0
+        },
+        {
+          "nimi": "Energiateollisuus ry, Finsk Energiindustri rf",
+          "ytunnus": "1924697-5",
+          "summa": 2000.0
+        }
+      ]
     },
     {
       "nimi": "Vasemmistoliitto",
       "lyhenne": "VAS",
       "ytunnus": "0802437-3",
-      "ilmoitukset": [
+      "ilmoituksia": 46,
+      "tuet_per_vuosi": {
+        "2022": 52208.0,
+        "2023": 54954.0,
+        "2024": 43866.58,
+        "2025": 80500.0,
+        "2026": 2000.0
+      },
+      "top_tukijat": [
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0802437-3/154.357/P_AI_202601.html",
-          "ilmoitusaika": "3.2.2026",
-          "kuukausi": 1,
-          "vuosi": 2026,
-          "ilmoittaja": "Helsingin Vasemmistoliitto ry",
-          "tuet": [
-            {
-              "nimi": "Helsingin Osuuskauppa Elanto",
-              "ytunnus": "1837954-9",
-              "maara": 3683.33
-            }
-          ],
-          "summa_yhteensa": 3683.33
+          "nimi": "Teollisuuspiiri ry",
+          "ytunnus": "1752462-8",
+          "summa": 30000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0802437-3/39.883/P_AI_202602.html",
-          "ilmoitusaika": "4.2.2026",
-          "kuukausi": 2,
-          "vuosi": 2026,
-          "ilmoittaja": "Pirkanmaan Vasemmistoliitto ry",
-          "tuet": [
-            {
-              "nimi": "Ylöjärven Työväenyhdistys r.y.",
-              "ytunnus": "1059625-8",
-              "maara": 6000.0
-            }
-          ],
-          "summa_yhteensa": 6000.0
+          "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
+          "ytunnus": "0668222-5",
+          "summa": 30000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0802437-3/P_AI_202601.html",
-          "ilmoitusaika": "10.2.2026",
-          "kuukausi": 1,
-          "vuosi": 2026,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Osuuskunta Tradeka",
+          "ytunnus": "0196885-7",
+          "summa": 29000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202502.html",
-          "ilmoitusaika": "12.3.2025",
-          "kuukausi": 2,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Avantisäätiö sr",
+          "ytunnus": "1571313-4",
+          "summa": 18308.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202503.html",
-          "ilmoitusaika": "9.4.2025",
-          "kuukausi": 3,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Stiftelsen för det tvåspråkiga Finland sr",
+          "ytunnus": "1749439-3",
+          "summa": 15000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202504.html",
-          "ilmoitusaika": "8.5.2025",
-          "kuukausi": 4,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Julkisen alan Punarinnat ry",
+          "ytunnus": "3062963-5",
+          "summa": 10000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202505.html",
-          "ilmoitusaika": "3.6.2025",
-          "kuukausi": 5,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Kulttuurityön Keskus ry",
+          "ytunnus": "0201544-1",
+          "summa": 5000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202506.html",
-          "ilmoitusaika": "5.7.2025",
-          "kuukausi": 6,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Raideammattilaisten vasemmistoryhmä ry",
+          "ytunnus": "3325884-1",
+          "summa": 4400.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202507.html",
-          "ilmoitusaika": "5.8.2025",
-          "kuukausi": 7,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Turun Itäinen Järjestöyhdistys r.y.",
+          "ytunnus": "0276649-9",
+          "summa": 3000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202508.html",
-          "ilmoitusaika": "10.9.2025",
-          "kuukausi": 8,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [
-            {
-              "nimi": "Julkisen alan Punarinnat ry",
-              "ytunnus": "3062963-5",
-              "maara": 5000.0
-            }
-          ],
-          "summa_yhteensa": 5000.0
+          "nimi": "Keskinäinen Vakuutusyhtiö Turva",
+          "ytunnus": "0211695-5",
+          "summa": 2900.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202509.html",
-          "ilmoitusaika": "7.10.2025",
-          "kuukausi": 9,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [
-            {
-              "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
-              "ytunnus": "0668222-5",
-              "maara": 7500.0
-            },
-            {
-              "nimi": "Teollisuuspiiri ry",
-              "ytunnus": "1752462-8",
-              "maara": 10000.0
-            }
-          ],
-          "summa_yhteensa": 17500.0
+          "nimi": "Työväenjärjestöjen Tukisäätiö sr",
+          "ytunnus": "1576422-2",
+          "summa": 2500.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202510.html",
-          "ilmoitusaika": "3.11.2025",
-          "kuukausi": 10,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Tradeka-palvelut Oy",
+          "ytunnus": "2449038-2",
+          "summa": 2000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202511.html",
-          "ilmoitusaika": "23.12.2025",
-          "kuukausi": 11,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Kemijärven Työväenjärjestöt r.y.",
+          "ytunnus": "0210509-2",
+          "summa": 2000.0
         },
         {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0802437-3/P_AI_202512.html",
-          "ilmoitusaika": "10.1.2026",
-          "kuukausi": 12,
-          "vuosi": 2025,
-          "ilmoittaja": "Vasemmistoliitto r.p.",
-          "tuet": [],
-          "summa_yhteensa": 0.0
+          "nimi": "Kutomatyöläisten Säätiö sr",
+          "ytunnus": "0155461-1",
+          "summa": 2000.0
         }
-      ],
-      "summa_per_vuosi": {
-        "2026": 9683.33,
-        "2025": 22500.0
-      }
+      ]
     },
     {
       "nimi": "Suomen ruotsalainen kansanpuolue",
       "lyhenne": "RKP",
       "ytunnus": "0215325-4",
-      "ilmoitukset": [
-        {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0215325-4/2290015-7/P_AI_202602.html",
-          "ilmoitusaika": "10.2.2026",
-          "kuukausi": 2,
-          "vuosi": 2026,
-          "ilmoittaja": "Svenska folkpartiet i Egentliga Finland r.f.",
-          "tuet": [
-            {
-              "nimi": "Svenska litteratursällskapet i Finland rf",
-              "ytunnus": "0200138-1",
-              "maara": 30000.0
-            }
-          ],
-          "summa_yhteensa": 30000.0
-        },
-        {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2026/0215325-4/2282048-0/P_AI_202601.html",
-          "ilmoitusaika": "10.2.2026",
-          "kuukausi": 1,
-          "vuosi": 2026,
-          "ilmoittaja": "Svenska folkpartiet i Nyland r.f.",
-          "tuet": [
-            {
-              "nimi": "Svenska litteratursällskapet i Finland rf",
-              "ytunnus": "0200138-1",
-              "maara": 30000.0
-            }
-          ],
-          "summa_yhteensa": 30000.0
-        },
-        {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0215325-4/P_AI_202504.html",
-          "ilmoitusaika": "8.5.2025",
-          "kuukausi": 4,
-          "vuosi": 2025,
-          "ilmoittaja": "Suomen ruotsalainen kansanpuolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Fonden för intressebevakning av det svenska i Finland",
-              "ytunnus": null,
-              "maara": 2155793.0
-            }
-          ],
-          "summa_yhteensa": 2155793.0
-        },
-        {
-          "url": "https://www.vaalirahoitusvalvonta.fi/fi/index/puoluerahoitus/Puoluerahoitusvalvonnanilmoitukset/ajantasaisetilmoitukset/2025/0215325-4/P_AI_202512.html",
-          "ilmoitusaika": "14.1.2026",
-          "kuukausi": 12,
-          "vuosi": 2025,
-          "ilmoittaja": "Suomen ruotsalainen kansanpuolue r.p.",
-          "tuet": [
-            {
-              "nimi": "Amos Andersons fond rf",
-              "ytunnus": "0200196-3",
-              "maara": 30000.0
-            }
-          ],
-          "summa_yhteensa": 30000.0
-        }
-      ],
-      "summa_per_vuosi": {
-        "2026": 60000.0,
+      "ilmoituksia": 19,
+      "tuet_per_vuosi": {
+        "2022": 1856707.23,
+        "2023": 1974204.92,
+        "2024": 2141172.27,
         "2025": 2185793.0
-      }
+      },
+      "top_tukijat": [
+        {
+          "nimi": "Fonden för intressebevakning av det svenska i Finland",
+          "ytunnus": "",
+          "summa": 7932374.0
+        },
+        {
+          "nimi": "Föreningen Konstsamfundet r.f.",
+          "ytunnus": "0200196-3",
+          "summa": 90000.0
+        },
+        {
+          "nimi": "Utdelningsstiftelsen för Svenska kulturfonden sr",
+          "ytunnus": "2379356-8",
+          "summa": 48011.44
+        },
+        {
+          "nimi": "Amos Andersons fond rf",
+          "ytunnus": "0200196-3",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "Pro Markkinatalous ry",
+          "ytunnus": "3134017-1",
+          "summa": 27500.0
+        },
+        {
+          "nimi": "Svenska Bildningsförbundet r.f.",
+          "ytunnus": "0930069-1",
+          "summa": 27076.949999999997
+        },
+        {
+          "nimi": "Liberalibus rf",
+          "ytunnus": "2870868-4",
+          "summa": 2915.03
+        }
+      ]
     },
     {
       "nimi": "Kristillisdemokraatit",
       "lyhenne": "KD",
       "ytunnus": "0117098-5",
-      "ilmoitukset": [],
-      "summa_per_vuosi": {}
+      "ilmoituksia": 24,
+      "tuet_per_vuosi": {
+        "2022": 45406.68,
+        "2023": 22494.88,
+        "2024": 19221.92,
+        "2025": 10000.0
+      },
+      "top_tukijat": [
+        {
+          "nimi": "Pro Markkinatalous ry",
+          "ytunnus": "3134017-1",
+          "summa": 41500.0
+        },
+        {
+          "nimi": "Porin kaupunki",
+          "ytunnus": "",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "Suomen Eduskunta",
+          "ytunnus": "",
+          "summa": 9838.9
+        },
+        {
+          "nimi": "Helsingin Osuuskauppa Elanto",
+          "ytunnus": "1837954-9",
+          "summa": 6700.0
+        },
+        {
+          "nimi": "Konsultointi Laaksoharju",
+          "ytunnus": "2275208-6",
+          "summa": 2100.0
+        },
+        {
+          "nimi": "Suomen eduskunta",
+          "ytunnus": "",
+          "summa": 1967.78
+        },
+        {
+          "nimi": "Keitele Forest Oy",
+          "ytunnus": "0696032-8",
+          "summa": 1500.0
+        }
+      ]
     },
     {
       "nimi": "Liike Nyt",
       "lyhenne": "LIIK",
       "ytunnus": "3046798-7",
-      "ilmoitukset": [],
-      "summa_per_vuosi": {}
+      "ilmoituksia": 9,
+      "tuet_per_vuosi": {
+        "2022": 10000.0,
+        "2023": 2700.0,
+        "2024": 24087.76
+      },
+      "top_tukijat": [
+        {
+          "nimi": "Hjallis Promotion Ab Oy",
+          "ytunnus": "0871441-1",
+          "summa": 22700.0
+        },
+        {
+          "nimi": "Helsinki Supply",
+          "ytunnus": "2691583-1",
+          "summa": 6587.76
+        },
+        {
+          "nimi": "All Elements Oy",
+          "ytunnus": "2308405-9",
+          "summa": 3000.0
+        },
+        {
+          "nimi": "Kiinteistö Oy Lisenssikatu",
+          "ytunnus": "1887731-0",
+          "summa": 1500.0
+        },
+        {
+          "nimi": "KMR Installation Oy",
+          "ytunnus": "3011307-3",
+          "summa": 1500.0
+        },
+        {
+          "nimi": "Kaune Oy",
+          "ytunnus": "1070802-9",
+          "summa": 1500.0
+        }
+      ]
     }
   ]
 }
