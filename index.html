@@ -5518,7 +5518,7 @@ const RAH_VARIT = {
 };
 
 // ── Tila ────────────────────────────────────────────────────────
-let rahOsio   = 'valtio';   // 'valtio' | 'yksityinen'
+let rahOsio   = 'valtio';   // 'valtio' | 'yksityinen' | 'vaalirahoitus'
 let rahValtioVuosi = 2025;
 let rahValtioTab   = 'palkki';
 let rahYksiTab     = 'yhteenveto';
@@ -5547,7 +5547,7 @@ function renderRahoitusNakyma() {
     </div>
 
     <!-- Osionvalitsin -->
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:1.2rem">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:.5rem;margin-bottom:1.2rem">
       <button onclick="rahOsio='valtio';renderRahoitusNakyma()"
         style="padding:.75rem;border-radius:8px;cursor:pointer;font-family:'Orbitron',monospace;font-size:.62rem;letter-spacing:.08em;transition:all .2s;
         border:2px solid ${rahOsio==='valtio'?'#4ade80':'#1a2a55'};
@@ -5562,10 +5562,17 @@ function renderRahoitusNakyma() {
         background:${rahOsio==='yksityinen'?'rgba(0,245,255,.1)':'rgba(8,13,31,.6)'};
         color:${rahOsio==='yksityinen'?'#00f5ff':'#5a7a99'}">
         🏢 YKSITYINEN RAHOITUS<br>
-        <span style="font-size:.55rem;font-family:'Rajdhani',sans-serif;opacity:.8">Tukijat 2010–2026</span>
+        <span style="font-size:.55rem;font-family:'Rajdhani',sans-serif;opacity:.8">Puolueet 2010–2026</span>
       </button>
-    </div>
-  </div>
+      <button onclick="rahOsio='vaalirahoitus';renderRahoitusNakyma()"
+        style="padding:.75rem;border-radius:8px;cursor:pointer;font-family:'Orbitron',monospace;font-size:.62rem;letter-spacing:.08em;transition:all .2s;
+        border:2px solid ${rahOsio==='vaalirahoitus'?'#00f5a0':'#1a2a55'};
+        background:${rahOsio==='vaalirahoitus'?'rgba(0,245,160,.1)':'rgba(8,13,31,.6)'};
+        color:${rahOsio==='vaalirahoitus'?'#00f5a0':'#5a7a99'}">
+        💶 EDUSTAJIEN KAMPANJA<br>
+        <span style="font-size:.55rem;font-family:'Rajdhani',sans-serif;opacity:.8">Eduskuntavaalit 2023</span>
+      </button>
+    </div>  </div>
 
   <!-- Sisältö -->
   <div style="flex:1;overflow-y:auto;padding:0 1.5rem 2rem" id="rahSisalto">
@@ -5575,8 +5582,10 @@ function renderRahoitusNakyma() {
   // Renderöi valittu osio
   if (rahOsio === 'valtio') {
     renderValtioOsio();
-  } else {
+  } else if (rahOsio === 'yksityinen') {
     renderYksiOsio();
+  } else {
+    renderVaaliRahoitusOsio();
   }
 }
 
@@ -5901,6 +5910,185 @@ function renderYksiSisalto() {
     <div style="margin-top:.5rem;font-size:.58rem;color:#5a7a99">Summat: k€ = tuhatta euroa, M€ = miljoonaa euroa</div>`;
     return;
   }
+}
+
+/* ================================================================
+   RAHOITUSNÄKYMÄ OSIO 3: EDUSTAJIEN KAMPANJARAHOITUS
+   Eduskuntavaalit 2023 — ehdokaskohtainen VTV-data
+   ================================================================ */
+async function renderVaaliRahoitusOsio() {
+  const sisalto = document.getElementById('rahSisalto');
+
+  if (!VAALIRAHOITUS_LADATTU) {
+    sisalto.innerHTML = '<div class="spinner" style="margin:3rem auto"></div>';
+    try {
+      const r = await fetch('https://kuusistot87-ctrl.github.io/politiikkaporssi/vaalirahoitus_json/eduskuntavaalit2023.json');
+      VAALIRAHOITUS_DATA = await r.json();
+      VAALIRAHOITUS_LADATTU = true;
+    } catch(e) {
+      sisalto.innerHTML = `<div style="color:#ff4d6d;padding:2rem;font-size:.85rem">
+        Kampanjarahoitusdataa ei saatavilla.<br>
+        <small style="color:#5a7a99">Tarkista että vaalirahoitus_json/eduskuntavaalit2023.json on GitHubissa.</small>
+      </div>`;
+      return;
+    }
+  }
+
+  const ehdokkaat = VAALIRAHOITUS_DATA.ehdokkaat || [];
+  const kokoRah   = ehdokkaat.reduce((s,e)=>s+(e.rahoitus_yhteensa||0),0);
+  const kokoKul   = ehdokkaat.reduce((s,e)=>s+(e.kulut_yhteensa||0),0);
+  const maxRah    = Math.max(...ehdokkaat.map(e=>e.rahoitus_yhteensa||0));
+
+  // Jarjestä + suodata
+  function jarjestaJaSuodata() {
+    let lista = [...ehdokkaat];
+    if (rahVaaliHaku.trim()) {
+      const h = rahVaaliHaku.toLowerCase();
+      lista = lista.filter(e => (e.nimi||'').toLowerCase().includes(h) || (e.puolue||'').toLowerCase().includes(h));
+    }
+    if (rahVaaliJarjestys === 'rahoitus') lista.sort((a,b)=>(b.rahoitus_yhteensa||0)-(a.rahoitus_yhteensa||0));
+    else if (rahVaaliJarjestys === 'kulut')  lista.sort((a,b)=>(b.kulut_yhteensa||0)-(a.kulut_yhteensa||0));
+    else lista.sort((a,b)=>(a.nimi||'').localeCompare(b.nimi||'', 'fi'));
+    return lista;
+  }
+
+  sisalto.innerHTML = `
+    <!-- Varoitusbanneri: kyse on VAALIRAHOITUKSESTA, ei jatkuvasta tulovirrasta -->
+    <div style="margin-bottom:1rem;padding:.75rem 1rem;background:rgba(0,245,160,.06);border:1px solid rgba(0,245,160,.25);border-radius:8px;display:flex;gap:.75rem;align-items:flex-start">
+      <span style="font-size:1.1rem;flex-shrink:0">🗳️</span>
+      <div>
+        <div style="font-family:'Orbitron',monospace;font-size:.62rem;font-weight:700;color:#00f5a0;letter-spacing:.1em;margin-bottom:.25rem">EDUSKUNTAVAALIT 2023 — KAMPANJARAHOITUS</div>
+        <div style="font-size:.7rem;color:#a0b4c8;line-height:1.5">
+          Tämä osio näyttää <strong style="color:#e8f4ff">yksittäisten ehdokkaiden</strong> ilmoittaman kampanjarahoituksen ja -kulut eduskuntavaaleissa 2023.
+          Kyseessä on <strong style="color:#e8f4ff">kertaluonteinen vaalirahoitus</strong> — ei puolueen jatkuva tuki eikä palkka.
+          Lähde: Valtiontalouden tarkastusvirasto (VTV) · Sisältää ≥1 500 € yksittäiset tuet.
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI-kortit -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin-bottom:1rem">
+      <div style="background:rgba(0,245,160,.07);border:1px solid rgba(0,245,160,.2);border-radius:8px;padding:.8rem;text-align:center">
+        <div style="font-size:.55rem;color:#00f5a0;letter-spacing:.12em;font-family:'Orbitron',monospace;margin-bottom:.2rem">KAMPANJARAHAA YHT.</div>
+        <div style="font-size:1.1rem;font-weight:700;color:#e8f4ff">${(kokoRah/1e6).toFixed(2)} M€</div>
+        <div style="font-size:.58rem;color:#5a7a99;margin-top:.15rem">kaikki ehdokkaat</div>
+      </div>
+      <div style="background:rgba(0,245,160,.07);border:1px solid rgba(0,245,160,.2);border-radius:8px;padding:.8rem;text-align:center">
+        <div style="font-size:.55rem;color:#00f5a0;letter-spacing:.12em;font-family:'Orbitron',monospace;margin-bottom:.2rem">KAMPANJAKULUT YHT.</div>
+        <div style="font-size:1.1rem;font-weight:700;color:#e8f4ff">${(kokoKul/1e6).toFixed(2)} M€</div>
+        <div style="font-size:.58rem;color:#5a7a99;margin-top:.15rem">kaikki ehdokkaat</div>
+      </div>
+      <div style="background:rgba(0,245,160,.07);border:1px solid rgba(0,245,160,.2);border-radius:8px;padding:.8rem;text-align:center">
+        <div style="font-size:.55rem;color:#00f5a0;letter-spacing:.12em;font-family:'Orbitron',monospace;margin-bottom:.2rem">EHDOKKAAT</div>
+        <div style="font-size:1.1rem;font-weight:700;color:#e8f4ff">${ehdokkaat.length} kpl</div>
+        <div style="font-size:.58rem;color:#5a7a99;margin-top:.15rem">ilmoituksen jättänyttä</div>
+      </div>
+    </div>
+
+    <!-- Haku + järjestys -->
+    <div style="display:flex;gap:.5rem;margin-bottom:.85rem;flex-wrap:wrap;align-items:center">
+      <input id="rahVaaliHakuInput" type="text" placeholder="🔍  Hae nimellä tai puolueella…"
+        value="${rahVaaliHaku}"
+        oninput="rahVaaliHaku=this.value;renderVaaliLista()"
+        style="flex:1;min-width:160px;background:#0b1128;border:1px solid #1a2a55;border-radius:6px;
+               padding:.5rem .8rem;color:#e8f4ff;font-family:'Rajdhani',sans-serif;font-size:.8rem;outline:none">
+      <div style="display:flex;gap:.35rem;flex-shrink:0">
+        ${['rahoitus','kulut','nimi'].map(j=>`
+          <button onclick="rahVaaliJarjestys='${j}';renderVaaliLista()"
+            style="font-family:'Orbitron',monospace;font-size:.55rem;padding:.35rem .6rem;
+            border:1px solid ${rahVaaliJarjestys===j?'#00f5a0':'#1a2a55'};
+            background:${rahVaaliJarjestys===j?'rgba(0,245,160,.12)':'transparent'};
+            color:${rahVaaliJarjestys===j?'#00f5a0':'#5a7a99'};border-radius:4px;cursor:pointer">
+            ${{rahoitus:'↓ Rahoitus',kulut:'↓ Kulut',nimi:'A–Ö Nimi'}[j]}
+          </button>`).join('')}
+      </div>
+    </div>
+
+    <!-- Lista -->
+    <div id="rahVaaliLista"></div>
+
+    <div style="margin-top:1rem;padding:.65rem;background:rgba(0,245,160,.04);border:1px solid rgba(0,245,160,.12);border-radius:6px;font-size:.6rem;color:#5a7a99;line-height:1.6">
+      📋 Lähde: Valtiontalouden tarkastusvirasto (VTV) · Eduskuntavaalit 2023
+      · <a href="https://www.vaalirahoitusvalvonta.fi" target="_blank" style="color:#00f5a0">vaalirahoitusvalvonta.fi</a>
+      · Sisältää ≥1 500 € yksittäiset tuet
+    </div>`;
+
+  // Aseta globaali data listafunktiolle
+  window._rahVaaliData = { ehdokkaat, maxRah };
+  renderVaaliLista();
+}
+
+function renderVaaliLista() {
+  const el = document.getElementById('rahVaaliLista');
+  if (!el || !window._rahVaaliData) return;
+  const { ehdokkaat, maxRah } = window._rahVaaliData;
+
+  let lista = [...ehdokkaat];
+  if (rahVaaliHaku.trim()) {
+    const h = rahVaaliHaku.toLowerCase();
+    lista = lista.filter(e => (e.nimi||'').toLowerCase().includes(h) || (e.puolue||'').toLowerCase().includes(h));
+  }
+  if (rahVaaliJarjestys === 'rahoitus') lista.sort((a,b)=>(b.rahoitus_yhteensa||0)-(a.rahoitus_yhteensa||0));
+  else if (rahVaaliJarjestys === 'kulut') lista.sort((a,b)=>(b.kulut_yhteensa||0)-(a.kulut_yhteensa||0));
+  else lista.sort((a,b)=>(a.nimi||'').localeCompare(b.nimi||'', 'fi'));
+
+  if (!lista.length) {
+    el.innerHTML = '<div style="color:#5a7a99;text-align:center;padding:2rem;font-size:.8rem">Ei hakutuloksia</div>';
+    return;
+  }
+
+  el.innerHTML = lista.map((e, idx) => {
+    const vari = RAH_VARIT[e.puolue] || '#5a7a99';
+    const rah  = e.rahoitus_yhteensa || 0;
+    const kul  = e.kulut_yhteensa || 0;
+    const pct  = Math.round((rah / maxRah) * 100);
+    const ylijaamaArvo = rah - kul;
+    const ylijaamaVari = ylijaamaArvo >= 0 ? '#4ade80' : '#ff4d6d';
+    const top3 = (e.top_tukijat || []).slice(0, 3);
+
+    return `
+    <div style="margin-bottom:.65rem;background:rgba(8,13,31,.6);border:1px solid #1a2a55;border-radius:8px;padding:.85rem 1rem"
+         onmouseover="this.style.borderColor='${vari}'" onmouseout="this.style.borderColor='#1a2a55'">
+
+      <!-- Yläosa: nimi + luvut -->
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem;margin-bottom:.5rem">
+        <div style="min-width:0">
+          <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">
+            <span style="font-family:'Orbitron',monospace;font-size:.65rem;font-weight:700;
+                         color:${vari};background:${vari}18;border:1px solid ${vari}55;
+                         padding:.1rem .4rem;border-radius:3px">${e.puolue||'–'}</span>
+            <span style="font-size:.82rem;font-weight:600;color:#e8f4ff">${e.nimi||'–'}</span>
+            ${e.vaalipiiri ? `<span style="font-size:.62rem;color:#5a7a99">${e.vaalipiiri}</span>` : ''}
+          </div>
+          ${e.tukijat_lkm ? `<div style="font-size:.6rem;color:#5a7a99;margin-top:.2rem">${e.tukijat_lkm} ilmoitettua tukijaa</div>` : ''}
+        </div>
+        <div style="text-align:right;flex-shrink:0">
+          <div style="font-family:'Orbitron',monospace;font-size:.88rem;font-weight:700;color:#00f5a0">${(rah/1000).toFixed(1)} k€</div>
+          <div style="font-size:.58rem;color:#5a7a99">kampanjarahoitus</div>
+          ${kul ? `<div style="font-size:.62rem;color:#5a7a99;margin-top:.1rem">Kulut: ${(kul/1000).toFixed(1)} k€
+            <span style="color:${ylijaamaVari};margin-left:.3rem">(${ylijaamaArvo>=0?'+':''}${(ylijaamaArvo/1000).toFixed(1)} k€)</span>
+          </div>` : ''}
+        </div>
+      </div>
+
+      <!-- Rahoituspalkki -->
+      <div style="background:#0b1128;border-radius:3px;height:5px;overflow:hidden;margin-bottom:.5rem">
+        <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,#00f5a0,${vari});border-radius:3px;transition:width .4s ease"></div>
+      </div>
+
+      <!-- Top tukijat -->
+      ${top3.length ? `
+      <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+        ${top3.map(t=>`
+          <div style="font-size:.6rem;background:rgba(0,245,160,.06);border:1px solid rgba(0,245,160,.15);
+               border-radius:4px;padding:.2rem .5rem;color:#a0b4c8;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"
+               title="${t.nimi} — ${(t.summa/1000).toFixed(0)} k€">
+            <span style="color:#00f5a0">${(t.summa/1000).toFixed(0)} k€</span> ${t.nimi}
+          </div>`).join('')}
+        ${(e.top_tukijat||[]).length > 3 ? `<div style="font-size:.6rem;color:#3a5a77;padding:.2rem .4rem">+${(e.top_tukijat||[]).length-3} muuta</div>` : ''}
+      </div>` : ''}
+    </div>`;
+  }).join('');
 }
 
 /* ================================================================
