@@ -27,7 +27,7 @@ jobs:
         run: pip install requests
 
       - name: Hae äänestysdata
-        run: python skriptit/hae_aanestykset.py
+        run: python .github/scripts/hae_aanestykset.py
 
       - name: Commitoi ja push (rebase-strategia)
         run: |
