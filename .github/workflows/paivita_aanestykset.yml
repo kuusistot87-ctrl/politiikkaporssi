@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0          # Koko historia — tarvitaan rebase-varten
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
@@ -27,25 +27,20 @@ jobs:
         run: pip install requests
 
       - name: Hae äänestysdata
-        run: python .github/scripts/hae_aanestykset.py
+        run: |
+          cp edustajat_json/index_with_personid.json edustajat_json/index.json
+          python .github/scripts/hae_aanestykset.py
 
       - name: Commitoi ja push (rebase-strategia)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Pull ensin rebase-strategialla — välttää konfliktit
           git pull --rebase --autostash origin main
-
-          # Lisää vain JSON-tiedostot — ei kosketa index.html:ään
           git add aanestykset_json/
-
-          # Commitoi vain jos muutoksia
           if git diff --staged --quiet; then
             echo "Ei muutoksia äänestysdata — skipataan commit"
           else
             git commit -m "Auto: päivitä äänestysdata $(date +'%d.%m.%Y %H:%M')"
-            # Push retry-loopilla jos samanaikainen push törmää
             for i in 1 2 3; do
               git push && break
               echo "Push epäonnistui, yritetään uudelleen ($i/3)..."
