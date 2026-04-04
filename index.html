@@ -6494,6 +6494,25 @@ function renderVertVaalirahoitus(m1, m2, pv1, pv2) {
     return VAALIRAHOITUS_DATA.ehdokkaat.find(e => e.nimi_avain === avain) || null;
   }
 
+  function tukijatLista(ehd, pv) {
+    if (!ehd || !ehd.top_tukijat || ehd.top_tukijat.length === 0)
+      return `<div style="color:#5a7a99;font-size:.65rem;padding:.5rem 0">Ei tukijadataa</div>`;
+    const maxT = ehd.top_tukijat[0].summa || 1;
+    return ehd.top_tukijat.map((t, i) => {
+      const nimi = (t.tukija || ((t.etunimi||'') + ' ' + (t.sukunimi||'')).trim()) || '–';
+      const pct  = Math.round((t.summa / maxT) * 100);
+      return `<div style="margin-bottom:.35rem;padding:.4rem .55rem;background:rgba(8,13,31,.7);border:1px solid #1a2a55;border-radius:4px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:.3rem;margin-bottom:.15rem">
+          <div style="font-size:.6rem;color:#c8d8e8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${i+1}. ${nimi}</div>
+          <div style="font-family:'Orbitron',monospace;font-size:.57rem;color:${pv};flex-shrink:0">${t.summa.toLocaleString('fi-FI')} €</div>
+        </div>
+        <div style="background:#0b1128;border-radius:2px;height:3px;overflow:hidden">
+          <div style="height:100%;width:${pct}%;background:${pv};opacity:.7;border-radius:2px"></div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
   const e1 = haeEhd(m1), e2 = haeEhd(m2);
   if (!e1 && !e2) return '';
 
@@ -6523,16 +6542,20 @@ function renderVertVaalirahoitus(m1, m2, pv1, pv2) {
           ${e2 ? `<div style="font-size:.58rem;color:#5a7a99;margin-top:.15rem">${e2.tukijat_lkm} tukijaa</div>` : ''}
         </div>
       </div>
-      ${e1 && e1.top_tukijat && e1.top_tukijat.length > 0 ? `
-      <div style="font-size:.6rem;color:#5a7a99;margin-bottom:.25rem">Suurin tukija (${m1.nimi.split(' ').pop()}):
-        <span style="color:${pv1}">${(e1.top_tukijat[0].tukija || e1.top_tukijat[0].etunimi+' '+e1.top_tukijat[0].sukunimi).trim()}</span>
-        <span style="color:#a0b4c8"> ${e1.top_tukijat[0].summa.toLocaleString('fi-FI')} €</span>
-      </div>` : ''}
-      ${e2 && e2.top_tukijat && e2.top_tukijat.length > 0 ? `
-      <div style="font-size:.6rem;color:#5a7a99">Suurin tukija (${m2.nimi.split(' ').pop()}):
-        <span style="color:${pv2}">${(e2.top_tukijat[0].tukija || e2.top_tukijat[0].etunimi+' '+e2.top_tukijat[0].sukunimi).trim()}</span>
-        <span style="color:#a0b4c8"> ${e2.top_tukijat[0].summa.toLocaleString('fi-FI')} €</span>
-      </div>` : ''}
+      <!-- Tukijalistat rinnakkain -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:.6rem">
+        <div>
+          <div style="font-size:.55rem;color:${pv1};font-family:'Orbitron',monospace;letter-spacing:.1em;margin-bottom:.35rem">${m1.nimi.split(' ').pop().toUpperCase()} · TUKIJAT</div>
+          ${tukijatLista(e1, pv1)}
+        </div>
+        <div>
+          <div style="font-size:.55rem;color:${pv2};font-family:'Orbitron',monospace;letter-spacing:.1em;margin-bottom:.35rem">${m2.nimi.split(' ').pop().toUpperCase()} · TUKIJAT</div>
+          ${tukijatLista(e2, pv2)}
+        </div>
+      </div>
+      <div style="margin-top:.6rem;font-size:.55rem;color:#5a7a99;padding:.35rem .5rem;background:rgba(0,245,160,.04);border:1px solid rgba(0,245,160,.1);border-radius:4px">
+        📋 VTV · Eduskuntavaalit 2023 · Sisältää ≥1 500 € yksittäiset tuet
+      </div>
     </div>`;
 }
 
