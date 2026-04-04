@@ -1,7 +1,19 @@
 {
-  "paivitetty": "2026-04-04T06:15:16Z",
+  "paivitetty": "2026-04-04T06:19:12Z",
   "lahde": "vaalirahoitusvalvonta.fi — CSV-tietoaineistot",
   "vuodet": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
     "2022",
     "2023",
     "2024",
@@ -13,8 +25,19 @@
       "nimi": "Kansallinen Kokoomus",
       "lyhenne": "KOK",
       "ytunnus": "0213498-5",
-      "ilmoituksia": 29,
+      "ilmoituksia": 158,
       "tuet_per_vuosi": {
+        "2011": 609900.0,
+        "2012": 200000.0,
+        "2013": 150000.0,
+        "2014": 302000.0,
+        "2015": 538247.0,
+        "2016": 101547.51,
+        "2017": 200000.0,
+        "2018": 161500.0,
+        "2019": 721550.0,
+        "2020": 225000.0,
+        "2021": 341450.0,
         "2022": 190000.0,
         "2023": 910500.0,
         "2024": 100000.0,
@@ -25,12 +48,42 @@
         {
           "nimi": "Kansallisen Kokoomuspuolueen Säätiö sr",
           "ytunnus": "1491706-3",
-          "summa": 1100000.0
+          "summa": 2500000.0
+        },
+        {
+          "nimi": "Kansallisen Kokoomuspuolueen Säätiö",
+          "ytunnus": "1491706-3",
+          "summa": 1400000.0
         },
         {
           "nimi": "Pro Markkinatalous ry",
           "ytunnus": "3134017-1",
-          "summa": 50000.0
+          "summa": 80000.0
+        },
+        {
+          "nimi": "Teollisuuden ja Työnantajain Keskusliiton (TT) -säätiö",
+          "ytunnus": "1933538-8",
+          "summa": 60000.0
+        },
+        {
+          "nimi": "Notalar Oy",
+          "ytunnus": "1087167-8",
+          "summa": 45000.0
+        },
+        {
+          "nimi": "Versowood Oy",
+          "ytunnus": "1080944-4",
+          "summa": 35000.0
+        },
+        {
+          "nimi": "Pontos Oy",
+          "ytunnus": "2119855-4",
+          "summa": 35000.0
+        },
+        {
+          "nimi": "Avain Yhtiöt Oy",
+          "ytunnus": "2308788-2",
+          "summa": 30000.0
         },
         {
           "nimi": "Wihuri Packaging Oy",
@@ -43,14 +96,34 @@
           "summa": 25000.0
         },
         {
-          "nimi": "Versowood Oy",
-          "ytunnus": "1080944-4",
+          "nimi": "Broman Group Oy",
+          "ytunnus": "1735587-9",
           "summa": 20000.0
         },
         {
-          "nimi": "Notalar Oy",
-          "ytunnus": "1087167-8",
+          "nimi": "Wihuri Oy",
+          "ytunnus": "2557856-2",
           "summa": 20000.0
+        },
+        {
+          "nimi": "T2H Group Oy",
+          "ytunnus": "2946659-2",
+          "summa": 20000.0
+        },
+        {
+          "nimi": "Troll Capital Oy",
+          "ytunnus": "1545015-1",
+          "summa": 15000.0
+        },
+        {
+          "nimi": "Aarnio-Wihuri Antti Ilmari",
+          "ytunnus": "1382144-9",
+          "summa": 15000.0
+        },
+        {
+          "nimi": "Oy Fincorp Ab",
+          "ytunnus": "0599090-4",
+          "summa": 12000.0
         },
         {
           "nimi": "Tampereen Tiivisteteollisuus Oy",
@@ -58,28 +131,18 @@
           "summa": 10500.0
         },
         {
-          "nimi": "First Fellow Oy",
-          "ytunnus": "1477927-0",
+          "nimi": "Winsome Oy",
+          "ytunnus": "1026706-7",
           "summa": 10000.0
         },
         {
-          "nimi": "Avain Yhtiöt Oy",
-          "ytunnus": "2308788-2",
+          "nimi": "AMK-Holding Oy",
+          "ytunnus": "0869795-7",
           "summa": 10000.0
         },
         {
-          "nimi": "Troll Capital Oy",
-          "ytunnus": "1545015-1",
-          "summa": 10000.0
-        },
-        {
-          "nimi": "T2H Group Oy",
-          "ytunnus": "2946659-2",
-          "summa": 10000.0
-        },
-        {
-          "nimi": "Pontos Oy",
-          "ytunnus": "2119855-4",
+          "nimi": "Primus-kodit Oy",
+          "ytunnus": "0954271-1",
           "summa": 10000.0
         }
       ]
@@ -88,18 +151,77 @@
       "nimi": "Perussuomalaiset",
       "lyhenne": "PS",
       "ytunnus": "0699608-4",
-      "ilmoituksia": 1,
+      "ilmoituksia": 16,
       "tuet_per_vuosi": {
+        "2011": 3000.0,
+        "2012": 25245.42,
+        "2013": 65220.11,
+        "2014": 9556.0,
+        "2015": 7356.0,
+        "2017": 7830.0,
+        "2018": 462373.96,
         "2024": 4366.58
       },
-      "top_tukijat": []
+      "top_tukijat": [
+        {
+          "nimi": "JRT-säätiö sr",
+          "ytunnus": "1575029-3",
+          "summa": 462373.96
+        },
+        {
+          "nimi": "Nordisk Frihed, läpikulkuerä",
+          "ytunnus": "",
+          "summa": 45325.37
+        },
+        {
+          "nimi": "Nordisk Rad Sekretariatet",
+          "ytunnus": "",
+          "summa": 25245.42
+        },
+        {
+          "nimi": "Perussuomalaisten Eduskuntaryhmä, läpikulkuerä",
+          "ytunnus": "",
+          "summa": 13233.27
+        },
+        {
+          "nimi": "Perussuomalaisten Ed.ryhmä, läpikulkuerä",
+          "ytunnus": "",
+          "summa": 12261.47
+        },
+        {
+          "nimi": "Perussuomalaisten Eduskuntaryhmä",
+          "ytunnus": "",
+          "summa": 10612.0
+        },
+        {
+          "nimi": "Turkistuottajat Oyj",
+          "ytunnus": "0115411-6",
+          "summa": 1500.0
+        },
+        {
+          "nimi": "Energiateollisuus ry",
+          "ytunnus": "",
+          "summa": 1500.0
+        }
+      ]
     },
     {
       "nimi": "Suomen Sosialidemokraattinen Puolue",
       "lyhenne": "SDP",
       "ytunnus": "0117005-2",
-      "ilmoituksia": 32,
+      "ilmoituksia": 103,
       "tuet_per_vuosi": {
+        "2011": 317885.0,
+        "2012": 332200.0,
+        "2013": 134038.73,
+        "2014": 317549.75,
+        "2015": 266650.1,
+        "2016": 73878.41,
+        "2017": 143414.69,
+        "2018": 100000.0,
+        "2019": 95697.26,
+        "2020": 78000.0,
+        "2021": 91127.54,
         "2022": 98222.03,
         "2023": 88908.87,
         "2024": 186850.0,
@@ -108,29 +230,89 @@
       },
       "top_tukijat": [
         {
-          "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
-          "ytunnus": "0668222-5",
-          "summa": 120000.0
-        },
-        {
-          "nimi": "Turun Työväensäätiö sr",
-          "ytunnus": "0364474-1",
-          "summa": 75000.0
+          "nimi": "Työväenlehdistön kannatusyhdistys ry",
+          "ytunnus": "0221227-7",
+          "summa": 480000.0
         },
         {
           "nimi": "Työväenlehdistön Kannatusyhdistys ry",
-          "ytunnus": "0221227-7",
-          "summa": 63000.0
+          "ytunnus": "53.710",
+          "summa": 443000.0
+        },
+        {
+          "nimi": "Suomen Kunnantyöntekijäin Liitto ry",
+          "ytunnus": "84.654",
+          "summa": 242300.0
+        },
+        {
+          "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
+          "ytunnus": "146.800",
+          "summa": 240000.0
+        },
+        {
+          "nimi": "Palvelualojen ammattiliitto Pam ry",
+          "ytunnus": "0668222-5",
+          "summa": 130360.0
         },
         {
           "nimi": "Paperiliitto r.y.",
           "ytunnus": "0201825-5",
-          "summa": 62553.86
+          "summa": 126671.76000000001
+        },
+        {
+          "nimi": "Turun Työväensäätiö sr",
+          "ytunnus": "0364474-1",
+          "summa": 125000.0
+        },
+        {
+          "nimi": "Metalliliiton sd opintoyhdistys",
+          "ytunnus": "",
+          "summa": 60000.0
+        },
+        {
+          "nimi": "Metalliliiton sos. dem. opintoyhdistys",
+          "ytunnus": "",
+          "summa": 60000.0
         },
         {
           "nimi": "MA/PI Oy",
           "ytunnus": "3373738-3",
           "summa": 51850.0
+        },
+        {
+          "nimi": "Suomen Ammattiliittojen Keskusjärjestö SAK ry, ruotsiksi Fin...",
+          "ytunnus": "0202092-9",
+          "summa": 33000.0
+        },
+        {
+          "nimi": "Metallityöväen Liitto ry, ruotsiksi Metallarbetarförbundet rf",
+          "ytunnus": "110.682",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "JHL:n demariryhmä",
+          "ytunnus": "",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "Metalliliiton sos.dem. opintoyhdistys",
+          "ytunnus": "",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "PAM:n sos.dem. ryhmä",
+          "ytunnus": "",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "Metallityöväen liiton sd opintoyhdistys",
+          "ytunnus": "",
+          "summa": 30000.0
+        },
+        {
+          "nimi": "Teollisuusliiton opintoyhdistys",
+          "ytunnus": "",
+          "summa": 30000.0
         },
         {
           "nimi": "Teollisuusliiton Demareiden opintoyhdistys",
@@ -143,69 +325,9 @@
           "summa": 30000.0
         },
         {
-          "nimi": "Suomen Ammattiliittojen Keskusjärjestö SAK ry, ruotsiksi Fin...",
-          "ytunnus": "0202092-9",
-          "summa": 30000.0
-        },
-        {
-          "nimi": "Hyvinvointiala HALI ry",
-          "ytunnus": "2789560-9",
-          "summa": 2910.0
-        },
-        {
-          "nimi": "Finanssiala ry",
-          "ytunnus": "2068335-5",
-          "summa": 2550.0
-        },
-        {
-          "nimi": "Tehy ry, ruotsiksi Tehy rf",
-          "ytunnus": "0469538-0",
-          "summa": 2450.0
-        },
-        {
-          "nimi": "Teollisuusliitto ry, ruotsiksi Industrifacket rf",
-          "ytunnus": "0201717-2",
-          "summa": 2300.0
-        },
-        {
-          "nimi": "Suomen Osuuskauppojen Keskuskunta",
-          "ytunnus": "0116323-1",
-          "summa": 2300.0
-        },
-        {
-          "nimi": "Suomen Kunnantyöntekijäin Liitto ry",
-          "ytunnus": "2638688-8",
-          "summa": 2300.0
-        },
-        {
-          "nimi": "Akava ry",
-          "ytunnus": "0200918-0",
-          "summa": 2010.0
-        },
-        {
-          "nimi": "Suomen uusiutuvat ry, Finlands förnybara rf",
-          "ytunnus": "0833651-0",
-          "summa": 1910.0
-        },
-        {
-          "nimi": "Energiakaupungit ry",
-          "ytunnus": "3229140-4",
-          "summa": 1910.0
-        },
-        {
-          "nimi": "Sateenkaariperheet - Regnbågsfamiljer ry",
-          "ytunnus": "2278089-6",
-          "summa": 1850.0
-        },
-        {
-          "nimi": "AY-demarit ry",
-          "ytunnus": "3432777-3",
-          "summa": 1800.0
-        },
-        {
-          "nimi": "Rakennustuoteteollisuus RTT ry, ruotsiksi Byggproduktindustr...",
-          "ytunnus": "0896425-0",
-          "summa": 1760.0
+          "nimi": "AKT:n sd ryhmä",
+          "ytunnus": "",
+          "summa": 20000.0
         }
       ]
     },
@@ -213,8 +335,18 @@
       "nimi": "Suomen Keskusta",
       "lyhenne": "KESK",
       "ytunnus": "0179288-7",
-      "ilmoituksia": 60,
+      "ilmoituksia": 236,
       "tuet_per_vuosi": {
+        "2011": 156519.56,
+        "2012": 104120.0,
+        "2013": 6750.0,
+        "2014": 79711.2,
+        "2015": 34025.0,
+        "2016": 59604.03,
+        "2017": 31560.0,
+        "2018": 151547.44,
+        "2019": 45219.2,
+        "2021": 59485.0,
         "2022": 128397.0,
         "2023": 2349674.5,
         "2024": 71984.84,
@@ -222,19 +354,39 @@
       },
       "top_tukijat": [
         {
+          "nimi": "Teollisuuden ja Työnantajain Keskusliiton (TT) -säätiö",
+          "ytunnus": "1933538-8",
+          "summa": 90000.0
+        },
+        {
           "nimi": "Pro Markkinatalous ry",
           "ytunnus": "3134017-1",
-          "summa": 45000.0
+          "summa": 75000.0
+        },
+        {
+          "nimi": "Kaiku Helsinki Oy",
+          "ytunnus": "1004536-8",
+          "summa": 33770.0
         },
         {
           "nimi": "Matkailu- ja Ravintolapalvelut MaRa ry, Turism- och Restaura...",
           "ytunnus": "0201951-4",
-          "summa": 25000.0
+          "summa": 27980.0
         },
         {
           "nimi": "Wihuri Oy",
           "ytunnus": "2557856-2",
-          "summa": 20485.0
+          "summa": 23465.0
+        },
+        {
+          "nimi": "Suomenmaan Kustannus Oy",
+          "ytunnus": "1069882-8",
+          "summa": 23279.0
+        },
+        {
+          "nimi": "Energiateollisuus Ry, Finsk Energiindustri rf",
+          "ytunnus": "1924697-5",
+          "summa": 21990.0
         },
         {
           "nimi": "Restel Ravintolat Oy",
@@ -242,84 +394,64 @@
           "summa": 20468.0
         },
         {
-          "nimi": "Maa- ja metsätaloustuottajain Keskusliitto MTK ry",
-          "ytunnus": "0215194-5",
-          "summa": 10829.0
-        },
-        {
           "nimi": "Maaseudun Sivistysliitto ry",
-          "ytunnus": "0215192-9",
-          "summa": 10346.130000000001
-        },
-        {
-          "nimi": "Suomenmaan Kustannus Oy",
-          "ytunnus": "2930378-5",
-          "summa": 10340.0
-        },
-        {
-          "nimi": "Tehy ry, ruotsiksi Tehy rf",
-          "ytunnus": "0469538-0",
-          "summa": 9330.0
-        },
-        {
-          "nimi": "Lääketeollisuus ry",
-          "ytunnus": "0881821-0",
-          "summa": 8000.0
-        },
-        {
-          "nimi": "Metsäteollisuus ry, Skogsindustrin rf",
-          "ytunnus": "0215217-1",
-          "summa": 8000.0
-        },
-        {
-          "nimi": "Suomen Ammattiliittojen Keskusjärjestö SAK ry, ruotsiksi Fin...",
-          "ytunnus": "0202092-9",
-          "summa": 7965.0
-        },
-        {
-          "nimi": "Energiateollisuus ry, Finsk Energiindustri rf",
-          "ytunnus": "1924697-5",
-          "summa": 6515.0
-        },
-        {
-          "nimi": "Näkeminen ja silmäterveys NÄE ry, ruotsiksi Syn och ögonhäls...",
-          "ytunnus": "0202285-2",
-          "summa": 5806.0
+          "ytunnus": "61963",
+          "summa": 18486.89
         },
         {
           "nimi": "Akava ry",
           "ytunnus": "0200918-0",
-          "summa": 5195.0
+          "summa": 18231.2
         },
         {
-          "nimi": "Pohjoisranta BCW Oy",
-          "ytunnus": "1013826-5",
-          "summa": 5040.0
+          "nimi": "Maa- ja Metsätaloustuottajain Keskusliitto MTK ry",
+          "ytunnus": "0215194-5",
+          "summa": 15675.0
         },
         {
-          "nimi": "Pohjolan Voima Oyj",
+          "nimi": "Maaseudun Yhteisvaliokunnan Säätiö",
+          "ytunnus": "0291393-8",
+          "summa": 15000.0
+        },
+        {
+          "nimi": "Oulaisten Liikenne Oy",
+          "ytunnus": "0186838-9",
+          "summa": 14936.0
+        },
+        {
+          "nimi": "Joutsen Media Oy",
+          "ytunnus": "0187307-3",
+          "summa": 14910.0
+        },
+        {
+          "nimi": "Maa- ja metsätaloustuottajain Keskusliitto MTK ry",
+          "ytunnus": "0215194-5",
+          "summa": 12629.0
+        },
+        {
+          "nimi": "Tehy ry, ruotsiksi Tehy rf",
+          "ytunnus": "0469538-0",
+          "summa": 11330.0
+        },
+        {
+          "nimi": "Pohjolan Voima Oy",
           "ytunnus": "0210161-4",
-          "summa": 4870.0
-        },
-        {
-          "nimi": "Tasavallan Parhaaksi ry",
-          "ytunnus": "3347738-2",
-          "summa": 4431.21
-        },
-        {
-          "nimi": "Viking Line Abp",
-          "ytunnus": "0144983-8",
-          "summa": 4000.0
+          "summa": 11260.0
         },
         {
           "nimi": "Julkisten ja hyvinvointialojen liitto JHL ry, Förbundet för ...",
           "ytunnus": "0116647-5",
-          "summa": 3850.0
+          "summa": 10800.0
         },
         {
-          "nimi": "Finanssiala ry",
-          "ytunnus": "2068335-5",
-          "summa": 3495.0
+          "nimi": "Lääketeollisuus ry",
+          "ytunnus": "0881821-0",
+          "summa": 10800.0
+        },
+        {
+          "nimi": "Maaseudun Säätiö",
+          "ytunnus": "1496806-3",
+          "summa": 10250.0
         }
       ]
     },
@@ -327,8 +459,19 @@
       "nimi": "Vihreä liitto",
       "lyhenne": "VIHR",
       "ytunnus": "0202918-5",
-      "ilmoituksia": 112,
+      "ilmoituksia": 287,
       "tuet_per_vuosi": {
+        "2011": 38608.0,
+        "2012": 22480.0,
+        "2013": 20260.0,
+        "2014": 11670.0,
+        "2015": 62943.01,
+        "2016": 22200.0,
+        "2017": 38392.0,
+        "2018": 21018.0,
+        "2019": 100885.0,
+        "2020": 27530.0,
+        "2021": 75209.02,
         "2022": 73620.0,
         "2023": 134617.0,
         "2024": 127414.5,
@@ -346,6 +489,11 @@
           "summa": 17000.0
         },
         {
+          "nimi": "Vihreä Lanka Oy",
+          "ytunnus": "0653732-7",
+          "summa": 7250.0
+        },
+        {
           "nimi": "Perttu Jussilan tukiyhdistys ry",
           "ytunnus": "3334011-6",
           "summa": 5285.0
@@ -354,6 +502,26 @@
           "nimi": "GynMedi Oy",
           "ytunnus": "2133234-6",
           "summa": 5000.0
+        },
+        {
+          "nimi": "Vihreä Sivistysliitto ry, Gröna Bildningsförbundet rf",
+          "ytunnus": "152.739",
+          "summa": 4700.0
+        },
+        {
+          "nimi": "Varsinais-Suomen Lääkäripalvelu Oy",
+          "ytunnus": "0987135-5",
+          "summa": 4010.0
+        },
+        {
+          "nimi": "Tekniikan Akateemisten Liitto Tek ry",
+          "ytunnus": "0201522-2",
+          "summa": 3250.0
+        },
+        {
+          "nimi": "Finanssialan Keskusliitto - Finansbranschens Centralförbund ry",
+          "ytunnus": "156.851",
+          "summa": 2500.0
         },
         {
           "nimi": "Ammattiliitto Pro ry, Fackförbundet Pro rf",
@@ -366,6 +534,26 @@
           "summa": 2200.0
         },
         {
+          "nimi": "Suomen Ekonomiliitto - Finlands Ekonomförbund - SEFE ry",
+          "ytunnus": "114.582",
+          "summa": 2000.0
+        },
+        {
+          "nimi": "Huikee Marketing Oy",
+          "ytunnus": "2730385-3",
+          "summa": 2000.0
+        },
+        {
+          "nimi": "Psykoterapia ja työnohjaus Ilkka Mustakallio",
+          "ytunnus": "2652452-3",
+          "summa": 2000.0
+        },
+        {
+          "nimi": "Uusi Työ ry, Nytt Arbete rf",
+          "ytunnus": "2915572-7",
+          "summa": 2000.0
+        },
+        {
           "nimi": "Sofia Virran vaalituki ry",
           "ytunnus": "3335082-4",
           "summa": 2000.0
@@ -374,6 +562,21 @@
           "nimi": "Energiateollisuus ry, Finsk Energiindustri rf",
           "ytunnus": "1924697-5",
           "summa": 2000.0
+        },
+        {
+          "nimi": "Suomen Osuuskauppojen Keskuskunta",
+          "ytunnus": "0116323-1",
+          "summa": 1700.0
+        },
+        {
+          "nimi": "Ammattiliitto Pro ry,  Fackförbundet Pro rf",
+          "ytunnus": "90.631",
+          "summa": 1700.0
+        },
+        {
+          "nimi": "N2 Helsinki Oy",
+          "ytunnus": "2276351-9",
+          "summa": 1598.0
         }
       ]
     },
@@ -381,8 +584,19 @@
       "nimi": "Vasemmistoliitto",
       "lyhenne": "VAS",
       "ytunnus": "0802437-3",
-      "ilmoituksia": 46,
+      "ilmoituksia": 117,
       "tuet_per_vuosi": {
+        "2011": 28100.0,
+        "2012": 84600.0,
+        "2013": 30410.0,
+        "2014": 55650.0,
+        "2015": 68814.0,
+        "2016": 37060.0,
+        "2017": 30250.0,
+        "2018": 26500.0,
+        "2019": 25000.0,
+        "2020": 5300.0,
+        "2021": 3410.0,
         "2022": 52208.0,
         "2023": 54954.0,
         "2024": 43866.58,
@@ -391,24 +605,49 @@
       },
       "top_tukijat": [
         {
+          "nimi": "Julkisen alan Punarinnat ry",
+          "ytunnus": "195.171",
+          "summa": 67000.0
+        },
+        {
+          "nimi": "Osuuskunta Tradeka",
+          "ytunnus": "0196885-7",
+          "summa": 50060.0
+        },
+        {
+          "nimi": "Avantisäätiö sr",
+          "ytunnus": "1571313-4",
+          "summa": 48308.0
+        },
+        {
+          "nimi": "Metallityöväen Liitto ry, ruotsiksi Metallarbetarförbundet rf",
+          "ytunnus": "110.682",
+          "summa": 48000.0
+        },
+        {
+          "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
+          "ytunnus": "146.800",
+          "summa": 45340.0
+        },
+        {
           "nimi": "Teollisuuspiiri ry",
           "ytunnus": "1752462-8",
           "summa": 30000.0
         },
         {
-          "nimi": "Palvelualojen ammattiliitto PAM ry, Servicefacket PAM rf",
-          "ytunnus": "0668222-5",
-          "summa": 30000.0
+          "nimi": "JHL Punarinnat",
+          "ytunnus": "",
+          "summa": 22000.0
         },
         {
-          "nimi": "Osuuskunta Tradeka",
-          "ytunnus": "0196885-7",
-          "summa": 29000.0
+          "nimi": "Palvelualojen ammattiliitto PAM",
+          "ytunnus": "",
+          "summa": 15500.0
         },
         {
-          "nimi": "Avantisäätiö sr",
-          "ytunnus": "1571313-4",
-          "summa": 18308.0
+          "nimi": "Metallipiiri",
+          "ytunnus": "",
+          "summa": 15000.0
         },
         {
           "nimi": "Stiftelsen för det tvåspråkiga Finland sr",
@@ -416,49 +655,54 @@
           "summa": 15000.0
         },
         {
-          "nimi": "Julkisen alan Punarinnat ry",
-          "ytunnus": "3062963-5",
+          "nimi": "Pohjolan Yhteisö ry",
+          "ytunnus": "159.015",
+          "summa": 12000.0
+        },
+        {
+          "nimi": "Rakennusliitto ry, ruotsinkielisenä Byggnadsförbundet rf",
+          "ytunnus": "96.631",
+          "summa": 11500.0
+        },
+        {
+          "nimi": "Julkisen alan punarinnat",
+          "ytunnus": "",
+          "summa": 11000.0
+        },
+        {
+          "nimi": "Punajuuri ry",
+          "ytunnus": "1995890-5",
+          "summa": 10500.0
+        },
+        {
+          "nimi": "JHL Vas ryhmä",
+          "ytunnus": "",
           "summa": 10000.0
         },
         {
-          "nimi": "Kulttuurityön Keskus ry",
-          "ytunnus": "0201544-1",
-          "summa": 5000.0
+          "nimi": "Avantisäätiö rs",
+          "ytunnus": "",
+          "summa": 10000.0
         },
         {
-          "nimi": "Raideammattilaisten vasemmistoryhmä ry",
-          "ytunnus": "3325884-1",
-          "summa": 4400.0
+          "nimi": "TEAM-liitto",
+          "ytunnus": "",
+          "summa": 9000.0
         },
         {
-          "nimi": "Turun Itäinen Järjestöyhdistys r.y.",
-          "ytunnus": "0276649-9",
-          "summa": 3000.0
+          "nimi": "Kuljetustyön tuki ry",
+          "ytunnus": "186.041",
+          "summa": 8400.0
         },
         {
           "nimi": "Keskinäinen Vakuutusyhtiö Turva",
           "ytunnus": "0211695-5",
-          "summa": 2900.0
+          "summa": 8200.0
         },
         {
-          "nimi": "Työväenjärjestöjen Tukisäätiö sr",
-          "ytunnus": "1576422-2",
-          "summa": 2500.0
-        },
-        {
-          "nimi": "Tradeka-palvelut Oy",
-          "ytunnus": "2449038-2",
-          "summa": 2000.0
-        },
-        {
-          "nimi": "Kemijärven Työväenjärjestöt r.y.",
-          "ytunnus": "0210509-2",
-          "summa": 2000.0
-        },
-        {
-          "nimi": "Kutomatyöläisten Säätiö sr",
-          "ytunnus": "0155461-1",
-          "summa": 2000.0
+          "nimi": "Osuuskunta Traeka",
+          "ytunnus": "",
+          "summa": 8000.0
         }
       ]
     },
@@ -466,8 +710,19 @@
       "nimi": "Suomen ruotsalainen kansanpuolue",
       "lyhenne": "RKP",
       "ytunnus": "0215325-4",
-      "ilmoituksia": 19,
+      "ilmoituksia": 56,
       "tuet_per_vuosi": {
+        "2011": 122500.0,
+        "2012": 1095015.57,
+        "2013": 1127367.39,
+        "2014": 1159160.15,
+        "2015": 1195898.0,
+        "2016": 1268487.0,
+        "2017": 1397425.5,
+        "2018": 1543570.0,
+        "2019": 1623670.0,
+        "2020": 1712100.0,
+        "2021": 1749949.0,
         "2022": 1856707.23,
         "2023": 1974204.92,
         "2024": 2141172.27,
@@ -477,12 +732,22 @@
         {
           "nimi": "Fonden för intressebevakning av det svenska i Finland",
           "ytunnus": "",
-          "summa": 7932374.0
+          "summa": 21424005.0
         },
         {
           "nimi": "Föreningen Konstsamfundet r.f.",
-          "ytunnus": "0200196-3",
-          "summa": 90000.0
+          "ytunnus": "33.291",
+          "summa": 360000.0
+        },
+        {
+          "nimi": "Svenska Folkpartiets Understödsförening rf",
+          "ytunnus": "28.859",
+          "summa": 71700.0
+        },
+        {
+          "nimi": "Svenska folkpartiets garanter r.f.",
+          "ytunnus": "143.204",
+          "summa": 50000.0
         },
         {
           "nimi": "Utdelningsstiftelsen för Svenska kulturfonden sr",
@@ -490,14 +755,24 @@
           "summa": 48011.44
         },
         {
-          "nimi": "Amos Andersons fond rf",
-          "ytunnus": "0200196-3",
+          "nimi": "Pro Markkinatalous ry",
+          "ytunnus": "3134017-1",
+          "summa": 40500.0
+        },
+        {
+          "nimi": "Liberalibus rf",
+          "ytunnus": "213.694",
+          "summa": 32915.03
+        },
+        {
+          "nimi": "Stiftelsen Tre Smeder",
+          "ytunnus": "0999911-3",
           "summa": 30000.0
         },
         {
-          "nimi": "Pro Markkinatalous ry",
-          "ytunnus": "3134017-1",
-          "summa": 27500.0
+          "nimi": "Amos Andersons fond rf",
+          "ytunnus": "0200196-3",
+          "summa": 30000.0
         },
         {
           "nimi": "Svenska Bildningsförbundet r.f.",
@@ -505,9 +780,44 @@
           "summa": 27076.949999999997
         },
         {
-          "nimi": "Liberalibus rf",
-          "ytunnus": "2870868-4",
-          "summa": 2915.03
+          "nimi": "Teollisuuden ja Työnantajain Keskusliiton (TT) -säätiö",
+          "ytunnus": "19335388",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "Teollisuuden ja Työnantajain Keskusliitto - Industrins och Arbetsgivarnas Centralförbund ry",
+          "ytunnus": "193.129",
+          "summa": 10000.0
+        },
+        {
+          "nimi": "Understödsföreningen för Svenska kulturfonden i Finland rf",
+          "ytunnus": "173.832",
+          "summa": 5089.5
+        },
+        {
+          "nimi": "Svensk Metropol rf",
+          "ytunnus": "204.177",
+          "summa": 4806.54
+        },
+        {
+          "nimi": "Pro Grankulla",
+          "ytunnus": "",
+          "summa": 3315.57
+        },
+        {
+          "nimi": "Finanssialan Keskusliitto - Finansbranschens  Centralförbund ry",
+          "ytunnus": "156.851",
+          "summa": 2500.0
+        },
+        {
+          "nimi": "Jörn Donners stödgrupp",
+          "ytunnus": "",
+          "summa": 1600.0
+        },
+        {
+          "nimi": "Team Nils Torvalds",
+          "ytunnus": "",
+          "summa": 1500.0
         }
       ]
     },
@@ -515,8 +825,19 @@
       "nimi": "Kristillisdemokraatit",
       "lyhenne": "KD",
       "ytunnus": "0117098-5",
-      "ilmoituksia": 24,
+      "ilmoituksia": 102,
       "tuet_per_vuosi": {
+        "2011": 125767.17,
+        "2012": 15000.0,
+        "2013": 15000.0,
+        "2014": 15000.0,
+        "2015": 7241.2,
+        "2016": 10904.15,
+        "2017": 10908.0,
+        "2018": 13579.06,
+        "2019": 12735.44,
+        "2020": 11806.68,
+        "2021": 23806.68,
         "2022": 45406.68,
         "2023": 22494.88,
         "2024": 19221.92,
@@ -524,9 +845,29 @@
       },
       "top_tukijat": [
         {
+          "nimi": "KD-Mediat Oy",
+          "ytunnus": "1736492-7",
+          "summa": 141333.17
+        },
+        {
+          "nimi": "Suomen Eduskunta",
+          "ytunnus": "",
+          "summa": 74700.52999999997
+        },
+        {
           "nimi": "Pro Markkinatalous ry",
           "ytunnus": "3134017-1",
-          "summa": 41500.0
+          "summa": 48500.0
+        },
+        {
+          "nimi": "Helsingin Osuuskauppa Elanto",
+          "ytunnus": "1837954-9",
+          "summa": 14200.0
+        },
+        {
+          "nimi": "Suomen eduskunta",
+          "ytunnus": "",
+          "summa": 11087.36
         },
         {
           "nimi": "Porin kaupunki",
@@ -534,14 +875,29 @@
           "summa": 10000.0
         },
         {
-          "nimi": "Suomen Eduskunta",
-          "ytunnus": "",
-          "summa": 9838.9
+          "nimi": "VM-Carpet Oy",
+          "ytunnus": "0804076-0",
+          "summa": 6000.0
         },
         {
-          "nimi": "Helsingin Osuuskauppa Elanto",
-          "ytunnus": "1837954-9",
-          "summa": 6700.0
+          "nimi": "Ammattiliitto Pro ry, Fackförbundet Pro rf",
+          "ytunnus": "0215350-2",
+          "summa": 4500.0
+        },
+        {
+          "nimi": "Kone-Ketonen Oy",
+          "ytunnus": "0627103-9",
+          "summa": 4000.0
+        },
+        {
+          "nimi": "Timo Sinivuoren tukiyhdistys",
+          "ytunnus": "",
+          "summa": 3434.0
+        },
+        {
+          "nimi": "HOK-Elanto",
+          "ytunnus": "",
+          "summa": 2500.0
         },
         {
           "nimi": "Konsultointi Laaksoharju",
@@ -549,9 +905,9 @@
           "summa": 2100.0
         },
         {
-          "nimi": "Suomen eduskunta",
-          "ytunnus": "",
-          "summa": 1967.78
+          "nimi": "IH-Engineering Oy",
+          "ytunnus": "1997453-4",
+          "summa": 2000.0
         },
         {
           "nimi": "Keitele Forest Oy",
@@ -564,8 +920,9 @@
       "nimi": "Liike Nyt",
       "lyhenne": "LIIK",
       "ytunnus": "3046798-7",
-      "ilmoituksia": 9,
+      "ilmoituksia": 10,
       "tuet_per_vuosi": {
+        "2021": 13000.0,
         "2022": 10000.0,
         "2023": 2700.0,
         "2024": 24087.76
@@ -574,7 +931,7 @@
         {
           "nimi": "Hjallis Promotion Ab Oy",
           "ytunnus": "0871441-1",
-          "summa": 22700.0
+          "summa": 35700.0
         },
         {
           "nimi": "Helsinki Supply",
