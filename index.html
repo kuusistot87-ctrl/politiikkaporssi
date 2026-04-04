@@ -2505,7 +2505,7 @@ async function lataaAanestykset(m, vari) {
   if (AANESTYS_CACHE[slug]) { renderAanestykset(el, AANESTYS_CACHE[slug], elId); return; }
 
   try {
-    const res = await fetch(`aanestykset_json/${slug}.json`);
+    const res = await fetch(`https://kuusistot87-ctrl.github.io/politiikkaporssi/aanestykset_json/${slug}.json`);
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     AANESTYS_CACHE[slug] = data;
@@ -6800,7 +6800,7 @@ async function haeVertData(m) {
   let aanData = AANESTYS_CACHE[slug] || null;
   if (!aanData) {
     try {
-      const res = await fetch(`aanestykset_json/${slug}.json`);
+      const res = await fetch(`https://kuusistot87-ctrl.github.io/politiikkaporssi/aanestykset_json/${slug}.json`);
       if (res.ok) { aanData = await res.json(); AANESTYS_CACHE[slug] = aanData; }
     } catch(_) {}
   }
