@@ -14,7 +14,7 @@ import json, os, re, time, urllib.request, urllib.parse
 from datetime import datetime
 
 API_BASE   = "https://avoindata.eduskunta.fi/api/v1/tables"
-ROOT       = os.path.join(os.path.dirname(__file__), "..")
+ROOT       = os.path.join(os.path.dirname(__file__), "..", "..")
 OUT_DIR    = os.path.join(ROOT, "aanestykset_json")
 INDEX_FILE = os.path.join(ROOT, "edustajat_json", "index.json")
 
