@@ -29,9 +29,10 @@ jobs:
       - name: Hae äänestysdata
         run: |
           cp edustajat_json/index_with_personid.json edustajat_json/index.json
-          python .github/scripts/hae_aanestykset.py
+          cd .github/scripts
+          python hae_aanestykset.py
 
-      - name: Commitoi ja push (rebase-strategia)
+      - name: Commitoi ja push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
