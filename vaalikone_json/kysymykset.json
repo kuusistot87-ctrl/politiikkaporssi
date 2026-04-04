@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "teksti": "Ukrainaa on tuettava sodassa ja jälleenrakennuksessa kustannuksista huolimatta.",
+    "teema_id": 1,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 2,
+    "teksti": "Suomen on käytettävä puolustukseen rahaa vähintään Naton tavoitteen verran.",
+    "teema_id": 1,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 3,
+    "teksti": "Peruskoulussa pitää rajoittaa lailla oppilaiden määrää yhtä opettajaa kohden, vaikka se tarkoittaisi säästöjä muualta, veronkorotuksia tai lisää velkaa.",
+    "teema_id": 2,
+    "teema_nimi": "Hyvinvointi­valtio",
+    "pakollinen": true
+  },
+  {
+    "id": 4,
+    "teksti": "Suomeen on perustettava huumeiden käyttöhuoneita.",
+    "teema_id": 2,
+    "teema_nimi": "Hyvinvointi­valtio",
+    "pakollinen": true
+  },
+  {
+    "id": 5,
+    "teksti": "Valtion on annettava suunniteltua enemmän rahaa sosiaali- ja terveydenhuoltoon, vaikka se tarkoittaisi säästöjä muualta, veronkorotuksia tai lisää velkaa.",
+    "teema_id": 2,
+    "teema_nimi": "Hyvinvointi­valtio",
+    "pakollinen": true
+  },
+  {
+    "id": 6,
+    "teksti": "Nuorisorikollisuutta on pyrittävä kitkemään ensisijaisesti muilla keinoilla kuin rangaistuksia koventamalla.",
+    "teema_id": 2,
+    "teema_nimi": "Hyvinvointi­valtio",
+    "pakollinen": true
+  },
+  {
+    "id": 7,
+    "teksti": "Työttömiä pitää saada nykyistä enemmän töihin heikentämällä ansiosidonnaista työttömyysturvaa.",
+    "teema_id": 3,
+    "teema_nimi": "Julkinen talous",
+    "pakollinen": true
+  },
+  {
+    "id": 8,
+    "teksti": "Suomeen on houkuteltava aktiivisemmin ulkomaisia työntekijöitä.",
+    "teema_id": 3,
+    "teema_nimi": "Julkinen talous",
+    "pakollinen": true
+  },
+  {
+    "id": 9,
+    "teksti": "Valtion velkaantumista tulee hillitä, vaikka se merkitsisi leikkauksia etuuksiin tai palveluihin.",
+    "teema_id": 3,
+    "teema_nimi": "Julkinen talous",
+    "pakollinen": true
+  },
+  {
+    "id": 10,
+    "teksti": "Palkkojen verotusta pitää alentaa, vaikka se johtaisi palveluiden leikkauksiin, muun verotuksen kiristämiseen tai velan kasvuun.",
+    "teema_id": 4,
+    "teema_nimi": "Omat rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 11,
+    "teksti": "Valtion pitää tukea enemmän kansalaisia, jotka kärsivät energian hinnan noususta, vaikka se kiihdyttäisi inflaatiota tai heikentäisi valtion taloutta.",
+    "teema_id": 4,
+    "teema_nimi": "Omat rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 12,
+    "teksti": "Hakkuita pitää vähentää valtion metsissä luontokadon ja ilmastonmuutoksen torjumiseksi.",
+    "teema_id": 5,
+    "teema_nimi": "Ympäristö ja ilmasto",
+    "pakollinen": true
+  },
+  {
+    "id": 13,
+    "teksti": "Suomen on lykättävä hiilineutraaliustavoitettaan kauemmaksi vuodesta 2035.",
+    "teema_id": 5,
+    "teema_nimi": "Ympäristö ja ilmasto",
+    "pakollinen": true
+  },
+  {
+    "id": 14,
+    "teksti": "Helsingissä ja muissa suurissa kaupungeissa on otettava käyttöön ruuhkamaksu.",
+    "teema_id": 5,
+    "teema_nimi": "Ympäristö ja ilmasto",
+    "pakollinen": true
+  },
+  {
+    "id": 15,
+    "teksti": "Turkistarhaus on kiellettävä Suomessa.",
+    "teema_id": 5,
+    "teema_nimi": "Ympäristö ja ilmasto",
+    "pakollinen": true
+  },
+  {
+    "id": 16,
+    "teksti": "Jos on pakko valita, on parempi korottaa veroja kuin leikata julkisia palveluita ja sosiaalietuuksia",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 17,
+    "teksti": "Suuret tuloerot ovat hyväksyttäviä, jotta erot ihmisten lahjakkuudessa ja ahkeruudessa voidaan palkita.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 18,
+    "teksti": "Valtion pitäisi puuttua nykyistä voimakkaammin markkinoiden toimintaan, jotta talous olisi kaikille reilu. ",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 19,
+    "teksti": "Suomessa on liian helppo elää sosiaaliturvan varassa.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 20,
+    "teksti": "Valtion ja kuntien omistusta yritystoiminnassa tulisi vähentää.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 21,
+    "teksti": "Suomen muuttuminen aiempaa monikulttuurisemmaksi ja monimuotoisemmaksi on hyvä asia.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 22,
+    "teksti": "Kristilliset arvot ovat hyvä pohja poliittiselle päätöksenteolle.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 23,
+    "teksti": "Sukupuolen moninaisuus pitäisi ottaa huomioon Suomessa nykyistä paremmin.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 24,
+    "teksti": "Selkeitä rajoja ja kuria tarvitaan nykyistä enemmän lasten kasvattamisessa.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 25,
+    "teksti": "Suomen pitäisi vähentää omia päästöjään riippumatta siitä, mitä muut maat tekevät.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 26,
+    "teksti": "Poliitikkojen on asetettava Suomen ja suomalaisten etu kaiken muun edelle.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 27,
+    "teksti": "Ympäristön etu tulisi asettaa talouskasvun ja työpaikkojen luomisen edelle, jos ne ovat keskenään ristiriidassa.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 28,
+    "teksti": "Maamme kaipaa vahvoja johtajia, jotka pystyvät tekemään vaikeitakin päätöksiä välittämättä liikaa muiden mielipiteistä.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 29,
+    "teksti": "Koko Suomi tulee pitää asutettuna, vaikka siitä koituisi kustannuksia.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 30,
+    "teksti": "Suomen kaupungistuminen on hyvä asia.",
+    "teema_id": 6,
+    "teema_nimi": "Arvot",
+    "pakollinen": true
+  },
+  {
+    "id": 31,
+    "teksti": "Vladimir Putinin Venäjä on Suomelle sotilaallinen uhka.",
+    "teema_id": 7,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 32,
+    "teksti": "Suomi voi alkaa rakentaa suhdettaan uudelleen Venäjään vasta, kun valta Venäjällä vaihtuu ja Venäjä vetäytyy Ukrainasta.",
+    "teema_id": 7,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 33,
+    "teksti": "Suomeen tulee sijoittaa Naton tukikohta, kun Suomi on Naton jäsen.",
+    "teema_id": 7,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 34,
+    "teksti": "Suomen pitää käyttää puolustusmenoihin Naton vaatimat 2 prosenttia bkt:sta.",
+    "teema_id": 7,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 35,
+    "teksti": "Suomen tulee muuttaa ulkopolitiikkaansa Nato-kumppanien toiveiden mukaan. ",
+    "teema_id": 7,
+    "teema_nimi": "Turvallisuus­politiikka",
+    "pakollinen": true
+  },
+  {
+    "id": 36,
+    "teksti": "Valtion velkataakka on käännettävä laskuun, vaikka se tarkoittaisi kipeitä leikkauksia.",
+    "teema_id": 8,
+    "teema_nimi": "Rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 37,
+    "teksti": "Ansiosidonnaista työttömyysturvaa tulee leikata nykyisestä 400 päivästä 200 päivään.",
+    "teema_id": 8,
+    "teema_nimi": "Rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 38,
+    "teksti": "Lapsiperheitä pitää tukea ylimääräisellä lapsilisällä myös vuonna 2023.",
+    "teema_id": 8,
+    "teema_nimi": "Rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 39,
+    "teksti": "Kun julkista taloutta tasapainotetaan, on keinoksi valittava leikkausten sijaan ensisijaisesti verotuksen kiristäminen.",
+    "teema_id": 8,
+    "teema_nimi": "Rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 40,
+    "teksti": "Ruoan arvonlisäveroa ei pidä nostaa.",
+    "teema_id": 8,
+    "teema_nimi": "Rahat",
+    "pakollinen": true
+  },
+  {
+    "id": 41,
+    "teksti": "Valtion pitää myös seuraavina vuosina tukea suomalaisia, jotka ovat vaikeuksissa suurien sähkölaskujen kanssa.",
+    "teema_id": 9,
+    "teema_nimi": "Energia­kriisi",
+    "pakollinen": true
+  },
+  {
+    "id": 42,
+    "teksti": "Ydinvoiman pitää jatkossakin olla yksi keskeisimmistä energiantuotannon muodoista Suomessa.",
+    "teema_id": 9,
+    "teema_nimi": "Energia­kriisi",
+    "pakollinen": true
+  },
+  {
+    "id": 43,
+    "teksti": "Tuulivoiman rakentamista pitää tehostaa sujuvoittamalla lupakäytäntöjä ja keventämällä byrokratiaa.",
+    "teema_id": 9,
+    "teema_nimi": "Energia­kriisi",
+    "pakollinen": true
+  },
+  {
+    "id": 44,
+    "teksti": "Suomen ilmastotavoitteesta ei voi tinkiä piiruakaan, vaikka talous sitä vaatisi.",
+    "teema_id": 10,
+    "teema_nimi": "Ilmasto ja liikenne",
+    "pakollinen": true
+  },
+  {
+    "id": 45,
+    "teksti": "Bensiini ja diesel maksavat liikaa. Seuraavan hallituksen on laskettava polttoaineiden verotusta.",
+    "teema_id": 10,
+    "teema_nimi": "Ilmasto ja liikenne",
+    "pakollinen": true
+  },
+  {
+    "id": 46,
+    "teksti": "Liikenteen sähköistymistä on edistettävä uusilla tuilla.",
+    "teema_id": 10,
+    "teema_nimi": "Ilmasto ja liikenne",
+    "pakollinen": true
+  },
+  {
+    "id": 47,
+    "teksti": "Suomessa pitää ottaa käyttöön tietullit.",
+    "teema_id": 10,
+    "teema_nimi": "Ilmasto ja liikenne",
+    "pakollinen": true
+  },
+  {
+    "id": 48,
+    "teksti": "Hoitajamitoitusta (7 hoitajaa 10 vanhusta kohden) voidaan keventää, jotta kaikille vanhuksille riittäisi hoitopaikka.",
+    "teema_id": 11,
+    "teema_nimi": "Terveys ja koulutus",
+    "pakollinen": true
+  },
+  {
+    "id": 49,
+    "teksti": "Maahanmuuttajat ovat hyvä ratkaisu työvoimapulaan muun muassa hoitoalalla.",
+    "teema_id": 11,
+    "teema_nimi": "Terveys ja koulutus",
+    "pakollinen": true
+  },
+  {
+    "id": 50,
+    "teksti": "Koulutuksesta voidaan leikata, kun valtiontaloutta tasapainotetaan.",
+    "teema_id": 11,
+    "teema_nimi": "Terveys ja koulutus",
+    "pakollinen": true
+  },
+  {
+    "id": 51,
+    "teksti": "Opettajien kurinpitokeinoja kouluissa pitää lisätä.",
+    "teema_id": 11,
+    "teema_nimi": "Terveys ja koulutus",
+    "pakollinen": true
+  },
+  {
+    "id": 52,
+    "teksti": "Pelkään liikkua kadulla yksin.",
+    "teema_id": 12,
+    "teema_nimi": "Rikollisuus",
+    "pakollinen": true
+  },
+  {
+    "id": 53,
+    "teksti": "Nuorten jengiväkivaltaan tulee puuttua rangaistuksia koventamalla. ",
+    "teema_id": 12,
+    "teema_nimi": "Rikollisuus",
+    "pakollinen": true
+  },
+  {
+    "id": 54,
+    "teksti": "Huumeiden käytön tulee olla jatkossakin rangaistavaa.",
+    "teema_id": 12,
+    "teema_nimi": "Rikollisuus",
+    "pakollinen": true
+  },
+  {
+    "id": 55,
+    "teksti": "Yleisradion rahoitukseen tulee tehdä merkittäviä leikkauksia.",
+    "teema_id": 13,
+    "teema_nimi": "Muut",
+    "pakollinen": true
+  },
+  {
+    "id": 56,
+    "teksti": "Viinien myynti ruokakaupoissa pitää sallia.",
+    "teema_id": 13,
+    "teema_nimi": "Muut",
+    "pakollinen": true
+  },
+  {
+    "id": 57,
+    "teksti": "Koko Suomi on pidettävä asutettuna.",
+    "teema_id": 13,
+    "teema_nimi": "Muut",
+    "pakollinen": true
+  },
+  {
+    "id": 58,
+    "teksti": "EU:lla on liikaa valtaa Suomen metsäpolitiikkaan.",
+    "teema_id": 13,
+    "teema_nimi": "Muut",
+    "pakollinen": true
+  },
+  {
+    "id": 59,
+    "teksti": "Minua ei haittaa, jos lapseni menee naimisiin samaa sukupuolta olevan kanssa.",
+    "teema_id": 13,
+    "teema_nimi": "Muut",
+    "pakollinen": true
+  },
+  {
+    "id": 60,
+    "teksti": "Eutanasia tulee laillistaa.",
+    "teema_id": 13,
+    "teema_nimi": "Muut",
+    "pakollinen": true
+  },
+  {
+    "id": 61,
+    "teksti": "Pirkanmaalaisten kansanedustajien on ajettava ensisijaisesti koko maan, ei oman maakunnan etua eduskunnassa.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 62,
+    "teksti": "Moottoritien oikaisu pitää rakentaa pikimmiten Lempäälän ja Pirkkalan välille valtatielle 3.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 63,
+    "teksti": "Tampereen ja Helsingin välille on rakennettava junaliikenteelle täysin uusi suurnopeusrata, pelkkä nykyisen radan parantaminen esimerkiksi lisäraiteilla ja oikaisuilla ei riitä.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 64,
+    "teksti": "Valtion on rahoitettava raitiotien jatkamista Tampereelta naapurikuntiin Ylöjärvelle, Pirkkalaan ja Kangasalle.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 65,
+    "teksti": "Tampere-Pirkkalan kansainvälisten lentoyhteyksien määrää pitää kasvattaa mahdollisimman paljon. ",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 66,
+    "teksti": "Pirkanmaalle jää sote-uudistuksen jälkeen liian monta kuntaa.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 67,
+    "teksti": "Ydinvoiman pientuotantoa on rakennettava Suomessa eturintamassa Pirkanmaalle.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 68,
+    "teksti": "Tampereella tarjottavaa korkeakoulutusta pitää keskittää sellaisille aloille, joilla työllisyysnäkymät ovat varmimmat.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 69,
+    "teksti": "Terveydenhuoltoon tarvitaan lisää yksityisen yrityksen kaltaisesti toimivia julkisomisteisia yhtiöitä, esimerkkeinä tekonivelsairaala Coxa ja Taysin Sydänsairaala.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 70,
+    "teksti": "Pirkanmaan hyvinvointialueen pitää käyttää myös yksityisiä palveluntarjoajia halunsa ja tarpeensa mukaan.",
+    "teema_id": 14,
+    "teema_nimi": "Pirkanmaa",
+    "pakollinen": true
+  },
+  {
+    "id": 71,
+    "teksti": "Porin lentoliikenteen tukeminen on paitsi valtion myös Satakunnan kaikkien kuntien asia.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 72,
+    "teksti": "Satakunnan pitää panostaa liikenneyhteyksissään ensisijaisesti raideliikenteen kehittämiseen.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 73,
+    "teksti": "Porista Niinisalon kautta Parkanoon kulkeva rata pitäisi remontoida huoltovarmuuden ja Naton tuomien tarpeiden vuoksi.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 74,
+    "teksti": "Porin lentokenttä, satama ja pelastusharjoitusalue muodostavat kokonaisuuden, johon pitää tavoitella Nato-tukikohtaa.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 75,
+    "teksti": "Satakunnan susikantaa pitää vähentää.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 76,
+    "teksti": "Satakunnan oma yliopisto pitää saada hallitusohjelmaan.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 77,
+    "teksti": "Valtiovallan on turvattava turvetuotannon toimintaedellytykset huoltovarmuuden varmistamiseksi.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 78,
+    "teksti": "Satakuntaan voidaan rakentaa lisää ydinvoimaa.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 79,
+    "teksti": "Kokemäenjoen vesistön suojelun varmistaminen on tärkeämpää kuin teollisuuden työpaikkojen luominen alueelle.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  },
+  {
+    "id": 80,
+    "teksti": "Satakunnan vaalipiiri pitää yhdistää joko Pirkanmaan tai Varsinais-Suomen vaalipiiriin.",
+    "teema_id": 15,
+    "teema_nimi": "Satakunta",
+    "pakollinen": true
+  }
+]
