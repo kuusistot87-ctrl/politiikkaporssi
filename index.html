@@ -183,12 +183,6 @@
       color: var(--party-color, var(--text-muted));
       text-transform: uppercase;
       margin-bottom: .6rem;
-      cursor: pointer;
-      transition: background .15s, box-shadow .15s;
-    }
-    .card-party-tag:hover {
-      background: rgba(255,255,255,.13);
-      box-shadow: 0 0 8px var(--party-color, var(--accent));
     }
 
     .card-name {
@@ -2177,7 +2171,7 @@ function luoKortti(m) {
     <div class="card-body" style="display:flex;gap:.85rem;align-items:flex-start">
       ${kuvaHtml ? `<div style="flex-shrink:0">${kuvaHtml}</div>` : ''}
       <div style="min-width:0;flex:1">
-        <div class="card-party-tag" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
+        <div class="card-party-tag">${m.puolue||"–"}</div>
         <div class="card-name">${kaannaNimi(m.nimi)}</div>
         <div class="card-meta">${[paikkatieto,vuodet].filter(Boolean).join(" · ")}</div>
       </div>
@@ -2186,13 +2180,6 @@ function luoKortti(m) {
       <span class="card-action-avaa">AVAA →</span>
       ${vertKnap}
     </div>`;
-  card.querySelector('.card-party-tag').addEventListener('click', (e) => {
-    e.stopPropagation();
-    aktiivisuusPuolue = m.puolue || '';
-    aikasuodatin = 'nykyiset';
-    naytaTulokset();
-    suodataJaRenderöi();
-  });
   card.addEventListener("click", (e) => { if (!e.target.closest('button,a,input')) openTTLProfile(m); });
   card.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" ") openTTLProfile(m); });
   return card;
@@ -2379,7 +2366,7 @@ function renderModalSkeleton(m, vari) {
           ${m.nykyinen ? "KANSANEDUSTAJA" : "ENT. KANSANEDUSTAJA"}
         </div>
         <div class="modal-name" id="modalName" style="margin-bottom:.5rem;line-height:1.2">${m.nimi}</div>
-        <div class="modal-party-tag" style="--modal-party-color:${vari};margin-bottom:.85rem;cursor:pointer" onclick="suljeModal();setPuolue('${m.puolue||''}');naytaNykyisetKansanedustajat();" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
+        <div class="modal-party-tag" style="--modal-party-color:${vari};margin-bottom:.85rem;cursor:pointer" onclick="suljeModal();aktiivisuusPuolue='${(m.puolue||'').replace(/'/g,'')}';aikasuodatin='nykyiset';naytaTulokset();suodataJaRenderöi();" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
         <div style="display:flex;flex-direction:column;gap:.4rem">
           ${m.kotikunta  ? `<div><span class="d-label">Kotikunta</span><div class="d-value" style="font-size:.88rem">${m.kotikunta}</div></div>` : ""}
           ${m.vaalipiiri ? `<div><span class="d-label">Vaalipiiri</span><div class="d-value" style="font-size:.88rem">${m.vaalipiiri}</div></div>` : ""}
