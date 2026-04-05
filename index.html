@@ -2189,7 +2189,9 @@ function luoKortti(m) {
   card.querySelector('.card-party-tag').addEventListener('click', (e) => {
     e.stopPropagation();
     aktiivisuusPuolue = m.puolue || '';
-    setAika('nykyiset');
+    aikasuodatin = 'nykyiset';
+    naytaTulokset();
+    suodataJaRenderöi();
   });
   card.addEventListener("click", (e) => { if (!e.target.closest('button,a,input')) openTTLProfile(m); });
   card.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" ") openTTLProfile(m); });
