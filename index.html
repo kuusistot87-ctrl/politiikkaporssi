@@ -2391,21 +2391,18 @@ function renderModalSkeleton(m, vari) {
     <div class="modal-divider"></div>
     <div id="profnav-container"></div>`;
 
+  // Puoluebadge → nykyiset edustajat + puoluesuodatin
+  content.querySelector('#modalPartyTag').addEventListener('click', () => {
+    closeTTLProfile();
+    aktiivisuusPuolue = m.puolue;
+    aikasuodatin = 'nykyiset';
+    naytaTulokset();
+    suodataJaRenderöi();
+  });
+
   // Profiilin nav-painikkeet — käytä asciiSlug jotta id täsmää lataaAanestykset-funktion kanssa
   const slug = asciiSlug(m.nimi);
   const navContainer = content.querySelector("#profnav-container");
-
-  // Puoluebadge → nykyiset edustajat + puoluesuodatin
-  const partyTag = content.querySelector('#modalPartyTag');
-  if (partyTag && m.puolue) {
-    partyTag.addEventListener('click', () => {
-      suljeModal();
-      aktiivisuusPuolue = m.puolue;
-      aikasuodatin = 'nykyiset';
-      naytaTulokset();
-      suodataJaRenderöi();
-    });
-  }
 
   const tabs = [
     { id: "perustiedot", icon: "🪪", label: "Perustiedot",    color: vari,      shadow: vari+"66",    bg: vari+"15" },
