@@ -2284,6 +2284,13 @@ function openTTLProfile(m) {
 
 
 
+async function lataaAktiivisuusTab(m, vari, body) {
+  if (!AKT_DATA) {
+    await laskeAktiivisuusPisteet();
+  }
+  body.innerHTML = renderAktiivisuusTab(m);
+}
+
 function renderAktiivisuusTab(m) {
   if (!AKT_DATA) {
     return `<div style="color:#5a7a99;font-size:.82rem;padding:1.5rem 0;text-align:center">
@@ -2472,6 +2479,7 @@ function renderModalSkeleton(m, vari) {
       else if (tab.id === "aanestykset") lataaAanestykset(m, vari);
       else if (tab.id === "vaalikone") lataaVaalikone(m, vari);
       else if (tab.id === "vaalirahoitus") lataaVaalirahoitusKortti(m, vari);
+      else if (tab.id === "aktiivisuus") lataaAktiivisuusTab(m, vari, body);
       else if (xmlOsiot.includes(tab.id)) lataaXmlOsio(tab.id, m, vari);
     });
 
@@ -2505,9 +2513,8 @@ async function lataaAanestykset(m, vari) {
   if (AANESTYS_CACHE[slug]) { renderAanestykset(el, AANESTYS_CACHE[slug], elId); return; }
 
   try {
-    const url = `https://kuusistot87-ctrl.github.io/politiikkaporssi/aanestykset_json/${slug}.json?v=${Date.now()}`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error("HTTP " + res.status + " — " + url);
+    const res = await fetch(`https://kuusistot87-ctrl.github.io/politiikkaporssi/aanestykset_json/${slug}.json`);
+    if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     AANESTYS_CACHE[slug] = data;
     renderAanestykset(el, data, elId);
@@ -2515,7 +2522,6 @@ async function lataaAanestykset(m, vari) {
     el.innerHTML = `
       <div class="info-ei" style="margin-bottom:.75rem">Äänestysdata ei vielä saatavilla.</div>
       <div style="font-size:.72rem;color:#4a5a7a;line-height:1.6">
-        Virhe: <code>${e.message}</code><br><br>
         Data haetaan automaattisesti GitHub Actions -ajolla joka yö.<br>
         Käynnistä ensimmäinen haku ajamalla: <code>python hae_aanestykset.py</code>
       </div>`;
