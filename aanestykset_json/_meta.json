@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "paivitetty": "2026-04-05 06:19",
   "edustajia": 0,
   "epaonnistuneet": [
@@ -203,4 +204,9 @@
     "Ben Zyskowicz",
     "Peter Östman"
   ]
+=======
+  "paivitetty": "2026-04-05 06:39",
+  "edustajia": 200,
+  "epaonnistuneet": []
+>>>>>>> Stashed changes
 }
