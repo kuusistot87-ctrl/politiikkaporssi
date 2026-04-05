@@ -2366,7 +2366,7 @@ function renderModalSkeleton(m, vari) {
           ${m.nykyinen ? "KANSANEDUSTAJA" : "ENT. KANSANEDUSTAJA"}
         </div>
         <div class="modal-name" id="modalName" style="margin-bottom:.5rem;line-height:1.2">${m.nimi}</div>
-        <div class="modal-party-tag" id="modalPartyTag" style="--modal-party-color:${vari};margin-bottom:.85rem;cursor:pointer" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
+        <div class="modal-party-tag" style="--modal-party-color:${vari};margin-bottom:.85rem;cursor:pointer" onclick="suljeModal();aktiivisuusPuolue='${(m.puolue||'').replace(/'/g,'')}';aikasuodatin='nykyiset';naytaTulokset();suodataJaRenderöi();" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
         <div style="display:flex;flex-direction:column;gap:.4rem">
           ${m.kotikunta  ? `<div><span class="d-label">Kotikunta</span><div class="d-value" style="font-size:.88rem">${m.kotikunta}</div></div>` : ""}
           ${m.vaalipiiri ? `<div><span class="d-label">Vaalipiiri</span><div class="d-value" style="font-size:.88rem">${m.vaalipiiri}</div></div>` : ""}
@@ -2390,15 +2390,6 @@ function renderModalSkeleton(m, vari) {
     </div>
     <div class="modal-divider"></div>
     <div id="profnav-container"></div>`;
-
-  // Puoluebadge → nykyiset edustajat + puoluesuodatin
-  content.querySelector('#modalPartyTag').addEventListener('click', () => {
-    closeTTLProfile();
-    aktiivisuusPuolue = m.puolue;
-    aikasuodatin = 'nykyiset';
-    naytaTulokset();
-    suodataJaRenderöi();
-  });
 
   // Profiilin nav-painikkeet — käytä asciiSlug jotta id täsmää lataaAanestykset-funktion kanssa
   const slug = asciiSlug(m.nimi);
@@ -2688,6 +2679,9 @@ document.addEventListener("keydown", function(e) {
   // Uutisetkortti
   var uut = document.getElementById("uutisetKorttiOverlay");
   if (uut && uut.classList.contains("open")) { suljeUutisetKortti(); return; }
+  // OhjelmaViewer
+  var ov = document.getElementById("ohjelmaViewer");
+  if (ov && ov.style.display !== "none" && ov.style.display !== "") { suljeOhjelmaViewer(); return; }
   // Profiilimodaali
   var mod = document.getElementById("modalOverlay");
   if (mod && mod.classList.contains("open")) { closeTTLProfile(); return; }
@@ -2695,19 +2689,12 @@ document.addEventListener("keydown", function(e) {
   var drw = document.getElementById("drawer");
   if (drw && drw.classList.contains("open")) {
     suljeDraver();
-    // Jos vertailunäkymä oli auki, nollaa myös vertailupalkki
     var vp = document.getElementById("vertPalkki");
     if (vp && vp.classList.contains("auki")) { nollaaVertailu(); }
     return;
   }
-  // Aktiivisuusnäkymä
-  var akt = document.getElementById("aktiivisuusNakyma");
-  if (akt && akt.style.display === "flex") { suljeDraver(); return; }
-  // Rahoitusnäkymä
-  var rah = document.getElementById("rahoitusNakyma");
-  if (rah && rah.style.display === "flex") { suljeDraver(); return; }
-  // Muuten splash
-  naytaSplash();
+  // Muuten palaa edelliseen näkymään
+  paataEdelliseen();
 });
 
 function eduskuntaUrl(url) {
@@ -3222,8 +3209,8 @@ function paataEdelliseen() {
     naytaSplash();
     return;
   }
-  if (edellinen === 'nykyiset')      { setAika('nykyiset'); return; }
-  if (edellinen === 'historialliset') { setAika('hist'); return; }
+  if (edellinen === 'nykyiset')      { aikasuodatin = 'nykyiset'; naytaTulokset(); suodataJaRenderöi(); return; }
+  if (edellinen === 'historialliset') { aikasuodatin = 'hist'; naytaTulokset(); suodataJaRenderöi(); return; }
   if (edellinen === 'hallitus')       { piilotaKaikki(); naytaHallitusNakyma(); return; }
   if (edellinen === 'voimasuhteet')   { piilotaKaikki(); naytaVoimasuhteetNakyma(); return; }
   if (edellinen === 'ikarakenne')     { piilotaKaikki(); naytaIkarakenneNakyma(); return; }
