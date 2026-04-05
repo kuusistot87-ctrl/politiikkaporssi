@@ -2177,7 +2177,7 @@ function luoKortti(m) {
     <div class="card-body" style="display:flex;gap:.85rem;align-items:flex-start">
       ${kuvaHtml ? `<div style="flex-shrink:0">${kuvaHtml}</div>` : ''}
       <div style="min-width:0;flex:1">
-        <div class="card-party-tag" onclick="event.stopPropagation();aktiivisuusPuolue='${m.puolue||''}';setAika('nykyiset');" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
+        <div class="card-party-tag" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
         <div class="card-name">${kaannaNimi(m.nimi)}</div>
         <div class="card-meta">${[paikkatieto,vuodet].filter(Boolean).join(" · ")}</div>
       </div>
@@ -2186,6 +2186,11 @@ function luoKortti(m) {
       <span class="card-action-avaa">AVAA →</span>
       ${vertKnap}
     </div>`;
+  card.querySelector('.card-party-tag').addEventListener('click', (e) => {
+    e.stopPropagation();
+    aktiivisuusPuolue = m.puolue || '';
+    setAika('nykyiset');
+  });
   card.addEventListener("click", (e) => { if (!e.target.closest('button,a,input')) openTTLProfile(m); });
   card.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" ") openTTLProfile(m); });
   return card;
