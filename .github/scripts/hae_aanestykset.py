@@ -14,7 +14,7 @@ import json, os, re, time, urllib.request, urllib.parse
 from datetime import datetime
 
 API_BASE   = "https://avoindata.eduskunta.fi/api/v1/tables"
-ROOT       = os.path.join(os.path.dirname(__file__), "..", "..")
+ROOT       = os.path.join(os.path.dirname(__file__), "..")
 OUT_DIR    = os.path.join(ROOT, "aanestykset_json")
 INDEX_FILE = os.path.join(ROOT, "edustajat_json", "index.json")
 
@@ -85,7 +85,7 @@ def laske_yhteenveto(sarakkeet, rivit):
         "yhteensa": len(rivit)
     }
 
-def muodosta_lista(sarakkeet, rivit, max_n=50):
+def muodosta_lista(sarakkeet, rivit, max_n=300):
     if not sarakkeet or not rivit:
         return []
     def g(rivi, nimi):
