@@ -2284,13 +2284,6 @@ function openTTLProfile(m) {
 
 
 
-async function lataaAktiivisuusTab(m, vari, body) {
-  if (!AKT_DATA) {
-    await laskeAktiivisuusPisteet();
-  }
-  body.innerHTML = renderAktiivisuusTab(m);
-}
-
 function renderAktiivisuusTab(m) {
   if (!AKT_DATA) {
     return `<div style="color:#5a7a99;font-size:.82rem;padding:1.5rem 0;text-align:center">
@@ -2304,10 +2297,10 @@ function renderAktiivisuusTab(m) {
   const sijaEmoji = d.sija === 1 ? '🥇' : d.sija === 2 ? '🥈' : d.sija === 3 ? '🥉' : '#' + d.sija;
   const mSlug = JSON.stringify(m).replace(/'/g,"\\'");
   const kategoriat = [
-    { label: 'Äänestys',   pisteet: d.aanestys,  max: 30, vari: '#27ae60', tab: 'aanestys',   tooltip: 'Näytä äänestyshistoria' },
-    { label: 'Poissaolot', pisteet: d.poissaolo, max: 25, vari: '#00d4ff', tab: 'poissaolot', tooltip: 'Näytä poissaolot' },
-    { label: 'Aloitteet',  pisteet: d.aloite,    max: 25, vari: '#a855f7', tab: 'aloitteet',  tooltip: 'Näytä aloitteet' },
-    { label: 'Media',      pisteet: d.media,     max: 20, vari: '#ff4d6d', tab: 'signaali',   tooltip: 'Näytä mediamaininnat' },
+    { label: 'Äänestys',     pisteet: d.aanestys,    max: 60,  vari: '#27ae60', tab: 'aanestys',   tooltip: 'Näytä äänestyshistoria' },
+    { label: 'Aloitteet',    pisteet: d.aloite,      max: 50,  vari: '#a855f7', tab: 'aloitteet',  tooltip: 'Näytä aloitteet' },
+    { label: 'Puheenvuorot', pisteet: d.puheenvuoro, max: 50,  vari: '#00d4ff', tab: 'puheenvuorot', tooltip: 'Näytä puheenvuorot' },
+    { label: 'Media',        pisteet: d.media,       max: 40,  vari: '#ff4d6d', tab: 'signaali',   tooltip: 'Näytä mediamaininnat' },
   ];
   return `
     <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem;
@@ -2479,7 +2472,6 @@ function renderModalSkeleton(m, vari) {
       else if (tab.id === "aanestykset") lataaAanestykset(m, vari);
       else if (tab.id === "vaalikone") lataaVaalikone(m, vari);
       else if (tab.id === "vaalirahoitus") lataaVaalirahoitusKortti(m, vari);
-      else if (tab.id === "aktiivisuus") lataaAktiivisuusTab(m, vari, body);
       else if (xmlOsiot.includes(tab.id)) lataaXmlOsio(tab.id, m, vari);
     });
 
@@ -4971,7 +4963,17 @@ async function laskeAktiivisuusPisteet() {
   // 3) Laske pisteet per edustaja
   const nykyiset = KAIKKI.filter(m => m.nykyinen);
 
-  let maxAanPct = 0, maxMediaLkm = 0;
+  // Lataa aktiivisuus_json-data
+  const aktCache = {};
+  await Promise.allSettled(nykyiset.map(async m => {
+    const slug = asciiSlug(m.nimi);
+    try {
+      const res = await fetch(`https://kuusistot87-ctrl.github.io/politiikkaporssi/aktiivisuus_json/${slug}.json?v=${Date.now()}`);
+      if (res.ok) aktCache[m.nimi] = await res.json();
+    } catch(e) {}
+  }));
+
+  let maxAanPct = 0, maxMediaLkm = 0, maxAloiteet = 0, maxPuheenvuorot = 0;
   const raakaPisteet = nykyiset.map(m => {
     // Äänestysosallistuminen
     const aCache = AANESTYS_CACHE[asciiSlug(m.nimi)];
@@ -4981,13 +4983,11 @@ async function laskeAktiivisuusPisteet() {
       const n   = yht.yhteensa || 1;
       aanPct = Math.round(((n - (yht.poissa||0)) / n) * 100);
     } else {
-      // Estimaatti poissaolodatasta: sijoitus 200 = vähiten poissa -> korkea aanPct
       const p = poissMap[m.nimi];
       if (p && p.sijoitus) {
-        // Sijoitus 200 -> ~95%, sijoitus 1 -> ~30%
         aanPct = Math.round(30 + (p.sijoitus / 200) * 65);
       } else {
-        aanPct = 60; // neutraali default jos ei dataa lainkaan
+        aanPct = 60;
       }
     }
     if (aanPct > maxAanPct) maxAanPct = aanPct;
@@ -4997,49 +4997,54 @@ async function laskeAktiivisuusPisteet() {
     const poissYht  = p ? p.yht  : 0;
     const poissSija = p ? p.sijoitus : 100;
 
-    // Aloitteet: pelkästään vaalikausimäärä — ei puoluebonusta
-    const vp = m.vaalikaudet || 1;
-    const aloiteEstimaatti = Math.min(40, vp * 3);
+    // Aloitteet + kirjalliset kysymykset (oikea data)
+    const aktD = aktCache[m.nimi];
+    const aloiteet = aktD ? ((aktD.luvut.aloitteet || 0) + (aktD.luvut.kirjalliset_kysymykset || 0)) : 0;
+    if (aloiteet > maxAloiteet) maxAloiteet = aloiteet;
 
-    // Mediamainintamäärä (nyt oikea data RSS:stä)
+    // Puheenvuorot (oikea data)
+    const puheenvuorot = aktD ? (aktD.luvut.puheenvuorot || 0) : 0;
+    if (puheenvuorot > maxPuheenvuorot) maxPuheenvuorot = puheenvuorot;
+
+    // Mediamainintamäärä
     const mediaLkm = AKT_MEDIA_COUNTS[m.nimi] || 0;
     if (mediaLkm > maxMediaLkm) maxMediaLkm = mediaLkm;
 
-    return { m, aanPct, poissYht, poissSija, aloiteEstimaatti, mediaLkm };
+    return { m, aanPct, poissYht, poissSija, aloiteet, puheenvuorot, mediaLkm };
   });
 
-  if (maxAanPct  < 1) maxAanPct  = 100;
-  if (maxMediaLkm < 1) maxMediaLkm = 1;
-  const maxAloite = Math.max(...raakaPisteet.map(r => r.aloiteEstimaatti), 1);
-  const totalEd   = nykyiset.length || 200;
+  if (maxAanPct      < 1) maxAanPct      = 100;
+  if (maxMediaLkm    < 1) maxMediaLkm    = 1;
+  if (maxAloiteet    < 1) maxAloiteet    = 1;
+  if (maxPuheenvuorot < 1) maxPuheenvuorot = 1;
+  const totalEd = nykyiset.length || 200;
 
   AKT_DATA = raakaPisteet.map(r => {
-    // ÄÄNESTYS (0-30p): suoraan osallistumisprosentista
-    const pAan = Math.round((r.aanPct / 100) * 30);
+    // ÄÄNESTYS (0-60p): suoraan osallistumisprosentista
+    const pAan = Math.round((r.aanPct / 100) * 60);
 
-    // POISSAOLOT (0-25p): sijoitus 200 = vähiten poissa = 25p, sijoitus 1 = eniten poissa = ~0p
-    // KORJAUS: isompi sijoitusnumero tarkoittaa vähemmän poissaoloja -> enemmän pisteitä
-    const pPois = r.poissSija > 0
-      ? Math.round((r.poissSija / totalEd) * 25)
-      : 13; // ei dataa -> neutraali
+    // ALOITTEET (0-50p): suhteellinen maksimiin
+    const pAloi = Math.round((r.aloiteet / maxAloiteet) * 50);
 
-    // ALOITTEET (0-25p): suhteellinen vaalikausimäärän mukaan, ei puoluebonusta
-    const pAloi = Math.round((r.aloiteEstimaatti / maxAloite) * 25);
+    // PUHEENVUOROT (0-50p): suhteellinen maksimiin
+    const pPuheen = Math.round((r.puheenvuorot / maxPuheenvuorot) * 50);
 
-    // MEDIA (0-20p): suhteellinen RSS-mainintamäärä
-    const pMedi = Math.round((r.mediaLkm / maxMediaLkm) * 20);
+    // MEDIA (0-40p): suhteellinen RSS-mainintamäärä
+    const pMedi = Math.round((r.mediaLkm / maxMediaLkm) * 40);
 
-    const yht = Math.min(100, pAan + pPois + pAloi + pMedi);
+    const yht = Math.min(200, pAan + pAloi + pPuheen + pMedi);
     return {
-      m:         r.m,
+      m:            r.m,
       yht,
-      aanestys:  pAan,
-      poissaolo: pPois,
-      aloite:    pAloi,
-      media:     pMedi,
-      aanPct:    r.aanPct,
-      poissYht:  r.poissYht,
-      mediaLkm:  r.mediaLkm,
+      aanestys:     pAan,
+      aloite:       pAloi,
+      puheenvuoro:  pPuheen,
+      media:        pMedi,
+      aanPct:       r.aanPct,
+      poissYht:     r.poissYht,
+      mediaLkm:     r.mediaLkm,
+      aloiteetLkm:  r.aloiteet,
+      puheenvuoroLkm: r.puheenvuorot,
     };
   });
 
@@ -5153,7 +5158,7 @@ function renderAktiivisuus() {
   lista.forEach((d,i) => d.nayttoSija = i + 1);
 
   // Podiumit: parhaat top-3 ja häntäpää bottom-3
-  const kentta = AKT_SORT === 'yht' ? 'yht' : AKT_SORT === 'aanestys' ? 'aanestys' : AKT_SORT === 'poissaolo' ? 'poissaolo' : 'media';
+  const kentta = AKT_SORT === 'yht' ? 'yht' : AKT_SORT === 'aanestys' ? 'aanestys' : AKT_SORT === 'puheenvuoro' ? 'puheenvuoro' : AKT_SORT === 'aloite' ? 'aloite' : 'media';
   renderPodium(lista.slice(0, 3), 'aktPodiumTop', false, kentta);
   renderPodium(lista.slice(-3).reverse(), 'aktPodiumBottom', true, kentta);
 
