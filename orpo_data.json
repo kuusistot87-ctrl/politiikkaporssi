@@ -1,0 +1,4993 @@
+{
+  "props": {
+    "pageProps": {
+      "electionId": "eduskunta2023",
+      "answers": [
+        {
+          "theme": {
+            "name": "Turvallisuus­politiikka",
+            "description": "Nyt valittava eduskunta todennäköisesti osaltaan määrittelee, millainen Nato-maa Suomesta tulee. Myös suhde Venäjään ja Ukrainaan leimaa tulevia vuosia: jos sota loppuu, edessä on jälleenrakennus. Venäjän näkymät ovat arvaamattomat. ",
+            "id": 1
+          },
+          "questions": [
+            {
+              "id": "e9ca5577-c999-4c28-b94c-add2152ee0a6",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 1,
+              "text": "Ukrainaa on tuettava sodassa ja jälleenrakennuksessa kustannuksista huolimatta.",
+              "theme": {
+                "name": "Turvallisuus­politiikka",
+                "description": "Nyt valittava eduskunta todennäköisesti osaltaan määrittelee, millainen Nato-maa Suomesta tulee. Myös suhde Venäjään ja Ukrainaan leimaa tulevia vuosia: jos sota loppuu, edessä on jälleenrakennus. Venäjän näkymät ovat arvaamattomat. ",
+                "id": 1
+              },
+              "answer": 5,
+              "explanation": "On koko Euroopan turvallisuuden kannalta kriittinen kysymys, että Ukrainaa tuetaan niin pitkään ja niin paljon kuin se tarvitsee ajaakseen Venäjän joukot takaisin omien rajojensa taakse. Sellaista vaihtoehtoa ei voi olla, että Venäjän annettaisiin saavuttaa tavoitteitaan, koska sellainen olisi vain alkusoittoa seuraavalle hyökkäykselle."
+            },
+            {
+              "id": "33cbf139-9472-46b0-a733-fdf75b56ee4a",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 2,
+              "text": "Suomen on käytettävä puolustukseen rahaa vähintään Naton tavoitteen verran.",
+              "theme": {
+                "name": "Turvallisuus­politiikka",
+                "description": "Nyt valittava eduskunta todennäköisesti osaltaan määrittelee, millainen Nato-maa Suomesta tulee. Myös suhde Venäjään ja Ukrainaan leimaa tulevia vuosia: jos sota loppuu, edessä on jälleenrakennus. Venäjän näkymät ovat arvaamattomat. ",
+                "id": 1
+              },
+              "answer": 5,
+              "explanation": "Kokoomuksen linja on pitkään ollut, että maanpuolustuksen määrärahat turvataan Naton tavoitteen mukaisesti vähintään 2%:n tasolle suhteessa bruttokansantuotteeseen. Lisäksi kriisinhallinnan ja rajavartiolaitoksen kulut on laskettava mukaan puolustusbudjettiin Nato-standardin mukaisesti. Kokoomus on myös peräänkuuluttanut parlamentaarisen ryhmän perustamista ensi kaudelle, jonka tehtävänä olisi selvittää Suomen maanpuolustuksen kehitystarpeita. Samassa yhteydessä selvitetään mahdollisuutta maanpuolustusmenojen nostamiseksi asteittain 2,5-3,0 %:n tasolle pitkällä aikavälillä. "
+            }
+          ]
+        },
+        {
+          "theme": {
+            "name": "Hyvinvointi­valtio",
+            "description": "Väestön ikääntyminen ja heikko talouskasvu vaikeuttavat hyvinvointivaltioon perinteisesti kuuluvien palveluiden ja sosiaaliturvan ylläpitämistä. Nyt valittavien kansanedustajien on etsittävä vastauksia siihen, miten ongelmat ratkotaan. ",
+            "id": 2
+          },
+          "questions": [
+            {
+              "id": "e710730f-b689-43a1-a123-43cfb3c38057",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 3,
+              "text": "Peruskoulussa pitää rajoittaa lailla oppilaiden määrää yhtä opettajaa kohden, vaikka se tarkoittaisi säästöjä muualta, veronkorotuksia tai lisää velkaa.",
+              "theme": {
+                "name": "Hyvinvointi­valtio",
+                "description": "Väestön ikääntyminen ja heikko talouskasvu vaikeuttavat hyvinvointivaltioon perinteisesti kuuluvien palveluiden ja sosiaaliturvan ylläpitämistä. Nyt valittavien kansanedustajien on etsittävä vastauksia siihen, miten ongelmat ratkotaan. ",
+                "id": 2
+              },
+              "answer": 2,
+              "explanation": "Ryhmäkoot eivät itsessään ole opetuksen suurin haaste. Oleellisempaa on tunnistaa ryhmien erilaiset tarpeet ja löydettävä niihin ratkaisut esimerkiksi erityistä tukea tarvitsevien oppilaiden osalta. Meidän on varmistettava, että kouluissa on riittävä määrä opettajia ja muuta henkilökuntaa jokaisen koulun tarpeiden mukaan. \n"
+            },
+            {
+              "id": "005ad3fb-04c3-4a08-8d9f-f9731760a08e",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 4,
+              "text": "Suomeen on perustettava huumeiden käyttöhuoneita.",
+              "theme": {
+                "name": "Hyvinvointi­valtio",
+                "description": "Väestön ikääntyminen ja heikko talouskasvu vaikeuttavat hyvinvointivaltioon perinteisesti kuuluvien palveluiden ja sosiaaliturvan ylläpitämistä. Nyt valittavien kansanedustajien on etsittävä vastauksia siihen, miten ongelmat ratkotaan. ",
+                "id": 2
+              },
+              "answer": 2,
+              "explanation": "Suomen huumepolitiikassa ensisijaisesti tärkeintä on edistää helpompaa ja sujuvampaa hoitoon pääsyä niille, joilla on aito oma halu ja motivaatio päästä päihteistä eroon. Olen kriittinen huumeiden käytön rangaistavuudesta luopumiselle, sillä tämä voisi antaa hyväksyvän signaalin yhteiskunnan puolelta huumeille.\n"
+            },
+            {
+              "id": "6743e410-f765-44c1-8154-27d7b7c58bf5",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 5,
+              "text": "Valtion on annettava suunniteltua enemmän rahaa sosiaali- ja terveydenhuoltoon, vaikka se tarkoittaisi säästöjä muualta, veronkorotuksia tai lisää velkaa.",
+              "theme": {
+                "name": "Hyvinvointi­valtio",
+                "description": "Väestön ikääntyminen ja heikko talouskasvu vaikeuttavat hyvinvointivaltioon perinteisesti kuuluvien palveluiden ja sosiaaliturvan ylläpitämistä. Nyt valittavien kansanedustajien on etsittävä vastauksia siihen, miten ongelmat ratkotaan. ",
+                "id": 2
+              },
+              "answer": 2,
+              "explanation": "On selvää, että sosiaali- ja terveysmenot tulevat kasvamaan kun väestön ikääntyy. Jotta pystymme huolehtimaan vähintään nykyisestä palvelutasosta niitä tarvitseville, meidän on pyrittävä hillitsemään kustannusten nousua. Tämä tapahtuu mm. ottamalla paremmin yritykset ja järjestöt osaksi palveluiden tarjontaan. \n"
+            },
+            {
+              "id": "ae3ca506-100d-4079-bd80-cda71ca80b99",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 6,
+              "text": "Nuorisorikollisuutta on pyrittävä kitkemään ensisijaisesti muilla keinoilla kuin rangaistuksia koventamalla.",
+              "theme": {
+                "name": "Hyvinvointi­valtio",
+                "description": "Väestön ikääntyminen ja heikko talouskasvu vaikeuttavat hyvinvointivaltioon perinteisesti kuuluvien palveluiden ja sosiaaliturvan ylläpitämistä. Nyt valittavien kansanedustajien on etsittävä vastauksia siihen, miten ongelmat ratkotaan. ",
+                "id": 2
+              },
+              "answer": 4,
+              "explanation": "Nuorisorikollisuudessa on usein kyse nuorten syrjäytymisestä muusta yhteiskunnasta. Ennaltaehkäisevään toimintaan on panostettava. Kouluissa on panostettava tehokkaaseen, yksilölliseen ja varhaiseen tukeen, häiriökäyttäytymiseen on puututtava heti sen esiintyessä ja jokaiselle nuorelle on varmistettava oikeus vähintään yhteen mielekkääseen harrastukseen. Lastensuojelulle on turvattava riittävät resurssit ja eri ammattilaisten, kuten poliisin, koulun ja sosiaalitoimen välillä tapahtuvaa yhteistyötä tiivistettävä. \n"
+            }
+          ]
+        },
+        {
+          "theme": {
+            "name": "Julkinen talous",
+            "description": "Suomi on monien muiden Euroopan maiden tavoin velkaantunut viime vuosina voimakkaasti. Talouskasvun ennustetaan lähivuosina olevan olematonta tai heikkoa, ja väestön ikääntyminen lisää valtion kuluja. Näissä vaaleissa valittavien kansanedustajien on ratkottava, miten valtion rahat saadaan riittämään. ",
+            "id": 3
+          },
+          "questions": [
+            {
+              "id": "cbb9829d-fc6f-4380-8786-021db0f93a84",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 7,
+              "text": "Työttömiä pitää saada nykyistä enemmän töihin heikentämällä ansiosidonnaista työttömyysturvaa.",
+              "theme": {
+                "name": "Julkinen talous",
+                "description": "Suomi on monien muiden Euroopan maiden tavoin velkaantunut viime vuosina voimakkaasti. Talouskasvun ennustetaan lähivuosina olevan olematonta tai heikkoa, ja väestön ikääntyminen lisää valtion kuluja. Näissä vaaleissa valittavien kansanedustajien on ratkottava, miten valtion rahat saadaan riittämään. ",
+                "id": 3
+              },
+              "answer": 5,
+              "explanation": "Jokaisella työikäisellä ja työkykyisellä on oltava oikeus ja velvollisuus tehdä töitä. Ansiosidonnaisen työttömyysturvan on oltava sellainen, että se kannustaa työn vastaanottamiseen mahdollisimman nopeasti. Lähtökohtaisesti sosiaaliturvan tulee aina kannustaa mieluummin lähtemään töihin, kuin jäämään kotiin. Ansiosidonnaisen työttömyysturvan pituutta voidaan lyhentää ja porrastaa niin, että turva on alussa korkeampi, ja laskee tasaisesti työttömyyden pitkittyessä. Lisäksi mielestäni ansiosidonnainen työttömyysturva on laajennettava kaikkien oikeudeksi, ei vain kassaan kuuluville. \n"
+            },
+            {
+              "id": "edf7b5e4-398f-47ba-aa3e-d2eabb764b2d",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 8,
+              "text": "Suomeen on houkuteltava aktiivisemmin ulkomaisia työntekijöitä.",
+              "theme": {
+                "name": "Julkinen talous",
+                "description": "Suomi on monien muiden Euroopan maiden tavoin velkaantunut viime vuosina voimakkaasti. Talouskasvun ennustetaan lähivuosina olevan olematonta tai heikkoa, ja väestön ikääntyminen lisää valtion kuluja. Näissä vaaleissa valittavien kansanedustajien on ratkottava, miten valtion rahat saadaan riittämään. ",
+                "id": 3
+              },
+              "answer": 5,
+              "explanation": "On selvää, että meillä ei riitä väkimäärä huolehtimaan ikääntyvästä väestöstämme. Suomessa on tällä hetkellä ja lähitulevaisuudessa työvoimapula. Tarvitsemme ahkeria, työhön valmiita osaajia ja julkista sektoria sekä kansantaloutta hyödyttävää maahanmuutoa myös ulkomailta. \n"
+            },
+            {
+              "id": "9f66b7c7-976d-4a23-b25b-a6f9c5f66ad7",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 9,
+              "text": "Valtion velkaantumista tulee hillitä, vaikka se merkitsisi leikkauksia etuuksiin tai palveluihin.",
+              "theme": {
+                "name": "Julkinen talous",
+                "description": "Suomi on monien muiden Euroopan maiden tavoin velkaantunut viime vuosina voimakkaasti. Talouskasvun ennustetaan lähivuosina olevan olematonta tai heikkoa, ja väestön ikääntyminen lisää valtion kuluja. Näissä vaaleissa valittavien kansanedustajien on ratkottava, miten valtion rahat saadaan riittämään. ",
+                "id": 3
+              },
+              "answer": 5,
+              "explanation": "Vahva valtiontalous on köyhän paras ystävä. Emme voi huolehtia suomalaisille tärkeistä hyvinvointiyhteiskunnan palveluista kuten vanhustenhoidosta ja koulutuksesta, jos meillä ei ole varaa niihin. Talouden kantokyvystä huolehtiminen on myös Suomen turvallisuudesta huolehtimista. Valtion korkomenot vievät jo enemmän kuin koko poliisin ja rajaturvallisuuden resurssit. Pian korkoihin menee jo maanpuolustuksen verran rahaa. Siksi on välttämätöntä priorisoida menoja ja säästää.\n"
+            }
+          ]
+        },
+        {
+          "theme": {
+            "name": "Omat rahat",
+            "description": "Kansalaisten ostovoima heikkenee energian ja muiden elinkustannusten kallistumisen takia. Suomen Pankin ja valtiovarainministeriön mukaan edessä on taantuma ja sen jälkeen heikon kasvun aika. ",
+            "id": 4
+          },
+          "questions": [
+            {
+              "id": "bb9c453e-ff6e-46c6-8c6b-94aa1c48e66d",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 10,
+              "text": "Palkkojen verotusta pitää alentaa, vaikka se johtaisi palveluiden leikkauksiin, muun verotuksen kiristämiseen tai velan kasvuun.",
+              "theme": {
+                "name": "Omat rahat",
+                "description": "Kansalaisten ostovoima heikkenee energian ja muiden elinkustannusten kallistumisen takia. Suomen Pankin ja valtiovarainministeriön mukaan edessä on taantuma ja sen jälkeen heikon kasvun aika. ",
+                "id": 4
+              },
+              "answer": 5,
+              "explanation": "Kannatan ansiotuloverotuksen alentamista. On oikein, että ihmiselle jää enemmän käteen tekemästään työstä. Verotuksen keventäminen kannustaa työntekoon, lisää työllisyyttä ja siten luo kasvua ja hyvinvointia Suomeen. Tästä hyötyy koko yhteiskunta, kun ihmisillä on enemmän varaa käyttää palveluja ja tehdä hankintoja. Verotuksen keventäminen voidaan tehdä tilanteessa, jossa verotusta voidaan kiristää esimerkiksi ympäristölle haitallisesta toiminnasta. Velalla verotusta ei tule keventää. \n"
+            },
+            {
+              "id": "4954c69f-4eae-492b-8377-d5c19f7174e5",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 11,
+              "text": "Valtion pitää tukea enemmän kansalaisia, jotka kärsivät energian hinnan noususta, vaikka se kiihdyttäisi inflaatiota tai heikentäisi valtion taloutta.",
+              "theme": {
+                "name": "Omat rahat",
+                "description": "Kansalaisten ostovoima heikkenee energian ja muiden elinkustannusten kallistumisen takia. Suomen Pankin ja valtiovarainministeriön mukaan edessä on taantuma ja sen jälkeen heikon kasvun aika. ",
+                "id": 4
+              },
+              "answer": 4,
+              "explanation": "Heitä, joille sähkön hinnan nousu aiheuttaa kohtuutonta haittaa, on autettava. Tällä hetkellä tukien ongelma on, että ne eivät ole kohdentuneet niitä eniten tarvitseville. Tärkeintä on huolehtia, että omavaraisuus sähkön tuotannossa saadaan riittävän korkealle tasolle, jotta tämän talven kaltaisia tarjontapuutteiden aiheuttamia valtavia hinnannousuja ei enää tulisi. Sähkötukien tapaisten järjestelyiden on oltava väliaikaisia, ja pidemmällä aikavälillä niistä on luovuttava.\n"
+            }
+          ]
+        },
+        {
+          "theme": {
+            "name": "Ympäristö ja ilmasto",
+            "description": "Suomen nettoilmastopäästöt eivät ole tavoitteista huolimatta pienentyneet. YK:n luontokokous päätti joulukuussa, että maailman maa- ja merialueista suojellaan 30 prosenttia vuoteen 2030 mennessä. Energia on kallistunut, ja eri puolueet tekevät erilaisia johtopäätöksiä siitä, miten sen pitäisi vaikuttaa ilmastotoimiin. ",
+            "id": 5
+          },
+          "questions": [
+            {
+              "id": "ac2e80e2-cf48-450b-8f7e-08f612c7eec7",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 12,
+              "text": "Hakkuita pitää vähentää valtion metsissä luontokadon ja ilmastonmuutoksen torjumiseksi.",
+              "theme": {
+                "name": "Ympäristö ja ilmasto",
+                "description": "Suomen nettoilmastopäästöt eivät ole tavoitteista huolimatta pienentyneet. YK:n luontokokous päätti joulukuussa, että maailman maa- ja merialueista suojellaan 30 prosenttia vuoteen 2030 mennessä. Energia on kallistunut, ja eri puolueet tekevät erilaisia johtopäätöksiä siitä, miten sen pitäisi vaikuttaa ilmastotoimiin. ",
+                "id": 5
+              },
+              "answer": 4,
+              "explanation": "Valtion metsiä pitää hoitaa erityisellä vastuullisuudella. Samaan aikaa on huomioitava Suomen velvoitteet ilmastopolitiikan saralla sekä yritysten raaka-aineen saanti myös tulevaisuudessa. Myös puusta valmistettavilla tuotteilla korvataan jo nyt fossiilisia raaka-aineita kuten muovia ja betonia, mikä osaltaan torjuu ilmastonmuutosta. Valtion metsiä on käytettävä ja hoidettava vastuullisesti ja hakkuutaso on oltava yhteiskunnan kokonaisedun kannalta kestävällä tasolla. Kokoomuksen mielestä vanhojen metsien osalta Suomessa voidaan tehdä enemmän. Jäljellä olevat valtion maiden luonnontilaiset ja vanhat metsät tulisi suojella. "
+            },
+            {
+              "id": "541260fe-c8f1-4109-9cd8-b4d449902db6",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 13,
+              "text": "Suomen on lykättävä hiilineutraaliustavoitettaan kauemmaksi vuodesta 2035.",
+              "theme": {
+                "name": "Ympäristö ja ilmasto",
+                "description": "Suomen nettoilmastopäästöt eivät ole tavoitteista huolimatta pienentyneet. YK:n luontokokous päätti joulukuussa, että maailman maa- ja merialueista suojellaan 30 prosenttia vuoteen 2030 mennessä. Energia on kallistunut, ja eri puolueet tekevät erilaisia johtopäätöksiä siitä, miten sen pitäisi vaikuttaa ilmastotoimiin. ",
+                "id": 5
+              },
+              "answer": 1,
+              "explanation": "Tavoitetta ei tule lykätä, sillä suomalaiset yritykset ja elinkeinoelämä ovat jo investoinneillaan sitoutuneet tavoitteejn saavuttamiseen. Ilmastopolitiikan pitää olla kustannustehokasta ja päästövähennykset toteuttaa siellä, missä ne ovat tehokkaimpia. Energiamurros ja siirtymä fossiilisista raaka-aineista puhtaaseen energiaan vahvistaa taloutta ja lisää myös turvallisuutta, sillä emme ole niin riippuvaisia esimerkiksi Venäjästä tai muista öljymaista. Suomesta voi tulla puhtaan energian suurvalta, ja voimme omavaraisella puhtaalla energialla houkutella Suomeen teollisuutta sekä investointeja."
+            },
+            {
+              "id": "ca30e7f5-fdb8-497d-94c9-6632beb668e6",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 14,
+              "text": "Helsingissä ja muissa suurissa kaupungeissa on otettava käyttöön ruuhkamaksu.",
+              "theme": {
+                "name": "Ympäristö ja ilmasto",
+                "description": "Suomen nettoilmastopäästöt eivät ole tavoitteista huolimatta pienentyneet. YK:n luontokokous päätti joulukuussa, että maailman maa- ja merialueista suojellaan 30 prosenttia vuoteen 2030 mennessä. Energia on kallistunut, ja eri puolueet tekevät erilaisia johtopäätöksiä siitä, miten sen pitäisi vaikuttaa ilmastotoimiin. ",
+                "id": 5
+              },
+              "answer": 1,
+              "explanation": "Kustannusten lisääminen erityisesti työmatkaliikenteelle olisi nykytilanteessa erittäin haitallista. Näköpiirissä olevassa tulevaisuudessa ei ole realistista vaihtoehtoa suurelle osalle siitä työmatkaliikenteestä, joka kuljetaan omalla autolla. Suomen kaupunkien ruuhkat ovat kansainvälisesti vertaillen hyvin vähäisiä, eli ainakaan toistaiseksi asia ei tässäkään mielessä ole ajankohtainen."
+            },
+            {
+              "id": "8b48c347-0c47-489b-9039-bfa0c4457945",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 15,
+              "text": "Turkistarhaus on kiellettävä Suomessa.",
+              "theme": {
+                "name": "Ympäristö ja ilmasto",
+                "description": "Suomen nettoilmastopäästöt eivät ole tavoitteista huolimatta pienentyneet. YK:n luontokokous päätti joulukuussa, että maailman maa- ja merialueista suojellaan 30 prosenttia vuoteen 2030 mennessä. Energia on kallistunut, ja eri puolueet tekevät erilaisia johtopäätöksiä siitä, miten sen pitäisi vaikuttaa ilmastotoimiin. ",
+                "id": 5
+              },
+              "answer": 2,
+              "explanation": "Kokoomuksella ei ainakaan toistaiseksi ole kategorista kieltoa vaativaa kantaa. Asiassa olisi syytä edetä kannusteiden ja kehittyvän sääntelyn eikä suoran kiellon kautta. Kokoomus haluaa kuitenkin edistää eläinten mahdollisuuksia luonnonmukaiseen käyttäytymiseen. Turkisasetus on päivitettävä vastaamaan modernin sivistysvaltion tunnusmerkkejä ja turkistarhauksesta luopujia tulee auttaa uuteen alkuun muilla aloilla."
+            }
+          ]
+        },
+        {
+          "theme": {
+            "name": "Arvot",
+            "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+            "id": 6
+          },
+          "questions": [
+            {
+              "id": "18e21f7e-c4b7-41c5-a809-5393255bd3e1",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 16,
+              "text": "Jos on pakko valita, on parempi korottaa veroja kuin leikata julkisia palveluita ja sosiaalietuuksia",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 1,
+              "explanation": "Verotus kokonaisuudessaan on Suomessa on riittävän ankaraa. Yksikään valtio ei ole vaurastunut verottamalla. Mikäli veroja korotetaan merkittävästi, heikentyvät yrittämisen edellytykset ja investointihalukkuus, mikä taas johtaa talouden näivettymiseen ja lopulta nykyistä heikompaan tilanteeseen. Siksi talouden tasapainotuksen keinot on löydettävä muualta."
+            },
+            {
+              "id": "86ce99f5-1125-4815-b770-e1bd4821823f",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 17,
+              "text": "Suuret tuloerot ovat hyväksyttäviä, jotta erot ihmisten lahjakkuudessa ja ahkeruudessa voidaan palkita.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "On perusteltua, että suuremmista tuloista maksetaan enemmän veroa kuin pienemmistä. Silti tässäkin tulisi olla jokin tolkku. Suomessa ansiotulojen jyrkkä progressiivisuus rokottaa jo tavallisia keskituloisia palkansaajia aivan kohtuuttomasti. Itsensä kehittämisestä ja kovemmasta ponnistelusta kuuluu saada tuntuvaa hyötyä palkkapussiin."
+            },
+            {
+              "id": "8a9c8a45-28e0-46b3-972a-7a9dd2dfbc99",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 18,
+              "text": "Valtion pitäisi puuttua nykyistä voimakkaammin markkinoiden toimintaan, jotta talous olisi kaikille reilu. ",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 1,
+              "explanation": "Reilu talous syntyy siitä, että markkinoille kilpailemaan on mahdollisimman helppoa päästä, ja kuluttajaa parhaiten palveleva voittaa. Epäreilu talous syntyy siitä, että voittajat valitaan komentotalouden keinoin poliitikkojen ja virkamiesten päätöksillä.\n"
+            },
+            {
+              "id": "62b878b4-5f83-4f94-a926-e1730af34bae",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 19,
+              "text": "Suomessa on liian helppo elää sosiaaliturvan varassa.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "On selvää, että kaikki eivät sairauden tai muista syistä johtuvien elämänhallinnan vaikeuksien takia kykene itse hankkimaan omaa elantoaan. Sivistynyt yhteiskunta pitää huolen siitä, että heilläkin on riittävät edellytykset inhimilliseen elämään. Suomen sosiaaliturvajärjestelmässä on kuitenkin lukuisia kannustinloukkuja, joiden vuoksi ihmisen ei välttämättä ole kaikissa tilanteissa taloudellisesti järkevää ottaa työtä vastaan. Jotta meillä on varaa ylläpitää pohjoismaista hyvinvointiyhteiskuntaa ja sen palveluita, kaikkien työikäisten ja työkykyisten ihmisten on lähtökohtaisesti oltava töissä. "
+            },
+            {
+              "id": "b2b88daa-4daf-48aa-b7fe-95beee01e020",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 20,
+              "text": "Valtion ja kuntien omistusta yritystoiminnassa tulisi vähentää.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 5,
+              "explanation": "Valtion ja kuntien sekä hyvinvointialueiden on ryhdyttävä omaan yritystoimintaan ainoastaan sellaisissa tapauksissa, joissa on selviä markkinapuutteita. Esimerkiksi huoltovarmuus, turvallisuus ja omavaraisuuskysymykset ovat hyväksyttäviä syitä omalle yritystoiminnalle. Julkisen sektorin tehtävänä ei kuitenkaan ole osallistua yritystoimintaan sellaisilla aloilla, joissa yksityiset kilpaillut markkinat toimivat."
+            },
+            {
+              "id": "4549690d-33fd-4900-8b95-f24674fbbd68",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 21,
+              "text": "Suomen muuttuminen aiempaa monikulttuurisemmaksi ja monimuotoisemmaksi on hyvä asia.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Menestyneet kaupungit ja yhteiskunnat ovat kautta historian olleet avoimia kulttuurisille vaikutteille ja muualta muuttaneiden yritteliäiden ihmisten mukanaan tuomille uusille ajatuksille ja ideoille. Myös Suomen on oltava vastaanottava ja houkutteleva osaaville ja ahkerille ihmisille, jotka haluavat tulla tänne tekemään työtä, yrittämään ja opiskelemaan. Samalla meidän on estettävä esimerkiksi turvapaikkapolitiikassa järjestelmän väärinkäyttö ja estettävä rinnakkaisyhteiskuntien syntyminen."
+            },
+            {
+              "id": "e8a53981-b15f-4a48-af38-0ef00054ecf1",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 22,
+              "text": "Kristilliset arvot ovat hyvä pohja poliittiselle päätöksenteolle.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Kristilliset arvot ovat osaltaan länsimaisen yhteiskunnan perustalla, mutta niitä pitää tulkita ajassa. Minulle yksi tärkeimmistä arvoista elämässä ja politiikassa on lähimmäisenrakkaus. Se tarkoittaa, että jokainen ihminen on kohdattava ainutkertaisena, sellaisenaan arvokkaana yksilönä. Tämä on myös yksi kokoomuksen aatteen tärkeimmistä lähtökohdista. Uskonto ja politiikka tulee kuitenkin pyrkiä pitämään erillään."
+            },
+            {
+              "id": "424dd899-061d-43e8-8861-bce727d53f81",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 23,
+              "text": "Sukupuolen moninaisuus pitäisi ottaa huomioon Suomessa nykyistä paremmin.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 3,
+              "explanation": "Jokaisella on oltava vapaus elää oman näköistään elämää, kunhan kunnioittaa muiden vastaavaa oikeutta."
+            },
+            {
+              "id": "8ee50fa0-0638-49fb-85f9-f7d386d5207a",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 24,
+              "text": "Selkeitä rajoja ja kuria tarvitaan nykyistä enemmän lasten kasvattamisessa.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Kouluissa tulee olla oppimisrauha, ja opettajilla tulee olla keinot puuttua häiriökäyttäytymiseen. Selkeät rajat tuovat lapsille myös turvallisuuden tunnetta. Lasten kasvatus on kuitenkin ensisijaisesti perheissä päätettävä asia, kunhan noudatetaan lakeja ja varmistetaan lapsen turvallisuus ja hyvinvointi."
+            },
+            {
+              "id": "a664bba2-4e5f-4af2-8c3d-d9fb5354aca0",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 25,
+              "text": "Suomen pitäisi vähentää omia päästöjään riippumatta siitä, mitä muut maat tekevät.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Päästövähennyksiä ei tule lykätä, sillä suomalaiset yritykset ja elinkeinoelämä ovat jo investoinneillaan sitoutuneet tavoitteen saavuttamiseen. Ilmastopolitiikan pitää olla kustannustehokasta ja päästövähennykset toteuttaa siellä, missä ne ovat tehokkaimpia. Energiamurros ja siirtymä fossiilisista raaka-aineista puhtaaseen energiaan vahvistaa taloutta ja lisää myös turvallisuutta, sillä emme ole niin riippuvaisia esimerkiksi Venäjästä ja muista maista. Suomesta voi tulla puhtaan energian suurvalta, ja voimme omavaraisella puhtaalla energialla houkutella Suomeen teollisuutta sekä investointeja."
+            },
+            {
+              "id": "21f62896-04cd-4896-afca-cbe81b5acd4a",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 26,
+              "text": "Poliitikkojen on asetettava Suomen ja suomalaisten etu kaiken muun edelle.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Suomen eduskunta ja hallitus edistävät luonnollisesti Suomen ja suomalaisten asiaa. Tämä toteutuu sekä hoitamalla asioita hyvin Suomessa että laajalla kansainvälisellä yhteistyöllä. Esimerkiksi Ukrainan kansan auttaminen taistelussa Venäjää vastaan auttaa luonnollisesti ukrainalaisia, mutta myös Suomea. "
+            },
+            {
+              "id": "12f675b2-d253-408f-b475-d04adc373a25",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 27,
+              "text": "Ympäristön etu tulisi asettaa talouskasvun ja työpaikkojen luomisen edelle, jos ne ovat keskenään ristiriidassa.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Arvokasta suomalaista luontoa täytyy suojella. Siksi esimerkiksi kaivoshankkeissa ja muissa investoinneissa on aina arvioitava vaikutukset luontoon. Mikäli emme huolehdi ympäristöstämme, tulee se maksamaan tulevaisuudessa meille vielä enemmän. Yli puolet maailman taloudellisesta tuotannosta on riippuvainen toimivista luonnon ekosysteemeistä. Esimerkiksi ruokakasvien viljely tarvitsee hyönteisiä pölyttäjikseen."
+            },
+            {
+              "id": "2fa966e7-b8fb-4124-93d5-c2777762579b",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 28,
+              "text": "Maamme kaipaa vahvoja johtajia, jotka pystyvät tekemään vaikeitakin päätöksiä välittämättä liikaa muiden mielipiteistä.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Maamme kaipaa johtajia, jotka osaavat kuunnella ja ymmärtää erilaisia näkemyksiä ja rakentaa yhteistä linjaa Suomen ja suomalaisten suurten ongelmien ratkaisemiseksi. "
+            },
+            {
+              "id": "1ca42acf-ab17-45ce-837c-519d8ae6d7e7",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 29,
+              "text": "Koko Suomi tulee pitää asutettuna, vaikka siitä koituisi kustannuksia.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "On tärkeää, että kaikkialla Suomessa voidaan esimerkiksi harjoittaa kestävästi liiketoimintaa ja tuotantoa alueen omiin vahvuuksiin nojautuen. Välttämättömien palveluiden ylläpito kohtuullisten etäisyyksien päässä kuuluu myös sivistyneeseen yhteiskuntaan. Asutuksen ylläpito aivan kaikkialla ei kuitenkaan ole välttämättä edes järkevää eikä varsinkaan hinnalla millä hyvänsä. "
+            },
+            {
+              "id": "c75f8b79-642a-44ce-b5a0-ef600cbe22e7",
+              "candidateId": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+              "questionId": 30,
+              "text": "Suomen kaupungistuminen on hyvä asia.",
+              "theme": {
+                "name": "Arvot",
+                "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+                "id": 6
+              },
+              "answer": 4,
+              "explanation": "Kaupungistumisessa on kysymys siitä, että ihmiset hakeutuvat sinne, missä tarjolla on enemmän mahdollisuuksia rakentaa itselle parempaa elämää ja itsensä toteuttamisen vaihtoehtoja esimerkiksi työnteon, yrittämisen ja opiskelun kautta. Kun yksilöiden kehitysmahdollisuudet ja tuottavuus tällä tavalla vahvistuvat, samalla koko yhteiskunta hyötyy. Ideat, innovaatiot ja oivallukset syntyvät ihmisten kohtaamisissa. "
+            }
+          ]
+        }
+      ],
+      "electionType": "parliamentary",
+      "electionSpecificFields": {
+        "residentialArea": {
+          "inUse": false
+        },
+        "currentlyInParliament": {
+          "inUse": true
+        },
+        "currentlyInMunicipalCouncil": {
+          "inUse": true
+        },
+        "currentlyInCountyCouncil": {
+          "inUse": true
+        },
+        "currentlyInEuropeanParliament": {
+          "inUse": false
+        },
+        "excluded": {
+          "inUse": false
+        },
+        "independentCandidate": {
+          "inUse": true
+        },
+        "languages": {
+          "inUse": false
+        },
+        "candidateFamily": {
+          "inUse": false
+        },
+        "earlierWorkExperience": {
+          "inUse": false
+        },
+        "personalValues": {
+          "inUse": false
+        },
+        "goodQualities": {
+          "inUse": false
+        },
+        "description": {
+          "inUse": true
+        },
+        "educationLevel": {
+          "inUse": true
+        },
+        "educationOpenText": {
+          "inUse": false
+        },
+        "postalCodeArea": {
+          "inUse": false
+        },
+        "gender": {
+          "inUse": false
+        }
+      },
+      "municipalities": [
+        {
+          "id": "005",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Alajärvi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Alavieska",
+          "id": "009",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "010",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Alavus",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "016",
+          "region": "Päijät-Häme",
+          "name": "Asikkala",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "018",
+          "region": "Uusimaa",
+          "name": "Askola",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "019",
+          "region": "Varsinais-Suomi",
+          "name": "Aura",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "020",
+          "region": "Pirkanmaa",
+          "name": "Akaa",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "035",
+          "region": "Ahvenanmaa",
+          "name": "Brändö",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "043",
+          "region": "Ahvenanmaa",
+          "name": "Eckerö",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "046",
+          "region": "Etelä-Savo",
+          "name": "Enonkoski",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "047",
+          "region": "Lappi",
+          "name": "Enontekiö",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "049",
+          "region": "Uusimaa",
+          "name": "Espoo",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "050",
+          "region": "Satakunta",
+          "name": "Eura",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "051",
+          "region": "Satakunta",
+          "name": "Eurajoki",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "052",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Evijärvi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "060",
+          "region": "Ahvenanmaa",
+          "name": "Finström",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "061",
+          "region": "Kanta-Häme",
+          "name": "Forssa",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "062",
+          "region": "Ahvenanmaa",
+          "name": "Föglö",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "065",
+          "region": "Ahvenanmaa",
+          "name": "Geta",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "069",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Haapajärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "071",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Haapavesi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "072",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Hailuoto",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "074",
+          "region": "Keski-Pohjanmaa",
+          "name": "Halsua",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "075",
+          "region": "Kymenlaakso",
+          "name": "Hamina",
+          "wellbeingCounty": {
+            "officialName": "Kymenlaakson hyvinvointialue",
+            "displayName": "Kymenlaakso"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "076",
+          "region": "Ahvenanmaa",
+          "name": "Hammarland",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "077",
+          "region": "Keski-Suomi",
+          "name": "Hankasalmi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "078",
+          "region": "Uusimaa",
+          "name": "Hanko",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "079",
+          "region": "Satakunta",
+          "name": "Harjavalta",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "081",
+          "region": "Päijät-Häme",
+          "name": "Hartola",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "082",
+          "region": "Kanta-Häme",
+          "name": "Hattula",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "086",
+          "region": "Kanta-Häme",
+          "name": "Hausjärvi",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "090",
+          "region": "Pohjois-Karjala",
+          "name": "Heinävesi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "091",
+          "region": "Uusimaa",
+          "name": "Helsinki",
+          "electionDistrict": {
+            "officialName": "Helsingin vaalipiiri",
+            "displayName": "Helsinki"
+          }
+        },
+        {
+          "id": "092",
+          "region": "Uusimaa",
+          "name": "Vantaa",
+          "wellbeingCounty": {
+            "officialName": "Vantaan ja Keravan hyvinvointialue",
+            "displayName": "Vantaa ja Kerava"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "097",
+          "region": "Etelä-Savo",
+          "name": "Hirvensalmi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "098",
+          "region": "Päijät-Häme",
+          "name": "Hollola",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "102",
+          "region": "Satakunta",
+          "name": "Huittinen",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "103",
+          "region": "Kanta-Häme",
+          "name": "Humppila",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "105",
+          "region": "Kainuu",
+          "name": "Hyrynsalmi",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "106",
+          "region": "Uusimaa",
+          "name": "Hyvinkää",
+          "wellbeingCounty": {
+            "officialName": "Keski-Uudenmaan hyvinvointialue",
+            "displayName": "Keski-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "108",
+          "region": "Pirkanmaa",
+          "name": "Hämeenkyrö",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "109",
+          "region": "Kanta-Häme",
+          "name": "Hämeenlinna",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "111",
+          "region": "Päijät-Häme",
+          "name": "Heinola",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "139",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Ii",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "140",
+          "region": "Pohjois-Savo",
+          "name": "Iisalmi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "142",
+          "region": "Päijät-Häme",
+          "name": "Iitti",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "143",
+          "region": "Pirkanmaa",
+          "name": "Ikaalinen",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "145",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Ilmajoki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "146",
+          "region": "Pohjois-Karjala",
+          "name": "Ilomantsi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "148",
+          "region": "Lappi",
+          "name": "Inari",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "149",
+          "region": "Uusimaa",
+          "name": "Inkoo",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "151",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Isojoki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "152",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Isokyrö",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "153",
+          "region": "Etelä-Karjala",
+          "name": "Imatra",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "165",
+          "region": "Kanta-Häme",
+          "name": "Janakkala",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "167",
+          "region": "Pohjois-Karjala",
+          "name": "Joensuu",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "169",
+          "region": "Kanta-Häme",
+          "name": "Jokioinen",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "170",
+          "region": "Ahvenanmaa",
+          "name": "Jomala",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "171",
+          "region": "Pohjois-Savo",
+          "name": "Joroinen",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "172",
+          "region": "Keski-Suomi",
+          "name": "Joutsa",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "176",
+          "region": "Pohjois-Karjala",
+          "name": "Juuka",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "177",
+          "region": "Pirkanmaa",
+          "name": "Juupajoki",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "178",
+          "region": "Etelä-Savo",
+          "name": "Juva",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "179",
+          "region": "Keski-Suomi",
+          "name": "Jyväskylä",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "181",
+          "region": "Satakunta",
+          "name": "Jämijärvi",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "182",
+          "region": "Keski-Suomi",
+          "name": "Jämsä",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "186",
+          "region": "Uusimaa",
+          "name": "Järvenpää",
+          "wellbeingCounty": {
+            "officialName": "Keski-Uudenmaan hyvinvointialue",
+            "displayName": "Keski-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "202",
+          "region": "Varsinais-Suomi",
+          "name": "Kaarina",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "204",
+          "region": "Pohjois-Savo",
+          "name": "Kaavi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "205",
+          "region": "Kainuu",
+          "name": "Kajaani",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "208",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Kalajoki",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "211",
+          "region": "Pirkanmaa",
+          "name": "Kangasala",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "213",
+          "region": "Etelä-Savo",
+          "name": "Kangasniemi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "214",
+          "region": "Satakunta",
+          "name": "Kankaanpää",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "216",
+          "region": "Keski-Suomi",
+          "name": "Kannonkoski",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "217",
+          "region": "Keski-Pohjanmaa",
+          "name": "Kannus",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "218",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Karijoki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "224",
+          "region": "Uusimaa",
+          "name": "Karkkila",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "226",
+          "region": "Keski-Suomi",
+          "name": "Karstula",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "230",
+          "region": "Satakunta",
+          "name": "Karvia",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "231",
+          "region": "Pohjanmaa",
+          "name": "Kaskinen",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "232",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Kauhajoki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "233",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Kauhava",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "235",
+          "region": "Uusimaa",
+          "name": "Kauniainen",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "236",
+          "region": "Keski-Pohjanmaa",
+          "name": "Kaustinen",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "239",
+          "region": "Pohjois-Savo",
+          "name": "Keitele",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "240",
+          "region": "Lappi",
+          "name": "Kemi",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "241",
+          "region": "Lappi",
+          "name": "Keminmaa",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "244",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Kempele",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "245",
+          "region": "Uusimaa",
+          "name": "Kerava",
+          "wellbeingCounty": {
+            "officialName": "Vantaan ja Keravan hyvinvointialue",
+            "displayName": "Vantaa ja Kerava"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "249",
+          "region": "Keski-Suomi",
+          "name": "Keuruu",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "250",
+          "region": "Pirkanmaa",
+          "name": "Kihniö",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "256",
+          "region": "Keski-Suomi",
+          "name": "Kinnula",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "257",
+          "region": "Uusimaa",
+          "name": "Kirkkonummi",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "260",
+          "region": "Pohjois-Karjala",
+          "name": "Kitee",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "261",
+          "region": "Lappi",
+          "name": "Kittilä",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "263",
+          "region": "Pohjois-Savo",
+          "name": "Kiuruvesi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "265",
+          "region": "Keski-Suomi",
+          "name": "Kivijärvi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "271",
+          "region": "Satakunta",
+          "name": "Kokemäki",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "272",
+          "region": "Keski-Pohjanmaa",
+          "name": "Kokkola",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "273",
+          "region": "Lappi",
+          "name": "Kolari",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "275",
+          "region": "Keski-Suomi",
+          "name": "Konnevesi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "276",
+          "region": "Pohjois-Karjala",
+          "name": "Kontiolahti",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "280",
+          "region": "Pohjanmaa",
+          "name": "Korsnäs",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "284",
+          "region": "Varsinais-Suomi",
+          "name": "Koski Tl",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "285",
+          "region": "Kymenlaakso",
+          "name": "Kotka",
+          "wellbeingCounty": {
+            "officialName": "Kymenlaakson hyvinvointialue",
+            "displayName": "Kymenlaakso"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "286",
+          "region": "Kymenlaakso",
+          "name": "Kouvola",
+          "wellbeingCounty": {
+            "officialName": "Kymenlaakson hyvinvointialue",
+            "displayName": "Kymenlaakso"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "287",
+          "region": "Pohjanmaa",
+          "name": "Kristiinankaupunki",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "288",
+          "region": "Pohjanmaa",
+          "name": "Kruunupyy",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "290",
+          "region": "Kainuu",
+          "name": "Kuhmo",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "291",
+          "region": "Pirkanmaa",
+          "name": "Kuhmoinen",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "295",
+          "region": "Ahvenanmaa",
+          "name": "Kumlinge",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "297",
+          "region": "Pohjois-Savo",
+          "name": "Kuopio",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "300",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Kuortane",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "301",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Kurikka",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "304",
+          "region": "Varsinais-Suomi",
+          "name": "Kustavi",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "305",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Kuusamo",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "309",
+          "region": "Pohjois-Karjala",
+          "name": "Outokumpu",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "312",
+          "region": "Keski-Suomi",
+          "name": "Kyyjärvi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "316",
+          "region": "Päijät-Häme",
+          "name": "Kärkölä",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "317",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Kärsämäki",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "318",
+          "region": "Ahvenanmaa",
+          "name": "Kökar",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "320",
+          "region": "Lappi",
+          "name": "Kemijärvi",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "322",
+          "region": "Varsinais-Suomi",
+          "name": "Kemiönsaari",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "398",
+          "region": "Päijät-Häme",
+          "name": "Lahti",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "399",
+          "region": "Pohjanmaa",
+          "name": "Laihia",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "400",
+          "region": "Varsinais-Suomi",
+          "name": "Laitila",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "402",
+          "region": "Pohjois-Savo",
+          "name": "Lapinlahti",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "403",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Lappajärvi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "405",
+          "region": "Etelä-Karjala",
+          "name": "Lappeenranta",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "407",
+          "region": "Uusimaa",
+          "name": "Lapinjärvi",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "408",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Lapua",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "410",
+          "region": "Keski-Suomi",
+          "name": "Laukaa",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "416",
+          "region": "Etelä-Karjala",
+          "name": "Lemi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "417",
+          "region": "Ahvenanmaa",
+          "name": "Lemland",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "418",
+          "region": "Pirkanmaa",
+          "name": "Lempäälä",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "420",
+          "region": "Pohjois-Savo",
+          "name": "Leppävirta",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "421",
+          "region": "Keski-Pohjanmaa",
+          "name": "Lestijärvi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "422",
+          "region": "Pohjois-Karjala",
+          "name": "Lieksa",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "423",
+          "region": "Varsinais-Suomi",
+          "name": "Lieto",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "425",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Liminka",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "426",
+          "region": "Pohjois-Karjala",
+          "name": "Liperi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "430",
+          "region": "Varsinais-Suomi",
+          "name": "Loimaa",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "433",
+          "region": "Kanta-Häme",
+          "name": "Loppi",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "434",
+          "region": "Uusimaa",
+          "name": "Loviisa",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "435",
+          "region": "Keski-Suomi",
+          "name": "Luhanka",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "436",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Lumijoki",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "438",
+          "region": "Ahvenanmaa",
+          "name": "Lumparland",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "440",
+          "region": "Pohjanmaa",
+          "name": "Luoto",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "441",
+          "region": "Etelä-Karjala",
+          "name": "Luumäki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "444",
+          "region": "Uusimaa",
+          "name": "Lohja",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "445",
+          "region": "Varsinais-Suomi",
+          "name": "Parainen",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "475",
+          "region": "Pohjanmaa",
+          "name": "Maalahti",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "478",
+          "region": "Ahvenanmaa",
+          "name": "Maarianhamina",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "480",
+          "region": "Varsinais-Suomi",
+          "name": "Marttila",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "481",
+          "region": "Varsinais-Suomi",
+          "name": "Masku",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "483",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Merijärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "484",
+          "region": "Satakunta",
+          "name": "Merikarvia",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "489",
+          "region": "Kymenlaakso",
+          "name": "Miehikkälä",
+          "wellbeingCounty": {
+            "officialName": "Kymenlaakson hyvinvointialue",
+            "displayName": "Kymenlaakso"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "491",
+          "region": "Etelä-Savo",
+          "name": "Mikkeli",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "494",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Muhos",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "495",
+          "region": "Keski-Suomi",
+          "name": "Multia",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "498",
+          "region": "Lappi",
+          "name": "Muonio",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "499",
+          "region": "Pohjanmaa",
+          "name": "Mustasaari",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "500",
+          "region": "Keski-Suomi",
+          "name": "Muurame",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "503",
+          "region": "Varsinais-Suomi",
+          "name": "Mynämäki",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "504",
+          "region": "Uusimaa",
+          "name": "Myrskylä",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "505",
+          "region": "Uusimaa",
+          "name": "Mäntsälä",
+          "wellbeingCounty": {
+            "officialName": "Keski-Uudenmaan hyvinvointialue",
+            "displayName": "Keski-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "507",
+          "region": "Etelä-Savo",
+          "name": "Mäntyharju",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "508",
+          "region": "Pirkanmaa",
+          "name": "Mänttä-Vilppula",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "529",
+          "region": "Varsinais-Suomi",
+          "name": "Naantali",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "531",
+          "region": "Satakunta",
+          "name": "Nakkila",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "535",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Nivala",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "536",
+          "region": "Pirkanmaa",
+          "name": "Nokia",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "538",
+          "region": "Varsinais-Suomi",
+          "name": "Nousiainen",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "541",
+          "region": "Pohjois-Karjala",
+          "name": "Nurmes",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "543",
+          "region": "Uusimaa",
+          "name": "Nurmijärvi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Uudenmaan hyvinvointialue",
+            "displayName": "Keski-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "545",
+          "region": "Pohjanmaa",
+          "name": "Närpiö",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "560",
+          "region": "Päijät-Häme",
+          "name": "Orimattila",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "561",
+          "region": "Varsinais-Suomi",
+          "name": "Oripää",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "562",
+          "region": "Pirkanmaa",
+          "name": "Orivesi",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "563",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Oulainen",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "564",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Oulu",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "576",
+          "region": "Päijät-Häme",
+          "name": "Padasjoki",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "577",
+          "region": "Varsinais-Suomi",
+          "name": "Paimio",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "578",
+          "region": "Kainuu",
+          "name": "Paltamo",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "580",
+          "region": "Etelä-Karjala",
+          "name": "Parikkala",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "581",
+          "region": "Pirkanmaa",
+          "name": "Parkano",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "583",
+          "region": "Lappi",
+          "name": "Pelkosenniemi",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "584",
+          "region": "Keski-Pohjanmaa",
+          "name": "Perho",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "588",
+          "region": "Etelä-Savo",
+          "name": "Pertunmaa",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "592",
+          "region": "Keski-Suomi",
+          "name": "Petäjävesi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "593",
+          "region": "Etelä-Savo",
+          "name": "Pieksämäki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "595",
+          "region": "Pohjois-Savo",
+          "name": "Pielavesi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "598",
+          "region": "Pohjanmaa",
+          "name": "Pietarsaari",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "599",
+          "region": "Pohjanmaa",
+          "name": "Pedersören kunta",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "601",
+          "region": "Keski-Suomi",
+          "name": "Pihtipudas",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "604",
+          "region": "Pirkanmaa",
+          "name": "Pirkkala",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "607",
+          "region": "Pohjois-Karjala",
+          "name": "Polvijärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "608",
+          "region": "Satakunta",
+          "name": "Pomarkku",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "609",
+          "region": "Satakunta",
+          "name": "Pori",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "611",
+          "region": "Uusimaa",
+          "name": "Pornainen",
+          "wellbeingCounty": {
+            "officialName": "Keski-Uudenmaan hyvinvointialue",
+            "displayName": "Keski-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "614",
+          "region": "Lappi",
+          "name": "Posio",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "615",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Pudasjärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "616",
+          "region": "Uusimaa",
+          "name": "Pukkila",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "619",
+          "region": "Pirkanmaa",
+          "name": "Punkalaidun",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "620",
+          "region": "Kainuu",
+          "name": "Puolanka",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "623",
+          "region": "Etelä-Savo",
+          "name": "Puumala",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "624",
+          "region": "Kymenlaakso",
+          "name": "Pyhtää",
+          "wellbeingCounty": {
+            "officialName": "Kymenlaakson hyvinvointialue",
+            "displayName": "Kymenlaakso"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "625",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Pyhäjoki",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "626",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Pyhäjärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "630",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Pyhäntä",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "631",
+          "region": "Varsinais-Suomi",
+          "name": "Pyhäranta",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "635",
+          "region": "Pirkanmaa",
+          "name": "Pälkäne",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "636",
+          "region": "Varsinais-Suomi",
+          "name": "Pöytyä",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "638",
+          "region": "Uusimaa",
+          "name": "Porvoo",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "678",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Raahe",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "680",
+          "region": "Varsinais-Suomi",
+          "name": "Raisio",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "681",
+          "region": "Etelä-Savo",
+          "name": "Rantasalmi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "683",
+          "region": "Lappi",
+          "name": "Ranua",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "684",
+          "region": "Satakunta",
+          "name": "Rauma",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "686",
+          "region": "Pohjois-Savo",
+          "name": "Rautalampi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "687",
+          "region": "Pohjois-Savo",
+          "name": "Rautavaara",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "689",
+          "region": "Etelä-Karjala",
+          "name": "Rautjärvi",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "691",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Reisjärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "694",
+          "region": "Kanta-Häme",
+          "name": "Riihimäki",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "697",
+          "region": "Kainuu",
+          "name": "Ristijärvi",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "698",
+          "region": "Lappi",
+          "name": "Rovaniemi",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "700",
+          "region": "Etelä-Karjala",
+          "name": "Ruokolahti",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "702",
+          "region": "Pirkanmaa",
+          "name": "Ruovesi",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "704",
+          "region": "Varsinais-Suomi",
+          "name": "Rusko",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "707",
+          "region": "Pohjois-Karjala",
+          "name": "Rääkkylä",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "710",
+          "region": "Uusimaa",
+          "name": "Raasepori",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "729",
+          "region": "Keski-Suomi",
+          "name": "Saarijärvi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "732",
+          "region": "Lappi",
+          "name": "Salla",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "734",
+          "region": "Varsinais-Suomi",
+          "name": "Salo",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "736",
+          "region": "Ahvenanmaa",
+          "name": "Saltvik",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "738",
+          "region": "Varsinais-Suomi",
+          "name": "Sauvo",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "739",
+          "region": "Etelä-Karjala",
+          "name": "Savitaipale",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "740",
+          "region": "Etelä-Savo",
+          "name": "Savonlinna",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "742",
+          "region": "Lappi",
+          "name": "Savukoski",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "743",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Seinäjoki",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "746",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Sievi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "747",
+          "region": "Satakunta",
+          "name": "Siikainen",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "748",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Siikajoki",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "749",
+          "region": "Pohjois-Savo",
+          "name": "Siilinjärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "751",
+          "region": "Lappi",
+          "name": "Simo",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "753",
+          "region": "Uusimaa",
+          "name": "Sipoo",
+          "wellbeingCounty": {
+            "officialName": "Itä-Uudenmaan hyvinvointialue",
+            "displayName": "Itä-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "755",
+          "region": "Uusimaa",
+          "name": "Siuntio",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "758",
+          "region": "Lappi",
+          "name": "Sodankylä",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "759",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Soini",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "761",
+          "region": "Varsinais-Suomi",
+          "name": "Somero",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "762",
+          "region": "Pohjois-Savo",
+          "name": "Sonkajärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "765",
+          "region": "Kainuu",
+          "name": "Sotkamo",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "766",
+          "region": "Ahvenanmaa",
+          "name": "Sottunga",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "768",
+          "region": "Etelä-Savo",
+          "name": "Sulkava",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Savon hyvinvointialue",
+            "displayName": "Etelä-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "771",
+          "region": "Ahvenanmaa",
+          "name": "Sund",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "777",
+          "region": "Kainuu",
+          "name": "Suomussalmi",
+          "wellbeingCounty": {
+            "officialName": "Kainuun hyvinvointialue",
+            "displayName": "Kainuu"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "778",
+          "region": "Pohjois-Savo",
+          "name": "Suonenjoki",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "781",
+          "region": "Päijät-Häme",
+          "name": "Sysmä",
+          "wellbeingCounty": {
+            "officialName": "Päijät-Hämeen hyvinvointialue",
+            "displayName": "Päijät-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "783",
+          "region": "Satakunta",
+          "name": "Säkylä",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "785",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Vaala",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "790",
+          "region": "Pirkanmaa",
+          "name": "Sastamala",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "791",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Siikalatva",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "831",
+          "region": "Etelä-Karjala",
+          "name": "Taipalsaari",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Karjalan hyvinvointialue",
+            "displayName": "Etelä-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "832",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Taivalkoski",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "833",
+          "region": "Varsinais-Suomi",
+          "name": "Taivassalo",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "834",
+          "region": "Kanta-Häme",
+          "name": "Tammela",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "837",
+          "region": "Pirkanmaa",
+          "name": "Tampere",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "844",
+          "region": "Pohjois-Savo",
+          "name": "Tervo",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "845",
+          "region": "Lappi",
+          "name": "Tervola",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "846",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Teuva",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "848",
+          "region": "Pohjois-Karjala",
+          "name": "Tohmajärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Karjalan hyvinvointialue",
+            "displayName": "Pohjois-Karjala"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "849",
+          "region": "Keski-Pohjanmaa",
+          "name": "Toholampi",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "850",
+          "region": "Keski-Suomi",
+          "name": "Toivakka",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "851",
+          "region": "Lappi",
+          "name": "Tornio",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "853",
+          "region": "Varsinais-Suomi",
+          "name": "Turku",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "854",
+          "region": "Lappi",
+          "name": "Pello",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "857",
+          "region": "Pohjois-Savo",
+          "name": "Tuusniemi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "858",
+          "region": "Uusimaa",
+          "name": "Tuusula",
+          "wellbeingCounty": {
+            "officialName": "Keski-Uudenmaan hyvinvointialue",
+            "displayName": "Keski-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "859",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Tyrnävä",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "886",
+          "region": "Satakunta",
+          "name": "Ulvila",
+          "wellbeingCounty": {
+            "officialName": "Satakunnan hyvinvointialue",
+            "displayName": "Satakunta"
+          },
+          "electionDistrict": {
+            "officialName": "Satakunnan vaalipiiri",
+            "displayName": "Satakunta"
+          }
+        },
+        {
+          "id": "887",
+          "region": "Pirkanmaa",
+          "name": "Urjala",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "889",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Utajärvi",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "890",
+          "region": "Lappi",
+          "name": "Utsjoki",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "892",
+          "region": "Keski-Suomi",
+          "name": "Uurainen",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "893",
+          "region": "Pohjanmaa",
+          "name": "Uusikaarlepyy",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "895",
+          "region": "Varsinais-Suomi",
+          "name": "Uusikaupunki",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "905",
+          "region": "Pohjanmaa",
+          "name": "Vaasa",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "908",
+          "region": "Pirkanmaa",
+          "name": "Valkeakoski",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "915",
+          "region": "Pohjois-Savo",
+          "name": "Varkaus",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "918",
+          "region": "Varsinais-Suomi",
+          "name": "Vehmaa",
+          "wellbeingCounty": {
+            "officialName": "Varsinais-Suomen hyvinvointialue",
+            "displayName": "Varsinais-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Varsinais-Suomen vaalipiiri",
+            "displayName": "Varsinais-Suomi"
+          }
+        },
+        {
+          "id": "921",
+          "region": "Pohjois-Savo",
+          "name": "Vesanto",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "922",
+          "region": "Pirkanmaa",
+          "name": "Vesilahti",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "924",
+          "region": "Keski-Pohjanmaa",
+          "name": "Veteli",
+          "wellbeingCounty": {
+            "officialName": "Keski-Pohjanmaan hyvinvointialue",
+            "displayName": "Keski-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "925",
+          "region": "Pohjois-Savo",
+          "name": "Vieremä",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Savon hyvinvointialue",
+            "displayName": "Pohjois-Savo"
+          },
+          "electionDistrict": {
+            "officialName": "Savo-Karjalan vaalipiiri",
+            "displayName": "Savo-Karjala"
+          }
+        },
+        {
+          "id": "927",
+          "region": "Uusimaa",
+          "name": "Vihti",
+          "wellbeingCounty": {
+            "officialName": "Länsi-Uudenmaan hyvinvointialue",
+            "displayName": "Länsi-Uusimaa"
+          },
+          "electionDistrict": {
+            "officialName": "Uudenmaan vaalipiiri",
+            "displayName": "Uusimaa"
+          }
+        },
+        {
+          "id": "931",
+          "region": "Keski-Suomi",
+          "name": "Viitasaari",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        },
+        {
+          "id": "934",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Vimpeli",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "935",
+          "region": "Kymenlaakso",
+          "name": "Virolahti",
+          "wellbeingCounty": {
+            "officialName": "Kymenlaakson hyvinvointialue",
+            "displayName": "Kymenlaakso"
+          },
+          "electionDistrict": {
+            "officialName": "Kaakkois-Suomen vaalipiiri",
+            "displayName": "Kaakkois-Suomi"
+          }
+        },
+        {
+          "id": "936",
+          "region": "Pirkanmaa",
+          "name": "Virrat",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "941",
+          "region": "Ahvenanmaa",
+          "name": "Vårdö",
+          "electionDistrict": {
+            "officialName": "Ahvenanmaan maakunnan vaalipiiri",
+            "displayName": "Ahvenanmaa"
+          }
+        },
+        {
+          "id": "946",
+          "region": "Pohjanmaa",
+          "name": "Vöyri",
+          "wellbeingCounty": {
+            "officialName": "Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "976",
+          "region": "Lappi",
+          "name": "Ylitornio",
+          "wellbeingCounty": {
+            "officialName": "Lapin hyvinvointialue",
+            "displayName": "Lappi"
+          },
+          "electionDistrict": {
+            "officialName": "Lapin vaalipiiri",
+            "displayName": "Lappi"
+          }
+        },
+        {
+          "id": "977",
+          "region": "Pohjois-Pohjanmaa",
+          "name": "Ylivieska",
+          "wellbeingCounty": {
+            "officialName": "Pohjois-Pohjanmaan hyvinvointialue",
+            "displayName": "Pohjois-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Oulun vaalipiiri",
+            "displayName": "Oulu"
+          }
+        },
+        {
+          "id": "980",
+          "region": "Pirkanmaa",
+          "name": "Ylöjärvi",
+          "wellbeingCounty": {
+            "officialName": "Pirkanmaan hyvinvointialue",
+            "displayName": "Pirkanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Pirkanmaan vaalipiiri",
+            "displayName": "Pirkanmaa"
+          }
+        },
+        {
+          "id": "981",
+          "region": "Kanta-Häme",
+          "name": "Ypäjä",
+          "wellbeingCounty": {
+            "officialName": "Kanta-Hämeen hyvinvointialue",
+            "displayName": "Kanta-Häme"
+          },
+          "electionDistrict": {
+            "officialName": "Hämeen vaalipiiri",
+            "displayName": "Häme"
+          }
+        },
+        {
+          "id": "989",
+          "region": "Etelä-Pohjanmaa",
+          "name": "Ähtäri",
+          "wellbeingCounty": {
+            "officialName": "Etelä-Pohjanmaan hyvinvointialue",
+            "displayName": "Etelä-Pohjanmaa"
+          },
+          "electionDistrict": {
+            "officialName": "Vaasan vaalipiiri",
+            "displayName": "Vaasa"
+          }
+        },
+        {
+          "id": "992",
+          "region": "Keski-Suomi",
+          "name": "Äänekoski",
+          "wellbeingCounty": {
+            "officialName": "Keski-Suomen hyvinvointialue",
+            "displayName": "Keski-Suomi"
+          },
+          "electionDistrict": {
+            "officialName": "Keski-Suomen vaalipiiri",
+            "displayName": "Keski-Suomi"
+          }
+        }
+      ],
+      "candidate": {
+        "age": 53,
+        "answersReady": true,
+        "candidateNumber": 188,
+        "candidatePromise": "Nyt on oikea aika:\n\n1. Laittaa Suomen talous ja koulutus kuntoon \n2. Varmistaa Suomen turvallisuus\n3. Lisätä hyvinvointia ja terveyttä",
+        "currentlyInCountyCouncil": true,
+        "currentlyInMunicipalCouncil": true,
+        "currentlyInParliament": true,
+        "description": "Olen 53-vuotias turkulainen perheenisä. Perheeseeni kuuluu vaimo, kaksi lasta ja kaksi koiraa. Vaimoni Niinan kanssa olemme innokkaita kuntoilemaan – pitkät juoksulenkit ovat mahtava tapa tuulettaa ajatuksia. Myös kalastus on minulle läheinen harrastus.\n\nOlen ollut mukana päättämässä yhteisistä asioista yli 20 vuotta. Tulevana vaalikautena Suomen haasteisiin on tartuttava määrätietoisemmin kuin tällä hetkellä. Suuresta velkaantumisesta huolimatta julkiset palvelumme kuten koulutus, terveydenhuolto ja vanhustenhoito eivät ole kunnossa. Samalla hintojen nousu haastaa hyvinvointia.\n\nKokoomus haluaa pelastaa suomalaisen hyvinvointiyhteiskunnan ja sen palvelut. Siksi velkaantuminen on pysäytettävä ja suomalaisten elintaso sekä ostovoima saatava taas nousuun. Työn vastaanottamisen ja tekemisen pitäisi aina olla kannattavaa. Haluamme, että palvelut pelaavat ja että Suomessa on turvallista elää ja asua.\n\nNyt on oikea aika kääriä hihat ja ryhtyä töihin! ",
+        "educationLevel": 6,
+        "firstName": "Petteri",
+        "id": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+        "independentCandidate": false,
+        "lastName": "Orpo",
+        "municipality": "853",
+        "nominationArea": "Varsinais-Suomen vaalipiiri",
+        "occupation": "Kansanedustaja, puheenjohtaja",
+        "party": "2ef3060b-602f-43a9-8008-ae8a0c427426",
+        "profilePicture": "20917da6-b5e6-4312-a75f-cbffe453c3c2",
+        "socialMediaLinks": [
+          "https://www.facebook.com/OrpoPetteri/?locale=fi_FI",
+          "https://twitter.com/PetteriOrpo",
+          "https://www.instagram.com/petteriorpo/?hl=fi"
+        ],
+        "values": {
+          "Kansallismielinen - Kansainvälinen": 0.33335000000000004,
+          "Liberaalivihreä-Kansalliskonservatiivi": 0.004404937877058868,
+          "Vasemmisto-Oikeisto": 0.7648689213095325,
+          "Arvokonservatiivi - Arvoliberaali": -0.125,
+          "Maaseutu - Kaupunki": 0,
+          "Vähemmän vihreä - Enemmän vihreä": 0.16664999999999996
+        }
+      },
+      "title": "Helsingin Sanomat vaalikone | Eduskuntavaalit 2023 | Ehdokas Petteri Orpo",
+      "description": "Eduskuntavaalit 2023, Ehdokas Petteri Orpo | Tutustu ehdokkaisiin Helsingin Sanomien vaalikoneessa.",
+      "transformedCandidateInformation": {
+        "id": "d75d53d7-cdf9-407c-b3a6-e79369d18c55",
+        "firstName": "Petteri",
+        "lastName": "Orpo",
+        "age": 53,
+        "municipality": "Turku",
+        "party": "Kokoomus",
+        "candidateNumber": 188,
+        "educationLevel": "Ylempi korkea-aste",
+        "educationOpenText": null,
+        "description": "Olen 53-vuotias turkulainen perheenisä. Perheeseeni kuuluu vaimo, kaksi lasta ja kaksi koiraa. Vaimoni Niinan kanssa olemme innokkaita kuntoilemaan – pitkät juoksulenkit ovat mahtava tapa tuulettaa ajatuksia. Myös kalastus on minulle läheinen harrastus.\n\nOlen ollut mukana päättämässä yhteisistä asioista yli 20 vuotta. Tulevana vaalikautena Suomen haasteisiin on tartuttava määrätietoisemmin kuin tällä hetkellä. Suuresta velkaantumisesta huolimatta julkiset palvelumme kuten koulutus, terveydenhuolto ja vanhustenhoito eivät ole kunnossa. Samalla hintojen nousu haastaa hyvinvointia.\n\nKokoomus haluaa pelastaa suomalaisen hyvinvointiyhteiskunnan ja sen palvelut. Siksi velkaantuminen on pysäytettävä ja suomalaisten elintaso sekä ostovoima saatava taas nousuun. Työn vastaanottamisen ja tekemisen pitäisi aina olla kannattavaa. Haluamme, että palvelut pelaavat ja että Suomessa on turvallista elää ja asua.\n\nNyt on oikea aika kääriä hihat ja ryhtyä töihin! ",
+        "candidatePromise": "Nyt on oikea aika:\n\n1. Laittaa Suomen talous ja koulutus kuntoon \n2. Varmistaa Suomen turvallisuus\n3. Lisätä hyvinvointia ja terveyttä",
+        "socialMediaLinks": [
+          {
+            "type": "facebook",
+            "url": "https://www.facebook.com/OrpoPetteri/?locale=fi_FI"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/PetteriOrpo"
+          },
+          {
+            "type": "instagram",
+            "url": "https://www.instagram.com/petteriorpo/?hl=fi"
+          }
+        ],
+        "nominationArea": "Varsinais-Suomen vaalipiiri",
+        "occupation": "Kansanedustaja, puheenjohtaja",
+        "residentialArea": null,
+        "independentCandidate": false,
+        "currentlyInParliament": true,
+        "currentlyInEuropeanParliament": null,
+        "currentlyInMunicipalCouncil": true,
+        "currentlyInCountyCouncil": true,
+        "profilePic": "20917da6-b5e6-4312-a75f-cbffe453c3c2",
+        "articles": [],
+        "videos": [],
+        "languages": null,
+        "candidateFamily": null,
+        "earlierWorkExperience": null,
+        "personalValues": null,
+        "goodQualities": null,
+        "excluded": false,
+        "postalCodeArea": null,
+        "gender": null
+      },
+      "themes": [
+        {
+          "name": "Turvallisuus­politiikka",
+          "description": "Nyt valittava eduskunta todennäköisesti osaltaan määrittelee, millainen Nato-maa Suomesta tulee. Myös suhde Venäjään ja Ukrainaan leimaa tulevia vuosia: jos sota loppuu, edessä on jälleenrakennus. Venäjän näkymät ovat arvaamattomat. ",
+          "id": 1
+        },
+        {
+          "name": "Hyvinvointi­valtio",
+          "description": "Väestön ikääntyminen ja heikko talouskasvu vaikeuttavat hyvinvointivaltioon perinteisesti kuuluvien palveluiden ja sosiaaliturvan ylläpitämistä. Nyt valittavien kansanedustajien on etsittävä vastauksia siihen, miten ongelmat ratkotaan. ",
+          "id": 2
+        },
+        {
+          "name": "Julkinen talous",
+          "description": "Suomi on monien muiden Euroopan maiden tavoin velkaantunut viime vuosina voimakkaasti. Talouskasvun ennustetaan lähivuosina olevan olematonta tai heikkoa, ja väestön ikääntyminen lisää valtion kuluja. Näissä vaaleissa valittavien kansanedustajien on ratkottava, miten valtion rahat saadaan riittämään. ",
+          "id": 3
+        },
+        {
+          "name": "Omat rahat",
+          "description": "Kansalaisten ostovoima heikkenee energian ja muiden elinkustannusten kallistumisen takia. Suomen Pankin ja valtiovarainministeriön mukaan edessä on taantuma ja sen jälkeen heikon kasvun aika. ",
+          "id": 4
+        },
+        {
+          "name": "Ympäristö ja ilmasto",
+          "description": "Suomen nettoilmastopäästöt eivät ole tavoitteista huolimatta pienentyneet. YK:n luontokokous päätti joulukuussa, että maailman maa- ja merialueista suojellaan 30 prosenttia vuoteen 2030 mennessä. Energia on kallistunut, ja eri puolueet tekevät erilaisia johtopäätöksiä siitä, miten sen pitäisi vaikuttaa ilmastotoimiin. ",
+          "id": 5
+        },
+        {
+          "name": "Arvot",
+          "description": "Seuraavassa esitetään kysymyksiä, jotka eivät suoraan liity eduskuntavaaleihin vaan arvoihin, jotka vaikuttavat päätösten taustalla. Kysymykset on laadittu yhteistyössä tutkijoiden kanssa.",
+          "id": 6
+        },
+        {
+          "name": "Turvallisuus­politiikka",
+          "description": "Venäjän aloittama sota Ukrainassa muutti Suomen turvallisuustilannetta dramaattisesti. Tuleva eduskunta tulee jatkamaan muutosta sekä ulkopolitiikassa että puolustuksessa ja saattaa myös joutua viemään loppuun Suomen Nato-jäsenyysprosessin. ",
+          "id": 7
+        },
+        {
+          "name": "Rahat",
+          "description": "Viime vuosien kriisien seurauksena valtion velkaantuminen on kiihtynyt huolestuttavasti. Seuraava eduskunta joutuu keksimään, kuinka talous saadaan jälleen tasapainoon leikkausten tai veronkorotusten kautta. ",
+          "id": 8
+        },
+        {
+          "name": "Energia­kriisi",
+          "description": "Tänä talvena suomalaiset ovat kamppailleet pilviin nousseiden energian hintojen kanssa. Tulevat kansanedustajat ovat vastuussa pysyvistä keinoista, joilla vastaavien kriisien vaikutukset saadaan minimoitua.",
+          "id": 9
+        },
+        {
+          "name": "Ilmasto ja liikenne",
+          "description": "Suomi on sitoutunut olemaan hiilineutraali maa vuoteen 2035 mennessä. Eduskunta tulee päättämään esimerkiksi liikenteen sähköistymistä kiihdyttävistä toimista, jotta tavoite voidaan saavuttaa.",
+          "id": 10
+        },
+        {
+          "name": "Terveys ja koulutus",
+          "description": "Esimerkiksi hoitoalalla ja varhaiskasvatuksessa kärsitään pahasta työvoimapulasta. Tulevat kansanedustajat pääsevät ratkaisemaan, tartutaanko ongelmaan esimerkiksi koulutuspaikkoja lisäämällä tai maahanmuuttoa edistämällä. ",
+          "id": 11
+        },
+        {
+          "name": "Rikollisuus",
+          "description": "Erityisesti nuorten väkivalta ja katujengi-ilmiö ovat puhuttaneet viime aikoina. Tulevat lainsäätäjät voivat halutessaan päättää esimerkiksi rangaistusten koventamisesta, poliisien määrän lisäämisestä tai ennaltaehkäisevän työn tehostamisesta.",
+          "id": 12
+        },
+        {
+          "name": "Muut",
+          "description": "Pitäisikö viinien myynti ruokakaupassa sallia? Puuttuuko EU liikaa Suomen asioihin, esimerkiksi metsien hoitoon? Kansanedustajat pääsevät työssään linjaamaan monenlaisista merkittävistä asioista. ",
+          "id": 13
+        },
+        {
+          "name": "Pirkanmaa",
+          "description": "Seuraavat kysymykset koskettavat erityisesti Pirkanmaan vaalipiiriä ja pirkanmaalaisia äänestäjiä.",
+          "id": 14
+        },
+        {
+          "name": "Satakunta",
+          "description": "Seuraavat kysymykset koskettavat erityisesti Satakunnan vaalipiiriä ja satakuntalaisia äänestäjiä.",
+          "id": 15
+        }
+      ],
+      "brand": "hs",
+      "electoralAlliance": null,
+      "parties": [
+        {
+          "name": "Tomi Mäkinen (valitsijayhdistys)",
+          "shortName": "Muut",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "0223",
+          "id": "a3624e50-4ba9-4998-8fd9-5a197ff12b85"
+        },
+        {
+          "name": "Petter Enkvist (valitsijayhdistys)",
+          "shortName": "Muut",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "0721",
+          "id": "96c98e61-72b7-4c0d-84ee-3d56c10944c3"
+        },
+        {
+          "name": "Timo Virtanen (valitsijayhdistys)",
+          "shortName": "Muut",
+          "color": " #4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "0723",
+          "id": "90ee4e69-0a28-4b0d-b660-59ebf8728d41"
+        },
+        {
+          "name": "Birgitta Johansson (valitsijayhdistys)",
+          "shortName": "Muut",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "0222",
+          "id": "7884d8c4-13b7-4594-8371-97e332b322dc"
+        },
+        {
+          "name": "Lapin Sitoutumattomat (valitsijayhdistys)",
+          "shortName": "Muut",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "1315",
+          "id": "48b5e919-5eb4-46ed-b8ad-176cafc86568"
+        },
+        {
+          "name": "Keskusta",
+          "shortName": "Kesk",
+          "color": "#41C851",
+          "nameColor": "#000",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "2",
+          "id": "9eedf280-8da6-4d74-9ee4-7f8d3b87cd90"
+        },
+        {
+          "name": "Sinimusta liike",
+          "shortName": "Sml",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "45",
+          "id": "fbc2cb3c-7dae-4d32-b752-efd804e8236a"
+        },
+        {
+          "name": "Vapauden liitto",
+          "shortName": "Vl",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "44",
+          "id": "afc6334d-cc8c-4ddf-a6f6-949e11aad7e6"
+        },
+        {
+          "name": "Valta kuuluu kansalle",
+          "shortName": "Vkk",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "43",
+          "id": "3e42c94d-5265-43b5-83ac-a29c30da083b"
+        },
+        {
+          "name": "Kristalli­puolue",
+          "shortName": "Krip",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "42",
+          "id": "e351bfa0-38b2-416f-a859-bab5eda790ce"
+        },
+        {
+          "name": "Kommunistinen puolue",
+          "shortName": "Skp",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "8",
+          "id": "d29026b4-0e01-474b-91ec-1ae7c7bb1bbe"
+        },
+        {
+          "name": "Avoin puolue",
+          "shortName": "Ap",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "41",
+          "id": "ad4f2baa-26df-4df5-ae1d-f45c4b81b7b8"
+        },
+        {
+          "name": "Liike Nyt",
+          "shortName": "Liik",
+          "color": "#B23A82",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "40",
+          "id": "b782e02f-0fdf-42e5-be9c-53cdd89615c4"
+        },
+        {
+          "name": "Tähti­liike",
+          "shortName": "Tl",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "id": "fd28db24-fc38-4b68-b47f-7e35d861c720"
+        },
+        {
+          "name": "Suomen kansa ensin",
+          "shortName": "Ske",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "38",
+          "id": "58b879ac-2c6c-4bab-9eb8-cc725292e287"
+        },
+        {
+          "name": "Korjaus­liike",
+          "shortName": "Korj",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "37",
+          "id": "632e5b17-6ce9-44eb-9cbd-477571e5ec31"
+        },
+        {
+          "name": "Kansalais­liitto",
+          "shortName": "Kal",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "20",
+          "id": "33f74e89-6cc6-4a79-94b4-2ea52c067eae"
+        },
+        {
+          "name": "Feministinen puolue",
+          "shortName": "Fp",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "36",
+          "id": "8d5d35d0-7694-4c9b-bbb9-e83a09c3fd5e"
+        },
+        {
+          "name": "Kansalais­puolue",
+          "shortName": "Kp",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "id": "da49125e-14b1-4519-a3fb-aafb2db9758b"
+        },
+        {
+          "name": "Eläin­oikeus­puolue",
+          "shortName": "Eop",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "34",
+          "id": "5bb5d271-14dc-4493-b40e-61b7980f1172"
+        },
+        {
+          "name": "Piraatti­puolue",
+          "shortName": "Pir",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "30",
+          "id": "e1e82ea5-d681-4682-88af-b063919ee103"
+        },
+        {
+          "name": "Liberaali­puolue",
+          "shortName": "Lib",
+          "color": "#4A4A4A",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": false,
+          "orkPartyCode": "33",
+          "id": "744f5ec7-852f-45b1-9dac-6d08d85356a9"
+        },
+        {
+          "name": "Perus­suomalaiset",
+          "shortName": "Ps",
+          "color": "#FFEB0A",
+          "nameColor": "#000",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "23",
+          "id": "8c1e3917-0920-4893-9597-1e8860371f1c"
+        },
+        {
+          "name": "Vasemmisto­liitto",
+          "shortName": "Vas",
+          "color": "#671010",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "15",
+          "id": "c2fa2f51-0d85-46d0-ab42-89593f70d92b"
+        },
+        {
+          "name": "Kristillis­demokraatit",
+          "shortName": "Kd",
+          "color": "#2B67C9",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "9",
+          "id": "72b23234-d423-4bfa-a463-1f6649df0e0a"
+        },
+        {
+          "name": "Rkp",
+          "shortName": "Rkp",
+          "color": "#F0B960",
+          "nameColor": "#000",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "5",
+          "id": "f4bbeb67-3b0a-4b81-9606-0f192652e91b"
+        },
+        {
+          "name": "Sdp",
+          "shortName": "Sdp",
+          "color": "#DA4E44",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "1",
+          "id": "aaa152ae-1854-48ef-986e-ea764ed56a24"
+        },
+        {
+          "name": "Kokoomus",
+          "shortName": "Kok",
+          "color": "#134E70",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "4",
+          "id": "2ef3060b-602f-43a9-8008-ae8a0c427426"
+        },
+        {
+          "name": "Vihreät",
+          "shortName": "Vihr",
+          "color": "#125928",
+          "nameColor": "#fff",
+          "webPage": "",
+          "bigParty": true,
+          "orkPartyCode": "13",
+          "id": "231dead0-c733-4991-a8c0-0d511e11cdc4"
+        }
+      ],
+      "pagesInElectionsItems": [],
+      "valueMapValues": [
+        [
+          {
+            "id": 1,
+            "name": "Vasemmisto-Oikeisto",
+            "bounds": [
+              "Vasemmisto",
+              "Oikeisto"
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Liberaalivihreä-Kansalliskonservatiivi",
+            "bounds": [
+              "Kansalliskonservatiivi",
+              "Liberaalivihreä"
+            ]
+          }
+        ]
+      ],
+      "valueMeterValues": [
+        {
+          "id": 3,
+          "name": "Vähemmän vihreä - Enemmän vihreä",
+          "bounds": [
+            "Vähemmän vihreä",
+            "Enemmän vihreä"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Kansallismielinen - Kansainvälinen",
+          "bounds": [
+            "Kansallismielinen",
+            "Kansainvälinen"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Arvokonservatiivi - Arvoliberaali",
+          "bounds": [
+            "Arvokonservatiivi",
+            "Arvoliberaali"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Maaseutu - Kaupunki",
+          "bounds": [
+            "Maaseutu",
+            "Kaupunki"
+          ]
+        }
+      ]
+    },
+    "__N_SSP": true
+  },
+  "page": "/[election]/[brand]/candidates/[id]",
+  "query": {
+    "election": "eduskunta2023",
+    "brand": "hs",
+    "id": "d75d53d7-cdf9-407c-b3a6-e79369d18c55"
+  },
+  "buildId": "hEmB2U4uV1evmLmhv4JDE",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    20323
+  ],
+  "gssp": true,
+  "scriptLoader": [
+    {
+      "id": "GTM",
+      "strategy": "afterInteractive",
+      "dangerouslySetInnerHTML": {
+        "__html": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n          'https://sst.vaalikone.fi/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n          })(window,document,'script','dataLayer','GTM-57LV2R');"
+      }
+    },
+    {
+      "id": "dark",
+      "strategy": "afterInteractive",
+      "dangerouslySetInnerHTML": {
+        "__html": "\nwindow.global = window;\n\nconst lightTheme = \"sndp\";\nconst darkTheme = \"sndp-dark\";\nconst defaultTheme = \"sndp\";\n\nconst darkModeOn = () => {\ndocument.getElementsByTagName('html')[0].classList.remove(lightTheme);\ndocument.getElementsByTagName('html')[0].classList.add(darkTheme);\n};\nconst darkModeOff = () => {\ndocument.getElementsByTagName('html')[0].classList.remove(darkTheme);\ndocument.getElementsByTagName('html')[0].classList.add(lightTheme);\n};\n\ndocument.getElementsByTagName('html')[0].classList.remove(defaultTheme);\n\nif (window.matchMedia('(prefers-color-scheme: dark)').matches) {\ndarkModeOn();\n} else {\ndarkModeOff();\n}\n\nconst setupDarkModeListeners = () => {\nif (window.matchMedia) {\nif (window.matchMedia('(prefers-color-scheme: dark)').matches) {\ndarkModeOn();\n}\nwindow.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {\n// If we have received \"darkMode\" message from the containing article, we don't\n// directly implement \"prefers-color-scheme\" changes, because the site manages dark\n// mode setting for us, via those messages.\nif (!window.OVERRIDE_PREFERS_DARK_MODE) {\nif (event.matches) {\ndarkModeOn();\n} else {\ndarkModeOff();\n}\n}\n});\n}\n\nwindow.addEventListener(\n'message',\n(event) => {\nif (event.target.location.href.startsWith(location.origin)) {\nif (event.data && event.data.darkMode === true) {\nwindow.OVERRIDE_PREFERS_DARK_MODE = true;\ndarkModeOn();\n}\nif (event.data && event.data.darkMode === false) {\nwindow.OVERRIDE_PREFERS_DARK_MODE = true;\ndarkModeOff();\n}\n}\n},\nfalse,\n);\n};\n\nconst urlParams = new URLSearchParams(window.location.search);\n\nif (urlParams.get('darkMode') === 'true') {\ndarkModeOn();\n} else if (urlParams.get('darkMode') === 'false') {\ndarkModeOff();\n} else {\nsetupDarkModeListeners();\n}\n"
+      }
+    }
+  ]
+}

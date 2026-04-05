@@ -183,6 +183,12 @@
       color: var(--party-color, var(--text-muted));
       text-transform: uppercase;
       margin-bottom: .6rem;
+      cursor: pointer;
+      transition: background .15s, box-shadow .15s;
+    }
+    .card-party-tag:hover {
+      background: rgba(255,255,255,.13);
+      box-shadow: 0 0 8px var(--party-color, var(--accent));
     }
 
     .card-name {
@@ -2171,7 +2177,7 @@ function luoKortti(m) {
     <div class="card-body" style="display:flex;gap:.85rem;align-items:flex-start">
       ${kuvaHtml ? `<div style="flex-shrink:0">${kuvaHtml}</div>` : ''}
       <div style="min-width:0;flex:1">
-        <div class="card-party-tag">${m.puolue||"–"}</div>
+        <div class="card-party-tag" onclick="event.stopPropagation();aktiivisuusPuolue='${m.puolue||''}';setAika('nykyiset');" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
         <div class="card-name">${kaannaNimi(m.nimi)}</div>
         <div class="card-meta">${[paikkatieto,vuodet].filter(Boolean).join(" · ")}</div>
       </div>
