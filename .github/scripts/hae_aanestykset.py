@@ -85,7 +85,7 @@ def laske_yhteenveto(sarakkeet, rivit):
         "yhteensa": len(rivit)
     }
 
-def muodosta_lista(sarakkeet, rivit, max_n=50):
+def muodosta_lista(sarakkeet, rivit, max_n=150):
     if not sarakkeet or not rivit:
         return []
     def g(rivi, nimi):
