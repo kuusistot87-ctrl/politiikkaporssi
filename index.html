@@ -3905,7 +3905,11 @@ async function haeHenkilonUutiset(m, vari) {
   el.innerHTML = '';
   osumia.slice(0,10).forEach(({item, lahde}) => {
     const teksti = (item.title+' '+(item.description||'')).toLowerCase();
-    const pol = etsiPoliitikot(teksti);
+    let pol = etsiPoliitikot(teksti);
+    // Varmista että haetun edustajan tagi näkyy aina
+    const pakoPol = { sukunimi: m.nimi.split(' ').pop(), vari: vari, edustaja: m, puolue: m.puolue };
+    if (!Array.isArray(pol)) pol = pol ? [pol] : [];
+    if (!pol.some(p => p.sukunimi === pakoPol.sukunimi)) pol.unshift(pakoPol);
     el.appendChild(luoUutisEl(item, lahde, pol, 'display:block;padding:.5rem .6rem;border:1px solid #1a2a55;border-radius:4px;text-decoration:none;margin-bottom:.35rem;background:rgba(255,255,255,.02)'));
   });
 }
