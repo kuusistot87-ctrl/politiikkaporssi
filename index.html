@@ -2505,8 +2505,9 @@ async function lataaAanestykset(m, vari) {
   if (AANESTYS_CACHE[slug]) { renderAanestykset(el, AANESTYS_CACHE[slug], elId); return; }
 
   try {
-    const res = await fetch(`https://kuusistot87-ctrl.github.io/politiikkaporssi/aanestykset_json/${slug}.json`);
-    if (!res.ok) throw new Error("HTTP " + res.status);
+    const url = `https://kuusistot87-ctrl.github.io/politiikkaporssi/aanestykset_json/${slug}.json?v=${Date.now()}`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("HTTP " + res.status + " — " + url);
     const data = await res.json();
     AANESTYS_CACHE[slug] = data;
     renderAanestykset(el, data, elId);
@@ -2514,6 +2515,7 @@ async function lataaAanestykset(m, vari) {
     el.innerHTML = `
       <div class="info-ei" style="margin-bottom:.75rem">Äänestysdata ei vielä saatavilla.</div>
       <div style="font-size:.72rem;color:#4a5a7a;line-height:1.6">
+        Virhe: <code>${e.message}</code><br><br>
         Data haetaan automaattisesti GitHub Actions -ajolla joka yö.<br>
         Käynnistä ensimmäinen haku ajamalla: <code>python hae_aanestykset.py</code>
       </div>`;
