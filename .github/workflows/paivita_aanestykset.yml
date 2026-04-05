@@ -39,12 +39,11 @@ jobs:
           git pull --rebase --autostash origin main
           git add aanestykset_json/
           if git diff --staged --quiet; then
-            echo "Ei muutoksia äänestysdata — skipataan commit"
+            echo "Ei muutoksia — skipataan commit"
           else
             git commit -m "Auto: päivitä äänestysdata $(date +'%d.%m.%Y %H:%M')"
             for i in 1 2 3; do
               git push && break
-              echo "Push epäonnistui, yritetään uudelleen ($i/3)..."
               git pull --rebase origin main
               sleep 5
             done
