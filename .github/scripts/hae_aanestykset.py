@@ -20,12 +20,12 @@ INDEX_FILE = os.path.join(ROOT, "edustajat_json", "index_with_personid.json")
 
 PER_SIVU = 100
 SIVUJA   = 3      # 300 viimeisintä äänestystä
-VIIVE    = 1.5
+VIIVE    = 0.35
 
 def hae_json(url):
     try:
         req = urllib.request.Request(
-            url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+            url, headers={"User-Agent": "Politiikkaporssi/1.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             return json.loads(r.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
@@ -85,7 +85,7 @@ def laske_yhteenveto(sarakkeet, rivit):
         "yhteensa": len(rivit)
     }
 
-def muodosta_lista(sarakkeet, rivit, max_n=150):
+def muodosta_lista(sarakkeet, rivit, max_n=300):
     if not sarakkeet or not rivit:
         return []
     def g(rivi, nimi):
@@ -187,11 +187,8 @@ def main():
         sarakkeet, rivit = hae_aanestykset(nro)
 
         if not rivit:
-            print("ei dataa")
+            print("ei dataa — säilytetään vanha tiedosto")
             epaonnistuneet.append(nimi)
-            with open(out, "w", encoding="utf-8") as f:
-                json.dump({"nimi": nimi, "yhteenveto": {}, "aanestykset": [],
-                           "paivitetty": datetime.now().strftime("%Y-%m-%d")}, f, ensure_ascii=False)
             continue
 
         yht   = laske_yhteenveto(sarakkeet, rivit)
