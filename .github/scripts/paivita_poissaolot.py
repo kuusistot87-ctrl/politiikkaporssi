@@ -1,25 +1,39 @@
 #!/usr/bin/env python3
 """
 Hakee eduskunnan poissaolotilastot ja tallentaa ne JSON-muodossa.
+Käyttää Playwrightia dynaamisen CSV-URL:n hakemiseen.
 Ajetaan GitHub Actionsilla päivittäin.
 """
 
-import csv
-import json
-import io
-import os
-import requests
+import csv, json, io, os, urllib.request
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
-# Datawrapper CSV-URL (päivitetään jos muuttuu)
-CSV_URL = "https://datawrapper.dwcdn.net/f4RJD/full.csv"
+def hae_csv_url():
+    """Hakee dynaamisen CSV-URL:n Playwrightilla."""
+    csv_url = None
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        )
+        page = context.new_page()
+        def kaappaa_url(r):
+            nonlocal csv_url
+            if 'f4RJD' in r.url and 'dataset.csv' in r.url:
+                csv_url = r.url
+        page.on('request', kaappaa_url)
+        page.goto('https://www.eduskunta.fi/eduskunta-ja-sen-toiminta/tilastot/kansanedustajien-poissaolot')
+        page.wait_for_timeout(5000)
+        browser.close()
+    return csv_url
 
-def hae_csv():
-    """Hakee CSV:n Datawrapperista."""
+def hae_csv(url):
+    """Hakee CSV:n URL:sta."""
     try:
-        r = requests.get(CSV_URL, timeout=30)
-        r.raise_for_status()
-        return r.text
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode('utf-8')
     except Exception as e:
         print(f"Virhe CSV:n haussa: {e}")
         return None
@@ -31,10 +45,10 @@ def muunna_json(csv_teksti):
     for row in reader:
         try:
             rows.append({
-                'nimi':     row['Kansanedustaja'],
-                'henkilo':  int(row['Henkilökohtainen syy']),
-                'muu':      int(row['Muu poissaolo']),
-                'yht':      int(row['Yhteensä'])
+                'nimi':    row['Kansanedustaja'],
+                'henkilo': int(row['Henkilökohtainen syy']),
+                'muu':     int(row['Muu poissaolo']),
+                'yht':     int(row['Yhteensä'])
             })
         except (KeyError, ValueError) as e:
             print(f"Ohitettu rivi: {row} — {e}")
@@ -43,9 +57,9 @@ def muunna_json(csv_teksti):
         return None
 
     max_yht = max(r['yht'] for r in rows)
-    ranked  = sorted(rows, key=lambda x: x['yht'], reverse=True)
+    ranked  = sorted(rows, key=lambda x: x['yht'])
     for i, r in enumerate(ranked):
-        r['sijoitus'] = i + 1
+        r['sijoitus'] = i + 1  # 1 = eniten poissa, 200 = vähiten poissa
 
     data = {r['nimi']: {
         'henkilo':  r['henkilo'],
@@ -62,9 +76,14 @@ def muunna_json(csv_teksti):
     }
 
 def main():
-    print("Haetaan poissaolotilastot...")
-    csv_teksti = hae_csv()
+    print("Haetaan CSV-URL Playwrightilla...")
+    csv_url = hae_csv_url()
+    if not csv_url:
+        print("CSV-URL:n haku epäonnistui — käytetään vanhaa dataa")
+        return
+    print(f"CSV-URL: {csv_url}")
 
+    csv_teksti = hae_csv(csv_url)
     if not csv_teksti:
         print("CSV:n haku epäonnistui — käytetään vanhaa dataa")
         return
@@ -74,10 +93,8 @@ def main():
         print("Muunnos epäonnistui")
         return
 
-    # Varmistetaan hakemisto
     os.makedirs("Poissaolotilastot", exist_ok=True)
     polku = "Poissaolotilastot/poissaolot.json"
-
     with open(polku, 'w', encoding='utf-8') as f:
         json.dump(tulos, f, ensure_ascii=False, indent=2)
 
