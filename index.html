@@ -2395,7 +2395,7 @@ function renderModalSkeleton(m, vari) {
   const slug = asciiSlug(m.nimi);
   const navContainer = content.querySelector("#profnav-container");
 
-  // Puoluebadge klikattava — vie nykyiset edustajat + puoluesuodatin
+  // Puoluebadge → nykyiset edustajat + puoluesuodatin
   const partyTag = content.querySelector('#modalPartyTag');
   if (partyTag && m.puolue) {
     partyTag.addEventListener('click', () => {
