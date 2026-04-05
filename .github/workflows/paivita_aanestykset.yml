@@ -27,10 +27,7 @@ jobs:
         run: pip install requests
 
       - name: Hae äänestysdata
-        run: |
-          cp edustajat_json/index_with_personid.json edustajat_json/index.json
-          cd .github/scripts
-          python hae_aanestykset.py
+        run: python .github/scripts/hae_aanestykset.py
 
       - name: Commitoi ja push
         run: |
