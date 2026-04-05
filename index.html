@@ -2366,7 +2366,7 @@ function renderModalSkeleton(m, vari) {
           ${m.nykyinen ? "KANSANEDUSTAJA" : "ENT. KANSANEDUSTAJA"}
         </div>
         <div class="modal-name" id="modalName" style="margin-bottom:.5rem;line-height:1.2">${m.nimi}</div>
-        <div class="modal-party-tag" style="--modal-party-color:${vari};margin-bottom:.85rem">${m.puolue||"–"}</div>
+        <div class="modal-party-tag" style="--modal-party-color:${vari};margin-bottom:.85rem;cursor:pointer" onclick="suljeModal();setPuolue('${m.puolue||''}');naytaNykyisetKansanedustajat();" title="Näytä kaikki ${m.puolue}-edustajat">${m.puolue||"–"}</div>
         <div style="display:flex;flex-direction:column;gap:.4rem">
           ${m.kotikunta  ? `<div><span class="d-label">Kotikunta</span><div class="d-value" style="font-size:.88rem">${m.kotikunta}</div></div>` : ""}
           ${m.vaalipiiri ? `<div><span class="d-label">Vaalipiiri</span><div class="d-value" style="font-size:.88rem">${m.vaalipiiri}</div></div>` : ""}
