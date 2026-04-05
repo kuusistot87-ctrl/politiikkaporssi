@@ -20,12 +20,12 @@ INDEX_FILE = os.path.join(ROOT, "edustajat_json", "index_with_personid.json")
 
 PER_SIVU = 100
 SIVUJA   = 3      # 300 viimeisintä äänestystä
-VIIVE    = 0.35
+VIIVE    = 1.5
 
 def hae_json(url):
     try:
         req = urllib.request.Request(
-            url, headers={"User-Agent": "Politiikkaporssi/1.0"})
+            url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
         with urllib.request.urlopen(req, timeout=15) as r:
             return json.loads(r.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
