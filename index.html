@@ -1999,8 +1999,6 @@ function rakennaPuoluePainikkeet() {
     btn.textContent = p;
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (tab.id === 'lobbaus') { avaaLobbausKortti(); return; }
-      if (tab.id === 'uutiset') { avaaUutisetKortti(AKTIIVINEN_EDUSTAJA); return; }
       const isActive = btn.classList.contains("active");
       dropdown.querySelectorAll(".dp-btn").forEach(b => b.classList.remove("active"));
       if (!isActive) {
@@ -2473,6 +2471,10 @@ function renderModalSkeleton(m, vari) {
       overlay.classList.add("open");
 
       // Lataa data tarvittaessa
+      // Erikoistoiminnot — ei submodalia
+      if (tab.id === 'lobbaus') { btn.classList.remove('active'); overlay.classList.remove('open'); overlay.style.display='none'; avaaLobbausKortti(); return; }
+      if (tab.id === 'uutiset') { btn.classList.remove('active'); overlay.classList.remove('open'); overlay.style.display='none'; avaaUutisetKortti(AKTIIVINEN_EDUSTAJA); return; }
+
       const xmlOsiot = ["tyoura","valiokunnat","ministeriydet","sidonnaisuudet2"];
       if (tab.id === "poissaolot") naytaPoissaolot(m, vari);
       else if (tab.id === "aanestykset") lataaAanestykset(m, vari);
