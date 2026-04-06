@@ -2396,6 +2396,7 @@ function renderModalSkeleton(m, vari) {
   if (_ptag && m.puolue) {
     _ptag.addEventListener('click', () => {
       closeTTLProfile();
+      drawerPuolue = m.puolue;
       aktiivisuusPuolue = m.puolue;
       aikasuodatin = 'nykyiset';
       naytaTulokset();
@@ -3638,7 +3639,6 @@ function suljeDraver() {
     drawerPuolue = '';
     aktiivisuusPuolue = '';
     document.querySelectorAll('.drawer-puolue-btn').forEach(b => b.classList.remove('active'));
-    suodataJaRenderöi();
   }
 }
 
@@ -3669,7 +3669,8 @@ function naytaDrawerHaku(nakyma) {
       ? KAIKKI.filter(m => m.nykyinen)
       : KAIKKI.filter(m => !m.nykyinen);
     const puolueet = [...new Set(joukko.map(m => m.puolue).filter(p => p && p !== '–'))].sort();
-    const aktiivinen = drawerPuolue;
+    const aktiivinen = aktiivisuusPuolue;
+    drawerPuolue = aktiivisuusPuolue;
     const kaikkiBtn = `<button class="drawer-puolue-btn${!aktiivinen ? ' active' : ''}" data-puolue="" onclick="toggleDrawerPuolue('')">Kaikki</button>`;
     pp.innerHTML = kaikkiBtn + puolueet.map(p =>
       `<button class="drawer-puolue-btn${p === aktiivinen ? ' active' : ''}" data-puolue="${p}" onclick="toggleDrawerPuolue('${p}')">${p}</button>`
@@ -3681,8 +3682,7 @@ function naytaDrawerHaku(nakyma) {
 
 
 function toggleDrawerPuolue(p) {
-  // Jos sama puolue klikataan uudelleen tai Kaikki valitaan, nollaa
-  drawerPuolue = (p === '' || drawerPuolue === p) ? '' : p;
+  drawerPuolue = (drawerPuolue === p) ? '' : p;
   document.querySelectorAll('.drawer-puolue-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.puolue === drawerPuolue);
   });
