@@ -3023,19 +3023,24 @@ let AKTIIVINEN_EDUSTAJA = null;
 
 function avaaLobbausKortti() {
   if (!AKTIIVINEN_EDUSTAJA) return;
+  const m = AKTIIVINEN_EDUSTAJA;
+  const vari = puolueVari(m.puolue);
   const overlay = document.getElementById("lobbausKorttiOverlay");
   const sisalto = document.getElementById("lobbausKorttiSisalto");
   overlay.style.display = 'flex';
   overlay.classList.remove("hidden-overlay");
   overlay.classList.add("open");
-  sisalto.innerHTML = '<div class="spinner" style="margin:2rem auto"></div>';
-  renderLobbausKortti(AKTIIVINEN_EDUSTAJA, sisalto);
+  // Luo elementti naytaLobbausTiedot-funktiota varten
+  const containerId = "lobbaus-" + m.nimi.replace(/\s+/g,"-");
+  sisalto.innerHTML = `<div id="${containerId}"></div>`;
+  naytaLobbausTiedot(m, vari);
 }
 
 function suljeLobbausKortti() {
   const overlay = document.getElementById("lobbausKorttiOverlay");
   overlay.classList.remove("open");
   overlay.classList.add("hidden-overlay");
+  overlay.style.display = 'none';
 }
 
 
