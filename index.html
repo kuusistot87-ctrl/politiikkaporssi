@@ -3049,7 +3049,9 @@ async function renderLobbausKortti(m, el) {
   const idx  = await lataaLobbausIndex();
 
   if (!idx) {
-    el.innerHTML = '<p style="color:#5a7a99">Lobbausdata ei saatavilla</p>';
+    el.innerHTML = `<div style="color:${vari};font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.15em;margin-bottom:.5rem">LOBBAUSDATA</div>
+      <div style="font-size:1.1rem;font-weight:700;color:#e8f4ff;margin-bottom:.75rem">${m.nimi}</div>
+      <p style="color:#5a7a99;font-size:.85rem">Lobbausdataa ei löydy (lobbaus_json/index.json puuttuu).</p>`;
     return;
   }
 
