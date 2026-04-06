@@ -3025,6 +3025,7 @@ function avaaLobbausKortti() {
   if (!AKTIIVINEN_EDUSTAJA) return;
   const overlay = document.getElementById("lobbausKorttiOverlay");
   const sisalto = document.getElementById("lobbausKorttiSisalto");
+  overlay.style.display = 'flex';
   overlay.classList.remove("hidden-overlay");
   overlay.classList.add("open");
   sisalto.innerHTML = '<div class="spinner" style="margin:2rem auto"></div>';
