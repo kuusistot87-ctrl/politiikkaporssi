@@ -2392,13 +2392,16 @@ function renderModalSkeleton(m, vari) {
     <div id="profnav-container"></div>`;
 
   // Puoluebadge → nykyiset edustajat + puoluesuodatin
-  content.querySelector('#modalPartyTag').addEventListener('click', () => {
-    closeTTLProfile();
-    aktiivisuusPuolue = m.puolue;
-    aikasuodatin = 'nykyiset';
-    naytaTulokset();
-    suodataJaRenderöi();
-  });
+  const _ptag = content.querySelector('#modalPartyTag');
+  if (_ptag && m.puolue) {
+    _ptag.addEventListener('click', () => {
+      closeTTLProfile();
+      aktiivisuusPuolue = m.puolue;
+      aikasuodatin = 'nykyiset';
+      naytaTulokset();
+      suodataJaRenderöi();
+    });
+  }
 
   // Profiilin nav-painikkeet — käytä asciiSlug jotta id täsmää lataaAanestykset-funktion kanssa
   const slug = asciiSlug(m.nimi);
@@ -3635,6 +3638,7 @@ function suljeDraver() {
     drawerPuolue = '';
     aktiivisuusPuolue = '';
     document.querySelectorAll('.drawer-puolue-btn').forEach(b => b.classList.remove('active'));
+    suodataJaRenderöi();
   }
 }
 
@@ -3666,7 +3670,8 @@ function naytaDrawerHaku(nakyma) {
       : KAIKKI.filter(m => !m.nykyinen);
     const puolueet = [...new Set(joukko.map(m => m.puolue).filter(p => p && p !== '–'))].sort();
     const aktiivinen = drawerPuolue;
-    pp.innerHTML = puolueet.map(p =>
+    const kaikkiBtn = `<button class="drawer-puolue-btn${!aktiivinen ? ' active' : ''}" data-puolue="" onclick="toggleDrawerPuolue('')">Kaikki</button>`;
+    pp.innerHTML = kaikkiBtn + puolueet.map(p =>
       `<button class="drawer-puolue-btn${p === aktiivinen ? ' active' : ''}" data-puolue="${p}" onclick="toggleDrawerPuolue('${p}')">${p}</button>`
     ).join('');
     pp.dataset.rakennettu = '1';
@@ -3676,7 +3681,8 @@ function naytaDrawerHaku(nakyma) {
 
 
 function toggleDrawerPuolue(p) {
-  drawerPuolue = (drawerPuolue === p) ? '' : p;
+  // Jos sama puolue klikataan uudelleen tai Kaikki valitaan, nollaa
+  drawerPuolue = (p === '' || drawerPuolue === p) ? '' : p;
   document.querySelectorAll('.drawer-puolue-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.puolue === drawerPuolue);
   });
