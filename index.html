@@ -426,7 +426,7 @@
       max-height: calc(90vh - 4rem);
       -webkit-overflow-scrolling: touch;
       overscroll-behavior: contain;
-      padding: 1rem 1.25rem 1.25rem;
+      padding: .85rem 1.1rem 1rem;
     }
 
     .modal-label {
@@ -1208,14 +1208,14 @@
     /* ── PROFIILI-HEADER ── */
     .profil-header {
       display: grid;
-      grid-template-columns: var(--profil-kuva-w, 155px) 1fr;
-      gap: .85rem;
+      grid-template-columns: 130px 1fr;
+      gap: .75rem;
       align-items: start;
-      margin-bottom: .6rem;
+      margin-bottom: .4rem;
     }
     .profil-kuva-wrap { flex-shrink: 0; }
     .profil-kuva-wrap img, .profil-kuva-wrap a { display: block; }
-    .profil-info { min-width: 0; display: flex; flex-direction: column; gap: .5rem; }
+    .profil-info { min-width: 0; display: flex; flex-direction: column; gap: .25rem; }
     .profil-info-rivi { display: flex; flex-direction: column; gap: .5rem; }
     .profil-kentta { display: flex; flex-direction: column; }
     .profil-napit { display: flex; flex-direction: column; gap: .4rem; margin-top: .5rem; }
@@ -1226,22 +1226,12 @@
       cursor: pointer; text-align: left;
     }
 
-    .profil-kuva-img {
-      width: 155px;
-      height: 194px;
-      object-fit: cover;
-      object-position: top;
-      border-radius: 6px;
-      border: 2px solid var(--modal-party-color, #00d4ff);
-      box-shadow: 0 0 24px var(--modal-party-color, #00d4ff);
-      display: block;
-    }
     /* ── PROFNAV GRID ── */
     .profnav-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: .4rem;
-      margin-top: .75rem;
+      gap: .35rem;
+      margin-top: .4rem;
     }
 
     /* Pelimäinen — sama clip-path tyyli kuin nav-btn */
@@ -2358,10 +2348,11 @@ function renderModalSkeleton(m, vari) {
     ? `${m.syntymavuosi||"?"}–${m.kuolinvuosi}`
     : m.syntymavuosi ? `${m.syntymavuosi}–` : "–";
   const kuvaImg = m.kuva
-    ? `<img src="${kuvaUrl(m.kuva, 600)}" alt="${m.nimi}" class="profil-kuva-img" onerror="this.style.display='none'"
-         style="object-fit:cover;object-position:top;border-radius:6px;
+    ? `<img src="${kuvaUrl(m.kuva, 600)}" alt="${m.nimi}" onerror="this.style.display='none'"
+         style="width:130px;height:163px;object-fit:cover;object-position:top;border-radius:6px;
                 border:2px solid ${vari};box-shadow:0 0 24px ${vari}55;display:block;">`
-    : `<div style="class=\"profil-kuva-img\" style=\"border-radius:6px;border:1px solid #1a2a55;background:#0b1128;display:flex;align-items:center;justify-content:center;font-size:3rem;opacity:.3\">👤</div>`;
+    : `<div style="width:130px;height:163px;border-radius:6px;border:1px solid #1a2a55;
+         background:#0b1128;display:flex;align-items:center;justify-content:center;font-size:3rem;opacity:.3">👤</div>`;
 
   const kuvaWrap = m.eduskunta
     ? `<a href="${eduskuntaUrl(m.eduskunta)}" target="_blank" rel="noopener" title="Avaa eduskunta.fi-profiili" style="display:block;cursor:pointer;flex-shrink:0">${kuvaImg}</a>`
