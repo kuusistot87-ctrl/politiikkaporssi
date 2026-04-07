@@ -1,0 +1,794 @@
+[
+  {
+    "nimi": "Elina Valtonen",
+    "sukunimi": "Valtonen",
+    "puolue": "KOK",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 178625.0,
+    "kulut": 136739.0,
+    "ero": 41886.0
+  },
+  {
+    "nimi": "Antti Häkkänen",
+    "sukunimi": "Häkkänen",
+    "puolue": "KOK",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 144691.0,
+    "kulut": 117995.0,
+    "ero": 26696.0
+  },
+  {
+    "nimi": "Petteri Orpo",
+    "sukunimi": "Orpo",
+    "puolue": "KOK",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 88852.11,
+    "kulut": 75724.36,
+    "ero": 13127.75
+  },
+  {
+    "nimi": "Ben Zyskowicz",
+    "sukunimi": "Zyskowicz",
+    "puolue": "KOK",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 69362.0,
+    "kulut": 56764.6,
+    "ero": 12597.4
+  },
+  {
+    "nimi": "Eeva Kalli",
+    "sukunimi": "Kalli",
+    "puolue": "KESK",
+    "vaalipiiri": "Satakunnan vaalipiiri",
+    "rahoitus": 64190.35,
+    "kulut": 52328.52,
+    "ero": 11861.83
+  },
+  {
+    "nimi": "Linda Brandt-Ahde",
+    "sukunimi": "Brandt-Ahde",
+    "puolue": "KOK",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 34341.92,
+    "kulut": 27718.32,
+    "ero": 6623.6
+  },
+  {
+    "nimi": "Antti Lindtman",
+    "sukunimi": "Lindtman",
+    "puolue": "SDP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 65228.0,
+    "kulut": 59223.16,
+    "ero": 6004.84
+  },
+  {
+    "nimi": "Otto Andersson",
+    "sukunimi": "Andersson",
+    "puolue": "RKP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 79381.81,
+    "kulut": 73381.81,
+    "ero": 6000.0
+  },
+  {
+    "nimi": "Pekka Toveri",
+    "sukunimi": "Toveri",
+    "puolue": "KOK",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 29460.0,
+    "kulut": 24097.27,
+    "ero": 5362.73
+  },
+  {
+    "nimi": "Juha Hänninen",
+    "sukunimi": "Hänninen",
+    "puolue": "KOK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 48028.07,
+    "kulut": 43098.07,
+    "ero": 4930.0
+  },
+  {
+    "nimi": "Mia Laiho",
+    "sukunimi": "Laiho",
+    "puolue": "KOK",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 49633.47,
+    "kulut": 45183.47,
+    "ero": 4450.0
+  },
+  {
+    "nimi": "Annika Saarikko",
+    "sukunimi": "Saarikko",
+    "puolue": "KESK",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 76265.0,
+    "kulut": 71824.85,
+    "ero": 4440.15
+  },
+  {
+    "nimi": "Mikko Ollikainen",
+    "sukunimi": "Ollikainen",
+    "puolue": "RKP",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 42291.4,
+    "kulut": 38142.82,
+    "ero": 4148.58
+  },
+  {
+    "nimi": "Pekka Aittakumpu",
+    "sukunimi": "Aittakumpu",
+    "puolue": "KESK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 42631.94,
+    "kulut": 38766.89,
+    "ero": 3865.05
+  },
+  {
+    "nimi": "Matias Mäkynen",
+    "sukunimi": "Mäkynen",
+    "puolue": "SDP",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 53470.0,
+    "kulut": 49669.05,
+    "ero": 3800.95
+  },
+  {
+    "nimi": "Ville Valkonen",
+    "sukunimi": "Valkonen",
+    "puolue": "KOK",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 48199.89,
+    "kulut": 44403.04,
+    "ero": 3796.85
+  },
+  {
+    "nimi": "Antti Kurvinen",
+    "sukunimi": "Kurvinen",
+    "puolue": "KESK",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 99434.88,
+    "kulut": 95745.58,
+    "ero": 3689.3
+  },
+  {
+    "nimi": "Mika Poutala",
+    "sukunimi": "Poutala",
+    "puolue": "KD",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 32921.52,
+    "kulut": 29658.72,
+    "ero": 3262.8
+  },
+  {
+    "nimi": "Anders Adlercreutz",
+    "sukunimi": "Adlercreutz",
+    "puolue": "RKP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 85844.02,
+    "kulut": 82711.06,
+    "ero": 3132.96
+  },
+  {
+    "nimi": "Sara Seppänen",
+    "sukunimi": "Seppänen",
+    "puolue": "PS",
+    "vaalipiiri": "Lapin vaalipiiri",
+    "rahoitus": 36869.38,
+    "kulut": 33872.2,
+    "ero": 2997.18
+  },
+  {
+    "nimi": "Tere Sammallahti",
+    "sukunimi": "Sammallahti",
+    "puolue": "KOK",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 75099.99,
+    "kulut": 72372.99,
+    "ero": 2727.0
+  },
+  {
+    "nimi": "Marko Kilpi",
+    "sukunimi": "Kilpi",
+    "puolue": "KOK",
+    "vaalipiiri": "Savo-Karjalan vaalipiiri",
+    "rahoitus": 28988.53,
+    "kulut": 26488.53,
+    "ero": 2500.0
+  },
+  {
+    "nimi": "Timo Suhonen",
+    "sukunimi": "Suhonen",
+    "puolue": "SDP",
+    "vaalipiiri": "Savo-Karjalan vaalipiiri",
+    "rahoitus": 38982.0,
+    "kulut": 36482.0,
+    "ero": 2500.0
+  },
+  {
+    "nimi": "Kai Mykkänen",
+    "sukunimi": "Mykkänen",
+    "puolue": "KOK",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 87666.0,
+    "kulut": 85316.51,
+    "ero": 2349.49
+  },
+  {
+    "nimi": "Nasima Razmyar",
+    "sukunimi": "Razmyar",
+    "puolue": "SDP",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 58725.31,
+    "kulut": 56427.51,
+    "ero": 2297.8
+  },
+  {
+    "nimi": "Janne Heikkinen",
+    "sukunimi": "Heikkinen",
+    "puolue": "KOK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 82452.4,
+    "kulut": 80200.2,
+    "ero": 2252.2
+  },
+  {
+    "nimi": "Ritva \"Kike\" Elomaa",
+    "sukunimi": "Elomaa",
+    "puolue": "PS",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 18286.03,
+    "kulut": 16286.03,
+    "ero": 2000.0
+  },
+  {
+    "nimi": "Marko Asell",
+    "sukunimi": "Asell",
+    "puolue": "SDP",
+    "vaalipiiri": "Pirkanmaan vaalipiiri",
+    "rahoitus": 32994.42,
+    "kulut": 31008.84,
+    "ero": 1985.58
+  },
+  {
+    "nimi": "Olga Oinas-Panuma",
+    "sukunimi": "Oinas-Panuma",
+    "puolue": "KESK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 40970.12,
+    "kulut": 39348.64,
+    "ero": 1621.48
+  },
+  {
+    "nimi": "Jarmo Lindberg",
+    "sukunimi": "Lindberg",
+    "puolue": "KOK",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 45409.0,
+    "kulut": 43910.0,
+    "ero": 1499.0
+  },
+  {
+    "nimi": "Tarja Filatov",
+    "sukunimi": "Filatov",
+    "puolue": "SDP",
+    "vaalipiiri": "Hämeen vaalipiiri",
+    "rahoitus": 29781.68,
+    "kulut": 28296.63,
+    "ero": 1485.05
+  },
+  {
+    "nimi": "Sofia Virta",
+    "sukunimi": "Virta",
+    "puolue": "VIHR",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 15649.06,
+    "kulut": 14216.07,
+    "ero": 1432.99
+  },
+  {
+    "nimi": "Ilmari Nurminen",
+    "sukunimi": "Nurminen",
+    "puolue": "SDP",
+    "vaalipiiri": "Pirkanmaan vaalipiiri",
+    "rahoitus": 48735.0,
+    "kulut": 47369.0,
+    "ero": 1366.0
+  },
+  {
+    "nimi": "Jarno Limnell",
+    "sukunimi": "Limnell",
+    "puolue": "KOK",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 105594.0,
+    "kulut": 104289.96,
+    "ero": 1304.04
+  },
+  {
+    "nimi": "Jani Kokko",
+    "sukunimi": "Kokko",
+    "puolue": "SDP",
+    "vaalipiiri": "Keski-Suomen vaalipiiri",
+    "rahoitus": 37675.5,
+    "kulut": 36391.28,
+    "ero": 1284.22
+  },
+  {
+    "nimi": "Oskari Valtola",
+    "sukunimi": "Valtola",
+    "puolue": "KOK",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 35127.06,
+    "kulut": 33844.82,
+    "ero": 1282.24
+  },
+  {
+    "nimi": "Heikki Autto",
+    "sukunimi": "Autto",
+    "puolue": "KOK",
+    "vaalipiiri": "Lapin vaalipiiri",
+    "rahoitus": 65030.8,
+    "kulut": 63756.25,
+    "ero": 1274.55
+  },
+  {
+    "nimi": "Anne-Mari Virolainen",
+    "sukunimi": "Virolainen",
+    "puolue": "KOK",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 32250.0,
+    "kulut": 30993.8,
+    "ero": 1256.2
+  },
+  {
+    "nimi": "Leena Kautto-Koukka",
+    "sukunimi": "Kautto-Koukka",
+    "puolue": "SDP",
+    "vaalipiiri": "Keski-Suomen vaalipiiri",
+    "rahoitus": 11490.0,
+    "kulut": 10510.99,
+    "ero": 979.01
+  },
+  {
+    "nimi": "Vesa Kallio",
+    "sukunimi": "Kallio",
+    "puolue": "KESK",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 42332.87,
+    "kulut": 41377.7,
+    "ero": 955.17
+  },
+  {
+    "nimi": "Kimmo Kiljunen",
+    "sukunimi": "Kiljunen",
+    "puolue": "SDP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 31393.16,
+    "kulut": 30543.16,
+    "ero": 850.0
+  },
+  {
+    "nimi": "Pinja Perholehto",
+    "sukunimi": "Perholehto",
+    "puolue": "SDP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 27703.0,
+    "kulut": 26871.94,
+    "ero": 831.06
+  },
+  {
+    "nimi": "Mikko Lundén",
+    "sukunimi": "Lundén",
+    "puolue": "PS",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 14490.0,
+    "kulut": 13868.35,
+    "ero": 621.65
+  },
+  {
+    "nimi": "Jukka Kopra",
+    "sukunimi": "Kopra",
+    "puolue": "KOK",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 81668.0,
+    "kulut": 81066.99,
+    "ero": 601.01
+  },
+  {
+    "nimi": "Jaana Strandman",
+    "sukunimi": "Strandman",
+    "puolue": "PS",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 12185.54,
+    "kulut": 11595.54,
+    "ero": 590.0
+  },
+  {
+    "nimi": "Timo Mehtälä",
+    "sukunimi": "Mehtälä",
+    "puolue": "KESK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 70355.95,
+    "kulut": 69773.36,
+    "ero": 582.59
+  },
+  {
+    "nimi": "Mikkel Näkkäläjärvi",
+    "sukunimi": "Näkkäläjärvi",
+    "puolue": "SDP",
+    "vaalipiiri": "Lapin vaalipiiri",
+    "rahoitus": 45719.33,
+    "kulut": 45182.57,
+    "ero": 536.76
+  },
+  {
+    "nimi": "Petri Honkonen",
+    "sukunimi": "Honkonen",
+    "puolue": "KESK",
+    "vaalipiiri": "Keski-Suomen vaalipiiri",
+    "rahoitus": 44368.34,
+    "kulut": 43834.84,
+    "ero": 533.5
+  },
+  {
+    "nimi": "Marju Markkanen",
+    "sukunimi": "Markkanen",
+    "puolue": "SDP",
+    "vaalipiiri": "Hämeen vaalipiiri",
+    "rahoitus": 30379.26,
+    "kulut": 29970.0,
+    "ero": 409.26
+  },
+  {
+    "nimi": "Juha Mäenpää",
+    "sukunimi": "Mäenpää",
+    "puolue": "PS",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 19385.0,
+    "kulut": 18978.59,
+    "ero": 406.41
+  },
+  {
+    "nimi": "Jukka Mäkynen",
+    "sukunimi": "Mäkynen",
+    "puolue": "PS",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 7751.86,
+    "kulut": 7383.07,
+    "ero": 368.79
+  },
+  {
+    "nimi": "Ari Koponen",
+    "sukunimi": "Koponen",
+    "puolue": "PS",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 33570.5,
+    "kulut": 33202.0,
+    "ero": 368.5
+  },
+  {
+    "nimi": "Markus Lohi",
+    "sukunimi": "Lohi",
+    "puolue": "KESK",
+    "vaalipiiri": "Lapin vaalipiiri",
+    "rahoitus": 68308.0,
+    "kulut": 67957.06,
+    "ero": 350.94
+  },
+  {
+    "nimi": "Hilkka Ahde",
+    "sukunimi": "Ahde",
+    "puolue": "SDP",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 24147.72,
+    "kulut": 23806.65,
+    "ero": 341.07
+  },
+  {
+    "nimi": "Timo Harakka",
+    "sukunimi": "Harakka",
+    "puolue": "SDP",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 49393.77,
+    "kulut": 49056.33,
+    "ero": 337.44
+  },
+  {
+    "nimi": "Saara-Sofia Sirén",
+    "sukunimi": "Sirén",
+    "puolue": "KOK",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 37453.75,
+    "kulut": 37149.48,
+    "ero": 304.27
+  },
+  {
+    "nimi": "Jenna Simula",
+    "sukunimi": "Simula",
+    "puolue": "PS",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 17450.53,
+    "kulut": 17167.18,
+    "ero": 283.35
+  },
+  {
+    "nimi": "Pihla Keto-Huovinen",
+    "sukunimi": "Keto-Huovinen",
+    "puolue": "KOK",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 52559.13,
+    "kulut": 52336.96,
+    "ero": 222.17
+  },
+  {
+    "nimi": "Jari Koskela",
+    "sukunimi": "Koskela",
+    "puolue": "PS",
+    "vaalipiiri": "Satakunnan vaalipiiri",
+    "rahoitus": 33380.44,
+    "kulut": 33163.14,
+    "ero": 217.3
+  },
+  {
+    "nimi": "Christoffer Ingo",
+    "sukunimi": "Ingo",
+    "puolue": "RKP",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 49732.8,
+    "kulut": 49516.64,
+    "ero": 216.16
+  },
+  {
+    "nimi": "Maria Guzenina",
+    "sukunimi": "Guzenina",
+    "puolue": "SDP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 18425.0,
+    "kulut": 18227.47,
+    "ero": 197.53
+  },
+  {
+    "nimi": "Anders Norrback",
+    "sukunimi": "Norrback",
+    "puolue": "RKP",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 68274.91,
+    "kulut": 68080.72,
+    "ero": 194.19
+  },
+  {
+    "nimi": "Tuomas Kettunen",
+    "sukunimi": "Kettunen",
+    "puolue": "KESK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 30095.0,
+    "kulut": 29905.01,
+    "ero": 189.99
+  },
+  {
+    "nimi": "Anne Rintamäki",
+    "sukunimi": "Rintamäki",
+    "puolue": "PS",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 15149.5,
+    "kulut": 14999.5,
+    "ero": 150.0
+  },
+  {
+    "nimi": "Julia Sangervo",
+    "sukunimi": "Sangervo",
+    "puolue": "VIHR",
+    "vaalipiiri": "Pirkanmaan vaalipiiri",
+    "rahoitus": 18579.79,
+    "kulut": 18471.07,
+    "ero": 108.72
+  },
+  {
+    "nimi": "Saku Nikkanen",
+    "sukunimi": "Nikkanen",
+    "puolue": "SDP",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 49015.48,
+    "kulut": 48915.48,
+    "ero": 100.0
+  },
+  {
+    "nimi": "Heidi Viljanen",
+    "sukunimi": "Viljanen",
+    "puolue": "SDP",
+    "vaalipiiri": "Satakunnan vaalipiiri",
+    "rahoitus": 30090.0,
+    "kulut": 29990.17,
+    "ero": 99.83
+  },
+  {
+    "nimi": "Tuula Haatainen",
+    "sukunimi": "Haatainen",
+    "puolue": "SDP",
+    "vaalipiiri": "Helsingin vaalipiiri",
+    "rahoitus": 35548.36,
+    "kulut": 35451.19,
+    "ero": 97.17
+  },
+  {
+    "nimi": "Timo Furuholm",
+    "sukunimi": "Furuholm",
+    "puolue": "VAS",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 27714.94,
+    "kulut": 27625.88,
+    "ero": 89.06
+  },
+  {
+    "nimi": "Pauli Aalto-Setälä",
+    "sukunimi": "Aalto-Setälä",
+    "puolue": "KOK",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 40130.0,
+    "kulut": 40041.04,
+    "ero": 88.96
+  },
+  {
+    "nimi": "Hanna-Leena Mattila",
+    "sukunimi": "Mattila",
+    "puolue": "KESK",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 45920.0,
+    "kulut": 45844.66,
+    "ero": 75.34
+  },
+  {
+    "nimi": "Kim Berg",
+    "sukunimi": "Berg",
+    "puolue": "SDP",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 25275.0,
+    "kulut": 25201.48,
+    "ero": 73.52
+  },
+  {
+    "nimi": "Antti Kangas",
+    "sukunimi": "Kangas",
+    "puolue": "PS",
+    "vaalipiiri": "Oulun vaalipiiri",
+    "rahoitus": 16866.9,
+    "kulut": 16795.68,
+    "ero": 71.22
+  },
+  {
+    "nimi": "Mikko Savola",
+    "sukunimi": "Savola",
+    "puolue": "KESK",
+    "vaalipiiri": "Vaasan vaalipiiri",
+    "rahoitus": 73663.87,
+    "kulut": 73599.65,
+    "ero": 64.22
+  },
+  {
+    "nimi": "Noora Koponen",
+    "sukunimi": "Koponen",
+    "puolue": "VIHR",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 20813.55,
+    "kulut": 20772.9,
+    "ero": 40.65
+  },
+  {
+    "nimi": "Johan Kvarnström",
+    "sukunimi": "Kvarnström",
+    "puolue": "SDP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 24862.5,
+    "kulut": 24823.18,
+    "ero": 39.32
+  },
+  {
+    "nimi": "Niklas Guseff",
+    "sukunimi": "Guseff",
+    "puolue": "RKP",
+    "vaalipiiri": "Varsinais-Suomen vaalipiiri",
+    "rahoitus": 40853.0,
+    "kulut": 40814.0,
+    "ero": 39.0
+  },
+  {
+    "nimi": "Niina Malm",
+    "sukunimi": "Malm",
+    "puolue": "SDP",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 30160.0,
+    "kulut": 30121.14,
+    "ero": 38.86
+  },
+  {
+    "nimi": "Joona Räsänen",
+    "sukunimi": "Räsänen",
+    "puolue": "SDP",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 37752.6,
+    "kulut": 37715.09,
+    "ero": 37.51
+  },
+  {
+    "nimi": "Joonas Könttä",
+    "sukunimi": "Könttä",
+    "puolue": "KESK",
+    "vaalipiiri": "Keski-Suomen vaalipiiri",
+    "rahoitus": 72404.9,
+    "kulut": 72368.47,
+    "ero": 36.43
+  },
+  {
+    "nimi": "Hanna Huttunen",
+    "sukunimi": "Huttunen",
+    "puolue": "KESK",
+    "vaalipiiri": "Savo-Karjalan vaalipiiri",
+    "rahoitus": 69396.52,
+    "kulut": 69369.4,
+    "ero": 27.12
+  },
+  {
+    "nimi": "Matti Määttä",
+    "sukunimi": "Määttä",
+    "puolue": "PS",
+    "vaalipiiri": "Lapin vaalipiiri",
+    "rahoitus": 2322.0,
+    "kulut": 2300.0,
+    "ero": 22.0
+  },
+  {
+    "nimi": "Niina Immonen",
+    "sukunimi": "Immonen",
+    "puolue": "PS",
+    "vaalipiiri": "Satakunnan vaalipiiri",
+    "rahoitus": 3468.14,
+    "kulut": 3456.88,
+    "ero": 11.26
+  },
+  {
+    "nimi": "Ari Mönttinen",
+    "sukunimi": "Mönttinen",
+    "puolue": "KD",
+    "vaalipiiri": "Uudenmaan vaalipiiri",
+    "rahoitus": 11999.0,
+    "kulut": 11990.0,
+    "ero": 9.0
+  },
+  {
+    "nimi": "Markku Siponen",
+    "sukunimi": "Siponen",
+    "puolue": "KESK",
+    "vaalipiiri": "Savo-Karjalan vaalipiiri",
+    "rahoitus": 39969.0,
+    "kulut": 39961.78,
+    "ero": 7.22
+  },
+  {
+    "nimi": "Juho Eerola",
+    "sukunimi": "Eerola",
+    "puolue": "PS",
+    "vaalipiiri": "Kaakkois-Suomen vaalipiiri",
+    "rahoitus": 9688.42,
+    "kulut": 9683.14,
+    "ero": 5.28
+  },
+  {
+    "nimi": "Karoliina Partanen",
+    "sukunimi": "Partanen",
+    "puolue": "KOK",
+    "vaalipiiri": "Savo-Karjalan vaalipiiri",
+    "rahoitus": 77630.03,
+    "kulut": 77627.3,
+    "ero": 2.73
+  },
+  {
+    "nimi": "Maija Kuivalainen",
+    "sukunimi": "Kuivalainen",
+    "puolue": "VAS",
+    "vaalipiiri": "Savo-Karjalan vaalipiiri",
+    "rahoitus": 12836.05,
+    "kulut": 12834.44,
+    "ero": 1.61
+  }
+]

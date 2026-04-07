@@ -1713,7 +1713,7 @@
 
 <!-- VOIMASUHTEET-NÄKYMÄ -->
 <div id="rahoitusepaselvyysNakyma" style="display:none;padding:1.5rem 2rem 3rem">
-  <div style="font-family:'Orbitron',monospace;font-size:.7rem;letter-spacing:.2em;color:#ff4d6d;margin-bottom:1.25rem">
+  <div style="font-family:'Orbitron',monospace;font-size:.7rem;letter-spacing:.2em;color:#ff4d6d;margin-bottom:1rem">
     ⚠️ RAHOITUSEPÄSELVYYDET — EDUSKUNTAVAALIT 2023
   </div>
   <div id="rahoitusepaselvyysSisalto"></div>
@@ -4286,8 +4286,7 @@ const HALLITUSPUOLUEET = new Set(["KOK","PS","RKP","KD"]); // Keskusta on opposi
 function naytaRahoitusepaselvyysNakyma() {
   piilotaKaikki();
   tallennaNakyma('rahoitusepaselvyydet');
-  const nakyma = document.getElementById("rahoitusepaselvyysNakyma");
-  nakyma.style.display = "block";
+  document.getElementById("rahoitusepaselvyysNakyma").style.display = "block";
   renderRahoitusepaselvyydet();
   avaaDraver('rahoitusepaselvyydet');
 }
@@ -4297,70 +4296,122 @@ function renderRahoitusepaselvyydet() {
   if (!el || el.dataset.rendered) return;
   el.dataset.rendered = "1";
 
-  // Haetaan data JSON:sta jos saatavilla, muuten näytetään linkki
   fetch('rahoitusepaselvyydet_json/eduskuntavaalit2023.json')
-    .then(r => r.ok ? r.json() : null)
-    .then(data => {
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(data) {
       if (!data || !data.length) {
-        el.innerHTML = `
-          <p style="color:#5a7a99;font-size:.85rem;margin-bottom:1.25rem">
-            Data haetaan vaalirahoitusvalvonta.fi:n avoimesta rekisteristä.<br>
-            Aja skripti: <code style="color:#ff4d6d">python .github/scripts/hae_rahoitusepaselvyydet.py</code>
-          </p>
-          <a href="https://www.vaalirahoitusvalvonta.fi/fi/index/vaalirahoitus/haetietoavaalirahoitusilmoituksista/rahoituseivastaakuluja.html"
-             target="_blank"
-             style="display:inline-block;background:rgba(255,77,109,.08);border:1px solid #ff4d6d88;
-                    border-radius:6px;color:#ff4d6d;font-family:'Rajdhani',sans-serif;font-size:.82rem;
-                    letter-spacing:.15em;padding:.5rem 1.25rem;text-decoration:none;text-transform:uppercase">
-            ↗ Avaa vaalirahoitusvalvonta.fi
-          </a>`;
+        el.innerHTML = '<p style="color:#5a7a99;font-size:.85rem">Dataa ei saatavilla.</p>';
         return;
       }
-      // Renderöi data taulukoksi
       const vari = '#ff4d6d';
-      el.innerHTML = `
-        <div style="font-size:.75rem;color:#5a7a99;margin-bottom:1rem">
-          ${data.length} ehdokasta joiden rahoitus ei vastaa kuluja (eduskuntavaalit 2023)
-        </div>
-        <div style="overflow-x:auto">
-          <table style="width:100%;border-collapse:collapse;font-family:'Rajdhani',sans-serif;font-size:.82rem">
-            <thead>
-              <tr style="border-bottom:1px solid #1a2a55">
-                <th style="text-align:left;padding:.4rem .75rem;color:#5a7a99;letter-spacing:.1em;font-weight:600">NIMI</th>
-                <th style="text-align:left;padding:.4rem .75rem;color:#5a7a99;letter-spacing:.1em;font-weight:600">PUOLUE</th>
-                <th style="text-align:left;padding:.4rem .75rem;color:#5a7a99;letter-spacing:.1em;font-weight:600">VAALIPIIRI</th>
-                <th style="text-align:right;padding:.4rem .75rem;color:#5a7a99;letter-spacing:.1em;font-weight:600">RAHOITUS</th>
-                <th style="text-align:right;padding:.4rem .75rem;color:#5a7a99;letter-spacing:.1em;font-weight:600">KULUT</th>
-                <th style="text-align:right;padding:.4rem .75rem;color:${vari};letter-spacing:.1em;font-weight:600">ERO</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${data.map(r => {
-                const ero = (r.rahoitus||0) - (r.kulut||0);
-                const eroVari = ero > 0 ? '#27ae60' : '#ff4d6d';
-                // Tarkista onko edustaja nykyinen kansanedustaja
-                const ed = KAIKKI ? KAIKKI.find(m => m.nimi && m.nimi.toLowerCase().includes(r.sukunimi?.toLowerCase()) && m.nykyinen) : null;
-                const nimiHtml = ed
-                  ? `<span style="cursor:pointer;color:#e8f4ff;text-decoration:underline dotted" onclick="openTTLProfile(KAIKKI.find(m=>m.nimi&&m.nimi.toLowerCase().includes('${r.sukunimi?.toLowerCase()}')&&m.nykyinen))">${r.nimi}</span>`
-                  : `<span style="color:#e8f4ff">${r.nimi}</span>`;
-                return `<tr style="border-bottom:1px solid #0d1530;transition:background .15s"
-                             onmouseover="this.style.background='rgba(255,77,109,.05)'"
-                             onmouseout="this.style.background='transparent'">
-                  <td style="padding:.45rem .75rem">${nimiHtml}</td>
-                  <td style="padding:.45rem .75rem;color:#5a7a99">${r.puolue||'–'}</td>
-                  <td style="padding:.45rem .75rem;color:#5a7a99">${r.vaalipiiri||'–'}</td>
-                  <td style="padding:.45rem .75rem;text-align:right;color:#e8f4ff">${r.rahoitus ? r.rahoitus.toLocaleString('fi-FI')+'€' : '–'}</td>
-                  <td style="padding:.45rem .75rem;text-align:right;color:#e8f4ff">${r.kulut ? r.kulut.toLocaleString('fi-FI')+'€' : '–'}</td>
-                  <td style="padding:.45rem .75rem;text-align:right;color:${eroVari};font-weight:700">${ero > 0 ? '+' : ''}${ero.toLocaleString('fi-FI')}€</td>
-                </tr>`;
-              }).join('')}
-            </tbody>
-          </table>
-        </div>`;
+      const top10 = data.slice(0, 10);
+      const maxEro = Math.abs(data[0].ero || 1);
+
+      const selitys = document.createElement('div');
+      selitys.style.cssText = 'background:rgba(255,77,109,.06);border:1px solid #ff4d6d33;border-radius:6px;padding:.85rem 1rem;margin-bottom:1.25rem;font-size:.78rem;color:#8899aa;line-height:1.65';
+      selitys.innerHTML = '<span style="color:#ff4d6d;font-weight:700">&#9888; Mit&auml; t&auml;m&auml; tarkoittaa?</span><br>' +
+        'Vaalirahoitusilmoituksessa ehdokkaan tulee ilmoittaa sek&auml; kampanjansa ' +
+        '<strong style="color:#e8f4ff">kulut</strong> ett&auml; <strong style="color:#e8f4ff">rahoitus</strong> erikseen. ' +
+        'Jos luvut eiv&auml;t t&auml;sm&auml;&auml;, ilmoitus on puutteellinen tai virheellinen.<br><br>' +
+        '<strong style="color:#27ae60">Positiivinen ero</strong> = rahoitus suurempi kuin kulut. ' +
+        'Voi viitata kirjaamisvirheeseen, puuttuviin kuitteihin tai todelliseen ylij&auml;&auml;m&auml;&auml;n.<br>' +
+        '<strong style="color:#ff4d6d">Negatiivinen ero</strong> = kulut suuremmat kuin rahoitus. ' +
+        'Loogisesti mahdotonta ilman piilotettua rahoitusta.<br><br>' +
+        'L&auml;hde: VTV &mdash; <a href="https://www.vaalirahoitusvalvonta.fi" target="_blank" style="color:#ff4d6d">&#8599; vaalirahoitusvalvonta.fi</a>';
+      el.appendChild(selitys);
+
+      const t10otsikko = document.createElement('div');
+      t10otsikko.style.cssText = 'font-family:Orbitron,monospace;font-size:.58rem;letter-spacing:.2em;color:#ff4d6d;margin-bottom:.6rem';
+      t10otsikko.textContent = 'TOP 10 — SUURIN ERO';
+      el.appendChild(t10otsikko);
+
+      const top10wrap = document.createElement('div');
+      top10wrap.style.cssText = 'display:flex;flex-direction:column;gap:.35rem;margin-bottom:1.5rem';
+      top10.forEach(function(r, i) {
+        const ero = r.ero || 0;
+        const eroVari = ero >= 0 ? '#27ae60' : '#ff4d6d';
+        const pct = Math.round(Math.abs(ero) / maxEro * 100);
+        const ed = KAIKKI ? KAIKKI.find(function(m) {
+          return m.nykyinen && m.nimi && r.sukunimi && m.nimi.toLowerCase().includes(r.sukunimi.toLowerCase());
+        }) : null;
+        const kortti = document.createElement('div');
+        kortti.style.cssText = 'background:rgba(255,255,255,.03);border:1px solid #1a2a55;border-radius:4px;padding:.55rem .8rem;cursor:' + (ed ? 'pointer' : 'default');
+        kortti.onmouseover = function() { this.style.borderColor = '#ff4d6d55'; };
+        kortti.onmouseout  = function() { this.style.borderColor = '#1a2a55'; };
+        if (ed) {
+          (function(sukunimi) {
+            kortti.onclick = function() {
+              const e2 = KAIKKI.find(function(m) { return m.nykyinen && m.nimi && m.nimi.toLowerCase().includes(sukunimi.toLowerCase()); });
+              if (e2) openTTLProfile(e2);
+            };
+          })(r.sukunimi);
+        }
+        const yr = document.createElement('div');
+        yr.style.cssText = 'display:flex;align-items:center;gap:.6rem;margin-bottom:.3rem';
+        yr.innerHTML = '<div style="font-family:Orbitron,monospace;font-size:.6rem;color:#ff4d6d;min-width:1.4rem">#' + (i+1) + '</div>' +
+          '<div style="flex:1;font-size:.82rem;color:#e8f4ff;font-weight:600">' + r.nimi + (ed ? ' <span style="color:#ff4d6d;font-size:.6rem">&#9679; ISTUU</span>' : '') + '</div>' +
+          '<div style="font-family:Orbitron,monospace;font-size:.78rem;font-weight:700;color:' + eroVari + '">' + (ero>=0?'+':'') + Math.round(ero).toLocaleString('fi-FI') + '&euro;</div>';
+        const ar = document.createElement('div');
+        ar.style.cssText = 'display:flex;align-items:center;gap:.6rem';
+        ar.innerHTML = '<div style="min-width:1.4rem"></div>' +
+          '<div style="flex:1;background:#0a0f1e;border-radius:2px;height:3px;overflow:hidden"><div style="height:100%;width:' + pct + '%;background:' + eroVari + ';border-radius:2px"></div></div>' +
+          '<div style="font-size:.7rem;color:#5a7a99">' + r.puolue + ' &middot; ' + (r.vaalipiiri||'').replace(' vaalipiiri','') + '</div>';
+        kortti.appendChild(yr); kortti.appendChild(ar);
+        top10wrap.appendChild(kortti);
+      });
+      el.appendChild(top10wrap);
+
+      const kotsikko = document.createElement('div');
+      kotsikko.style.cssText = 'font-family:Orbitron,monospace;font-size:.58rem;letter-spacing:.2em;color:#5a7a99;margin-bottom:.6rem';
+      kotsikko.textContent = 'KAIKKI ' + data.length + ' EHDOKASTA';
+      el.appendChild(kotsikko);
+
+      const wrap = document.createElement('div');
+      wrap.style.cssText = 'overflow-x:auto';
+      const tbl = document.createElement('table');
+      tbl.style.cssText = 'width:100%;border-collapse:collapse;font-family:Rajdhani,sans-serif;font-size:.78rem';
+      tbl.innerHTML = '<thead><tr style="border-bottom:1px solid #1a2a55">' +
+        '<th style="text-align:left;padding:.3rem .5rem;color:#5a7a99">#</th>' +
+        '<th style="text-align:left;padding:.3rem .5rem;color:#5a7a99">NIMI</th>' +
+        '<th style="text-align:left;padding:.3rem .5rem;color:#5a7a99">PUOLUE</th>' +
+        '<th style="text-align:left;padding:.3rem .5rem;color:#5a7a99">VAALIPIIRI</th>' +
+        '<th style="text-align:right;padding:.3rem .5rem;color:#5a7a99">RAHOITUS</th>' +
+        '<th style="text-align:right;padding:.3rem .5rem;color:#5a7a99">KULUT</th>' +
+        '<th style="text-align:right;padding:.3rem .5rem;color:' + vari + '">ERO</th></tr></thead>';
+      const tbody = document.createElement('tbody');
+      data.forEach(function(r, i) {
+        const ero = r.ero || 0;
+        const eroVari = ero >= 0 ? '#27ae60' : '#ff4d6d';
+        const ed = KAIKKI ? KAIKKI.find(function(m) {
+          return m.nykyinen && m.nimi && r.sukunimi && m.nimi.toLowerCase().includes(r.sukunimi.toLowerCase());
+        }) : null;
+        const tr = document.createElement('tr');
+        tr.style.cssText = 'border-bottom:1px solid #0d1530;cursor:' + (ed ? 'pointer' : 'default');
+        tr.onmouseover = function() { this.style.background = 'rgba(255,77,109,.04)'; };
+        tr.onmouseout  = function() { this.style.background = 'transparent'; };
+        if (ed) {
+          (function(sukunimi) {
+            tr.onclick = function() {
+              const e2 = KAIKKI.find(function(m) { return m.nykyinen && m.nimi && m.nimi.toLowerCase().includes(sukunimi.toLowerCase()); });
+              if (e2) openTTLProfile(e2);
+            };
+          })(r.sukunimi);
+        }
+        tr.innerHTML =
+          '<td style="padding:.3rem .5rem;color:#5a7a99">' + (i+1) + '</td>' +
+          '<td style="padding:.3rem .5rem;color:#e8f4ff">' + r.nimi + (ed ? ' <span style="color:#ff4d6d;font-size:.6rem">&#9679;</span>' : '') + '</td>' +
+          '<td style="padding:.3rem .5rem;color:#5a7a99">' + (r.puolue||'&ndash;') + '</td>' +
+          '<td style="padding:.3rem .5rem;color:#5a7a99;font-size:.72rem">' + (r.vaalipiiri||'').replace(' vaalipiiri','') + '</td>' +
+          '<td style="padding:.3rem .5rem;text-align:right;color:#e8f4ff">' + (r.rahoitus ? Math.round(r.rahoitus).toLocaleString('fi-FI')+'&euro;' : '&ndash;') + '</td>' +
+          '<td style="padding:.3rem .5rem;text-align:right;color:#e8f4ff">' + (r.kulut ? Math.round(r.kulut).toLocaleString('fi-FI')+'&euro;' : '&ndash;') + '</td>' +
+          '<td style="padding:.3rem .5rem;text-align:right;color:' + eroVari + ';font-weight:700">' + (ero>=0?'+':'') + Math.round(ero).toLocaleString('fi-FI') + '&euro;</td>';
+        tbody.appendChild(tr);
+      });
+      tbl.appendChild(tbody);
+      wrap.appendChild(tbl);
+      el.appendChild(wrap);
     })
-    .catch(() => {
-      el.innerHTML = `<p style="color:#5a7a99;font-size:.85rem">Dataa ei saatavilla.</p>`;
-    });
+    .catch(function() { el.innerHTML = '<p style="color:#5a7a99">Dataa ei saatavilla.</p>'; });
 }
 
 function naytaVoimasuhteetNakyma() {
