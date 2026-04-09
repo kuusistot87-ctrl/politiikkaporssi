@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-04-08T09:50:49Z",
+  "paivitetty": "2026-04-09T09:59:46Z",
   "lahde": "vaalirahoitusvalvonta.fi — CSV-tietoaineistot",
   "vuodet": [
     "2010",
@@ -459,7 +459,7 @@
       "nimi": "Vihreä liitto",
       "lyhenne": "VIHR",
       "ytunnus": "0202918-5",
-      "ilmoituksia": 287,
+      "ilmoituksia": 286,
       "tuet_per_vuosi": {
         "2011": 38608.0,
         "2012": 22480.0,
@@ -475,7 +475,7 @@
         "2022": 73620.0,
         "2023": 134617.0,
         "2024": 127414.5,
-        "2025": 38348.5
+        "2025": 35911.0
       },
       "top_tukijat": [
         {
