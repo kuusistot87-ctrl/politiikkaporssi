@@ -1,5 +1,5 @@
 {
-  "paivitetty": "27.04.2026",
+  "paivitetty": "28.04.2026",
   "max_yht": 141,
   "edustajia": 212,
   "data": {
@@ -441,15 +441,15 @@
       "yht": 14,
       "sijoitus": 73
     },
+    "Mika Poutala": {
+      "henkilo": 5,
+      "muu": 9,
+      "yht": 14,
+      "sijoitus": 74
+    },
     "Martin Paasi": {
       "henkilo": 7,
       "muu": 8,
-      "yht": 15,
-      "sijoitus": 74
-    },
-    "Mika Poutala": {
-      "henkilo": 5,
-      "muu": 10,
       "yht": 15,
       "sijoitus": 75
     },
