@@ -1,5 +1,5 @@
 {
-  "paivitetty": "28.04.2026",
+  "paivitetty": "29.04.2026",
   "max_yht": 141,
   "edustajia": 212,
   "data": {
@@ -207,76 +207,76 @@
       "yht": 7,
       "sijoitus": 34
     },
-    "Juho Eerola": {
-      "henkilo": 7,
-      "muu": 1,
-      "yht": 8,
-      "sijoitus": 35
-    },
     "Tiina Elo": {
       "henkilo": 3,
       "muu": 5,
       "yht": 8,
-      "sijoitus": 36
+      "sijoitus": 35
     },
     "Tarja Filatov": {
       "henkilo": 4,
       "muu": 4,
       "yht": 8,
-      "sijoitus": 37
+      "sijoitus": 36
     },
     "Juha Hänninen": {
       "henkilo": 8,
       "muu": 0,
       "yht": 8,
-      "sijoitus": 38
+      "sijoitus": 37
     },
     "Pauli Kiuru": {
       "henkilo": 6,
       "muu": 2,
       "yht": 8,
-      "sijoitus": 39
+      "sijoitus": 38
     },
     "Kai Mykkänen": {
       "henkilo": 2,
       "muu": 6,
       "yht": 8,
-      "sijoitus": 40
+      "sijoitus": 39
     },
     "Veijo Niemi": {
       "henkilo": 8,
       "muu": 0,
       "yht": 8,
-      "sijoitus": 41
+      "sijoitus": 40
     },
     "Saku Nikkanen": {
       "henkilo": 8,
       "muu": 0,
       "yht": 8,
-      "sijoitus": 42
+      "sijoitus": 41
     },
     "Riikka Purra": {
       "henkilo": 5,
       "muu": 3,
       "yht": 8,
-      "sijoitus": 43
+      "sijoitus": 42
     },
     "Juha Viitala": {
       "henkilo": 8,
       "muu": 0,
       "yht": 8,
-      "sijoitus": 44
+      "sijoitus": 43
     },
     "Johannes Yrttiaho": {
       "henkilo": 7,
       "muu": 1,
       "yht": 8,
-      "sijoitus": 45
+      "sijoitus": 44
     },
     "Peter Östman": {
       "henkilo": 7,
       "muu": 1,
       "yht": 8,
+      "sijoitus": 45
+    },
+    "Juho Eerola": {
+      "henkilo": 8,
+      "muu": 1,
+      "yht": 9,
       "sijoitus": 46
     },
     "Mauri Kontu": {
@@ -309,39 +309,39 @@
       "yht": 10,
       "sijoitus": 51
     },
-    "Elina Valtonen": {
-      "henkilo": 3,
-      "muu": 7,
-      "yht": 10,
-      "sijoitus": 52
-    },
     "Antti Häkkänen": {
       "henkilo": 1,
       "muu": 10,
       "yht": 11,
-      "sijoitus": 53
+      "sijoitus": 52
     },
     "Marko Kilpi": {
       "henkilo": 2,
       "muu": 9,
       "yht": 11,
-      "sijoitus": 54
+      "sijoitus": 53
     },
     "Mia Laiho": {
       "henkilo": 6,
       "muu": 5,
       "yht": 11,
-      "sijoitus": 55
+      "sijoitus": 54
     },
     "Paula Risikko": {
       "henkilo": 9,
       "muu": 2,
       "yht": 11,
-      "sijoitus": 56
+      "sijoitus": 55
     },
     "Arto Satonen": {
       "henkilo": 7,
       "muu": 4,
+      "yht": 11,
+      "sijoitus": 56
+    },
+    "Elina Valtonen": {
+      "henkilo": 3,
+      "muu": 8,
       "yht": 11,
       "sijoitus": 57
     },
@@ -429,22 +429,22 @@
       "yht": 13,
       "sijoitus": 71
     },
-    "Sanni Grahn-Laasonen": {
+    "Anne Kalmari": {
       "henkilo": 9,
       "muu": 5,
       "yht": 14,
       "sijoitus": 72
     },
-    "Anne Kalmari": {
-      "henkilo": 9,
-      "muu": 5,
-      "yht": 14,
-      "sijoitus": 73
-    },
     "Mika Poutala": {
       "henkilo": 5,
       "muu": 9,
       "yht": 14,
+      "sijoitus": 73
+    },
+    "Sanni Grahn-Laasonen": {
+      "henkilo": 10,
+      "muu": 5,
+      "yht": 15,
       "sijoitus": 74
     },
     "Martin Paasi": {
@@ -453,46 +453,46 @@
       "yht": 15,
       "sijoitus": 75
     },
-    "Ville Tavio": {
-      "henkilo": 11,
-      "muu": 4,
-      "yht": 15,
-      "sijoitus": 76
-    },
     "Timo Vornanen": {
       "henkilo": 13,
       "muu": 2,
       "yht": 15,
-      "sijoitus": 77
-    },
-    "Tuula Haatainen": {
-      "henkilo": 15,
-      "muu": 1,
-      "yht": 16,
-      "sijoitus": 78
+      "sijoitus": 76
     },
     "Pia Lohikoski": {
       "henkilo": 10,
       "muu": 6,
       "yht": 16,
-      "sijoitus": 79
+      "sijoitus": 77
     },
     "Anders Norrback": {
       "henkilo": 2,
       "muu": 14,
       "yht": 16,
-      "sijoitus": 80
+      "sijoitus": 78
     },
     "Mika Riipi": {
       "henkilo": 8,
       "muu": 8,
       "yht": 16,
-      "sijoitus": 81
+      "sijoitus": 79
+    },
+    "Ville Tavio": {
+      "henkilo": 11,
+      "muu": 5,
+      "yht": 16,
+      "sijoitus": 80
     },
     "Heikki Vestman": {
       "henkilo": 16,
       "muu": 0,
       "yht": 16,
+      "sijoitus": 81
+    },
+    "Tuula Haatainen": {
+      "henkilo": 16,
+      "muu": 1,
+      "yht": 17,
       "sijoitus": 82
     },
     "Anna-Maja Henriksson": {
@@ -609,51 +609,51 @@
       "yht": 21,
       "sijoitus": 101
     },
-    "Pinja Perholehto": {
-      "henkilo": 16,
-      "muu": 5,
-      "yht": 21,
-      "sijoitus": 102
-    },
     "Sari Multala": {
       "henkilo": 7,
       "muu": 15,
       "yht": 22,
-      "sijoitus": 103
+      "sijoitus": 102
     },
-    "Ilmari Nurminen": {
-      "henkilo": 5,
-      "muu": 17,
+    "Pinja Perholehto": {
+      "henkilo": 16,
+      "muu": 6,
       "yht": 22,
-      "sijoitus": 104
+      "sijoitus": 103
     },
     "Anders Adlercreutz": {
       "henkilo": 5,
       "muu": 18,
       "yht": 23,
-      "sijoitus": 105
+      "sijoitus": 104
     },
     "Mari Kaunistola": {
       "henkilo": 14,
       "muu": 9,
       "yht": 23,
-      "sijoitus": 106
+      "sijoitus": 105
     },
     "Anna Kontula": {
       "henkilo": 18,
       "muu": 5,
       "yht": 23,
-      "sijoitus": 107
+      "sijoitus": 106
     },
     "Miapetra Kumpula-Natri": {
       "henkilo": 8,
       "muu": 15,
       "yht": 23,
-      "sijoitus": 108
+      "sijoitus": 107
     },
     "Sheikki Laakso": {
       "henkilo": 19,
       "muu": 4,
+      "yht": 23,
+      "sijoitus": 108
+    },
+    "Ilmari Nurminen": {
+      "henkilo": 5,
+      "muu": 18,
       "yht": 23,
       "sijoitus": 109
     },
@@ -669,45 +669,45 @@
       "yht": 24,
       "sijoitus": 111
     },
-    "Olga Oinas-Panuma": {
-      "henkilo": 7,
-      "muu": 17,
-      "yht": 24,
-      "sijoitus": 112
-    },
     "Nasima Razmyar": {
       "henkilo": 12,
       "muu": 12,
       "yht": 24,
-      "sijoitus": 113
+      "sijoitus": 112
     },
     "Jari Ronkainen": {
       "henkilo": 15,
       "muu": 9,
       "yht": 24,
-      "sijoitus": 114
+      "sijoitus": 113
     },
     "Pauli Aalto-Setälä": {
       "henkilo": 6,
       "muu": 19,
       "yht": 25,
-      "sijoitus": 115
+      "sijoitus": 114
     },
     "Maria Guzenina": {
       "henkilo": 11,
       "muu": 14,
       "yht": 25,
-      "sijoitus": 116
+      "sijoitus": 115
     },
     "Hannu Hoskonen": {
       "henkilo": 13,
       "muu": 12,
       "yht": 25,
-      "sijoitus": 117
+      "sijoitus": 116
     },
     "Antti Kaikkonen": {
       "henkilo": 13,
       "muu": 12,
+      "yht": 25,
+      "sijoitus": 117
+    },
+    "Olga Oinas-Panuma": {
+      "henkilo": 8,
+      "muu": 17,
       "yht": 25,
       "sijoitus": 118
     },
@@ -717,27 +717,27 @@
       "yht": 25,
       "sijoitus": 119
     },
-    "Eemeli Peltonen": {
-      "henkilo": 19,
-      "muu": 6,
-      "yht": 25,
-      "sijoitus": 120
-    },
     "Aura Salla": {
       "henkilo": 18,
       "muu": 7,
       "yht": 25,
-      "sijoitus": 121
+      "sijoitus": 120
     },
     "Kim Berg": {
       "henkilo": 19,
       "muu": 7,
       "yht": 26,
-      "sijoitus": 122
+      "sijoitus": 121
     },
     "Jukka Kopra": {
       "henkilo": 6,
       "muu": 20,
+      "yht": 26,
+      "sijoitus": 122
+    },
+    "Eemeli Peltonen": {
+      "henkilo": 19,
+      "muu": 7,
       "yht": 26,
       "sijoitus": 123
     },
@@ -819,27 +819,27 @@
       "yht": 28,
       "sijoitus": 136
     },
-    "Pekka Toveri": {
-      "henkilo": 0,
-      "muu": 28,
-      "yht": 28,
-      "sijoitus": 137
-    },
-    "Henrik Vuornos": {
-      "henkilo": 6,
-      "muu": 22,
-      "yht": 28,
-      "sijoitus": 138
-    },
     "Johan Kvarnström": {
       "henkilo": 25,
       "muu": 4,
       "yht": 29,
-      "sijoitus": 139
+      "sijoitus": 137
     },
     "Juha Mäenpää": {
       "henkilo": 20,
       "muu": 9,
+      "yht": 29,
+      "sijoitus": 138
+    },
+    "Pekka Toveri": {
+      "henkilo": 0,
+      "muu": 29,
+      "yht": 29,
+      "sijoitus": 139
+    },
+    "Henrik Vuornos": {
+      "henkilo": 6,
+      "muu": 23,
       "yht": 29,
       "sijoitus": 140
     },
@@ -969,16 +969,16 @@
       "yht": 38,
       "sijoitus": 161
     },
-    "Fatim Diarra": {
-      "henkilo": 22,
-      "muu": 16,
-      "yht": 38,
-      "sijoitus": 162
-    },
     "Pekka Haavisto": {
       "henkilo": 9,
       "muu": 29,
       "yht": 38,
+      "sijoitus": 162
+    },
+    "Fatim Diarra": {
+      "henkilo": 23,
+      "muu": 16,
+      "yht": 39,
       "sijoitus": 163
     },
     "Markku Siponen": {
@@ -1053,15 +1053,15 @@
       "yht": 45,
       "sijoitus": 175
     },
-    "Joakim Strand": {
-      "henkilo": 13,
-      "muu": 32,
-      "yht": 45,
-      "sijoitus": 176
-    },
     "Petri Honkonen": {
       "henkilo": 22,
       "muu": 24,
+      "yht": 46,
+      "sijoitus": 176
+    },
+    "Joakim Strand": {
+      "henkilo": 13,
+      "muu": 33,
       "yht": 46,
       "sijoitus": 177
     },
@@ -1078,9 +1078,9 @@
       "sijoitus": 179
     },
     "Jani Kokko": {
-      "henkilo": 38,
+      "henkilo": 39,
       "muu": 10,
-      "yht": 48,
+      "yht": 49,
       "sijoitus": 180
     },
     "Johanna Ojala-Niemelä": {
@@ -1096,9 +1096,9 @@
       "sijoitus": 182
     },
     "Leena Meri": {
-      "henkilo": 36,
+      "henkilo": 37,
       "muu": 15,
-      "yht": 51,
+      "yht": 52,
       "sijoitus": 183
     },
     "Antti Kangas": {
@@ -1121,19 +1121,19 @@
     },
     "Sari Tanus": {
       "henkilo": 37,
-      "muu": 25,
-      "yht": 62,
+      "muu": 26,
+      "yht": 63,
       "sijoitus": 187
-    },
-    "Mika Kari": {
-      "henkilo": 57,
-      "muu": 7,
-      "yht": 64,
-      "sijoitus": 188
     },
     "Atte Kaleva": {
       "henkilo": 37,
       "muu": 28,
+      "yht": 65,
+      "sijoitus": 188
+    },
+    "Mika Kari": {
+      "henkilo": 57,
+      "muu": 8,
       "yht": 65,
       "sijoitus": 189
     },
@@ -1156,21 +1156,21 @@
       "sijoitus": 192
     },
     "Sofia Virta": {
-      "henkilo": 43,
+      "henkilo": 44,
       "muu": 27,
-      "yht": 70,
+      "yht": 71,
       "sijoitus": 193
-    },
-    "Laura Huhtasaari": {
-      "henkilo": 25,
-      "muu": 48,
-      "yht": 73,
-      "sijoitus": 194
     },
     "Niina Malm": {
       "henkilo": 61,
       "muu": 13,
       "yht": 74,
+      "sijoitus": 194
+    },
+    "Laura Huhtasaari": {
+      "henkilo": 26,
+      "muu": 49,
+      "yht": 75,
       "sijoitus": 195
     },
     "Suna Kymäläinen": {
@@ -1185,15 +1185,15 @@
       "yht": 77,
       "sijoitus": 197
     },
-    "Janne Heikkinen": {
-      "henkilo": 76,
-      "muu": 2,
-      "yht": 78,
-      "sijoitus": 198
-    },
     "Atte Harjanne": {
       "henkilo": 71,
       "muu": 8,
+      "yht": 79,
+      "sijoitus": 198
+    },
+    "Janne Heikkinen": {
+      "henkilo": 77,
+      "muu": 2,
       "yht": 79,
       "sijoitus": 199
     },
@@ -1216,9 +1216,9 @@
       "sijoitus": 202
     },
     "Jessi Jokelainen": {
-      "henkilo": 86,
+      "henkilo": 87,
       "muu": 3,
-      "yht": 89,
+      "yht": 90,
       "sijoitus": 203
     },
     "Laura Meriluoto": {
@@ -1245,16 +1245,16 @@
       "yht": 105,
       "sijoitus": 207
     },
-    "Anna-Kristiina Mikkonen": {
-      "henkilo": 103,
-      "muu": 2,
-      "yht": 105,
-      "sijoitus": 208
-    },
     "Jenni Pitko": {
       "henkilo": 90,
       "muu": 15,
       "yht": 105,
+      "sijoitus": 208
+    },
+    "Anna-Kristiina Mikkonen": {
+      "henkilo": 104,
+      "muu": 2,
+      "yht": 106,
       "sijoitus": 209
     },
     "Hanna Sarkkinen": {
@@ -1264,9 +1264,9 @@
       "sijoitus": 210
     },
     "Alviina Alametsä": {
-      "henkilo": 131,
+      "henkilo": 132,
       "muu": 8,
-      "yht": 139,
+      "yht": 140,
       "sijoitus": 211
     },
     "Annika Saarikko": {
